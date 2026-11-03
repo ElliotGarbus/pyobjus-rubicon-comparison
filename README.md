@@ -6,6 +6,8 @@ This repository holds an evidence-based comparison of [pyobjus](https://github.c
 
 **Author's role:** Elliot Garbus leads this comparison. Elliot opened the proposal in kivy/kivy#9469 and has stated a view there in favor of Rubicon, contributes to pyobjus, and builds KivyForge and kivy-mobile-wheels. Where this affects a result, the section says so.
 
+**AI assistance:** data collection, analysis scripts and drafting were done with AI assistance (Claude, by Anthropic). Elliot Garbus directs the work, reviews it and is responsible for its content.
+
 ## Sections
 
 Each section opens with a summary of findings, followed by the supporting facts. Sections make no recommendation. A recommendation, if any, is a separate section written after the comparison is complete.
@@ -36,3 +38,7 @@ Each section opens with a summary of findings, followed by the supporting facts.
 ## Corrections
 
 If a fact here is wrong, please open an issue or pull request with a source. Corrections are logged in the changelog.
+
+## License
+
+The text, code and derived results in this repository are available under the [MIT License](LICENSE). Data collected from GitHub, PyPI and other sources remains subject to those sources' terms.

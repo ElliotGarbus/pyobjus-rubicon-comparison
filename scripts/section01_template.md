@@ -4,6 +4,8 @@
 
 **Author's role:** Elliot Garbus (`ElliotGarbus`) leads this comparison, opened the proposal in [kivy/kivy#9469](https://github.com/kivy/kivy/issues/9469), has stated a view there in favor of Rubicon, and is the most active recent contributor to pyobjus. Elliot's first pyobjus commit is dated 2026-07-22. Results that depend on this work are shown with and without it.
 
+**AI assistance:** data collection, analysis scripts and drafting were done with AI assistance (Claude, by Anthropic). Elliot Garbus directs the work, reviews it and is responsible for its content.
+
 ## Summary of findings
 
 All figures are **Measured** unless labeled otherwise. This section makes no recommendation.
