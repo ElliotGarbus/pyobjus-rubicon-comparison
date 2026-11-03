@@ -124,16 +124,13 @@ def build(m):
     rows = []
     for year in year_range(p["A3_active_months"], r["A3_active_months"]):
         rows.append([year,
-                     lookup(p["A1_merged_prs"]["by_year"], year), lookup(px["A1_merged_prs"]["by_year"], year),
-                     lookup(p["A3_active_months"], year), lookup(px["A3_active_months"], year),
+                     lookup(p["A1_merged_prs"]["by_year"], year), lookup(p["A3_active_months"], year),
                      lookup(p["C1_contributors"]["by_year"], year), lookup(p["C5"], year),
-                     lookup(r["A1_merged_prs"]["by_year"], year), lookup(rx["A1_merged_prs"]["by_year"], year),
-                     lookup(r["A3_active_months"], year), lookup(rx["A3_active_months"], year),
+                     lookup(r["A1_merged_prs"]["by_year"], year), lookup(r["A3_active_months"], year),
                      lookup(r["C1_contributors"]["by_year"], year), lookup(r["C5"], year)])
     tokens["activity_by_year"] = table(
-        ["Year", "pyobjus PRs", "without ElliotGarbus", "Active months", "without ElliotGarbus",
-         "Contributors", "New",
-         "Rubicon PRs", "without freakboy3742", "Active months", "without freakboy3742", "Contributors", "New"], rows)
+        ["Year", "pyobjus PRs", "Active months", "Contributors", "New",
+         "Rubicon PRs", "Active months", "Contributors", "New"], rows)
 
     def windows(name, key, sub=None):
         a = p[key][sub] if sub else p[key]

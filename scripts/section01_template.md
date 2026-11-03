@@ -91,11 +91,13 @@ Apps can reach iOS in several ways, so no single date describes availability. Th
 
 [PEP 730](https://peps.python.org/pep-0730/) made iOS a supported platform (Tier 3) from Python 3.13. Briefcase's source says official CPython iOS packages are available from 3.15.0b1. kivy-ios's Python 3.11.6 predates both.
 
-### Activity and contributors by year (A1, A3, C1, C3, C5)
+### Activity and contributors by year (A1, A3, C1, C5)
 
 {{activity_by_year}}
 
-"Without" columns remove that person's PRs and commits. "New" counts people whose first merged PR or commit falls in that year. Merge commits aren't counted as authorship. PRs weren't in use for a project's earliest period, so PR counts before its first merged PR in the snapshot table are undercounted. 2026 is a partial year.
+"New" counts people whose first merged PR or commit falls in that year. Merge commits aren't counted as authorship. PRs weren't in use for a project's earliest period, so PR counts before its first merged PR in the snapshot table are undercounted. 2026 is a partial year.
+
+**Note on the author's contributions:** ElliotGarbus wrote 32 of pyobjus's 34 merged PRs in 2026, starting in July. Without that work, 2026 would show 2 merged PRs and 1 active month. C3 below shows both projects without their top contributors.
 
 ### Activity over time windows (A1, A2, A4, C1)
 

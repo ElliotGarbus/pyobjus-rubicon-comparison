@@ -126,27 +126,29 @@ Apps can reach iOS in several ways, so no single date describes availability. Th
 
 [PEP 730](https://peps.python.org/pep-0730/) made iOS a supported platform (Tier 3) from Python 3.13. Briefcase's source says official CPython iOS packages are available from 3.15.0b1. kivy-ios's Python 3.11.6 predates both.
 
-### Activity and contributors by year (A1, A3, C1, C3, C5)
+### Activity and contributors by year (A1, A3, C1, C5)
 
-| Year | pyobjus PRs | without ElliotGarbus | Active months | without ElliotGarbus | Contributors | New | Rubicon PRs | without freakboy3742 | Active months | without freakboy3742 | Contributors | New |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2012 | 0 | 0 | 1 | 1 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 2013 | 4 | 4 | 6 | 6 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 2014 | 2 | 2 | 5 | 5 | 4 | 3 | 0 | 0 | 1 | 0 | 1 | 1 |
-| 2015 | 1 | 1 | 6 | 6 | 2 | 1 | 0 | 0 | 5 | 0 | 1 | 0 |
-| 2016 | 9 | 9 | 6 | 6 | 3 | 2 | 5 | 5 | 8 | 5 | 7 | 6 |
-| 2017 | 1 | 1 | 2 | 2 | 2 | 2 | 48 | 37 | 12 | 12 | 6 | 4 |
-| 2018 | 5 | 5 | 2 | 2 | 2 | 0 | 20 | 17 | 7 | 7 | 6 | 3 |
-| 2019 | 6 | 6 | 3 | 3 | 4 | 2 | 4 | 3 | 4 | 3 | 4 | 2 |
-| 2020 | 7 | 7 | 6 | 6 | 5 | 2 | 38 | 30 | 9 | 7 | 2 | 0 |
-| 2021 | 2 | 2 | 3 | 3 | 3 | 2 | 11 | 8 | 6 | 5 | 2 | 1 |
-| 2022 | 4 | 4 | 3 | 3 | 2 | 0 | 13 | 3 | 8 | 3 | 4 | 2 |
-| 2023 | 13 | 13 | 4 | 4 | 3 | 1 | 26 | 9 | 12 | 5 | 5 | 3 |
-| 2024 | 5 | 5 | 3 | 3 | 2 | 0 | 22 | 14 | 11 | 7 | 6 | 2 |
-| 2025 | 6 | 6 | 2 | 2 | 2 | 0 | 23 | 13 | 11 | 7 | 6 | 5 |
-| 2026 | 34 | 2 | 2 | 1 | 2 | 2 | 36 | 20 | 11 | 10 | 9 | 5 |
+| Year | pyobjus PRs | Active months | Contributors | New | Rubicon PRs | Active months | Contributors | New |
+|---|---|---|---|---|---|---|---|---|
+| 2012 | 0 | 1 | 2 | 2 | 0 | 0 | 0 | 0 |
+| 2013 | 4 | 6 | 3 | 1 | 0 | 0 | 0 | 0 |
+| 2014 | 2 | 5 | 4 | 3 | 0 | 1 | 1 | 1 |
+| 2015 | 1 | 6 | 2 | 1 | 0 | 5 | 1 | 0 |
+| 2016 | 9 | 6 | 3 | 2 | 5 | 8 | 7 | 6 |
+| 2017 | 1 | 2 | 2 | 2 | 48 | 12 | 6 | 4 |
+| 2018 | 5 | 2 | 2 | 0 | 20 | 7 | 6 | 3 |
+| 2019 | 6 | 3 | 4 | 2 | 4 | 4 | 4 | 2 |
+| 2020 | 7 | 6 | 5 | 2 | 38 | 9 | 2 | 0 |
+| 2021 | 2 | 3 | 3 | 2 | 11 | 6 | 2 | 1 |
+| 2022 | 4 | 3 | 2 | 0 | 13 | 8 | 4 | 2 |
+| 2023 | 13 | 4 | 3 | 1 | 26 | 12 | 5 | 3 |
+| 2024 | 5 | 3 | 2 | 0 | 22 | 11 | 6 | 2 |
+| 2025 | 6 | 2 | 2 | 0 | 23 | 11 | 6 | 5 |
+| 2026 | 34 | 2 | 2 | 2 | 36 | 11 | 9 | 5 |
 
-"Without" columns remove that person's PRs and commits. "New" counts people whose first merged PR or commit falls in that year. Merge commits aren't counted as authorship. PRs weren't in use for a project's earliest period, so PR counts before its first merged PR in the snapshot table are undercounted. 2026 is a partial year.
+"New" counts people whose first merged PR or commit falls in that year. Merge commits aren't counted as authorship. PRs weren't in use for a project's earliest period, so PR counts before its first merged PR in the snapshot table are undercounted. 2026 is a partial year.
+
+**Note on the author's contributions:** ElliotGarbus wrote 32 of pyobjus's 34 merged PRs in 2026, starting in July. Without that work, 2026 would show 2 merged PRs and 1 active month. C3 below shows both projects without their top contributors.
 
 ### Activity over time windows (A1, A2, A4, C1)
 
