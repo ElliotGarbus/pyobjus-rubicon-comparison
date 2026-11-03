@@ -294,6 +294,33 @@ def concentration_tables(p):
     return table
 
 
+def engagement(p):
+    """C3. The five people most active in the last 24 months, by commits written and PRs merged."""
+    activity_dates = defaultdict(list)
+    for commit in p.human_commits():
+        activity_dates[p.commit_person(commit)].append(parse(commit["committer_date"]))
+    merged_by = Counter()
+    for pull in p.merged_pulls():
+        if not p.is_bot(pull["mergedBy"]):
+            who = p.login(pull["mergedBy"])
+            merged_by[who] += 1
+            activity_dates[who].append(parse(pull["mergedAt"]))
+    authored = Counter(p.login(x["author"]) for x in p.human_merged())
+    rows = []
+    for who, dates in activity_dates.items():
+        recent = {d.strftime("%Y-%m") for d in dates if d > p.w24}
+        if recent:
+            rows.append({"person": who, "first_activity": min(dates).date().isoformat(),
+                         "latest_activity": max(dates).date().isoformat(),
+                         "years_active": len({d.year for d in dates}),
+                         "months_active_last_24_months": len(recent),
+                         "prs_authored": authored[who], "prs_merged": merged_by[who]})
+    rows.sort(key=lambda r: (r["months_active_last_24_months"], r["latest_activity"]), reverse=True)
+    window_months = (p.T.year - p.w24.year) * 12 + p.T.month - p.w24.month + 1
+    return {"people_active_last_24_months": len(rows), "calendar_months_in_window": window_months,
+            "top_five": rows[:5]}
+
+
 def merge_and_review(p):
     table = {}
     for label, since in [("last_24_months", p.w24), ("last_12_months", p.w12)]:
@@ -492,7 +519,8 @@ def analyze(p, python_dates):
         **activity(p),
         "bot_activity": {"merged_prs": in_windows(p, bot_merged), "commits": in_windows(p, bot_commits)},
         "C2": concentration_tables(p),
-        "C3": sensitivity,
+        "C3": engagement(p),
+        "C3_without_top_contributor_superseded": sensitivity,
         "C4": merge_and_review(p),
         "C5": new_contributors(p),
         "I1": {"issues": backlog(p, p.issues), "prs": backlog(p, p.pulls)},

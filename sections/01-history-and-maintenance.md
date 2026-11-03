@@ -2,7 +2,7 @@
 
 **Status: draft for factual review.** Neither project has reviewed this section. Data is as of 2026-11-03 21:53 UTC. Metric IDs refer to the [approved definitions](../metrics/01-history-and-maintenance.md).
 
-**Author's role:** Elliot Garbus (`ElliotGarbus`) leads this comparison, opened the proposal in [kivy/kivy#9469](https://github.com/kivy/kivy/issues/9469), has stated a view there in favor of Rubicon, and is the most active recent contributor to pyobjus. Elliot's first pyobjus commit is dated 2026-07-22. Results that depend on this work are shown with and without it.
+**Author's role:** Elliot Garbus (`ElliotGarbus`) leads this comparison, opened the proposal in [kivy/kivy#9469](https://github.com/kivy/kivy/issues/9469), has stated a view there in favor of Rubicon, and was the most active recent contributor to pyobjus, from 2026-07-22. Elliot has since stopped contributing to pyobjus because of the bugs and gaps encountered, won't land the 3 pyobjus PRs still open at the snapshot, and now uses Rubicon and plans to contribute to it. Where this work affects a result, the section says so.
 
 **AI assistance:** data collection, analysis scripts and drafting were done with AI assistance (Claude, by Anthropic). Elliot Garbus directs the work, reviews it and is responsible for its content.
 
@@ -11,7 +11,7 @@
 All figures are **Measured** at the snapshot unless labeled otherwise. This section makes no recommendation.
 
 1. **Releases and activity:** Rubicon's work is steadier. Its median gap between stable releases is 107 days, against 502 for pyobjus, and it has had commits in 11 or 12 months of each year since 2023, against 2 to 4. pyobjus's recent activity came in a burst: 32 of its 34 merged PRs in 2026 landed in October. None of the 34 are in a PyPI release yet, although kivy-ios builds pyobjus from `master`, so its users get them.
-2. **People:** in the last 12 months, Rubicon had 9 contributors and pyobjus had 3. Without its top contributor, Rubicon had 24 merged PRs and pyobjus had 7; that contributor is freakboy3742 for Rubicon and this comparison's author, ElliotGarbus, for pyobjus. Merging and releasing are concentrated on both: freakboy3742 merged 42 of Rubicon's last 60 PRs and triggered its last five releases, and AndreMiras merged 31 of pyobjus's last 40.
+2. **People:** in the last 12 months, Rubicon had 9 contributors and pyobjus had 3. Rubicon's lead contributor, freakboy3742, founded the project in 2014 and has been active in every month of the last two years. pyobjus's, ElliotGarbus (this comparison's author), started in July 2026 and has since stopped contributing to it; its longer-standing contributors, such as misl6 and akshayaurora, have been active in 2 or 3 of the last 24 months. Merging and releasing are concentrated on both: freakboy3742 merged 42 of Rubicon's last 60 PRs and triggered its last five releases, and AndreMiras merged 31 of pyobjus's last 40.
 3. **New Python versions:** on macOS, installing pyobjus from PyPI without compiling needs a new wheel for each Python version. These arrived 18 to 448 days after Python 3.10 to 3.14 were released, and there was none for 3.15 after 25 days. Rubicon's universal wheel needs no new build, and Python 3.11 to 3.15 were each in its CI before their final releases. Installing doesn't by itself show that a version works. On iOS, wheel delays don't apply to pyobjus's documented route, kivy-ios, which compiles it from source on Python 3.11.6. Both libraries have other routes, listed under [iOS routes](#ios-routes).
 
 ## Claims from the discussion
@@ -148,7 +148,7 @@ Apps can reach iOS in several ways, so no single date describes availability. Th
 
 "New" counts people whose first merged PR or commit falls in that year. Merge commits aren't counted as authorship. PRs weren't in use for a project's earliest period, so PR counts before its first merged PR in the snapshot table are undercounted. 2026 is a partial year.
 
-**Note on the author's contributions:** ElliotGarbus wrote 32 of pyobjus's 34 merged PRs in 2026, starting in July. Without that work, 2026 would show 2 merged PRs and 1 active month. C3 below shows both projects without their top contributors.
+**Note on the author's contributions:** ElliotGarbus wrote 32 of pyobjus's 34 merged PRs in 2026, starting in July, and AndreMiras wrote the other 2. Elliot has since stopped contributing to pyobjus, so these figures don't describe expected future activity. C3 below shows how long each project's most active contributors have been involved.
 
 ### Activity over time windows (A1, A2, A4, C1)
 
@@ -184,24 +184,22 @@ Compare the commit rows with care. Merge commits were 30 of 86 for pyobjus and 7
 
 Each cell lists the share from the top person, the share from the top two, and the fewest people who account for at least half.
 
-### Results without the top contributor (C3)
+### Contributor engagement (C3)
 
-| Measure | All contributors | Without top contributor |
-|---|---|---|
-| pyobjus: Merged PRs, last 12 months | 39 | 7 |
-| pyobjus: Merged PRs, last 24 months | 40 | 8 |
-| pyobjus: Contributors, last 12 months | 3 | 2 |
-| pyobjus: Contributors, last 24 months | 4 | 3 |
-| pyobjus: Longest commit gap, last 5 years | 250 days (2024-10-04 to 2025-06-10) | 298 days (2025-12-29 to 2026-10-23) |
-| pyobjus: Current commit gap | 3 days | 8 days |
-| Rubicon: Merged PRs, last 12 months | 42 | 24 |
-| Rubicon: Merged PRs, last 24 months | 60 | 34 |
-| Rubicon: Contributors, last 12 months | 9 | 8 |
-| Rubicon: Contributors, last 24 months | 14 | 13 |
-| Rubicon: Longest commit gap, last 5 years | 94 days (2021-11-13 to 2022-02-15) | 272 days (2022-02-16 to 2022-11-15) |
-| Rubicon: Current commit gap | 2 days | 2 days |
+| Project | Contributor | First activity | Latest activity | Years active | Months active, last 24 months | PRs authored | PRs merged |
+|---|---|---|---|---|---|---|---|
+| pyobjus | misl6 | 2019-11-03 | 2025-12-29 | 7 | 3 | 26 | 38 |
+| pyobjus | ElliotGarbus | 2026-07-22 | 2026-10-31 | 1 | 2 | 32 | 0 |
+| pyobjus | akshayaurora | 2014-06-28 | 2026-10-29 | 7 | 2 | 3 | 11 |
+| pyobjus | AndreMiras | 2026-10-23 | 2026-10-31 | 1 | 1 | 2 | 36 |
+| pyobjus | kuzeyron | 2026-07-22 | 2026-07-22 | 1 | 1 | 0 | 2 |
+| Rubicon ObjC | freakboy3742 | 2014-10-17 | 2026-11-02 | 13 | Every month | 87 | 504 |
+| Rubicon ObjC | kattni | 2025-06-23 | 2026-10-19 | 2 | 15 | 15 | 99 |
+| Rubicon ObjC | mhsmith | 2022-11-15 | 2026-09-05 | 5 | 11 | 0 | 26 |
+| Rubicon ObjC | mgstabrani | 2026-08-17 | 2026-11-02 | 1 | 4 | 8 | 0 |
+| Rubicon ObjC | samschott | 2021-01-10 | 2025-11-04 | 4 | 3 | 10 | 1 |
 
-ElliotGarbus is pyobjus's top contributor over the last 24 months, so the two exclusions in the definition are the same calculation. The Rubicon rows exclude freakboy3742.
+Each project's five most active people over the last 24 months, ranked by months active. Activity means writing a non-merge commit or merging a PR. "PRs merged" includes bot-authored dependency updates, while "PRs authored" doesn't. pyobjus had 5 people active in this window, and Rubicon had 14.
 
 ### Merging and review (C4)
 

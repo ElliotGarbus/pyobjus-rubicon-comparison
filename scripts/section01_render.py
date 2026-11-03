@@ -120,7 +120,6 @@ def build(m):
                               f"{wheel_row(p, 'none at snapshot')}. | "
                               f"{wheel_row(r, 'none at snapshot')}. The wheel is universal, so this doesn't show that iOS works. |")
 
-    px, rx = next(iter(p["C3"].values())), next(iter(r["C3"].values()))
     rows = []
     for year in year_range(p["A3_active_months"], r["A3_active_months"]):
         rows.append([year,
@@ -163,16 +162,17 @@ def build(m):
         ["Window and unit", "pyobjus top 1 / top 2 / people for 50%", "pyobjus top three",
          "Rubicon top 1 / top 2 / people for 50%", "Rubicon top three"], rows)
 
-    def sensitive(base, cut):
-        return [["Merged PRs, last 12 months", base["A1_merged_prs"]["windows"]["last_12_months"], cut["A1_merged_prs"]["windows"]["last_12_months"]],
-                ["Merged PRs, last 24 months", base["A1_merged_prs"]["windows"]["last_24_months"], cut["A1_merged_prs"]["windows"]["last_24_months"]],
-                ["Contributors, last 12 months", base["C1_contributors"]["last_12_months"], cut["C1_contributors"]["last_12_months"]],
-                ["Contributors, last 24 months", base["C1_contributors"]["last_24_months"], cut["C1_contributors"]["last_24_months"]],
-                ["Longest commit gap, last 5 years", gap(base["A4_commit_gaps"]["longest_ending_in_last_5_years"]), gap(cut["A4_commit_gaps"]["longest_ending_in_last_5_years"])],
-                ["Current commit gap", f"{whole(base['A4_commit_gaps']['current_gap_days'])} days", f"{whole(cut['A4_commit_gaps']['current_gap_days'])} days"]]
-    rows = [[f"pyobjus: {row[0]}", row[1], row[2]] for row in sensitive(p, px)]
-    rows += [[f"Rubicon: {row[0]}", row[1], row[2]] for row in sensitive(r, rx)]
-    tokens["sensitivity"] = table(["Measure", "All contributors", "Without top contributor"], rows)
+    rows = []
+    for name, project in [("pyobjus", p), ("Rubicon ObjC", r)]:
+        for row in project["C3"]["top_five"]:
+            months = row["months_active_last_24_months"]
+            rows.append([name, row["person"], row["first_activity"], row["latest_activity"], row["years_active"],
+                         "Every month" if months == project["C3"]["calendar_months_in_window"] else months,
+                         row["prs_authored"], row["prs_merged"]])
+    tokens["rubicon_active"] = str(r["C3"]["people_active_last_24_months"])
+    tokens["engagement"] = table(
+        ["Project", "Contributor", "First activity", "Latest activity", "Years active",
+         "Months active, last 24 months", "PRs authored", "PRs merged"], rows)
 
     rows = []
     for label, key in [("Last 24 months", "last_24_months"), ("Last 12 months", "last_12_months")]:

@@ -477,6 +477,57 @@
    }
   },
   "C3": {
+   "people_active_last_24_months": 5,
+   "calendar_months_in_window": 25,
+   "top_five": [
+    {
+     "person": "misl6",
+     "first_activity": "2019-11-03",
+     "latest_activity": "2025-12-29",
+     "years_active": 7,
+     "months_active_last_24_months": 3,
+     "prs_authored": 26,
+     "prs_merged": 38
+    },
+    {
+     "person": "ElliotGarbus",
+     "first_activity": "2026-07-22",
+     "latest_activity": "2026-10-31",
+     "years_active": 1,
+     "months_active_last_24_months": 2,
+     "prs_authored": 32,
+     "prs_merged": 0
+    },
+    {
+     "person": "akshayaurora",
+     "first_activity": "2014-06-28",
+     "latest_activity": "2026-10-29",
+     "years_active": 7,
+     "months_active_last_24_months": 2,
+     "prs_authored": 3,
+     "prs_merged": 11
+    },
+    {
+     "person": "AndreMiras",
+     "first_activity": "2026-10-23",
+     "latest_activity": "2026-10-31",
+     "years_active": 1,
+     "months_active_last_24_months": 1,
+     "prs_authored": 2,
+     "prs_merged": 36
+    },
+    {
+     "person": "kuzeyron",
+     "first_activity": "2026-07-22",
+     "latest_activity": "2026-07-22",
+     "years_active": 1,
+     "months_active_last_24_months": 1,
+     "prs_authored": 0,
+     "prs_merged": 2
+    }
+   ]
+  },
+  "C3_without_top_contributor_superseded": {
    "without_top_contributor:ElliotGarbus": {
     "A1_merged_prs": {
      "windows": {
@@ -1541,6 +1592,57 @@
    }
   },
   "C3": {
+   "people_active_last_24_months": 14,
+   "calendar_months_in_window": 25,
+   "top_five": [
+    {
+     "person": "freakboy3742",
+     "first_activity": "2014-10-17",
+     "latest_activity": "2026-11-02",
+     "years_active": 13,
+     "months_active_last_24_months": 25,
+     "prs_authored": 87,
+     "prs_merged": 504
+    },
+    {
+     "person": "kattni",
+     "first_activity": "2025-06-23",
+     "latest_activity": "2026-10-19",
+     "years_active": 2,
+     "months_active_last_24_months": 15,
+     "prs_authored": 15,
+     "prs_merged": 99
+    },
+    {
+     "person": "mhsmith",
+     "first_activity": "2022-11-15",
+     "latest_activity": "2026-09-05",
+     "years_active": 5,
+     "months_active_last_24_months": 11,
+     "prs_authored": 0,
+     "prs_merged": 26
+    },
+    {
+     "person": "mgstabrani",
+     "first_activity": "2026-08-17",
+     "latest_activity": "2026-11-02",
+     "years_active": 1,
+     "months_active_last_24_months": 4,
+     "prs_authored": 8,
+     "prs_merged": 0
+    },
+    {
+     "person": "samschott",
+     "first_activity": "2021-01-10",
+     "latest_activity": "2025-11-04",
+     "years_active": 4,
+     "months_active_last_24_months": 3,
+     "prs_authored": 10,
+     "prs_merged": 1
+    }
+   ]
+  },
+  "C3_without_top_contributor_superseded": {
    "without_top_contributor:freakboy3742": {
     "A1_merged_prs": {
      "windows": {

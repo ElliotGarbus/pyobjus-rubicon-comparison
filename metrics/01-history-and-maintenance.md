@@ -65,7 +65,7 @@ No metric below has been calculated yet.
 |---|---|---|---|---|
 | C1 | Active contributors | Distinct human authors of merged PRs or non-merge commits, per window | GitHub API, Git | Measured |
 | C2 | Concentration | Share of merged human PRs and of human commits from the top one and top two people, and the fewest people who account for at least 50%, for all time and the 12 and 24 months before *T* | GitHub API, Git | Measured |
-| C3 | Sensitivity | A1, A3, A4 and C1 recalculated (a) without each project's top contributor over the last 24 months, and (b) for pyobjus, without ElliotGarbus if that isn't already case (a) | Derived | Measured |
+| C3 | Engagement | Each project's five most active people over the last 24 months, ranked by months active, with first and latest activity, years active, PRs authored and PRs merged. Activity means writing a non-merge commit or merging a PR | GitHub API, Git | Measured |
 | C4 | Merge and review | Distinct people who merged PRs, and the share of merged human PRs merged by someone other than the author and with a non-author human review, over the last 12 and 24 months | GitHub API | Measured |
 | C5 | New contributors | People whose first merged PR or commit falls in each calendar year | GitHub API, Git | Measured |
 
@@ -134,6 +134,7 @@ Approved 2026-11-03. These changes were made during collection and analysis.
 | Metric | Change | Reason |
 |---|---|---|
 | I3 | **Approved 2026-11-03.** A maintainer is now also anyone who has merged a PR in that project. Results using association alone are shown beside the new results. | Association alone misclassified people. `kattni`, on BeeWare's team page with 99 merges, was reported as a `CONTRIBUTOR`, likely because of private organization membership (**Inferred**). The collecting account belongs to the Kivy organization but not BeeWare, which could treat the two projects differently. |
+| C3 | **Approved 2026-11-03.** Replaced the results without each project's top contributor with the engagement table above, for both projects. The original results stay in `derived/metrics.json` as `C3_without_top_contributor_superseded`. | The original metric treated a founder with 12 years of steady work the same as someone who started in July 2026, so it could mislead about engagement. This was changed after seeing the results, at the author's request, and the new table also favors Rubicon. Reliance on individuals remains visible in C2 and C4. |
 | I3 | Added a check with ElliotGarbus removed as a responder. | The author's role. The result didn't change. |
 | I5 | Added whether ElliotGarbus closed the issue directly. | Three of the five pyobjus issues were closed by Elliot with no linked PR recorded, so the approved split alone would understate Elliot's involvement. |
 | Raw data | Commit records keep only the fields used by the analysis. Email fields and free-text project descriptions are removed from PyPI records. | The approved rule that no email addresses are published. |
