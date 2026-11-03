@@ -1,0 +1,11 @@
+project,issue,resolution
+pyobjus,15,"Obsolete: tito's commit [b0ecec6](https://github.com/kivy/pyobjus/commit/b0ecec671c) removed the code in 2015"
+pyobjus,21,"Fixed by misl6's PR [#89](https://github.com/kivy/pyobjus/pull/89), merged by akshayaurora"
+pyobjus,44,"Fixed by ElliotGarbus's PR [#161](https://github.com/kivy/pyobjus/pull/161), merged by AndreMiras"
+pyobjus,70,"Fixed by ElliotGarbus's PR [#149](https://github.com/kivy/pyobjus/pull/149), merged by kuzeyron"
+pyobjus,76,"Fixed by ElliotGarbus's PR [#159](https://github.com/kivy/pyobjus/pull/159), merged by AndreMiras"
+rubicon-objc,48,"Fixed by samschott's PR [#543](https://github.com/beeware/rubicon-objc/pull/543), merged by mhsmith"
+rubicon-objc,137,"Closed because the test failures hadn't recurred for some time"
+rubicon-objc,183,"Closed because it had no specific completion criteria"
+rubicon-objc,188,"Fixed by kattni's PR [#658](https://github.com/beeware/rubicon-objc/pull/658), merged by freakboy3742"
+rubicon-objc,223,"Closed because it no longer reproduced on supported Python versions"

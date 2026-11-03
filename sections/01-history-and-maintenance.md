@@ -285,20 +285,20 @@ The pyobjus samples are small, and I4 stops 90 days before the snapshot, which e
 
 ### Long-open issues closed (I5)
 
-| Project | Issue | Opened | Closed | Years open | Closed by | Linked to a PR by ElliotGarbus |
+| Project | Issue | Opened | Closed | Years open | Closed by | Resolution |
 |---|---|---|---|---|---|---|
-| pyobjus | [#15](https://github.com/kivy/pyobjus/issues/15) bad kCFTaggedObjectID_Integer definition ? | 2014-12-16 | 2026-10-21 | 11.8 | ElliotGarbus | No |
-| pyobjus | [#21](https://github.com/kivy/pyobjus/issues/21) IndexError in type_enc.pxi | 2015-12-09 | 2026-10-21 | 10.9 | ElliotGarbus | No |
-| pyobjus | [#44](https://github.com/kivy/pyobjus/issues/44) Can't clone pyobjus on Windows, MS-DOS reserved word as a folder | 2018-11-09 | 2026-10-23 | 8.0 | AndreMiras | Yes |
-| pyobjus | [#70](https://github.com/kivy/pyobjus/issues/70) KeyError at field_list.append() | 2020-10-14 | 2026-10-21 | 6.0 | ElliotGarbus | No |
-| pyobjus | [#76](https://github.com/kivy/pyobjus/issues/76) autoclass('NSString', ... ) => 'TypeError: expected bytes, str found' | 2021-03-19 | 2026-10-25 | 5.6 | AndreMiras | Yes |
-| Rubicon ObjC | [#48](https://github.com/beeware/rubicon-objc/issues/48) Improve memory management documentation | 2017-07-08 | 2024-12-05 | 7.4 | mhsmith | No |
-| Rubicon ObjC | [#137](https://github.com/beeware/rubicon-objc/issues/137) Async tests sometimes randomly cause errors | 2019-05-25 | 2026-05-29 | 7.0 | freakboy3742 | No |
-| Rubicon ObjC | [#183](https://github.com/beeware/rubicon-objc/issues/183) Speed up instantiating new class instances | 2020-08-26 | 2026-05-29 | 5.8 | freakboy3742 | No |
-| Rubicon ObjC | [#188](https://github.com/beeware/rubicon-objc/issues/188) Consider using sphinx-autoapi to generate docs without having to import rubicon.objc | 2020-09-19 | 2025-10-31 | 5.1 | freakboy3742 | No |
-| Rubicon ObjC | [#223](https://github.com/beeware/rubicon-objc/issues/223) Calling performSelector for a @objc_method created by rubicon from Objective C crashes in Python 3.9 | 2021-07-07 | 2026-09-03 | 5.2 | freakboy3742 | No |
+| pyobjus | [#15](https://github.com/kivy/pyobjus/issues/15) bad kCFTaggedObjectID_Integer definition ? | 2014-12-16 | 2026-10-21 | 11.8 | ElliotGarbus | Obsolete: tito's commit [b0ecec6](https://github.com/kivy/pyobjus/commit/b0ecec671c) removed the code in 2015 |
+| pyobjus | [#21](https://github.com/kivy/pyobjus/issues/21) IndexError in type_enc.pxi | 2015-12-09 | 2026-10-21 | 10.9 | ElliotGarbus | Fixed by misl6's PR [#89](https://github.com/kivy/pyobjus/pull/89), merged by akshayaurora |
+| pyobjus | [#44](https://github.com/kivy/pyobjus/issues/44) Can't clone pyobjus on Windows, MS-DOS reserved word as a folder | 2018-11-09 | 2026-10-23 | 8.0 | AndreMiras | Fixed by ElliotGarbus's PR [#161](https://github.com/kivy/pyobjus/pull/161), merged by AndreMiras |
+| pyobjus | [#70](https://github.com/kivy/pyobjus/issues/70) KeyError at field_list.append() | 2020-10-14 | 2026-10-21 | 6.0 | ElliotGarbus | Fixed by ElliotGarbus's PR [#149](https://github.com/kivy/pyobjus/pull/149), merged by kuzeyron |
+| pyobjus | [#76](https://github.com/kivy/pyobjus/issues/76) autoclass('NSString', ... ) => 'TypeError: expected bytes, str found' | 2021-03-19 | 2026-10-25 | 5.6 | AndreMiras | Fixed by ElliotGarbus's PR [#159](https://github.com/kivy/pyobjus/pull/159), merged by AndreMiras |
+| Rubicon ObjC | [#48](https://github.com/beeware/rubicon-objc/issues/48) Improve memory management documentation | 2017-07-08 | 2024-12-05 | 7.4 | mhsmith | Fixed by samschott's PR [#543](https://github.com/beeware/rubicon-objc/pull/543), merged by mhsmith |
+| Rubicon ObjC | [#137](https://github.com/beeware/rubicon-objc/issues/137) Async tests sometimes randomly cause errors | 2019-05-25 | 2026-05-29 | 7.0 | freakboy3742 | Closed because the test failures hadn't recurred for some time |
+| Rubicon ObjC | [#183](https://github.com/beeware/rubicon-objc/issues/183) Speed up instantiating new class instances | 2020-08-26 | 2026-05-29 | 5.8 | freakboy3742 | Closed because it had no specific completion criteria |
+| Rubicon ObjC | [#188](https://github.com/beeware/rubicon-objc/issues/188) Consider using sphinx-autoapi to generate docs without having to import rubicon.objc | 2020-09-19 | 2025-10-31 | 5.1 | freakboy3742 | Fixed by kattni's PR [#658](https://github.com/beeware/rubicon-objc/pull/658), merged by freakboy3742 |
+| Rubicon ObjC | [#223](https://github.com/beeware/rubicon-objc/issues/223) Calling performSelector for a @objc_method created by rubicon from Objective C crashes in Python 3.9 | 2021-07-07 | 2026-09-03 | 5.2 | freakboy3742 | Closed because it no longer reproduced on supported Python versions |
 
-For pyobjus, 5 issues qualify. Removing the 2 linked to Elliot's PRs leaves 3. All 3 were closed by ElliotGarbus directly, so none closed without Elliot's involvement. The check for links relies on GitHub's records, so a manual close that followed a PR may not show a link. No PRs open for five years were closed by either project in this window.
+"Closed by" is the person who closed the issue, which isn't necessarily who fixed it or merged the fix. ElliotGarbus has merged no PRs in pyobjus. Elliot wrote the fixes for 3 of these 5 issues, and closed #15 and #21 after confirming that earlier work by others had resolved them. Resolutions were read from each issue's closing comments and linked PRs, and are recorded in [`long_open_resolutions.csv`](../results/section-01/long_open_resolutions.csv). No PRs open for five years were closed by either project in this window.
 
 ### Sustainability factors (S1 to S6)
 

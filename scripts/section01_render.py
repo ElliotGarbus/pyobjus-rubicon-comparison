@@ -7,6 +7,7 @@ Every {{token}} in scripts/section01_template.md is replaced by a table
 generated from SNAPSHOT_DIR/derived/metrics.json, so the tables can't drift
 from the calculated values.
 """
+import csv
 import json
 import re
 import sys
@@ -240,13 +241,15 @@ def build(m):
           f"{p['I4']['prs']['median_days_to_merge_merged_prs_only']['days']} days (n={p['I4']['prs']['median_days_to_merge_merged_prs_only']['n']})",
           f"{r['I4']['prs']['median_days_to_merge_merged_prs_only']['days']} days (n={r['I4']['prs']['median_days_to_merge_merged_prs_only']['n']})"]])
 
+    with open(ROOT / "results" / "section-01" / "long_open_resolutions.csv", newline="") as source:
+        resolutions = {(row["project"], int(row["issue"])): row["resolution"] for row in csv.DictReader(source)}
     rows = []
-    for name, repo, project in [("pyobjus", "kivy/pyobjus", p), ("Rubicon ObjC", "beeware/rubicon-objc", r)]:
+    for name, key, repo, project in [("pyobjus", PY, "kivy/pyobjus", p), ("Rubicon ObjC", RB, "beeware/rubicon-objc", r)]:
         for item in project["I5"]["issues"]["items"]:
             rows.append([name, f"[#{item['number']}](https://github.com/{repo}/issues/{item['number']}) {item['title']}",
                          item["opened"], item["closed"], item["years_open"], item["closed_by"],
-                         "Yes" if item["linked_to_ElliotGarbus"] else "No"])
-    tokens["long_open"] = table(["Project", "Issue", "Opened", "Closed", "Years open", "Closed by", "Linked to a PR by ElliotGarbus"], rows)
+                         resolutions[(key, item["number"])]])
+    tokens["long_open"] = table(["Project", "Issue", "Opened", "Closed", "Years open", "Closed by", "Resolution"], rows)
 
     def os_row(label, key):
         return [label, f"{p['U1']['by_os'].get(key, 0):,}", f"{r['U1']['by_os'].get(key, 0):,}"]
