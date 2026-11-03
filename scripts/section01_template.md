@@ -10,9 +10,9 @@
 
 All figures are **Measured** at the snapshot unless labeled otherwise. This section makes no recommendation.
 
-1. **Releases and activity:** Rubicon's work is steadier. Its median gap between stable releases is 107 days, against 502 for pyobjus, and it has had commits in 11 or 12 months of each year since 2023, against 2 to 4. pyobjus's recent activity came in a burst: 32 of its 34 merged PRs in 2026 landed in October, and all 34 are unreleased.
+1. **Releases and activity:** Rubicon's work is steadier. Its median gap between stable releases is 107 days, against 502 for pyobjus, and it has had commits in 11 or 12 months of each year since 2023, against 2 to 4. pyobjus's recent activity came in a burst: 32 of its 34 merged PRs in 2026 landed in October. None of the 34 are in a PyPI release yet, although kivy-ios builds pyobjus from `master`, so its users get them.
 2. **People:** in the last 12 months, Rubicon had 9 contributors and pyobjus had 3. Without its top contributor, Rubicon had 24 merged PRs and pyobjus had 7; that contributor is freakboy3742 for Rubicon and this comparison's author, ElliotGarbus, for pyobjus. Merging and releasing are concentrated on both: freakboy3742 merged 42 of Rubicon's last 60 PRs and triggered its last five releases, and AndreMiras merged 31 of pyobjus's last 40.
-3. **New Python versions:** pyobjus needs a new wheel for each Python version, and these reached PyPI 18 to 448 days after Python 3.10 to 3.14 were released. It had none for Python 3.15 after 25 days. Rubicon's universal wheel needs no new build, and Python 3.11 to 3.15 were each in its CI before their final releases. Installing doesn't by itself show that a version works.
+3. **New Python versions:** on macOS, installing pyobjus from PyPI without compiling needs a new wheel for each Python version. These arrived 18 to 448 days after Python 3.10 to 3.14 were released, and there was none for 3.15 after 25 days. Rubicon's universal wheel needs no new build, and Python 3.11 to 3.15 were each in its CI before their final releases. Installing doesn't by itself show that a version works. On iOS, wheel delays don't apply to pyobjus's documented route, kivy-ios, which compiles it from source on Python 3.11.6. Both libraries have other routes, listed under [iOS routes](#ios-routes).
 
 ## Claims from the discussion
 
@@ -70,21 +70,26 @@ Raw data, scripts and cross-checks are in [`results/section-01/2026-11-03T215300
 
 {{releases_by_year}}
 
-PyPI's history for pyobjus starts in 2018, so earlier releases, if any, aren't counted. Of the 34 pyobjus PRs merged since 1.2.4, 32 are by ElliotGarbus and 2 are by AndreMiras. All 3 merged since Rubicon 0.5.7 are by mgstabrani.
+PyPI's history for pyobjus starts in 2018, so earlier releases, if any, aren't counted. Of the 34 pyobjus PRs merged since 1.2.4, 32 are by ElliotGarbus and 2 are by AndreMiras. The [kivy-ios recipe](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/pyobjus/__init__.py) builds from `master`, so R4 describes PyPI users rather than kivy-ios users. All 3 merged since Rubicon 0.5.7 are by mgstabrani.
 
 ### Python and iOS support (R5, R6)
 
 {{python_support}}
 
-Days are counted from each Python version's final release. CI dates include pre-release versions of Python. Rubicon's install column reflects its universal wheel, which installs regardless of whether that Python version has been tested.
+Days are counted from each Python version's final release. The install columns cover macOS on Apple Silicon without compiling; pyobjus can also be compiled from its source distribution. CI dates include pre-release versions of Python. Rubicon's install column reflects its universal wheel, which installs regardless of whether that Python version has been tested.
 
-**iOS.** [PEP 730](https://peps.python.org/pep-0730/) made iOS a supported platform (Tier 3) from Python 3.13, so R6 starts there.
+### iOS routes
 
-{{ios}}
+Apps can reach iOS in several ways, so no single date describes availability. This table is **Source** unless labeled otherwise. None of these routes has been tested for this comparison yet. Section 3 will test them on a physical iPhone where possible.
 
-Rubicon's iOS column has the same limit: its wheel doesn't declare iOS separately. Rubicon's iOS CI dates from September 2026, as shown in the timeline above.
+| Route | Python | pyobjus | Rubicon ObjC |
+|---|---|---|---|
+| **kivy-ios** | [3.11.6](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/python3/__init__.py), built by kivy-ios | [Compiled from `master`](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/pyobjus/__init__.py) by a recipe dating from [2015-02-18](https://github.com/kivy/kivy-ios/commits/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/pyobjus/__init__.py). This is the route in [pyobjus's iOS docs](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/docs/source/pyobjus_ios.rst). | No recipe. kivy-ios [documents `toolchain pip install`](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/README.md) for packages that need no compiling. **Reported:** [`@Block` crashes on iOS](https://github.com/kivy/kivy-ios/issues/998#issuecomment-5726400770) on this Python. |
+| **KivyForge** | [3.15](https://github.com/kivy/kivy-ios/issues/998#issuecomment-5722409000) | Wheels from kivy-mobile-wheels: 1.2.4 and 1.2.5.dev202610250845. KivyForge and these wheels are maintained by this comparison's author. | Universal wheel from PyPI. **Reported:** [works alongside pyobjus](https://github.com/kivy/kivy/issues/9469#issuecomment-6540817502). |
+| **Briefcase** | [BeeWare's support packages](https://github.com/beeware/Python-Apple-support), or official CPython packages [from 3.15.0b1](https://github.com/beeware/briefcase/blob/fee777ed204fe867a8486d8947137dacdb7f05f4/src/briefcase/platforms/iOS/xcode.py) | No documented use found. | Rubicon's own iOS test route. Its [CI](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/.github/workflows/ci.yml) lists Python 3.11 to 3.15 and [runs on the simulator](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tox.ini). Whether those jobs pass is covered in Section 5. Toga's iOS backend also depends on it. |
+{{ios_pypi_row}}
 
-pyobjus iOS wheels for Python 3.15 exist outside PyPI on [kivy-mobile-wheels](https://elliotgarbus.github.io/kivy-mobile-wheels/simple/pyobjus/), which Elliot maintains: versions 1.2.4 and 1.2.5.dev202610250845. They aren't counted above.
+[PEP 730](https://peps.python.org/pep-0730/) made iOS a supported platform (Tier 3) from Python 3.13. Briefcase's source says official CPython iOS packages are available from 3.15.0b1. kivy-ios's Python 3.11.6 predates both.
 
 ### Activity and contributors by year (A1, A3, C1, C3, C5)
 
@@ -174,6 +179,7 @@ These counts include CI runs and installs pulled in as dependencies, and apps bu
 **Named production use (U2):**
 - **Reported:** [akshayaurora](https://github.com/kivy/kivy/issues/9469#issuecomment-6517712158) says shipped Kivy iOS and macOS apps use pyobjus for Core Bluetooth, Bonjour, GPS, pickers and notifications, and [says](https://github.com/kivy/kivy/issues/9469#issuecomment-6540219422) at least 20 people and companies use these projects in mission-critical work. No users are named.
 - **Reported:** [kengoon](https://github.com/kivy/kivy/issues/9469#issuecomment-6540733322) says they have used both libraries with Kivy. Their [pyobjus-firebase](https://github.com/PySimpleObjC/pyobjus-firebase) and [pyios-firebase](https://github.com/PySimpleObjC/pyios-firebase) repositories are public.
+- **Reported:** Rubicon's [success stories page](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/docs/en/about/success.md) lists Travel Tips, an iOS App Store app, as using Rubicon.
 - **Source:** Toga depends on Rubicon, as shown in S4. Its downstream users are covered in Section 7.
 
 Corrections or named uses of either library are welcome, with a source.

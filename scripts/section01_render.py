@@ -106,9 +106,19 @@ def build(m):
         ["Python", "Final release", "pyobjus install (a)", "Rubicon install (a)", "pyobjus CI (b)",
          "Rubicon CI (b)", "pyobjus classifier (c)", "Rubicon classifier (c)"], rows)
 
-    tokens["ios"] = table(
-        ["Python", "pyobjus", "Rubicon ObjC"],
-        [[version, install(p["R6"][version]), install(r["R6"][version])] for version in p["R6"]])
+    def wheel_row(project, none):
+        cells = []
+        for version, cell in project["R6"].items():
+            if not cell:
+                cells.append(f"{version}: {none}")
+            elif cell["already_installable_at_final"]:
+                cells.append(f"{version}: already installable ({cell['version']})")
+            else:
+                cells.append(f"{version}: {whole(cell['days_after_final'])} days after Python's release ({cell['version']})")
+        return "; ".join(cells)
+    tokens["ios_pypi_row"] = ("| **PyPI wheels (R6)**, for a tool that installs them | 3.13 to 3.15 | "
+                              f"{wheel_row(p, 'none at snapshot')}. | "
+                              f"{wheel_row(r, 'none at snapshot')}. The wheel is universal, so this doesn't show that iOS works. |")
 
     px, rx = next(iter(p["C3"].values())), next(iter(r["C3"].values()))
     rows = []
