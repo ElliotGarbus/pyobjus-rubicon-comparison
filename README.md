@@ -4,7 +4,7 @@
 
 This repository holds an evidence-based comparison of [pyobjus](https://github.com/kivy/pyobjus) and [Rubicon ObjC](https://github.com/beeware/rubicon-objc). It supports the discussion in [kivy/kivy#9469](https://github.com/kivy/kivy/issues/9469), and all of its tests and raw data are shared so anyone can check the results.
 
-**Author's role:** Elliot Garbus leads this comparison. Elliot opened the proposal in kivy/kivy#9469 and has stated a view there in favor of Rubicon, was the most active recent contributor to pyobjus, and builds KivyForge and kivy-mobile-wheels. Elliot has since stopped contributing to pyobjus because of the bugs and gaps encountered, won't land the 3 pyobjus PRs still open at the snapshot, and now uses Rubicon and plans to contribute to it. Where this affects a result, the section says so.
+**Author's role:** Elliot Garbus leads this comparison. Elliot opened the proposal in kivy/kivy#9469 and has stated a view there in favor of Rubicon, was the most active recent contributor to pyobjus, and builds KivyForge and kivy-mobile-wheels. Elliot has since stopped contributing to pyobjus because of the bugs and gaps encountered, won't land the 3 pyobjus PRs still open at the snapshot, is leaving those PRs and the 16 open issues Elliot filed for others to pick up, and now uses Rubicon and plans to contribute to it. Where this affects a result, the section says so.
 
 **AI assistance:** data collection, analysis scripts and drafting were done with AI assistance (Claude, by Anthropic). Elliot Garbus directs the work, reviews it and is responsible for its content.
 
