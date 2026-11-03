@@ -1,0 +1,9 @@
+project,name_or_login,login,basis
+pyobjus,ivpusic,ivpusic,Commit author name equals the login
+pyobjus,Ivan Pusic,ivpusic,Public profile name of ivpusic
+pyobjus,Elliot Garbus,ElliotGarbus,Public profile name of ElliotGarbus
+pyobjus,Gabriel Pettier,tshirtman,Public profile name of tshirtman
+rubicon-objc,Sam Schott,samschott,Commit author name also used by login samschott
+rubicon-objc,SamSchott,samschott,Spelling variant of the same name and login
+rubicon-objc,Scott Sievert,stsievert,Public profile name of stsievert; PR 7 has the same subject
+rubicon-objc,therealphildini,phildini,Both logins use the commit author name Philip James

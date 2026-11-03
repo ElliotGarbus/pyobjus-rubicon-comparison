@@ -12,7 +12,7 @@ Each section opens with a summary of findings, followed by the supporting facts.
 
 | # | Section | Metric definitions | Status |
 |---|---|---|---|
-| 1 | [History and maintenance](sections/01-history-and-maintenance.md) | [Definitions](metrics/01-history-and-maintenance.md) | Definitions awaiting approval |
+| 1 | [History and maintenance](sections/01-history-and-maintenance.md) | [Definitions](metrics/01-history-and-maintenance.md) | Draft, awaiting review |
 | 2 | Architecture | | Not started |
 | 3 | Capabilities and limitations | | Not started |
 | 4 | Side-by-side examples | | Not started |

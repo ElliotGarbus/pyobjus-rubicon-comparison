@@ -1,0 +1,1305 @@
+{
+ "info": {
+  "author": null,
+  "bugtrack_url": null,
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: MIT License",
+   "Natural Language :: English",
+   "Operating System :: MacOS",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Software Development :: Libraries :: Application Frameworks"
+  ],
+  "description_content_type": null,
+  "docs_url": null,
+  "download_url": null,
+  "downloads": {
+   "last_day": -1,
+   "last_month": -1,
+   "last_week": -1
+  },
+  "dynamic": [
+   "Classifier",
+   "License-File"
+  ],
+  "home_page": null,
+  "keywords": null,
+  "license": null,
+  "license_expression": null,
+  "license_files": [
+   "LICENSE"
+  ],
+  "maintainer": null,
+  "name": "pyobjus",
+  "package_url": "https://pypi.org/project/pyobjus/",
+  "platform": null,
+  "project_url": "https://pypi.org/project/pyobjus/",
+  "project_urls": null,
+  "provides_extra": null,
+  "release_url": "https://pypi.org/project/pyobjus/1.2.4/",
+  "requires_dist": null,
+  "requires_python": null,
+  "summary": null,
+  "version": "1.2.4",
+  "yanked": false,
+  "yanked_reason": null
+ },
+ "last_serial": 33247576,
+ "ownership": {
+  "organization": null,
+  "roles": [
+   {
+    "role": "Owner",
+    "user": "Mathieu.Virbel"
+   },
+   {
+    "role": "Owner",
+    "user": "kivybot"
+   },
+   {
+    "role": "Owner",
+    "user": "matham"
+   },
+   {
+    "role": "Owner",
+    "user": "misl6"
+   },
+   {
+    "role": "Owner",
+    "user": "tshirtman"
+   }
+  ]
+ },
+ "releases": {
+  "1.1.0": [
+   {
+    "comment_text": "",
+    "core-metadata": false,
+    "digests": {
+     "blake2b_256": "cb9e6425d66cf66892ee99ebdc86204c825d6817458328b6cdc3a6c51ad152d1",
+     "md5": "acc9e21575e39a8de02c0f10ce848bb2",
+     "sha256": "65535e1fe60501928943aee08c7fbfb3324080cfca31c7802cce02c6ce254d4b"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.1.0.tar.gz",
+    "has_sig": false,
+    "md5_digest": "acc9e21575e39a8de02c0f10ce848bb2",
+    "packagetype": "sdist",
+    "python_version": "source",
+    "requires_python": null,
+    "size": 72555,
+    "upload_time": "2018-11-14T19:35:05",
+    "upload_time_iso_8601": "2018-11-14T19:35:05.027693Z",
+    "url": "https://files.pythonhosted.org/packages/cb/9e/6425d66cf66892ee99ebdc86204c825d6817458328b6cdc3a6c51ad152d1/pyobjus-1.1.0.tar.gz",
+    "yanked": false,
+    "yanked_reason": null
+   }
+  ],
+  "1.2.0": [
+   {
+    "comment_text": "",
+    "core-metadata": false,
+    "digests": {
+     "blake2b_256": "491f909aba95b005d9108b6540c66275a06ca81ee1908899bea45deefc50eb21",
+     "md5": "fff19d3ee17bae8f76ec17e35302abe3",
+     "sha256": "68072dd4c7037393d0bd90020c49a21521ac1bf40302dc292ef16ae40e148d9c"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.0.tar.gz",
+    "has_sig": false,
+    "md5_digest": "fff19d3ee17bae8f76ec17e35302abe3",
+    "packagetype": "sdist",
+    "python_version": "source",
+    "requires_python": null,
+    "size": 165946,
+    "upload_time": "2020-11-09T23:18:50",
+    "upload_time_iso_8601": "2020-11-09T23:18:50.268977Z",
+    "url": "https://files.pythonhosted.org/packages/49/1f/909aba95b005d9108b6540c66275a06ca81ee1908899bea45deefc50eb21/pyobjus-1.2.0.tar.gz",
+    "yanked": false,
+    "yanked_reason": null
+   }
+  ],
+  "1.2.1": [
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "1b4dc5875150f0e367295082cfa0d5992e97b92130584a4f4b78dcb977c24ec2",
+     "md5": "a5817aab936d413c281281b4f2e1f3c8",
+     "sha256": "9f83fe1bcb05b9f88efb0acaaeeb77b9a40351ec66cd2ec4479c0abad9613d5f"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp310-cp310-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "a5817aab936d413c281281b4f2e1f3c8",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp310",
+    "requires_python": null,
+    "size": 691028,
+    "upload_time": "2022-03-26T19:08:46",
+    "upload_time_iso_8601": "2022-03-26T19:08:46.017011Z",
+    "url": "https://files.pythonhosted.org/packages/1b/4d/c5875150f0e367295082cfa0d5992e97b92130584a4f4b78dcb977c24ec2/pyobjus-1.2.1-cp310-cp310-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "2300ba214af9b69fda23235dba05b348216d4db59cb830e2bec1ccc73fffb796",
+     "md5": "c43c801bb8b10e456fbb2371d4e95cf0",
+     "sha256": "3ca1aef5bfef64b57465cfd1a8ac04c5d6afac9a280d9bfa13bc0b357884aaff"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp310-cp310-macosx_10_9_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "c43c801bb8b10e456fbb2371d4e95cf0",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp310",
+    "requires_python": null,
+    "size": 404764,
+    "upload_time": "2022-03-26T19:08:47",
+    "upload_time_iso_8601": "2022-03-26T19:08:47.734193Z",
+    "url": "https://files.pythonhosted.org/packages/23/00/ba214af9b69fda23235dba05b348216d4db59cb830e2bec1ccc73fffb796/pyobjus-1.2.1-cp310-cp310-macosx_10_9_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "d7b3a2ec3a33996742a0e37b025e8d9c3c7e72278ba1a5a059ac74a58cda31ae",
+     "md5": "0435fdee05c3c9dcc8f78212cb47f1f6",
+     "sha256": "3be276e6141326885943fb0bc9b0d3bd265e2f8c2cf5f97d1121020d3c05604e"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp310-cp310-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "0435fdee05c3c9dcc8f78212cb47f1f6",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp310",
+    "requires_python": null,
+    "size": 344749,
+    "upload_time": "2022-03-26T19:08:49",
+    "upload_time_iso_8601": "2022-03-26T19:08:49.224327Z",
+    "url": "https://files.pythonhosted.org/packages/d7/b3/a2ec3a33996742a0e37b025e8d9c3c7e72278ba1a5a059ac74a58cda31ae/pyobjus-1.2.1-cp310-cp310-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "1c107fb529ee1e9b44394adf67700fda527d4145f32606d5da4ce34fbfd2d757"
+    },
+    "digests": {
+     "blake2b_256": "7c65cbc46a2e62402563230d8b421cebb447ae154d0331e1cb549713e3c43e4f",
+     "md5": "ee85f726bcbb0d8f2631e630c4577089",
+     "sha256": "281de6699d6d50f7186ec8c5f416ae788999c1cf059aaad28afc390f8201ccaa"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp36-cp36m-macosx_10_9_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "ee85f726bcbb0d8f2631e630c4577089",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp36",
+    "requires_python": null,
+    "size": 382693,
+    "upload_time": "2022-03-26T19:08:50",
+    "upload_time_iso_8601": "2022-03-26T19:08:50.788845Z",
+    "url": "https://files.pythonhosted.org/packages/7c/65/cbc46a2e62402563230d8b421cebb447ae154d0331e1cb549713e3c43e4f/pyobjus-1.2.1-cp36-cp36m-macosx_10_9_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "9d309b45c59d2d16efacb60399c8b9c5883ee88e612cc3abc3a956eee6689913",
+     "md5": "a12898d1734d3f5b2d28cba51b32b1da",
+     "sha256": "fa1a3875335ebc85b78e64d71c0212cee59609c3105467ff28e943e206fb0223"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "a12898d1734d3f5b2d28cba51b32b1da",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp37",
+    "requires_python": null,
+    "size": 385819,
+    "upload_time": "2022-03-26T19:08:52",
+    "upload_time_iso_8601": "2022-03-26T19:08:52.218136Z",
+    "url": "https://files.pythonhosted.org/packages/9d/30/9b45c59d2d16efacb60399c8b9c5883ee88e612cc3abc3a956eee6689913/pyobjus-1.2.1-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "e576116c67a6afe6443ac2d48417046411737ecd0f9077cad12968f845bf2ed3",
+     "md5": "014de226b48ea4e78d9a1dbc7afa6446",
+     "sha256": "1443cb43059b0b2a0378f2a98c0432b87d626c3fd92f6516a50d831b7226c7ad"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp38-cp38-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "014de226b48ea4e78d9a1dbc7afa6446",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp38",
+    "requires_python": null,
+    "size": 675925,
+    "upload_time": "2022-03-26T19:08:53",
+    "upload_time_iso_8601": "2022-03-26T19:08:53.924893Z",
+    "url": "https://files.pythonhosted.org/packages/e5/76/116c67a6afe6443ac2d48417046411737ecd0f9077cad12968f845bf2ed3/pyobjus-1.2.1-cp38-cp38-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "590055e6353ff5cbde11d654b81f955128fce70a25e4cc175e81878af057a51e",
+     "md5": "fdc59a7838eaa5ae6d9822de7e11f43b",
+     "sha256": "a0c5781b74dc2dcc3125ac2557474e5e3ded170f1a02773480de75b3ee750d18"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "fdc59a7838eaa5ae6d9822de7e11f43b",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp38",
+    "requires_python": null,
+    "size": 395844,
+    "upload_time": "2022-03-26T19:08:55",
+    "upload_time_iso_8601": "2022-03-26T19:08:55.488810Z",
+    "url": "https://files.pythonhosted.org/packages/59/00/55e6353ff5cbde11d654b81f955128fce70a25e4cc175e81878af057a51e/pyobjus-1.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "fd72272badd630e0e53116d041ab520e304f063e03a208e61f08c5db654f03f2",
+     "md5": "e1de32c7a3707a0d15c299e5df38b490",
+     "sha256": "8dccaa1809daa8022918cfbfbb0b9a42900ee8d5226d52496ca07e3f14b0c8c4"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp38-cp38-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "e1de32c7a3707a0d15c299e5df38b490",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp38",
+    "requires_python": null,
+    "size": 338558,
+    "upload_time": "2022-03-26T19:08:56",
+    "upload_time_iso_8601": "2022-03-26T19:08:56.815113Z",
+    "url": "https://files.pythonhosted.org/packages/fd/72/272badd630e0e53116d041ab520e304f063e03a208e61f08c5db654f03f2/pyobjus-1.2.1-cp38-cp38-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "bc93836d7a15a02699d77dd0778c8b577d3715bcb8549cdf8aa7adaee6814fb8",
+     "md5": "eb1042d5f44c770ea994bdc8b362c7da",
+     "sha256": "66b745888ad110d8431ac3992abaa41c2ad34cf190f4c25a194360b1c9913f1d"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp39-cp39-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "eb1042d5f44c770ea994bdc8b362c7da",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp39",
+    "requires_python": null,
+    "size": 691156,
+    "upload_time": "2022-03-26T19:08:58",
+    "upload_time_iso_8601": "2022-03-26T19:08:58.462183Z",
+    "url": "https://files.pythonhosted.org/packages/bc/93/836d7a15a02699d77dd0778c8b577d3715bcb8549cdf8aa7adaee6814fb8/pyobjus-1.2.1-cp39-cp39-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "d6f408160bfeb015f04f2aac240dc0e096deb6681647cf10d5abcdfce8262423",
+     "md5": "1972e64baa826f10d57120eaa70417a7",
+     "sha256": "83b057ade0ce809235e2d4c0a29bfe0ba992d14be4a29bc405b727223dd137c8"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp39-cp39-macosx_10_9_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "1972e64baa826f10d57120eaa70417a7",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp39",
+    "requires_python": null,
+    "size": 404776,
+    "upload_time": "2022-03-26T19:08:59",
+    "upload_time_iso_8601": "2022-03-26T19:08:59.875137Z",
+    "url": "https://files.pythonhosted.org/packages/d6/f4/08160bfeb015f04f2aac240dc0e096deb6681647cf10d5abcdfce8262423/pyobjus-1.2.1-cp39-cp39-macosx_10_9_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "b1af6b31bb41259c9b4724770468fc3c71e64303680d874f27474a616b8f6730"
+    },
+    "digests": {
+     "blake2b_256": "c685df6dc3a84f26876eb3658d1b5f54937a2a0b9e6c1d17b6161ed48432ea59",
+     "md5": "09a5de97a6f3dc042f96084e9fbd00a2",
+     "sha256": "7058582f73cca807f2a07a8992c062f2a86b503c4de8841ba2d2ec93519c8a99"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1-cp39-cp39-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "09a5de97a6f3dc042f96084e9fbd00a2",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp39",
+    "requires_python": null,
+    "size": 344830,
+    "upload_time": "2022-03-26T19:09:01",
+    "upload_time_iso_8601": "2022-03-26T19:09:01.132359Z",
+    "url": "https://files.pythonhosted.org/packages/c6/85/df6dc3a84f26876eb3658d1b5f54937a2a0b9e6c1d17b6161ed48432ea59/pyobjus-1.2.1-cp39-cp39-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": false,
+    "digests": {
+     "blake2b_256": "eb57193e5e27d9fd48dcb5b47e074e952d72152bef3bc48071e48a86c43e8115",
+     "md5": "951e58438987cefaa0dd2f920a75de20",
+     "sha256": "6fdd31df086cbcbcb2ab39c747d8fabe4d486192c0238a619473e330549d9cb4"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.1.tar.gz",
+    "has_sig": false,
+    "md5_digest": "951e58438987cefaa0dd2f920a75de20",
+    "packagetype": "sdist",
+    "python_version": "source",
+    "requires_python": null,
+    "size": 167763,
+    "upload_time": "2022-03-26T19:09:02",
+    "upload_time_iso_8601": "2022-03-26T19:09:02.541169Z",
+    "url": "https://files.pythonhosted.org/packages/eb/57/193e5e27d9fd48dcb5b47e074e952d72152bef3bc48071e48a86c43e8115/pyobjus-1.2.1.tar.gz",
+    "yanked": false,
+    "yanked_reason": null
+   }
+  ],
+  "1.2.2": [
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "0714f96298e8306facb510df89e4a35ca63544dd1031cd03c190c7c17fe7a8e6"
+    },
+    "digests": {
+     "blake2b_256": "f67eeeb0beec6d9e91718b68ec5731013b2e809c34ffde8382e2bf1988083ff6",
+     "md5": "1e6fad0e5076e16a6c630b9e74520074",
+     "sha256": "5bc305b93f49df16e1cf95131d9815fefa155d4e48657b6409a75d4be6a80f6e"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.2-cp310-cp310-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "1e6fad0e5076e16a6c630b9e74520074",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp310",
+    "requires_python": null,
+    "size": 665439,
+    "upload_time": "2023-05-13T12:00:28",
+    "upload_time_iso_8601": "2023-05-13T12:00:28.622999Z",
+    "url": "https://files.pythonhosted.org/packages/f6/7e/eeb0beec6d9e91718b68ec5731013b2e809c34ffde8382e2bf1988083ff6/pyobjus-1.2.2-cp310-cp310-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "0714f96298e8306facb510df89e4a35ca63544dd1031cd03c190c7c17fe7a8e6"
+    },
+    "digests": {
+     "blake2b_256": "e539f46436b7e2e0c4470aab750701834f7da1ca0cfd5c815f29d87f9bca623d",
+     "md5": "a2bdb9d041897f00caa2c1a3663c4e2c",
+     "sha256": "e559d5c8fbca4027fdd9c05573c190b7b9525cac86b936b796d0fa2cf7b01d79"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.2-cp311-cp311-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "a2bdb9d041897f00caa2c1a3663c4e2c",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp311",
+    "requires_python": null,
+    "size": 683581,
+    "upload_time": "2023-05-13T12:00:30",
+    "upload_time_iso_8601": "2023-05-13T12:00:30.732981Z",
+    "url": "https://files.pythonhosted.org/packages/e5/39/f46436b7e2e0c4470aab750701834f7da1ca0cfd5c815f29d87f9bca623d/pyobjus-1.2.2-cp311-cp311-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "0714f96298e8306facb510df89e4a35ca63544dd1031cd03c190c7c17fe7a8e6"
+    },
+    "digests": {
+     "blake2b_256": "e0f9e31d603eba91f40588997c0057e13be608829a6d65bc10fa3848683fcf45",
+     "md5": "5114393dd55d261f0d6eb33a61abd7a9",
+     "sha256": "7285b73d148ab4de7809e43f4f0252d4cf70a2d3d9b54d84b4c3dda3f5ad5805"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.2-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "5114393dd55d261f0d6eb33a61abd7a9",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp37",
+    "requires_python": null,
+    "size": 385240,
+    "upload_time": "2023-05-13T12:00:33",
+    "upload_time_iso_8601": "2023-05-13T12:00:33.019462Z",
+    "url": "https://files.pythonhosted.org/packages/e0/f9/e31d603eba91f40588997c0057e13be608829a6d65bc10fa3848683fcf45/pyobjus-1.2.2-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "0714f96298e8306facb510df89e4a35ca63544dd1031cd03c190c7c17fe7a8e6"
+    },
+    "digests": {
+     "blake2b_256": "3231151ee9b6187830e7524da8d62de3dc1981cfcfc800f12ecb942feed0398f",
+     "md5": "990f20704059fb4b8eda8c6755beb8a4",
+     "sha256": "57a33c969c3ec17ca385239e7f1a792353809dd58e5f1237f9a5a7f20217303e"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.2-cp38-cp38-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "990f20704059fb4b8eda8c6755beb8a4",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp38",
+    "requires_python": null,
+    "size": 680245,
+    "upload_time": "2023-05-13T12:00:34",
+    "upload_time_iso_8601": "2023-05-13T12:00:34.782533Z",
+    "url": "https://files.pythonhosted.org/packages/32/31/151ee9b6187830e7524da8d62de3dc1981cfcfc800f12ecb942feed0398f/pyobjus-1.2.2-cp38-cp38-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "0714f96298e8306facb510df89e4a35ca63544dd1031cd03c190c7c17fe7a8e6"
+    },
+    "digests": {
+     "blake2b_256": "b36d5e2efff3b69f024397d1d6eb8d17dbc1c7df04273a22ed36c2c3dcc615d8",
+     "md5": "71cdcf007f7c05f627bc219f38c1d1de",
+     "sha256": "228a6d5856fd16f6312aae1724de8cda60fb45eb282d4154bed364108a972820"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.2-cp39-cp39-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "71cdcf007f7c05f627bc219f38c1d1de",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp39",
+    "requires_python": null,
+    "size": 695077,
+    "upload_time": "2023-05-13T12:00:36",
+    "upload_time_iso_8601": "2023-05-13T12:00:36.380839Z",
+    "url": "https://files.pythonhosted.org/packages/b3/6d/5e2efff3b69f024397d1d6eb8d17dbc1c7df04273a22ed36c2c3dcc615d8/pyobjus-1.2.2-cp39-cp39-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": false,
+    "digests": {
+     "blake2b_256": "27ed54ca91e33b3ccc64ce60f0324982650b2272da6f247a3b9fce4e9afce66a",
+     "md5": "c9f542bd99d11131351ca0b1f90be5b5",
+     "sha256": "e109460a5821a8ec6ae5f5a10023e870c275b25114e5fe3cbcdd6ffe0baebef1"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.2.tar.gz",
+    "has_sig": false,
+    "md5_digest": "c9f542bd99d11131351ca0b1f90be5b5",
+    "packagetype": "sdist",
+    "python_version": "source",
+    "requires_python": null,
+    "size": 167664,
+    "upload_time": "2023-05-13T12:00:38",
+    "upload_time_iso_8601": "2023-05-13T12:00:38.736725Z",
+    "url": "https://files.pythonhosted.org/packages/27/ed/54ca91e33b3ccc64ce60f0324982650b2272da6f247a3b9fce4e9afce66a/pyobjus-1.2.2.tar.gz",
+    "yanked": false,
+    "yanked_reason": null
+   }
+  ],
+  "1.2.3": [
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "a1f316641533730f4f2974dc15330a27ded7a12e85e268657f84d889a4b8456b"
+    },
+    "digests": {
+     "blake2b_256": "49dacdaf37b9b87ee3c381c6f594b4a704df29d3aca783e6bbf1d176d923c1e5",
+     "md5": "1cc660f62713188a5b8391415f6cfb21",
+     "sha256": "c67aaaa548a0f39a4463f4d09b7f70d77cf3d8795ac269e758d331da020cbd07"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.3-cp310-cp310-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "1cc660f62713188a5b8391415f6cfb21",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp310",
+    "requires_python": null,
+    "size": 686614,
+    "upload_time": "2023-10-20T16:47:30",
+    "upload_time_iso_8601": "2023-10-20T16:47:30.849507Z",
+    "url": "https://files.pythonhosted.org/packages/49/da/cdaf37b9b87ee3c381c6f594b4a704df29d3aca783e6bbf1d176d923c1e5/pyobjus-1.2.3-cp310-cp310-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "a1f316641533730f4f2974dc15330a27ded7a12e85e268657f84d889a4b8456b"
+    },
+    "digests": {
+     "blake2b_256": "e6418fae5df4eafaf598a60f0f929a1514f1e9ddddb0b2695a847d4557555131",
+     "md5": "cfe8e3005e5e30739a924e34f733b044",
+     "sha256": "53a79b1d07c6382c5f485400fac2c19cf3cd285aeabc06a26f55815d517d9409"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.3-cp311-cp311-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "cfe8e3005e5e30739a924e34f733b044",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp311",
+    "requires_python": null,
+    "size": 714869,
+    "upload_time": "2023-10-20T16:47:32",
+    "upload_time_iso_8601": "2023-10-20T16:47:32.691470Z",
+    "url": "https://files.pythonhosted.org/packages/e6/41/8fae5df4eafaf598a60f0f929a1514f1e9ddddb0b2695a847d4557555131/pyobjus-1.2.3-cp311-cp311-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "a1f316641533730f4f2974dc15330a27ded7a12e85e268657f84d889a4b8456b"
+    },
+    "digests": {
+     "blake2b_256": "bfa1efb2a1492bfd75a71c63a2b8eb5c2efd25c72b9378f1e78e132051360fbf",
+     "md5": "8f1d1917820252015383809877f3a2f5",
+     "sha256": "945f71953d15dfefb16987ee96ef3b8e4c89bee512cd722807f0b3cbab0cc4cf"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.3-cp312-cp312-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "8f1d1917820252015383809877f3a2f5",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp312",
+    "requires_python": null,
+    "size": 661812,
+    "upload_time": "2023-10-20T16:47:34",
+    "upload_time_iso_8601": "2023-10-20T16:47:34.499461Z",
+    "url": "https://files.pythonhosted.org/packages/bf/a1/efb2a1492bfd75a71c63a2b8eb5c2efd25c72b9378f1e78e132051360fbf/pyobjus-1.2.3-cp312-cp312-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "a1f316641533730f4f2974dc15330a27ded7a12e85e268657f84d889a4b8456b"
+    },
+    "digests": {
+     "blake2b_256": "24906e9a4506848c071bf43ded9810e35dadda08e945e6a1b460447bf37eef1c",
+     "md5": "83e1b073aa2e131e25c3f4a0588256d7",
+     "sha256": "8d0c37e689d6b1f64dc916947215abb3c1c9bcc9dbf16dbe425d601d32f36438"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.3-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "83e1b073aa2e131e25c3f4a0588256d7",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp37",
+    "requires_python": null,
+    "size": 379517,
+    "upload_time": "2023-10-20T16:47:36",
+    "upload_time_iso_8601": "2023-10-20T16:47:36.051237Z",
+    "url": "https://files.pythonhosted.org/packages/24/90/6e9a4506848c071bf43ded9810e35dadda08e945e6a1b460447bf37eef1c/pyobjus-1.2.3-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "a1f316641533730f4f2974dc15330a27ded7a12e85e268657f84d889a4b8456b"
+    },
+    "digests": {
+     "blake2b_256": "64c882366382b367779db5480f8d7562992b940fc67376d9dd7c38eb787cf1c3",
+     "md5": "26f951986c36e29ca34d616b0006fa68",
+     "sha256": "995e3c342d11b68a7f77bdbcae2c9515e7494ddc005e15831ec8eae3606357b0"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.3-cp38-cp38-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "26f951986c36e29ca34d616b0006fa68",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp38",
+    "requires_python": null,
+    "size": 685702,
+    "upload_time": "2023-10-20T16:47:37",
+    "upload_time_iso_8601": "2023-10-20T16:47:37.801871Z",
+    "url": "https://files.pythonhosted.org/packages/64/c8/82366382b367779db5480f8d7562992b940fc67376d9dd7c38eb787cf1c3/pyobjus-1.2.3-cp38-cp38-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": {
+     "sha256": "a1f316641533730f4f2974dc15330a27ded7a12e85e268657f84d889a4b8456b"
+    },
+    "digests": {
+     "blake2b_256": "340f6950e4d54796ef206d30b9f0257924db142bc3ed7f81e8d033cf54b15190",
+     "md5": "774d1613ab66cc6d8c7a5f3e158cfce3",
+     "sha256": "9ba78fb05f567ac3415f61093c3cc1ff45e0693c5edc40efa3c5f413e6f99776"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.3-cp39-cp39-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "774d1613ab66cc6d8c7a5f3e158cfce3",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp39",
+    "requires_python": null,
+    "size": 687191,
+    "upload_time": "2023-10-20T16:47:39",
+    "upload_time_iso_8601": "2023-10-20T16:47:39.567819Z",
+    "url": "https://files.pythonhosted.org/packages/34/0f/6950e4d54796ef206d30b9f0257924db142bc3ed7f81e8d033cf54b15190/pyobjus-1.2.3-cp39-cp39-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": "",
+    "core-metadata": false,
+    "digests": {
+     "blake2b_256": "9f109adaee5addd296f911971badadd741c24692ae51afc7ce87aefc78d7b7e5",
+     "md5": "ea86827779ce7d7ea40f765bd2243617",
+     "sha256": "de0b129d986b33fbdd0967aef83b1268868d91227bbc001f4a7c5d1bb8221074"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.3.tar.gz",
+    "has_sig": false,
+    "md5_digest": "ea86827779ce7d7ea40f765bd2243617",
+    "packagetype": "sdist",
+    "python_version": "source",
+    "requires_python": null,
+    "size": 168226,
+    "upload_time": "2023-10-20T16:47:41",
+    "upload_time_iso_8601": "2023-10-20T16:47:41.087154Z",
+    "url": "https://files.pythonhosted.org/packages/9f/10/9adaee5addd296f911971badadd741c24692ae51afc7ce87aefc78d7b7e5/pyobjus-1.2.3.tar.gz",
+    "yanked": false,
+    "yanked_reason": null
+   }
+  ],
+  "1.2.4": [
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "5e78e75613faed2f1336d1a2549b5376d80c83f21f0aee6842d6cac91893c8ae",
+     "md5": "14a83889e24bc4e392f30bffea9fe563",
+     "sha256": "cf261b1388003095199a8f0267f31505573cbceef6ad3e4724be364268b16148"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp310-cp310-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "14a83889e24bc4e392f30bffea9fe563",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp310",
+    "requires_python": null,
+    "size": 547886,
+    "upload_time": "2025-12-29T14:48:05",
+    "upload_time_iso_8601": "2025-12-29T14:48:05.968672Z",
+    "url": "https://files.pythonhosted.org/packages/5e/78/e75613faed2f1336d1a2549b5376d80c83f21f0aee6842d6cac91893c8ae/pyobjus-1.2.4-cp310-cp310-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "f39c0328355bbe08c4a71d839c11c11f929b3c4e11f064d2f9b7480fd0d8bfc3",
+     "md5": "74fb2c499f63528ca77026c1750bd840",
+     "sha256": "e83175b910bae4946e6464396d7a68e336b5ccfa81f7e9d1c7a46f06ec97efc5"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp311-cp311-macosx_10_9_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "74fb2c499f63528ca77026c1750bd840",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp311",
+    "requires_python": null,
+    "size": 551941,
+    "upload_time": "2025-12-29T14:48:07",
+    "upload_time_iso_8601": "2025-12-29T14:48:07.298127Z",
+    "url": "https://files.pythonhosted.org/packages/f3/9c/0328355bbe08c4a71d839c11c11f929b3c4e11f064d2f9b7480fd0d8bfc3/pyobjus-1.2.4-cp311-cp311-macosx_10_9_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "942440bbd10854f110ba5812881553d017c276e52c477dfddf151cdac3667f81",
+     "md5": "513eb2a9dcc7bf63144a2d98a04998e6",
+     "sha256": "f4da2314b85a57b67e1101493b94da245f03cef8465da698ff5949bec13e8d37"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp312-cp312-macosx_10_13_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "513eb2a9dcc7bf63144a2d98a04998e6",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp312",
+    "requires_python": null,
+    "size": 529439,
+    "upload_time": "2025-12-29T14:48:08",
+    "upload_time_iso_8601": "2025-12-29T14:48:08.741060Z",
+    "url": "https://files.pythonhosted.org/packages/94/24/40bbd10854f110ba5812881553d017c276e52c477dfddf151cdac3667f81/pyobjus-1.2.4-cp312-cp312-macosx_10_13_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "50d4730e1767fb55db56b20561180cf3553f429b78f56f24c34064fd41a893c1",
+     "md5": "884cf619a961d1a4824f7df63a0a3e17",
+     "sha256": "5ce6202c9d4f3ef62acc132ece498f7ae599061c8071c26623ad545cb37ea7ee"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphoneos.whl",
+    "has_sig": false,
+    "md5_digest": "884cf619a961d1a4824f7df63a0a3e17",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp313",
+    "requires_python": null,
+    "size": 279773,
+    "upload_time": "2025-12-29T14:48:09",
+    "upload_time_iso_8601": "2025-12-29T14:48:09.968582Z",
+    "url": "https://files.pythonhosted.org/packages/50/d4/730e1767fb55db56b20561180cf3553f429b78f56f24c34064fd41a893c1/pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphoneos.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "a0fb879560b837eedfabebe16d7fcf1ca96e9139535651d9a42acb14ef9351c5",
+     "md5": "1924f4448beac48a29494d1f26bf1bf7",
+     "sha256": "737124a6ee884150f0d74a3193830e0cf04704334c1c41a4fc1738abec433571"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphonesimulator.whl",
+    "has_sig": false,
+    "md5_digest": "1924f4448beac48a29494d1f26bf1bf7",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp313",
+    "requires_python": null,
+    "size": 286164,
+    "upload_time": "2025-12-29T14:48:11",
+    "upload_time_iso_8601": "2025-12-29T14:48:11.098576Z",
+    "url": "https://files.pythonhosted.org/packages/a0/fb/879560b837eedfabebe16d7fcf1ca96e9139535651d9a42acb14ef9351c5/pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphonesimulator.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "34e27d49052b1fe81025dd134905b2580a291aa496d3bf8e684aaf32e6ab750e",
+     "md5": "0384d55c821f5178261df51ca638b4e1",
+     "sha256": "7e98cd16ff66404783d0629d28a58122c6789d6b6b54dab200aa176afa35e2e4"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_x86_64_iphonesimulator.whl",
+    "has_sig": false,
+    "md5_digest": "0384d55c821f5178261df51ca638b4e1",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp313",
+    "requires_python": null,
+    "size": 302408,
+    "upload_time": "2025-12-29T14:48:12",
+    "upload_time_iso_8601": "2025-12-29T14:48:12.249810Z",
+    "url": "https://files.pythonhosted.org/packages/34/e2/7d49052b1fe81025dd134905b2580a291aa496d3bf8e684aaf32e6ab750e/pyobjus-1.2.4-cp313-cp313-ios_13_0_x86_64_iphonesimulator.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "3f51ed32815d349a27ff9e46f814f61420e8b6147bdd9f94b22bb0b7be17efc8",
+     "md5": "8f5ba14b35e361c7fa8b7cb47bf1bd48",
+     "sha256": "248c70d84ab026aeaecb25703042ba3e25ec72a42e5f30ff2f2b7ec1197ac621"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp313-cp313-macosx_10_13_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "8f5ba14b35e361c7fa8b7cb47bf1bd48",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp313",
+    "requires_python": null,
+    "size": 525787,
+    "upload_time": "2025-12-29T14:48:13",
+    "upload_time_iso_8601": "2025-12-29T14:48:13.339711Z",
+    "url": "https://files.pythonhosted.org/packages/3f/51/ed32815d349a27ff9e46f814f61420e8b6147bdd9f94b22bb0b7be17efc8/pyobjus-1.2.4-cp313-cp313-macosx_10_13_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "00077626f16162c3e9a2df6eac876d5cff2a2eb31f6a9f204a421cd9d3902909",
+     "md5": "ab4b6170955175796cf3544246627044",
+     "sha256": "1a23280fd78db520cafe01b4637b1aaa9ff09845fd74e37b9d5682914f838700"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphoneos.whl",
+    "has_sig": false,
+    "md5_digest": "ab4b6170955175796cf3544246627044",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp314",
+    "requires_python": null,
+    "size": 282928,
+    "upload_time": "2025-12-29T14:48:14",
+    "upload_time_iso_8601": "2025-12-29T14:48:14.457640Z",
+    "url": "https://files.pythonhosted.org/packages/00/07/7626f16162c3e9a2df6eac876d5cff2a2eb31f6a9f204a421cd9d3902909/pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphoneos.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "e37b820b8f73057cdecff00cea5b6c84becb9f73430578f6b61fa009d1c4b777",
+     "md5": "8135b62877b45617c6e03e0a30664717",
+     "sha256": "369a509de7ef951284ea448654c1b8c532fe22c2a29704a0e1636aa087df3463"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl",
+    "has_sig": false,
+    "md5_digest": "8135b62877b45617c6e03e0a30664717",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp314",
+    "requires_python": null,
+    "size": 289512,
+    "upload_time": "2025-12-29T14:48:15",
+    "upload_time_iso_8601": "2025-12-29T14:48:15.325472Z",
+    "url": "https://files.pythonhosted.org/packages/e3/7b/820b8f73057cdecff00cea5b6c84becb9f73430578f6b61fa009d1c4b777/pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "d47d3c2e4f7579176c90faf22efda6840fc4f87d9486bb2e2889320fc7989241",
+     "md5": "f5779b6ca28bb128ff35d01226007cc1",
+     "sha256": "e729ecca4e37429a9b00148853e73dc36c413b415086060722fa3d7fe58ede4a"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_x86_64_iphonesimulator.whl",
+    "has_sig": false,
+    "md5_digest": "f5779b6ca28bb128ff35d01226007cc1",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp314",
+    "requires_python": null,
+    "size": 303774,
+    "upload_time": "2025-12-29T14:48:16",
+    "upload_time_iso_8601": "2025-12-29T14:48:16.234274Z",
+    "url": "https://files.pythonhosted.org/packages/d4/7d/3c2e4f7579176c90faf22efda6840fc4f87d9486bb2e2889320fc7989241/pyobjus-1.2.4-cp314-cp314-ios_13_0_x86_64_iphonesimulator.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": {
+     "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+    },
+    "digests": {
+     "blake2b_256": "6ad50591cb8e3441b2ecaf68db91ea9b2aad10a5376b11136b69cd3498456632",
+     "md5": "921980f2bd2cf3c6f8518d2ba847be40",
+     "sha256": "ef95271d1ec30d4ae61a4f6a66e6fcbf2e41e2420c3fcde5062acc6545565e3d"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4-cp314-cp314-macosx_10_15_universal2.whl",
+    "has_sig": false,
+    "md5_digest": "921980f2bd2cf3c6f8518d2ba847be40",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp314",
+    "requires_python": null,
+    "size": 526356,
+    "upload_time": "2025-12-29T14:48:17",
+    "upload_time_iso_8601": "2025-12-29T14:48:17.155241Z",
+    "url": "https://files.pythonhosted.org/packages/6a/d5/0591cb8e3441b2ecaf68db91ea9b2aad10a5376b11136b69cd3498456632/pyobjus-1.2.4-cp314-cp314-macosx_10_15_universal2.whl",
+    "yanked": false,
+    "yanked_reason": null
+   },
+   {
+    "comment_text": null,
+    "core-metadata": false,
+    "digests": {
+     "blake2b_256": "3675f7ae38607648f9ccb363447b83480fcf0e582c42d62908bbcce05afbe754",
+     "md5": "efb4e77a9ed28998c0ffb970b9d69811",
+     "sha256": "4877101ff3b70b7fd2b12b2878ab23ee488018ce613f12948b58ff4c7e363388"
+    },
+    "downloads": -1,
+    "filename": "pyobjus-1.2.4.tar.gz",
+    "has_sig": false,
+    "md5_digest": "efb4e77a9ed28998c0ffb970b9d69811",
+    "packagetype": "sdist",
+    "python_version": "source",
+    "requires_python": null,
+    "size": 167844,
+    "upload_time": "2025-12-29T14:48:18",
+    "upload_time_iso_8601": "2025-12-29T14:48:18.514858Z",
+    "url": "https://files.pythonhosted.org/packages/36/75/f7ae38607648f9ccb363447b83480fcf0e582c42d62908bbcce05afbe754/pyobjus-1.2.4.tar.gz",
+    "yanked": false,
+    "yanked_reason": null
+   }
+  ]
+ },
+ "urls": [
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "5e78e75613faed2f1336d1a2549b5376d80c83f21f0aee6842d6cac91893c8ae",
+    "md5": "14a83889e24bc4e392f30bffea9fe563",
+    "sha256": "cf261b1388003095199a8f0267f31505573cbceef6ad3e4724be364268b16148"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp310-cp310-macosx_10_9_universal2.whl",
+   "has_sig": false,
+   "md5_digest": "14a83889e24bc4e392f30bffea9fe563",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp310",
+   "requires_python": null,
+   "size": 547886,
+   "upload_time": "2025-12-29T14:48:05",
+   "upload_time_iso_8601": "2025-12-29T14:48:05.968672Z",
+   "url": "https://files.pythonhosted.org/packages/5e/78/e75613faed2f1336d1a2549b5376d80c83f21f0aee6842d6cac91893c8ae/pyobjus-1.2.4-cp310-cp310-macosx_10_9_universal2.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "f39c0328355bbe08c4a71d839c11c11f929b3c4e11f064d2f9b7480fd0d8bfc3",
+    "md5": "74fb2c499f63528ca77026c1750bd840",
+    "sha256": "e83175b910bae4946e6464396d7a68e336b5ccfa81f7e9d1c7a46f06ec97efc5"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp311-cp311-macosx_10_9_universal2.whl",
+   "has_sig": false,
+   "md5_digest": "74fb2c499f63528ca77026c1750bd840",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp311",
+   "requires_python": null,
+   "size": 551941,
+   "upload_time": "2025-12-29T14:48:07",
+   "upload_time_iso_8601": "2025-12-29T14:48:07.298127Z",
+   "url": "https://files.pythonhosted.org/packages/f3/9c/0328355bbe08c4a71d839c11c11f929b3c4e11f064d2f9b7480fd0d8bfc3/pyobjus-1.2.4-cp311-cp311-macosx_10_9_universal2.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "942440bbd10854f110ba5812881553d017c276e52c477dfddf151cdac3667f81",
+    "md5": "513eb2a9dcc7bf63144a2d98a04998e6",
+    "sha256": "f4da2314b85a57b67e1101493b94da245f03cef8465da698ff5949bec13e8d37"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp312-cp312-macosx_10_13_universal2.whl",
+   "has_sig": false,
+   "md5_digest": "513eb2a9dcc7bf63144a2d98a04998e6",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp312",
+   "requires_python": null,
+   "size": 529439,
+   "upload_time": "2025-12-29T14:48:08",
+   "upload_time_iso_8601": "2025-12-29T14:48:08.741060Z",
+   "url": "https://files.pythonhosted.org/packages/94/24/40bbd10854f110ba5812881553d017c276e52c477dfddf151cdac3667f81/pyobjus-1.2.4-cp312-cp312-macosx_10_13_universal2.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "50d4730e1767fb55db56b20561180cf3553f429b78f56f24c34064fd41a893c1",
+    "md5": "884cf619a961d1a4824f7df63a0a3e17",
+    "sha256": "5ce6202c9d4f3ef62acc132ece498f7ae599061c8071c26623ad545cb37ea7ee"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphoneos.whl",
+   "has_sig": false,
+   "md5_digest": "884cf619a961d1a4824f7df63a0a3e17",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp313",
+   "requires_python": null,
+   "size": 279773,
+   "upload_time": "2025-12-29T14:48:09",
+   "upload_time_iso_8601": "2025-12-29T14:48:09.968582Z",
+   "url": "https://files.pythonhosted.org/packages/50/d4/730e1767fb55db56b20561180cf3553f429b78f56f24c34064fd41a893c1/pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphoneos.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "a0fb879560b837eedfabebe16d7fcf1ca96e9139535651d9a42acb14ef9351c5",
+    "md5": "1924f4448beac48a29494d1f26bf1bf7",
+    "sha256": "737124a6ee884150f0d74a3193830e0cf04704334c1c41a4fc1738abec433571"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphonesimulator.whl",
+   "has_sig": false,
+   "md5_digest": "1924f4448beac48a29494d1f26bf1bf7",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp313",
+   "requires_python": null,
+   "size": 286164,
+   "upload_time": "2025-12-29T14:48:11",
+   "upload_time_iso_8601": "2025-12-29T14:48:11.098576Z",
+   "url": "https://files.pythonhosted.org/packages/a0/fb/879560b837eedfabebe16d7fcf1ca96e9139535651d9a42acb14ef9351c5/pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphonesimulator.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "34e27d49052b1fe81025dd134905b2580a291aa496d3bf8e684aaf32e6ab750e",
+    "md5": "0384d55c821f5178261df51ca638b4e1",
+    "sha256": "7e98cd16ff66404783d0629d28a58122c6789d6b6b54dab200aa176afa35e2e4"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_x86_64_iphonesimulator.whl",
+   "has_sig": false,
+   "md5_digest": "0384d55c821f5178261df51ca638b4e1",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp313",
+   "requires_python": null,
+   "size": 302408,
+   "upload_time": "2025-12-29T14:48:12",
+   "upload_time_iso_8601": "2025-12-29T14:48:12.249810Z",
+   "url": "https://files.pythonhosted.org/packages/34/e2/7d49052b1fe81025dd134905b2580a291aa496d3bf8e684aaf32e6ab750e/pyobjus-1.2.4-cp313-cp313-ios_13_0_x86_64_iphonesimulator.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "3f51ed32815d349a27ff9e46f814f61420e8b6147bdd9f94b22bb0b7be17efc8",
+    "md5": "8f5ba14b35e361c7fa8b7cb47bf1bd48",
+    "sha256": "248c70d84ab026aeaecb25703042ba3e25ec72a42e5f30ff2f2b7ec1197ac621"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp313-cp313-macosx_10_13_universal2.whl",
+   "has_sig": false,
+   "md5_digest": "8f5ba14b35e361c7fa8b7cb47bf1bd48",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp313",
+   "requires_python": null,
+   "size": 525787,
+   "upload_time": "2025-12-29T14:48:13",
+   "upload_time_iso_8601": "2025-12-29T14:48:13.339711Z",
+   "url": "https://files.pythonhosted.org/packages/3f/51/ed32815d349a27ff9e46f814f61420e8b6147bdd9f94b22bb0b7be17efc8/pyobjus-1.2.4-cp313-cp313-macosx_10_13_universal2.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "00077626f16162c3e9a2df6eac876d5cff2a2eb31f6a9f204a421cd9d3902909",
+    "md5": "ab4b6170955175796cf3544246627044",
+    "sha256": "1a23280fd78db520cafe01b4637b1aaa9ff09845fd74e37b9d5682914f838700"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphoneos.whl",
+   "has_sig": false,
+   "md5_digest": "ab4b6170955175796cf3544246627044",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp314",
+   "requires_python": null,
+   "size": 282928,
+   "upload_time": "2025-12-29T14:48:14",
+   "upload_time_iso_8601": "2025-12-29T14:48:14.457640Z",
+   "url": "https://files.pythonhosted.org/packages/00/07/7626f16162c3e9a2df6eac876d5cff2a2eb31f6a9f204a421cd9d3902909/pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphoneos.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "e37b820b8f73057cdecff00cea5b6c84becb9f73430578f6b61fa009d1c4b777",
+    "md5": "8135b62877b45617c6e03e0a30664717",
+    "sha256": "369a509de7ef951284ea448654c1b8c532fe22c2a29704a0e1636aa087df3463"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl",
+   "has_sig": false,
+   "md5_digest": "8135b62877b45617c6e03e0a30664717",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp314",
+   "requires_python": null,
+   "size": 289512,
+   "upload_time": "2025-12-29T14:48:15",
+   "upload_time_iso_8601": "2025-12-29T14:48:15.325472Z",
+   "url": "https://files.pythonhosted.org/packages/e3/7b/820b8f73057cdecff00cea5b6c84becb9f73430578f6b61fa009d1c4b777/pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "d47d3c2e4f7579176c90faf22efda6840fc4f87d9486bb2e2889320fc7989241",
+    "md5": "f5779b6ca28bb128ff35d01226007cc1",
+    "sha256": "e729ecca4e37429a9b00148853e73dc36c413b415086060722fa3d7fe58ede4a"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_x86_64_iphonesimulator.whl",
+   "has_sig": false,
+   "md5_digest": "f5779b6ca28bb128ff35d01226007cc1",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp314",
+   "requires_python": null,
+   "size": 303774,
+   "upload_time": "2025-12-29T14:48:16",
+   "upload_time_iso_8601": "2025-12-29T14:48:16.234274Z",
+   "url": "https://files.pythonhosted.org/packages/d4/7d/3c2e4f7579176c90faf22efda6840fc4f87d9486bb2e2889320fc7989241/pyobjus-1.2.4-cp314-cp314-ios_13_0_x86_64_iphonesimulator.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": {
+    "sha256": "4e0867d0b92d9ac004de64c7895e82cce36d517d34a38e2ac06f520e3439ebff"
+   },
+   "digests": {
+    "blake2b_256": "6ad50591cb8e3441b2ecaf68db91ea9b2aad10a5376b11136b69cd3498456632",
+    "md5": "921980f2bd2cf3c6f8518d2ba847be40",
+    "sha256": "ef95271d1ec30d4ae61a4f6a66e6fcbf2e41e2420c3fcde5062acc6545565e3d"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4-cp314-cp314-macosx_10_15_universal2.whl",
+   "has_sig": false,
+   "md5_digest": "921980f2bd2cf3c6f8518d2ba847be40",
+   "packagetype": "bdist_wheel",
+   "python_version": "cp314",
+   "requires_python": null,
+   "size": 526356,
+   "upload_time": "2025-12-29T14:48:17",
+   "upload_time_iso_8601": "2025-12-29T14:48:17.155241Z",
+   "url": "https://files.pythonhosted.org/packages/6a/d5/0591cb8e3441b2ecaf68db91ea9b2aad10a5376b11136b69cd3498456632/pyobjus-1.2.4-cp314-cp314-macosx_10_15_universal2.whl",
+   "yanked": false,
+   "yanked_reason": null
+  },
+  {
+   "comment_text": null,
+   "core-metadata": false,
+   "digests": {
+    "blake2b_256": "3675f7ae38607648f9ccb363447b83480fcf0e582c42d62908bbcce05afbe754",
+    "md5": "efb4e77a9ed28998c0ffb970b9d69811",
+    "sha256": "4877101ff3b70b7fd2b12b2878ab23ee488018ce613f12948b58ff4c7e363388"
+   },
+   "downloads": -1,
+   "filename": "pyobjus-1.2.4.tar.gz",
+   "has_sig": false,
+   "md5_digest": "efb4e77a9ed28998c0ffb970b9d69811",
+   "packagetype": "sdist",
+   "python_version": "source",
+   "requires_python": null,
+   "size": 167844,
+   "upload_time": "2025-12-29T14:48:18",
+   "upload_time_iso_8601": "2025-12-29T14:48:18.514858Z",
+   "url": "https://files.pythonhosted.org/packages/36/75/f7ae38607648f9ccb363447b83480fcf0e582c42d62908bbcce05afbe754/pyobjus-1.2.4.tar.gz",
+   "yanked": false,
+   "yanked_reason": null
+  }
+ ],
+ "vulnerabilities": []
+}

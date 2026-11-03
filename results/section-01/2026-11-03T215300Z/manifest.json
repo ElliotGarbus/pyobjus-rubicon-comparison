@@ -1,0 +1,21 @@
+{
+ "collection_finished": "2026-11-03T22:00:22+00:00",
+ "collection_started": "2026-11-03T21:53:47+00:00",
+ "repositories": {
+  "pyobjus": {
+   "commit_at_T": "0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81",
+   "commits_from_api": 510,
+   "commits_from_git": 510,
+   "default_branch": "master",
+   "repository": "kivy/pyobjus"
+  },
+  "rubicon-objc": {
+   "commit_at_T": "6bf06390f720226da3d51477f38de3ff1e680eaf",
+   "commits_from_api": 2232,
+   "commits_from_git": 2232,
+   "default_branch": "main",
+   "repository": "beeware/rubicon-objc"
+  }
+ },
+ "snapshot_T": "2026-11-03T21:53:00Z"
+}

@@ -1,0 +1,93 @@
+[
+ {
+  "date": "2022-03-18T19:52:20-04:00",
+  "line": "python-version: [\"3.6\", \"3.7\", \"3.8\", \"3.9\", \"3.10\"]",
+  "minor": 10,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "586991a2a50e14ab454bfe00b3a48b2a7b9b733f"
+ },
+ {
+  "date": "2022-03-26T13:57:26+01:00",
+  "line": "python: \"3.10\"",
+  "minor": 10,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "5830d56f227c80b4634b770b25a9848df5388452"
+ },
+ {
+  "date": "2022-03-26T13:57:26+01:00",
+  "line": "python: \"3.10.3\"",
+  "minor": 10,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "5830d56f227c80b4634b770b25a9848df5388452"
+ },
+ {
+  "date": "2023-05-13T11:31:07+02:00",
+  "line": "python: \"3.11\"",
+  "minor": 11,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "5b3715c966b22b5c71f9f0818595ef00165c4125"
+ },
+ {
+  "date": "2023-05-13T11:31:07+02:00",
+  "line": "python: \"3.10\"",
+  "minor": 10,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "5b3715c966b22b5c71f9f0818595ef00165c4125"
+ },
+ {
+  "date": "2023-05-13T11:31:07+02:00",
+  "line": "python: \"3.11\"",
+  "minor": 11,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "5b3715c966b22b5c71f9f0818595ef00165c4125"
+ },
+ {
+  "date": "2023-10-15T10:19:16+02:00",
+  "line": "- \"3.10\"",
+  "minor": 10,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "884caa5f14268441d1ce3a0fa91122e6e8538ebb"
+ },
+ {
+  "date": "2023-10-15T10:19:16+02:00",
+  "line": "- \"3.11\"",
+  "minor": 11,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "884caa5f14268441d1ce3a0fa91122e6e8538ebb"
+ },
+ {
+  "date": "2023-10-15T13:56:03+02:00",
+  "line": "- \"3.12\"",
+  "minor": 12,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "9d3c9171d3c0f94f334a959e48794b7b59bf2288"
+ },
+ {
+  "date": "2025-12-16T22:16:33+01:00",
+  "line": "- \"3.13\"",
+  "minor": 13,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "f1e4bc4b6ce4e151f0560dd722d244d60f3dcf8a"
+ },
+ {
+  "date": "2025-12-16T22:16:33+01:00",
+  "line": "- \"3.14\"",
+  "minor": 14,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "f1e4bc4b6ce4e151f0560dd722d244d60f3dcf8a"
+ },
+ {
+  "date": "2026-10-23T23:34:49+02:00",
+  "line": "python: \"3.14\"",
+  "minor": 14,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "4fd082b1aa1c58328935156ac1f4fe3949f89eb4"
+ },
+ {
+  "date": "2026-10-31T06:07:34-07:00",
+  "line": "python-version: \"3.14\"",
+  "minor": 14,
+  "path": ".github/workflows/python-package.yml",
+  "sha": "d1f76241c38c4ade161f21d4b889a1ae06ada1af"
+ }
+]

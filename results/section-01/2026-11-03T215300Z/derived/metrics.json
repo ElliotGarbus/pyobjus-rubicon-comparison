@@ -1,0 +1,2064 @@
+{
+ "snapshot_T": "2026-11-03T21:53:00Z",
+ "repositories": {
+  "pyobjus": {
+   "commit_at_T": "0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81",
+   "commits_from_api": 510,
+   "commits_from_git": 510,
+   "default_branch": "master",
+   "repository": "kivy/pyobjus"
+  },
+  "rubicon-objc": {
+   "commit_at_T": "6bf06390f720226da3d51477f38de3ff1e680eaf",
+   "commits_from_api": 2232,
+   "commits_from_git": 2232,
+   "default_branch": "main",
+   "repository": "beeware/rubicon-objc"
+  }
+ },
+ "pyobjus": {
+  "H1": {
+   "first_commit": "2012-08-14T14:39:38Z",
+   "first_commit_author": "hansent",
+   "first_commit_subject": "Initial commit",
+   "first_merged_human_pr": "2013-07-22"
+  },
+  "R1": {
+   "2018": {
+    "stable": 1
+   },
+   "2020": {
+    "stable": 1
+   },
+   "2022": {
+    "stable": 1
+   },
+   "2023": {
+    "stable": 2
+   },
+   "2025": {
+    "stable": 1
+   }
+  },
+  "R2": {
+   "version": "1.2.4",
+   "date": "2025-12-29",
+   "age_days": 309.3
+  },
+  "R3": {
+   "longest_all_time": {
+    "days": 800.9,
+    "from": "2023-10-20",
+    "to": "2025-12-29"
+   },
+   "longest_ending_in_last_5_years": {
+    "days": 800.9,
+    "from": "2023-10-20",
+    "to": "2025-12-29"
+   },
+   "median_all_time_days": 501.8,
+   "median_ending_in_last_5_years_days": 457.3,
+   "current_gap_days": 309.3
+  },
+  "R3_stable_count": 6,
+  "R4": {
+   "since_version": "1.2.4",
+   "human_prs_merged_since": 34,
+   "by_author": [
+    [
+     "ElliotGarbus",
+     32
+    ],
+    [
+     "AndreMiras",
+     2
+    ]
+   ]
+  },
+  "R5": {
+   "3.10": {
+    "python_final": "2021-10-04",
+    "a_install": {
+     "already_installable_at_final": false,
+     "version": "1.2.1",
+     "date": "2022-03-26",
+     "file": "pyobjus-1.2.1-cp310-cp310-macosx_10_9_universal2.whl",
+     "days_after_final": 173.0
+    },
+    "b_ci": {
+     "date": "2022-03-18",
+     "sha": "586991a2a50e14ab454bfe00b3a48b2a7b9b733f",
+     "line": "python-version: [\"3.6\", \"3.7\", \"3.8\", \"3.9\", \"3.10\"]",
+     "days_after_final": 165.2
+    },
+    "c_classifier": {
+     "version": "1.2.2",
+     "date": "2023-05-13",
+     "days_after_final": 585.7
+    }
+   },
+   "3.11": {
+    "python_final": "2022-10-24",
+    "a_install": {
+     "already_installable_at_final": false,
+     "version": "1.2.2",
+     "date": "2023-05-13",
+     "file": "pyobjus-1.2.2-cp311-cp311-macosx_10_9_universal2.whl",
+     "days_after_final": 200.7
+    },
+    "b_ci": {
+     "date": "2023-05-13",
+     "sha": "5b3715c966b22b5c71f9f0818595ef00165c4125",
+     "line": "python: \"3.11\"",
+     "days_after_final": 200.6
+    },
+    "c_classifier": {
+     "version": "1.2.2",
+     "date": "2023-05-13",
+     "days_after_final": 200.7
+    }
+   },
+   "3.12": {
+    "python_final": "2023-10-02",
+    "a_install": {
+     "already_installable_at_final": false,
+     "version": "1.2.3",
+     "date": "2023-10-20",
+     "file": "pyobjus-1.2.3-cp312-cp312-macosx_10_9_universal2.whl",
+     "days_after_final": 18.2
+    },
+    "b_ci": {
+     "date": "2023-10-15",
+     "sha": "9d3c9171d3c0f94f334a959e48794b7b59bf2288",
+     "line": "- \"3.12\"",
+     "days_after_final": 13.0
+    },
+    "c_classifier": {
+     "version": "1.2.3",
+     "date": "2023-10-20",
+     "days_after_final": 18.2
+    }
+   },
+   "3.13": {
+    "python_final": "2024-10-07",
+    "a_install": {
+     "already_installable_at_final": false,
+     "version": "1.2.4",
+     "date": "2025-12-29",
+     "file": "pyobjus-1.2.4-cp313-cp313-macosx_10_13_universal2.whl",
+     "days_after_final": 448.0
+    },
+    "b_ci": {
+     "date": "2025-12-16",
+     "sha": "f1e4bc4b6ce4e151f0560dd722d244d60f3dcf8a",
+     "line": "- \"3.13\"",
+     "days_after_final": 435.2
+    },
+    "c_classifier": {
+     "version": "1.2.4",
+     "date": "2025-12-29",
+     "days_after_final": 448.0
+    }
+   },
+   "3.14": {
+    "python_final": "2025-10-07",
+    "a_install": {
+     "already_installable_at_final": false,
+     "version": "1.2.4",
+     "date": "2025-12-29",
+     "file": "pyobjus-1.2.4-cp314-cp314-macosx_10_15_universal2.whl",
+     "days_after_final": 83.0
+    },
+    "b_ci": {
+     "date": "2025-12-16",
+     "sha": "f1e4bc4b6ce4e151f0560dd722d244d60f3dcf8a",
+     "line": "- \"3.14\"",
+     "days_after_final": 70.3
+    },
+    "c_classifier": {
+     "version": "1.2.4",
+     "date": "2025-12-29",
+     "days_after_final": 83.0
+    }
+   },
+   "3.15": {
+    "python_final": "2026-10-09",
+    "a_install": null,
+    "b_ci": null,
+    "c_classifier": null
+   }
+  },
+  "R6": {
+   "3.13": {
+    "already_installable_at_final": false,
+    "version": "1.2.4",
+    "date": "2025-12-29",
+    "file": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphoneos.whl",
+    "days_after_final": 448.0
+   },
+   "3.14": {
+    "already_installable_at_final": false,
+    "version": "1.2.4",
+    "date": "2025-12-29",
+    "file": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphoneos.whl",
+    "days_after_final": 83.0
+   },
+   "3.15": null
+  },
+  "A1_merged_prs": {
+   "windows": {
+    "all_time": 99,
+    "last_24_months": 40,
+    "last_12_months": 39
+   },
+   "by_year": {
+    "2013": 4,
+    "2014": 2,
+    "2015": 1,
+    "2016": 9,
+    "2017": 1,
+    "2018": 5,
+    "2019": 6,
+    "2020": 7,
+    "2021": 2,
+    "2022": 4,
+    "2023": 13,
+    "2024": 5,
+    "2025": 6,
+    "2026": 34
+   }
+  },
+  "A2_commits": {
+   "windows": {
+    "all_time": 408,
+    "last_24_months": 42,
+    "last_12_months": 41
+   },
+   "by_year": {
+    "2012": 14,
+    "2013": 157,
+    "2014": 15,
+    "2015": 11,
+    "2016": 68,
+    "2017": 7,
+    "2018": 47,
+    "2019": 9,
+    "2020": 9,
+    "2021": 3,
+    "2022": 7,
+    "2023": 13,
+    "2024": 6,
+    "2025": 6,
+    "2026": 36
+   }
+  },
+  "A3_active_months": {
+   "2012": 1,
+   "2013": 6,
+   "2014": 5,
+   "2015": 6,
+   "2016": 6,
+   "2017": 2,
+   "2018": 2,
+   "2019": 3,
+   "2020": 6,
+   "2021": 3,
+   "2022": 3,
+   "2023": 4,
+   "2024": 3,
+   "2025": 2,
+   "2026": 2
+  },
+  "A4_commit_gaps": {
+   "longest_all_time": {
+    "days": 429.1,
+    "from": "2017-08-11",
+    "to": "2018-10-14"
+   },
+   "longest_ending_in_last_5_years": {
+    "days": 249.5,
+    "from": "2024-10-04",
+    "to": "2025-06-10"
+   },
+   "median_all_time_days": 0.2,
+   "median_ending_in_last_5_years_days": 0.2,
+   "current_gap_days": 3.4
+  },
+  "C1_contributors": {
+   "all_time": 20,
+   "last_24_months": 4,
+   "last_12_months": 3,
+   "by_year": {
+    "2012": 2,
+    "2013": 3,
+    "2014": 4,
+    "2015": 2,
+    "2016": 3,
+    "2017": 2,
+    "2018": 2,
+    "2019": 4,
+    "2020": 5,
+    "2021": 3,
+    "2022": 2,
+    "2023": 3,
+    "2024": 2,
+    "2025": 2,
+    "2026": 2
+   }
+  },
+  "bot_activity": {
+   "merged_prs": {
+    "all_time": 23,
+    "last_24_months": 14,
+    "last_12_months": 11
+   },
+   "commits": {
+    "all_time": 23,
+    "last_24_months": 14,
+    "last_12_months": 11
+   }
+  },
+  "C2": {
+   "all_time": {
+    "merged_prs": {
+     "n": 99,
+     "people": 18,
+     "top": [
+      [
+       "ElliotGarbus",
+       32
+      ],
+      [
+       "misl6",
+       26
+      ],
+      [
+       "kived",
+       5
+      ],
+      [
+       "ivpusic",
+       4
+      ],
+      [
+       "Zen-CODE",
+       4
+      ]
+     ],
+     "top1_percent": 32.3,
+     "top2_percent": 58.6,
+     "fewest_for_50_percent": 2
+    },
+    "commits": {
+     "n": 408,
+     "people": 20,
+     "top": [
+      [
+       "ivpusic",
+       138
+      ],
+      [
+       "tito",
+       76
+      ],
+      [
+       "Zen-CODE",
+       63
+      ],
+      [
+       "ElliotGarbus",
+       34
+      ],
+      [
+       "misl6",
+       28
+      ]
+     ],
+     "top1_percent": 33.8,
+     "top2_percent": 52.5,
+     "fewest_for_50_percent": 2
+    }
+   },
+   "last_24_months": {
+    "merged_prs": {
+     "n": 40,
+     "people": 4,
+     "top": [
+      [
+       "ElliotGarbus",
+       32
+      ],
+      [
+       "misl6",
+       5
+      ],
+      [
+       "AndreMiras",
+       2
+      ],
+      [
+       "akshayaurora",
+       1
+      ]
+     ],
+     "top1_percent": 80.0,
+     "top2_percent": 92.5,
+     "fewest_for_50_percent": 1
+    },
+    "commits": {
+     "n": 42,
+     "people": 4,
+     "top": [
+      [
+       "ElliotGarbus",
+       34
+      ],
+      [
+       "misl6",
+       5
+      ],
+      [
+       "AndreMiras",
+       2
+      ],
+      [
+       "akshayaurora",
+       1
+      ]
+     ],
+     "top1_percent": 81.0,
+     "top2_percent": 92.9,
+     "fewest_for_50_percent": 1
+    }
+   },
+   "last_12_months": {
+    "merged_prs": {
+     "n": 39,
+     "people": 3,
+     "top": [
+      [
+       "ElliotGarbus",
+       32
+      ],
+      [
+       "misl6",
+       5
+      ],
+      [
+       "AndreMiras",
+       2
+      ]
+     ],
+     "top1_percent": 82.1,
+     "top2_percent": 94.9,
+     "fewest_for_50_percent": 1
+    },
+    "commits": {
+     "n": 41,
+     "people": 3,
+     "top": [
+      [
+       "ElliotGarbus",
+       34
+      ],
+      [
+       "misl6",
+       5
+      ],
+      [
+       "AndreMiras",
+       2
+      ]
+     ],
+     "top1_percent": 82.9,
+     "top2_percent": 95.1,
+     "fewest_for_50_percent": 1
+    }
+   }
+  },
+  "C3": {
+   "without_top_contributor:ElliotGarbus": {
+    "A1_merged_prs": {
+     "windows": {
+      "all_time": 67,
+      "last_24_months": 8,
+      "last_12_months": 7
+     },
+     "by_year": {
+      "2013": 4,
+      "2014": 2,
+      "2015": 1,
+      "2016": 9,
+      "2017": 1,
+      "2018": 5,
+      "2019": 6,
+      "2020": 7,
+      "2021": 2,
+      "2022": 4,
+      "2023": 13,
+      "2024": 5,
+      "2025": 6,
+      "2026": 2
+     }
+    },
+    "A2_commits": {
+     "windows": {
+      "all_time": 374,
+      "last_24_months": 8,
+      "last_12_months": 7
+     },
+     "by_year": {
+      "2012": 14,
+      "2013": 157,
+      "2014": 15,
+      "2015": 11,
+      "2016": 68,
+      "2017": 7,
+      "2018": 47,
+      "2019": 9,
+      "2020": 9,
+      "2021": 3,
+      "2022": 7,
+      "2023": 13,
+      "2024": 6,
+      "2025": 6,
+      "2026": 2
+     }
+    },
+    "A3_active_months": {
+     "2012": 1,
+     "2013": 6,
+     "2014": 5,
+     "2015": 6,
+     "2016": 6,
+     "2017": 2,
+     "2018": 2,
+     "2019": 3,
+     "2020": 6,
+     "2021": 3,
+     "2022": 3,
+     "2023": 4,
+     "2024": 3,
+     "2025": 2,
+     "2026": 1
+    },
+    "A4_commit_gaps": {
+     "longest_all_time": {
+      "days": 429.1,
+      "from": "2017-08-11",
+      "to": "2018-10-14"
+     },
+     "longest_ending_in_last_5_years": {
+      "days": 298.3,
+      "from": "2025-12-29",
+      "to": "2026-10-23"
+     },
+     "median_all_time_days": 0.2,
+     "median_ending_in_last_5_years_days": 4.9,
+     "current_gap_days": 8.0
+    },
+    "C1_contributors": {
+     "all_time": 19,
+     "last_24_months": 3,
+     "last_12_months": 2,
+     "by_year": {
+      "2012": 2,
+      "2013": 3,
+      "2014": 4,
+      "2015": 2,
+      "2016": 3,
+      "2017": 2,
+      "2018": 2,
+      "2019": 4,
+      "2020": 5,
+      "2021": 3,
+      "2022": 2,
+      "2023": 3,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+     }
+    }
+   }
+  },
+  "C4": {
+   "last_24_months": {
+    "distinct_mergers": 4,
+    "mergers": [
+     [
+      "AndreMiras",
+      31
+     ],
+     [
+      "misl6",
+      6
+     ],
+     [
+      "kuzeyron",
+      2
+     ],
+     [
+      "akshayaurora",
+      1
+     ]
+    ],
+    "merged_by_non_author": {
+     "count": 33,
+     "n": 40,
+     "percent": 82.5
+    },
+    "with_non_author_human_review": {
+     "count": 34,
+     "n": 40,
+     "percent": 85.0
+    }
+   },
+   "last_12_months": {
+    "distinct_mergers": 4,
+    "mergers": [
+     [
+      "AndreMiras",
+      31
+     ],
+     [
+      "misl6",
+      5
+     ],
+     [
+      "kuzeyron",
+      2
+     ],
+     [
+      "akshayaurora",
+      1
+     ]
+    ],
+    "merged_by_non_author": {
+     "count": 32,
+     "n": 39,
+     "percent": 82.1
+    },
+    "with_non_author_human_review": {
+     "count": 33,
+     "n": 39,
+     "percent": 84.6
+    }
+   }
+  },
+  "C5": {
+   "2012": 2,
+   "2013": 1,
+   "2014": 3,
+   "2015": 1,
+   "2016": 2,
+   "2017": 2,
+   "2019": 2,
+   "2020": 2,
+   "2021": 2,
+   "2023": 1,
+   "2026": 2
+  },
+  "I1": {
+   "issues": {
+    "open": 16,
+    "opened_by_ElliotGarbus": 16,
+    "under_1": 16,
+    "1_to_3": 0,
+    "3_to_5": 0,
+    "over_5": 0
+   },
+   "prs": {
+    "open": 4,
+    "opened_by_ElliotGarbus": 3,
+    "under_1": 3,
+    "1_to_3": 0,
+    "3_to_5": 1,
+    "over_5": 0
+   }
+  },
+  "I2": {
+   "issues": {
+    "opened": {
+     "2012": 1,
+     "2013": 1,
+     "2014": 6,
+     "2015": 2,
+     "2016": 8,
+     "2017": 2,
+     "2018": 2,
+     "2019": 3,
+     "2020": 10,
+     "2021": 9,
+     "2022": 2,
+     "2023": 3,
+     "2025": 1,
+     "2026": 21
+    },
+    "closed": {
+     "2013": {
+      "total": 2,
+      "human": 2,
+      "reason_completed": 2
+     },
+     "2015": {
+      "total": 1,
+      "human": 1,
+      "reason_completed": 1
+     },
+     "2016": {
+      "total": 7,
+      "human": 7,
+      "reason_completed": 7
+     },
+     "2019": {
+      "total": 4,
+      "human": 4,
+      "reason_completed": 4
+     },
+     "2020": {
+      "total": 8,
+      "human": 8,
+      "reason_completed": 8
+     },
+     "2021": {
+      "total": 3,
+      "human": 3,
+      "reason_completed": 3
+     },
+     "2022": {
+      "total": 3,
+      "human": 3,
+      "reason_completed": 3
+     },
+     "2023": {
+      "total": 15,
+      "human": 14,
+      "reason_completed": 6,
+      "automation": 1,
+      "reason_not_planned": 9
+     },
+     "2026": {
+      "total": 12,
+      "human": 12,
+      "reason_completed": 9,
+      "reason_not_planned": 3
+     }
+    }
+   },
+   "prs": {
+    "opened": {
+     "2013": 5,
+     "2014": 4,
+     "2015": 2,
+     "2016": 8,
+     "2017": 1,
+     "2018": 6,
+     "2019": 4,
+     "2020": 7,
+     "2021": 2,
+     "2022": 5,
+     "2023": 14,
+     "2024": 4,
+     "2025": 6,
+     "2026": 39
+    },
+    "closed": {
+     "2013": {
+      "total": 5,
+      "merged": 4,
+      "human": 1
+     },
+     "2014": {
+      "total": 2,
+      "merged": 2
+     },
+     "2015": {
+      "total": 1,
+      "merged": 1
+     },
+     "2016": {
+      "total": 9,
+      "merged": 9
+     },
+     "2017": {
+      "total": 1,
+      "merged": 1
+     },
+     "2018": {
+      "total": 5,
+      "merged": 5
+     },
+     "2019": {
+      "total": 7,
+      "merged": 6,
+      "human": 1
+     },
+     "2020": {
+      "total": 7,
+      "merged": 7
+     },
+     "2021": {
+      "total": 2,
+      "merged": 2
+     },
+     "2022": {
+      "total": 4,
+      "merged": 4
+     },
+     "2023": {
+      "total": 13,
+      "merged": 13
+     },
+     "2024": {
+      "total": 5,
+      "merged": 5
+     },
+     "2025": {
+      "total": 6,
+      "merged": 6
+     },
+     "2026": {
+      "total": 36,
+      "merged": 34,
+      "human": 2
+     }
+    }
+   }
+  },
+  "I3": {
+   "issues": {
+    "within_7_days": {
+     "count": 0,
+     "n": 2
+    },
+    "within_30_days": {
+     "count": 0,
+     "n": 2
+    }
+   },
+   "prs": {
+    "within_7_days": {
+     "count": 0,
+     "n": 0
+    },
+    "within_30_days": {
+     "count": 0,
+     "n": 0
+    }
+   }
+  },
+  "I3_association_only": {
+   "issues": {
+    "within_7_days": {
+     "count": 0,
+     "n": 2
+    },
+    "within_30_days": {
+     "count": 0,
+     "n": 2
+    }
+   },
+   "prs": {
+    "within_7_days": {
+     "count": 0,
+     "n": 0
+    },
+    "within_30_days": {
+     "count": 0,
+     "n": 0
+    }
+   }
+  },
+  "I3_without_ElliotGarbus_as_responder": {
+   "issues": {
+    "within_7_days": {
+     "count": 0,
+     "n": 2
+    },
+    "within_30_days": {
+     "count": 0,
+     "n": 2
+    }
+   },
+   "prs": {
+    "within_7_days": {
+     "count": 0,
+     "n": 0
+    },
+    "within_30_days": {
+     "count": 0,
+     "n": 0
+    }
+   }
+  },
+  "I4": {
+   "issues": {
+    "closed_within_90_days": {
+     "count": 2,
+     "n": 4
+    }
+   },
+   "prs": {
+    "closed_within_90_days": {
+     "count": 8,
+     "n": 8
+    },
+    "merged_within_90_days": {
+     "count": 8,
+     "n": 8
+    },
+    "median_days_to_merge_merged_prs_only": {
+     "days": 3.1,
+     "n": 8
+    }
+   }
+  },
+  "I5": {
+   "issues": {
+    "total": 5,
+    "not_linked_to_ElliotGarbus": 3,
+    "neither_linked_to_nor_closed_by_ElliotGarbus": 0,
+    "items": [
+     {
+      "number": 15,
+      "title": "bad kCFTaggedObjectID_Integer definition ?",
+      "opened": "2014-12-16",
+      "closed": "2026-10-21",
+      "years_open": 11.8,
+      "closed_by": "ElliotGarbus",
+      "linked_to_ElliotGarbus": false
+     },
+     {
+      "number": 21,
+      "title": "IndexError in type_enc.pxi",
+      "opened": "2015-12-09",
+      "closed": "2026-10-21",
+      "years_open": 10.9,
+      "closed_by": "ElliotGarbus",
+      "linked_to_ElliotGarbus": false
+     },
+     {
+      "number": 44,
+      "title": "Can't clone pyobjus on Windows, MS-DOS reserved word as a folder",
+      "opened": "2018-11-09",
+      "closed": "2026-10-23",
+      "years_open": 8.0,
+      "closed_by": "AndreMiras",
+      "linked_to_ElliotGarbus": true
+     },
+     {
+      "number": 70,
+      "title": "KeyError at field_list.append()",
+      "opened": "2020-10-14",
+      "closed": "2026-10-21",
+      "years_open": 6.0,
+      "closed_by": "ElliotGarbus",
+      "linked_to_ElliotGarbus": false
+     },
+     {
+      "number": 76,
+      "title": "autoclass('NSString', ... ) => 'TypeError: expected bytes, str found'",
+      "opened": "2021-03-19",
+      "closed": "2026-10-25",
+      "years_open": 5.6,
+      "closed_by": "AndreMiras",
+      "linked_to_ElliotGarbus": true
+     }
+    ]
+   },
+   "prs": {
+    "total": 0,
+    "not_linked_to_ElliotGarbus": 0,
+    "neither_linked_to_nor_closed_by_ElliotGarbus": 0,
+    "items": []
+   }
+  },
+  "S1": {
+   "pypi_ownership": {
+    "organization": null,
+    "roles": [
+     {
+      "role": "Owner",
+      "user": "Mathieu.Virbel"
+     },
+     {
+      "role": "Owner",
+      "user": "kivybot"
+     },
+     {
+      "role": "Owner",
+      "user": "matham"
+     },
+     {
+      "role": "Owner",
+      "user": "misl6"
+     },
+     {
+      "role": "Owner",
+      "user": "tshirtman"
+     }
+    ]
+   },
+   "last_five_stable": [
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4"
+   ]
+  },
+  "U1": {
+   "window_start": "2026-05-07",
+   "first_date_in_data": "2026-05-07",
+   "last_date_in_data": "2026-11-02",
+   "by_os": {
+    "Darwin": 9582,
+    "Linux": 5571,
+    "Windows": 242,
+    "null": 689,
+    "other": 16
+   },
+   "total": 16100
+  }
+ },
+ "rubicon-objc": {
+  "H1": {
+   "first_commit": "2014-10-17T02:44:48Z",
+   "first_commit_author": "freakboy3742",
+   "first_commit_subject": "Initial commit.",
+   "first_merged_human_pr": "2016-03-11"
+  },
+  "R1": {
+   "2014": {
+    "stable": 3
+   },
+   "2015": {
+    "stable": 1
+   },
+   "2016": {
+    "stable": 4
+   },
+   "2017": {
+    "stable": 6
+   },
+   "2018": {
+    "stable": 1
+   },
+   "2019": {
+    "stable": 1
+   },
+   "2020": {
+    "stable": 1
+   },
+   "2021": {
+    "stable": 2
+   },
+   "2022": {
+    "stable": 1
+   },
+   "2023": {
+    "yanked": 1,
+    "prerelease": 1,
+    "stable": 3
+   },
+   "2024": {
+    "stable": 2
+   },
+   "2025": {
+    "stable": 4
+   },
+   "2026": {
+    "stable": 4,
+    "prerelease": 1
+   }
+  },
+  "R2": {
+   "version": "0.5.7",
+   "date": "2026-09-30",
+   "age_days": 34.7
+  },
+  "R3": {
+   "longest_all_time": {
+    "days": 430.6,
+    "from": "2015-03-14",
+    "to": "2016-05-18"
+   },
+   "longest_ending_in_last_5_years": {
+    "days": 386.0,
+    "from": "2021-11-13",
+    "to": "2022-12-04"
+   },
+   "median_all_time_days": 106.8,
+   "median_ending_in_last_5_years_days": 111.9,
+   "current_gap_days": 34.7
+  },
+  "R3_stable_count": 33,
+  "R4": {
+   "since_version": "0.5.7",
+   "human_prs_merged_since": 3,
+   "by_author": [
+    [
+     "mgstabrani",
+     3
+    ]
+   ]
+  },
+  "R5": {
+   "3.10": {
+    "python_final": "2021-10-04",
+    "a_install": {
+     "already_installable_at_final": true,
+     "version": "0.4.1",
+     "date": "2021-07-25",
+     "file": "rubicon_objc-0.4.1-py3-none-any.whl",
+     "days_after_final": 0
+    },
+    "b_ci": {
+     "date": "2021-11-13",
+     "sha": "aa27a9446d10f1dbaa1014f0cb4b8a898c9f29af",
+     "line": "python-version: [\"3.6\", \"3.7\", \"3.8\", \"3.9\", \"3.10\"]",
+     "days_after_final": 39.4
+    },
+    "c_classifier": {
+     "version": "0.4.2",
+     "date": "2021-11-13",
+     "days_after_final": 40.2
+    }
+   },
+   "3.11": {
+    "python_final": "2022-10-24",
+    "a_install": {
+     "already_installable_at_final": true,
+     "version": "0.4.2",
+     "date": "2021-11-13",
+     "file": "rubicon_objc-0.4.2-py3-none-any.whl",
+     "days_after_final": 0
+    },
+    "b_ci": {
+     "date": "2022-05-19",
+     "sha": "0fe0d2ec5d41654b33d731b33c61d03e64ea88cf",
+     "line": "python-version: [\"3.5\", \"3.6\", \"3.8\", \"3.9\", \"3.10\", '3.11.0-alpha - 3.11.0']",
+     "days_after_final": -158.8
+    },
+    "c_classifier": {
+     "version": "0.4.3",
+     "date": "2022-12-04",
+     "days_after_final": 41.2
+    }
+   },
+   "3.12": {
+    "python_final": "2023-10-02",
+    "a_install": {
+     "already_installable_at_final": true,
+     "version": "0.4.6",
+     "date": "2023-04-14",
+     "file": "rubicon_objc-0.4.6-py3-none-any.whl",
+     "days_after_final": 0
+    },
+    "b_ci": {
+     "date": "2022-11-10",
+     "sha": "97ed9de47a6440377026d8b67331dec83d87f53f",
+     "line": "python-version: [\"3.5\", \"3.6\", \"3.8\", \"3.9\", \"3.10\", \"3.11\", \"3.12.0-alpha - 3.12.0\"]",
+     "days_after_final": -326.5
+    },
+    "c_classifier": {
+     "version": "0.4.3",
+     "date": "2022-12-04",
+     "days_after_final": -301.6
+    }
+   },
+   "3.13": {
+    "python_final": "2024-10-07",
+    "a_install": {
+     "already_installable_at_final": true,
+     "version": "0.4.9",
+     "date": "2024-05-03",
+     "file": "rubicon_objc-0.4.9-py3-none-any.whl",
+     "days_after_final": 0
+    },
+    "b_ci": {
+     "date": "2023-10-03",
+     "sha": "9c846069b4c546a38be383caa998657bf566a4af",
+     "line": "python-version: [ \"3.8\", \"3.9\", \"3.10\", \"3.11\", \"3.12\", \"3.13-dev\" ]",
+     "days_after_final": -370.7
+    },
+    "c_classifier": {
+     "version": "0.4.8",
+     "date": "2024-04-03",
+     "days_after_final": -187.4
+    }
+   },
+   "3.14": {
+    "python_final": "2025-10-07",
+    "a_install": {
+     "already_installable_at_final": true,
+     "version": "0.5.2",
+     "date": "2025-08-07",
+     "file": "rubicon_objc-0.5.2-py3-none-any.whl",
+     "days_after_final": 0
+    },
+    "b_ci": {
+     "date": "2024-10-16",
+     "sha": "27dede4c892bba304ff126d437704cdf8f4a0659",
+     "line": "python-version: [ \"3.9\", \"3.10\", \"3.11\", \"3.12\", \"3.13\", \"3.14\" ]",
+     "days_after_final": -356.6
+    },
+    "c_classifier": {
+     "version": "0.5.0",
+     "date": "2025-01-07",
+     "days_after_final": -273.6
+    }
+   },
+   "3.15": {
+    "python_final": "2026-10-09",
+    "a_install": {
+     "already_installable_at_final": true,
+     "version": "0.5.7",
+     "date": "2026-09-30",
+     "file": "rubicon_objc-0.5.7-py3-none-any.whl",
+     "days_after_final": 0
+    },
+    "b_ci": {
+     "date": "2025-11-03",
+     "sha": "8d58f8524b80b608db39faaa042c1c07fc7971a3",
+     "line": "python-version: [ \"3.10\", \"3.11\", \"3.12\", \"3.13\", \"3.14\", \"3.15\" ]",
+     "days_after_final": -340.2
+    },
+    "c_classifier": {
+     "version": "0.5.3",
+     "date": "2025-12-03",
+     "days_after_final": -310.4
+    }
+   }
+  },
+  "R6": {
+   "3.13": {
+    "already_installable_at_final": true,
+    "version": "0.4.9",
+    "date": "2024-05-03",
+    "file": "rubicon_objc-0.4.9-py3-none-any.whl",
+    "days_after_final": 0
+   },
+   "3.14": {
+    "already_installable_at_final": true,
+    "version": "0.5.2",
+    "date": "2025-08-07",
+    "file": "rubicon_objc-0.5.2-py3-none-any.whl",
+    "days_after_final": 0
+   },
+   "3.15": {
+    "already_installable_at_final": true,
+    "version": "0.5.7",
+    "date": "2026-09-30",
+    "file": "rubicon_objc-0.5.7-py3-none-any.whl",
+    "days_after_final": 0
+   }
+  },
+  "A1_merged_prs": {
+   "windows": {
+    "all_time": 246,
+    "last_24_months": 60,
+    "last_12_months": 42
+   },
+   "by_year": {
+    "2016": 5,
+    "2017": 48,
+    "2018": 20,
+    "2019": 4,
+    "2020": 38,
+    "2021": 11,
+    "2022": 13,
+    "2023": 26,
+    "2024": 22,
+    "2025": 23,
+    "2026": 36
+   }
+  },
+  "A2_commits": {
+   "windows": {
+    "all_time": 1138,
+    "last_24_months": 136,
+    "last_12_months": 48
+   },
+   "by_year": {
+    "2014": 18,
+    "2015": 15,
+    "2016": 46,
+    "2017": 199,
+    "2018": 120,
+    "2019": 30,
+    "2020": 200,
+    "2021": 89,
+    "2022": 64,
+    "2023": 125,
+    "2024": 162,
+    "2025": 30,
+    "2026": 40
+   }
+  },
+  "A3_active_months": {
+   "2014": 1,
+   "2015": 5,
+   "2016": 8,
+   "2017": 12,
+   "2018": 7,
+   "2019": 4,
+   "2020": 9,
+   "2021": 6,
+   "2022": 8,
+   "2023": 12,
+   "2024": 11,
+   "2025": 11,
+   "2026": 11
+  },
+  "A4_commit_gaps": {
+   "longest_all_time": {
+    "days": 217.4,
+    "from": "2019-05-25",
+    "to": "2019-12-29"
+   },
+   "longest_ending_in_last_5_years": {
+    "days": 93.9,
+    "from": "2021-11-13",
+    "to": "2022-02-15"
+   },
+   "median_all_time_days": 0.0,
+   "median_ending_in_last_5_years_days": 0.0,
+   "current_gap_days": 1.7
+  },
+  "C1_contributors": {
+   "all_time": 34,
+   "last_24_months": 14,
+   "last_12_months": 9,
+   "by_year": {
+    "2014": 1,
+    "2015": 1,
+    "2016": 7,
+    "2017": 6,
+    "2018": 6,
+    "2019": 4,
+    "2020": 2,
+    "2021": 2,
+    "2022": 4,
+    "2023": 5,
+    "2024": 6,
+    "2025": 6,
+    "2026": 9
+   }
+  },
+  "bot_activity": {
+   "merged_prs": {
+    "all_time": 438,
+    "last_24_months": 227,
+    "last_12_months": 130
+   },
+   "commits": {
+    "all_time": 655,
+    "last_24_months": 231,
+    "last_12_months": 130
+   }
+  },
+  "C2": {
+   "all_time": {
+    "merged_prs": {
+     "n": 246,
+     "people": 33,
+     "top": [
+      [
+       "freakboy3742",
+       87
+      ],
+      [
+       "dgelessus",
+       70
+      ],
+      [
+       "kattni",
+       15
+      ],
+      [
+       "rmartin16",
+       11
+      ],
+      [
+       "samschott",
+       10
+      ]
+     ],
+     "top1_percent": 35.4,
+     "top2_percent": 63.8,
+     "fewest_for_50_percent": 2
+    },
+    "commits": {
+     "n": 1138,
+     "people": 34,
+     "top": [
+      [
+       "freakboy3742",
+       513
+      ],
+      [
+       "dgelessus",
+       305
+      ],
+      [
+       "samschott",
+       140
+      ],
+      [
+       "uzosrc",
+       38
+      ],
+      [
+       "cculianu",
+       22
+      ]
+     ],
+     "top1_percent": 45.1,
+     "top2_percent": 71.9,
+     "fewest_for_50_percent": 2
+    }
+   },
+   "last_24_months": {
+    "merged_prs": {
+     "n": 60,
+     "people": 13,
+     "top": [
+      [
+       "freakboy3742",
+       26
+      ],
+      [
+       "kattni",
+       15
+      ],
+      [
+       "mgstabrani",
+       8
+      ],
+      [
+       "HalfWhitt",
+       2
+      ],
+      [
+       "samschott",
+       1
+      ]
+     ],
+     "top1_percent": 43.3,
+     "top2_percent": 68.3,
+     "fewest_for_50_percent": 2
+    },
+    "commits": {
+     "n": 136,
+     "people": 14,
+     "top": [
+      [
+       "samschott",
+       65
+      ],
+      [
+       "freakboy3742",
+       37
+      ],
+      [
+       "kattni",
+       15
+      ],
+      [
+       "mgstabrani",
+       8
+      ],
+      [
+       "HalfWhitt",
+       2
+      ]
+     ],
+     "top1_percent": 47.8,
+     "top2_percent": 75.0,
+     "fewest_for_50_percent": 2
+    }
+   },
+   "last_12_months": {
+    "merged_prs": {
+     "n": 42,
+     "people": 9,
+     "top": [
+      [
+       "freakboy3742",
+       18
+      ],
+      [
+       "kattni",
+       9
+      ],
+      [
+       "mgstabrani",
+       8
+      ],
+      [
+       "HalfWhitt",
+       2
+      ],
+      [
+       "MTwem",
+       1
+      ]
+     ],
+     "top1_percent": 42.9,
+     "top2_percent": 64.3,
+     "fewest_for_50_percent": 2
+    },
+    "commits": {
+     "n": 48,
+     "people": 9,
+     "top": [
+      [
+       "freakboy3742",
+       24
+      ],
+      [
+       "kattni",
+       9
+      ],
+      [
+       "mgstabrani",
+       8
+      ],
+      [
+       "HalfWhitt",
+       2
+      ],
+      [
+       "aronnaxlin",
+       1
+      ]
+     ],
+     "top1_percent": 50.0,
+     "top2_percent": 68.8,
+     "fewest_for_50_percent": 1
+    }
+   }
+  },
+  "C3": {
+   "without_top_contributor:freakboy3742": {
+    "A1_merged_prs": {
+     "windows": {
+      "all_time": 159,
+      "last_24_months": 34,
+      "last_12_months": 24
+     },
+     "by_year": {
+      "2016": 5,
+      "2017": 37,
+      "2018": 17,
+      "2019": 3,
+      "2020": 30,
+      "2021": 8,
+      "2022": 3,
+      "2023": 9,
+      "2024": 14,
+      "2025": 13,
+      "2026": 20
+     }
+    },
+    "A2_commits": {
+     "windows": {
+      "all_time": 625,
+      "last_24_months": 99,
+      "last_12_months": 24
+     },
+     "by_year": {
+      "2016": 17,
+      "2017": 131,
+      "2018": 98,
+      "2019": 24,
+      "2020": 104,
+      "2021": 69,
+      "2022": 11,
+      "2023": 23,
+      "2024": 115,
+      "2025": 13,
+      "2026": 20
+     }
+    },
+    "A3_active_months": {
+     "2016": 5,
+     "2017": 12,
+     "2018": 7,
+     "2019": 3,
+     "2020": 7,
+     "2021": 5,
+     "2022": 3,
+     "2023": 5,
+     "2024": 7,
+     "2025": 7,
+     "2026": 10
+    },
+    "A4_commit_gaps": {
+     "longest_all_time": {
+      "days": 271.5,
+      "from": "2022-02-16",
+      "to": "2022-11-15"
+     },
+     "longest_ending_in_last_5_years": {
+      "days": 271.5,
+      "from": "2022-02-16",
+      "to": "2022-11-15"
+     },
+     "median_all_time_days": 0.0,
+     "median_ending_in_last_5_years_days": 0.1,
+     "current_gap_days": 1.7
+    },
+    "C1_contributors": {
+     "all_time": 33,
+     "last_24_months": 13,
+     "last_12_months": 8,
+     "by_year": {
+      "2016": 6,
+      "2017": 5,
+      "2018": 5,
+      "2019": 3,
+      "2020": 1,
+      "2021": 1,
+      "2022": 3,
+      "2023": 4,
+      "2024": 5,
+      "2025": 5,
+      "2026": 8
+     }
+    }
+   }
+  },
+  "C4": {
+   "last_24_months": {
+    "distinct_mergers": 4,
+    "mergers": [
+     [
+      "freakboy3742",
+      42
+     ],
+     [
+      "mhsmith",
+      14
+     ],
+     [
+      "kattni",
+      3
+     ],
+     [
+      "samschott",
+      1
+     ]
+    ],
+    "merged_by_non_author": {
+     "count": 47,
+     "n": 60,
+     "percent": 78.3
+    },
+    "with_non_author_human_review": {
+     "count": 52,
+     "n": 60,
+     "percent": 86.7
+    }
+   },
+   "last_12_months": {
+    "distinct_mergers": 4,
+    "mergers": [
+     [
+      "freakboy3742",
+      32
+     ],
+     [
+      "mhsmith",
+      6
+     ],
+     [
+      "kattni",
+      3
+     ],
+     [
+      "samschott",
+      1
+     ]
+    ],
+    "merged_by_non_author": {
+     "count": 30,
+     "n": 42,
+     "percent": 71.4
+    },
+    "with_non_author_human_review": {
+     "count": 34,
+     "n": 42,
+     "percent": 81.0
+    }
+   }
+  },
+  "C5": {
+   "2014": 1,
+   "2016": 6,
+   "2017": 4,
+   "2018": 3,
+   "2019": 2,
+   "2021": 1,
+   "2022": 2,
+   "2023": 3,
+   "2024": 2,
+   "2025": 5,
+   "2026": 5
+  },
+  "I1": {
+   "issues": {
+    "open": 18,
+    "opened_by_ElliotGarbus": 0,
+    "under_1": 2,
+    "1_to_3": 3,
+    "3_to_5": 2,
+    "over_5": 11
+   },
+   "prs": {
+    "open": 2,
+    "opened_by_ElliotGarbus": 0,
+    "under_1": 1,
+    "1_to_3": 1,
+    "3_to_5": 0,
+    "over_5": 0
+   }
+  },
+  "I2": {
+   "issues": {
+    "opened": {
+     "2015": 4,
+     "2016": 7,
+     "2017": 23,
+     "2018": 14,
+     "2019": 5,
+     "2020": 20,
+     "2021": 7,
+     "2022": 7,
+     "2023": 15,
+     "2024": 11,
+     "2025": 8,
+     "2026": 15
+    },
+    "closed": {
+     "2015": {
+      "total": 2,
+      "human": 2,
+      "reason_completed": 2
+     },
+     "2016": {
+      "total": 3,
+      "human": 3,
+      "reason_completed": 3
+     },
+     "2017": {
+      "total": 18,
+      "human": 18,
+      "reason_completed": 18
+     },
+     "2018": {
+      "total": 8,
+      "human": 8,
+      "reason_completed": 8
+     },
+     "2019": {
+      "total": 2,
+      "human": 2,
+      "reason_completed": 2
+     },
+     "2020": {
+      "total": 20,
+      "human": 20,
+      "reason_completed": 20
+     },
+     "2021": {
+      "total": 8,
+      "human": 8,
+      "reason_completed": 8
+     },
+     "2022": {
+      "total": 4,
+      "human": 4,
+      "reason_completed": 4
+     },
+     "2023": {
+      "total": 16,
+      "human": 16,
+      "reason_completed": 16
+     },
+     "2024": {
+      "total": 11,
+      "human": 11,
+      "reason_completed": 11
+     },
+     "2025": {
+      "total": 8,
+      "human": 8,
+      "reason_completed": 8
+     },
+     "2026": {
+      "total": 18,
+      "human": 18,
+      "reason_completed": 17,
+      "reason_not_planned": 1
+     }
+    }
+   },
+   "prs": {
+    "opened": {
+     "2015": 1,
+     "2016": 7,
+     "2017": 52,
+     "2018": 23,
+     "2019": 5,
+     "2020": 39,
+     "2021": 11,
+     "2022": 13,
+     "2023": 28,
+     "2024": 26,
+     "2025": 24,
+     "2026": 41
+    },
+    "closed": {
+     "2016": {
+      "total": 5,
+      "merged": 5
+     },
+     "2017": {
+      "total": 55,
+      "human": 7,
+      "merged": 48
+     },
+     "2018": {
+      "total": 21,
+      "human": 1,
+      "merged": 20
+     },
+     "2019": {
+      "total": 4,
+      "merged": 4
+     },
+     "2020": {
+      "total": 42,
+      "merged": 38,
+      "human": 4
+     },
+     "2021": {
+      "total": 11,
+      "merged": 11
+     },
+     "2022": {
+      "total": 13,
+      "merged": 13
+     },
+     "2023": {
+      "total": 27,
+      "merged": 26,
+      "human": 1
+     },
+     "2024": {
+      "total": 26,
+      "merged": 22,
+      "human": 4
+     },
+     "2025": {
+      "total": 24,
+      "merged": 23,
+      "human": 1
+     },
+     "2026": {
+      "total": 40,
+      "merged": 36,
+      "human": 4
+     }
+    }
+   }
+  },
+  "I3": {
+   "issues": {
+    "within_7_days": {
+     "count": 6,
+     "n": 6
+    },
+    "within_30_days": {
+     "count": 6,
+     "n": 6
+    }
+   },
+   "prs": {
+    "within_7_days": {
+     "count": 16,
+     "n": 17,
+     "percent": 94.1
+    },
+    "within_30_days": {
+     "count": 17,
+     "n": 17,
+     "percent": 100.0
+    }
+   }
+  },
+  "I3_association_only": {
+   "issues": {
+    "within_7_days": {
+     "count": 6,
+     "n": 10,
+     "percent": 60.0
+    },
+    "within_30_days": {
+     "count": 6,
+     "n": 10,
+     "percent": 60.0
+    }
+   },
+   "prs": {
+    "within_7_days": {
+     "count": 28,
+     "n": 32,
+     "percent": 87.5
+    },
+    "within_30_days": {
+     "count": 30,
+     "n": 32,
+     "percent": 93.8
+    }
+   }
+  },
+  "I3_without_ElliotGarbus_as_responder": {
+   "issues": {
+    "within_7_days": {
+     "count": 6,
+     "n": 6
+    },
+    "within_30_days": {
+     "count": 6,
+     "n": 6
+    }
+   },
+   "prs": {
+    "within_7_days": {
+     "count": 16,
+     "n": 17,
+     "percent": 94.1
+    },
+    "within_30_days": {
+     "count": 17,
+     "n": 17,
+     "percent": 100.0
+    }
+   }
+  },
+  "I4": {
+   "issues": {
+    "closed_within_90_days": {
+     "count": 19,
+     "n": 22,
+     "percent": 86.4
+    }
+   },
+   "prs": {
+    "closed_within_90_days": {
+     "count": 51,
+     "n": 53,
+     "percent": 96.2
+    },
+    "merged_within_90_days": {
+     "count": 47,
+     "n": 53,
+     "percent": 88.7
+    },
+    "median_days_to_merge_merged_prs_only": {
+     "days": 0.2,
+     "n": 47
+    }
+   }
+  },
+  "I5": {
+   "issues": {
+    "total": 5,
+    "not_linked_to_ElliotGarbus": 5,
+    "neither_linked_to_nor_closed_by_ElliotGarbus": 5,
+    "items": [
+     {
+      "number": 48,
+      "title": "Improve memory management documentation",
+      "opened": "2017-07-08",
+      "closed": "2024-12-05",
+      "years_open": 7.4,
+      "closed_by": "mhsmith",
+      "linked_to_ElliotGarbus": false
+     },
+     {
+      "number": 137,
+      "title": "Async tests sometimes randomly cause errors",
+      "opened": "2019-05-25",
+      "closed": "2026-05-29",
+      "years_open": 7.0,
+      "closed_by": "freakboy3742",
+      "linked_to_ElliotGarbus": false
+     },
+     {
+      "number": 183,
+      "title": "Speed up instantiating new class instances",
+      "opened": "2020-08-26",
+      "closed": "2026-05-29",
+      "years_open": 5.8,
+      "closed_by": "freakboy3742",
+      "linked_to_ElliotGarbus": false
+     },
+     {
+      "number": 188,
+      "title": "Consider using sphinx-autoapi to generate docs without having to import rubicon.objc",
+      "opened": "2020-09-19",
+      "closed": "2025-10-31",
+      "years_open": 5.1,
+      "closed_by": "freakboy3742",
+      "linked_to_ElliotGarbus": false
+     },
+     {
+      "number": 223,
+      "title": "Calling performSelector for a @objc_method created by rubicon from Objective C crashes in Python 3.9",
+      "opened": "2021-07-07",
+      "closed": "2026-09-03",
+      "years_open": 5.2,
+      "closed_by": "freakboy3742",
+      "linked_to_ElliotGarbus": false
+     }
+    ]
+   },
+   "prs": {
+    "total": 0,
+    "not_linked_to_ElliotGarbus": 0,
+    "neither_linked_to_nor_closed_by_ElliotGarbus": 0,
+    "items": []
+   }
+  },
+  "S1": {
+   "pypi_ownership": {
+    "organization": "beeware",
+    "roles": []
+   },
+   "last_five_stable": [
+    "0.5.3",
+    "0.5.4",
+    "0.5.5",
+    "0.5.6",
+    "0.5.7"
+   ]
+  },
+  "U1": {
+   "window_start": "2026-05-07",
+   "first_date_in_data": "2026-05-07",
+   "last_date_in_data": "2026-11-02",
+   "by_os": {
+    "Darwin": 809704,
+    "Linux": 3214762,
+    "Windows": 83970,
+    "null": 13978,
+    "other": 8933
+   },
+   "total": 4131347
+  }
+ }
+}

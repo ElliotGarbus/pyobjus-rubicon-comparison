@@ -1,0 +1,3512 @@
+[
+ {
+  "author": {
+   "__typename": "User",
+   "login": "hansent"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2013-03-26T19:45:26Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hansent"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2012-08-14T21:51:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2012-08-14T22:07:40Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hansent"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2012-08-15T18:15:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hansent"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2012-08-15T18:16:33Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hansent"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2012-08-15T18:18:00Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hansent"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2012-08-20T19:56:33Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2012-08-21T01:10:59Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2013-03-26T19:45:24Z"
+    }
+   ],
+   "totalCount": 8
+  },
+  "createdAt": "2012-08-14T21:51:09Z",
+  "number": 1,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "closer": null,
+     "createdAt": "2013-03-26T19:45:26Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "figure out how to use objective-c reflection"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "paulocheque"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2013-09-12T23:00:58Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ivpusic"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2013-09-12T23:00:57Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2013-09-12T21:49:13Z",
+  "number": 7,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ivpusic"
+     },
+     "closer": null,
+     "createdAt": "2013-09-12T23:00:58Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Fix quick start example"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "megastruktur"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-05-12T10:31:19Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "zkanda"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2014-11-11T04:05:29Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "vccabral"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2015-03-19T13:46:26Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mtctn"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-12-16T15:25:03Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2014-03-25T11:12:05Z",
+  "number": 9,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "megastruktur"
+     },
+     "closer": null,
+     "createdAt": "2023-05-12T10:31:19Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Camera usage with pyobjus"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "menangen"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2016-11-07T23:38:06Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-11-07T23:38:05Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2014-04-25T21:45:54Z",
+  "number": 10,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "closer": null,
+     "createdAt": "2016-11-07T23:38:06Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How i can load NSString data by pointer with objc_str in pyobjus?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "trivedigaurav"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2016-11-07T22:26:29Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-11-07T22:26:29Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2014-08-10T18:24:17Z",
+  "number": 14,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "closer": null,
+     "createdAt": "2016-11-07T22:26:29Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Missing encoding for '@?'\""
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "tshirtman"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-10-21T22:13:13Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tshirtman"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2014-12-18T20:25:43Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tshirtman"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2014-12-21T22:12:40Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-21T22:13:13Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2014-12-16T21:17:50Z",
+  "number": 15,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "closer": null,
+     "createdAt": "2026-10-21T22:13:13Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "bad kCFTaggedObjectID_Integer definition ?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "tshirtman"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-12-09T05:17:58Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:32:11Z"
+    },
+    {
+     "author": {
+      "__typename": "Bot",
+      "login": "github-actions"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2023-12-09T05:17:57Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2014-12-17T22:50:54Z",
+  "number": 16,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "Bot",
+      "login": "github-actions"
+     },
+     "closer": null,
+     "createdAt": "2023-12-09T05:17:58Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "ctypes.c_uchar doesn't exist"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "jeffsenn"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2015-02-18T02:02:28Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2014-12-23T17:13:39Z",
+  "number": 17,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "tito"
+       }
+      },
+      "oid": "26c16a6180f60ac3ad8b01f26dbf196b23ac7a34"
+     },
+     "createdAt": "2015-02-18T02:02:28Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "arm64 build fail"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "tshirtman"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2016-04-21T14:19:09Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-04-21T14:09:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-04-21T14:19:09Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2015-05-07T09:38:22Z",
+  "number": 19,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "closer": null,
+     "createdAt": "2016-04-21T14:19:09Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "doc broken on readthedoc"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "cbenhagen"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-10-21T22:09:52Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cbenhagen"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2015-12-09T16:53:20Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cbenhagen"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-09-04T14:14:59Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hackalog"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-02-07T15:06:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-12-11T13:54:10Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "macarooni-man"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2024-09-18T19:42:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "akshayaurora"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-09-24T07:07:41Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-21T22:09:51Z"
+    }
+   ],
+   "totalCount": 7
+  },
+  "createdAt": "2015-12-09T16:25:22Z",
+  "number": 21,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "closer": null,
+     "createdAt": "2026-10-21T22:09:52Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "IndexError in type_enc.pxi"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mrhdias"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2016-10-28T08:32:13Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "Zen-CODE"
+     },
+     "merged": true,
+     "number": 35
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "MounirHader"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-12-27T15:23:12Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "heatherbaroody"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-02-14T20:53:52Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2016-02-12T10:45:57Z",
+  "number": 22,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "Zen-CODE"
+      },
+      "number": 35
+     },
+     "createdAt": "2016-10-28T08:32:14Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Got dlopen error on Foundation"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "andong777"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2019-02-06T09:27:42Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2019-02-06T09:27:42Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2016-04-11T11:22:27Z",
+  "number": 28,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "closer": null,
+     "createdAt": "2019-02-06T09:27:42Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Adding Python 3.x support for PyOBJus"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "evbo"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2016-06-16T23:39:53Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "RyuuzakiJulio"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-04-13T02:28:52Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2016-06-14T02:41:24Z",
+  "number": 31,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "evbo"
+     },
+     "closer": null,
+     "createdAt": "2016-06-16T23:39:53Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Unable to load IOBluetooth on ios phone"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "evbo"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:34:36Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "SoundsSerious"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-02-01T02:33:27Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "akshayaurora"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-06-18T08:12:38Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "GoBig87"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-06-18T20:09:21Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "SoundsSerious"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-06-18T23:44:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "GoBig87"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-06-19T01:57:11Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mbrockman1"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-08-01T14:03:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:34:36Z"
+    }
+   ],
+   "totalCount": 7
+  },
+  "createdAt": "2016-06-17T22:10:25Z",
+  "number": 32,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:34:36Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "Support for Objective-C Blocks"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "evbo"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2016-06-18T18:42:28Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "evbo"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-06-18T18:42:25Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2016-06-18T18:31:49Z",
+  "number": 33,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "evbo"
+     },
+     "closer": null,
+     "createdAt": "2016-06-18T18:42:28Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How to Load Custom Classes for iOS (besides bridge.m)?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "evbo"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:35:23Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "evbo"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-06-19T04:44:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hackalog"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-02-07T01:29:12Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:35:23Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2016-06-18T21:56:53Z",
+  "number": 34,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:35:23Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "EXC_BAD_ACCESS code=1 address=0x1 when accepting multipeer connection"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "Zen-CODE"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2016-11-08T21:04:02Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "JonAnCla"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-11-03T21:16:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-11-04T06:22:38Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-11-04T09:58:51Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-11-08T21:04:02Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2016-11-02T13:46:30Z",
+  "number": 36,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "closer": null,
+     "createdAt": "2016-11-08T21:04:02Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "dlopen error on Foundation"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "them0ntem"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-08-17T09:34:48Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-08-17T09:34:48Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2016-11-06T16:30:27Z",
+  "number": 37,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "closer": null,
+     "createdAt": "2020-08-17T09:34:48Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Print all class of Particular Framework"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "pedrosimao"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:39:56Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hackalog"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-02-07T03:31:40Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:39:56Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2017-02-12T16:48:42Z",
+  "number": 38,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:39:56Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "Support for Swift code?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ghking1"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2019-02-07T14:56:40Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hackalog"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-02-07T14:30:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hackalog"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-02-07T14:56:40Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2017-12-01T11:51:15Z",
+  "number": 40,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "hackalog"
+     },
+     "closer": null,
+     "createdAt": "2019-02-07T14:56:40Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How to pass callback function from python to java or objective-c?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "KeyWeeUsr"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2026-10-23T22:56:20Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "ElliotGarbus"
+     },
+     "merged": true,
+     "number": 161
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "pakal"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-06-05T11:20:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "brentpicasso"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-11-08T16:47:23Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2018-11-09T17:37:17Z",
+  "number": 44,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "AndreMiras"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "ElliotGarbus"
+      },
+      "number": 161
+     },
+     "createdAt": "2026-10-23T22:56:20Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Can't clone pyobjus on Windows, MS-DOS reserved word as a folder"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "michele-comitini"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2019-01-31T09:40:00Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hackalog"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-01-31T01:59:12Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "michele-comitini"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-01-31T09:40:00Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2018-12-02T00:01:08Z",
+  "number": 48,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "michele-comitini"
+     },
+     "closer": null,
+     "createdAt": "2019-01-31T09:40:00Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "string or bytes"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "hackalog"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2019-02-06T18:50:30Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "hackalog"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-02-04T23:35:37Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2019-02-04T23:22:15Z",
+  "number": 49,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "hackalog"
+      },
+      "number": 50
+     },
+     "createdAt": "2019-02-06T18:50:30Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Second instance of Delegate crashes on iOS/MacOS"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "misl6"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2020-01-27T19:25:40Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgrine"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-09-29T10:58:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "jbasko"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-10-12T13:02:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mwelzl"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-10-25T20:03:30Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-01-27T19:25:40Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2019-09-28T16:16:14Z",
+  "number": 53,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "closer": null,
+     "createdAt": "2020-01-27T19:25:40Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Objective-C iOS 13.0 breaking changes"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "monicadanesa"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:37:47Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:37:47Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2019-10-14T07:32:08Z",
+  "number": 54,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:37:47Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "load framework XCTest"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ya-kay"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-02-11T11:36:51Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2020-02-10T22:30:34Z",
+  "number": 57,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ya-kay"
+     },
+     "closer": null,
+     "createdAt": "2020-02-11T11:36:51Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Pyobjus-ball example"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "temitayoadefemimatthew"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-04-01T14:45:37Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-04-01T14:45:34Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2020-02-20T18:08:41Z",
+  "number": 59,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "closer": null,
+     "createdAt": "2020-04-01T14:45:37Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How do i access the UserNotifications framework from pyobjus"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "temitayoadefemimatthew"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-04-25T13:14:59Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-04-11T12:49:30Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "timtangcoding"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-05-24T15:32:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-05-24T21:52:45Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2020-04-11T10:34:13Z",
+  "number": 60,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "closer": null,
+     "createdAt": "2020-04-25T13:14:59Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Cant install pyobjus on MacOS 10.15.3 "
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "temitayoadefemimatthew"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-04-29T19:29:47Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T13:24:59Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-04-25T21:02:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-26T10:14:00Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-04-26T14:21:26Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-26T14:28:54Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-04-26T14:43:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-26T15:08:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-04-29T19:29:44Z"
+    }
+   ],
+   "totalCount": 8
+  },
+  "createdAt": "2020-04-25T13:18:32Z",
+  "number": 61,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "temitayoadefemimatthew"
+     },
+     "closer": null,
+     "createdAt": "2020-04-29T19:29:47Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Pyobjus not working on Mac Catalina"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "vik748"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-08-17T09:30:42Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "timtangcoding"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-05-24T15:35:25Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "pippyn"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-05-25T14:44:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "vik748"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-05-25T15:10:05Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "timtangcoding"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-05-31T05:56:15Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "sanderland"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-06-07T09:23:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-06-08T17:26:56Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "sanderland"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-06-08T17:29:59Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-06-08T17:37:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "vik748"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-06-08T17:41:25Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "sanderland"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-06-08T17:43:14Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-06-08T17:44:15Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "sanderland"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-06-08T17:44:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "sanderland"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-06-08T17:47:10Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-06-08T18:43:07Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-08-17T09:30:42Z"
+    }
+   ],
+   "totalCount": 15
+  },
+  "createdAt": "2020-05-08T12:33:15Z",
+  "number": 62,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Zen-CODE"
+     },
+     "closer": null,
+     "createdAt": "2020-08-17T09:30:42Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "`pip install pyobjus` fails on Mac OSX"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "faybak"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:38:01Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:38:01Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2020-05-26T16:19:14Z",
+  "number": 63,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:38:01Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "error when compiling Kivy on Xcode due to pyobjus"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "Mulugruntz"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2020-10-20T19:19:11Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "Mulugruntz"
+     },
+     "merged": true,
+     "number": 66
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2020-07-01T03:51:54Z",
+  "number": 65,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "matham"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "Mulugruntz"
+      },
+      "number": 66
+     },
+     "createdAt": "2020-10-20T19:19:11Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "objc_arr will crash if empty array"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "Testoviron-star"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:39:10Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tshirtman"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-08-13T16:33:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Testoviron-star"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-08-13T20:37:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "jayvdb"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-11-15T03:36:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "jayvdb"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-11-15T06:36:16Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "vrepo54"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-01-19T21:43:36Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:39:10Z"
+    }
+   ],
+   "totalCount": 6
+  },
+  "createdAt": "2020-08-10T19:06:43Z",
+  "number": 68,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:39:10Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "nameerror: name 'build_ext' is not defined during installation on linux"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freemant2000"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-10-21T22:32:12Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "pakal"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-10-13T10:29:07Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-21T22:32:12Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2020-10-14T07:05:18Z",
+  "number": 70,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "closer": null,
+     "createdAt": "2026-10-21T22:32:12Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "KeyError at field_list.append()"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "rutvikbhatt"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:41:38Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "drjjjm18"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-02-26T12:26:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "pakal"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-06-02T19:09:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "brentpicasso"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-11-08T16:33:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "brentpicasso"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-11-08T16:39:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "brentpicasso"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-11-08T16:48:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:41:39Z"
+    }
+   ],
+   "totalCount": 6
+  },
+  "createdAt": "2020-12-01T14:34:41Z",
+  "number": 72,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:41:39Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "Error while installation: ERROR: The tar file (...) has a file (...) trying to install outside target directory (...)"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "tanmald"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:43:01Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:43:01Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2021-02-07T18:23:52Z",
+  "number": 73,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:43:01Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "Error installing Pyobjus. super() takes at least 1 argument (0 given)"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "HeRo002"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2021-03-18T11:06:11Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "HeRo002"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-03-18T11:06:11Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2021-03-17T19:41:26Z",
+  "number": 74,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "HeRo002"
+     },
+     "closer": null,
+     "createdAt": "2021-03-18T11:06:11Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "When trying to install Pyobjus: NameError: name 'build_ext' is not defined"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "HeRo002"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2022-06-28T18:25:35Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "HeRo002"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-03-19T20:45:07Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2021-03-18T13:07:15Z",
+  "number": 75,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "closer": null,
+     "createdAt": "2022-06-28T18:25:35Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "'error: Unsupported architecture' when trying to install on Mac OS X Catalina 10.15.7"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "HeRo002"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-10-25T08:30:01Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "ElliotGarbus"
+     },
+     "merged": true,
+     "number": 159
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-03-20T12:59:53Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "HeRo002"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-03-20T15:11:31Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2021-03-19T21:15:24Z",
+  "number": 76,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "AndreMiras"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "ElliotGarbus"
+      },
+      "number": 159
+     },
+     "createdAt": "2026-10-25T08:30:01Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "autoclass('NSString', ... ) => 'TypeError: expected bytes, str found'"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "teticio"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2022-03-26T12:57:53Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-04-03T12:47:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "teticio"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-04-03T16:47:25Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-03-26T12:57:53Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2021-04-02T15:55:29Z",
+  "number": 77,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "closer": null,
+     "createdAt": "2022-03-26T12:57:53Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Wrong behaviour of NSArray on arm64 (but works on x86_64)"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "teticio"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:44:49Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:44:49Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2021-04-13T17:17:17Z",
+  "number": 78,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:44:49Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "Suggestion: add ability add user defined @protocols"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ahishali"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2022-06-28T18:24:37Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-06-28T18:23:51Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2021-05-15T18:51:10Z",
+  "number": 79,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "closer": null,
+     "createdAt": "2022-06-28T18:24:37Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Wi-Fi Support"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "SD-IITKGP"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2021-09-24T10:39:26Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "SD-IITKGP"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-08-04T11:09:15Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2021-08-04T11:08:49Z",
+  "number": 80,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "akshayaurora"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "akshayaurora"
+       }
+      },
+      "oid": "8eeea05baec7b563cd7d5e1301bfd995a89f2c8c"
+     },
+     "createdAt": "2021-09-24T10:39:27Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "pyobjus installation error on Mac m1"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "rajeshmajumdar"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2021-11-21T07:28:42Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-11-18T06:53:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "rajeshmajumdar"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-11-18T07:00:05Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-11-20T09:58:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-11-20T12:42:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "rajeshmajumdar"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-11-21T07:28:42Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2021-11-18T06:36:03Z",
+  "number": 81,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "rajeshmajumdar"
+     },
+     "closer": null,
+     "createdAt": "2021-11-21T07:28:42Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "'objc_msgSend_stret' is unavailable: not available in arm64"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ChrHenke"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-03-30T19:37:41Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "tito"
+     },
+     "merged": true,
+     "number": 789
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2022-11-02T11:29:31Z",
+  "number": 88,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "tito"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "tito"
+      },
+      "number": 789
+     },
+     "createdAt": "2023-03-30T19:37:41Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "AttributeError: 'bridge' object has no attribute 'startDeviceMotion'"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mtctn"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-10-24T07:20:07Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "ElliotGarbus"
+     },
+     "merged": true,
+     "number": 157
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2022-12-16T14:40:19Z",
+  "number": 90,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "AndreMiras"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "ElliotGarbus"
+      },
+      "number": 157
+     },
+     "createdAt": "2026-10-24T07:20:07Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Malloc/heap corruption when passing a NSRect value from python to ObjectiveC"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "akshayaurora"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-04-25T09:37:21Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-04-24T09:04:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-04-25T09:37:21Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2023-04-24T08:54:29Z",
+  "number": 91,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "misl6"
+     },
+     "closer": null,
+     "createdAt": "2023-04-25T09:37:22Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "[MacOs] Wheels provided for pyobjus are not universal"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "subhashsharma"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-10-28T04:45:56Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-28T04:45:56Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2023-07-08T08:31:23Z",
+  "number": 97,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-10-28T04:45:56Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "An example of iOS Mapkit would help!"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "0x-kohmar"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-12-11T13:51:30Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "ElliotGarbus"
+     },
+     "merged": false,
+     "number": 187
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-12-11T13:51:30Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2023-12-06T16:38:41Z",
+  "number": 107,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Julian-O"
+     },
+     "closer": null,
+     "createdAt": "2023-12-11T13:51:30Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "How to pass bytes object into void* argument of a function? (NSData.dataWithBytes:length:)"
+ },
+ {
+  "author": {
+   "__typename": "Bot",
+   "login": "renovate"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2024-05-25T09:47:40Z",
+  "number": 113,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Dependency Dashboard"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "barracuda156"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-10-22T01:45:48Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-22T01:45:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "barracuda156"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2026-10-22T02:12:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-22T03:08:56Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2025-08-16T04:16:31Z",
+  "number": 129,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "closer": null,
+     "createdAt": "2026-10-22T01:45:48Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "Build failure on 10.6.8: `_runtime.h: error: expected ';', ',' or ')' before 'self'`"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-07-22T15:44:09Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "ElliotGarbus"
+     },
+     "merged": true,
+     "number": 150
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-05-21T04:18:59Z",
+  "number": 146,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "kuzeyron"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "ElliotGarbus"
+      },
+      "number": 150
+     },
+     "createdAt": "2026-07-22T15:44:10Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "_runtime.h: Foundation dlopen() always fails on modern iOS; /Groups/System/... fallback path is bogus (reprises #22, #36)"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-07-22T15:41:15Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "ElliotGarbus"
+     },
+     "merged": true,
+     "number": 149
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-06-11T00:14:07Z",
+  "number": 148,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "kuzeyron"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "ElliotGarbus"
+      },
+      "number": 149
+     },
+     "createdAt": "2026-07-22T15:41:15Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "make_type raises KeyError(b'd') for unregistered struct return types on Python 3"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "tct123"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-10-24T06:33:24Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "ElliotGarbus"
+     },
+     "merged": true,
+     "number": 160
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-07-18T22:10:17Z",
+  "number": 153,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "AndreMiras"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "ElliotGarbus"
+      },
+      "number": 160
+     },
+     "createdAt": "2026-10-24T06:33:24Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "License issue"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-26T16:51:14Z",
+  "number": 176,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Return-value buffer (res_ptr) is leaked on every method call"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-30T17:33:25Z",
+  "number": 191,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Whether a getter is a property or a method depends on the runtime class"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-31T01:09:15Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-10-30T17:33:26Z",
+  "number": 192,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "NSArray instances are not iterable from Python"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-30T18:59:03Z",
+  "number": 193,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Docs: update code examples to Python 3 and the current CArray API"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-30T19:15:55Z",
+  "number": 194,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Objects created with alloc/init, new or mutableCopy are never freed"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-31T00:18:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-31T01:09:11Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2026-10-30T19:15:57Z",
+  "number": 195,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Variadic arguments that aren't objects are passed as objects (stringWithFormat_ with %d / %f)"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-30T19:15:58Z",
+  "number": 196,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "An Objective-C exception (NSException) terminates the Python process"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-31T22:11:27Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-10-30T20:38:16Z",
+  "number": 198,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Methods are shared across instances: x.init() can return another instance, and saved bound methods call the wrong object"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-31T00:42:04Z",
+  "number": 200,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Struct types with array, pointer, named or bit-field members can't be built (KeyError in make_type)"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-31T00:42:05Z",
+  "number": 201,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Passing a tuple or list for a struct argument fails with an unhelpful addressof() TypeError"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-31T00:42:08Z",
+  "number": 202,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "@protocol methods silently drop struct arguments and return zeroed structs"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-31T00:42:11Z",
+  "number": 203,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "protocols.py fallback table has wrong encodings (structs as @, NSInteger as 32-bit)"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "AtharvRG"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2026-10-31T13:35:29Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-31T14:11:20Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2026-10-31T02:38:18Z",
+  "number": 206,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Integer arguments out of range raise OverflowError for some types and wrap silently for others"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "AtharvRG"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2026-10-31T13:26:00Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-31T14:05:06Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2026-10-31T02:38:20Z",
+  "number": 207,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "UTF8String() returns str or bytes depending on the string's runtime class"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-10-31T13:09:55Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-31T13:09:54Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-10-31T02:59:47Z",
+  "number": 208,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "closer": null,
+     "createdAt": "2026-10-31T13:09:56Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "Integer arguments out of range raise OverflowError for some types and wrap silently for others"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-10-31T13:09:58Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-31T13:09:57Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-10-31T02:59:49Z",
+  "number": 209,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ElliotGarbus"
+     },
+     "closer": null,
+     "createdAt": "2026-10-31T13:09:59Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "UTF8String() returns str or bytes depending on the string's runtime class"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-31T22:52:08Z",
+  "number": 212,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "A tuple is not converted to NSArray the way a list is"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElliotGarbus"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-31T22:52:09Z",
+  "number": 213,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Unknown Python types are treated as delegates, with unhelpful errors"
+ }
+]

@@ -1,0 +1,8691 @@
+[
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2017-11-23T01:14:56Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": true,
+     "number": 85
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2015-04-09T02:44:59Z",
+  "number": 1,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "dgelessus"
+      },
+      "number": 85
+     },
+     "createdAt": "2017-11-23T01:14:56Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Can't define callback with method that returns structure"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "uranusjr"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2015-05-08T00:28:21Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2015-05-07T14:56:33Z",
+  "number": 3,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Needs documentation on how to pass an pointer-to-pointer \u201cout parameter\u201d"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mirkoluchi"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2015-06-27T01:38:06Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2015-06-24T23:48:22Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2015-06-24T13:27:02Z",
+  "number": 4,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "freakboy3742"
+       }
+      },
+      "oid": "99b8c39ff2f9fe5c8d668c562fe78029625e51b6"
+     },
+     "createdAt": "2015-06-27T01:38:06Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Wrong automatic conversion of NSDecimalNumber to python double"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "glyph"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2015-09-17T23:51:31Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2015-09-17T23:52:10Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2015-09-17T08:33:30Z",
+  "number": 5,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "freakboy3742"
+       }
+      },
+      "oid": "ef9e1bdd5b0f99530a1ba7a10c2032b54b901483"
+     },
+     "createdAt": "2015-09-17T23:51:31Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "pypy support"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "Siege097"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2016-07-21T18:48:53Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-07-13T01:25:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Siege097"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-07-19T17:58:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-07-19T18:11:39Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Siege097"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-07-21T18:48:53Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2016-07-12T18:00:48Z",
+  "number": 8,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "Siege097"
+     },
+     "closer": null,
+     "createdAt": "2016-07-21T18:48:53Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Bi-direction object access"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "lironsam"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2016-07-14T16:04:00Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-07-14T16:04:00Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2016-07-13T07:45:40Z",
+  "number": 9,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2016-07-14T16:04:00Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Error during the importation of rubicon.objc"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "exvito"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2016-09-27T02:38:44Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-09-26T01:28:00Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "exvito"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-09-26T13:52:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-09-27T02:38:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "exvito"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-09-28T02:18:13Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2016-09-26T00:26:04Z",
+  "number": 10,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2016-09-27T02:38:44Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Minor (?) issue with PyInstaller"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ElSaico"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-06-22T02:13:34Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2016-10-31T02:42:51Z",
+  "number": 13,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "dgelessus"
+       }
+      },
+      "oid": "ccdb7a3960167501004c7599216bc15b84d8f67f"
+     },
+     "createdAt": "2017-06-22T02:13:34Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Crash under GCC's libobjc due to lack of class_setSuperclass"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "exvito"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-06-21T06:58:04Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-11-29T01:50:57Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "exvito"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-11-29T12:11:27Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-11-30T00:39:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "exvito"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2016-11-30T10:05:24Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2016-11-24T16:52:40Z",
+  "number": 14,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "dgelessus"
+      },
+      "number": 43
+     },
+     "createdAt": "2017-06-21T06:58:04Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Type handling - No restype encoding for..."
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "exvito"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-05-23T00:22:09Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-12-01T01:01:57Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-03-10T17:27:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-03-11T10:33:56Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2016-11-30T10:32:57Z",
+  "number": 15,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "jeamland"
+      },
+      "number": 42
+     },
+     "createdAt": "2017-05-23T00:22:09Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Pythonic interface for NSArray / NSMutableArray"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "porridgec"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-01-09T01:12:46Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2016-12-24T01:47:21Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-01-09T01:12:46Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2016-12-23T02:15:55Z",
+  "number": 19,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2017-01-09T01:12:46Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How to import custom classes?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2017-09-08T16:53:19Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-01-14T02:24:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-01-14T12:41:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-09-08T14:58:45Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-09-08T15:44:05Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-09-08T16:53:19Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2017-01-13T21:11:59Z",
+  "number": 21,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2017-09-08T16:53:19Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Things with the name objc"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dimaqq"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-02-09T15:55:51Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-09T15:31:15Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-02-09T15:55:51Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2017-02-09T10:53:59Z",
+  "number": 25,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "closer": null,
+     "createdAt": "2017-02-09T15:55:51Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "ctypes vs cffi pros and cons"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dimaqq"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-18T02:16:50Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-02-18T13:47:25Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-18T17:56:25Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-03-03T01:06:01Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-03-12T21:39:41Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-07-05T16:56:57Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-07-06T00:29:32Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-07-06T06:42:01Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-09-08T17:25:43Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-09-08T22:40:43Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-29T03:16:28Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-29T03:25:50Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-29T03:48:34Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-29T07:39:38Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-29T10:21:49Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-29T23:18:31Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-30T06:39:56Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-24T18:04:15Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-26T20:55:09Z"
+    }
+   ],
+   "totalCount": 19
+  },
+  "createdAt": "2017-02-17T14:48:30Z",
+  "number": 26,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2017-09-08T17:25:43Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Proposal for nicer init()"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dimaqq"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-03-18T17:30:48Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-18T13:20:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-02-18T13:39:07Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-02-18T13:41:18Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-18T17:45:43Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-18T18:12:54Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-02-18T22:22:57Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-25T12:25:46Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-02-26T18:52:29Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-26T20:32:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-03-18T17:30:48Z"
+    }
+   ],
+   "totalCount": 10
+  },
+  "createdAt": "2017-02-18T07:21:37Z",
+  "number": 27,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": null,
+     "createdAt": "2017-03-18T17:30:49Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Odd strings in traceback"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dimaqq"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-02-25T15:38:21Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-02-25T02:09:56Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2017-02-18T11:35:01Z",
+  "number": 28,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "dgelessus"
+       }
+      },
+      "oid": "6f2068d5ce135412b4689e7a76792914cd86dcd9"
+     },
+     "createdAt": "2017-02-25T15:38:21Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Suggestion / recipe for exporting decorated functions"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dimaqq"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-09-08T17:26:38Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-03-11T03:57:39Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-03-11T10:18:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-03-11T10:48:16Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-09-08T17:26:38Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2017-03-10T19:04:04Z",
+  "number": 30,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2017-09-08T17:26:38Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "trunk backwards incompatible"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dimaqq"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-04-25T05:43:29Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-03-13T23:51:18Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-03-14T20:29:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-03-15T02:33:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-03-15T10:27:23Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-03-15T16:19:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-03-19T17:46:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T05:43:29Z"
+    }
+   ],
+   "totalCount": 7
+  },
+  "createdAt": "2017-03-13T19:28:19Z",
+  "number": 32,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-04-25T05:43:29Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How to get __init__ called?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2017-05-31T22:37:21Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-05-31T22:37:21Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2017-03-21T22:08:04Z",
+  "number": 35,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": null,
+     "createdAt": "2017-05-31T22:37:21Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Reducing the number of Travis test configurations"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "xcxcxc"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-03-30T06:38:17Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2017-03-30T03:00:25Z",
+  "number": 36,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "xcxcxc"
+     },
+     "closer": null,
+     "createdAt": "2017-03-30T06:38:17Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "solve"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "glasnt"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2017-05-14T12:09:58Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "glasnt"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-04-23T03:04:51Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "glasnt"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-04-23T03:57:53Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-04-23T04:45:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-04-23T09:23:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "glasnt"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-04-23T09:30:27Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-04-23T10:59:10Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-05-13T03:29:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "alkopop79"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-12-06T09:26:54Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-12-06T09:38:44Z"
+    }
+   ],
+   "totalCount": 9
+  },
+  "createdAt": "2017-04-23T03:01:15Z",
+  "number": 40,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "glasnt"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "glasnt"
+       }
+      },
+      "oid": "5e1957b16e386a3562d266be5a1bd8e44ee8d63d"
+     },
+     "createdAt": "2017-05-14T12:09:58Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "0.2.6 issues"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "davidferguson"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-05-30T11:01:02Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "davidferguson"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-05-26T15:33:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-05-26T17:37:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tleeuwenburg"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-06-17T09:23:54Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "tleeuwenburg"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-06-17T09:28:22Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-06-18T01:40:37Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2017-05-26T13:32:12Z",
+  "number": 44,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "dgelessus"
+       }
+      },
+      "oid": "c6ec11437bbbeb43dfa89d7439687344888de75a"
+     },
+     "createdAt": "2017-05-30T11:01:02Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "iOS error - ValueError: Library 'c' not found"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ocupe"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-05-31T21:05:33Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-05-31T14:49:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ocupe"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-05-31T21:05:30Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2017-05-31T14:27:20Z",
+  "number": 46,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "ocupe"
+     },
+     "closer": null,
+     "createdAt": "2017-05-31T21:05:33Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Property falsely returns Method insted of int"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dimaqq"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2024-12-05T23:36:38Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 543
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dimaqq"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2017-07-08T12:42:27Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-07-10T07:07:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-16T22:51:40Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2017-07-08T12:28:00Z",
+  "number": 48,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 543
+     },
+     "createdAt": "2024-12-05T23:36:39Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Improve memory management documentation"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2020-04-25T07:01:09Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-09-16T23:44:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-09-17T00:36:36Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T07:01:09Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2017-09-16T23:15:57Z",
+  "number": 66,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-04-25T07:01:09Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Release v1.0"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2017-10-19T07:37:26Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-09-17T00:37:20Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2017-09-17T00:06:56Z",
+  "number": 67,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "dgelessus"
+       }
+      },
+      "oid": "e1d14d5272e9c4b48c773a6a978a210bf1824494"
+     },
+     "createdAt": "2017-10-19T07:37:26Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Documentation"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2017-11-17T11:09:34Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2017-09-17T00:12:11Z",
+  "number": 68,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": null,
+     "createdAt": "2017-11-17T11:09:34Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "ObjCClass should support isinstance and issubclass"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-09-17T01:26:01Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2017-09-17T00:28:49Z",
+  "number": 69,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Protocol support"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2017-09-17T00:56:52Z",
+  "number": 70,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Should ObjCClass stay a subclass of type?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2017-09-17T01:04:43Z",
+  "number": 71,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Support additional collection classes"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2017-09-17T01:24:28Z",
+  "number": 73,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Objective-C exception handling support"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-09-29T00:29:28Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-06T13:19:30Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2017-09-28T18:03:29Z",
+  "number": 74,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Remove use of Core Foundation?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mrJean1"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2017-11-04T11:00:09Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-11-04T11:00:45Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2017-11-04T03:10:10Z",
+  "number": 80,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "dgelessus"
+       }
+      },
+      "oid": "3b1ef6b4dc58efea125eee0bd8cf8d4573c8637c"
+     },
+     "createdAt": "2017-11-04T11:00:09Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Broken link"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-12-30T19:21:38Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2017-12-31T01:07:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2017-12-31T02:29:54Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2017-12-29T04:30:23Z",
+  "number": 94,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Improve error handling when a required selector isn't defined"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-01-13T22:23:08Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2018-01-13T07:19:53Z",
+  "number": 96,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Instance properties defined by protocol on superclass are not autodiscovered"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "cculianu"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2018-02-14T18:49:33Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-13T22:56:39Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-02-13T23:10:30Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-14T00:18:22Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-14T18:49:33Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2018-02-13T22:44:43Z",
+  "number": 98,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": null,
+     "createdAt": "2018-02-14T18:49:33Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Issue using objc_property"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2018-04-30T17:25:26Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-24T15:18:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-02-25T00:29:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-25T02:09:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-25T12:34:59Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2018-02-19T11:16:40Z",
+  "number": 101,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "freakboy3742"
+       }
+      },
+      "oid": "6c2210ec7124903976b619dd74e04ca2f2925258"
+     },
+     "createdAt": "2018-04-30T17:25:26Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Remove automatic NSString-to-str conversion"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "cculianu"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2018-03-06T13:15:06Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-23T10:18:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-23T11:58:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-24T15:13:20Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-25T02:00:11Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-02T13:07:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-02T13:23:11Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-02T14:29:54Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-02T15:35:56Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-02T16:04:37Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-02T16:09:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-02T16:24:47Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-06T13:15:06Z"
+    }
+   ],
+   "totalCount": 12
+  },
+  "createdAt": "2018-02-23T10:10:52Z",
+  "number": 102,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "closer": null,
+     "createdAt": "2018-03-06T13:15:06Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Blocks wrapping Python callables should keep the callable alive"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2020-04-25T06:51:30Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-02-28T04:45:01Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-02-28T12:22:37Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-03-01T00:05:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-01T00:10:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-03-01T00:18:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-01T00:41:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-03-01T00:51:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-05-09T10:30:46Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-01-18T15:03:23Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-01-18T15:10:41Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:51:30Z"
+    }
+   ],
+   "totalCount": 11
+  },
+  "createdAt": "2018-02-28T04:43:32Z",
+  "number": 104,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-04-25T06:51:30Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "ctypes_patch introspection fails on iOS apps packaged for distribution"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "cculianu"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2018-05-01T10:22:32Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-10T02:42:46Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-10T07:56:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-10T15:04:32Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-10T18:45:01Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-10T19:04:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-10T19:40:00Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-03-10T21:18:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-05-01T10:22:32Z"
+    }
+   ],
+   "totalCount": 8
+  },
+  "createdAt": "2018-03-09T16:30:04Z",
+  "number": 107,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "closer": null,
+     "createdAt": "2018-05-01T10:22:32Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Is inheritance working fully on the Python side?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "Jie-Cheng"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-01-20T02:30:55Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": true,
+     "number": 114
+    },
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": false,
+     "number": 122
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-05-17T09:58:56Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Jie-Cheng"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-05-17T15:32:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-05-17T17:08:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-05-18T09:15:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Jie-Cheng"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-05-25T03:02:46Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-05-25T20:12:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Jie-Cheng"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-05-26T00:07:07Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-05-26T11:56:12Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Jie-Cheng"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-06-26T14:21:36Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-06-26T18:41:29Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Jie-Cheng"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-06-27T13:45:39Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-06-28T08:56:01Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-07-02T00:18:38Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-20T02:30:55Z"
+    }
+   ],
+   "totalCount": 14
+  },
+  "createdAt": "2018-05-17T04:19:58Z",
+  "number": 113,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2023-01-20T02:30:55Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How to run rubicon-objc on linux"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2018-05-31T09:08:27Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-05-27T23:58:57Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-05-28T09:12:34Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "CookBob"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-02-26T01:21:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2019-02-26T01:55:29Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2018-05-27T12:28:25Z",
+  "number": 115,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "dgelessus"
+       }
+      },
+      "oid": "c6d7656c608994e688c0b19bd5cf0b3935167d67"
+     },
+     "createdAt": "2018-05-31T09:08:27Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "ObjCStrInstance isn't as string-like as the Python standard library sometimes requires"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "cculianu"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2018-06-12T23:13:49Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2018-06-12T23:13:49Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "cculianu"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-06-12T23:54:58Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2018-06-12T14:02:57Z",
+  "number": 120,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2018-06-12T23:13:49Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Not really an issue \u2014 we\u2019re using rubicon-objc for upcoming Electron Cash for iOS"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "danyeaw"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2020-04-14T01:35:33Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": true,
+     "number": 168
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-04-13T21:11:26Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "danyeaw"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-14T01:33:22Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2018-07-02T18:36:40Z",
+  "number": 123,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "dgelessus"
+      },
+      "number": 168
+     },
+     "createdAt": "2020-04-14T01:35:33Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "NSAttributedString Creation - No Errors with Wrong Number of Arguments"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ocupe"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-04-14T02:22:46Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": true,
+     "number": 166
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-07-23T22:52:02Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2018-07-23T13:21:49Z",
+  "number": 125,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "dgelessus"
+      },
+      "number": 166
+     },
+     "createdAt": "2020-04-14T02:22:46Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Calling print() on \"self created\" Obj-C class raises exception."
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ryan-WORK"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2018-08-18T15:24:38Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-08-17T23:30:34Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ryan-WORK"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-08-18T00:22:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-08-18T15:24:38Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2018-08-17T19:42:35Z",
+  "number": 127,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": null,
+     "createdAt": "2018-08-18T15:24:38Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "\"rubicon.objc.async\" to \"rubicon.objc.eventloop\" is this correct?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "ryan-WORK"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2018-08-19T15:48:18Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-08-17T23:33:57Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ryan-WORK"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-08-18T00:45:53Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-08-18T15:34:27Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ryan-WORK"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-08-18T18:10:38Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-08-19T15:48:18Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2018-08-17T19:54:54Z",
+  "number": 128,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": null,
+     "createdAt": "2018-08-19T15:48:18Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How to terminate the terminate Async && \"rubicon.objc.async\" to \"rubicon.objc.eventloop\""
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "eminarcissus"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-04-25T06:54:22Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-09-05T12:24:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "eminarcissus"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-09-05T14:21:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-09-05T16:24:54Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "eminarcissus"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-09-05T16:31:14Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "eminarcissus"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2018-09-05T16:39:20Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2018-09-05T20:52:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:54:22Z"
+    }
+   ],
+   "totalCount": 7
+  },
+  "createdAt": "2018-09-05T08:31:13Z",
+  "number": 131,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-04-25T06:54:22Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "It is possible to create blocks receive ObjCInstance argument?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "infinityis"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2019-02-17T06:00:49Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2019-02-11T13:06:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "infinityis"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-02-11T16:20:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2019-02-11T16:54:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "infinityis"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-02-17T06:00:49Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2019-02-11T04:32:43Z",
+  "number": 132,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "infinityis"
+     },
+     "closer": null,
+     "createdAt": "2019-02-17T06:00:49Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Unable to run example asyncio code"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "albertosottile"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2019-05-13T13:53:20Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-05-13T13:35:54Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "albertosottile"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-05-13T13:53:20Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2019-05-13T12:44:39Z",
+  "number": 135,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "albertosottile"
+     },
+     "closer": null,
+     "createdAt": "2019-05-13T13:53:20Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Cannot retrieve key from NSUserDefaults"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2026-05-29T03:22:42Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2019-05-25T04:24:27Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-05-25T11:21:37Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-20T02:42:56Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-05-29T03:22:42Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2019-05-25T00:55:52Z",
+  "number": 137,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-05-29T03:22:43Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Async tests sometimes randomly cause errors"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "sramij-code"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-04-25T06:57:03Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-10-21T22:10:57Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2019-10-22T00:01:49Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-10-22T06:43:15Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "sramij-code"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2019-10-22T09:12:53Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-10-22T10:41:39Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:57:03Z"
+    }
+   ],
+   "totalCount": 6
+  },
+  "createdAt": "2019-10-21T16:28:16Z",
+  "number": 140,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-04-25T06:57:03Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "How to create an ObjCInstance that is known to adhere to a protocol ?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2020-01-04T01:09:01Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": true,
+     "number": 143
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2019-12-31T02:31:53Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-12-31T02:58:17Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2019-12-31T05:18:29Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2019-12-31T11:57:11Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-01-01T00:39:50Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-01-03T02:16:16Z"
+    }
+   ],
+   "totalCount": 6
+  },
+  "createdAt": "2019-12-31T02:21:33Z",
+  "number": 141,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "dgelessus"
+      },
+      "number": 143
+     },
+     "createdAt": "2020-01-04T01:09:01Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Travis CI build is broken for most macOS versions"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "samschott"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2020-04-26T12:13:54Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-02-05T23:56:47Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-02-06T21:36:33Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-02-07T02:00:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-02-07T02:02:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-20T10:07:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T04:48:10Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T11:39:19Z"
+    }
+   ],
+   "totalCount": 7
+  },
+  "createdAt": "2020-02-05T14:49:14Z",
+  "number": 146,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "freakboy3742"
+       }
+      },
+      "oid": "88b2e733ead2709ef88f840627aaeab76632fbb3"
+     },
+     "createdAt": "2020-04-26T12:13:54Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Possible memory leak in async handler on Cocoa?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2024-05-03T01:43:04Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-02-16T02:14:14Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-02-16T18:40:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-02-16T19:48:12Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-02-16T19:58:12Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-02-16T23:56:11Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-02-17T01:43:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-04-10T11:26:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-04-11T02:24:28Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-05-03T01:43:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-07-01T16:56:48Z"
+    }
+   ],
+   "totalCount": 10
+  },
+  "createdAt": "2020-02-16T02:03:19Z",
+  "number": 148,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2024-05-03T01:43:05Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Add mechanism for invoking methods with duplicated argument names."
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2020-02-16T22:59:35Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-02-16T22:59:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-02-17T00:53:49Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2020-02-16T19:42:21Z",
+  "number": 149,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-02-16T22:59:35Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Documentation builds on Read the Docs are failing"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2020-04-11T01:09:31Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": true,
+     "number": 154
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2020-02-17T01:28:24Z",
+  "number": 150,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "dgelessus"
+      },
+      "number": 154
+     },
+     "createdAt": "2020-04-11T01:09:31Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Sphinx autodoc fails on non-Mac systems because rubicon.objc does not import"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "AnissaHum"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-02-19T02:06:03Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-02-19T02:06:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "AnissaHum"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-02-19T14:44:48Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2020-02-18T21:26:43Z",
+  "number": 151,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-02-19T02:06:03Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Integration Rubicon inside iOS app that includes Python-Apple support library"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "AnissaHum"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-02-20T19:34:37Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-02-19T23:26:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "AnissaHum"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-02-20T19:34:37Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2020-02-19T20:16:49Z",
+  "number": 152,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "AnissaHum"
+     },
+     "closer": null,
+     "createdAt": "2020-02-20T19:34:37Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Import Swift class registered as @objc with Rubicon-ObjC"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "arandomdev"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2020-09-19T11:20:41Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": true,
+     "number": 186
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-03-19T21:15:37Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "arandomdev"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-03-19T21:47:50Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2020-03-19T20:00:35Z",
+  "number": 153,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "dgelessus"
+      },
+      "number": 186
+     },
+     "createdAt": "2020-09-19T11:20:41Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "ObjCBlock For bounded methods"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2020-04-25T06:32:11Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:32:11Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2020-04-11T12:42:31Z",
+  "number": 160,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-04-25T06:32:11Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Travis CI build status not showing up for pushes or pull requests"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "saroad2"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2020-04-25T17:15:49Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-23T09:50:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "saroad2"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-23T10:27:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-04-23T13:00:10Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T05:34:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "saroad2"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:21:20Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:38:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "saroad2"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:42:05Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "saroad2"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:46:15Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T06:49:46Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "saroad2"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-04-25T15:22:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-04-25T17:24:29Z"
+    }
+   ],
+   "totalCount": 11
+  },
+  "createdAt": "2020-04-23T05:42:01Z",
+  "number": 170,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "dgelessus"
+       }
+      },
+      "oid": "a7da61c4d6e68fe39395938947641e2dbd000beb"
+     },
+     "createdAt": "2020-04-25T17:15:49Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "No method \"terminate\""
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-04-27T23:31:14Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-05-02T00:16:46Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2020-04-27T23:30:22Z",
+  "number": 176,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Add support for GNUStep"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2020-07-04T03:26:00Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-05-16T04:10:59Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-07-04T03:26:00Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-07-04T08:06:52Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2020-05-15T00:16:29Z",
+  "number": 180,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-07-04T03:26:00Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "New release (0.4.0)?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "jsbain"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2024-04-03T01:18:06Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "jsbain"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2020-06-14T19:41:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-06-14T21:13:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-06-14T23:12:10Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-06-14T23:56:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-06-15T00:22:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-02-27T10:30:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-02-27T21:57:47Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-03T01:18:06Z"
+    }
+   ],
+   "totalCount": 8
+  },
+  "createdAt": "2020-06-14T19:37:13Z",
+  "number": 181,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2024-04-03T01:18:06Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Automatic renaming of duplicate class?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "samschott"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-05-29T03:24:27Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-09-07T22:10:37Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-09-09T11:14:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-09-19T11:09:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-09-19T12:53:10Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-05-29T03:24:26Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2020-08-26T18:08:38Z",
+  "number": 183,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-05-29T03:24:27Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Speed up instantiating new class instances"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2021-05-29T01:11:50Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 209
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-09-12T05:07:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-09-12T12:37:21Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-03-05T11:56:37Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-03-05T13:09:29Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2021-03-07T17:29:41Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-03-09T14:06:52Z"
+    }
+   ],
+   "totalCount": 6
+  },
+  "createdAt": "2020-09-12T01:22:07Z",
+  "number": 185,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 209
+     },
+     "createdAt": "2021-05-29T01:11:50Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Replace/remove the DeallocationObserver mechanism"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2025-10-31T00:18:16Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "kattni"
+     },
+     "merged": true,
+     "number": 658
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-04-09T18:58:21Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-20T03:09:33Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2020-09-19T16:31:19Z",
+  "number": 188,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "kattni"
+      },
+      "number": 658
+     },
+     "createdAt": "2025-10-31T00:18:16Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Consider using sphinx-autoapi to generate docs without having to import rubicon.objc"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "saroad2"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2020-09-30T11:23:40Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-09-30T11:23:40Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2020-09-29T16:30:35Z",
+  "number": 190,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-09-30T11:23:40Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "CGColor cannot be found"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2020-10-28T09:16:05Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-10-28T09:16:04Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-10-28T11:58:27Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2020-10-28T01:30:44Z",
+  "number": 191,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2020-10-28T09:16:05Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Migrate Travis CI build from travis-ci.org to travis-ci.com"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2020-11-08T23:14:23Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "dgelessus"
+     },
+     "merged": true,
+     "number": 198
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-11-03T01:12:46Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2020-11-02T12:30:53Z",
+  "number": 197,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "dgelessus"
+      },
+      "number": 198
+     },
+     "createdAt": "2020-11-08T23:14:23Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Travis CI no longer provides unlimited free builds"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mischievous"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2021-11-12T07:22:43Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-11-22T00:12:16Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2020-11-21T16:49:31Z",
+  "number": 199,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2021-11-12T07:22:43Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "NSTableView"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "samschott"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2021-01-21T01:16:53Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 201
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-12-04T17:52:49Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2020-12-04T18:15:12Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-12-04T18:56:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2020-12-04T19:05:28Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2020-12-04T15:56:13Z",
+  "number": 200,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 201
+     },
+     "createdAt": "2021-01-21T01:16:53Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Releasing memory from deleted Objc classes"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "samschott"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2021-05-09T07:13:10Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 203
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-01-27T22:21:40Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-01-27T23:13:41Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2021-01-27T21:42:26Z",
+  "number": 202,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 203
+     },
+     "createdAt": "2021-05-09T07:13:10Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Event loop does not call registered signal handlers"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "samschott"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2021-05-09T07:09:12Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 205
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2021-02-11T22:07:44Z",
+  "number": 204,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 205
+     },
+     "createdAt": "2021-05-09T07:09:12Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Using asyncio.run() fails with CFRunLoop integration"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "samschott"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2021-03-18T22:33:38Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-03-19T01:07:20Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2021-03-18T18:32:18Z",
+  "number": 206,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Clean up asyncio tasks after throwing an exception"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2021-08-04T22:30:01Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 213
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2021-05-29T01:40:01Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2021-05-29T01:28:15Z",
+  "number": 210,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 213
+     },
+     "createdAt": "2021-08-04T22:30:01Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "High-level API for autorelease pools (`@autoreleasepool`, `NSAutoreleasePool`)"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "yilei"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-09-03T01:48:51Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2021-07-07T11:07:21Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "yilei"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-07-07T15:44:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-05-12T23:48:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "rawsun007"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2026-08-24T06:22:30Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-09-03T01:48:51Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2021-07-07T04:57:54Z",
+  "number": 223,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-09-03T01:48:51Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Calling performSelector for a @objc_method created by rubicon from Objective C crashes in Python 3.9"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "nsmith1024"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2021-11-12T07:22:29Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2021-07-22T22:14:05Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-07-22T23:22:20Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "nsmith1024"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2021-07-23T00:12:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-11-12T07:22:29Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2021-07-22T16:40:52Z",
+  "number": 212,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2021-11-12T07:22:29Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Pyto with Objective-C for IOS"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2021-11-13T11:45:27Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2021-11-13T01:40:12Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2021-11-12T07:38:29Z",
+  "number": 216,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "Commit",
+      "author": {
+       "user": {
+        "login": "dgelessus"
+       }
+      },
+      "oid": "3d693e6e59a736acc1ff0b133ca612035926017a"
+     },
+     "createdAt": "2021-11-13T11:45:27Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Superclass overrides of partials fail lookups"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "dgelessus"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2022-02-17T06:07:49Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 220
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-02-15T18:57:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-02-16T02:30:10Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2022-01-21T00:15:51Z",
+  "number": 219,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 220
+     },
+     "createdAt": "2022-02-17T06:07:49Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Enforce `restype` and `argtypes` for `send_super`"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "sramij-code"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "sramij-code"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-02-25T01:51:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-02-25T03:01:22Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "sramij-code"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2022-02-25T03:41:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-02-25T04:19:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2022-02-25T09:30:53Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2022-02-24T22:54:17Z",
+  "number": 221,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "I am passing the correct number of arguments, however stilling hitting \"takes 7 arguments, but got 5 arguments\""
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-07-21T10:00:49Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "conniepocky"
+     },
+     "merged": true,
+     "number": 339
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2022-04-07T07:04:29Z",
+  "number": 222,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "conniepocky"
+      },
+      "number": 339
+     },
+     "createdAt": "2023-07-21T10:00:50Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Improve repr() calls for NSPoint/NSRect types"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-08-30T21:56:32Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 357
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2022-05-19T13:13:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-05-20T04:28:51Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-12-08T22:58:26Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-08-23T00:07:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-08-28T07:34:57Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2022-05-19T01:23:56Z",
+  "number": 225,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 357
+     },
+     "createdAt": "2023-08-30T21:56:33Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Blocks not fully working on M1 hardware"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "Skifarer"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2022-06-01T22:27:25Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-05-22T22:44:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-05-23T00:04:43Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-05-23T08:36:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-05-30T05:15:16Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-05-30T05:48:25Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-06-01T19:44:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2022-06-01T22:27:25Z"
+    }
+   ],
+   "totalCount": 7
+  },
+  "createdAt": "2022-05-22T15:05:21Z",
+  "number": 226,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2022-06-01T22:27:25Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "\"ObjC Class 'b'WrappedPyObject'' couldn't be found.\" when running on iOS device"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2022-12-10T18:07:59Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 238
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2022-10-19T21:09:27Z",
+  "number": 228,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 238
+     },
+     "createdAt": "2022-12-10T18:07:59Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "iOS event loop blocks when thread waits on socket."
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2022-12-04T22:42:08Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 236
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2022-11-30T06:34:44Z",
+  "number": 235,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 236
+     },
+     "createdAt": "2022-12-04T22:42:08Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "x86_64 machine architecture not identified correctly on iOS simulator"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mhsmith"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-01-22T03:18:24Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 246
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-18T18:43:50Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-19T01:01:45Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-22T12:29:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-22T22:59:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-19T19:20:37Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2023-01-18T17:59:34Z",
+  "number": 249,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 246
+     },
+     "createdAt": "2023-01-22T03:18:24Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Attribute intermittently returns the wrong object"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-01-22T03:18:24Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 246
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2023-01-18T23:31:25Z",
+  "number": 250,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 246
+     },
+     "createdAt": "2023-01-22T03:18:24Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Segmentation fault when exiting multi-threaded program"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-01-22T03:18:24Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 246
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2023-01-19T01:34:32Z",
+  "number": 251,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 246
+     },
+     "createdAt": "2023-01-22T03:18:25Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Race condition when instantiating ObjCInstance objects"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-01-22T03:18:25Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 246
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2023-01-19T01:59:18Z",
+  "number": 252,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 246
+     },
+     "createdAt": "2023-01-22T03:18:25Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Race condition when populating the ObjCClass method/attribute cache"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-01-24T22:16:20Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 255
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2023-01-23T00:05:42Z",
+  "number": 254,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 255
+     },
+     "createdAt": "2023-01-24T22:16:20Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Update CI configuration to test release artefacts"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2024-12-05T23:36:38Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 543
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-10-19T18:49:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-01T16:25:20Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-01T23:18:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-02T20:40:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-02T23:50:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-03T11:47:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-04T06:00:17Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-04T10:57:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-05T05:13:22Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-13T19:53:10Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-13T20:12:36Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-15T00:37:11Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-16T21:03:07Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-16T23:51:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-17T00:24:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-17T14:15:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-18T03:37:45Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-18T12:30:38Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-18T14:36:37Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-19T00:44:37Z"
+    }
+   ],
+   "totalCount": 20
+  },
+  "createdAt": "2023-01-23T07:42:43Z",
+  "number": 256,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 543
+     },
+     "createdAt": "2024-12-05T23:36:38Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Improve correspondence between ObjectiveC objects and Python wrappers"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "samschott"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-01-30T00:16:57Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 258
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-23T23:09:20Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-24T06:21:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-24T07:49:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-24T21:13:07Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-01-24T23:39:01Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2023-01-23T23:01:05Z",
+  "number": 257,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 258
+     },
+     "createdAt": "2023-01-30T00:16:57Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "New caching logic may inadvertently release objects that are still needed"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mhsmith"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-02-17T13:57:17Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 272
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2023-02-14T13:39:26Z",
+  "number": 271,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 272
+     },
+     "createdAt": "2023-02-17T13:57:18Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "ctypes.ArgumentError message is split into individual characters"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-04-13T04:24:52Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 293
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2023-04-12T23:38:30Z",
+  "number": 292,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 293
+     },
+     "createdAt": "2023-04-13T04:24:53Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Warning about deprecated `pkg_resources` API"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "samschott"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-05-13T09:06:16Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 309
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-05-12T04:38:36Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2023-05-11T22:12:33Z",
+  "number": 308,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 309
+     },
+     "createdAt": "2023-05-13T09:06:16Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Incompatibility with `from __future__ import annotations`"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-07-06T05:49:28Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-05-28T03:08:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-05-28T04:36:03Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-05-31T04:31:41Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-07-06T05:49:28Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2023-05-27T02:32:17Z",
+  "number": 313,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2023-07-06T05:49:28Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Incompatibility with Python 3.12.0b1"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "alibeyram"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-06-01T04:03:55Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "landrybr"
+     },
+     "merged": true,
+     "number": 317
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-05-30T23:03:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "alibeyram"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2023-05-30T23:51:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "landrybr"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2023-05-31T05:20:57Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2023-05-30T19:35:34Z",
+  "number": 316,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "landrybr"
+      },
+      "number": 317
+     },
+     "createdAt": "2023-06-01T04:03:56Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Scroll blocks eventloop for ios"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2023-07-08T10:18:43Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-07-09T04:29:45Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2023-07-07T00:43:43Z",
+  "number": 333,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Can't invoke Protocol methods that collide with object properties"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "frypf"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2023-08-20T23:52:49Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2023-08-20T23:52:49Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2023-08-19T19:40:57Z",
+  "number": 347,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2023-08-20T23:52:49Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "\"ImportError: No module named 'rubicon'\" if trying to bundle script via py2app."
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2023-08-25T08:07:28Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 352
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2023-08-20T23:29:25Z",
+  "number": 351,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 352
+     },
+     "createdAt": "2023-08-25T08:07:29Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Sphinx 7.2 dropped support for Python 3.8"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "almarklein"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-02-01T21:50:16Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mgstabrani"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-09-17T16:15:22Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-09-18T00:08:05Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mgstabrani"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-09-18T04:05:59Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-09-18T04:30:41Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mgstabrani"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-09-18T14:13:14Z"
+    }
+   ],
+   "totalCount": 6
+  },
+  "createdAt": "2024-02-01T10:51:27Z",
+  "number": 406,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Importing rubicon.objs hangs on pypy"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-01-30T06:55:24Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "kattni"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-06-29T01:05:17Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "kattni"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-30T06:55:24Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2024-03-17T22:46:56Z",
+  "number": 428,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "kattni"
+     },
+     "closer": null,
+     "createdAt": "2026-01-30T06:55:25Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Normalize contribution docs with Briefcase/Toga"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "uzosrc"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2024-04-03T01:30:22Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "uzosrc"
+     },
+     "merged": true,
+     "number": 436
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-03-25T22:29:43Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-03-26T00:51:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-03-26T02:54:36Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-03-26T04:33:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-03-26T22:45:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-03-27T00:14:25Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-03-27T07:28:47Z"
+    }
+   ],
+   "totalCount": 7
+  },
+  "createdAt": "2024-03-25T11:25:20Z",
+  "number": 432,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "uzosrc"
+      },
+      "number": 436
+     },
+     "createdAt": "2024-04-03T01:30:22Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Duplicate elements in repr of `ObjCInstance`"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2024-04-25T22:04:51Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 446
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-15T09:06:02Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-15T22:21:29Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2024-04-15T02:07:17Z",
+  "number": 444,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 446
+     },
+     "createdAt": "2024-04-25T22:04:51Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "ctypes_patch breaks with Python 3.13.0a6"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mhsmith"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2024-04-15T23:23:30Z",
+  "number": 445,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Event loop stalls in network test"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "uzosrc"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2024-04-27T00:47:09Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-27T00:47:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-27T00:59:41Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2024-04-26T12:59:33Z",
+  "number": 451,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2024-04-27T00:47:09Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Change the implementation of ObjCStrInstance"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "uzosrc"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2024-05-03T01:42:58Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-28T23:30:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-29T01:14:22Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-29T01:22:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-29T01:30:15Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-05-03T01:42:58Z"
+    }
+   ],
+   "totalCount": 5
+  },
+  "createdAt": "2024-04-28T06:53:52Z",
+  "number": 453,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2024-05-03T01:42:58Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Partial method argument order"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "uzosrc"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2024-05-03T01:42:52Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-04-29T23:28:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "uzosrc"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2024-04-30T03:51:46Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-05-03T01:42:52Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2024-04-29T10:22:13Z",
+  "number": 461,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2024-05-03T01:42:52Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Improve the error message of partial methods"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "rmartin16"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2025-01-06T23:44:46Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "rmartin16"
+     },
+     "merged": false,
+     "number": 498
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-08-06T22:54:59Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "rmartin16"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-08-06T23:38:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2025-01-06T23:44:46Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2024-08-06T19:32:44Z",
+  "number": 497,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2025-01-06T23:44:46Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "`SafeChildWatcher` is deprecated in Python 3.14"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2024-12-05T23:36:38Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": false,
+     "number": 540
+    },
+    {
+     "author": {
+      "login": "samschott"
+     },
+     "merged": true,
+     "number": 543
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-12T12:53:15Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-13T00:21:46Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-14T23:41:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-15T00:05:19Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-17T18:28:35Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-18T11:05:53Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-18T12:15:27Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-19T00:41:46Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-19T00:55:37Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-20T06:16:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "samschott"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-21T00:22:00Z"
+    }
+   ],
+   "totalCount": 11
+  },
+  "createdAt": "2024-11-12T02:42:12Z",
+  "number": 539,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "samschott"
+      },
+      "number": 543
+     },
+     "createdAt": "2024-12-05T23:36:38Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Foundation collection instances can be cached without their helper wrappers"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "HalfWhitt"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2024-11-26T05:13:40Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "HalfWhitt"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2024-11-26T05:13:40Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2024-11-26T03:32:36Z",
+  "number": 545,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "HalfWhitt"
+     },
+     "closer": null,
+     "createdAt": "2024-11-26T05:13:40Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Translate components of method dispatch to Python argument names?"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2025-01-29T21:48:16Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 558
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2025-01-27T00:52:42Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2025-01-27T00:41:31Z",
+  "number": 557,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 558
+     },
+     "createdAt": "2025-01-29T21:48:16Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Test suite failing under Python 3.14.0a4"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-04-13T23:35:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-04-13T23:39:09Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-05-21T02:26:32Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-05-21T11:46:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-05-21T13:01:11Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-06-17T01:16:39Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2025-06-17T03:42:28Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ColdGrub1384"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2026-01-03T07:55:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ColdGrub1384"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2026-01-03T08:39:42Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-03T15:17:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-03T17:04:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-01-05T05:22:57Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-05-30T00:09:05Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-06-02T00:47:58Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-06-02T13:03:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-06-03T07:07:14Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-06-03T12:53:27Z"
+    }
+   ],
+   "totalCount": 17
+  },
+  "createdAt": "2025-02-14T08:30:58Z",
+  "number": 563,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Provide tools for accessing Swift-only APIs"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "kattni"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2025-09-22T13:57:02Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "hjwp"
+     },
+     "merged": true,
+     "number": 650
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2025-07-09T02:09:30Z",
+  "number": 609,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "hjwp"
+      },
+      "number": 650
+     },
+     "createdAt": "2025-09-22T13:57:02Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Convert `README.rst` from reStructuredText to GitHub-flavored Markdown"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "kattni"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2025-07-23T21:49:35Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 618
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2025-07-09T02:58:16Z",
+  "number": 610,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 618
+     },
+     "createdAt": "2025-07-23T21:49:35Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Add `--fix` arg to `ruff-check` pre-commit configuration."
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "kattni"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2025-07-19T13:14:52Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "VaclavToth"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-07-19T10:01:17Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2025-07-09T21:33:59Z",
+  "number": 612,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2025-07-19T13:14:53Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Resolve `B018` ignored Ruff rule"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mhsmith"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2025-07-24T09:25:38Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 620
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2025-07-23T22:06:37Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2025-07-23T21:48:34Z",
+  "number": 619,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 620
+     },
+     "createdAt": "2025-07-24T09:25:38Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Python 3.14.0rc1 cannot import name '_AbstractEventLoopPolicy' from 'asyncio'"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "johnzhou721"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2025-09-27T00:04:20Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2025-09-22T05:55:52Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-09-22T18:20:55Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2025-09-27T00:04:20Z"
+    }
+   ],
+   "totalCount": 3
+  },
+  "createdAt": "2025-09-21T18:45:24Z",
+  "number": 648,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "closer": null,
+     "createdAt": "2025-09-27T00:04:20Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "macOS 26 Liquid Glass Effects Not Applied"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "onasipim"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-03-16T03:34:15Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2025-10-05T22:12:53Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-03-16T03:34:15Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2025-10-05T16:22:21Z",
+  "number": 653,
+  "state": "CLOSED",
+  "stateReason": "NOT_PLANNED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-03-16T03:34:15Z",
+     "stateReason": "NOT_PLANNED"
+    }
+   ]
+  },
+  "title": "Inability to Implement `UNUserNotificationCenterDelegate` due to Silent Failure with `ctypes`-based IMPs"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "johnzhou721"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2026-01-12T15:04:47Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "Ayu456sh"
+     },
+     "merged": false,
+     "number": 700
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "MTwem"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-07T03:14:48Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-07T03:28:22Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "MTwem"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-07T03:33:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "MTwem"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-07T04:19:50Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "johnzhou721"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-07T04:24:23Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-01-07T04:24:24Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-01-12T15:04:47Z"
+    }
+   ],
+   "totalCount": 7
+  },
+  "createdAt": "2026-01-05T23:23:52Z",
+  "number": 697,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "dgelessus"
+     },
+     "closer": null,
+     "createdAt": "2026-01-12T15:04:48Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "2 Minor Doc issues"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "kattni"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-03-16T03:37:07Z",
+  "number": 729,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "Achieve 100% coverage"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-04-13T20:59:00Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 746
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-04-13T01:45:46Z",
+  "number": 745,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "mhsmith"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 746
+     },
+     "createdAt": "2026-04-13T20:59:00Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "CocoaLifecycle terminates application instances"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-04-13T05:16:02Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 748
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-04-13T03:44:52Z",
+  "number": 747,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 748
+     },
+     "createdAt": "2026-04-13T05:16:02Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Test suite locks up with Python 3.15.0a8"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "Rjvs"
+  },
+  "authorAssociation": "NONE",
+  "closedAt": "2026-05-29T03:32:32Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-04-21T05:05:13Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "Rjvs"
+     },
+     "authorAssociation": "NONE",
+     "createdAt": "2026-04-21T10:30:07Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-04-22T00:26:44Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-05-29T03:32:32Z"
+    }
+   ],
+   "totalCount": 4
+  },
+  "createdAt": "2026-04-21T04:27:02Z",
+  "number": 750,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-05-29T03:32:32Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "`TypeError: invalid type` in `setfunc` of `make_callback_returnable` on Python 3.13"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "johnzhou721"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2026-05-04T01:18:26Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-05-04T01:18:26Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-05-04T01:05:13Z",
+  "number": 755,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-05-04T01:18:26Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "0.5.3 release GitHub page Changelogs linking to toga issues"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-05-19T22:09:19Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "aqilaziz"
+     },
+     "merged": false,
+     "number": 762
+    },
+    {
+     "author": {
+      "login": "ceggy91"
+     },
+     "merged": true,
+     "number": 763
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "ceggy91"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-05-19T18:52:25Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-05-18T17:27:39Z",
+  "number": 761,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "ceggy91"
+      },
+      "number": 763
+     },
+     "createdAt": "2026-05-19T22:09:19Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Deprecate usage of pre-commit-update.yml"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-07-02T04:46:05Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "freakboy3742"
+     },
+     "merged": true,
+     "number": 785
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-07-02T04:23:36Z",
+  "number": 784,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "freakboy3742"
+      },
+      "number": 785
+     },
+     "createdAt": "2026-07-02T04:46:05Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "CocoaLifecycle not terminated if triggered from inside coroutine."
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-07-02T05:57:58Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-07-02T05:57:58Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-07-02T05:49:21Z",
+  "number": 786,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-07-02T05:57:58Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Crash on iOS due to NSEvent not being available"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-09-06T03:04:37Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-09-06T03:04:17Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-07-02T06:02:38Z",
+  "number": 788,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-09-06T03:04:37Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Add CI validation on iOS"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-08-21T03:38:41Z",
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mgstabrani"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-08-20T15:36:06Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-08-21T03:38:41Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2026-07-17T03:31:27Z",
+  "number": 792,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": null,
+     "createdAt": "2026-08-21T03:38:41Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Add cooldown to dependabot actions"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "freakboy3742"
+  },
+  "authorAssociation": "MEMBER",
+  "closedAt": "2026-07-20T02:21:05Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "ROHITCRAFTSYT"
+     },
+     "merged": true,
+     "number": 794
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-07-17T04:16:49Z",
+  "number": 793,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "ROHITCRAFTSYT"
+      },
+      "number": 794
+     },
+     "createdAt": "2026-07-20T02:21:05Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "Add zizmor pre-commit configuration"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mgstabrani"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2026-09-13T23:03:35Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "mgstabrani"
+     },
+     "merged": true,
+     "number": 827
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-09-11T01:36:08Z"
+    },
+    {
+     "author": {
+      "__typename": "User",
+      "login": "mgstabrani"
+     },
+     "authorAssociation": "CONTRIBUTOR",
+     "createdAt": "2026-09-11T10:05:30Z"
+    }
+   ],
+   "totalCount": 2
+  },
+  "createdAt": "2026-09-10T14:42:06Z",
+  "number": 826,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "mgstabrani"
+      },
+      "number": 827
+     },
+     "createdAt": "2026-09-13T23:03:35Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "encoding_for_ctype() raises AttributeError instead of the documented ValueError for non-pointer types"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "mgstabrani"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": "2026-10-17T18:38:18Z",
+  "closedByPullRequestsReferences": {
+   "nodes": [
+    {
+     "author": {
+      "login": "mgstabrani"
+     },
+     "merged": true,
+     "number": 845
+    }
+   ]
+  },
+  "comments": {
+   "nodes": [
+    {
+     "author": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "authorAssociation": "MEMBER",
+     "createdAt": "2026-10-14T07:06:23Z"
+    }
+   ],
+   "totalCount": 1
+  },
+  "createdAt": "2026-10-13T16:04:33Z",
+  "number": 844,
+  "state": "CLOSED",
+  "stateReason": "COMPLETED",
+  "timelineItems": {
+   "nodes": [
+    {
+     "actor": {
+      "__typename": "User",
+      "login": "freakboy3742"
+     },
+     "closer": {
+      "__typename": "PullRequest",
+      "author": {
+       "login": "mgstabrani"
+      },
+      "number": 845
+     },
+     "createdAt": "2026-10-17T18:38:18Z",
+     "stateReason": "COMPLETED"
+    }
+   ]
+  },
+  "title": "unregister_ctype, unregister_ctype_all, and unregister_encoding_all raise TypeError due to invalid dict.pop(..., default=...) call"
+ },
+ {
+  "author": {
+   "__typename": "User",
+   "login": "kattni"
+  },
+  "authorAssociation": "CONTRIBUTOR",
+  "closedAt": null,
+  "closedByPullRequestsReferences": {
+   "nodes": []
+  },
+  "comments": {
+   "nodes": [],
+   "totalCount": 0
+  },
+  "createdAt": "2026-10-17T22:04:24Z",
+  "number": 846,
+  "state": "OPEN",
+  "stateReason": null,
+  "timelineItems": {
+   "nodes": []
+  },
+  "title": "iOS: the nested `-[NSRunLoop run]` keeps UIKit out of its tracking mode, and cross-thread callbacks depend on it"
+ }
+]

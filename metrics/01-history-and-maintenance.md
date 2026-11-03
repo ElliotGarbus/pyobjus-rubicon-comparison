@@ -1,6 +1,6 @@
 # Section 1 metric definitions
 
-**Status: draft, awaiting approval.** These definitions were written before the Section 1 data was collected. Any change after collection starts is recorded below with its reason.
+**Status: approved 2026-11-03, including the changes recorded below.** These definitions were written before the Section 1 data was collected. Changes made after that are recorded at the end of this document with their reasons.
 
 ## What was seen before these were written
 
@@ -129,4 +129,17 @@ Claims 1 to 5 and the release half of claim 16 in [CLAIMS.md](../CLAIMS.md). Sec
 
 ## Changes after approval
 
-None yet.
+Approved 2026-11-03. These changes were made during collection and analysis.
+
+| Metric | Change | Reason |
+|---|---|---|
+| I3 | **Approved 2026-11-03.** A maintainer is now also anyone who has merged a PR in that project. Results using association alone are shown beside the new results. | Association alone misclassified people. `kattni`, on BeeWare's team page with 99 merges, was reported as a `CONTRIBUTOR`, likely because of private organization membership (**Inferred**). The collecting account belongs to the Kivy organization but not BeeWare, which could treat the two projects differently. |
+| I3 | Added a check with ElliotGarbus removed as a responder. | The author's role. The result didn't change. |
+| I5 | Added whether ElliotGarbus closed the issue directly. | Three of the five pyobjus issues were closed by Elliot with no linked PR recorded, so the approved split alone would understate Elliot's involvement. |
+| Raw data | Commit records keep only the fields used by the analysis. Email fields and free-text project descriptions are removed from PyPI records. | The approved rule that no email addresses are published. |
+| Bots | Added `brutusthebee`, its commit names `Brutus the Bee` and `Brutus (robot)`, and GitHub's short bot names. | Hand review. The account's profile says it performs bot activities for BeeWare. |
+| Default branch | Rubicon PRs merged to `master` count as default-branch merges. | The branch was later renamed to `main`, and 127 merged PRs keep the old name. |
+| R5, R6 | When a compatible wheel already existed at a Python final release, the result is "already installable", with the version available at that time. | Rubicon's universal wheels date from 2014, so day counts from the first compatible wheel wouldn't mean anything. |
+| R6 | Official iOS support starts at Python 3.13, based on PEP 730. | The definition didn't name a starting version. |
+| R3, A4 | "Last five years" means gaps that end in those five years. | The definition didn't specify how to treat a gap crossing the boundary. |
+| S1 | Release actors come from GitHub release authors, tag commits and workflow runs. | Tags are lightweight, with no tagger, and GitHub no longer has workflow records for older pyobjus releases. |

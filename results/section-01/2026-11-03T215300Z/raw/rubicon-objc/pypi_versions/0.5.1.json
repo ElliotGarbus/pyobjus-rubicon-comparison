@@ -1,0 +1,71 @@
+{
+ "author": null,
+ "bugtrack_url": null,
+ "classifiers": [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Programming Language :: Objective C",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Software Development"
+ ],
+ "description_content_type": "text/x-rst",
+ "docs_url": null,
+ "download_url": null,
+ "downloads": {
+  "last_day": -1,
+  "last_month": -1,
+  "last_week": -1
+ },
+ "dynamic": [
+  "License-File"
+ ],
+ "home_page": null,
+ "keywords": "macOS, iOS, Objective C",
+ "license": null,
+ "license_expression": "BSD-3-Clause",
+ "license_files": [
+  "LICENSE"
+ ],
+ "maintainer": null,
+ "name": "rubicon-objc",
+ "package_url": "https://pypi.org/project/rubicon-objc/",
+ "platform": null,
+ "project_url": "https://pypi.org/project/rubicon-objc/",
+ "project_urls": {
+  "Documentation": "https://rubicon-objc.readthedocs.io/en/latest/",
+  "Funding": "https://beeware.org/contributing/membership/",
+  "Homepage": "https://beeware.org/rubicon",
+  "Source": "https://github.com/beeware/rubicon-objc",
+  "Tracker": "https://github.com/beeware/rubicon-objc/issues"
+ },
+ "provides_extra": [
+  "dev",
+  "docs"
+ ],
+ "release_url": "https://pypi.org/project/rubicon-objc/0.5.1/",
+ "requires_dist": [
+  "pre-commit==4.2.0; extra == \"dev\"",
+  "pytest==8.3.5; extra == \"dev\"",
+  "setuptools_scm==8.3.1; extra == \"dev\"",
+  "tox==4.26.0; extra == \"dev\"",
+  "furo==2024.8.6; extra == \"docs\"",
+  "pyenchant==3.2.2; extra == \"docs\"",
+  "sphinx==8.2.3; extra == \"docs\"",
+  "sphinx_tabs==3.4.7; extra == \"docs\"",
+  "sphinx-autobuild==2024.10.3; extra == \"docs\"",
+  "sphinx-copybutton==0.5.2; extra == \"docs\"",
+  "sphinxcontrib-spelling==8.0.1; extra == \"docs\""
+ ],
+ "requires_python": ">=3.9",
+ "summary": "A bridge between an Objective C runtime environment and Python.",
+ "version": "0.5.1",
+ "yanked": false,
+ "yanked_reason": null
+}
