@@ -298,7 +298,7 @@ The pyobjus samples are small, and I4 stops 90 days before the snapshot, which e
 | Rubicon ObjC | [#188](https://github.com/beeware/rubicon-objc/issues/188) Consider using sphinx-autoapi to generate docs without having to import rubicon.objc | 2020-09-19 | 2025-10-31 | 5.1 | freakboy3742 | Fixed by kattni's PR [#658](https://github.com/beeware/rubicon-objc/pull/658), merged by freakboy3742 |
 | Rubicon ObjC | [#223](https://github.com/beeware/rubicon-objc/issues/223) Calling performSelector for a @objc_method created by rubicon from Objective C crashes in Python 3.9 | 2021-07-07 | 2026-09-03 | 5.2 | freakboy3742 | Closed because it no longer reproduced on supported Python versions |
 
-"Closed by" is the person who closed the issue, which isn't necessarily who fixed it or merged the fix. ElliotGarbus has merged no PRs in pyobjus. Elliot wrote the fixes for 3 of these 5 issues, and closed #15 and #21 after confirming that earlier work by others had resolved them. Resolutions were read from each issue's closing comments and linked PRs, and are recorded in [`long_open_resolutions.csv`](../results/section-01/long_open_resolutions.csv). No PRs open for five years were closed by either project in this window.
+Resolutions were read from each issue's closing comments and linked PRs, and are recorded in [`long_open_resolutions.csv`](../results/section-01/long_open_resolutions.csv).
 
 ### Sustainability factors (S1 to S6)
 
