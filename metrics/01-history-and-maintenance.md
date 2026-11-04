@@ -17,7 +17,7 @@ No metric below has been calculated yet.
 
 ## Scope and common rules
 
-- **Repositories:** `kivy/pyobjus` (`master`) and `beeware/rubicon-objc` (`main`) only. Work elsewhere in either organization isn't counted, except in S4.
+- **Repositories:** `kivy/pyobjus` (`master`) and `beeware/rubicon-objc` (`main`) only. Work elsewhere in either organization isn't counted.
 - **Snapshot:** one UTC time, *T*, set when collection starts and used for both projects. The commit at *T* is recorded for each, and the raw responses are saved under `results/section-01/`, so results can be recalculated from the same data.
 - **Time windows:** calendar years from each project's first commit, plus the 12 and 24 months before *T*. A partial year is labeled as partial.
 - **Dates:** commits use committer date, pull requests use merge date, and PyPI releases use the earliest file upload time for that version. All are in UTC.
@@ -90,6 +90,8 @@ Issues and PRs are always reported separately, and bot-authored items are exclud
 
 ## S. Sustainability factors
 
+**Removed from Section 1 on 2026-11-03, except the last five releases in S1.** S4 moves to Section 7. See the changes table at the end of this document. The original definitions are kept here for reference.
+
 These are descriptive facts with links, and they aren't scored.
 
 | ID | Metric | Definition | Source | Label |
@@ -133,6 +135,7 @@ Approved 2026-11-03. These changes were made during collection and analysis.
 
 | Metric | Change | Reason |
 |---|---|---|
+| S1 to S6 | **Approved 2026-11-03.** Removed from Section 1, except the last five releases from S1, which moved to the merging section as evidence for finding 2. First-party dependents (S4) move to Section 7. PyPI owners, release mechanism, governance, funding, policies and license are no longer reported. | The author's judgment that these facts don't help the decision. This was changed after seeing the results. |
 | I3 | **Approved 2026-11-03.** A maintainer is now also anyone who has merged a PR in that project. Results using association alone are shown beside the new results. | Association alone misclassified people. `kattni`, on BeeWare's team page with 99 merges, was reported as a `CONTRIBUTOR`, likely because of private organization membership (**Inferred**). The collecting account belongs to the Kivy organization but not BeeWare, which could treat the two projects differently. |
 | C3 | **Approved 2026-11-03.** Replaced the results without each project's top contributor with the engagement table above, for both projects. The original results stay in `derived/metrics.json` as `C3_without_top_contributor_superseded`. | The original metric treated a founder with 12 years of steady work the same as someone who started in July 2026, so it could mislead about engagement. This was changed after seeing the results, at the author's request, and the new table also favors Rubicon. Reliance on individuals remains visible in C2 and C4. |
 | I3 | Added a check with ElliotGarbus removed as a responder. | The author's role. The result didn't change. |

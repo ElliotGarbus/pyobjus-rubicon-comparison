@@ -117,9 +117,16 @@ Each cell lists the share from the top person, the share from the top two, and t
 
 Each project's five most active people over the last 24 months, ranked by months active. Activity means writing a non-merge commit or merging a PR. "PRs merged" includes bot-authored dependency updates, while "PRs authored" doesn't. pyobjus had 5 people active in this window, and Rubicon had {{rubicon_active}}.
 
-### Merging and review (C4)
+### Merging, review and releases (C4, S1)
 
 {{merge_review}}
+
+**Last five stable releases (S1):**
+
+| Project | Versions | Who released them |
+|---|---|---|
+| pyobjus | 1.2.0 to 1.2.4 | matham for 1.2.0 and 1.2.1. misl6 for 1.2.2 and 1.2.3, by release author or tag commit, and for 1.2.4, by triggering the workflow. GitHub's run records for the older releases aren't available. |
+| Rubicon ObjC | 0.5.3 to 0.5.7 | freakboy3742 triggered the workflow for all five. |
 
 ### Issues and PRs (I1, I2)
 
@@ -155,21 +162,6 @@ The pyobjus samples are small, and I4 stops 90 days before the snapshot, which e
 
 Resolutions were read from each issue's closing comments and linked PRs, and are recorded in [`long_open_resolutions.csv`](../results/section-01/long_open_resolutions.csv).
 
-### Sustainability factors (S1 to S6)
-
-| Factor | pyobjus | Rubicon ObjC |
-|---|---|---|
-| **PyPI access (S1)** | Five owner accounts: Mathieu.Virbel, kivybot, matham, misl6, tshirtman. | Held by the `beeware` organization. Its individual roles aren't listed publicly. |
-| **Last five releases (S1)** | 1.2.0 and 1.2.1: matham. 1.2.2 and 1.2.3: misl6 by release author or tag commit. 1.2.4: misl6 triggered the workflow. GitHub's run record for the older releases isn't available. | All five, 0.5.3 to 0.5.7: freakboy3742 triggered the workflow. |
-| **Release mechanism (S1)** | [Workflow](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/.github/workflows/deploy.yml) on tag push, using a stored PyPI password. | [Workflows](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/.github/workflows/publish.yml) on tag and release, using trusted publishing. |
-| **Governance and maintainers (S2)** | [Kivy's about page](https://kivy.org/about.html) lists core developers for Kivy overall and doesn't mention pyobjus. [`setup.py`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/setup.py) names no author or maintainer, and the repository has no `CODEOWNERS` file. We found no published decision process. | The [team page](https://beeware.org/about/team/) lists five current members for BeeWare overall and doesn't assign Rubicon to any of them. [`pyproject.toml`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/pyproject.toml) lists the BeeWare Team as maintainers, and the repository has no `CODEOWNERS` file. The [governance page](https://beeware.org/community/governance/) sets out core team duties and names Russell Keith-Magee as final decision-maker. |
-| **Funding (S3)** | [Kivy Open Collective](https://opencollective.com/kivy): balance $32,103.51, yearly budget $2,937, total received $41,280.32. This covers all Kivy projects. Paid maintenance: **Unknown**. | [Memberships](https://beeware.org/membership/) from $200 a month, with Anaconda listed as a Gold member, and [GitHub Sponsors through freakboy3742](https://github.com/beeware/.github/blob/4e0b8b4799273367f7013d273b9f02b201eb5840/FUNDING.yml). Amounts and paid maintenance: **Unknown**. |
-| **First-party dependents (S4)** | [Plyer](https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/setup.py) declares it for iOS and macOS. [kivy-ios](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/pyobjus/__init__.py) has a recipe. Kivy's `setup.py` and `pyproject.toml` at [`9f31209`](https://github.com/kivy/kivy/tree/9f31209822494bbd3e7eafacad29534661870054) don't declare it, though two core modules use it. | [Toga's Cocoa](https://github.com/beeware/toga/blob/dd833f156e13d15ed26720ef50b8e544046619c5/cocoa/pyproject.toml) and [iOS](https://github.com/beeware/toga/blob/dd833f156e13d15ed26720ef50b8e544046619c5/iOS/pyproject.toml) backends declare `rubicon-objc >= 0.5.1, < 0.6.0`. |
-| **Policies (S5)** | No contributing, conduct, security or support file in the repository. [kivy/kivy](https://github.com/kivy/kivy/tree/9f31209822494bbd3e7eafacad29534661870054) has contributing and conduct files. | Contributing and conduct files in the repository. [BeeWare's `.github` repository](https://github.com/beeware/.github/tree/4e0b8b4799273367f7013d273b9f02b201eb5840) adds security, support and AI policies. |
-| **License (S6)** | [MIT](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/LICENSE). | [BSD-3-Clause](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/LICENSE), per `pyproject.toml`. |
-
-Web pages were read on 2026-11-03 and may change. "We found no" means the pages listed here were checked, and doesn't prove a document doesn't exist.
-
 ### Adoption signals (U1, U2)
 
 Downloads from 2026-05-07 to 2026-11-02, from [pypistats.org](https://pypistats.org), excluding known mirrors:
@@ -182,6 +174,6 @@ These counts include CI runs and installs pulled in as dependencies, and apps bu
 - **Reported:** [akshayaurora](https://github.com/kivy/kivy/issues/9469#issuecomment-6517712158) says shipped Kivy iOS and macOS apps use pyobjus for Core Bluetooth, Bonjour, GPS, pickers and notifications, and [says](https://github.com/kivy/kivy/issues/9469#issuecomment-6540219422) at least 20 people and companies use these projects in mission-critical work. No users are named.
 - **Reported:** [kengoon](https://github.com/kivy/kivy/issues/9469#issuecomment-6540733322) says they have used both libraries with Kivy. Their [pyobjus-firebase](https://github.com/PySimpleObjC/pyobjus-firebase) and [pyios-firebase](https://github.com/PySimpleObjC/pyios-firebase) repositories are public.
 - **Reported:** Rubicon's [success stories page](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/docs/en/about/success.md) lists Travel Tips, an iOS App Store app, as using Rubicon.
-- **Source:** Toga depends on Rubicon, as shown in S4. Its downstream users are covered in Section 7.
+- **Source:** Toga's [Cocoa](https://github.com/beeware/toga/blob/dd833f156e13d15ed26720ef50b8e544046619c5/cocoa/pyproject.toml) and [iOS](https://github.com/beeware/toga/blob/dd833f156e13d15ed26720ef50b8e544046619c5/iOS/pyproject.toml) backends depend on Rubicon. First-party and downstream dependents of both libraries are covered in Section 7.
 
 Corrections or named uses of either library are welcome, with a source.
