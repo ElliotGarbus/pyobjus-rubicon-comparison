@@ -1,0 +1,55 @@
+{
+ "pyobjus-main": {},
+ "rubicon-main": {
+  "NSDecimalNumber decimalValue": {
+   "found, signature differs": 5
+  },
+  "NSDecimalNumber decimalNumberWithDecimal:": {
+   "found, signature differs": 5
+  },
+  "NSProcessInfo isOperatingSystemAtLeastVersion:": {
+   "found, signature differs": 5
+  },
+  "NSProcessInfo operatingSystemVersion": {
+   "found, signature differs": 5
+  },
+  "NSAffineTransform setTransformStruct:": {
+   "found, signature differs": 5
+  },
+  "NSDecimalNumber initWithDecimal:": {
+   "found, signature differs": 5
+  },
+  "NSAffineTransform transformStruct": {
+   "found, signature differs": 5
+  },
+  "NSNumber decimalValue": {
+   "found, signature differs": 5
+  }
+ },
+ "pyobjc-13.0": {
+  "NSDecimalNumber decimalValue": {
+   "found, signature differs": 5
+  },
+  "NSDecimalNumber decimalNumberWithDecimal:": {
+   "found, signature differs": 5
+  },
+  "NSProcessInfo isOperatingSystemAtLeastVersion:": {
+   "found, signature differs": 5
+  },
+  "NSProcessInfo operatingSystemVersion": {
+   "found, signature differs": 5
+  },
+  "NSAffineTransform setTransformStruct:": {
+   "found, signature differs": 5
+  },
+  "NSDecimalNumber initWithDecimal:": {
+   "found, signature differs": 5
+  },
+  "NSAffineTransform transformStruct": {
+   "found, signature differs": 5
+  },
+  "NSNumber decimalValue": {
+   "found, signature differs": 5
+  }
+ }
+}

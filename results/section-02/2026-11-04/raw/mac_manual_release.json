@@ -1,0 +1,172 @@
+{
+ "pyobjus-main": {
+  "m2_alloc_init_manual_release": {
+   "summary": {
+    "ok, most recent object held": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "pyobjus-1.2.4": {
+  "m2_alloc_init_manual_release": {
+   "summary": {
+    "ok, most recent object held": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-main": {
+  "m2_alloc_init_manual_release": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-0.5.7": {
+  "m2_alloc_init_manual_release": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "pyobjc-13.0": {
+  "m2_alloc_init_manual_release": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "the library's docs say it manages this",
+     "stderr": ""
+    }
+   ]
+  }
+ }
+}

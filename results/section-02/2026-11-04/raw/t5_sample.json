@@ -1,0 +1,1348 @@
+{
+ "seed": 20261104,
+ "per_kind": 20,
+ "totals": {
+  "Foundation": {
+   "struct": 8,
+   "block": 173,
+   "out": 120,
+   "function": 10
+  },
+  "AppKit": {
+   "struct": 0,
+   "block": 124,
+   "out": 102,
+   "function": 2
+  },
+  "CoreBluetooth": {
+   "struct": 0,
+   "block": 0,
+   "out": 0,
+   "function": 0
+  },
+  "CoreLocation": {
+   "struct": 0,
+   "block": 20,
+   "out": 0,
+   "function": 0
+  },
+  "UserNotifications": {
+   "struct": 0,
+   "block": 10,
+   "out": 1,
+   "function": 0
+  }
+ },
+ "sample": [
+  {
+   "framework": "Foundation",
+   "kind": "struct",
+   "class": "NSDecimalNumber",
+   "selector": "decimalValue",
+   "class_method": false,
+   "type": "{_NSDecimal=b8b4b1b1b18[8S]}",
+   "is_return": true,
+   "index": null
+  },
+  {
+   "framework": "Foundation",
+   "kind": "struct",
+   "class": "NSDecimalNumber",
+   "selector": "decimalNumberWithDecimal:",
+   "class_method": true,
+   "type": "{_NSDecimal=b8b4b1b1b18[8S]}",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "struct",
+   "class": "NSProcessInfo",
+   "selector": "isOperatingSystemAtLeastVersion:",
+   "class_method": false,
+   "type": "{_NSOperatingSystemVersion=qqq}",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "struct",
+   "class": "NSProcessInfo",
+   "selector": "operatingSystemVersion",
+   "class_method": false,
+   "type": "{_NSOperatingSystemVersion=qqq}",
+   "is_return": true,
+   "index": null
+  },
+  {
+   "framework": "Foundation",
+   "kind": "struct",
+   "class": "NSAffineTransform",
+   "selector": "setTransformStruct:",
+   "class_method": false,
+   "type": "{_NSAffineTransformStruct=dddddd}",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "struct",
+   "class": "NSDecimalNumber",
+   "selector": "initWithDecimal:",
+   "class_method": false,
+   "type": "{_NSDecimal=b8b4b1b1b18[8S]}",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "struct",
+   "class": "NSAffineTransform",
+   "selector": "transformStruct",
+   "class_method": false,
+   "type": "{_NSAffineTransformStruct=dddddd}",
+   "is_return": true,
+   "index": null
+  },
+  {
+   "framework": "Foundation",
+   "kind": "struct",
+   "class": "NSNumber",
+   "selector": "decimalValue",
+   "class_method": false,
+   "type": "{_NSDecimal=b8b4b1b1b18[8S]}",
+   "is_return": true,
+   "index": null
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSUserAppleScriptTask",
+   "selector": "executeWithAppleEvent:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSTimer",
+   "selector": "timerWithTimeInterval:repeats:block:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSURLSession",
+   "selector": "getTasksWithCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSURLSessionUploadTask",
+   "selector": "cancelByProducingResumeData:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSBundleResourceRequest",
+   "selector": "beginAccessingResourcesWithCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSProcessInfo",
+   "selector": "performExpiringActivityWithReason:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "remoteObjectProxyWithErrorHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSArray",
+   "selector": "indexOfObjectWithOptions:passingTest:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSOrderedSet",
+   "selector": "sortedArrayWithOptions:usingComparator:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSFileManager",
+   "selector": "getFileProviderServicesForItemAtURL:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSURLConnection",
+   "selector": "sendAsynchronousRequest:queue:completionHandler:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSRunLoop",
+   "selector": "performBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSItemProvider",
+   "selector": "loadDataRepresentationForTypeIdentifier:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSError",
+   "selector": "setUserInfoValueProviderForDomain:provider:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSLinguisticTagger",
+   "selector": "enumerateTagsInRange:unit:scheme:options:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "4"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSMetadataQuery",
+   "selector": "enumerateResultsUsingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSIndexSet",
+   "selector": "enumerateRangesWithOptions:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSDictionary",
+   "selector": "keysSortedByValueWithOptions:usingComparator:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSNotificationCenter",
+   "selector": "addObserverForName:object:queue:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "3"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "block",
+   "class": "NSString",
+   "selector": "enumerateLinesUsingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSObject",
+   "selector": "spellServer:findMisspelledWordInString:language:wordCount:countOnly:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "3"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSURL",
+   "selector": "getResourceValue:forKey:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSPersonNameComponentsFormatter",
+   "selector": "getObjectValue:forString:errorDescription:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSString",
+   "selector": "stringWithContentsOfURL:encoding:error:",
+   "class_method": true,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSFileManager",
+   "selector": "removeItemAtPath:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSPropertyListSerialization",
+   "selector": "dataFromPropertyList:format:errorDescription:",
+   "class_method": true,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSKeyedUnarchiver",
+   "selector": "decodeBytesForKey:returnedLength:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSFileManager",
+   "selector": "attributesOfItemAtPath:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSData",
+   "selector": "initWithContentsOfFile:options:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSString",
+   "selector": "initWithContentsOfFile:usedEncoding:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSFormatter",
+   "selector": "isPartialStringValid:newEditingString:errorDescription:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSString",
+   "selector": "initWithContentsOfURL:encoding:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSDateComponentsFormatter",
+   "selector": "getObjectValue:forString:errorDescription:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSCoder",
+   "selector": "decodeBytesWithReturnedLength:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSScanner",
+   "selector": "scanFloat:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSDateFormatter",
+   "selector": "getObjectValue:forString:range:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSStream",
+   "selector": "getStreamsToHost:port:inputStream:outputStream:",
+   "class_method": true,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSAppleScript",
+   "selector": "initWithContentsOfURL:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSXMLDocument",
+   "selector": "objectByApplyingXSLTString:arguments:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "out",
+   "class": "NSString",
+   "selector": "getParagraphStart:end:contentsEnd:forRange:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSPointerFunctions",
+   "selector": "setIsEqualFunction:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSPointerFunctions",
+   "selector": "setRelinquishFunction:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSArray",
+   "selector": "sortedArrayUsingFunction:context:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSPointerFunctions",
+   "selector": "setHashFunction:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSPointerFunctions",
+   "selector": "setAcquireFunction:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSInvocation",
+   "selector": "invokeUsingIMP:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSMutableArray",
+   "selector": "sortUsingFunction:context:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSArray",
+   "selector": "sortedArrayUsingFunction:context:hint:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSPointerFunctions",
+   "selector": "setDescriptionFunction:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "Foundation",
+   "kind": "function",
+   "class": "NSPointerFunctions",
+   "selector": "setSizeFunction:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSDocument",
+   "selector": "shareDocumentWithSharingService:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSTextLayoutManager",
+   "selector": "enumerateTextSegmentsInRange:type:options:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "3"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSSavePanel",
+   "selector": "beginSheetModalForWindow:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSWindow",
+   "selector": "beginCriticalSheet:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSTextLayoutManager",
+   "selector": "enumerateRenderingAttributesFromLocation:reverse:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "writingToolsCoordinator:requestsContextsForScope:completion:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSTextContentManager",
+   "selector": "performEditingTransactionUsingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSTableViewDiffableDataSource",
+   "selector": "initWithTableView:cellProvider:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSAlert",
+   "selector": "beginSheetModalForWindow:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "writingToolsCoordinator:requestsDecorationContainerViewForRange:inContext:completion:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "3"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSStoryboard",
+   "selector": "instantiateInitialControllerWithCreator:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "performEditingTransactionForTextStorage:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "writingToolsCoordinator:requestsPreviewForRect:inContext:completion:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "3"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSDocument",
+   "selector": "restoreDocumentWindowWithIdentifier:state:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "writingToolsCoordinator:requestsRangeInContextWithIdentifierForPoint:completion:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSDraggingSession",
+   "selector": "enumerateDraggingItemsWithOptions:forView:classes:searchOptions:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "4"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSTableView",
+   "selector": "enumerateAvailableRowViewsUsingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSWorkspace",
+   "selector": "recycleURLs:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "enumerateSubstringsFromLocation:options:usingBlock:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "block",
+   "class": "NSPasteboardItem",
+   "selector": "detectPatternsForPatterns:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSAttributedString",
+   "selector": "initWithHTML:documentAttributes:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSBezierPath",
+   "selector": "elementAtIndex:associatedPoints:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSNib",
+   "selector": "instantiateNibWithOwner:topLevelObjects:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSDocumentController",
+   "selector": "makeUntitledDocumentOfType:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSLayoutManager",
+   "selector": "rectArrayForCharacterRange:withinSelectedCharacterRange:inTextContainer:rectCount:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "3"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSBitmapImageRep",
+   "selector": "setPixel:atX:y:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSView",
+   "selector": "getRectsExposedDuringLiveResize:count:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSView",
+   "selector": "adjustPageHeightNew:top:bottom:limit:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSObject",
+   "selector": "layoutManager:shouldSetLineFragmentRect:lineFragmentUsedRect:baselineOffset:inTextContainer:forGlyphRange:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSAttributedString",
+   "selector": "dataFromRange:documentAttributes:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSWorkspace",
+   "selector": "openURLs:withAppBundleIdentifier:options:additionalEventParamDescriptor:launchIdentifiers:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "4"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSDocument",
+   "selector": "readFromData:ofType:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSPersistentDocument",
+   "selector": "readFromURL:ofType:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSDocumentController",
+   "selector": "typeForContentsOfURL:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSAttributedString",
+   "selector": "initWithRTF:documentAttributes:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSCell",
+   "selector": "getPeriodicDelay:interval:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSAttributedString",
+   "selector": "initWithRTFDFileWrapper:documentAttributes:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSTextView",
+   "selector": "smartInsertForString:replacingRange:beforeString:afterString:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSDocument",
+   "selector": "writeToURL:ofType:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "out",
+   "class": "NSPersistentDocument",
+   "selector": "writeToURL:ofType:forSaveOperation:originalContentsURL:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "4"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "function",
+   "class": "NSView",
+   "selector": "sortSubviewsUsingFunction:context:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "AppKit",
+   "kind": "function",
+   "class": "NSMatrix",
+   "selector": "sortUsingFunction:context:",
+   "class_method": false,
+   "type": "^?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLLocationUpdater",
+   "selector": "liveUpdaterWithQueue:handler:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "geocodePostalAddress:preferredLocale:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "geocodeAddressString:inRegionCenteredAt:inRegionRadius:preferredLocale:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "4"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "geocodeAddressString:inRegion:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "reverseGeocodeLocation:preferredLocale:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLLocationManager",
+   "selector": "requestHistoricalLocationsWithPurposeKey:sampleCount:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLLocationManager",
+   "selector": "startMonitoringLocationPushesWithCompletion:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLLocationUpdater",
+   "selector": "liveUpdaterWithConfiguration:queue:handler:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLMonitorConfiguration",
+   "selector": "configWithMonitorName:queue:eventHandler:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "didReceiveLocationPushPayload:completion:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "geocodePostalAddress:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "geocodeAddressDictionary:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "reverseGeocodeLocation:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLServiceSession",
+   "selector": "sessionRequiringAuthorization:fullAccuracyPurposeKey:queue:handler:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "3"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "geocodeAddressString:inRegion:preferredLocale:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "3"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLMonitor",
+   "selector": "requestMonitorWithConfiguration:completion:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLLocationManager",
+   "selector": "requestTemporaryFullAccuracyAuthorizationWithPurposeKey:completion:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLBackgroundActivitySession",
+   "selector": "backgroundActivitySessionWithQueue:handler:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLServiceSession",
+   "selector": "sessionRequiringAuthorization:queue:handler:",
+   "class_method": true,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "CoreLocation",
+   "kind": "block",
+   "class": "CLGeocoder",
+   "selector": "geocodeAddressString:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "UNUserNotificationCenter",
+   "selector": "getNotificationSettingsWithCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "UNUserNotificationCenter",
+   "selector": "addNotificationRequest:withCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "UNUserNotificationCenter",
+   "selector": "getDeliveredNotificationsWithCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "UNUserNotificationCenter",
+   "selector": "getPendingNotificationRequestsWithCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "UNUserNotificationCenter",
+   "selector": "getNotificationCategoriesWithCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "0"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "UNNotificationServiceExtension",
+   "selector": "didReceiveNotificationRequest:withContentHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "UNUserNotificationCenter",
+   "selector": "requestAuthorizationWithOptions:completionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "NSObject",
+   "selector": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "2"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "block",
+   "class": "UNUserNotificationCenter",
+   "selector": "setBadgeCount:withCompletionHandler:",
+   "class_method": false,
+   "type": "@?",
+   "is_return": false,
+   "index": "1"
+  },
+  {
+   "framework": "UserNotifications",
+   "kind": "out",
+   "class": "UNNotificationContent",
+   "selector": "contentByUpdatingWithProvider:error:",
+   "class_method": false,
+   "type": "",
+   "is_return": false,
+   "index": "1"
+  }
+ ]
+}

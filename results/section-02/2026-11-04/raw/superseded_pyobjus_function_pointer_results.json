@@ -1,0 +1,48 @@
+{
+ "pyobjus-1.2.4": {
+  "cb2_function_int": {
+   "crash": 5
+  },
+  "cb2_function_double": {
+   "crash": 5
+  },
+  "cb2_function_object": {
+   "crash": 5
+  },
+  "cb2_function_rect": {
+   "python exception": 5
+  },
+  "cb3_function": {
+   "crash": 5
+  },
+  "cb4_function": {
+   "crash": 5
+  },
+  "cb2_function_rect_arg": {
+   "crash": 5
+  }
+ },
+ "pyobjus-main": {
+  "cb2_function_int": {
+   "crash": 5
+  },
+  "cb2_function_double": {
+   "crash": 5
+  },
+  "cb2_function_object": {
+   "crash": 5
+  },
+  "cb2_function_rect": {
+   "python exception": 5
+  },
+  "cb3_function": {
+   "crash": 5
+  },
+  "cb4_function": {
+   "crash": 5
+  },
+  "cb2_function_rect_arg": {
+   "crash": 5
+  }
+ }
+}

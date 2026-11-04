@@ -9,8 +9,8 @@ Claims from [kivy/kivy#9469](https://github.com/kivy/kivy/issues/9469) and linke
 | 3 | Rubicon has sustained activity across multiple maintainers | [ElliotGarbus](https://github.com/kivy/kivy/issues/9469#issuecomment-6525747804) | 1 | Data in Section 1 draft |
 | 4 | Some pyobjus issues closed in 2026 had been open for 5 to 12 years | [ElliotGarbus](https://github.com/kivy/kivy/issues/9469#issuecomment-6530717668) | 1 | Data in Section 1 draft |
 | 5 | At least 20 people and companies use these projects in mission-critical work | [akshayaurora](https://github.com/kivy/kivy/issues/9469#issuecomment-6540219422) | 1, 7 | Reported in Section 1 draft; stays Reported unless users are named |
-| 6 | `ctypes` makes some memory-safe behavior impossible in Rubicon | [akshayaurora](https://github.com/kivy/kivy/issues/9469#issuecomment-6540219422) | 2, 3 | Open; [examples requested](https://github.com/kivy/kivy/issues/9469#issuecomment-6543683260) |
-| 7 | pyobjus leaks memory, for example through `delegate_register` | [ElliotGarbus](https://github.com/kivy/kivy/issues/9469) | 2, 6 | Open |
+| 6 | `ctypes` makes some memory-safe behavior impossible in Rubicon | [akshayaurora](https://github.com/kivy/kivy/issues/9469#issuecomment-6540219422) | 2, 3 | Reported in Section 2 draft; [examples requested](https://github.com/kivy/kivy/issues/9469#issuecomment-6543683260) and not yet provided |
+| 7 | pyobjus leaks memory, for example through `delegate_register` | [ElliotGarbus](https://github.com/kivy/kivy/issues/9469) | 2, 6 | Data in Section 2 draft; amounts open for Section 6 |
 | 8 | Each library can do things the other can't | [akshayaurora](https://github.com/kivy/kivy/issues/9469#issuecomment-6540219422) | 3 | Open |
 | 9 | pyobjus can't create blocks, so APIs with completion handlers need Objective-C helper code | [ElliotGarbus](https://github.com/kivy/kivy/issues/9469); [akshayaurora agrees](https://github.com/kivy/kivy/issues/9469#issuecomment-6517712158) | 3 | Open |
 | 10 | pyobjus can't subclass Objective-C classes from Python | [ElliotGarbus](https://github.com/kivy/kivy/issues/9469) | 3 | Open |

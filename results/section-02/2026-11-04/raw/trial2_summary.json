@@ -1,0 +1,728 @@
+{
+ "rubicon-main": {
+  "t2_int": {
+   "ok": 1
+  },
+  "t2_float": {
+   "ok": 1
+  },
+  "t2_bool": {
+   "ok": 1
+  },
+  "t2_str": {
+   "ok": 1
+  },
+  "t2_bytes": {
+   "ok": 1
+  },
+  "t2_none": {
+   "ok": 1
+  },
+  "t2_list": {
+   "ok": 1
+  },
+  "t2_dict": {
+   "ok": 1
+  },
+  "t2_class": {
+   "ok": 1
+  },
+  "t2_selector": {
+   "ok": 1
+  },
+  "t2_pointer": {
+   "ok": 1
+  },
+  "t3_rect": {
+   "ok": 1
+  },
+  "t3_range": {
+   "ok": 1
+  },
+  "t3_insets": {
+   "ok": 1
+  },
+  "t3_nested": {
+   "ok": 1
+  },
+  "t4_unknown_selector": {
+   "ok": 1
+  },
+  "t4_wrong_type_scalar": {
+   "ok": 1
+  },
+  "t4_wrong_type_object": {
+   "ok": 1
+  },
+  "t4_too_few_args": {
+   "ok": 1
+  },
+  "t4_too_many_args": {
+   "ok": 1
+  },
+  "t4_objc_exception": {
+   "crash": 1
+  },
+  "m2_alloc_init": {
+   "ok": 1
+  },
+  "m2_new": {
+   "ok": 1
+  },
+  "m2_copy": {
+   "ok": 1
+  },
+  "m2_convenience": {
+   "ok": 1
+  },
+  "m2_container": {
+   "ok": 1
+  },
+  "m2_cycle": {
+   "possible leak": 1
+  },
+  "m3_no_pool_main": {
+   "not freed without a pool": 1
+  },
+  "m3_no_pool_background": {
+   "ok": 1
+  },
+  "m3_with_pool_loop": {
+   "ok": 1
+  },
+  "m4_delegate": {
+   "ok": 1
+  },
+  "m4_subclass": {
+   "ok": 1
+  },
+  "m5_owner_released": {
+   "ok": 1
+  },
+  "m5_weak_cleared": {
+   "python exception": 1
+  },
+  "m5_extra_release": {
+   "crash": 1
+  },
+  "th1_gil_released": {
+   "released": 1
+  },
+  "th2_m2_alloc_init": {
+   "ok": 1
+  },
+  "th2_m2_convenience": {
+   "ok": 1
+  },
+  "th2_move_to_background": {
+   "ok": 1
+  },
+  "th2_move_to_main": {
+   "ok": 1
+  },
+  "th2_concurrent_calls": {
+   "ok": 1
+  },
+  "th3_delegate_gcd": {
+   "ok": 1
+  },
+  "th3_delegate_pthread": {
+   "ok": 1
+  },
+  "th3_delegate_pthread_wait": {
+   "ok": 1
+  },
+  "th3_block_pthread_wait": {
+   "ok": 1
+  },
+  "cb5a_create_and_pass": {
+   "ok": 1
+  },
+  "cb5a_block_collected": {
+   "ok": 1
+  },
+  "cb5b_receive_int": {
+   "ok": 1
+  },
+  "cb5b_receive_double": {
+   "ok": 1
+  },
+  "cb5b_receive_object": {
+   "ok": 1
+  },
+  "cb5b_receive_rect": {
+   "ok": 1
+  },
+  "cb5b_receive_throwing": {
+   "crash": 1
+  },
+  "cb5b_after_return": {
+   "ok": 1
+  },
+  "cb5b_stack_block_after_return": {
+   "crash": 1
+  },
+  "cb2_delegate_int": {
+   "ok": 1
+  },
+  "cb2_delegate_double": {
+   "ok": 1
+  },
+  "cb2_delegate_object": {
+   "ok": 1
+  },
+  "cb2_delegate_rect": {
+   "ok": 1
+  },
+  "cb3_delegate": {
+   "swallowed, Objective-C got zero": 1
+  },
+  "cb4_delegate": {
+   "ok": 1
+  },
+  "cb2_subclass_int": {
+   "ok": 1
+  },
+  "cb2_subclass_double": {
+   "ok": 1
+  },
+  "cb2_subclass_object": {
+   "ok": 1
+  },
+  "cb2_subclass_rect": {
+   "ok": 1
+  },
+  "cb3_subclass": {
+   "swallowed, Objective-C got zero": 1
+  },
+  "cb4_subclass": {
+   "ok": 1
+  },
+  "cb2_block_int": {
+   "ok": 1
+  },
+  "cb2_block_double": {
+   "ok": 1
+  },
+  "cb2_block_object": {
+   "ok": 1
+  },
+  "cb2_block_rect": {
+   "python exception": 1
+  },
+  "cb3_block": {
+   "swallowed, other value": 1
+  },
+  "cb4_block": {
+   "ok": 1
+  },
+  "cb2_function_int": {
+   "ok": 1
+  },
+  "cb2_function_double": {
+   "ok": 1
+  },
+  "cb2_function_object": {
+   "ok": 1
+  },
+  "cb2_function_rect": {
+   "python exception": 1
+  },
+  "cb3_function": {
+   "swallowed, other value": 1
+  },
+  "cb4_function": {
+   "crash": 1
+  },
+  "cb2_block_rect_arg": {
+   "ok": 1
+  },
+  "cb2_function_rect_arg": {
+   "ok": 1
+  }
+ },
+ "pyobjus-main": {
+  "t2_int": {
+   "exited": 1
+  },
+  "t2_float": {
+   "exited": 1
+  },
+  "t2_bool": {
+   "exited": 1
+  },
+  "t2_str": {
+   "exited": 1
+  },
+  "t2_bytes": {
+   "exited": 1
+  },
+  "t2_none": {
+   "exited": 1
+  },
+  "t2_list": {
+   "exited": 1
+  },
+  "t2_dict": {
+   "exited": 1
+  },
+  "t2_class": {
+   "exited": 1
+  },
+  "t2_selector": {
+   "exited": 1
+  },
+  "t2_pointer": {
+   "exited": 1
+  },
+  "t3_rect": {
+   "exited": 1
+  },
+  "t3_range": {
+   "exited": 1
+  },
+  "t3_insets": {
+   "exited": 1
+  },
+  "t3_nested": {
+   "exited": 1
+  },
+  "t4_unknown_selector": {
+   "exited": 1
+  },
+  "t4_wrong_type_scalar": {
+   "exited": 1
+  },
+  "t4_wrong_type_object": {
+   "exited": 1
+  },
+  "t4_too_few_args": {
+   "exited": 1
+  },
+  "t4_too_many_args": {
+   "exited": 1
+  },
+  "t4_objc_exception": {
+   "exited": 1
+  },
+  "m2_alloc_init": {
+   "exited": 1
+  },
+  "m2_new": {
+   "exited": 1
+  },
+  "m2_copy": {
+   "exited": 1
+  },
+  "m2_convenience": {
+   "exited": 1
+  },
+  "m2_container": {
+   "exited": 1
+  },
+  "m2_cycle": {
+   "exited": 1
+  },
+  "m3_no_pool_main": {
+   "exited": 1
+  },
+  "m3_no_pool_background": {
+   "exited": 1
+  },
+  "m3_with_pool_loop": {
+   "exited": 1
+  },
+  "m4_delegate": {
+   "exited": 1
+  },
+  "m4_subclass": {
+   "exited": 1
+  },
+  "m5_owner_released": {
+   "exited": 1
+  },
+  "m5_weak_cleared": {
+   "exited": 1
+  },
+  "m5_extra_release": {
+   "exited": 1
+  },
+  "th1_gil_released": {
+   "exited": 1
+  },
+  "th2_m2_alloc_init": {
+   "exited": 1
+  },
+  "th2_m2_convenience": {
+   "exited": 1
+  },
+  "th2_move_to_background": {
+   "exited": 1
+  },
+  "th2_move_to_main": {
+   "exited": 1
+  },
+  "th2_concurrent_calls": {
+   "exited": 1
+  },
+  "th3_delegate_gcd": {
+   "exited": 1
+  },
+  "th3_delegate_pthread": {
+   "exited": 1
+  },
+  "th3_delegate_pthread_wait": {
+   "exited": 1
+  },
+  "th3_block_pthread_wait": {
+   "exited": 1
+  },
+  "cb5a_create_and_pass": {
+   "exited": 1
+  },
+  "cb5a_block_collected": {
+   "exited": 1
+  },
+  "cb5b_receive_int": {
+   "exited": 1
+  },
+  "cb5b_receive_double": {
+   "exited": 1
+  },
+  "cb5b_receive_object": {
+   "exited": 1
+  },
+  "cb5b_receive_rect": {
+   "exited": 1
+  },
+  "cb5b_receive_throwing": {
+   "exited": 1
+  },
+  "cb5b_after_return": {
+   "exited": 1
+  },
+  "cb5b_stack_block_after_return": {
+   "exited": 1
+  },
+  "cb2_delegate_int": {
+   "exited": 1
+  },
+  "cb2_delegate_double": {
+   "exited": 1
+  },
+  "cb2_delegate_object": {
+   "exited": 1
+  },
+  "cb2_delegate_rect": {
+   "exited": 1
+  },
+  "cb3_delegate": {
+   "exited": 1
+  },
+  "cb4_delegate": {
+   "exited": 1
+  },
+  "cb2_subclass_int": {
+   "exited": 1
+  },
+  "cb2_subclass_double": {
+   "exited": 1
+  },
+  "cb2_subclass_object": {
+   "exited": 1
+  },
+  "cb2_subclass_rect": {
+   "exited": 1
+  },
+  "cb3_subclass": {
+   "exited": 1
+  },
+  "cb4_subclass": {
+   "exited": 1
+  },
+  "cb2_block_int": {
+   "exited": 1
+  },
+  "cb2_block_double": {
+   "exited": 1
+  },
+  "cb2_block_object": {
+   "exited": 1
+  },
+  "cb2_block_rect": {
+   "exited": 1
+  },
+  "cb3_block": {
+   "exited": 1
+  },
+  "cb4_block": {
+   "exited": 1
+  },
+  "cb2_function_int": {
+   "exited": 1
+  },
+  "cb2_function_double": {
+   "exited": 1
+  },
+  "cb2_function_object": {
+   "exited": 1
+  },
+  "cb2_function_rect": {
+   "exited": 1
+  },
+  "cb3_function": {
+   "exited": 1
+  },
+  "cb4_function": {
+   "exited": 1
+  },
+  "cb2_block_rect_arg": {
+   "exited": 1
+  },
+  "cb2_function_rect_arg": {
+   "exited": 1
+  }
+ },
+ "pyobjc": {
+  "t2_int": {
+   "ok": 1
+  },
+  "t2_float": {
+   "ok": 1
+  },
+  "t2_bool": {
+   "ok": 1
+  },
+  "t2_str": {
+   "ok": 1
+  },
+  "t2_bytes": {
+   "ok": 1
+  },
+  "t2_none": {
+   "ok": 1
+  },
+  "t2_list": {
+   "ok": 1
+  },
+  "t2_dict": {
+   "ok": 1
+  },
+  "t2_class": {
+   "ok": 1
+  },
+  "t2_selector": {
+   "ok": 1
+  },
+  "t2_pointer": {
+   "python exception": 1
+  },
+  "t3_rect": {
+   "ok": 1
+  },
+  "t3_range": {
+   "ok": 1
+  },
+  "t3_insets": {
+   "ok": 1
+  },
+  "t3_nested": {
+   "ok": 1
+  },
+  "t4_unknown_selector": {
+   "ok": 1
+  },
+  "t4_wrong_type_scalar": {
+   "ok": 1
+  },
+  "t4_wrong_type_object": {
+   "ok": 1
+  },
+  "t4_too_few_args": {
+   "ok": 1
+  },
+  "t4_too_many_args": {
+   "ok": 1
+  },
+  "t4_objc_exception": {
+   "ok": 1
+  },
+  "m2_alloc_init": {
+   "ok": 1
+  },
+  "m2_new": {
+   "ok": 1
+  },
+  "m2_copy": {
+   "ok": 1
+  },
+  "m2_convenience": {
+   "ok": 1
+  },
+  "m2_container": {
+   "ok": 1
+  },
+  "m2_cycle": {
+   "python exception": 1
+  },
+  "m3_no_pool_main": {
+   "not freed without a pool": 1
+  },
+  "m3_no_pool_background": {
+   "ok": 1
+  },
+  "m3_with_pool_loop": {
+   "ok": 1
+  },
+  "m4_delegate": {
+   "python exception": 1
+  },
+  "m4_subclass": {
+   "ok": 1
+  },
+  "m5_owner_released": {
+   "ok": 1
+  },
+  "m5_weak_cleared": {
+   "ok": 1
+  },
+  "m5_extra_release": {
+   "crash": 1
+  },
+  "th1_gil_released": {
+   "released": 1
+  },
+  "th2_m2_alloc_init": {
+   "ok": 1
+  },
+  "th2_m2_convenience": {
+   "ok": 1
+  },
+  "th2_move_to_background": {
+   "ok": 1
+  },
+  "th2_move_to_main": {
+   "ok": 1
+  },
+  "th2_concurrent_calls": {
+   "ok": 1
+  },
+  "th3_delegate_gcd": {
+   "python exception": 1
+  },
+  "th3_delegate_pthread": {
+   "python exception": 1
+  },
+  "th3_delegate_pthread_wait": {
+   "python exception": 1
+  },
+  "th3_block_pthread_wait": {
+   "ok": 1
+  },
+  "cb5a_create_and_pass": {
+   "ok": 1
+  },
+  "cb5a_block_collected": {
+   "ok": 1
+  },
+  "cb5b_receive_int": {
+   "ok": 1
+  },
+  "cb5b_receive_double": {
+   "ok": 1
+  },
+  "cb5b_receive_object": {
+   "ok": 1
+  },
+  "cb5b_receive_rect": {
+   "ok": 1
+  },
+  "cb5b_receive_throwing": {
+   "ok": 1
+  },
+  "cb5b_after_return": {
+   "python exception": 1
+  },
+  "cb5b_stack_block_after_return": {
+   "python exception": 1
+  },
+  "cb2_delegate_int": {
+   "python exception": 1
+  },
+  "cb2_delegate_double": {
+   "python exception": 1
+  },
+  "cb2_delegate_object": {
+   "python exception": 1
+  },
+  "cb2_delegate_rect": {
+   "python exception": 1
+  },
+  "cb3_delegate": {
+   "python exception": 1
+  },
+  "cb4_delegate": {
+   "python exception": 1
+  },
+  "cb2_subclass_int": {
+   "ok": 1
+  },
+  "cb2_subclass_double": {
+   "ok": 1
+  },
+  "cb2_subclass_object": {
+   "ok": 1
+  },
+  "cb2_subclass_rect": {
+   "ok": 1
+  },
+  "cb3_subclass": {
+   "propagated to Python": 1
+  },
+  "cb4_subclass": {
+   "ok": 1
+  },
+  "cb2_block_int": {
+   "ok": 1
+  },
+  "cb2_block_double": {
+   "ok": 1
+  },
+  "cb2_block_object": {
+   "ok": 1
+  },
+  "cb2_block_rect": {
+   "ok": 1
+  },
+  "cb3_block": {
+   "propagated to Python": 1
+  },
+  "cb4_block": {
+   "ok": 1
+  },
+  "cb2_function_int": {
+   "ok": 1
+  },
+  "cb2_function_double": {
+   "ok": 1
+  },
+  "cb2_function_object": {
+   "ok": 1
+  },
+  "cb2_function_rect": {
+   "ok": 1
+  },
+  "cb3_function": {
+   "propagated to Python": 1
+  },
+  "cb4_function": {
+   "python exception": 1
+  },
+  "cb2_block_rect_arg": {
+   "ok": 1
+  },
+  "cb2_function_rect_arg": {
+   "ok": 1
+  }
+ }
+}

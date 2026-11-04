@@ -1,0 +1,872 @@
+{
+ "ft-pyobjus-main": {
+  "th2_m2_alloc_init": {
+   "summary": {
+    "possible leak": 5
+   },
+   "runs": [
+    {
+     "outcome": "possible leak",
+     "detail": "created 1000, deallocated 0",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "possible leak",
+     "detail": "created 1000, deallocated 0",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "possible leak",
+     "detail": "created 1000, deallocated 0",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "possible leak",
+     "detail": "created 1000, deallocated 0",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "possible leak",
+     "detail": "created 1000, deallocated 0",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  },
+  "th2_m2_convenience": {
+   "summary": {
+    "ok, most recent object held": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok, most recent object held",
+     "detail": "created 1000, deallocated 999",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  },
+  "th2_move_to_background": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  },
+  "th2_move_to_main": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  },
+  "th2_concurrent_calls": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  },
+  "th3_delegate_gcd": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  },
+  "th3_delegate_pthread": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  },
+  "th3_delegate_pthread_wait": {
+   "summary": {
+    "hang": 5
+   },
+   "runs": [
+    {
+     "outcome": "hang",
+     "detail": "killed after 30s",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "hang",
+     "detail": "killed after 30s",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "hang",
+     "detail": "killed after 30s",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "hang",
+     "detail": "killed after 30s",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "hang",
+     "detail": "killed after 30s",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  },
+  "th3_block_pthread_wait": {
+   "summary": {
+    "not expressible": 5
+   },
+   "runs": [
+    {
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    },
+    {
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.\n"
+    }
+   ]
+  }
+ },
+ "ft-rubicon-0.5.7": {
+  "th2_m2_alloc_init": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    }
+   ]
+  },
+  "th2_m2_convenience": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    }
+   ]
+  },
+  "th2_move_to_background": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    }
+   ]
+  },
+  "th2_move_to_main": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    }
+   ]
+  },
+  "th2_concurrent_calls": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    }
+   ]
+  },
+  "th3_delegate_gcd": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    }
+   ]
+  },
+  "th3_delegate_pthread": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    }
+   ]
+  },
+  "th3_delegate_pthread_wait": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    }
+   ]
+  },
+  "th3_block_pthread_wait": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "ft-pyobjc-13.0": {
+  "th2_m2_alloc_init": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    }
+   ]
+  },
+  "th2_m2_convenience": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "created 1000, deallocated 1000",
+     "stderr": ""
+    }
+   ]
+  },
+  "th2_move_to_background": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    }
+   ]
+  },
+  "th2_move_to_main": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "42",
+     "stderr": ""
+    }
+   ]
+  },
+  "th2_concurrent_calls": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "40000 calls",
+     "stderr": ""
+    }
+   ]
+  },
+  "th3_delegate_gcd": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    }
+   ]
+  },
+  "th3_delegate_pthread": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    }
+   ]
+  },
+  "th3_delegate_pthread_wait": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    }
+   ]
+  },
+  "th3_block_pthread_wait": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "callback ran",
+     "stderr": ""
+    }
+   ]
+  }
+ }
+}

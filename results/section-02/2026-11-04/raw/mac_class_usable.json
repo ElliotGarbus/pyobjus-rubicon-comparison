@@ -1,0 +1,332 @@
+{
+ "pyobjus-main": {
+  "t2_class": {
+   "summary": {
+    "returned, no public way to read it": 5
+   },
+   "runs": [
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x1035a1250>",
+     "stderr": ""
+    },
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x101db69d0>",
+     "stderr": ""
+    },
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x1050929d0>",
+     "stderr": ""
+    },
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x103abe9d0>",
+     "stderr": ""
+    },
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x1058229d0>",
+     "stderr": ""
+    }
+   ]
+  },
+  "t2_class_usable": {
+   "summary": {
+    "wrong value": 5
+   },
+   "runs": [
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    },
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    },
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    },
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    },
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "pyobjus-1.2.4": {
+  "t2_class": {
+   "summary": {
+    "returned, no public way to read it": 5
+   },
+   "runs": [
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x105e06a10>",
+     "stderr": ""
+    },
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x1053caa10>",
+     "stderr": ""
+    },
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x105cdea10>",
+     "stderr": ""
+    },
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x1019fea10>",
+     "stderr": ""
+    },
+    {
+     "outcome": "returned, no public way to read it",
+     "detail": "<pyobjus.ObjcClass object at 0x10314ea10>",
+     "stderr": ""
+    }
+   ]
+  },
+  "t2_class_usable": {
+   "summary": {
+    "wrong value": 5
+   },
+   "runs": [
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    },
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    },
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    },
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    },
+    {
+     "outcome": "wrong value",
+     "detail": "NSArray isn't a subclass of the NSObject passed",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-main": {
+  "t2_class": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    }
+   ]
+  },
+  "t2_class_usable": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-0.5.7": {
+  "t2_class": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    }
+   ]
+  },
+  "t2_class_usable": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "pyobjc-13.0": {
+  "t2_class": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "'NSString'",
+     "stderr": ""
+    }
+   ]
+  },
+  "t2_class_usable": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "True",
+     "stderr": ""
+    }
+   ]
+  }
+ }
+}

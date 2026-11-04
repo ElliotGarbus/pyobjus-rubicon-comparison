@@ -1,0 +1,107 @@
+[
+ {
+  "library": "pyobjus",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": true,
+  "warning": " has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0."
+ },
+ {
+  "library": "pyobjus",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": true,
+  "warning": " has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0."
+ },
+ {
+  "library": "pyobjus",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": true,
+  "warning": " has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0."
+ },
+ {
+  "library": "pyobjus",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": true,
+  "warning": " has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0."
+ },
+ {
+  "library": "pyobjus",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": true,
+  "warning": " has been enabled to load module 'pyobjus.pyobjus', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0."
+ },
+ {
+  "library": "rubicon",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "rubicon",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "rubicon",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "rubicon",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "rubicon",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "pyobjc",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "pyobjc",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "pyobjc",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "pyobjc",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ },
+ {
+  "library": "pyobjc",
+  "python": "3.14.8",
+  "gil_before": false,
+  "gil_after": false,
+  "warning": ""
+ }
+]
