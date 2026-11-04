@@ -1,6 +1,6 @@
 # pyobjus and Rubicon ObjC: a technical comparison
 
-**Status: draft, not yet published.** Nothing here has been reviewed by either project.
+**Status: draft for factual review.** Nothing here has been reviewed by either project.
 
 This repository holds an evidence-based comparison of [pyobjus](https://github.com/kivy/pyobjus) and [Rubicon ObjC](https://github.com/beeware/rubicon-objc). It supports the discussion in [kivy/kivy#9469](https://github.com/kivy/kivy/issues/9469), and all of its tests and raw data are shared so anyone can check the results.
 
@@ -14,7 +14,7 @@ Each section opens with a summary of findings, followed by the supporting facts.
 
 | # | Section | Metric definitions | Status |
 |---|---|---|---|
-| 1 | [History and maintenance](sections/01-history-and-maintenance.md) | [Definitions](metrics/01-history-and-maintenance.md) | Draft, awaiting review |
+| 1 | [History and maintenance](sections/01-history-and-maintenance.md) | [Definitions](metrics/01-history-and-maintenance.md) | Draft for factual review |
 | 2 | Architecture | | Not started |
 | 3 | Capabilities and limitations | | Not started |
 | 4 | Side-by-side examples | | Not started |
