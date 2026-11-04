@@ -324,6 +324,8 @@ Downloads from 2026-05-07 to 2026-11-02, from [pypistats.org](https://pypistats.
 
 These counts include CI runs and installs pulled in as dependencies, and apps bundled for iOS aren't re-downloaded when users install them. Linux, which neither library targets, accounts for 35% of pyobjus's downloads and 78% of Rubicon's, so many are likely automation or dependency resolution (**Inferred**).
 
+These counts also miss pyobjus builds made through kivy-ios, which is likely its main use with Kivy (**Inferred**). The [kivy-ios recipe](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/pyobjus/__init__.py) downloads pyobjus's source from GitHub rather than PyPI. GitHub doesn't report downloads of source archives, so the size of this use isn't measured, and the pyobjus total understates its use with Kivy on iOS.
+
 **Named production use (U2):**
 - **Reported:** [akshayaurora](https://github.com/kivy/kivy/issues/9469#issuecomment-6517712158) says shipped Kivy iOS and macOS apps use pyobjus for Core Bluetooth, Bonjour, GPS, pickers and notifications, and [says](https://github.com/kivy/kivy/issues/9469#issuecomment-6540219422) at least 20 people and companies use these projects in mission-critical work. No users are named.
 - **Reported:** [kengoon](https://github.com/kivy/kivy/issues/9469#issuecomment-6540733322) says they have used both libraries with Kivy. Their [pyobjus-firebase](https://github.com/PySimpleObjC/pyobjus-firebase) and [pyios-firebase](https://github.com/PySimpleObjC/pyios-firebase) repositories are public.

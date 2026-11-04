@@ -114,7 +114,7 @@ These are context only, and they don't measure how many apps use either library.
 | U1 | PyPI downloads | Downloads over the 180 days before *T*, excluding mirrors and split by operating system | pypistats.org | Measured |
 | U2 | Production use | Named uses, each with a link. Unnamed statements are recorded as such | Public statements | Reported |
 
-**Limits of U1:** counts include CI runs and installs pulled in as dependencies, and an app bundled for iOS isn't re-downloaded when users install it. pypistats keeps about 180 days of data, so a long-term trend isn't available from this source. U1 shouldn't be read as a count of users or apps. Downstream dependents are covered in Section 7.
+**Limits of U1:** counts include CI runs and installs pulled in as dependencies, and an app bundled for iOS isn't re-downloaded when users install it. Builds through kivy-ios don't download pyobjus from PyPI, so they aren't counted. pypistats keeps about 180 days of data, so a long-term trend isn't available from this source. U1 shouldn't be read as a count of users or apps. Downstream dependents are covered in Section 7.
 
 ## Deliberately excluded
 
@@ -150,3 +150,4 @@ Approved 2026-11-03. These changes were made during collection and analysis.
 | R4, R5 | **Approved 2026-11-03.** No calculation changed. The text now says that R4 describes PyPI users and that R5(a) covers macOS only. | Same reason: kivy-ios builds from `master`, and the R5(a) figures don't apply to iOS. |
 | R3, A4 | "Last five years" means gaps that end in those five years. | The definition didn't specify how to treat a gap crossing the boundary. |
 | S1 | Release actors come from GitHub release authors, tag commits and workflow runs. | Tags are lightweight, with no tagger, and GitHub no longer has workflow records for older pyobjus releases. |
+| U1 | No calculation changed. The limits now say that pyobjus builds through kivy-ios aren't counted. | The kivy-ios recipe downloads pyobjus from GitHub, so PyPI counts miss this route. The author pointed this out after seeing the results. |
