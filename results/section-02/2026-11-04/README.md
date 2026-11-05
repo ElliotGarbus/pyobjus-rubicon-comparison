@@ -6,7 +6,7 @@ Versions are in [the baseline](../../baseline/2026-11-04.md). Rerun steps are in
 
 | Part | Status |
 |---|---|
-| Mac scenarios, 5 runs each | Done: `raw/mac.json`, with `raw/mac_class_usable.json` and `raw/mac_manual_release.json` for the scenarios added later |
+| Mac scenarios, 5 runs each | Done: `raw/mac.json`, with `raw/mac_class_usable.json`, `raw/mac_manual_release.json` and `raw/mac_struct_order.json` for the scenarios added later |
 | Free-threaded Python (TH5) | Done: `raw/mac_free_threaded.json` and `raw/th5_gil_status.json` |
 | T5, finding each sampled method and its signature | Done: `raw/t5.json` |
 | T5, calling sampled methods, 5 runs each | Done: `raw/t5_calls.json`. Results are below |
@@ -17,7 +17,7 @@ Versions are in [the baseline](../../baseline/2026-11-04.md). Rerun steps are in
 
 - `mac.json`, `mac_free_threaded.json`: every run, with its outcome and the end of its error output
 - `iphone.json`: every iPhone run, with its outcome, the end of its error output and a summary of its crash report if there was one
-- `mac_class_usable.json`, `mac_manual_release.json`: the scenarios added after the Mac run
+- `mac_class_usable.json`, `mac_manual_release.json`, `mac_struct_order.json`: the scenarios added after the Mac run
 - `th5_gil_status.json`: whether the GIL stays disabled after import, 5 runs per library
 - `t5_sample.json`, `t5.json`: the T5 sample, with seed and totals, and its results
 - `t5_calls.json`: T5's calling step
@@ -98,6 +98,20 @@ The new scenario, `t2_class_usable`, passes `NSObject` to `[NSArray isSubclassOf
 ## Added after the run: a manual release
 
 The approved rules ask for memory scenarios to cover documented manual calls as well as none. Rubicon's and PyObjC's docs say the library manages this, and pyobjus's docs don't mention it. So `m2_alloc_init_manual_release` calls `release` after `alloc` and `init`, on pyobjus only. It freed 999 of 1,000 objects on 1.2.4 and `master`, on Mac and iPhone, in 5 of 5 runs. Other method families weren't tested.
+
+## Added after the run: struct returns after a patch
+
+[A maintainer questioned](https://github.com/kivy/kivy/issues/9469#issuecomment-6649760982) the result that Rubicon blocks and function pointers can't return structs. `cb2_block_rect` and `cb2_function_rect` raise `TypeError` in their own process, where nothing has patched `CGRect`. Five scenarios patch it first, on Rubicon only, and ran on the Mac only, on Python 3.14.7. These are in `raw/mac_struct_order.json`, and gave the same result in all 5 runs on 0.5.7 and `main`:
+
+| Scenario | First step | Result |
+|---|---|---|
+| `cb2_block_rect_after_method` | Define a Python method returning `CGRect` | Correct round trip |
+| `cb2_function_rect_after_method` | Define a Python method returning `CGRect` | Correct round trip |
+| `cb2_block_rect_after_helper` | Call `make_callback_returnable(CGRect)` | Correct round trip |
+| `cb2_function_rect_after_helper` | Call `make_callback_returnable(CGRect)` | Correct round trip |
+| `cb2_block_point_after_rect_method` | Define a Python method returning `CGRect`, then create a block returning `CGPoint` | `TypeError` |
+
+The last scenario only creates the block, because the fixture has no caller for that signature. The iPhone apps weren't rebuilt, so these 5 aren't among the 82 iPhone scenarios.
 
 ## iPhone setup
 

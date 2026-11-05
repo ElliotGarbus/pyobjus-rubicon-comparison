@@ -8,7 +8,7 @@ pyobjus is compiled Cython that calls `objc_msgSend` through libffi. It passed t
 
 Rubicon is pure Python that calls `objc_msgSend` through `ctypes`. It passed the same scenarios, frees those objects, releases the GIL and can write those callback types. It got all 73 sampled Apple methods right. It relies on CPython internals for one feature, returns an unpredictable value when a callback raises, and crashes in some misuse and exception scenarios.
 
-All figures are **Measured** unless labeled otherwise, on a shared fixture, not a real app. This section makes no recommendation. "`master`" and "`main`" mean the default branches. Results are from 82 scenarios run 5 times each, and are the same on Mac and iPhone unless stated.
+All figures are **Measured** unless labeled otherwise, on a shared fixture, not a real app. This section makes no recommendation. "`master`" and "`main`" mean the default branches. Results are from 82 scenarios run 5 times each, and are the same on Mac and iPhone unless stated. 5 scenarios added later ran on the Mac only.
 
 | Topic | pyobjus `master` | Rubicon |
 |---|---|---|
@@ -22,7 +22,7 @@ All figures are **Measured** unless labeled otherwise, on a shared fixture, not 
 | GIL during a call | Held | Released |
 | Call waiting on a callback from another thread | Hangs | Passes |
 | Free-threaded Python, on import (Mac only) | GIL re-enabled | GIL stays disabled |
-| Blocks, function pointers, Python subclasses | No public way to write them | Supported, but blocks and function pointers can't return structs |
+| Blocks, function pointers, Python subclasses | No public way to write them | Supported, but blocks and function pointers can return a struct only once its type is patched |
 | Structs in a delegate | Not supported | Supported |
 | Python exception in a callback | Objective-C gets zero | Value varies by callback type and platform |
 | Objective-C exception | Crash | Crash |
@@ -31,7 +31,7 @@ All figures are **Measured** unless labeled otherwise, on a shared fixture, not 
 2. **Types:** at the default branches, all struct scenarios passed on both. pyobjus returned short dictionary keys as `bytes`, ignored an extra argument, and passed a metaclass where a class was asked for. In a sample of Apple's API, 73 methods were called. Rubicon got 73 correct. pyobjus `master` got 11 correct and 13 with a correct return value but an unreadable out object, raised 4 exceptions, and couldn't express 45.
 3. **Memory:** pyobjus freed 0 of 1,000 objects from `alloc` and `init`, and 999 of 1,000 when the test added a manual `release`. It freed 0 of 100 delegates, and their Python state stayed alive. Rubicon freed all of these. Neither library creates a pool for the caller, and neither frees a reference cycle between Python and Objective-C.
 4. **Threads:** during a blocking call, another Python thread made 0.1% to 1.3% of the progress it made during `time.sleep` on pyobjus, and 90% to 119% on Rubicon. A pyobjus call that waits on a callback from another thread hangs. Importing pyobjus re-enables the GIL on free-threaded Python, and importing Rubicon doesn't.
-5. **Callbacks:** pyobjus can write delegates only, and delegates receive structs as `None` by design. Rubicon can write all four types, but blocks and function pointers can't return structs. When a Python callback raises, pyobjus gives Objective-C zero. Rubicon's value depends on the callback type and platform, and changed between runs on the iPhone.
+5. **Callbacks:** pyobjus can write delegates only, and delegates receive structs as `None` by design. Rubicon can write all four types, but a block or function pointer raises `TypeError` when returning a struct until that struct type is patched. Defining a Python method that returns the type patches it, so the result depends on what ran first. When a Python callback raises, pyobjus gives Objective-C zero. Rubicon's value depends on the callback type and platform, and changed between runs on the iPhone.
 6. **Crashes:** on Rubicon, four scenarios crash beyond the test that deliberately over-releases: an Objective-C exception, one thrown by a received block, a function pointer whose Python reference was dropped, and a stack block called after it went out of scope. On pyobjus `master`, only the Objective-C exception crashes. Many of the same scenarios can't be written on pyobjus, so this isn't a like-for-like count.
 7. **Versions:** 9 scenarios improved from pyobjus 1.2.4 to `master`, including a struct crash and wrong delegate return values. Rubicon 0.5.7 and `main` matched everywhere.
 8. **Long-open issues (Inferred, from reading each issue):** none of pyobjus's five concerns memory safety. One of Rubicon's five reports a memory-access crash whose cause was never identified, and another concerns memory-management docs.
@@ -195,9 +195,9 @@ TH5 passing doesn't show that Rubicon is safe without the GIL. These are a few s
 |---|---|---|---|---|
 | Integer, double, object | Pass. Wrong value on 1.2.4 | Pass | Pass | Pass |
 | Struct as an argument | [Passed as `None`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L959) | Pass | Pass | Pass |
-| Struct returned | [Zeros, because struct returns are unsupported](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L940). On 1.2.4, a crash on Mac and an exception on iPhone | Pass | `TypeError` | `TypeError` |
+| Struct returned | [Zeros, because struct returns are unsupported](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L940). On 1.2.4, a crash on Mac and an exception on iPhone | Pass | `TypeError`, until the type is patched | `TypeError`, until the type is patched |
 
-Python-defined methods can return structs because [`add_method` applies `ctypes_patch`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L1145). [`Block`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L2426) doesn't. A manual trial of that helper on a block and a function pointer worked, but it's undocumented and isn't a published test.
+Python-defined methods can return structs because [`add_method` applies `ctypes_patch`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L1145). [`Block`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L2426) doesn't, and neither does a plain `CFUNCTYPE`. The patch applies per type and lasts for the life of the process. Each scenario has its own process, so the scenarios in this table see the type unpatched. [5 scenarios added](../results/section-02/2026-11-04/raw/mac_struct_order.json) after [a maintainer questioned the earlier wording](https://github.com/kivy/kivy/issues/9469#issuecomment-6649760982) ran on the Mac only. Blocks and function pointers returned `CGRect` correctly after a Python method returning `CGRect` was defined, or after calling the undocumented `make_callback_returnable` directly. A block returning `CGPoint` still raised `TypeError` when only `CGRect` had been patched.
 
 **CB3, when Python code raises in a callback:** nothing reaches the Objective-C caller as an exception. On the Mac the traceback is printed in every case. On the iPhone Python's error output isn't captured, so this wasn't checked.
 

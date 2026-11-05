@@ -1,0 +1,812 @@
+{
+ "pyobjus-main": {
+  "cb2_block_rect_after_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_rect_after_helper": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_helper": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_point_after_rect_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "pyobjus-1.2.4": {
+  "cb2_block_rect_after_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_rect_after_helper": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_helper": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_point_after_rect_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-main": {
+  "cb2_block_rect_after_method": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_method": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_rect_after_helper": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_helper": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_point_after_rect_method": {
+   "summary": {
+    "python exception": 5
+   },
+   "runs": [
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-main/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    },
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-main/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    },
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-main/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    },
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-main/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    },
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-main/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    }
+   ]
+  }
+ },
+ "rubicon-0.5.7": {
+  "cb2_block_rect_after_method": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_method": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_rect_after_helper": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_helper": {
+   "summary": {
+    "ok": 5
+   },
+   "runs": [
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    },
+    {
+     "outcome": "ok",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_point_after_rect_method": {
+   "summary": {
+    "python exception": 5
+   },
+   "runs": [
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-rel/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    },
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-rel/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    },
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-rel/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    },
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-rel/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    },
+    {
+     "outcome": "python exception",
+     "detail": "TypeError: invalid result type for callback function",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-02/run_one.py\", line 16, in <module>\n    outcome, detail = SCENARIOS[name](L)\n                      ~~~~~~~~~~~~~~~^^^\n  File \"<repo>/tests/section-02/scenarios.py\", line 751, in cb2_block_point_after_rect_method\n    Block(lambda p: p, CGPoint, CGPoint)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<work>/env/rubicon-rel/lib/python3.14/site-packages/rubicon/objc/api.py\", line 2436, in __init__\n    cfunc_wrapper = cfunc_type(self.wrapper)\nTypeError: invalid result type for callback function\n"
+    }
+   ]
+  }
+ },
+ "pyobjc-13.0": {
+  "cb2_block_rect_after_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_rect_after_helper": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_function_rect_after_helper": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  },
+  "cb2_block_point_after_rect_method": {
+   "summary": {
+    "not applicable": 5
+   },
+   "runs": [
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    },
+    {
+     "outcome": "not applicable",
+     "detail": "this tests Rubicon's struct patch",
+     "stderr": ""
+    }
+   ]
+  }
+ }
+}

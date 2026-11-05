@@ -704,3 +704,49 @@ def cb5b_after_return(L):
 @scenario
 def cb5b_stack_block_after_return(L):
     return later(L, lambda c, d: c.offerStackBlockTo_(d))
+
+
+# Added after the run, on a maintainer's question. Rubicon patches a struct type
+# so callbacks can return it, per type and for the life of the process. Each
+# scenario has its own process, so cb2_block_rect and cb2_function_rect see the
+# type unpatched, and these patch it first. Rubicon only, because other libraries
+# don't have this patch.
+def patched_first(L, kind, patch):
+    if L.name != "rubicon":
+        return ("not applicable", "this tests Rubicon's struct patch")
+    patch(L)
+    return run_cb(L, kind, "rect")
+
+def patch_by_method(L):
+    L.subclass({"delegateRect_": lambda r: r})
+
+def patch_by_helper(L):
+    from rubicon.objc import CGRect, ctypes_patch
+    ctypes_patch.make_callback_returnable(CGRect)
+
+@scenario
+def cb2_block_rect_after_method(L):
+    return patched_first(L, "block", patch_by_method)
+
+@scenario
+def cb2_function_rect_after_method(L):
+    return patched_first(L, "function", patch_by_method)
+
+@scenario
+def cb2_block_rect_after_helper(L):
+    return patched_first(L, "block", patch_by_helper)
+
+@scenario
+def cb2_function_rect_after_helper(L):
+    return patched_first(L, "function", patch_by_helper)
+
+@scenario
+def cb2_block_point_after_rect_method(L):
+    """Only CGRect is patched, so this shows whether the patch reaches another type.
+    It only creates the block, because the fixture has no caller for this signature."""
+    if L.name != "rubicon":
+        return ("not applicable", "this tests Rubicon's struct patch")
+    from rubicon.objc import Block, CGPoint
+    patch_by_method(L)
+    Block(lambda p: p, CGPoint, CGPoint)
+    return ("ok", "created")
