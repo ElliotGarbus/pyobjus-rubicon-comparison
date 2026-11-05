@@ -285,9 +285,9 @@ def m2_container(L):
 
 @scenario
 def m2_cycle(L):
-    """Python-defined object holds a tracked object, which retains it back.
-    The cycle crosses the bridge, so it is reported rather than judged: 'ok'
-    means both sides were freed after the fixture's side of the cycle is cut."""
+    """Python-defined object's state holds a tracked object, which retains it back.
+    The cycle crosses the bridge and is left intact, so the result reports whether
+    it was freed rather than judging it."""
     L.cls("S2Tracked").resetCounts()
     with Pool():
         class State:

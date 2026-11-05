@@ -2,19 +2,34 @@
 
 **Status: draft for factual review.** Neither project has reviewed this section. Versions are in [the baseline](../results/baseline/2026-11-04.md). Metric IDs refer to the [approved definitions](../metrics/02-architecture.md), which also list every change made after approval.
 
-**Author's role:** Elliot Garbus (`ElliotGarbus`) leads this comparison, has stated a view in favor of Rubicon in [kivy/kivy#9469](https://github.com/kivy/kivy/issues/9469), and made claim 7 below. Elliot wrote 34 of the 41 non-merge commits between pyobjus 1.2.4 and the tested `master`, and has since stopped contributing to pyobjus. Testing both points keeps those fixes visible.
-
-**AI assistance:** the tests, expected values, source reading and drafting were done with AI assistance (Claude, by Anthropic). Elliot Garbus directs the work, reviews it and is responsible for its content. Neither project's maintainers have reviewed the tests.
-
 ## Summary of findings
 
-pyobjus is compiled Cython that calls `objc_msgSend` through libffi, and Rubicon is pure Python that calls it through `ctypes`. Both read signatures from the Objective-C runtime, and both passed the basic type and struct scenarios at their default branches. They differ most in memory, threads and callbacks. pyobjus keeps objects from `alloc`, `new` and `copy` alive unless the caller adds a `release` its docs don't mention, never frees delegates, holds the GIL during calls, and has no public way to write blocks, function pointers or Python subclasses. Rubicon frees those objects, releases the GIL and can write all of those callback types, but it relies on CPython internals for one feature, returns an unpredictable value when a callback raises, and crashes in some misuse and exception scenarios. An Objective-C exception crashes both libraries.
+pyobjus is compiled Cython that calls `objc_msgSend` through libffi. It passed the basic type and struct scenarios at its default branch, but it doesn't free objects from `alloc`, `new` or `copy` by itself, never frees delegates, and holds the GIL during calls. It has no public way to write blocks, function pointers or Python subclasses. In a sample of Apple methods chosen for those harder kinds of call, it couldn't express 45 of the 73 called.
+
+Rubicon is pure Python that calls `objc_msgSend` through `ctypes`. It passed the same scenarios, frees those objects, releases the GIL and can write those callback types. It got all 73 sampled Apple methods right. It relies on CPython internals for one feature, returns an unpredictable value when a callback raises, and crashes in some misuse and exception scenarios.
 
 All figures are **Measured** unless labeled otherwise, on a shared fixture, not a real app. This section makes no recommendation. "`master`" and "`main`" mean the default branches. Results are from 82 scenarios run 5 times each, and are the same on Mac and iPhone unless stated.
 
+| Topic | pyobjus `master` | Rubicon |
+|---|---|---|
+| How it calls Objective-C (**Source**) | Compiled Cython, through libffi | Pure Python, through `ctypes` |
+| Builds and Python internals (**Source**) | One build per Python version and platform | One wheel, but relies on private CPython structures for struct returns from methods |
+| Basic types and structs | Pass, except short `dict` keys, an ignored extra argument and classes passed as arguments | Pass |
+| Apple API sample, 73 calls (Mac only) | 11 correct, 13 partly correct, 4 exceptions, 45 not expressible | 73 correct |
+| 1,000 `alloc` and `init` objects freed | 0, or 999 with a manual `release` | 1,000 |
+| 100 delegates freed | 0 | 100 |
+| Reference cycle between Python and Objective-C | Not freed | Not freed |
+| GIL during a call | Held | Released |
+| Call waiting on a callback from another thread | Hangs | Passes |
+| Free-threaded Python, on import (Mac only) | GIL re-enabled | GIL stays disabled |
+| Blocks, function pointers, Python subclasses | No public way to write them | Supported, but blocks and function pointers can't return structs |
+| Structs in a delegate | Not supported | Supported |
+| Python exception in a callback | Objective-C gets zero | Value varies by callback type and platform |
+| Objective-C exception | Crash | Crash |
+
 1. **Design (Source):** pyobjus needs a build per Python version and platform, because it compiles against the CPython C API. Rubicon compiles nothing, so one wheel covers all, but its `ctypes_patch` module relies on the layout of private CPython and `ctypes` structures, and warns on untested Python versions.
 2. **Types:** at the default branches, all struct scenarios passed on both. pyobjus returned short dictionary keys as `bytes`, ignored an extra argument, and passed a metaclass where a class was asked for. In a sample of Apple's API, 73 methods were called. Rubicon got 73 correct. pyobjus `master` got 11 correct and 13 with a correct return value but an unreadable out object, raised 4 exceptions, and couldn't express 45.
-3. **Memory:** pyobjus freed 0 of 1,000 objects from `alloc` and `init`, and 999 of 1,000 when the test added a manual `release`. It freed 0 of 100 delegates, and their Python state stayed alive. Rubicon freed all of these. Neither library creates a pool for the caller, and neither frees a cycle through a Python-defined object.
+3. **Memory:** pyobjus freed 0 of 1,000 objects from `alloc` and `init`, and 999 of 1,000 when the test added a manual `release`. It freed 0 of 100 delegates, and their Python state stayed alive. Rubicon freed all of these. Neither library creates a pool for the caller, and neither frees a reference cycle between Python and Objective-C.
 4. **Threads:** during a blocking call, another Python thread made 0.1% to 1.3% of the progress it made during `time.sleep` on pyobjus, and 90% to 119% on Rubicon. A pyobjus call that waits on a callback from another thread hangs. Importing pyobjus re-enables the GIL on free-threaded Python, and importing Rubicon doesn't.
 5. **Callbacks:** pyobjus can write delegates only, and delegates receive structs as `None` by design. Rubicon can write all four types, but blocks and function pointers can't return structs. When a Python callback raises, pyobjus gives Objective-C zero. Rubicon's value depends on the callback type and platform, and changed between runs on the iPhone.
 6. **Crashes:** on Rubicon, four scenarios crash beyond the test that deliberately over-releases: an Objective-C exception, one thrown by a received block, a function pointer whose Python reference was dropped, and a stack block called after it went out of scope. On pyobjus `master`, only the Objective-C exception crashes. Many of the same scenarios can't be written on pyobjus, so this isn't a like-for-like count.
@@ -44,19 +59,19 @@ Raw results, the test-fix log and rerun steps are in [`results/section-02/2026-1
 | Step | pyobjus | Rubicon |
 |---|---|---|
 | Find the method | [`autoclass`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L706) builds a Python class, copying the method list with [`class_copyMethodList`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L562) | [`ObjCClass`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L1202) looks up a method [on first use](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L1477) and can [load the full list](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L1685) |
-| Convert arguments | [`ObjcMethod.__call__`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L358)) in Cython | [`ObjCMethod.__call__`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L198) in Python |
+| Convert arguments | [`ObjcMethod.__call__`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L358) in Cython | [`ObjCMethod.__call__`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L198) in Python |
 | Call | [`ffi_call` on `objc_msgSend`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L463) | [`send_message`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L866), which calls `objc_msgSend` through `ctypes` |
 
 **D2, compiled parts and dependencies:**
 
 |  | pyobjus | Rubicon |
 |---|---|---|
-| Compiled code | One Cython extension, [`pyobjus.pyx`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L77)) | None |
+| Compiled code | One Cython extension, [`pyobjus.pyx`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L77) | None |
 | Build needs | Cython, a C compiler, and [libffi](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/setup.py#L48) | Packaging tools only |
 | Runtime libffi | Mac wheel links the system's `/usr/lib/libffi.dylib`, and iOS links a static copy | Python's own `_ctypes` module |
 | Release artifacts | 11 wheels for 1.2.4 (Section 1) | One `py3-none-any` wheel |
 
-**D3, reliance on Python internals:** pyobjus uses the CPython C API through Cython, so each Python version needs its own build. Rubicon needs no build per version. [`ctypes_patch`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/ctypes_patch.py#L21) patches private CPython and `ctypes` structures so that methods can return structs, has [separate code for Python before 3.13](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/ctypes_patch.py#L94):), and warns on Python [3.16 or later](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/ctypes_patch.py#L30). Neither library's metadata declares free-threading support.
+**D3, reliance on Python internals:** pyobjus uses the CPython C API through Cython, so each Python version needs its own build. Rubicon needs no build per version. [`ctypes_patch`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/ctypes_patch.py#L21) patches private CPython and `ctypes` structures so that methods can return structs, has [separate code for Python before 3.13](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/ctypes_patch.py#L94), and warns on Python [3.16 or later](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/ctypes_patch.py#L30). Neither library's metadata declares free-threading support.
 
 ### T. Type handling
 
@@ -102,7 +117,7 @@ Raw results, the test-fix log and rerun steps are in [`results/section-02/2026-1
 |  | pyobjus | Rubicon |
 |---|---|---|
 | On receiving an object | [Always retains](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus_types.pxi#L727), whichever method it came from | [Retains unless](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L968) the [method family](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L96) already gave ownership |
-| When the wrapper is collected | [Releases once](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus_types.pxi#L721))) | [Autoreleases once](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L1007) |
+| When Python no longer references the object | [Gives up one reference immediately, with `release`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus_types.pxi#L721) | [Gives up one reference when the autorelease pool drains, with `autorelease`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L1007) |
 | Result for `alloc`, `new`, `copy` | One reference is left, and pyobjus's [own tests mark this as an expected failure](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_object_lifecycle.py#L56) | Balanced |
 | Python-held class reference | A class's method [holds the most recent instance](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L355) until the next one | None |
 | Delegates | [Stored in `delegate_register`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L1272), and nothing removes them | Ordinary objects |
@@ -120,8 +135,8 @@ Rubicon's docs say the caller must keep a Python reference to an object stored i
 | `copy`, 2,000 originals and copies | 0 | 2,000 |
 | Convenience constructor, 1,000 objects | 999 | 1,000 |
 | Held and released by a container, 1,000 objects | 0 | 1,000 |
-| Cycle through a Python-defined object, 1 object | 0 | 0 |
-| Main thread, no pool from the caller, 1,000 objects | 0 | 0 |
+| Reference cycle between Python and Objective-C, 1 object | 0, as expected | 0, as expected |
+| Main thread, no pool from the caller, 1,000 objects | 0, as expected | 0, as expected |
 | Main thread, a pool around every 100 objects, 1,000 objects | 999 | 1,000 |
 | Background thread, no pool, after it ends, 1,000 objects | 999 | 1,000 |
 | Delegates, 100 objects | 0, with Python state alive for 100 | 100, with no state alive |
@@ -130,9 +145,9 @@ Rubicon's docs say the caller must keep a Python reference to an object stored i
 | Weak reference after dropping the object | Not cleared, because the object is never freed (**Inferred**) | Nil |
 | Deliberate extra `release` by the test | No crash, because of the extra reference (**Inferred**) | Crash, `SIGSEGV` |
 
-The manual `release` was tested only for `alloc` and `init`. The 1 object left in the 999 results is the "most recent instance" in the table above.
+The manual `release` was tested only for `alloc` and `init`. The 1 object left in the 999 results is the "most recent instance" in the table above. pyobjus's 0 for the reference cycle doesn't isolate the cycle, because its objects from `alloc` and `init` and its delegates aren't freed without one.
 
-**M3, pools (Source):** neither library creates a pool around calls. pyobjus [has pool helpers](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/_runtime.h#L13)) that nothing calls, and no public pool API. Rubicon provides [`autoreleasepool()`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L1247). The scenarios run with no run loop. An app's event loop normally drains a pool on each cycle, so the main-thread result applies to long loops outside one.
+**M3, pools (Source):** neither library creates a pool around calls. pyobjus [has pool helpers](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/_runtime.h#L13) that nothing calls, and no public pool API. Rubicon provides [`autoreleasepool()`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L1247). The scenarios run with no run loop. An app's event loop normally drains a pool on each cycle, so the main-thread result applies to long loops outside one.
 
 **M6, long-open issues (Inferred, from reading each issue):**
 
@@ -153,7 +168,7 @@ The manual `release` was tested only for `alloc` and `init`. The 1 object left i
 
 | Metric | pyobjus | Rubicon |
 |---|---|---|
-| TH1, GIL during a call | Held, because [`ffi_call`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L463) has no `nogil` (**Source**). Another thread made 0.3% to 1.3% of its progress during `time.sleep` on Mac, and 0.1% to 0.2% on iPhone | Released, because Rubicon uses [`CDLL`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L96)), which Python documents as releasing it (**Source**). 98% to 101% on Mac, and 90% to 119% on iPhone |
+| TH1, GIL during a call | Held, because [`ffi_call`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L463) has no `nogil` (**Source**). Another thread made 0.3% to 1.3% of its progress during `time.sleep` on Mac, and 0.1% to 0.2% on iPhone | Released, because Rubicon uses [`CDLL`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L96), which Python documents as releasing it (**Source**). 98% to 101% on Mac, and 90% to 119% on iPhone |
 | TH2, calls from background threads | Pass, including 40,000 concurrent calls, with M2 results unchanged | Pass, with M2 results unchanged |
 | TH3, delegate on a GCD queue or `pthread` | Pass | Pass |
 | TH3, call waiting on a callback from another thread | Hang, because the waiting call holds the GIL the callback needs. On iPhone, iOS kills the app at 20 seconds | Pass |
@@ -180,9 +195,9 @@ TH5 passing doesn't show that Rubicon is safe without the GIL. These are a few s
 |---|---|---|---|---|
 | Integer, double, object | Pass. Wrong value on 1.2.4 | Pass | Pass | Pass |
 | Struct as an argument | [Passed as `None`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L959) | Pass | Pass | Pass |
-| Struct returned | [Zeros, because struct returns are unsupported](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L463) or the return type is unsupported). On 1.2.4, a crash on Mac and an exception on iPhone | Pass | `TypeError` | `TypeError` |
+| Struct returned | [Zeros, because struct returns are unsupported](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus.pyx#L940). On 1.2.4, a crash on Mac and an exception on iPhone | Pass | `TypeError` | `TypeError` |
 
-Python-defined methods can return structs because [`add_method` applies `ctypes_patch`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L1145)). [`Block`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L2426)) doesn't. A manual trial of that helper on a block and a function pointer worked, but it's undocumented and isn't a published test.
+Python-defined methods can return structs because [`add_method` applies `ctypes_patch`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/runtime.py#L1145). [`Block`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/api.py#L2426) doesn't. A manual trial of that helper on a block and a function pointer worked, but it's undocumented and isn't a published test.
 
 **CB3, when Python code raises in a callback:** nothing reaches the Objective-C caller as an exception. On the Mac the traceback is printed in every case. On the iPhone Python's error output isn't captured, so this wasn't checked.
 
@@ -238,5 +253,5 @@ PyObjC 13.0 is a control, not a third option, and a result here isn't proof abou
 
 - **The fixture isn't an app.** It shows how each library behaves in a scenario, not how often that scenario arises. Objects not being freed doesn't show that a real app is affected, or by how much.
 - **The test app isn't a Kivy app.** On the iPhone, Python runs on the main thread with no run loop, as it does on the Mac, using KivyForge's [smoke-test path](https://github.com/ElliotGarbus/kivyforge/blob/a36c2cccb7bb3dbd3bc33c89ba90587f1d0fa7db/kivyforge/platforms/ios/templates/kivyforge_bootstrap.m). pyobjus's Python 3.15 iOS wheels were built for this comparison at the tested commits, so they aren't published artifacts.
-- **The tests are one author's reading.** They were corrected during trial runs, and each fix is [logged](../results/section-02/2026-11-04/README.md#test-fixes-during-trial-runs). A test written around one library's working form can favor it. Anyone can propose a scenario, and it will run against both.
+- **The tests come from one source and haven't been reviewed by either project.** They were corrected during trial runs, and each fix is [logged](../results/section-02/2026-11-04/README.md#test-fixes-during-trial-runs). A test written around one library's working form can favor it. Anyone can propose a scenario, and it will run against both.
 - **"Not expressible" means no public way was found.** Section 3 will cover those gaps. A maintainer who knows of a way can correct the result.
