@@ -167,3 +167,4 @@ Neither library calls Swift directly. Both reach Swift code through classes mark
 | Metric | Change | Reason |
 |---|---|---|
 | F1.5 | The C function that returns a struct is `NSRangeFromString`, not `NSMakeRange` | `NSMakeRange` is an inline function, so there's no symbol for either library to call. Found while writing the tests, before any run |
+| A1, A2 | Shares are of the declarations the cases cover. Inline functions and declarations needing a kind no case tested are counted separately | Both groups are the same for both libraries. Counting them in the share showed a gap for Rubicon that no case measured. Changed after the results were in, before the section was published, at the author's request. `reach_mac.json` and `reach_ios.json` hold the counts for either way of reporting |
