@@ -17,7 +17,7 @@ Each section opens with a summary of findings, followed by the supporting facts.
 | 1 | [History and maintenance](sections/01-history-and-maintenance.md) | [Definitions](metrics/01-history-and-maintenance.md) | Draft for factual review |
 | 2 | [Architecture](sections/02-architecture.md) | [Definitions](metrics/02-architecture.md) | Draft for factual review |
 | 3 | [Capabilities and limitations](sections/03-capabilities.md) | [Definitions](metrics/03-capabilities.md) | Draft for factual review |
-| 4 | Side-by-side examples | | Not started |
+| 4 | Side-by-side examples | [Definitions](metrics/04-examples.md) | Definitions approved |
 | 5 | Testing and CI | | Not started |
 | 6 | Performance | | Not started |
 | 7 | Ecosystem considerations | | Not started |
