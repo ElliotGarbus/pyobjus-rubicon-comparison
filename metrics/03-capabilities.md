@@ -164,4 +164,6 @@ Neither library calls Swift directly. Both reach Swift code through classes mark
 
 ## Changes after approval
 
-None yet.
+| Metric | Change | Reason |
+|---|---|---|
+| F1.5 | The C function that returns a struct is `NSRangeFromString`, not `NSMakeRange` | `NSMakeRange` is an inline function, so there's no symbol for either library to call. Found while writing the tests, before any run |

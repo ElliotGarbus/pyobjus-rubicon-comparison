@@ -1,0 +1,1173 @@
+{
+ "pyobjus-main": {
+  "f1_1_class_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'https://kivy.org/a/b'",
+     "expected": "'https://kivy.org/a/b'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_1_multipart": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "'+'",
+     "expected": "'a+b'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_2_property_attr": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kivy.org'",
+     "expected": "'kivy.org'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_2_property_methods": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kivy.org'",
+     "expected": "'kivy.org'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_3_format": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "'-9086240739945302479-x'",
+     "expected": "'7-x'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_3_array_with_objects": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_4_object_constant": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'NSString' object is not callable",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 176, in f1_4_object_constant\n    return Check(text(symbol(\"NSLocaleCountryCode\", \"NSString\")),\n                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pyobjus/pyobjus.pyx\", line 1284, in pyobjus.symbol\nTypeError: 'NSString' object is not callable\n"
+    }
+   ]
+  },
+  "f1_4_scalar_constant": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus's symbol() reads only object constants",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_4_scalar_constant__ctypes": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "ctypes",
+     "outcome": "correct",
+     "detail": "5026.6",
+     "expected": "5026.6",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_5_function": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to call a C function",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_5_function__ctypes": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "ctypes",
+     "outcome": "correct",
+     "detail": "'NSArray'",
+     "expected": "'NSArray'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_5_function_struct": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to call a C function",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_5_function_struct__ctypes": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "ctypes",
+     "outcome": "correct",
+     "detail": "(3, 4)",
+     "expected": "(3, 4)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_6_framework": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_6_dylib": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "42",
+     "expected": "42",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_7_dir": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_1_user_struct": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(1, 2.5, 99)",
+     "expected": "(1, 2.5, 99)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_1_struct_pointer_in": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10.0",
+     "expected": "10.0",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_1_struct_pointer_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "expected": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_2_union_arg": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ObjcException: Currently passing unions as arguments by value is not supported in pyobjus!",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 262, in f2_2_union_arg\n    return types().unionInt_(S3Union(i=7))\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"pyobjus/pyobjus.pyx\", line 401, in pyobjus.ObjcMethod.__call__\n  File \"pyobjus/pyobjus.pyx\", line 323, in pyobjus.ObjcMethod.ensure_method\npyobjus.ObjcException: Currently passing unions as arguments by value is not supported in pyobjus!\n"
+    }
+   ]
+  },
+  "f2_2_union_return": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "AttributeError: 'UnknownType' object has no attribute 'i'",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 267, in f2_2_union_return\n    return types().makeUnion_(7).i\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'UnknownType' object has no attribute 'i'\n"
+    }
+   ]
+  },
+  "f2_2_bitfield_arg": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ObjcException: Bit fields aren't supported in pyobjus!",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 272, in f2_2_bitfield_arg\n    return types().bitsSum_(S3Bits(5, 17, 200))\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"pyobjus/pyobjus.pyx\", line 401, in pyobjus.ObjcMethod.__call__\n  File \"pyobjus/pyobjus.pyx\", line 327, in pyobjus.ObjcMethod.ensure_method\n  File \"pyobjus/type_enc.pxi\", line 129, in pyobjus.type_encoding_to_ffitype\n  File \"pyobjus/type_enc.pxi\", line 134, in pyobjus.type_encoding_to_ffitype\npyobjus.ObjcException: Bit fields aren't supported in pyobjus!\n"
+    }
+   ]
+  },
+  "f2_2_bitfield_return": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ObjcException: Bit fields aren't supported in pyobjus!",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 277, in f2_2_bitfield_return\n    b = types().makeBits()\n  File \"pyobjus/pyobjus.pyx\", line 401, in pyobjus.ObjcMethod.__call__\n  File \"pyobjus/pyobjus.pyx\", line 303, in pyobjus.ObjcMethod.ensure_method\n  File \"pyobjus/type_enc.pxi\", line 129, in pyobjus.type_encoding_to_ffitype\n  File \"pyobjus/type_enc.pxi\", line 134, in pyobjus.type_encoding_to_ffitype\npyobjus.ObjcException: Bit fields aren't supported in pyobjus!\n"
+    }
+   ]
+  },
+  "f2_3_pass_array": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ValueError: invalid literal for int() with base 10: b'\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00'",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 283, in f2_3_pass_array\n    return types().sum_count_((c_int * 4)(1, 2, 3, 4), 4)\n           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pyobjus/pyobjus.pyx\", line 448, in pyobjus.ObjcMethod.__call__\n  File \"pyobjus/pyobjus_conversions.pxi\", line 537, in pyobjus.convert_py_arg_to_cy\nValueError: invalid literal for int() with base 10: b'\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00'\n"
+    }
+   ]
+  },
+  "f2_3_fill_array": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ValueError: invalid literal for int() with base 10: b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 289, in f2_3_fill_array\n    types().fillSquares_count_(buf, 4)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^\n  File \"pyobjus/pyobjus.pyx\", line 448, in pyobjus.ObjcMethod.__call__\n  File \"pyobjus/pyobjus_conversions.pxi\", line 537, in pyobjus.convert_py_arg_to_cy\nValueError: invalid literal for int() with base 10: b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'\n"
+    }
+   ]
+  },
+  "f2_3_struct_array_field": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "Exception: Missing encoding for b'4'",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 295, in f2_3_struct_array_field\n    q = types().echoQuad_(S3Quad((c_int * 4)(1, 2, 3, 4)))\n  File \"pyobjus/pyobjus.pyx\", line 401, in pyobjus.ObjcMethod.__call__\n  File \"pyobjus/pyobjus.pyx\", line 303, in pyobjus.ObjcMethod.ensure_method\n  File \"pyobjus/type_enc.pxi\", line 129, in pyobjus.type_encoding_to_ffitype\n  File \"pyobjus/type_enc.pxi\", line 139, in pyobjus.type_encoding_to_ffitype\nException: Missing encoding for b'4'\n"
+    }
+   ]
+  },
+  "f2_4_scalar_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(True, 3)",
+     "expected": "(True, 3)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_4_error_out": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus can pass only nil for an object out parameter",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_list_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_dict_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'v'",
+     "expected": "'v'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_to_py": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public function that converts Objective-C values to Python",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_from_py": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_bool_number": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public function that converts Objective-C values to Python",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_6_len": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: object of type 'NSConstantArray' has no len()",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 338, in f2_6_len\n    return len(types().strings())\nTypeError: object of type 'NSConstantArray' has no len()\n"
+    }
+   ]
+  },
+  "f2_6_index": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'NSConstantArray' object is not subscriptable",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 343, in f2_6_index\n    return text(types().strings()[1])\n                ~~~~~~~~~~~~~~~~~^^^\nTypeError: 'NSConstantArray' object is not subscriptable\n"
+    }
+   ]
+  },
+  "f2_6_iter": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'NSConstantArray' object is not iterable",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 348, in f2_6_iter\n    return [text(s) for s in types().strings()]\n                             ~~~~~~~~~~~~~~~^^\nTypeError: 'NSConstantArray' object is not iterable\n"
+    }
+   ]
+  },
+  "f2_6_in": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: argument of type 'NSConstantDictionary' is not a container or iterable",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 353, in f2_6_in\n    return \"one\" in types().mapping()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: argument of type 'NSConstantDictionary' is not a container or iterable\n"
+    }
+   ]
+  },
+  "f2_6_dict_index": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'NSConstantDictionary' object is not subscriptable",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 358, in f2_6_dict_index\n    return types().mapping()[\"two\"]\n           ~~~~~~~~~~~~~~~~~^^^^^^^\nTypeError: 'NSConstantDictionary' object is not subscriptable\n"
+    }
+   ]
+  },
+  "f2_6_str_ops": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "AttributeError: 'NSTaggedPointerString' object has no attribute 'upper'",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 364, in f2_6_str_ops\n    return (s == \"hello\", text(s.upper()))\n                               ^^^^^^^\n  File \"pyobjus/pyobjus_types.pxi\", line 689, in pyobjus.ObjcClassInstance.__getattribute__\nAttributeError: 'NSTaggedPointerString' object has no attribute 'upper'\n"
+    }
+   ]
+  },
+  "f2_7_enum": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "False",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_1_instance_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "11",
+     "expected": "11",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_1_class_method": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to define a class method",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_2_override_super": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for subclassing an Objective-C class",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_3_property_kvc": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to declare a property on a delegate",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_3_python_state": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "21",
+     "expected": "21",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_4_apple_protocol": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['root', 'item']",
+     "expected": "['root', 'item']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_5_app_protocol": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "8",
+     "expected": "8",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_5_app_protocol_registered": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "8",
+     "expected": "8",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_6_notification": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'S3Note'",
+     "expected": "'S3Note'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_6_timer": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_7_union_arg": {
+   "summary": {
+    "crash": 1
+   },
+   "runs": [
+    {
+     "outcome": "crash",
+     "detail": "SIGABRT",
+     "stderr": "un_mod + 300\n\t22  Python                              0x000000010243c6bc _PyRun_File + 156\n\t23  Python                              0x000000010243c138 _PyRun_SimpleFile + 260\n\t24  Python                              0x000000010243bdb0 _PyRun_AnyFile + 80\n\t25  Python                              0x000000010246e9b0 pymain_run_file_obj + 160\n\t26  Python                              0x000000010246e064 pymain_run_file + 72\n\t27  Python                              0x000000010246d640 Py_RunMain + 1112\n\t28  Python                              0x000000010246ec8c pymain_main + 480\n\t29  Python                              0x000000010246ee10 Py_BytesMain + 44\n\t30  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    }
+   ]
+  },
+  "f3_7_array_arg": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "0",
+     "expected": "9",
+     "stderr": "Traceback (most recent call last):\n  File \"pyobjus/pyobjus.pyx\", line 1001, in pyobjus.protocol_forwardInvocation\n  File \"pyobjus/pyobjus.pyx\", line 1080, in pyobjus.protocol.f.f2\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 504, in appArray_count_\n    return sum(v[i] for i in range(n))\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 504, in <genexpr>\n    return sum(v[i] for i in range(n))\n               ~^^^\nTypeError: 'pyobjus.ObjcReferenceToType' object is not subscriptable\n"
+    }
+   ]
+  },
+  "f3_7_bool_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_7_object_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'label-3'",
+     "expected": "'label-3'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_1_sort_comparator": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_1_enumerate_stop": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_1_completion": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_1_completion__helper": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "objc helper",
+     "outcome": "correct",
+     "detail": "49",
+     "expected": "49",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_2_delegate_completion": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "the block arrives as __NSStackBlock__, with no public way to call it",
+     "stderr": "Traceback (most recent call last):\n  File \"pyobjus/pyobjus.pyx\", line 1001, in pyobjus.protocol_forwardInvocation\n  File \"pyobjus/pyobjus.pyx\", line 1080, in pyobjus.protocol.f.f2\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 560, in appDecide_\n    decision(True)\n    ~~~~~~~~^^^^^^\nTypeError: '__NSStackBlock__' object is not callable\n"
+    }
+   ]
+  },
+  "f4_3_dispatch_main": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block or calling a C function",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_4_sort_function": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to pass a function pointer (Section 2, CB2)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_4_sort_function__ctypes": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "ctypes",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f5_3_asyncio_cf": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no integration with asyncio or the Core Foundation run loop",
+     "stderr": ""
+    }
+   ]
+  },
+  "f5_4_perform_on_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_1_named_class": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "1",
+     "expected": "1",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_1_generated_name": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "7",
+     "expected": "7",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_string": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Groceries'",
+     "expected": "'Groceries'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_property_write": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Kivy'",
+     "expected": "'Kivy'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_scalars": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(0.25, True)",
+     "expected": "(0.25, True)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_optional_nil": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "None",
+     "expected": "None",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_string_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['x']",
+     "expected": "['x']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_int_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[0, 1, 4, 9]",
+     "expected": "[0, 1, 4, 9]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_nested_dict": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "{'count': 2, 'isEmpty': False, 'nested': {'a': [1, 2]}}",
+     "expected": "{'count': 2, 'isEmpty': False, 'nested': {'a': [1, 2]}}",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_list_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_dict_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Swift'",
+     "expected": "'Swift'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_3_success": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'x'",
+     "expected": "'x'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_3_failure_value": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "None",
+     "expected": "None",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_3_read_error": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus can pass only nil for an object out parameter",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_4_completion": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_4_throwing_completion": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_tick_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[1, 2, 3]",
+     "expected": "[1, 2, 3]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_bool_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[True, True, False]",
+     "expected": "[True, True, False]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_int_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[10, 20, 30]",
+     "expected": "[10, 20, 30]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_object_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['t1', 't2', 't3']",
+     "expected": "['t1', 't2', 't3']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_background": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "([1, 2, 3], False)",
+     "expected": "([1, 2, 3], False)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_exception": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(3, 3)",
+     "expected": "(3, 3)",
+     "stderr": "Traceback (most recent call last):\n  File \"pyobjus/pyobjus.pyx\", line 1001, in pyobjus.protocol_forwardInvocation\n  File \"pyobjus/pyobjus.pyx\", line 1080, in pyobjus.protocol.f.f2\n  File \"<repo>/tests/section-03/cases_pyobjus.py\", line 725, in metronome_didTick_\n    raise RuntimeError(\"raised in a delegate method\")\nRuntimeError: raised in a delegate method\n"
+    }
+   ]
+  }
+ }
+}

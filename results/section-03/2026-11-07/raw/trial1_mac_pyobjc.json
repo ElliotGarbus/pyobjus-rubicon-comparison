@@ -1,0 +1,1143 @@
+{
+ "pyobjc-13.0": {
+  "f1_1_class_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'https://kivy.org/a/b'",
+     "expected": "'https://kivy.org/a/b'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_1_multipart": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'a+b'",
+     "expected": "'a+b'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_2_property_attr": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kivy.org'",
+     "expected": "'kivy.org'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_2_property_methods": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kivy.org'",
+     "expected": "'kivy.org'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_3_format": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'7-x'",
+     "expected": "'7-x'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_3_array_with_objects": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_4_object_constant": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kCFLocaleCountryCodeKey'",
+     "expected": "'kCFLocaleCountryCodeKey'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_4_scalar_constant": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "5026.6",
+     "expected": "5026.6",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_5_function": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'NSArray'",
+     "expected": "'NSArray'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_5_function_struct": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(3, 4)",
+     "expected": "(3, 4)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_6_framework": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_6_dylib": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "42",
+     "expected": "42",
+     "stderr": ""
+    }
+   ]
+  },
+  "f1_7_dir": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_1_user_struct": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(1, 2.5, 99)",
+     "expected": "(1, 2.5, 99)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_1_struct_pointer_in": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10.0",
+     "expected": "10.0",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_1_struct_pointer_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "expected": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_2_union_arg": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "NotImplementedError: Type '0x28' (() not supported",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 165, in f2_2_union_arg\n    return types().unionInt_(7)\n           ~~~~~~~~~~~~~~~~~^^^\nNotImplementedError: Type '0x28' (() not supported\n"
+    }
+   ]
+  },
+  "f2_2_union_return": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "NotImplementedError: Type '0x28' (() not supported",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 170, in f2_2_union_return\n    return types().makeUnion_(7)\n           ~~~~~~~~~~~~~~~~~~^^^\nNotImplementedError: Type '0x28' (() not supported\n"
+    }
+   ]
+  },
+  "f2_2_bitfield_arg": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "NotImplementedError: Type '0x62' (b) not supported",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 175, in f2_2_bitfield_arg\n    return types().bitsSum_((5, 17, 200))\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\nNotImplementedError: Type '0x62' (b) not supported\n"
+    }
+   ]
+  },
+  "f2_2_bitfield_return": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "NotImplementedError: Type '0x62' (b) not supported",
+     "stderr": "Traceback (most recent call last):\n  File \"<repo>/tests/section-03/run_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 180, in f2_2_bitfield_return\n    return tuple(types().makeBits())\n                 ~~~~~~~~~~~~~~~~^^\nNotImplementedError: Type '0x62' (b) not supported\n"
+    }
+   ]
+  },
+  "f2_3_fixed_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10",
+     "expected": "10",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_3_pass_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10",
+     "expected": "10",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_3_fill_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[0, 1, 4, 9]",
+     "expected": "[0, 1, 4, 9]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_3_struct_array_field": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[1, 2, 3, 4]",
+     "expected": "[1, 2, 3, 4]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_4_scalar_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(True, 3)",
+     "expected": "(True, 3)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_4_error_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "('S3', 42)",
+     "expected": "('S3', 42)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_list_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_dict_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'v'",
+     "expected": "'v'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_to_py": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_from_py": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_5_bool_number": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[True, False, 1]",
+     "expected": "[True, False, 1]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_6_len": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_6_index": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'b'",
+     "expected": "'b'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_6_iter": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_6_in": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_6_dict_index": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_6_str_ops": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(True, 'HELLO')",
+     "expected": "(True, 'HELLO')",
+     "stderr": ""
+    }
+   ]
+  },
+  "f2_7_enum": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_1_instance_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "11",
+     "expected": "11",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_1_class_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "12",
+     "expected": "12",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_2_override_super": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'1970-01-01!'",
+     "expected": "'1970-01-01!'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_3_property_kvc": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "5",
+     "expected": "5",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_3_python_state": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "21",
+     "expected": "21",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_4_apple_protocol": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['root', 'item']",
+     "expected": "['root', 'item']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_5_app_protocol": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "8",
+     "expected": "8",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_5_app_protocol_registered": {
+   "summary": {
+    "not applicable": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not applicable",
+     "detail": "PyObjC takes method types from the runtime protocol",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_6_notification": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'S3Note'",
+     "expected": "'S3Note'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_6_timer": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_7_union_arg": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "NotImplementedError: Cannot generate IMP for appUnion:",
+     "stderr": "e.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 408, in f3_7_union_arg\n    return S3AppCaller.unionOf_value_(app_delegate(appUnion_=appUnion_), 9)\n                                      ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 357, in app_delegate\n    cls = _t.new_class(\"S3PyApp\", (NSObject,), {\"protocols\": [objc.protocolNamed(\"S3AppProtocol\")]},\n                       lambda d: d.update(ns))\n  File \"/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/types.py\", line 88, in new_class\n    return meta(name, resolved_bases, ns, **kwds)\nNotImplementedError: Cannot generate IMP for appUnion:\n"
+    }
+   ]
+  },
+  "f3_7_array_arg": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'objc.PyObjCPointer' object is not subscriptable",
+     "stderr": "n_one.py\", line 26, in <module>\n    value = module.CASES[name]()\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 415, in f3_7_array_arg\n    return S3AppCaller.arraySumOf_(app_delegate(appArray_count_=appArray_count_))\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 414, in appArray_count_\n    return sum(v[i] for i in range(n))\n  File \"<repo>/tests/section-03/cases_pyobjc.py\", line 414, in <genexpr>\n    return sum(v[i] for i in range(n))\n               ~^^^\nTypeError: 'objc.PyObjCPointer' object is not subscriptable\n"
+    }
+   ]
+  },
+  "f3_7_bool_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f3_7_object_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'label-3'",
+     "expected": "'label-3'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_1_sort_comparator": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_1_enumerate_stop": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_1_completion": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "49",
+     "expected": "49",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_2_delegate_completion": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "1",
+     "expected": "1",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_3_dispatch_main": {
+   "summary": {
+    "not applicable": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not applicable",
+     "detail": "pyobjc-framework-libdispatch isn't installed in the control environment",
+     "stderr": ""
+    }
+   ]
+  },
+  "f4_4_sort_function": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f5_3_asyncio_cf": {
+   "summary": {
+    "not applicable": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not applicable",
+     "detail": "the control isn't tested for event loop integration",
+     "stderr": ""
+    }
+   ]
+  },
+  "f5_4_perform_on_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_1_named_class": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "1",
+     "expected": "1",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_1_generated_name": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "7",
+     "expected": "7",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_string": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Groceries'",
+     "expected": "'Groceries'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_property_write": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Kivy'",
+     "expected": "'Kivy'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_scalars": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(0.25, True)",
+     "expected": "(0.25, True)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_optional_nil": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "None",
+     "expected": "None",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_string_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['x']",
+     "expected": "['x']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_int_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[0, 1, 4, 9]",
+     "expected": "[0, 1, 4, 9]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_nested_dict": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "{'isEmpty': False, 'nested': {'a': [1, 2]}, 'count': 2}",
+     "expected": "{'count': 2, 'isEmpty': False, 'nested': {'a': [1, 2]}}",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_list_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_2_dict_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Swift'",
+     "expected": "'Swift'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_3_success": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'x'",
+     "expected": "'x'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_3_failure_value": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "None",
+     "expected": "None",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_3_read_error": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'S3Swift.NotebookError'",
+     "expected": "'S3Swift.NotebookError'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_4_completion": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'hello'",
+     "expected": "'hello'",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_4_throwing_completion": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(True, True)",
+     "expected": "(True, True)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_tick_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[1, 2, 3]",
+     "expected": "[1, 2, 3]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_bool_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[True, True, False]",
+     "expected": "[True, True, False]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_int_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[10, 20, 30]",
+     "expected": "[10, 20, 30]",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_object_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['t1', 't2', 't3']",
+     "expected": "['t1', 't2', 't3']",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_background": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "([1, 2, 3], False)",
+     "expected": "([1, 2, 3], False)",
+     "stderr": ""
+    }
+   ]
+  },
+  "f7_5_exception": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "(1, 3)",
+     "expected": "(3, 3)",
+     "stderr": ""
+    }
+   ]
+  }
+ }
+}

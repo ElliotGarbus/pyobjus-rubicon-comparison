@@ -1,0 +1,2584 @@
+{
+ "pyobjus-main": {
+  "__version__": "1.2.4",
+  "f1_1_class_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'https://kivy.org/a/b'",
+     "expected": "'https://kivy.org/a/b'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_1_multipart": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "'+'",
+     "expected": "'a+b'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_1_multipart_held": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'a+b'",
+     "expected": "'a+b'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_2_property_attr": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kivy.org'",
+     "expected": "'kivy.org'",
+     "stderr": "",
+     "seconds": 1.1
+    }
+   ]
+  },
+  "f1_2_property_methods": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kivy.org'",
+     "expected": "'kivy.org'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_3_format": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "'-4653175768459087813-x'",
+     "expected": "'7-x'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_3_array_with_objects": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_4_object_constant": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'NSString' object is not callable",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_4_scalar_constant": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus's symbol() reads only object constants",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_4_scalar_constant__ctypes": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "ctypes",
+     "outcome": "correct",
+     "detail": "5027.0",
+     "expected": "5027.0",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_5_function": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to call a C function",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_5_function__ctypes": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "ctypes",
+     "outcome": "correct",
+     "detail": "'NSArray'",
+     "expected": "'NSArray'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_5_function_struct": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to call a C function",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_5_function_struct__ctypes": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "ctypes",
+     "outcome": "correct",
+     "detail": "(3, 4)",
+     "expected": "(3, 4)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_6_framework": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "'already loaded'",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_6_dylib": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "42",
+     "expected": "42",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_7_dir": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_1_user_struct": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(1, 2.5, 99)",
+     "expected": "(1, 2.5, 99)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_1_struct_pointer_in": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10.0",
+     "expected": "10.0",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_1_struct_pointer_out": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "(0.0, 0.0, 0.0, 0.0)",
+     "expected": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_2_union_arg": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ObjcException: Currently passing unions as arguments by value is not supported in pyobjus!",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_2_union_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "7",
+     "expected": "7",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_2_bitfield_arg": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ObjcException: Bit fields aren't supported in pyobjus!",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_2_bitfield_return": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ObjcException: Bit fields aren't supported in pyobjus!",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_3_fixed_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10",
+     "expected": "10",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_3_pass_array": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ValueError: invalid literal for int() with base 10: b'\\x01\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_3_fill_array": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "ValueError: invalid literal for int() with base 10: b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_3_struct_array_field": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "Exception: Missing encoding for b'4'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_4_scalar_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(True, 3)",
+     "expected": "(True, 3)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_4_opaque_pointer": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "0.5",
+     "expected": "0.5",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_4_error_out": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus can pass only nil for an object out parameter",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_5_list_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_5_dict_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'v'",
+     "expected": "'v'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_5_to_py": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public function that converts Objective-C values to Python",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_5_from_py": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_5_bool_number": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public function that converts Objective-C values to Python",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_6_len": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: object of type 'NSConstantArray' has no len()",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_6_index": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'NSConstantArray' object is not subscriptable",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_6_iter": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'NSConstantArray' object is not iterable",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_6_in": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: argument of type 'NSConstantDictionary' is not a container or iterable",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_6_dict_index": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "TypeError: 'NSConstantDictionary' object is not subscriptable",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_6_str_ops": {
+   "summary": {
+    "python exception": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "python exception",
+     "detail": "AttributeError: 'NSTaggedPointerString' object has no attribute 'upper'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_7_enum": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_1_instance_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "11",
+     "expected": "11",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_1_class_method": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to define a class method",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_2_override_super": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for subclassing an Objective-C class",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_3_property_kvc": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to declare a property on a delegate",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_3_python_state": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "21",
+     "expected": "21",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_4_apple_protocol": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['root', 'item']",
+     "expected": "['root', 'item']",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_5_app_protocol": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "8",
+     "expected": "8",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_5_app_protocol_registered": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "8",
+     "expected": "8",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_6_notification": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'S3Note'",
+     "expected": "'S3Note'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_6_timer": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_7_union_arg": {
+   "summary": {
+    "crash": 1
+   },
+   "runs": [
+    {
+     "seconds": 0.5,
+     "devicectl": "The app terminated with the exit code 0.",
+     "stderr": "*** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '+[NSMethodSignature signatureWithObjCTypes:]: unsupported type encoding spec '(' in '8(?=if)16''\n*** First throw call stack:\n(0x187d028d8 0x187a8f804 0x187d23d4c 0x187cb40f0 0x109f88050 0x109f90840 0x109fc3628 0x10a0063dc 0x104b84b2c 0x104b86934 0x109fd3f58 0x187cbef18 0x187cbf400 0x1047e0a0c 0x109f88050 0x109f90840 0x109fc3628 0x10a0063dc 0x104b84b2c 0x104cd1274 0x104cd86a4 0x104cd0ae0 0x104ccd21c 0x104b85278 0x104cd1274 0x104cd86a4 0x104cd0d18 0x104b85a24 0x104b85d18 0x1047c42ec 0x187b01564)\nlibc++abi: terminating due to uncaught exception of type NSException\n",
+     "report": {
+      "type": "EXC_CRASH",
+      "signal": "SIGABRT",
+      "subtype": null,
+      "namespace": "SIGNAL",
+      "code": 6,
+      "indicator": "Abort trap: 6",
+      "frames": [
+       "libsystem_kernel.dylib!__pthread_kill",
+       "libsystem_pthread.dylib!pthread_kill",
+       "libsystem_c.dylib!abort",
+       "libc++abi.dylib!__abort_message",
+       "libc++abi.dylib!demangling_terminate_handler()",
+       "libobjc.A.dylib!_objc_terminate()"
+      ]
+     },
+     "outcome": "crash",
+     "detail": "SIGABRT"
+    }
+   ]
+  },
+  "f3_7_array_arg": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "0",
+     "expected": "9",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_7_bool_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_7_object_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'label-3'",
+     "expected": "'label-3'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f4_1_sort_comparator": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f4_1_enumerate_stop": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_1_completion": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f4_1_completion__helper": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "objc helper",
+     "outcome": "correct",
+     "detail": "49",
+     "expected": "49",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_2_delegate_completion": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "the block arrives as __NSStackBlock__, with no public way to call it",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f4_3_dispatch_main": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block or calling a C function",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f4_4_sort_function": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public way to pass a function pointer (Section 2, CB2)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_4_sort_function__ctypes": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "ctypes",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f5_3_asyncio_cf": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no integration with asyncio or the Core Foundation run loop",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f5_4_perform_on_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_1_named_class": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "1",
+     "expected": "1",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_1_generated_name": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "7",
+     "expected": "7",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_2_string": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Groceries'",
+     "expected": "'Groceries'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_2_property_write": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Kivy'",
+     "expected": "'Kivy'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_2_scalars": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(0.25, True)",
+     "expected": "(0.25, True)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_optional_nil": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "None",
+     "expected": "None",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_2_string_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['x']",
+     "expected": "['x']",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_int_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[0, 1, 4, 9]",
+     "expected": "[0, 1, 4, 9]",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_2_nested_dict": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "{'nested': {'a': [1, 2]}, 'isEmpty': False, 'count': 2}",
+     "expected": "{'count': 2, 'isEmpty': False, 'nested': {'a': [1, 2]}}",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_2_list_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_dict_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Swift'",
+     "expected": "'Swift'",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_3_success": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'x'",
+     "expected": "'x'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_3_failure_value": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "None",
+     "expected": "None",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_3_read_error": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus can pass only nil for an object out parameter",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_4_completion": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_4_throwing_completion": {
+   "summary": {
+    "not expressible": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not expressible",
+     "detail": "pyobjus has no public API for creating a block",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_5_tick_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[1, 2, 3]",
+     "expected": "[1, 2, 3]",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_5_bool_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[True, True, False]",
+     "expected": "[True, True, False]",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_5_int_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[10, 20, 30]",
+     "expected": "[10, 20, 30]",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_5_object_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['t1', 't2', 't3']",
+     "expected": "['t1', 't2', 't3']",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_5_background": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "([1, 2, 3], False)",
+     "expected": "([1, 2, 3], False)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f7_5_exception": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(3, 3)",
+     "expected": "(3, 3)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  }
+ },
+ "rubicon-main": {
+  "__version__": "0.5.8.dev21",
+  "f1_1_class_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'https://kivy.org/a/b'",
+     "expected": "'https://kivy.org/a/b'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_1_multipart": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'a+b'",
+     "expected": "'a+b'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_1_multipart_held": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'a+b'",
+     "expected": "'a+b'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_2_property_attr": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kivy.org'",
+     "expected": "'kivy.org'",
+     "stderr": "",
+     "seconds": 0.7
+    }
+   ]
+  },
+  "f1_2_property_methods": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kivy.org'",
+     "expected": "'kivy.org'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_3_format": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'7-x'",
+     "expected": "'7-x'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_3_array_with_objects": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_4_object_constant": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'kCFLocaleCountryCodeKey'",
+     "expected": "'kCFLocaleCountryCodeKey'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_4_scalar_constant": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "5027.0",
+     "expected": "5027.0",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_5_function": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'NSArray'",
+     "expected": "'NSArray'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_5_function_struct": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(3, 4)",
+     "expected": "(3, 4)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_6_framework": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "'already loaded'",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_6_dylib": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "42",
+     "expected": "42",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_7_dir": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "False",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_1_user_struct": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(1, 2.5, 99)",
+     "expected": "(1, 2.5, 99)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_1_struct_pointer_in": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10.0",
+     "expected": "10.0",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_1_struct_pointer_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(1.0, 2.0, 3.0, 4.0)",
+     "expected": "(1.0, 2.0, 3.0, 4.0)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_2_union_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "7",
+     "expected": "7",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_2_union_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "7",
+     "expected": "7",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_2_bitfield_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "222",
+     "expected": "222",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_2_bitfield_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(5, 17, 200)",
+     "expected": "(5, 17, 200)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_3_fixed_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10",
+     "expected": "10",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_3_pass_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "10",
+     "expected": "10",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_3_fill_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[0, 1, 4, 9]",
+     "expected": "[0, 1, 4, 9]",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_3_struct_array_field": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[1, 2, 3, 4]",
+     "expected": "[1, 2, 3, 4]",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_4_scalar_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(True, 3)",
+     "expected": "(True, 3)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_4_opaque_pointer": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "0.5",
+     "expected": "0.5",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_4_error_out": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "('S3', 42)",
+     "expected": "('S3', 42)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_5_list_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_5_dict_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'v'",
+     "expected": "'v'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_5_to_py": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_5_from_py": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_5_bool_number": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "[1, 0, 1]",
+     "expected": "[True, False, 1]",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_6_len": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_6_index": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'b'",
+     "expected": "'b'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_6_iter": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_6_in": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f2_6_dict_index": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "<ObjCInstance: NSConstantIntegerNumber at 0x107c5e0d0: 2>",
+     "expected": "2",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_6_str_ops": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(True, 'HELLO')",
+     "expected": "(True, 'HELLO')",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f2_7_enum": {
+   "summary": {
+    "not applicable": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not applicable",
+     "detail": "Rubicon ships no enum constants. A Python constant or enum.IntEnum is used instead",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_1_instance_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "11",
+     "expected": "11",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f3_1_class_method": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "12",
+     "expected": "12",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_2_override_super": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'1970-01-01!'",
+     "expected": "'1970-01-01!'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_3_property_kvc": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "5",
+     "expected": "5",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_3_python_state": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "21",
+     "expected": "21",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_4_apple_protocol": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['root', 'item']",
+     "expected": "['root', 'item']",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_5_app_protocol": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "8",
+     "expected": "8",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_5_app_protocol_registered": {
+   "summary": {
+    "not applicable": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "not applicable",
+     "detail": "Rubicon takes method types from annotations, so there's no protocol table to register",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_6_notification": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'S3Note'",
+     "expected": "'S3Note'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_6_timer": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_7_union_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "9",
+     "expected": "9",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_7_array_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "9",
+     "expected": "9",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_7_bool_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f3_7_object_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'label-3'",
+     "expected": "'label-3'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_1_sort_comparator": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_1_enumerate_stop": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "2",
+     "expected": "2",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_1_completion": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "49",
+     "expected": "49",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_2_delegate_completion": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "1",
+     "expected": "1",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_3_dispatch_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f4_4_sort_function": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['a', 'b', 'c']",
+     "expected": "['a', 'b', 'c']",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f5_3_asyncio_cf": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 1.1
+    }
+   ]
+  },
+  "f5_4_perform_on_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_1_named_class": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "1",
+     "expected": "1",
+     "stderr": "",
+     "seconds": 0.7
+    }
+   ]
+  },
+  "f7_1_generated_name": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "7",
+     "expected": "7",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_string": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Groceries'",
+     "expected": "'Groceries'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_property_write": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Kivy'",
+     "expected": "'Kivy'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_scalars": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(0.25, True)",
+     "expected": "(0.25, True)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_optional_nil": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "None",
+     "expected": "None",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_string_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['x']",
+     "expected": "['x']",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_int_array": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[0, 1, 4, 9]",
+     "expected": "[0, 1, 4, 9]",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_nested_dict": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "wrong value",
+     "detail": "{'count': 2, 'isEmpty': 0, 'nested': {'a': [1, 2]}}",
+     "expected": "{'count': 2, 'isEmpty': False, 'nested': {'a': [1, 2]}}",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_list_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "3",
+     "expected": "3",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_2_dict_arg": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'Swift'",
+     "expected": "'Swift'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_3_success": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'x'",
+     "expected": "'x'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_3_failure_value": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "None",
+     "expected": "None",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_3_read_error": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'S3Swift.NotebookError'",
+     "expected": "'S3Swift.NotebookError'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_4_completion": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "'hello'",
+     "expected": "'hello'",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_4_throwing_completion": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(True, True)",
+     "expected": "(True, True)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_5_tick_main": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[1, 2, 3]",
+     "expected": "[1, 2, 3]",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_5_bool_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[True, True, False]",
+     "expected": "[True, True, False]",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_5_int_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "[10, 20, 30]",
+     "expected": "[10, 20, 30]",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_5_object_return": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "['t1', 't2', 't3']",
+     "expected": "['t1', 't2', 't3']",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_5_background": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "([1, 2, 3], False)",
+     "expected": "([1, 2, 3], False)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f7_5_exception": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "(3, 3)",
+     "expected": "(3, 3)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  }
+ }
+}

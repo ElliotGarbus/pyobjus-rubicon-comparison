@@ -1,0 +1,5145 @@
+{
+ "sdk": "macosx",
+ "sdk_version": "27.0",
+ "tested": "26.6.2",
+ "clang": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+ "left_out_parse_failed": [
+  "DriverKit",
+  "Kernel",
+  "Tk"
+ ],
+ "labels": {
+  "pyobjus-1.2.4": {
+   "total": {
+    "call": {
+     "available": 73930,
+     "deprecated": 14198,
+     "by_decl": {
+      "method": {
+       "available": 29690,
+       "strict": {
+        "expressible": 15312,
+        "not expressible": 14214,
+        "unclassified": 164
+       },
+       "lenient": {
+        "expressible": 15473,
+        "not expressible": 14053,
+        "unclassified": 164
+       }
+      },
+      "property": {
+       "available": 19881,
+       "strict": {
+        "expressible": 18855,
+        "unclassified": 67,
+        "not expressible": 959
+       },
+       "lenient": {
+        "expressible": 18863,
+        "unclassified": 67,
+        "not expressible": 951
+       }
+      },
+      "function": {
+       "available": 11904,
+       "strict": {
+        "not expressible": 10644,
+        "unclassified": 1260
+       },
+       "lenient": {
+        "not expressible": 10644,
+        "unclassified": 1260
+       }
+      },
+      "constant": {
+       "available": 12455,
+       "strict": {
+        "not expressible": 12384,
+        "unclassified": 71
+       },
+       "lenient": {
+        "not expressible": 12384,
+        "unclassified": 71
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "not expressible": 38201,
+       "expressible": 34167,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 492,
+        "block": 11805,
+        "object_constant": 11268,
+        "struct": 2000,
+        "object_pointer": 1096,
+        "block_return": 187,
+        "scalar_constant": 1116,
+        "c_function": 9983,
+        "scalar_pointer": 164,
+        "function_pointer": 16,
+        "variadic": 38,
+        "union": 36
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "not expressible": 38032,
+       "expressible": 34336,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 492,
+        "block": 11805,
+        "object_constant": 11268,
+        "struct": 2033,
+        "object_pointer": 1096,
+        "block_return": 187,
+        "scalar_constant": 1116,
+        "c_function": 9983,
+        "function_pointer": 16,
+        "union": 36
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     }
+    },
+    "implement": {
+     "available": 4439,
+     "deprecated": 357,
+     "by_decl": {
+      "method": {
+       "available": 3345,
+       "strict": {
+        "not expressible": 3020,
+        "unclassified": 239,
+        "expressible": 86
+       },
+       "lenient": {
+        "not expressible": 3020,
+        "unclassified": 239,
+        "expressible": 86
+       }
+      },
+      "property": {
+       "available": 1094,
+       "strict": {
+        "not expressible": 1063,
+        "unclassified": 31
+       },
+       "lenient": {
+        "not expressible": 1063,
+        "unclassified": 31
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "not expressible": 4083,
+       "unclassified": 270,
+       "expressible": 86
+      },
+      "by_kind": {
+       "not expressible": {
+        "object": 2892,
+        "scalar": 713,
+        "struct": 119,
+        "block": 358,
+        "scalar_pointer": 1
+       },
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "not expressible": 4083,
+       "unclassified": 270,
+       "expressible": 86
+      },
+      "by_kind": {
+       "not expressible": {
+        "object": 2892,
+        "scalar": 713,
+        "struct": 119,
+        "block": 358,
+        "scalar_pointer": 1
+       },
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       }
+      }
+     }
+    }
+   },
+   "frameworks": {
+    "Foundation": {
+     "call": {
+      "available": 5122,
+      "deprecated": 409,
+      "by_decl": {
+       "method": {
+        "available": 2560,
+        "strict": {
+         "expressible": 2031,
+         "not expressible": 527,
+         "unclassified": 2
+        },
+        "lenient": {
+         "expressible": 2099,
+         "not expressible": 459,
+         "unclassified": 2
+        }
+       },
+       "property": {
+        "available": 1563,
+        "strict": {
+         "expressible": 1525,
+         "not expressible": 38
+        },
+        "lenient": {
+         "expressible": 1526,
+         "not expressible": 37
+        }
+       },
+       "function": {
+        "available": 176,
+        "strict": {
+         "not expressible": 174,
+         "unclassified": 2
+        },
+        "lenient": {
+         "not expressible": 174,
+         "unclassified": 2
+        }
+       },
+       "constant": {
+        "available": 823,
+        "strict": {
+         "not expressible": 823
+        },
+        "lenient": {
+         "not expressible": 823
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 1562,
+        "expressible": 3556,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "scalar_constant": 32,
+         "c_function": 114,
+         "inline": 60,
+         "struct": 135,
+         "scalar_pointer": 46,
+         "block": 154,
+         "function_pointer": 10,
+         "object_pointer": 178,
+         "variadic": 28,
+         "object_constant": 791,
+         "block_return": 14
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 1493,
+        "expressible": 3625,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "scalar_constant": 32,
+         "c_function": 114,
+         "inline": 60,
+         "struct": 140,
+         "block": 154,
+         "function_pointer": 10,
+         "object_pointer": 178,
+         "object_constant": 791,
+         "block_return": 14
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 217,
+      "deprecated": 17,
+      "by_decl": {
+       "method": {
+        "available": 209,
+        "strict": {
+         "unclassified": 11,
+         "not expressible": 193,
+         "expressible": 5
+        },
+        "lenient": {
+         "unclassified": 11,
+         "not expressible": 193,
+         "expressible": 5
+        }
+       },
+       "property": {
+        "available": 8,
+        "strict": {
+         "not expressible": 8
+        },
+        "lenient": {
+         "not expressible": 8
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 11,
+        "not expressible": 201,
+        "expressible": 5
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        },
+        "not expressible": {
+         "object": 179,
+         "scalar": 5,
+         "block": 17
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 11,
+        "not expressible": 201,
+        "expressible": 5
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        },
+        "not expressible": {
+         "object": 179,
+         "scalar": 5,
+         "block": 17
+        }
+       }
+      }
+     }
+    },
+    "AppKit": {
+     "call": {
+      "available": 7998,
+      "deprecated": 710,
+      "by_decl": {
+       "method": {
+        "available": 3521,
+        "strict": {
+         "expressible": 2716,
+         "not expressible": 800,
+         "unclassified": 5
+        },
+        "lenient": {
+         "expressible": 2758,
+         "not expressible": 758,
+         "unclassified": 5
+        }
+       },
+       "property": {
+        "available": 2922,
+        "strict": {
+         "expressible": 2745,
+         "not expressible": 177
+        },
+        "lenient": {
+         "expressible": 2748,
+         "not expressible": 174
+        }
+       },
+       "function": {
+        "available": 94,
+        "strict": {
+         "not expressible": 92,
+         "unclassified": 2
+        },
+        "lenient": {
+         "not expressible": 92,
+         "unclassified": 2
+        }
+       },
+       "constant": {
+        "available": 1461,
+        "strict": {
+         "not expressible": 1460,
+         "unclassified": 1
+        },
+        "lenient": {
+         "not expressible": 1460,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 2529,
+        "unclassified": 8,
+        "expressible": 5461
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 1432,
+         "c_function": 89,
+         "scalar_constant": 28,
+         "struct": 722,
+         "block": 100,
+         "block_return": 13,
+         "object_pointer": 72,
+         "scalar_pointer": 66,
+         "inline": 3,
+         "function_pointer": 2,
+         "variadic": 2
+        },
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 2484,
+        "unclassified": 8,
+        "expressible": 5506
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 1432,
+         "c_function": 89,
+         "scalar_constant": 28,
+         "struct": 745,
+         "block": 100,
+         "block_return": 13,
+         "object_pointer": 72,
+         "inline": 3,
+         "function_pointer": 2
+        },
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 1117,
+      "deprecated": 64,
+      "by_decl": {
+       "method": {
+        "available": 916,
+        "strict": {
+         "not expressible": 880,
+         "unclassified": 29,
+         "expressible": 7
+        },
+        "lenient": {
+         "not expressible": 880,
+         "unclassified": 29,
+         "expressible": 7
+        }
+       },
+       "property": {
+        "available": 201,
+        "strict": {
+         "not expressible": 200,
+         "unclassified": 1
+        },
+        "lenient": {
+         "not expressible": 200,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 1080,
+        "unclassified": 30,
+        "expressible": 7
+       },
+       "by_kind": {
+        "not expressible": {
+         "struct": 41,
+         "object": 899,
+         "scalar": 116,
+         "block": 24
+        },
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 1080,
+        "unclassified": 30,
+        "expressible": 7
+       },
+       "by_kind": {
+        "not expressible": {
+         "struct": 41,
+         "object": 899,
+         "scalar": 116,
+         "block": 24
+        },
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        }
+       }
+      }
+     }
+    },
+    "AVFoundation": {
+     "call": {
+      "available": 3117,
+      "deprecated": 90,
+      "by_decl": {
+       "method": {
+        "available": 791,
+        "strict": {
+         "expressible": 533,
+         "not expressible": 258
+        },
+        "lenient": {
+         "expressible": 533,
+         "not expressible": 258
+        }
+       },
+       "property": {
+        "available": 1277,
+        "strict": {
+         "expressible": 1117,
+         "not expressible": 160
+        },
+        "lenient": {
+         "expressible": 1117,
+         "not expressible": 160
+        }
+       },
+       "function": {
+        "available": 10,
+        "strict": {
+         "not expressible": 9,
+         "unclassified": 1
+        },
+        "lenient": {
+         "not expressible": 9,
+         "unclassified": 1
+        }
+       },
+       "constant": {
+        "available": 1039,
+        "strict": {
+         "not expressible": 1039
+        },
+        "lenient": {
+         "not expressible": 1039
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 1466,
+        "expressible": 1650,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "not expressible": {
+         "scalar_constant": 2,
+         "object_constant": 1037,
+         "block": 94,
+         "object_pointer": 45,
+         "c_function": 9,
+         "struct": 275,
+         "scalar_pointer": 4
+        },
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 1466,
+        "expressible": 1650,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "not expressible": {
+         "scalar_constant": 2,
+         "object_constant": 1037,
+         "block": 94,
+         "object_pointer": 45,
+         "c_function": 9,
+         "struct": 279
+        },
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 105,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 88,
+        "strict": {
+         "unclassified": 6,
+         "not expressible": 79,
+         "expressible": 3
+        },
+        "lenient": {
+         "unclassified": 6,
+         "not expressible": 79,
+         "expressible": 3
+        }
+       },
+       "property": {
+        "available": 17,
+        "strict": {
+         "not expressible": 16,
+         "unclassified": 1
+        },
+        "lenient": {
+         "not expressible": 16,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 7,
+        "not expressible": 95,
+        "expressible": 3
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        },
+        "not expressible": {
+         "block": 6,
+         "object": 77,
+         "scalar": 11,
+         "struct": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 7,
+        "not expressible": 95,
+        "expressible": 3
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        },
+        "not expressible": {
+         "block": 6,
+         "object": 77,
+         "scalar": 11,
+         "struct": 1
+        }
+       }
+      }
+     }
+    },
+    "CoreBluetooth": {
+     "call": {
+      "available": 121,
+      "deprecated": 4,
+      "by_decl": {
+       "method": {
+        "available": 42,
+        "strict": {
+         "expressible": 42
+        },
+        "lenient": {
+         "expressible": 42
+        }
+       },
+       "property": {
+        "available": 44,
+        "strict": {
+         "expressible": 44
+        },
+        "lenient": {
+         "expressible": 44
+        }
+       },
+       "constant": {
+        "available": 35,
+        "strict": {
+         "not expressible": 35
+        },
+        "lenient": {
+         "not expressible": 35
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 35,
+        "expressible": 86
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 35
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 35,
+        "expressible": 86
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 35
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 34,
+      "deprecated": 1,
+      "by_decl": {
+       "method": {
+        "available": 34,
+        "strict": {
+         "not expressible": 34
+        },
+        "lenient": {
+         "not expressible": 34
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 34
+       },
+       "by_kind": {
+        "not expressible": {
+         "object": 34
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 34
+       },
+       "by_kind": {
+        "not expressible": {
+         "object": 34
+        }
+       }
+      }
+     }
+    },
+    "CoreLocation": {
+     "call": {
+      "available": 182,
+      "deprecated": 33,
+      "by_decl": {
+       "method": {
+        "available": 69,
+        "strict": {
+         "not expressible": 18,
+         "expressible": 51
+        },
+        "lenient": {
+         "not expressible": 18,
+         "expressible": 51
+        }
+       },
+       "property": {
+        "available": 110,
+        "strict": {
+         "not expressible": 5,
+         "expressible": 105
+        },
+        "lenient": {
+         "not expressible": 5,
+         "expressible": 105
+        }
+       },
+       "constant": {
+        "available": 3,
+        "strict": {
+         "not expressible": 3
+        },
+        "lenient": {
+         "not expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 26,
+        "expressible": 156
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 2,
+         "struct": 9,
+         "scalar_constant": 1,
+         "block": 13,
+         "block_return": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 26,
+        "expressible": 156
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 2,
+         "struct": 9,
+         "scalar_constant": 1,
+         "block": 13,
+         "block_return": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 20,
+      "deprecated": 3,
+      "by_decl": {
+       "method": {
+        "available": 20,
+        "strict": {
+         "not expressible": 20
+        },
+        "lenient": {
+         "not expressible": 20
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 20
+       },
+       "by_kind": {
+        "not expressible": {
+         "object": 20
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 20
+       },
+       "by_kind": {
+        "not expressible": {
+         "object": 20
+        }
+       }
+      }
+     }
+    },
+    "StoreKit": {
+     "call": {
+      "available": 123,
+      "deprecated": 109,
+      "by_decl": {
+       "method": {
+        "available": 36,
+        "strict": {
+         "not expressible": 12,
+         "expressible": 24
+        },
+        "lenient": {
+         "not expressible": 12,
+         "expressible": 24
+        }
+       },
+       "property": {
+        "available": 71,
+        "strict": {
+         "expressible": 71
+        },
+        "lenient": {
+         "expressible": 71
+        }
+       },
+       "function": {
+        "available": 1,
+        "strict": {
+         "not expressible": 1
+        },
+        "lenient": {
+         "not expressible": 1
+        }
+       },
+       "constant": {
+        "available": 15,
+        "strict": {
+         "not expressible": 15
+        },
+        "lenient": {
+         "not expressible": 15
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 28,
+        "expressible": 95
+       },
+       "by_kind": {
+        "not expressible": {
+         "block": 12,
+         "object_constant": 14,
+         "scalar_constant": 1,
+         "c_function": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 28,
+        "expressible": 95
+       },
+       "by_kind": {
+        "not expressible": {
+         "block": 12,
+         "object_constant": 14,
+         "scalar_constant": 1,
+         "c_function": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 13,
+      "deprecated": 12,
+      "by_decl": {
+       "method": {
+        "available": 13,
+        "strict": {
+         "not expressible": 13
+        },
+        "lenient": {
+         "not expressible": 13
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 13
+       },
+       "by_kind": {
+        "not expressible": {
+         "object": 13
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 13
+       },
+       "by_kind": {
+        "not expressible": {
+         "object": 13
+        }
+       }
+      }
+     }
+    },
+    "UserNotifications": {
+     "call": {
+      "available": 118,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 38,
+        "strict": {
+         "expressible": 28,
+         "not expressible": 10
+        },
+        "lenient": {
+         "expressible": 28,
+         "not expressible": 10
+        }
+       },
+       "property": {
+        "available": 73,
+        "strict": {
+         "expressible": 73
+        },
+        "lenient": {
+         "expressible": 73
+        }
+       },
+       "constant": {
+        "available": 7,
+        "strict": {
+         "not expressible": 7
+        },
+        "lenient": {
+         "not expressible": 7
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 101,
+        "not expressible": 17
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 7,
+         "object_pointer": 2,
+         "block": 8
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 101,
+        "not expressible": 17
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 7,
+         "object_pointer": 2,
+         "block": 8
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 3,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 3,
+        "strict": {
+         "not expressible": 3
+        },
+        "lenient": {
+         "not expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 3
+       },
+       "by_kind": {
+        "not expressible": {
+         "block": 2,
+         "object": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 3
+       },
+       "by_kind": {
+        "not expressible": {
+         "block": 2,
+         "object": 1
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "pyobjus-main": {
+   "total": {
+    "call": {
+     "available": 73930,
+     "deprecated": 14198,
+     "by_decl": {
+      "method": {
+       "available": 29690,
+       "strict": {
+        "expressible": 16575,
+        "not expressible": 12951,
+        "unclassified": 164
+       },
+       "lenient": {
+        "expressible": 16769,
+        "not expressible": 12757,
+        "unclassified": 164
+       }
+      },
+      "property": {
+       "available": 19881,
+       "strict": {
+        "expressible": 19592,
+        "unclassified": 67,
+        "not expressible": 222
+       },
+       "lenient": {
+        "expressible": 19600,
+        "unclassified": 67,
+        "not expressible": 214
+       }
+      },
+      "function": {
+       "available": 11904,
+       "strict": {
+        "not expressible": 10644,
+        "unclassified": 1260
+       },
+       "lenient": {
+        "not expressible": 10644,
+        "unclassified": 1260
+       }
+      },
+      "constant": {
+       "available": 12455,
+       "strict": {
+        "not expressible": 12384,
+        "unclassified": 71
+       },
+       "lenient": {
+        "not expressible": 12384,
+        "unclassified": 71
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "not expressible": 36201,
+       "expressible": 36167,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 492,
+        "block": 11805,
+        "object_constant": 11268,
+        "object_pointer": 1096,
+        "block_return": 187,
+        "scalar_constant": 1116,
+        "c_function": 9983,
+        "scalar_pointer": 164,
+        "function_pointer": 16,
+        "variadic": 38,
+        "union": 36
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "not expressible": 35999,
+       "expressible": 36369,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 492,
+        "block": 11805,
+        "object_constant": 11268,
+        "object_pointer": 1096,
+        "block_return": 187,
+        "scalar_constant": 1116,
+        "c_function": 9983,
+        "function_pointer": 16,
+        "union": 36
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     }
+    },
+    "implement": {
+     "available": 4439,
+     "deprecated": 357,
+     "by_decl": {
+      "method": {
+       "available": 3345,
+       "strict": {
+        "expressible": 2430,
+        "not expressible": 676,
+        "unclassified": 239
+       },
+       "lenient": {
+        "expressible": 2430,
+        "not expressible": 676,
+        "unclassified": 239
+       }
+      },
+      "property": {
+       "available": 1094,
+       "strict": {
+        "expressible": 993,
+        "not expressible": 70,
+        "unclassified": 31
+       },
+       "lenient": {
+        "expressible": 993,
+        "not expressible": 70,
+        "unclassified": 31
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "expressible": 3423,
+       "not expressible": 746,
+       "unclassified": 270
+      },
+      "by_kind": {
+       "not expressible": {
+        "struct": 358,
+        "block": 358,
+        "scalar_pointer": 30
+       },
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "expressible": 3423,
+       "not expressible": 746,
+       "unclassified": 270
+      },
+      "by_kind": {
+       "not expressible": {
+        "struct": 358,
+        "block": 358,
+        "scalar_pointer": 30
+       },
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       }
+      }
+     }
+    }
+   },
+   "frameworks": {
+    "Foundation": {
+     "call": {
+      "available": 5122,
+      "deprecated": 409,
+      "by_decl": {
+       "method": {
+        "available": 2560,
+        "strict": {
+         "expressible": 2148,
+         "not expressible": 410,
+         "unclassified": 2
+        },
+        "lenient": {
+         "expressible": 2221,
+         "not expressible": 337,
+         "unclassified": 2
+        }
+       },
+       "property": {
+        "available": 1563,
+        "strict": {
+         "expressible": 1543,
+         "not expressible": 20
+        },
+        "lenient": {
+         "expressible": 1544,
+         "not expressible": 19
+        }
+       },
+       "function": {
+        "available": 176,
+        "strict": {
+         "not expressible": 174,
+         "unclassified": 2
+        },
+        "lenient": {
+         "not expressible": 174,
+         "unclassified": 2
+        }
+       },
+       "constant": {
+        "available": 823,
+        "strict": {
+         "not expressible": 823
+        },
+        "lenient": {
+         "not expressible": 823
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 1427,
+        "expressible": 3691,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "scalar_constant": 32,
+         "c_function": 114,
+         "inline": 60,
+         "scalar_pointer": 46,
+         "block": 154,
+         "function_pointer": 10,
+         "object_pointer": 178,
+         "variadic": 28,
+         "object_constant": 791,
+         "block_return": 14
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 1353,
+        "expressible": 3765,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "scalar_constant": 32,
+         "c_function": 114,
+         "inline": 60,
+         "block": 154,
+         "function_pointer": 10,
+         "object_pointer": 178,
+         "object_constant": 791,
+         "block_return": 14
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 217,
+      "deprecated": 17,
+      "by_decl": {
+       "method": {
+        "available": 209,
+        "strict": {
+         "unclassified": 11,
+         "expressible": 178,
+         "not expressible": 20
+        },
+        "lenient": {
+         "unclassified": 11,
+         "expressible": 178,
+         "not expressible": 20
+        }
+       },
+       "property": {
+        "available": 8,
+        "strict": {
+         "expressible": 8
+        },
+        "lenient": {
+         "expressible": 8
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 11,
+        "expressible": 186,
+        "not expressible": 20
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        },
+        "not expressible": {
+         "block": 17,
+         "scalar_pointer": 2,
+         "struct": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 11,
+        "expressible": 186,
+        "not expressible": 20
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        },
+        "not expressible": {
+         "block": 17,
+         "scalar_pointer": 2,
+         "struct": 1
+        }
+       }
+      }
+     }
+    },
+    "AppKit": {
+     "call": {
+      "available": 7998,
+      "deprecated": 710,
+      "by_decl": {
+       "method": {
+        "available": 3521,
+        "strict": {
+         "expressible": 3277,
+         "not expressible": 239,
+         "unclassified": 5
+        },
+        "lenient": {
+         "expressible": 3342,
+         "not expressible": 174,
+         "unclassified": 5
+        }
+       },
+       "property": {
+        "available": 2922,
+        "strict": {
+         "expressible": 2906,
+         "not expressible": 16
+        },
+        "lenient": {
+         "expressible": 2909,
+         "not expressible": 13
+        }
+       },
+       "function": {
+        "available": 94,
+        "strict": {
+         "not expressible": 92,
+         "unclassified": 2
+        },
+        "lenient": {
+         "not expressible": 92,
+         "unclassified": 2
+        }
+       },
+       "constant": {
+        "available": 1461,
+        "strict": {
+         "not expressible": 1460,
+         "unclassified": 1
+        },
+        "lenient": {
+         "not expressible": 1460,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 1807,
+        "unclassified": 8,
+        "expressible": 6183
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 1432,
+         "c_function": 89,
+         "scalar_constant": 28,
+         "block": 100,
+         "block_return": 13,
+         "object_pointer": 72,
+         "scalar_pointer": 66,
+         "inline": 3,
+         "function_pointer": 2,
+         "variadic": 2
+        },
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 1739,
+        "unclassified": 8,
+        "expressible": 6251
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 1432,
+         "c_function": 89,
+         "scalar_constant": 28,
+         "block": 100,
+         "block_return": 13,
+         "object_pointer": 72,
+         "inline": 3,
+         "function_pointer": 2
+        },
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 1117,
+      "deprecated": 64,
+      "by_decl": {
+       "method": {
+        "available": 916,
+        "strict": {
+         "not expressible": 158,
+         "expressible": 729,
+         "unclassified": 29
+        },
+        "lenient": {
+         "not expressible": 158,
+         "expressible": 729,
+         "unclassified": 29
+        }
+       },
+       "property": {
+        "available": 201,
+        "strict": {
+         "expressible": 180,
+         "not expressible": 20,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 180,
+         "not expressible": 20,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 178,
+        "expressible": 909,
+        "unclassified": 30
+       },
+       "by_kind": {
+        "not expressible": {
+         "struct": 144,
+         "block": 24,
+         "scalar_pointer": 10
+        },
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 178,
+        "expressible": 909,
+        "unclassified": 30
+       },
+       "by_kind": {
+        "not expressible": {
+         "struct": 144,
+         "block": 24,
+         "scalar_pointer": 10
+        },
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        }
+       }
+      }
+     }
+    },
+    "AVFoundation": {
+     "call": {
+      "available": 3117,
+      "deprecated": 90,
+      "by_decl": {
+       "method": {
+        "available": 791,
+        "strict": {
+         "expressible": 648,
+         "not expressible": 143
+        },
+        "lenient": {
+         "expressible": 652,
+         "not expressible": 139
+        }
+       },
+       "property": {
+        "available": 1277,
+        "strict": {
+         "expressible": 1277
+        },
+        "lenient": {
+         "expressible": 1277
+        }
+       },
+       "function": {
+        "available": 10,
+        "strict": {
+         "not expressible": 9,
+         "unclassified": 1
+        },
+        "lenient": {
+         "not expressible": 9,
+         "unclassified": 1
+        }
+       },
+       "constant": {
+        "available": 1039,
+        "strict": {
+         "not expressible": 1039
+        },
+        "lenient": {
+         "not expressible": 1039
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 1191,
+        "expressible": 1925,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "not expressible": {
+         "scalar_constant": 2,
+         "object_constant": 1037,
+         "block": 94,
+         "object_pointer": 45,
+         "c_function": 9,
+         "scalar_pointer": 4
+        },
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 1187,
+        "expressible": 1929,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "not expressible": {
+         "scalar_constant": 2,
+         "object_constant": 1037,
+         "block": 94,
+         "object_pointer": 45,
+         "c_function": 9
+        },
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 105,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 88,
+        "strict": {
+         "unclassified": 6,
+         "not expressible": 13,
+         "expressible": 69
+        },
+        "lenient": {
+         "unclassified": 6,
+         "not expressible": 13,
+         "expressible": 69
+        }
+       },
+       "property": {
+        "available": 17,
+        "strict": {
+         "expressible": 15,
+         "not expressible": 1,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 15,
+         "not expressible": 1,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 7,
+        "not expressible": 14,
+        "expressible": 84
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        },
+        "not expressible": {
+         "block": 6,
+         "struct": 8
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 7,
+        "not expressible": 14,
+        "expressible": 84
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        },
+        "not expressible": {
+         "block": 6,
+         "struct": 8
+        }
+       }
+      }
+     }
+    },
+    "CoreBluetooth": {
+     "call": {
+      "available": 121,
+      "deprecated": 4,
+      "by_decl": {
+       "method": {
+        "available": 42,
+        "strict": {
+         "expressible": 42
+        },
+        "lenient": {
+         "expressible": 42
+        }
+       },
+       "property": {
+        "available": 44,
+        "strict": {
+         "expressible": 44
+        },
+        "lenient": {
+         "expressible": 44
+        }
+       },
+       "constant": {
+        "available": 35,
+        "strict": {
+         "not expressible": 35
+        },
+        "lenient": {
+         "not expressible": 35
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 35,
+        "expressible": 86
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 35
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 35,
+        "expressible": 86
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 35
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 34,
+      "deprecated": 1,
+      "by_decl": {
+       "method": {
+        "available": 34,
+        "strict": {
+         "expressible": 34
+        },
+        "lenient": {
+         "expressible": 34
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 34
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 34
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "CoreLocation": {
+     "call": {
+      "available": 182,
+      "deprecated": 33,
+      "by_decl": {
+       "method": {
+        "available": 69,
+        "strict": {
+         "expressible": 56,
+         "not expressible": 13
+        },
+        "lenient": {
+         "expressible": 56,
+         "not expressible": 13
+        }
+       },
+       "property": {
+        "available": 110,
+        "strict": {
+         "expressible": 109,
+         "not expressible": 1
+        },
+        "lenient": {
+         "expressible": 109,
+         "not expressible": 1
+        }
+       },
+       "constant": {
+        "available": 3,
+        "strict": {
+         "not expressible": 3
+        },
+        "lenient": {
+         "not expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 17,
+        "expressible": 165
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 2,
+         "scalar_constant": 1,
+         "block": 13,
+         "block_return": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 17,
+        "expressible": 165
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 2,
+         "scalar_constant": 1,
+         "block": 13,
+         "block_return": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 20,
+      "deprecated": 3,
+      "by_decl": {
+       "method": {
+        "available": 20,
+        "strict": {
+         "expressible": 20
+        },
+        "lenient": {
+         "expressible": 20
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 20
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 20
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "StoreKit": {
+     "call": {
+      "available": 123,
+      "deprecated": 109,
+      "by_decl": {
+       "method": {
+        "available": 36,
+        "strict": {
+         "not expressible": 12,
+         "expressible": 24
+        },
+        "lenient": {
+         "not expressible": 12,
+         "expressible": 24
+        }
+       },
+       "property": {
+        "available": 71,
+        "strict": {
+         "expressible": 71
+        },
+        "lenient": {
+         "expressible": 71
+        }
+       },
+       "function": {
+        "available": 1,
+        "strict": {
+         "not expressible": 1
+        },
+        "lenient": {
+         "not expressible": 1
+        }
+       },
+       "constant": {
+        "available": 15,
+        "strict": {
+         "not expressible": 15
+        },
+        "lenient": {
+         "not expressible": 15
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 28,
+        "expressible": 95
+       },
+       "by_kind": {
+        "not expressible": {
+         "block": 12,
+         "object_constant": 14,
+         "scalar_constant": 1,
+         "c_function": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 28,
+        "expressible": 95
+       },
+       "by_kind": {
+        "not expressible": {
+         "block": 12,
+         "object_constant": 14,
+         "scalar_constant": 1,
+         "c_function": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 13,
+      "deprecated": 12,
+      "by_decl": {
+       "method": {
+        "available": 13,
+        "strict": {
+         "expressible": 13
+        },
+        "lenient": {
+         "expressible": 13
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 13
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 13
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "UserNotifications": {
+     "call": {
+      "available": 118,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 38,
+        "strict": {
+         "expressible": 28,
+         "not expressible": 10
+        },
+        "lenient": {
+         "expressible": 28,
+         "not expressible": 10
+        }
+       },
+       "property": {
+        "available": 73,
+        "strict": {
+         "expressible": 73
+        },
+        "lenient": {
+         "expressible": 73
+        }
+       },
+       "constant": {
+        "available": 7,
+        "strict": {
+         "not expressible": 7
+        },
+        "lenient": {
+         "not expressible": 7
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 101,
+        "not expressible": 17
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 7,
+         "object_pointer": 2,
+         "block": 8
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 101,
+        "not expressible": 17
+       },
+       "by_kind": {
+        "not expressible": {
+         "object_constant": 7,
+         "object_pointer": 2,
+         "block": 8
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 3,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 3,
+        "strict": {
+         "not expressible": 2,
+         "expressible": 1
+        },
+        "lenient": {
+         "not expressible": 2,
+         "expressible": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "not expressible": 2,
+        "expressible": 1
+       },
+       "by_kind": {
+        "not expressible": {
+         "block": 2
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "not expressible": 2,
+        "expressible": 1
+       },
+       "by_kind": {
+        "not expressible": {
+         "block": 2
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "rubicon-0.5.7": {
+   "total": {
+    "call": {
+     "available": 73930,
+     "deprecated": 14198,
+     "by_decl": {
+      "method": {
+       "available": 29690,
+       "strict": {
+        "expressible": 29526,
+        "unclassified": 164
+       },
+       "lenient": {
+        "expressible": 29526,
+        "unclassified": 164
+       }
+      },
+      "property": {
+       "available": 19881,
+       "strict": {
+        "expressible": 19814,
+        "unclassified": 67
+       },
+       "lenient": {
+        "expressible": 19814,
+        "unclassified": 67
+       }
+      },
+      "function": {
+       "available": 11904,
+       "strict": {
+        "not expressible": 494,
+        "expressible": 10150,
+        "unclassified": 1260
+       },
+       "lenient": {
+        "not expressible": 494,
+        "expressible": 10150,
+        "unclassified": 1260
+       }
+      },
+      "constant": {
+       "available": 12455,
+       "strict": {
+        "expressible": 12384,
+        "unclassified": 71
+       },
+       "lenient": {
+        "expressible": 12384,
+        "unclassified": 71
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "not expressible": 494,
+       "expressible": 71874,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 494
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "not expressible": 494,
+       "expressible": 71874,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 494
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     }
+    },
+    "implement": {
+     "available": 4439,
+     "deprecated": 357,
+     "by_decl": {
+      "method": {
+       "available": 3345,
+       "strict": {
+        "expressible": 3106,
+        "unclassified": 239
+       },
+       "lenient": {
+        "expressible": 3106,
+        "unclassified": 239
+       }
+      },
+      "property": {
+       "available": 1094,
+       "strict": {
+        "expressible": 1063,
+        "unclassified": 31
+       },
+       "lenient": {
+        "expressible": 1063,
+        "unclassified": 31
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "expressible": 4169,
+       "unclassified": 270
+      },
+      "by_kind": {
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "expressible": 4169,
+       "unclassified": 270
+      },
+      "by_kind": {
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       }
+      }
+     }
+    }
+   },
+   "frameworks": {
+    "Foundation": {
+     "call": {
+      "available": 5122,
+      "deprecated": 409,
+      "by_decl": {
+       "method": {
+        "available": 2560,
+        "strict": {
+         "expressible": 2558,
+         "unclassified": 2
+        },
+        "lenient": {
+         "expressible": 2558,
+         "unclassified": 2
+        }
+       },
+       "property": {
+        "available": 1563,
+        "strict": {
+         "expressible": 1563
+        },
+        "lenient": {
+         "expressible": 1563
+        }
+       },
+       "function": {
+        "available": 176,
+        "strict": {
+         "expressible": 114,
+         "not expressible": 60,
+         "unclassified": 2
+        },
+        "lenient": {
+         "expressible": 114,
+         "not expressible": 60,
+         "unclassified": 2
+        }
+       },
+       "constant": {
+        "available": 823,
+        "strict": {
+         "expressible": 823
+        },
+        "lenient": {
+         "expressible": 823
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 5058,
+        "not expressible": 60,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "inline": 60
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 5058,
+        "not expressible": 60,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "inline": 60
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 217,
+      "deprecated": 17,
+      "by_decl": {
+       "method": {
+        "available": 209,
+        "strict": {
+         "unclassified": 11,
+         "expressible": 198
+        },
+        "lenient": {
+         "unclassified": 11,
+         "expressible": 198
+        }
+       },
+       "property": {
+        "available": 8,
+        "strict": {
+         "expressible": 8
+        },
+        "lenient": {
+         "expressible": 8
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 11,
+        "expressible": 206
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 11,
+        "expressible": 206
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        }
+       }
+      }
+     }
+    },
+    "AppKit": {
+     "call": {
+      "available": 7998,
+      "deprecated": 710,
+      "by_decl": {
+       "method": {
+        "available": 3521,
+        "strict": {
+         "expressible": 3516,
+         "unclassified": 5
+        },
+        "lenient": {
+         "expressible": 3516,
+         "unclassified": 5
+        }
+       },
+       "property": {
+        "available": 2922,
+        "strict": {
+         "expressible": 2922
+        },
+        "lenient": {
+         "expressible": 2922
+        }
+       },
+       "function": {
+        "available": 94,
+        "strict": {
+         "expressible": 89,
+         "unclassified": 2,
+         "not expressible": 3
+        },
+        "lenient": {
+         "expressible": 89,
+         "unclassified": 2,
+         "not expressible": 3
+        }
+       },
+       "constant": {
+        "available": 1461,
+        "strict": {
+         "expressible": 1460,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 1460,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 7987,
+        "unclassified": 8,
+        "not expressible": 3
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        },
+        "not expressible": {
+         "inline": 3
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 7987,
+        "unclassified": 8,
+        "not expressible": 3
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        },
+        "not expressible": {
+         "inline": 3
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 1117,
+      "deprecated": 64,
+      "by_decl": {
+       "method": {
+        "available": 916,
+        "strict": {
+         "expressible": 887,
+         "unclassified": 29
+        },
+        "lenient": {
+         "expressible": 887,
+         "unclassified": 29
+        }
+       },
+       "property": {
+        "available": 201,
+        "strict": {
+         "expressible": 200,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 200,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 1087,
+        "unclassified": 30
+       },
+       "by_kind": {
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 1087,
+        "unclassified": 30
+       },
+       "by_kind": {
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        }
+       }
+      }
+     }
+    },
+    "AVFoundation": {
+     "call": {
+      "available": 3117,
+      "deprecated": 90,
+      "by_decl": {
+       "method": {
+        "available": 791,
+        "strict": {
+         "expressible": 791
+        },
+        "lenient": {
+         "expressible": 791
+        }
+       },
+       "property": {
+        "available": 1277,
+        "strict": {
+         "expressible": 1277
+        },
+        "lenient": {
+         "expressible": 1277
+        }
+       },
+       "function": {
+        "available": 10,
+        "strict": {
+         "expressible": 9,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 9,
+         "unclassified": 1
+        }
+       },
+       "constant": {
+        "available": 1039,
+        "strict": {
+         "expressible": 1039
+        },
+        "lenient": {
+         "expressible": 1039
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 3116,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 3116,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 105,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 88,
+        "strict": {
+         "unclassified": 6,
+         "expressible": 82
+        },
+        "lenient": {
+         "unclassified": 6,
+         "expressible": 82
+        }
+       },
+       "property": {
+        "available": 17,
+        "strict": {
+         "expressible": 16,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 16,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 7,
+        "expressible": 98
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 7,
+        "expressible": 98
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        }
+       }
+      }
+     }
+    },
+    "CoreBluetooth": {
+     "call": {
+      "available": 121,
+      "deprecated": 4,
+      "by_decl": {
+       "method": {
+        "available": 42,
+        "strict": {
+         "expressible": 42
+        },
+        "lenient": {
+         "expressible": 42
+        }
+       },
+       "property": {
+        "available": 44,
+        "strict": {
+         "expressible": 44
+        },
+        "lenient": {
+         "expressible": 44
+        }
+       },
+       "constant": {
+        "available": 35,
+        "strict": {
+         "expressible": 35
+        },
+        "lenient": {
+         "expressible": 35
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 121
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 121
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 34,
+      "deprecated": 1,
+      "by_decl": {
+       "method": {
+        "available": 34,
+        "strict": {
+         "expressible": 34
+        },
+        "lenient": {
+         "expressible": 34
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 34
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 34
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "CoreLocation": {
+     "call": {
+      "available": 182,
+      "deprecated": 33,
+      "by_decl": {
+       "method": {
+        "available": 69,
+        "strict": {
+         "expressible": 69
+        },
+        "lenient": {
+         "expressible": 69
+        }
+       },
+       "property": {
+        "available": 110,
+        "strict": {
+         "expressible": 110
+        },
+        "lenient": {
+         "expressible": 110
+        }
+       },
+       "constant": {
+        "available": 3,
+        "strict": {
+         "expressible": 3
+        },
+        "lenient": {
+         "expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 182
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 182
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 20,
+      "deprecated": 3,
+      "by_decl": {
+       "method": {
+        "available": 20,
+        "strict": {
+         "expressible": 20
+        },
+        "lenient": {
+         "expressible": 20
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 20
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 20
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "StoreKit": {
+     "call": {
+      "available": 123,
+      "deprecated": 109,
+      "by_decl": {
+       "method": {
+        "available": 36,
+        "strict": {
+         "expressible": 36
+        },
+        "lenient": {
+         "expressible": 36
+        }
+       },
+       "property": {
+        "available": 71,
+        "strict": {
+         "expressible": 71
+        },
+        "lenient": {
+         "expressible": 71
+        }
+       },
+       "function": {
+        "available": 1,
+        "strict": {
+         "expressible": 1
+        },
+        "lenient": {
+         "expressible": 1
+        }
+       },
+       "constant": {
+        "available": 15,
+        "strict": {
+         "expressible": 15
+        },
+        "lenient": {
+         "expressible": 15
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 123
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 123
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 13,
+      "deprecated": 12,
+      "by_decl": {
+       "method": {
+        "available": 13,
+        "strict": {
+         "expressible": 13
+        },
+        "lenient": {
+         "expressible": 13
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 13
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 13
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "UserNotifications": {
+     "call": {
+      "available": 118,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 38,
+        "strict": {
+         "expressible": 38
+        },
+        "lenient": {
+         "expressible": 38
+        }
+       },
+       "property": {
+        "available": 73,
+        "strict": {
+         "expressible": 73
+        },
+        "lenient": {
+         "expressible": 73
+        }
+       },
+       "constant": {
+        "available": 7,
+        "strict": {
+         "expressible": 7
+        },
+        "lenient": {
+         "expressible": 7
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 118
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 118
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 3,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 3,
+        "strict": {
+         "expressible": 3
+        },
+        "lenient": {
+         "expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 3
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 3
+       },
+       "by_kind": {}
+      }
+     }
+    }
+   }
+  },
+  "rubicon-main": {
+   "total": {
+    "call": {
+     "available": 73930,
+     "deprecated": 14198,
+     "by_decl": {
+      "method": {
+       "available": 29690,
+       "strict": {
+        "expressible": 29526,
+        "unclassified": 164
+       },
+       "lenient": {
+        "expressible": 29526,
+        "unclassified": 164
+       }
+      },
+      "property": {
+       "available": 19881,
+       "strict": {
+        "expressible": 19814,
+        "unclassified": 67
+       },
+       "lenient": {
+        "expressible": 19814,
+        "unclassified": 67
+       }
+      },
+      "function": {
+       "available": 11904,
+       "strict": {
+        "not expressible": 494,
+        "expressible": 10150,
+        "unclassified": 1260
+       },
+       "lenient": {
+        "not expressible": 494,
+        "expressible": 10150,
+        "unclassified": 1260
+       }
+      },
+      "constant": {
+       "available": 12455,
+       "strict": {
+        "expressible": 12384,
+        "unclassified": 71
+       },
+       "lenient": {
+        "expressible": 12384,
+        "unclassified": 71
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "not expressible": 494,
+       "expressible": 71874,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 494
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "not expressible": 494,
+       "expressible": 71874,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 494
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     }
+    },
+    "implement": {
+     "available": 4439,
+     "deprecated": 357,
+     "by_decl": {
+      "method": {
+       "available": 3345,
+       "strict": {
+        "expressible": 3106,
+        "unclassified": 239
+       },
+       "lenient": {
+        "expressible": 3106,
+        "unclassified": 239
+       }
+      },
+      "property": {
+       "available": 1094,
+       "strict": {
+        "expressible": 1063,
+        "unclassified": 31
+       },
+       "lenient": {
+        "expressible": 1063,
+        "unclassified": 31
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "expressible": 4169,
+       "unclassified": 270
+      },
+      "by_kind": {
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "expressible": 4169,
+       "unclassified": 270
+      },
+      "by_kind": {
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       }
+      }
+     }
+    }
+   },
+   "frameworks": {
+    "Foundation": {
+     "call": {
+      "available": 5122,
+      "deprecated": 409,
+      "by_decl": {
+       "method": {
+        "available": 2560,
+        "strict": {
+         "expressible": 2558,
+         "unclassified": 2
+        },
+        "lenient": {
+         "expressible": 2558,
+         "unclassified": 2
+        }
+       },
+       "property": {
+        "available": 1563,
+        "strict": {
+         "expressible": 1563
+        },
+        "lenient": {
+         "expressible": 1563
+        }
+       },
+       "function": {
+        "available": 176,
+        "strict": {
+         "expressible": 114,
+         "not expressible": 60,
+         "unclassified": 2
+        },
+        "lenient": {
+         "expressible": 114,
+         "not expressible": 60,
+         "unclassified": 2
+        }
+       },
+       "constant": {
+        "available": 823,
+        "strict": {
+         "expressible": 823
+        },
+        "lenient": {
+         "expressible": 823
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 5058,
+        "not expressible": 60,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "inline": 60
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 5058,
+        "not expressible": 60,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "inline": 60
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 217,
+      "deprecated": 17,
+      "by_decl": {
+       "method": {
+        "available": 209,
+        "strict": {
+         "unclassified": 11,
+         "expressible": 198
+        },
+        "lenient": {
+         "unclassified": 11,
+         "expressible": 198
+        }
+       },
+       "property": {
+        "available": 8,
+        "strict": {
+         "expressible": 8
+        },
+        "lenient": {
+         "expressible": 8
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 11,
+        "expressible": 206
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 11,
+        "expressible": 206
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        }
+       }
+      }
+     }
+    },
+    "AppKit": {
+     "call": {
+      "available": 7998,
+      "deprecated": 710,
+      "by_decl": {
+       "method": {
+        "available": 3521,
+        "strict": {
+         "expressible": 3516,
+         "unclassified": 5
+        },
+        "lenient": {
+         "expressible": 3516,
+         "unclassified": 5
+        }
+       },
+       "property": {
+        "available": 2922,
+        "strict": {
+         "expressible": 2922
+        },
+        "lenient": {
+         "expressible": 2922
+        }
+       },
+       "function": {
+        "available": 94,
+        "strict": {
+         "expressible": 89,
+         "unclassified": 2,
+         "not expressible": 3
+        },
+        "lenient": {
+         "expressible": 89,
+         "unclassified": 2,
+         "not expressible": 3
+        }
+       },
+       "constant": {
+        "available": 1461,
+        "strict": {
+         "expressible": 1460,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 1460,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 7987,
+        "unclassified": 8,
+        "not expressible": 3
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        },
+        "not expressible": {
+         "inline": 3
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 7987,
+        "unclassified": 8,
+        "not expressible": 3
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        },
+        "not expressible": {
+         "inline": 3
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 1117,
+      "deprecated": 64,
+      "by_decl": {
+       "method": {
+        "available": 916,
+        "strict": {
+         "expressible": 887,
+         "unclassified": 29
+        },
+        "lenient": {
+         "expressible": 887,
+         "unclassified": 29
+        }
+       },
+       "property": {
+        "available": 201,
+        "strict": {
+         "expressible": 200,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 200,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 1087,
+        "unclassified": 30
+       },
+       "by_kind": {
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 1087,
+        "unclassified": 30
+       },
+       "by_kind": {
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        }
+       }
+      }
+     }
+    },
+    "AVFoundation": {
+     "call": {
+      "available": 3117,
+      "deprecated": 90,
+      "by_decl": {
+       "method": {
+        "available": 791,
+        "strict": {
+         "expressible": 791
+        },
+        "lenient": {
+         "expressible": 791
+        }
+       },
+       "property": {
+        "available": 1277,
+        "strict": {
+         "expressible": 1277
+        },
+        "lenient": {
+         "expressible": 1277
+        }
+       },
+       "function": {
+        "available": 10,
+        "strict": {
+         "expressible": 9,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 9,
+         "unclassified": 1
+        }
+       },
+       "constant": {
+        "available": 1039,
+        "strict": {
+         "expressible": 1039
+        },
+        "lenient": {
+         "expressible": 1039
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 3116,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 3116,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 105,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 88,
+        "strict": {
+         "unclassified": 6,
+         "expressible": 82
+        },
+        "lenient": {
+         "unclassified": 6,
+         "expressible": 82
+        }
+       },
+       "property": {
+        "available": 17,
+        "strict": {
+         "expressible": 16,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 16,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 7,
+        "expressible": 98
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 7,
+        "expressible": 98
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        }
+       }
+      }
+     }
+    },
+    "CoreBluetooth": {
+     "call": {
+      "available": 121,
+      "deprecated": 4,
+      "by_decl": {
+       "method": {
+        "available": 42,
+        "strict": {
+         "expressible": 42
+        },
+        "lenient": {
+         "expressible": 42
+        }
+       },
+       "property": {
+        "available": 44,
+        "strict": {
+         "expressible": 44
+        },
+        "lenient": {
+         "expressible": 44
+        }
+       },
+       "constant": {
+        "available": 35,
+        "strict": {
+         "expressible": 35
+        },
+        "lenient": {
+         "expressible": 35
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 121
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 121
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 34,
+      "deprecated": 1,
+      "by_decl": {
+       "method": {
+        "available": 34,
+        "strict": {
+         "expressible": 34
+        },
+        "lenient": {
+         "expressible": 34
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 34
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 34
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "CoreLocation": {
+     "call": {
+      "available": 182,
+      "deprecated": 33,
+      "by_decl": {
+       "method": {
+        "available": 69,
+        "strict": {
+         "expressible": 69
+        },
+        "lenient": {
+         "expressible": 69
+        }
+       },
+       "property": {
+        "available": 110,
+        "strict": {
+         "expressible": 110
+        },
+        "lenient": {
+         "expressible": 110
+        }
+       },
+       "constant": {
+        "available": 3,
+        "strict": {
+         "expressible": 3
+        },
+        "lenient": {
+         "expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 182
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 182
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 20,
+      "deprecated": 3,
+      "by_decl": {
+       "method": {
+        "available": 20,
+        "strict": {
+         "expressible": 20
+        },
+        "lenient": {
+         "expressible": 20
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 20
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 20
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "StoreKit": {
+     "call": {
+      "available": 123,
+      "deprecated": 109,
+      "by_decl": {
+       "method": {
+        "available": 36,
+        "strict": {
+         "expressible": 36
+        },
+        "lenient": {
+         "expressible": 36
+        }
+       },
+       "property": {
+        "available": 71,
+        "strict": {
+         "expressible": 71
+        },
+        "lenient": {
+         "expressible": 71
+        }
+       },
+       "function": {
+        "available": 1,
+        "strict": {
+         "expressible": 1
+        },
+        "lenient": {
+         "expressible": 1
+        }
+       },
+       "constant": {
+        "available": 15,
+        "strict": {
+         "expressible": 15
+        },
+        "lenient": {
+         "expressible": 15
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 123
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 123
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 13,
+      "deprecated": 12,
+      "by_decl": {
+       "method": {
+        "available": 13,
+        "strict": {
+         "expressible": 13
+        },
+        "lenient": {
+         "expressible": 13
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 13
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 13
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "UserNotifications": {
+     "call": {
+      "available": 118,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 38,
+        "strict": {
+         "expressible": 38
+        },
+        "lenient": {
+         "expressible": 38
+        }
+       },
+       "property": {
+        "available": 73,
+        "strict": {
+         "expressible": 73
+        },
+        "lenient": {
+         "expressible": 73
+        }
+       },
+       "constant": {
+        "available": 7,
+        "strict": {
+         "expressible": 7
+        },
+        "lenient": {
+         "expressible": 7
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 118
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 118
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 3,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 3,
+        "strict": {
+         "expressible": 3
+        },
+        "lenient": {
+         "expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 3
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 3
+       },
+       "by_kind": {}
+      }
+     }
+    }
+   }
+  },
+  "pyobjc-13.0": {
+   "total": {
+    "call": {
+     "available": 73930,
+     "deprecated": 14198,
+     "by_decl": {
+      "method": {
+       "available": 29690,
+       "strict": {
+        "expressible": 29514,
+        "unclassified": 164,
+        "not expressible": 12
+       },
+       "lenient": {
+        "expressible": 29514,
+        "unclassified": 164,
+        "not expressible": 12
+       }
+      },
+      "property": {
+       "available": 19881,
+       "strict": {
+        "expressible": 19790,
+        "unclassified": 67,
+        "not expressible": 24
+       },
+       "lenient": {
+        "expressible": 19790,
+        "unclassified": 67,
+        "not expressible": 24
+       }
+      },
+      "function": {
+       "available": 11904,
+       "strict": {
+        "not expressible": 529,
+        "expressible": 10115,
+        "unclassified": 1260
+       },
+       "lenient": {
+        "not expressible": 529,
+        "expressible": 10115,
+        "unclassified": 1260
+       }
+      },
+      "constant": {
+       "available": 12455,
+       "strict": {
+        "expressible": 12384,
+        "unclassified": 71
+       },
+       "lenient": {
+        "expressible": 12384,
+        "unclassified": 71
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "not expressible": 565,
+       "expressible": 71803,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 494,
+        "union": 71
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "not expressible": 565,
+       "expressible": 71803,
+       "unclassified": 1562
+      },
+      "by_kind": {
+       "not expressible": {
+        "inline": 494,
+        "union": 71
+       },
+       "unclassified": {
+        "other_pointer": 1055,
+        "unclassified_constant": 71,
+        "vector": 375,
+        "other": 61
+       }
+      }
+     }
+    },
+    "implement": {
+     "available": 4439,
+     "deprecated": 357,
+     "by_decl": {
+      "method": {
+       "available": 3345,
+       "strict": {
+        "expressible": 3076,
+        "unclassified": 239,
+        "not expressible": 30
+       },
+       "lenient": {
+        "expressible": 3076,
+        "unclassified": 239,
+        "not expressible": 30
+       }
+      },
+      "property": {
+       "available": 1094,
+       "strict": {
+        "expressible": 1063,
+        "unclassified": 31
+       },
+       "lenient": {
+        "expressible": 1063,
+        "unclassified": 31
+       }
+      }
+     },
+     "strict": {
+      "counts": {
+       "expressible": 4139,
+       "unclassified": 270,
+       "not expressible": 30
+      },
+      "by_kind": {
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       },
+       "not expressible": {
+        "scalar_pointer": 30
+       }
+      }
+     },
+     "lenient": {
+      "counts": {
+       "expressible": 4139,
+       "unclassified": 270,
+       "not expressible": 30
+      },
+      "by_kind": {
+       "unclassified": {
+        "object_pointer": 135,
+        "opaque_pointer": 26,
+        "block_return": 19,
+        "selector": 13,
+        "void_pointer": 36,
+        "struct_pointer": 35,
+        "cstring": 5,
+        "vector": 1
+       },
+       "not expressible": {
+        "scalar_pointer": 30
+       }
+      }
+     }
+    }
+   },
+   "frameworks": {
+    "Foundation": {
+     "call": {
+      "available": 5122,
+      "deprecated": 409,
+      "by_decl": {
+       "method": {
+        "available": 2560,
+        "strict": {
+         "expressible": 2558,
+         "unclassified": 2
+        },
+        "lenient": {
+         "expressible": 2558,
+         "unclassified": 2
+        }
+       },
+       "property": {
+        "available": 1563,
+        "strict": {
+         "expressible": 1563
+        },
+        "lenient": {
+         "expressible": 1563
+        }
+       },
+       "function": {
+        "available": 176,
+        "strict": {
+         "expressible": 114,
+         "not expressible": 60,
+         "unclassified": 2
+        },
+        "lenient": {
+         "expressible": 114,
+         "not expressible": 60,
+         "unclassified": 2
+        }
+       },
+       "constant": {
+        "available": 823,
+        "strict": {
+         "expressible": 823
+        },
+        "lenient": {
+         "expressible": 823
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 5058,
+        "not expressible": 60,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "inline": 60
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 5058,
+        "not expressible": 60,
+        "unclassified": 4
+       },
+       "by_kind": {
+        "not expressible": {
+         "inline": 60
+        },
+        "unclassified": {
+         "other": 1,
+         "other_pointer": 3
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 217,
+      "deprecated": 17,
+      "by_decl": {
+       "method": {
+        "available": 209,
+        "strict": {
+         "unclassified": 11,
+         "expressible": 196,
+         "not expressible": 2
+        },
+        "lenient": {
+         "unclassified": 11,
+         "expressible": 196,
+         "not expressible": 2
+        }
+       },
+       "property": {
+        "available": 8,
+        "strict": {
+         "expressible": 8
+        },
+        "lenient": {
+         "expressible": 8
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 11,
+        "expressible": 204,
+        "not expressible": 2
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        },
+        "not expressible": {
+         "scalar_pointer": 2
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 11,
+        "expressible": 204,
+        "not expressible": 2
+       },
+       "by_kind": {
+        "unclassified": {
+         "opaque_pointer": 2,
+         "struct_pointer": 1,
+         "object_pointer": 6,
+         "selector": 1,
+         "void_pointer": 1
+        },
+        "not expressible": {
+         "scalar_pointer": 2
+        }
+       }
+      }
+     }
+    },
+    "AppKit": {
+     "call": {
+      "available": 7998,
+      "deprecated": 710,
+      "by_decl": {
+       "method": {
+        "available": 3521,
+        "strict": {
+         "expressible": 3516,
+         "unclassified": 5
+        },
+        "lenient": {
+         "expressible": 3516,
+         "unclassified": 5
+        }
+       },
+       "property": {
+        "available": 2922,
+        "strict": {
+         "expressible": 2922
+        },
+        "lenient": {
+         "expressible": 2922
+        }
+       },
+       "function": {
+        "available": 94,
+        "strict": {
+         "expressible": 89,
+         "unclassified": 2,
+         "not expressible": 3
+        },
+        "lenient": {
+         "expressible": 89,
+         "unclassified": 2,
+         "not expressible": 3
+        }
+       },
+       "constant": {
+        "available": 1461,
+        "strict": {
+         "expressible": 1460,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 1460,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 7987,
+        "unclassified": 8,
+        "not expressible": 3
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        },
+        "not expressible": {
+         "inline": 3
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 7987,
+        "unclassified": 8,
+        "not expressible": 3
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 7,
+         "unclassified_constant": 1
+        },
+        "not expressible": {
+         "inline": 3
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 1117,
+      "deprecated": 64,
+      "by_decl": {
+       "method": {
+        "available": 916,
+        "strict": {
+         "expressible": 877,
+         "unclassified": 29,
+         "not expressible": 10
+        },
+        "lenient": {
+         "expressible": 877,
+         "unclassified": 29,
+         "not expressible": 10
+        }
+       },
+       "property": {
+        "available": 201,
+        "strict": {
+         "expressible": 200,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 200,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 1077,
+        "unclassified": 30,
+        "not expressible": 10
+       },
+       "by_kind": {
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        },
+        "not expressible": {
+         "scalar_pointer": 10
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 1077,
+        "unclassified": 30,
+        "not expressible": 10
+       },
+       "by_kind": {
+        "unclassified": {
+         "selector": 10,
+         "void_pointer": 1,
+         "object_pointer": 4,
+         "struct_pointer": 15
+        },
+        "not expressible": {
+         "scalar_pointer": 10
+        }
+       }
+      }
+     }
+    },
+    "AVFoundation": {
+     "call": {
+      "available": 3117,
+      "deprecated": 90,
+      "by_decl": {
+       "method": {
+        "available": 791,
+        "strict": {
+         "expressible": 791
+        },
+        "lenient": {
+         "expressible": 791
+        }
+       },
+       "property": {
+        "available": 1277,
+        "strict": {
+         "expressible": 1277
+        },
+        "lenient": {
+         "expressible": 1277
+        }
+       },
+       "function": {
+        "available": 10,
+        "strict": {
+         "expressible": 9,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 9,
+         "unclassified": 1
+        }
+       },
+       "constant": {
+        "available": 1039,
+        "strict": {
+         "expressible": 1039
+        },
+        "lenient": {
+         "expressible": 1039
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 3116,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 3116,
+        "unclassified": 1
+       },
+       "by_kind": {
+        "unclassified": {
+         "other_pointer": 1
+        }
+       }
+      }
+     },
+     "implement": {
+      "available": 105,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 88,
+        "strict": {
+         "unclassified": 6,
+         "expressible": 82
+        },
+        "lenient": {
+         "unclassified": 6,
+         "expressible": 82
+        }
+       },
+       "property": {
+        "available": 17,
+        "strict": {
+         "expressible": 16,
+         "unclassified": 1
+        },
+        "lenient": {
+         "expressible": 16,
+         "unclassified": 1
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "unclassified": 7,
+        "expressible": 98
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        }
+       }
+      },
+      "lenient": {
+       "counts": {
+        "unclassified": 7,
+        "expressible": 98
+       },
+       "by_kind": {
+        "unclassified": {
+         "object_pointer": 1,
+         "opaque_pointer": 6
+        }
+       }
+      }
+     }
+    },
+    "CoreBluetooth": {
+     "call": {
+      "available": 121,
+      "deprecated": 4,
+      "by_decl": {
+       "method": {
+        "available": 42,
+        "strict": {
+         "expressible": 42
+        },
+        "lenient": {
+         "expressible": 42
+        }
+       },
+       "property": {
+        "available": 44,
+        "strict": {
+         "expressible": 44
+        },
+        "lenient": {
+         "expressible": 44
+        }
+       },
+       "constant": {
+        "available": 35,
+        "strict": {
+         "expressible": 35
+        },
+        "lenient": {
+         "expressible": 35
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 121
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 121
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 34,
+      "deprecated": 1,
+      "by_decl": {
+       "method": {
+        "available": 34,
+        "strict": {
+         "expressible": 34
+        },
+        "lenient": {
+         "expressible": 34
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 34
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 34
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "CoreLocation": {
+     "call": {
+      "available": 182,
+      "deprecated": 33,
+      "by_decl": {
+       "method": {
+        "available": 69,
+        "strict": {
+         "expressible": 69
+        },
+        "lenient": {
+         "expressible": 69
+        }
+       },
+       "property": {
+        "available": 110,
+        "strict": {
+         "expressible": 110
+        },
+        "lenient": {
+         "expressible": 110
+        }
+       },
+       "constant": {
+        "available": 3,
+        "strict": {
+         "expressible": 3
+        },
+        "lenient": {
+         "expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 182
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 182
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 20,
+      "deprecated": 3,
+      "by_decl": {
+       "method": {
+        "available": 20,
+        "strict": {
+         "expressible": 20
+        },
+        "lenient": {
+         "expressible": 20
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 20
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 20
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "StoreKit": {
+     "call": {
+      "available": 123,
+      "deprecated": 109,
+      "by_decl": {
+       "method": {
+        "available": 36,
+        "strict": {
+         "expressible": 36
+        },
+        "lenient": {
+         "expressible": 36
+        }
+       },
+       "property": {
+        "available": 71,
+        "strict": {
+         "expressible": 71
+        },
+        "lenient": {
+         "expressible": 71
+        }
+       },
+       "function": {
+        "available": 1,
+        "strict": {
+         "expressible": 1
+        },
+        "lenient": {
+         "expressible": 1
+        }
+       },
+       "constant": {
+        "available": 15,
+        "strict": {
+         "expressible": 15
+        },
+        "lenient": {
+         "expressible": 15
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 123
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 123
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 13,
+      "deprecated": 12,
+      "by_decl": {
+       "method": {
+        "available": 13,
+        "strict": {
+         "expressible": 13
+        },
+        "lenient": {
+         "expressible": 13
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 13
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 13
+       },
+       "by_kind": {}
+      }
+     }
+    },
+    "UserNotifications": {
+     "call": {
+      "available": 118,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 38,
+        "strict": {
+         "expressible": 38
+        },
+        "lenient": {
+         "expressible": 38
+        }
+       },
+       "property": {
+        "available": 73,
+        "strict": {
+         "expressible": 73
+        },
+        "lenient": {
+         "expressible": 73
+        }
+       },
+       "constant": {
+        "available": 7,
+        "strict": {
+         "expressible": 7
+        },
+        "lenient": {
+         "expressible": 7
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 118
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 118
+       },
+       "by_kind": {}
+      }
+     },
+     "implement": {
+      "available": 3,
+      "deprecated": 0,
+      "by_decl": {
+       "method": {
+        "available": 3,
+        "strict": {
+         "expressible": 3
+        },
+        "lenient": {
+         "expressible": 3
+        }
+       }
+      },
+      "strict": {
+       "counts": {
+        "expressible": 3
+       },
+       "by_kind": {}
+      },
+      "lenient": {
+       "counts": {
+        "expressible": 3
+       },
+       "by_kind": {}
+      }
+     }
+    }
+   }
+  }
+ },
+ "swift_only_frameworks": [
+  "AudioAccessoryKit",
+  "CarKey",
+  "Charts",
+  "Combine",
+  "CoreAI",
+  "CoreHID",
+  "CrashReportExtension",
+  "CreateML",
+  "CreateMLComponents",
+  "CryptoKit",
+  "DeclaredAgeRange",
+  "DeveloperToolsSupport",
+  "DeviceActivity",
+  "DiskImageKit",
+  "FamilyControls",
+  "FinanceKit",
+  "FinanceKitUI",
+  "FoundationModels",
+  "GeoToolbox",
+  "GroupActivities",
+  "IdentityDocumentServices",
+  "IdentityDocumentServicesUI",
+  "ImmersiveMediaSupport",
+  "LightweightCodeRequirements",
+  "LiveCommunicationKit",
+  "ManagedApp",
+  "ManagedAppDistribution",
+  "ManagedSettings",
+  "MediaIntelligence",
+  "MediaIntents",
+  "MusicKit",
+  "MusicUnderstanding",
+  "NowPlaying",
+  "PaperKit",
+  "PermissionKit",
+  "RealityFoundation",
+  "SuggestedActions",
+  "SwiftData",
+  "TabularData",
+  "TelephonyMessagingKit",
+  "TipKit",
+  "USDKit",
+  "VisualIntelligence",
+  "WeatherKit",
+  "WiFiAware",
+  "WorkoutKit",
+  "_ARKit_SwiftUI",
+  "_AVKit_SwiftUI",
+  "_AppIntents_AppKit",
+  "_AppIntents_HealthKit",
+  "_AppIntents_SwiftUI",
+  "_AuthenticationServices_SwiftUI",
+  "_CompositorServices_SwiftUI",
+  "_Contacts_AppIntents",
+  "_CoreSpotlight_FoundationModels",
+  "_DeviceActivity_SwiftUI",
+  "_FinanceKit_AppIntents",
+  "_FoundationModels_AppKit",
+  "_FoundationModels_SwiftUI",
+  "_GeoToolbox_AppIntents",
+  "_GroupActivities_AppKit",
+  "_Intents_TipKit",
+  "_LinkPresentation_AppIntents",
+  "_LocalAuthentication_SwiftUI",
+  "_ManagedAppDistribution_SwiftUI",
+  "_MapKit_SwiftUI",
+  "_MediaIntents_AppIntents",
+  "_MediaPlayer_AppIntents",
+  "_MusicKit_SwiftUI",
+  "_NowPlaying_AppIntents",
+  "_PassKit_SwiftUI",
+  "_PermissionKit_AppKit",
+  "_PermissionKit_SwiftUI",
+  "_PhotosUI_SwiftUI",
+  "_PhotosUI_WidgetKit",
+  "_Photos_AppIntents",
+  "_QuickLook_SwiftUI",
+  "_RealityKit_ComputeGraph",
+  "_RealityKit_SwiftUI",
+  "_SceneKit_SwiftUI",
+  "_SharedWithYou_AppIntents",
+  "_SpatialPreview_SwiftUI",
+  "_SpatialPreview_USDKit",
+  "_SpriteKit_SwiftUI",
+  "_StoreKit_SwiftUI",
+  "_SwiftData_CoreData",
+  "_SwiftData_SwiftUI",
+  "_Translation_SwiftUI",
+  "_USDKit_RealityKit",
+  "_UserNotifications_AppIntents",
+  "_Vision_FoundationModels",
+  "_WebKit_SwiftUI",
+  "_WorkoutKit_SwiftUI"
+ ],
+ "swift_and_objc_frameworks": [
+  "AVFAudio",
+  "AVKit",
+  "Accessibility",
+  "AccessoryAccess",
+  "ActivityKit",
+  "AppIntents",
+  "AppIntentsTypeSupport",
+  "AppKit",
+  "AudioToolbox",
+  "AuthenticationServices",
+  "AutomaticAssessmentConfiguration",
+  "BackgroundAssets",
+  "BrowserEngineCore",
+  "BrowserEngineKit",
+  "Cinematic",
+  "ClassKitUI",
+  "CloudKit",
+  "ColorSync",
+  "CompositorServices",
+  "ComputeGraph",
+  "Contacts",
+  "CoreAudioKit",
+  "CoreData",
+  "CoreGraphics",
+  "CoreML",
+  "CoreMedia",
+  "CoreMotion",
+  "CoreSpotlight",
+  "CoreTelephony",
+  "CoreText",
+  "CoreTransferable",
+  "CoreVideo",
+  "CryptoTokenKit",
+  "DataDetection",
+  "DeviceDiscoveryExtension",
+  "DockKit",
+  "EventKit",
+  "ExtensionFoundation",
+  "ExtensionKit",
+  "ExternalAccessory",
+  "FSKit",
+  "FileProvider",
+  "Foundation",
+  "GameController",
+  "GameKit",
+  "GameSave",
+  "HealthKit",
+  "IdentityLookup",
+  "ImageIO",
+  "ImagePlayground",
+  "LinkPresentation",
+  "LinkSecurity",
+  "LocalAuthentication",
+  "LocalAuthenticationEmbeddedUI",
+  "MapKit",
+  "MatterSupport",
+  "MediaAccessibility",
+  "MediaExtension",
+  "MediaPlayer",
+  "MediaToolbox",
+  "MetalPerformanceShadersGraph",
+  "MetricKit",
+  "NearbyInteraction",
+  "Network",
+  "NetworkExtension",
+  "PDFKit",
+  "PencilKit",
+  "Photos",
+  "PhotosUI",
+  "QuickLookThumbnailing",
+  "RealityKit",
+  "RelevanceKit",
+  "ScreenCaptureKit",
+  "SecurityUI",
+  "SensitiveContentAnalysis",
+  "SensorKit",
+  "SharedWithYou",
+  "SharedWithYouCore",
+  "ShazamKit",
+  "SoundAnalysis",
+  "SpatialPreview",
+  "Speech",
+  "StateReporting",
+  "StickerKit",
+  "StoreKit",
+  "SwiftUI",
+  "SwiftUICore",
+  "Symbols",
+  "Translation",
+  "VideoSubscriberAccount",
+  "VideoToolbox",
+  "Virtualization",
+  "Vision",
+  "VisionKit",
+  "WebKit",
+  "WidgetKit",
+  "_CoreData_CloudKit",
+  "_ScreenCaptureKit_SwiftUI",
+  "iTunesLibrary"
+ ],
+ "objc_only_frameworks": [
+  "ARKit",
+  "AVFoundation",
+  "AVRouting",
+  "Accelerate",
+  "Accounts",
+  "AdServices",
+  "AdSupport",
+  "AddressBook",
+  "AppTrackingTransparency",
+  "AppleScriptKit",
+  "AppleScriptObjC",
+  "ApplicationServices",
+  "AudioUnit",
+  "AudioVideoBridging",
+  "Automator",
+  "BackgroundTasks",
+  "BusinessChat",
+  "CFNetwork",
+  "CalendarStore",
+  "CallKit",
+  "Carbon",
+  "ClassKit",
+  "Cocoa",
+  "Collaboration",
+  "ContactsUI",
+  "CoreAudio",
+  "CoreAudioTypes",
+  "CoreBluetooth",
+  "CoreFoundation",
+  "CoreHaptics",
+  "CoreImage",
+  "CoreLocation",
+  "CoreMIDI",
+  "CoreMediaIO",
+  "CoreServices",
+  "CoreWLAN",
+  "DVDPlayback",
+  "DeviceCheck",
+  "DirectoryService",
+  "DiscRecording",
+  "DiscRecordingUI",
+  "DiskArbitration",
+  "DriverKit",
+  "ExceptionHandling",
+  "ExecutionPolicy",
+  "FileProviderUI",
+  "FinderSync",
+  "ForceFeedback",
+  "GLKit",
+  "GLUT",
+  "GSS",
+  "GameplayKit",
+  "Hypervisor",
+  "ICADevices",
+  "IOBluetooth",
+  "IOBluetoothUI",
+  "IOKit",
+  "IOSurface",
+  "IOUSBHost",
+  "ImageCaptureCore",
+  "InputMethodKit",
+  "InstallerPlugins",
+  "InstantMessage",
+  "Intents",
+  "IntentsUI",
+  "JavaRuntimeSupport",
+  "JavaScriptCore",
+  "Kerberos",
+  "Kernel",
+  "KernelManagement",
+  "LDAP",
+  "LatentSemanticMapping",
+  "MLCompute",
+  "MailKit",
+  "Matter",
+  "MediaLibrary",
+  "Metal",
+  "MetalFX",
+  "MetalKit",
+  "MetalPerformancePrimitives",
+  "MetalPerformanceShaders",
+  "ModelIO",
+  "MultipeerConnectivity",
+  "NaturalLanguage",
+  "NetFS",
+  "NotificationCenter",
+  "OSAKit",
+  "OSLog",
+  "OpenAL",
+  "OpenCL",
+  "OpenDirectory",
+  "OpenGL",
+  "PCSC",
+  "PHASE",
+  "ParavirtualizedGraphics",
+  "PassKit",
+  "PreferencePanes",
+  "ProximityReaderStub",
+  "PushKit",
+  "PushToTalk",
+  "Quartz",
+  "QuartzCore",
+  "QuickLook",
+  "QuickLookUI",
+  "ReplayKit",
+  "Ruby",
+  "SafariServices",
+  "SafetyKit",
+  "SceneKit",
+  "ScreenSaver",
+  "ScreenTime",
+  "ScriptingBridge",
+  "Security",
+  "SecurityFoundation",
+  "SecurityInterface",
+  "ServiceManagement",
+  "Social",
+  "SpriteKit",
+  "StickerFoundation",
+  "SyncServices",
+  "SystemConfiguration",
+  "SystemExtensions",
+  "TWAIN",
+  "Tcl",
+  "ThreadNetwork",
+  "Tk",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "UserNotificationsUI",
+  "VideoDecodeAcceleration",
+  "_LocationEssentials",
+  "vecLib",
+  "vmnet"
+ ]
+}

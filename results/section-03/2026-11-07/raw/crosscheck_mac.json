@@ -1,0 +1,313 @@
+{
+ "compared": 48509,
+ "disagreements": 38,
+ "by_kind": {
+  "function_pointer": 38
+ },
+ "list": [
+  {
+   "framework": "Tcl",
+   "owner": null,
+   "name": "Tcl_CreateThread",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tcl",
+   "owner": null,
+   "name": "Tcl_CreateThread",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_3DBorderGC",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_CanvasSetOffset",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_CanvasSetStippleOrigin",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_ChangeWindowAttributes",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_ConfigOutlineGC",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_ConfigureWindow",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_DrawChars",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_DrawFocusHighlight",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_DrawTextLayout",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_FreeGC",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_GCForColor",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_GetGC",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_GetVisual",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_IdToWindow",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_SetTSOrigin",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_SetWindowVisual",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_UnderlineChars",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_UnderlineTextLayout",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_3DBorderGC",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_CanvasSetOffset",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_CanvasSetStippleOrigin",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_ChangeWindowAttributes",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_ConfigOutlineGC",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_ConfigureWindow",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_DrawChars",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_DrawFocusHighlight",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_DrawTextLayout",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_FreeGC",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_GCForColor",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_GetGC",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_GetVisual",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_IdToWindow",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_SetTSOrigin",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_SetWindowVisual",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_UnderlineChars",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  },
+  {
+   "framework": "Tk",
+   "owner": null,
+   "name": "Tk_UnderlineTextLayout",
+   "kind": "function_pointer",
+   "bridgesupport": false,
+   "headers": true
+  }
+ ]
+}

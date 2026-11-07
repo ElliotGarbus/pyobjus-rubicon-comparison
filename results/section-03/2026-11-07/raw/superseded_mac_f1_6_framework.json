@@ -1,0 +1,222 @@
+{
+ "pyobjus-1.2.4": {
+  "f1_6_framework": {
+   "summary": {
+    "correct": 5
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "pyobjus-main": {
+  "f1_6_framework": {
+   "summary": {
+    "correct": 5
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-0.5.7": {
+  "f1_6_framework": {
+   "summary": {
+    "correct": 5
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-main": {
+  "f1_6_framework": {
+   "summary": {
+    "correct": 5
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "pyobjc-13.0": {
+  "f1_6_framework": {
+   "summary": {
+    "correct": 5
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    },
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "True",
+     "expected": "True",
+     "stderr": ""
+    }
+   ]
+  }
+ }
+}

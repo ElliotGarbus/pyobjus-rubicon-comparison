@@ -1,0 +1,134 @@
+{
+ "pyobjus-main": {
+  "__version__": "1.2.4",
+  "f1_6_framework": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "('EventKit', True)",
+     "expected": "('EventKit', True)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_6_dylib": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "42",
+     "expected": "42",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  }
+ },
+ "rubicon-main": {
+  "__version__": "0.5.8.dev21",
+  "f1_6_framework": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "('EventKit', True)",
+     "expected": "('EventKit', True)",
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "f1_6_dylib": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "42",
+     "expected": "42",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  }
+ },
+ "pyobjus-1.2.4": {
+  "__version__": "1.2.4",
+  "f1_6_framework": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "('EventKit', True)",
+     "expected": "('EventKit', True)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_6_dylib": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "42",
+     "expected": "42",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  }
+ },
+ "rubicon-0.5.7": {
+  "__version__": "0.5.7",
+  "f1_6_framework": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "('EventKit', True)",
+     "expected": "('EventKit', True)",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  },
+  "f1_6_dylib": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "route": "api",
+     "outcome": "correct",
+     "detail": "42",
+     "expected": "42",
+     "stderr": "",
+     "seconds": 0.5
+    }
+   ]
+  }
+ }
+}
