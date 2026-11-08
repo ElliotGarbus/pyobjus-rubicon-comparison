@@ -1,0 +1,30 @@
+{
+ "rubicon-0.5.7-ios": {
+  "commit": "d0d75c35287196cb24a636aeb770f08165f751fe",
+  "runs": [
+   {
+    "exit": 0,
+    "counts": {},
+    "collected": 0,
+    "pytest_summary": "584 passed, 11 skipped",
+    "not_passed": [],
+    "briefcase_commit": null,
+    "seconds": 84
+   }
+  ]
+ },
+ "rubicon-main-ios": {
+  "commit": "6bf06390f720226da3d51477f38de3ff1e680eaf",
+  "runs": [
+   {
+    "exit": 0,
+    "counts": {},
+    "collected": 0,
+    "pytest_summary": "606 passed, 18 skipped",
+    "not_passed": [],
+    "briefcase_commit": null,
+    "seconds": 47
+   }
+  ]
+ }
+}

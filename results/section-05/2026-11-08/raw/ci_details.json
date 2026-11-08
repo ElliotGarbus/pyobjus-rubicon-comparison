@@ -1,0 +1,106 @@
+{
+ "pyobjus": {
+  "failures": [
+   {
+    "created_at": "2025-12-16T21:16:36Z",
+    "head_sha": "f1e4bc4b6ce4e151f0560dd722d244d60f3dcf8a",
+    "html_url": "https://github.com/kivy/pyobjus/actions/runs/20282978653",
+    "failed_jobs": [
+     "build (macos-latest, 3.12"
+    ]
+   },
+   {
+    "created_at": "2025-12-29T13:50:01Z",
+    "head_sha": "666467d8a501020ff740549ed455dbd1fd990802",
+    "html_url": "https://github.com/kivy/pyobjus/actions/runs/20574423934",
+    "failed_jobs": [
+     "build (macos-latest, 3.14"
+    ]
+   },
+   {
+    "created_at": "2025-12-29T13:50:52Z",
+    "head_sha": "a0f1f2a9c6796db91f2a3a360f6ba8c6a02c6b65",
+    "html_url": "https://github.com/kivy/pyobjus/actions/runs/20574439464",
+    "failed_jobs": [
+     "build (macos-latest, 3.11"
+    ]
+   },
+   {
+    "created_at": "2025-12-29T13:51:55Z",
+    "head_sha": "49b739401d6e0ef9ee65d7e26349bb7009e42c5e",
+    "html_url": "https://github.com/kivy/pyobjus/actions/runs/20574459450",
+    "failed_jobs": [
+     "build (macos-latest, 3.11"
+    ]
+   },
+   {
+    "created_at": "2025-12-29T13:59:19Z",
+    "head_sha": "932167ba03b0c5ed7d95f71a39e599e522113ede",
+    "html_url": "https://github.com/kivy/pyobjus/actions/runs/20574596359",
+    "failed_jobs": [
+     "build (macos-latest, 3.10"
+    ]
+   },
+   {
+    "created_at": "2025-12-29T14:13:34Z",
+    "head_sha": "5fd378c5c3cd2a078f80db12276af6ed38aa9ca4",
+    "html_url": "https://github.com/kivy/pyobjus/actions/runs/20574894792",
+    "failed_jobs": [
+     "build (macos-latest, 3.13"
+    ]
+   }
+  ],
+  "cancelled": 0,
+  "superseded": 0,
+  "cancelled_not_superseded": []
+ },
+ "rubicon": {
+  "failures": [
+   {
+    "created_at": "2026-02-22T22:17:20Z",
+    "head_sha": "599ce301726ff388f6560490e6b1baaa18432b1e",
+    "html_url": "https://github.com/beeware/rubicon-objc/actions/runs/22286537427",
+    "failed_jobs": [
+     "Package Rubicon-ObjC / Create Python Package"
+    ]
+   },
+   {
+    "created_at": "2026-03-29T23:48:08Z",
+    "head_sha": "f8213665193c553745f6189029c8d1ab2e7a22cf",
+    "html_url": "https://github.com/beeware/rubicon-objc/actions/runs/23721999640",
+    "failed_jobs": [
+     "Documentation linting"
+    ]
+   },
+   {
+    "created_at": "2026-04-13T05:16:04Z",
+    "head_sha": "638169e741c3b003f823eede5ecf3767e987c2c2",
+    "html_url": "https://github.com/beeware/rubicon-objc/actions/runs/24326909282",
+    "failed_jobs": [
+     "Documentation linting"
+    ]
+   },
+   {
+    "created_at": "2026-07-02T04:50:59Z",
+    "head_sha": "5aedf473f455df32c54f5fcb1662a9bfe2e5d726",
+    "html_url": "https://github.com/beeware/rubicon-objc/actions/runs/28566255786",
+    "failed_jobs": [
+     "Documentation linting"
+    ]
+   },
+   {
+    "created_at": "2026-09-09T07:14:31Z",
+    "head_sha": "c2f6a0d53f9054b86ad4d27b454d68469b08b952",
+    "html_url": "https://github.com/beeware/rubicon-objc/actions/runs/34322857079",
+    "failed_jobs": [
+     "Project coverage"
+    ]
+   }
+  ],
+  "cancelled": 75,
+  "superseded": 74,
+  "cancelled_not_superseded": [
+   "https://github.com/beeware/rubicon-objc/actions/runs/19881511372"
+  ]
+ }
+}

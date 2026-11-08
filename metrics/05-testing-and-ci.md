@@ -73,4 +73,8 @@ Each project is read and run at two points, as in earlier sections: its latest r
 
 ## Changes after approval
 
-None yet.
+| Metric | Change | Reason |
+|---|---|---|
+| T6 | Each default-branch test function is attributed to the first commit that added a `def` line with its name anywhere under `tests/`, instead of to `git blame` of its `def` line. A renamed test counts as new, which the section notes | `git blame` credits a test to whoever last rewrote its `def` line. Rubicon migrated its suite to pytest in March 2026, rewriting every `def` line, so blame put all 364 of its tests in the last year. Found during collection, before any figure was reported |
+| T6 | Python 3.14 can't install pyobjus 1.2.1 to 1.2.3 or import Rubicon 0.5.1 and earlier, so those releases have no full collected count. Each release's test functions are also counted from its source, as the definition provides | Those releases predate Python 3.14 support. Found during collection |
+| K1 | Adds a short note on each library's main downstream iOS build: kivy-ios for pyobjus and Toga for Rubicon. It gives the version each uses, what its CI runs, and the result at its last commit before the baseline. Downstream projects' tests stay excluded otherwise, and Section 7 covers dependents in full | kivy-ios is the iOS route pyobjus's docs describe, and its CI builds pyobjus for iOS, which bears on claim 15. Toga is added so both libraries get the same check. Raised in review of the draft, after the other figures were collected |

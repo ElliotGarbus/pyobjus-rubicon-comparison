@@ -1,0 +1,110 @@
+{
+ "pyobjus": {
+  "version": "1.2.4",
+  "files": [
+   {
+    "filename": "pyobjus-1.2.4-cp310-cp310-macosx_10_9_universal2.whl",
+    "uploaded": "2025-12-29T14:48:05.968672Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp311-cp311-macosx_10_9_universal2.whl",
+    "uploaded": "2025-12-29T14:48:07.298127Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp312-cp312-macosx_10_13_universal2.whl",
+    "uploaded": "2025-12-29T14:48:08.741060Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphoneos.whl",
+    "uploaded": "2025-12-29T14:48:09.968582Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphonesimulator.whl",
+    "uploaded": "2025-12-29T14:48:11.098576Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_x86_64_iphonesimulator.whl",
+    "uploaded": "2025-12-29T14:48:12.249810Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp313-cp313-macosx_10_13_universal2.whl",
+    "uploaded": "2025-12-29T14:48:13.339711Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphoneos.whl",
+    "uploaded": "2025-12-29T14:48:14.457640Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl",
+    "uploaded": "2025-12-29T14:48:15.325472Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_x86_64_iphonesimulator.whl",
+    "uploaded": "2025-12-29T14:48:16.234274Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp314-cp314-macosx_10_15_universal2.whl",
+    "uploaded": "2025-12-29T14:48:17.155241Z",
+    "provenance_status": 404,
+    "publisher": null
+   },
+   {
+    "filename": "pyobjus-1.2.4.tar.gz",
+    "uploaded": "2025-12-29T14:48:18.514858Z",
+    "provenance_status": 404,
+    "publisher": null
+   }
+  ]
+ },
+ "rubicon-objc": {
+  "version": "0.5.7",
+  "files": [
+   {
+    "filename": "rubicon_objc-0.5.7-py3-none-any.whl",
+    "uploaded": "2026-09-30T04:12:16.966111Z",
+    "provenance_status": 200,
+    "publisher": [
+     {
+      "environment": null,
+      "kind": "GitHub",
+      "repository": "beeware/rubicon-objc",
+      "workflow": "publish.yml"
+     }
+    ]
+   },
+   {
+    "filename": "rubicon_objc-0.5.7.tar.gz",
+    "uploaded": "2026-09-30T04:12:18.303434Z",
+    "provenance_status": 200,
+    "publisher": [
+     {
+      "environment": null,
+      "kind": "GitHub",
+      "repository": "beeware/rubicon-objc",
+      "workflow": "publish.yml"
+     }
+    ]
+   }
+  ]
+ }
+}

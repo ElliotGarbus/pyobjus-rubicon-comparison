@@ -1,0 +1,172 @@
+
+$ /Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14 -m venv venv
+[exit 0]
+
+$ <work>/pyobjus-1.2.4/venv/bin/python -m pip install -q -r .ci/cicd-requirements.txt
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: <work>/pyobjus-1.2.4/venv/bin/python -m pip install --upgrade pip
+[exit 0]
+
+$ <work>/pyobjus-1.2.4/venv/bin/python -m pip install -q -e .
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: <work>/pyobjus-1.2.4/venv/bin/python -m pip install --upgrade pip
+[exit 0]
+
+$ make test_lib
+rm -rf objc_classes/test/testlib.dylib objc_classes/test/CArrayTestlib.dylib
+clang objc_classes/test/testlib.m -o objc_classes/test/testlib.dylib -dynamiclib -framework Foundation -arch arm64 -arch x86_64
+objc_classes/test/testlib.m:158:12: warning: cast to smaller integer type 'int' from 'IMP *' (aka 'void (**)(void)') [-Wpointer-to-int-cast]
+  158 |     return (int)imp(self, @selector(getSumOf:and:), a, b);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+objc_classes/test/testlib.m:158:12: warning: cast to smaller integer type 'int' from 'IMP *' (aka 'void (**)(void)') [-Wpointer-to-int-cast]
+  158 |     return (int)imp(self, @selector(getSumOf:and:), a, b);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+clang objc_classes/test/CArrayTestlib.m -o objc_classes/test/CArrayTestlib.dylib -dynamiclib -framework Foundation -arch arm64 -arch x86_64
+objc_classes/test/CArrayTestlib.m:3:17: warning: cannot find interface declaration for 'ClassFoo'
+    3 | @implementation ClassFoo
+      |                 ^
+objc_classes/test/CArrayTestlib.m:3:17: warning: class 'ClassFoo' defined without specifying a base class [-Wobjc-root-class]
+objc_classes/test/CArrayTestlib.m:3:25: note: add a super class to fix this problem
+    3 | @implementation ClassFoo
+      |                         ^
+      |                          : NSObject 
+objc_classes/test/CArrayTestlib.m:80:57: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+   80 |     NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+      |                                                  ~~~    ^
+objc_classes/test/CArrayTestlib.m:81:35: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+   81 |     NSLog(@" ... ... [+] *n=%zd", *n);
+      |                             ~~~   ^~
+      |                             %u
+objc_classes/test/CArrayTestlib.m:90:61: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+   90 |         NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+      |                                                      ~~~    ^
+objc_classes/test/CArrayTestlib.m:91:39: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+   91 |         NSLog(@" ... ... [+] *n=%zd", *n);
+      |                                 ~~~   ^~
+      |                                 %u
+6 warnings generated.
+objc_classes/test/CArrayTestlib.m:3:17: warning: cannot find interface declaration for 'ClassFoo'
+    3 | @implementation ClassFoo
+      |                 ^
+objc_classes/test/CArrayTestlib.m:3:17: warning: class 'ClassFoo' defined without specifying a base class [-Wobjc-root-class]
+objc_classes/test/CArrayTestlib.m:3:25: note: add a super class to fix this problem
+    3 | @implementation ClassFoo
+      |                         ^
+      |                          : NSObject 
+objc_classes/test/CArrayTestlib.m:80:57: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+   80 |     NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+      |                                                  ~~~    ^
+objc_classes/test/CArrayTestlib.m:81:35: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+   81 |     NSLog(@" ... ... [+] *n=%zd", *n);
+      |                             ~~~   ^~
+      |                             %u
+objc_classes/test/CArrayTestlib.m:90:61: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+   90 |         NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+      |                                                      ~~~    ^
+objc_classes/test/CArrayTestlib.m:91:39: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+   91 |         NSLog(@" ... ... [+] *n=%zd", *n);
+      |                                 ~~~   ^~
+      |                                 %u
+6 warnings generated.
+[exit 0]
+
+$ <work>/pyobjus-1.2.4/venv/bin/python -m pytest tests -v --junitxml=<results>/pyobjus-1.2.4/run3.xml
+============================= test session starts ==============================
+platform darwin -- Python 3.14.7, pytest-9.0.3, pluggy-1.7.0 -- <work>/pyobjus-1.2.4/venv/bin/python
+cachedir: .pytest_cache
+rootdir: <work>/pyobjus-1.2.4
+configfile: pyproject.toml
+collecting ... collected 84 items
+
+tests/test_carray.py::CArrayTest::test_carray_bool PASSED                [  1%]
+tests/test_carray.py::CArrayTest::test_carray_char PASSED                [  2%]
+tests/test_carray.py::CArrayTest::test_carray_class PASSED               [  3%]
+tests/test_carray.py::CArrayTest::test_carray_double PASSED              [  4%]
+tests/test_carray.py::CArrayTest::test_carray_float PASSED               [  5%]
+tests/test_carray.py::CArrayTest::test_carray_int PASSED                 [  7%]
+tests/test_carray.py::CArrayTest::test_carray_long PASSED                [  8%]
+tests/test_carray.py::CArrayTest::test_carray_longlong PASSED            [  9%]
+tests/test_carray.py::CArrayTest::test_carray_multidimensional PASSED    [ 10%]
+tests/test_carray.py::CArrayTest::test_carray_object PASSED              [ 11%]
+tests/test_carray.py::CArrayTest::test_carray_short PASSED               [ 13%]
+tests/test_carray.py::CArrayTest::test_carray_struct SKIPPED (issue ...) [ 14%]
+tests/test_carray.py::CArrayTest::test_carray_uchar PASSED               [ 15%]
+tests/test_carray.py::CArrayTest::test_carray_uint PASSED                [ 16%]
+tests/test_carray.py::CArrayTest::test_carray_ulong PASSED               [ 17%]
+tests/test_carray.py::CArrayTest::test_carray_ulonglong PASSED           [ 19%]
+tests/test_carray.py::CArrayTest::test_carray_ushort PASSED              [ 20%]
+tests/test_delegate.py::DelegateTest::test_existing_delegate PASSED      [ 21%]
+tests/test_delegate.py::DelegateTest::test_multiple_delegates PASSED     [ 22%]
+tests/test_delegate.py::DelegateTest::test_user_registration_delegate PASSED [ 23%]
+tests/test_dereference.py::DereferenceTest::test_dereference_basic PASSED [ 25%]
+tests/test_dereference.py::DereferenceTest::test_dereference_with_type PASSED [ 26%]
+tests/test_literals.py::LiteralsTest::test_array PASSED                  [ 27%]
+tests/test_literals.py::LiteralsTest::test_bool PASSED                   [ 28%]
+tests/test_literals.py::LiteralsTest::test_char PASSED                   [ 29%]
+tests/test_literals.py::LiteralsTest::test_dict PASSED                   [ 30%]
+tests/test_literals.py::LiteralsTest::test_double PASSED                 [ 32%]
+tests/test_literals.py::LiteralsTest::test_integer PASSED                [ 33%]
+tests/test_literals.py::LiteralsTest::test_string PASSED                 [ 34%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_add PASSED      [ 35%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_count PASSED    [ 36%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_remove_at_index PASSED [ 38%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_remove_object PASSED [ 39%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_replace PASSED  [ 40%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_return_object PASSED [ 41%]
+tests/test_nsarray.py::test_objc_arr_behaviour[empty array] PASSED       [ 42%]
+tests/test_nsarray.py::test_objc_arr_behaviour[non empty array] PASSED   [ 44%]
+tests/test_nsarray.py::test_objc_arr_adds_nil[empty array] PASSED        [ 45%]
+tests/test_nsarray.py::test_objc_arr_adds_nil[non empty array] PASSED    [ 46%]
+tests/test_nsobject.py::NSObject::test_debugDescription PASSED           [ 47%]
+tests/test_nsobject.py::NSObject::test_description PASSED                [ 48%]
+tests/test_nsobject.py::NSObject::test_hash PASSED                       [ 50%]
+tests/test_nsobject.py::NSObject::test_inheritance PASSED                [ 51%]
+tests/test_nsobject.py::NSObject::test_isequal PASSED                    [ 52%]
+tests/test_nsobject.py::NSObject::test_isproxy PASSED                    [ 53%]
+tests/test_nsobject.py::NSObject::test_self PASSED                       [ 54%]
+tests/test_nsstring.py::NSObject::test_capitalizedString PASSED          [ 55%]
+tests/test_nsstring.py::NSObject::test_charactersatindex PASSED          [ 57%]
+tests/test_nsstring.py::NSObject::test_compare PASSED                    [ 58%]
+tests/test_nsstring.py::NSObject::test_fastestEncoding PASSED            [ 59%]
+tests/test_nsstring.py::NSObject::test_hasPrefix PASSED                  [ 60%]
+tests/test_nsstring.py::NSObject::test_hasSuffix PASSED                  [ 61%]
+tests/test_nsstring.py::NSObject::test_hash PASSED                       [ 63%]
+tests/test_nsstring.py::NSObject::test_isAbsolutePath PASSED             [ 64%]
+tests/test_nsstring.py::NSObject::test_length PASSED                     [ 65%]
+tests/test_nsstring.py::NSObject::test_lengthEncoding PASSED             [ 66%]
+tests/test_nsstring.py::NSObject::test_lineRangeForRange PASSED          [ 67%]
+tests/test_nsstring.py::NSObject::test_rangeOfString PASSED              [ 69%]
+tests/test_nsstring.py::NSObject::test_substringWithRange PASSED         [ 70%]
+tests/test_nsstring.py::NSObject::test_utf8 PASSED                       [ 71%]
+tests/test_nsstring.py::NSObject::test_utf8string PASSED                 [ 72%]
+tests/test_nsvalue.py::NSValueTest::test_objCType SKIPPED (Segfault ...) [ 73%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithPoint PASSED           [ 75%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithRange PASSED           [ 76%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithRangePointer PASSED    [ 77%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithRect SKIPPED (Segf...) [ 78%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithRectPointer PASSED     [ 79%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithSize PASSED            [ 80%]
+tests/test_partial_load.py::PartialLoadTest::test_partial_class_methods PASSED [ 82%]
+tests/test_partial_load.py::PartialLoadTest::test_partial_instance_methods PASSED [ 83%]
+tests/test_properties.py::ObjcPropertyTest::test_basic_properties PASSED [ 84%]
+tests/test_properties.py::ObjcPropertyTest::test_custom_getter_properties PASSED [ 85%]
+tests/test_properties.py::ObjcPropertyTest::test_custom_setter_properties PASSED [ 86%]
+tests/test_properties.py::ObjcPropertyTest::test_dynamic_properties PASSED [ 88%]
+tests/test_properties.py::ObjcPropertyTest::test_readonly_properties PASSED [ 89%]
+tests/test_simple.py::HelloWorldTest::test_autoclass PASSED              [ 90%]
+tests/test_simple.py::HelloWorldTest::test_autoclass2 PASSED             [ 91%]
+tests/test_union.py::Union::test_dereference PASSED                      [ 92%]
+tests/test_union.py::Union::test_passing_values PASSED                   [ 94%]
+tests/test_union.py::Union::test_returning_values PASSED                 [ 95%]
+tests/test_unknown_types.py::UnknownTypesTest::test_generatingByMembers SKIPPED [ 96%]
+tests/test_unknown_types.py::UnknownTypesTest::test_generatingUnknownType SKIPPED [ 97%]
+tests/test_unknown_types.py::UnknownTypesTest::test_obtainMembers SKIPPED [ 98%]
+tests/test_unknown_types.py::UnknownTypesTest::test_usingIMP PASSED      [100%]
+
+- generated xml file: <results>/pyobjus-1.2.4/run3.xml -
+======================== 78 passed, 6 skipped in 0.62s =========================
+[exit 0]

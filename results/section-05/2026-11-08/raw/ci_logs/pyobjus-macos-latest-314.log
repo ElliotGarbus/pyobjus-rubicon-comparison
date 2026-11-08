@@ -1,0 +1,958 @@
+﻿2026-10-31T16:43:14.2787760Z Current runner version: '2.338.2'
+2026-10-31T16:43:14.2816920Z ##[group]Runner Image Provisioner
+2026-10-31T16:43:14.2818480Z Hosted Compute Agent
+2026-10-31T16:43:14.2818990Z Version: 20261021.618
+2026-10-31T16:43:14.2819440Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-10-31T16:43:14.2820030Z Build Date: 2026-10-21T00:45:21Z
+2026-10-31T16:43:14.2820560Z Worker ID: {8bc2fa11-2c2f-43d4-a5de-fd4217c8f625}
+2026-10-31T16:43:14.2821120Z Region: westus
+2026-10-31T16:43:14.2821560Z Cloud: MacCloud
+2026-10-31T16:43:14.2821920Z ##[endgroup]
+2026-10-31T16:43:14.2823200Z ##[group]Operating System
+2026-10-31T16:43:14.2824320Z macOS
+2026-10-31T16:43:14.2825630Z 26.6.2
+2026-10-31T16:43:14.2826470Z 25G83
+2026-10-31T16:43:14.2827370Z ##[endgroup]
+2026-10-31T16:43:14.2828300Z ##[group]Runner Image
+2026-10-31T16:43:14.2829330Z Image: macos-26-arm64
+2026-10-31T16:43:14.2830360Z Version: 20261026.0455.2
+2026-10-31T16:43:14.2832740Z Included Software: https://github.com/actions/runner-images/blob/macos-26-arm64/20261026.0455/images/macos/macos-26-arm64-Readme.md
+2026-10-31T16:43:14.2835770Z Image Release: https://github.com/actions/runner-images/releases/tag/macos-26-arm64%2F20261026.0455
+2026-10-31T16:43:14.2837750Z ##[endgroup]
+2026-10-31T16:43:14.2844270Z ##[group]GITHUB_TOKEN Permissions
+2026-10-31T16:43:14.2849870Z Actions: write
+2026-10-31T16:43:14.2850930Z ArtifactMetadata: write
+2026-10-31T16:43:14.2851990Z Attestations: write
+2026-10-31T16:43:14.2852960Z Checks: write
+2026-10-31T16:43:14.2853890Z CodeQuality: write
+2026-10-31T16:43:14.2854880Z Contents: write
+2026-10-31T16:43:14.2855840Z CopilotRequests: write
+2026-10-31T16:43:14.2856880Z Deployments: write
+2026-10-31T16:43:14.2857830Z Discussions: write
+2026-10-31T16:43:14.2858810Z Drives: write
+2026-10-31T16:43:14.2859750Z Issues: write
+2026-10-31T16:43:14.2861640Z Metadata: read
+2026-10-31T16:43:14.2862150Z Models: read
+2026-10-31T16:43:14.2862570Z Packages: write
+2026-10-31T16:43:14.2862980Z Pages: write
+2026-10-31T16:43:14.2863460Z PullRequests: write
+2026-10-31T16:43:14.2863930Z RepositoryProjects: write
+2026-10-31T16:43:14.2864350Z SecurityEvents: write
+2026-10-31T16:43:14.2864780Z Statuses: write
+2026-10-31T16:43:14.2865200Z VulnerabilityAlerts: read
+2026-10-31T16:43:14.2865660Z ##[endgroup]
+2026-10-31T16:43:14.2868130Z Secret source: Actions
+2026-10-31T16:43:14.2868920Z Cache mode: write
+2026-10-31T16:43:14.2869900Z Prepare workflow directory
+2026-10-31T16:43:14.3307610Z Prepare all required actions
+2026-10-31T16:43:14.3347230Z Getting action download info
+2026-10-31T16:43:14.8190240Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-10-31T16:43:15.2785000Z Download action repository 'actions/setup-python@v7' (SHA:6d4fd22b20465ccc0f7354476588e8df7c9ca0e0)
+2026-10-31T16:43:15.7739620Z Download action repository 'coverallsapp/github-action@v2' (SHA:8d6379e14d29928660c4ba802d8e85393440b329)
+2026-10-31T16:43:16.2391610Z Complete job name: build (macos-latest, 3.14)
+2026-10-31T16:43:16.3271800Z ##[group]Run actions/checkout@v7
+2026-10-31T16:43:16.3274380Z with:
+2026-10-31T16:43:16.3275370Z   repository: kivy/pyobjus
+2026-10-31T16:43:16.3283380Z   token: ***
+2026-10-31T16:43:16.3284300Z   ssh-strict: true
+2026-10-31T16:43:16.3286600Z   ssh-user: git
+2026-10-31T16:43:16.3287740Z   persist-credentials: true
+2026-10-31T16:43:16.3288210Z   clean: true
+2026-10-31T16:43:16.3289070Z   sparse-checkout-cone-mode: true
+2026-10-31T16:43:16.3289520Z   fetch-depth: 1
+2026-10-31T16:43:16.3289850Z   fetch-tags: false
+2026-10-31T16:43:16.3290190Z   show-progress: true
+2026-10-31T16:43:16.3290540Z   lfs: false
+2026-10-31T16:43:16.3290850Z   submodules: false
+2026-10-31T16:43:16.3291200Z   set-safe-directory: true
+2026-10-31T16:43:16.3291600Z   allow-unsafe-pr-checkout: false
+2026-10-31T16:43:16.3292750Z ##[endgroup]
+2026-10-31T16:43:17.0413930Z Syncing repository: kivy/pyobjus
+2026-10-31T16:43:17.0421280Z ##[group]Getting Git version info
+2026-10-31T16:43:17.0422250Z Working directory is '/Users/runner/work/pyobjus/pyobjus'
+2026-10-31T16:43:17.0424180Z [command]/opt/homebrew/bin/git version
+2026-10-31T16:43:17.1040030Z git version 2.56.0
+2026-10-31T16:43:17.1076980Z ##[endgroup]
+2026-10-31T16:43:17.1091740Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/1db15118-526a-4668-96e6-08699759bb5e/.gitconfig'
+2026-10-31T16:43:17.1096870Z Temporarily overriding HOME='/Users/runner/work/_temp/1db15118-526a-4668-96e6-08699759bb5e' before making global git config changes
+2026-10-31T16:43:17.1100750Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-31T16:43:17.1104130Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/pyobjus/pyobjus
+2026-10-31T16:43:17.1244210Z Deleting the contents of '/Users/runner/work/pyobjus/pyobjus'
+2026-10-31T16:43:17.1248090Z ##[group]Determining repository object format
+2026-10-31T16:43:17.1250350Z ##[endgroup]
+2026-10-31T16:43:17.1252100Z ##[group]Initializing the repository
+2026-10-31T16:43:17.1253810Z [command]/opt/homebrew/bin/git init /Users/runner/work/pyobjus/pyobjus
+2026-10-31T16:43:17.1636310Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-31T16:43:17.1643550Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-31T16:43:17.1653550Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-31T16:43:17.1755640Z hint: call:
+2026-10-31T16:43:17.1765530Z hint:
+2026-10-31T16:43:17.1766610Z hint: 	git config --global init.defaultBranch <name>
+2026-10-31T16:43:17.1887710Z hint:
+2026-10-31T16:43:17.1893610Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-31T16:43:17.1895040Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-31T16:43:17.1901620Z hint:
+2026-10-31T16:43:17.1902240Z hint: 	git branch -m <name>
+2026-10-31T16:43:17.1902840Z hint:
+2026-10-31T16:43:17.1903570Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-31T16:43:17.1904510Z Initialized empty Git repository in /Users/runner/work/pyobjus/pyobjus/.git/
+2026-10-31T16:43:17.1906100Z [command]/opt/homebrew/bin/git remote add origin https://github.com/kivy/pyobjus
+2026-10-31T16:43:17.1907490Z ##[endgroup]
+2026-10-31T16:43:17.1908210Z ##[group]Disabling automatic garbage collection
+2026-10-31T16:43:17.1908950Z [command]/opt/homebrew/bin/git config --local gc.auto 0
+2026-10-31T16:43:17.2169440Z ##[endgroup]
+2026-10-31T16:43:17.2217480Z ##[group]Setting up auth
+2026-10-31T16:43:17.2319460Z Removing SSH command configuration
+2026-10-31T16:43:17.2358350Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-31T16:43:17.2641130Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-31T16:43:17.4465820Z Removing HTTP extra header
+2026-10-31T16:43:17.4474440Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-31T16:43:17.4537780Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-31T16:43:17.6170280Z Removing includeIf entries pointing to credentials config files
+2026-10-31T16:43:17.6271410Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-31T16:43:17.6579170Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-31T16:43:17.8696410Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-31T16:43:17.8712200Z [command]/opt/homebrew/bin/git config --local includeIf.gitdir:/Users/runner/work/pyobjus/pyobjus/.git.path /Users/runner/work/_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config
+2026-10-31T16:43:17.8749780Z [command]/opt/homebrew/bin/git config --local includeIf.gitdir:/Users/runner/work/pyobjus/pyobjus/.git/worktrees/*.path /Users/runner/work/_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config
+2026-10-31T16:43:17.8864690Z [command]/opt/homebrew/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config
+2026-10-31T16:43:17.8966990Z [command]/opt/homebrew/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config
+2026-10-31T16:43:17.9061860Z ##[endgroup]
+2026-10-31T16:43:17.9063400Z ##[group]Fetching the repository
+2026-10-31T16:43:17.9069760Z [command]/opt/homebrew/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81:refs/remotes/origin/master
+2026-10-31T16:43:18.4590890Z From https://github.com/kivy/pyobjus
+2026-10-31T16:43:18.4691990Z  * [new ref]         0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81 -> origin/master
+2026-10-31T16:43:18.4851160Z [command]/opt/homebrew/bin/git branch --list --remote origin/master
+2026-10-31T16:43:18.4892200Z   origin/master
+2026-10-31T16:43:18.4926700Z [command]/opt/homebrew/bin/git rev-parse refs/remotes/origin/master
+2026-10-31T16:43:18.4928430Z 0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81
+2026-10-31T16:43:18.4932590Z ##[endgroup]
+2026-10-31T16:43:18.4934240Z ##[group]Determining the checkout info
+2026-10-31T16:43:18.4936220Z ##[endgroup]
+2026-10-31T16:43:18.4937480Z [command]/opt/homebrew/bin/git sparse-checkout disable
+2026-10-31T16:43:18.5028870Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-31T16:43:18.5227660Z ##[group]Checking out the ref
+2026-10-31T16:43:18.5339230Z [command]/opt/homebrew/bin/git checkout --progress --force -B master refs/remotes/origin/master
+2026-10-31T16:43:18.5710440Z Reset branch 'master'
+2026-10-31T16:43:18.5790910Z branch 'master' set up to track 'origin/master'.
+2026-10-31T16:43:18.6100770Z ##[endgroup]
+2026-10-31T16:43:18.6199380Z [command]/opt/homebrew/bin/git log -1 --format=%H
+2026-10-31T16:43:18.6201540Z 0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81
+2026-10-31T16:43:18.6725160Z ##[group]Run actions/setup-python@v7
+2026-10-31T16:43:18.6726090Z with:
+2026-10-31T16:43:18.6726770Z   python-version: 3.14
+2026-10-31T16:43:18.6727780Z   check-latest: false
+2026-10-31T16:43:18.6735580Z   token: ***
+2026-10-31T16:43:18.6736630Z   mirror: https://raw.githubusercontent.com/actions/python-versions/main
+2026-10-31T16:43:18.6737880Z   update-environment: true
+2026-10-31T16:43:18.6738820Z   allow-prereleases: false
+2026-10-31T16:43:18.6739750Z   freethreaded: false
+2026-10-31T16:43:18.6740420Z ##[endgroup]
+2026-10-31T16:43:18.9779970Z ##[group]Installed versions
+2026-10-31T16:43:19.0074290Z Successfully set up CPython (3.14.10)
+2026-10-31T16:43:19.0103790Z ##[endgroup]
+2026-10-31T16:43:19.0276260Z ##[group]Run pip install -r .ci/cicd-requirements.txt
+2026-10-31T16:43:19.0277460Z pip install -r .ci/cicd-requirements.txt
+2026-10-31T16:43:19.0500130Z shell: /bin/bash -e {0}
+2026-10-31T16:43:19.0501030Z env:
+2026-10-31T16:43:19.0501910Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:43:19.0503360Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.14.10/arm64/lib/pkgconfig
+2026-10-31T16:43:19.0504730Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:43:19.0506600Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:43:19.0508010Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:43:19.0511490Z ##[endgroup]
+2026-10-31T16:43:21.2992440Z Collecting build~=1.3.0 (from -r .ci/cicd-requirements.txt (line 1))
+2026-10-31T16:43:21.4182880Z   Downloading build-1.3.0-py3-none-any.whl.metadata (5.6 kB)
+2026-10-31T16:43:21.4893130Z Collecting pytest~=9.1.1 (from -r .ci/cicd-requirements.txt (line 2))
+2026-10-31T16:43:21.4933840Z   Downloading pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+2026-10-31T16:43:21.5177650Z Collecting pytest-cov~=7.1.0 (from -r .ci/cicd-requirements.txt (line 3))
+2026-10-31T16:43:21.5224880Z   Downloading pytest_cov-7.1.0-py3-none-any.whl.metadata (32 kB)
+2026-10-31T16:43:21.5495000Z Collecting twine~=6.2.0 (from -r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:21.5597290Z   Downloading twine-6.2.0-py3-none-any.whl.metadata (3.6 kB)
+2026-10-31T16:43:21.6625500Z Collecting packaging>=19.1 (from build~=1.3.0->-r .ci/cicd-requirements.txt (line 1))
+2026-10-31T16:43:21.6691130Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+2026-10-31T16:43:21.6880960Z Collecting pyproject_hooks (from build~=1.3.0->-r .ci/cicd-requirements.txt (line 1))
+2026-10-31T16:43:21.6954420Z   Downloading pyproject_hooks-1.3.3-py3-none-any.whl.metadata (1.3 kB)
+2026-10-31T16:43:21.7169480Z Collecting iniconfig>=1.0.1 (from pytest~=9.1.1->-r .ci/cicd-requirements.txt (line 2))
+2026-10-31T16:43:21.7219180Z   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+2026-10-31T16:43:21.7419740Z Collecting pluggy<2,>=1.5 (from pytest~=9.1.1->-r .ci/cicd-requirements.txt (line 2))
+2026-10-31T16:43:21.7499420Z   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+2026-10-31T16:43:21.7752100Z Collecting pygments>=2.7.2 (from pytest~=9.1.1->-r .ci/cicd-requirements.txt (line 2))
+2026-10-31T16:43:21.7799500Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+2026-10-31T16:43:22.2062000Z Collecting coverage>=7.10.6 (from coverage[toml]>=7.10.6->pytest-cov~=7.1.0->-r .ci/cicd-requirements.txt (line 3))
+2026-10-31T16:43:22.2176960Z   Downloading coverage-7.17.0-cp314-cp314-macosx_11_0_arm64.whl.metadata (8.1 kB)
+2026-10-31T16:43:22.2617400Z Collecting readme-renderer>=35.0 (from twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.2684310Z   Downloading readme_renderer-46.0-py3-none-any.whl.metadata (3.0 kB)
+2026-10-31T16:43:22.3021700Z Collecting requests>=2.20 (from twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.3064840Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+2026-10-31T16:43:22.3297630Z Collecting requests-toolbelt!=0.9.0,>=0.8.0 (from twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.3367070Z   Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+2026-10-31T16:43:22.3584130Z Collecting urllib3>=1.26.0 (from twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.3629390Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+2026-10-31T16:43:22.4269780Z Collecting keyring>=21.2.0 (from twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.4332670Z   Downloading keyring-25.7.0-py3-none-any.whl.metadata (21 kB)
+2026-10-31T16:43:22.4560070Z Collecting rfc3986>=1.4.0 (from twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.4627250Z   Downloading rfc3986-2.0.0-py2.py3-none-any.whl.metadata (6.6 kB)
+2026-10-31T16:43:22.4974040Z Collecting rich>=12.0.0 (from twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.5057410Z   Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+2026-10-31T16:43:22.5267070Z Collecting id (from twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.5324280Z   Downloading id-1.6.1-py3-none-any.whl.metadata (5.1 kB)
+2026-10-31T16:43:22.5511630Z Collecting jaraco.classes (from keyring>=21.2.0->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.5556980Z   Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)
+2026-10-31T16:43:22.5774590Z Collecting jaraco.functools (from keyring>=21.2.0->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.5827740Z   Downloading jaraco_functools-4.6.0-py3-none-any.whl.metadata (2.9 kB)
+2026-10-31T16:43:22.6064360Z Collecting jaraco.context (from keyring>=21.2.0->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.6111250Z   Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)
+2026-10-31T16:43:22.6515150Z Collecting nh3>=0.2.14 (from readme-renderer>=35.0->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.6569000Z   Downloading nh3-0.3.7-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl.metadata (2.0 kB)
+2026-10-31T16:43:22.6798960Z Collecting docutils>=0.21.2 (from readme-renderer>=35.0->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.6855940Z   Downloading docutils-0.23-py3-none-any.whl.metadata (15 kB)
+2026-10-31T16:43:22.7908310Z Collecting charset_normalizer<4,>=2 (from requests>=2.20->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.7957820Z   Downloading charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl.metadata (46 kB)
+2026-10-31T16:43:22.8161880Z Collecting idna<4,>=2.5 (from requests>=2.20->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.8207310Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+2026-10-31T16:43:22.8282540Z Requirement already satisfied: certifi>=2023.5.7 in /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages (from requests>=2.20->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4)) (2026.10.23)
+2026-10-31T16:43:22.8440630Z Collecting markdown-it-py>=2.2.0 (from rich>=12.0.0->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.8525000Z   Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+2026-10-31T16:43:22.8759560Z Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=12.0.0->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.8820990Z   Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+2026-10-31T16:43:22.9123450Z Collecting more-itertools (from jaraco.classes->keyring>=21.2.0->twine~=6.2.0->-r .ci/cicd-requirements.txt (line 4))
+2026-10-31T16:43:22.9184230Z   Downloading more_itertools-11.2.1-py3-none-any.whl.metadata (42 kB)
+2026-10-31T16:43:22.9367200Z Downloading build-1.3.0-py3-none-any.whl (23 kB)
+2026-10-31T16:43:22.9483630Z Downloading pytest-9.1.1-py3-none-any.whl (386 kB)
+2026-10-31T16:43:22.9676110Z Downloading pytest_cov-7.1.0-py3-none-any.whl (22 kB)
+2026-10-31T16:43:22.9832130Z Downloading twine-6.2.0-py3-none-any.whl (42 kB)
+2026-10-31T16:43:22.9949860Z Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+2026-10-31T16:43:23.0074720Z Downloading coverage-7.17.0-cp314-cp314-macosx_11_0_arm64.whl (226 kB)
+2026-10-31T16:43:23.0237250Z Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+2026-10-31T16:43:23.0337240Z Downloading keyring-25.7.0-py3-none-any.whl (39 kB)
+2026-10-31T16:43:23.0449370Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+2026-10-31T16:43:23.0597530Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+2026-10-31T16:43:23.0813590Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 64.2 MB/s  0:00:00
+2026-10-31T16:43:23.0861720Z Downloading readme_renderer-46.0-py3-none-any.whl (14 kB)
+2026-10-31T16:43:23.0962980Z Downloading docutils-0.23-py3-none-any.whl (634 kB)
+2026-10-31T16:43:23.1127920Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 634.7/634.7 kB 38.9 MB/s  0:00:00
+2026-10-31T16:43:23.1252360Z Downloading nh3-0.3.7-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl (1.5 MB)
+2026-10-31T16:43:23.1410970Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 102.2 MB/s  0:00:00
+2026-10-31T16:43:23.1476050Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+2026-10-31T16:43:23.1663480Z Downloading charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl (367 kB)
+2026-10-31T16:43:23.1926090Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+2026-10-31T16:43:23.2091890Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+2026-10-31T16:43:23.2248390Z Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+2026-10-31T16:43:23.2459120Z Downloading rfc3986-2.0.0-py2.py3-none-any.whl (31 kB)
+2026-10-31T16:43:23.2561070Z Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+2026-10-31T16:43:23.2661730Z Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+2026-10-31T16:43:23.2780510Z Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+2026-10-31T16:43:23.2977240Z Downloading id-1.6.1-py3-none-any.whl (14 kB)
+2026-10-31T16:43:23.3119080Z Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+2026-10-31T16:43:23.3218460Z Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+2026-10-31T16:43:23.3302850Z Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
+2026-10-31T16:43:23.3409810Z Downloading more_itertools-11.2.1-py3-none-any.whl (74 kB)
+2026-10-31T16:43:23.3539750Z Downloading pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+2026-10-31T16:43:23.4945450Z Installing collected packages: urllib3, rfc3986, pyproject_hooks, pygments, pluggy, packaging, nh3, more-itertools, mdurl, jaraco.context, iniconfig, idna, docutils, coverage, charset_normalizer, requests, readme-renderer, pytest, markdown-it-py, jaraco.functools, jaraco.classes, id, build, rich, requests-toolbelt, pytest-cov, keyring, twine
+2026-10-31T16:43:27.2309780Z 
+2026-10-31T16:43:27.2364240Z Successfully installed build-1.3.0 charset_normalizer-3.5.2 coverage-7.17.0 docutils-0.23 id-1.6.1 idna-3.20 iniconfig-2.3.1 jaraco.classes-3.4.0 jaraco.context-6.1.2 jaraco.functools-4.6.0 keyring-25.7.0 markdown-it-py-4.2.0 mdurl-0.1.2 more-itertools-11.2.1 nh3-0.3.7 packaging-26.3 pluggy-1.7.0 pygments-2.21.0 pyproject_hooks-1.3.3 pytest-9.1.1 pytest-cov-7.1.0 readme-renderer-46.0 requests-2.34.2 requests-toolbelt-1.0.0 rfc3986-2.0.0 rich-15.0.0 twine-6.2.0 urllib3-2.8.0
+2026-10-31T16:43:27.5611810Z ##[group]Run python -m pip install "Cython>3" "setuptools>=77" wheel
+2026-10-31T16:43:27.5614690Z python -m pip install "Cython>3" "setuptools>=77" wheel
+2026-10-31T16:43:27.5615990Z python -m pip install --no-build-isolation -e .
+2026-10-31T16:43:27.5617210Z python setup.py build_ext --inplace --force
+2026-10-31T16:43:27.5735410Z shell: /bin/bash -e {0}
+2026-10-31T16:43:27.5736400Z env:
+2026-10-31T16:43:27.5737280Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:43:27.5738480Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.14.10/arm64/lib/pkgconfig
+2026-10-31T16:43:27.5739820Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:43:27.5741040Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:43:27.5742200Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:43:27.5743160Z   PYOBJUS_COVERAGE: 1
+2026-10-31T16:43:27.5744000Z ##[endgroup]
+2026-10-31T16:43:28.9761830Z Collecting Cython>3
+2026-10-31T16:43:29.0165450Z   Downloading cython-3.3.0-cp314-cp314-macosx_11_0_arm64.whl.metadata (28 kB)
+2026-10-31T16:43:29.0652710Z Collecting setuptools>=77
+2026-10-31T16:43:29.0705700Z   Downloading setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+2026-10-31T16:43:29.1058760Z Collecting wheel
+2026-10-31T16:43:29.1105780Z   Downloading wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+2026-10-31T16:43:29.1179590Z Requirement already satisfied: packaging>=24.0 in /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages (from wheel) (26.3)
+2026-10-31T16:43:29.1242710Z Downloading cython-3.3.0-cp314-cp314-macosx_11_0_arm64.whl (3.2 MB)
+2026-10-31T16:43:29.1618870Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 94.2 MB/s  0:00:00
+2026-10-31T16:43:29.1780590Z Downloading setuptools-84.2.1-py3-none-any.whl (876 kB)
+2026-10-31T16:43:29.1920710Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 876.3/876.3 kB 43.3 MB/s  0:00:00
+2026-10-31T16:43:29.1959890Z Downloading wheel-0.48.0-py3-none-any.whl (33 kB)
+2026-10-31T16:43:29.2616940Z Installing collected packages: wheel, setuptools, Cython
+2026-10-31T16:43:30.9689760Z 
+2026-10-31T16:43:30.9740930Z Successfully installed Cython-3.3.0 setuptools-84.2.1 wheel-0.48.0
+2026-10-31T16:43:31.7618880Z Obtaining file:///Users/runner/work/pyobjus/pyobjus
+2026-10-31T16:43:31.7651380Z   Checking if build backend supports build_editable: started
+2026-10-31T16:43:32.0081200Z   Checking if build backend supports build_editable: finished with status 'done'
+2026-10-31T16:43:32.0097780Z   Preparing editable metadata (pyproject.toml): started
+2026-10-31T16:43:32.3754160Z   Preparing editable metadata (pyproject.toml): finished with status 'done'
+2026-10-31T16:43:32.3820820Z Building wheels for collected packages: pyobjus
+2026-10-31T16:43:32.3830710Z   Building editable for pyobjus (pyproject.toml): started
+2026-10-31T16:44:28.9547590Z   Building editable for pyobjus (pyproject.toml): finished with status 'done'
+2026-10-31T16:44:28.9650950Z   Created wheel for pyobjus: filename=pyobjus-1.2.4-0.editable-cp314-cp314-macosx_10_15_universal2.whl size=3702 sha256=19c2a24561339ece5be2d4e7eb22f3a1d3011bc7e99f576a063b64055e58be2e
+2026-10-31T16:44:28.9713770Z   Stored in directory: /private<tmp>
+2026-10-31T16:44:28.9772800Z Successfully built pyobjus
+2026-10-31T16:44:29.0575020Z Installing collected packages: pyobjus
+2026-10-31T16:44:29.0668260Z Successfully installed pyobjus-1.2.4
+2026-10-31T16:44:29.3950700Z Pyobjus platform is darwin
+2026-10-31T16:44:29.3960560Z running build_ext
+2026-10-31T16:44:29.9346050Z warning: pyobjus/pyobjus_conversions.pxi:119:8: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
+2026-10-31T16:44:29.9461810Z warning: pyobjus/pyobjus.pyx:468:12: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
+2026-10-31T16:44:29.9463980Z warning: pyobjus/pyobjus.pyx:501:16: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
+2026-10-31T16:44:30.7161410Z [1/1] Cythonizing pyobjus/pyobjus.pyx
+2026-10-31T16:44:30.7261800Z building 'pyobjus' extension
+2026-10-31T16:44:30.7281240Z clang -fno-strict-overflow -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -O3 -Wall -arch arm64 -arch x86_64 -DCYTHON_TRACE=1 -DCYTHON_USE_SYS_MONITORING=0 -I/Library/Frameworks/Python.framework/Versions/3.14/include/python3.14 -c pyobjus/pyobjus.c -o build/temp.macosx-10.15-universal2-cpython-314/pyobjus/pyobjus.o
+2026-10-31T16:44:30.9020920Z In file included from pyobjus/pyobjus.c:1301:
+2026-10-31T16:44:30.9021770Z pyobjus/_runtime.h:13:1: warning: pointer is missing a nullability type specifier (_Nonnull, _Nullable, or _Null_unspecified) [-Wnullability-completeness]
+2026-10-31T16:44:30.9025260Z    13 | id allocAndInitAutoreleasePool() {
+2026-10-31T16:44:30.9025840Z       | ^
+2026-10-31T16:44:30.9026470Z pyobjus/_runtime.h:13:1: note: insert '_Nullable' if the pointer may be null
+2026-10-31T16:44:30.9027030Z    13 | id allocAndInitAutoreleasePool() {
+2026-10-31T16:44:30.9027540Z       | ^
+2026-10-31T16:44:30.9027850Z       |    _Nullable
+2026-10-31T16:44:30.9028340Z pyobjus/_runtime.h:13:1: note: insert '_Nonnull' if the pointer should never be null
+2026-10-31T16:44:30.9028840Z    13 | id allocAndInitAutoreleasePool() {
+2026-10-31T16:44:30.9029280Z       | ^
+2026-10-31T16:44:30.9029790Z       |    _Nonnull
+2026-10-31T16:44:31.2826640Z pyobjus/pyobjus.c:41395:18: warning: cast to smaller integer type 'int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.2926650Z  41395 |     __pyx_t_7 = ((int)(__pyx_v_f_result[0]));
+2026-10-31T16:44:31.3028340Z        |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.3129900Z pyobjus/pyobjus.c:41432:42: warning: cast to smaller integer type 'int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.3230350Z  41432 |       __pyx_t_6 = __Pyx_PyLong_From_int(((int)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_6)) __PYX_ERR(5, 208, __pyx_L1_error)
+2026-10-31T16:44:31.3243320Z        |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.3244270Z pyobjus/pyobjus.c:41487:46: warning: cast to smaller integer type 'char' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.3245050Z  41487 |     __pyx_t_3 = PyUnicode_FromOrdinal(((int)((char)(__pyx_v_f_result[0])))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 209, __pyx_L1_error)
+2026-10-31T16:44:31.3245760Z        |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.3246420Z pyobjus/pyobjus.c:41530:40: warning: cast to smaller integer type 'int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.3247210Z  41530 |     __pyx_t_3 = __Pyx_PyLong_From_int(((int)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 211, __pyx_L1_error)
+2026-10-31T16:44:31.3247790Z        |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.3249070Z pyobjus/pyobjus.c:41573:42: warning: cast to smaller integer type 'short' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.3250180Z  41573 |     __pyx_t_3 = __Pyx_PyLong_From_short(((short)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 213, __pyx_L1_error)
+2026-10-31T16:44:31.3251000Z        |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.3252420Z pyobjus/pyobjus.c:41702:50: warning: cast to smaller integer type 'unsigned char' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.3253380Z  41702 |     __pyx_t_3 = __Pyx_PyLong_From_unsigned_char(((unsigned char)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 219, __pyx_L1_error)
+2026-10-31T16:44:31.3254270Z        |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.3255100Z pyobjus/pyobjus.c:41745:49: warning: cast to smaller integer type 'unsigned int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.3256670Z  41745 |     __pyx_t_3 = __Pyx_PyLong_From_unsigned_int(((unsigned int)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 221, __pyx_L1_error)
+2026-10-31T16:44:31.3257400Z        |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.3258000Z pyobjus/pyobjus.c:41788:51: warning: cast to smaller integer type 'unsigned short' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.3259410Z  41788 |     __pyx_t_3 = __Pyx_PyLong_From_unsigned_short(((unsigned short)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 223, __pyx_L1_error)
+2026-10-31T16:44:31.3260090Z        |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.3260790Z pyobjus/pyobjus.c:42145:19: warning: cast to smaller integer type 'int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:31.3261410Z  42145 |     __pyx_t_8 = (((int)(__pyx_v_f_result[0])) != 0);
+2026-10-31T16:44:31.3261730Z        |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:31.7896730Z pyobjus/pyobjus.c:95871:50: warning: code will never be executed [-Wunreachable-code]
+2026-10-31T16:44:31.7897380Z  95871 |     if (unlikely(__Pyx_PyUnicode_READY(s1) < 0)) goto bad;
+2026-10-31T16:44:31.7897770Z        |                                                  ^~~~~~~~
+2026-10-31T16:44:45.0200900Z 11 warnings generated.
+2026-10-31T16:44:45.3139390Z In file included from pyobjus/pyobjus.c:1301:
+2026-10-31T16:44:45.3140770Z pyobjus/_runtime.h:13:1: warning: pointer is missing a nullability type specifier (_Nonnull, _Nullable, or _Null_unspecified) [-Wnullability-completeness]
+2026-10-31T16:44:45.3141350Z    13 | id allocAndInitAutoreleasePool() {
+2026-10-31T16:44:45.3142590Z       | ^
+2026-10-31T16:44:45.3142890Z pyobjus/_runtime.h:13:1: note: insert '_Nullable' if the pointer may be null
+2026-10-31T16:44:45.3143270Z    13 | id allocAndInitAutoreleasePool() {
+2026-10-31T16:44:45.3143500Z       | ^
+2026-10-31T16:44:45.3143660Z       |    _Nullable
+2026-10-31T16:44:45.3144020Z pyobjus/_runtime.h:13:1: note: insert '_Nonnull' if the pointer should never be null
+2026-10-31T16:44:45.3144420Z    13 | id allocAndInitAutoreleasePool() {
+2026-10-31T16:44:45.3145000Z       | ^
+2026-10-31T16:44:45.3145130Z       |    _Nonnull
+2026-10-31T16:44:45.6432820Z pyobjus/pyobjus.c:41395:18: warning: cast to smaller integer type 'int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6434630Z  41395 |     __pyx_t_7 = ((int)(__pyx_v_f_result[0]));
+2026-10-31T16:44:45.6435620Z        |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:45.6437190Z pyobjus/pyobjus.c:41432:42: warning: cast to smaller integer type 'int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6439630Z  41432 |       __pyx_t_6 = __Pyx_PyLong_From_int(((int)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_6)) __PYX_ERR(5, 208, __pyx_L1_error)
+2026-10-31T16:44:45.6441400Z        |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:45.6443200Z pyobjus/pyobjus.c:41487:46: warning: cast to smaller integer type 'char' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6445530Z  41487 |     __pyx_t_3 = PyUnicode_FromOrdinal(((int)((char)(__pyx_v_f_result[0])))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 209, __pyx_L1_error)
+2026-10-31T16:44:45.6449150Z        |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:45.6450680Z pyobjus/pyobjus.c:41530:40: warning: cast to smaller integer type 'int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6452750Z  41530 |     __pyx_t_3 = __Pyx_PyLong_From_int(((int)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 211, __pyx_L1_error)
+2026-10-31T16:44:45.6454070Z        |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:45.6463990Z pyobjus/pyobjus.c:41573:42: warning: cast to smaller integer type 'short' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6466660Z  41573 |     __pyx_t_3 = __Pyx_PyLong_From_short(((short)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 213, __pyx_L1_error)
+2026-10-31T16:44:45.6468010Z        |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:45.6490430Z pyobjus/pyobjus.c:41702:50: warning: cast to smaller integer type 'unsigned char' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6492150Z  41702 |     __pyx_t_3 = __Pyx_PyLong_From_unsigned_char(((unsigned char)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 219, __pyx_L1_error)
+2026-10-31T16:44:45.6492890Z        |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:45.6503480Z pyobjus/pyobjus.c:41745:49: warning: cast to smaller integer type 'unsigned int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6506430Z  41745 |     __pyx_t_3 = __Pyx_PyLong_From_unsigned_int(((unsigned int)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 221, __pyx_L1_error)
+2026-10-31T16:44:45.6508750Z        |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:45.6515880Z pyobjus/pyobjus.c:41788:51: warning: cast to smaller integer type 'unsigned short' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6522410Z  41788 |     __pyx_t_3 = __Pyx_PyLong_From_unsigned_short(((unsigned short)(__pyx_v_f_result[0]))); if (unlikely(!__pyx_t_3)) __PYX_ERR(5, 223, __pyx_L1_error)
+2026-10-31T16:44:45.6523650Z        |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:45.6602310Z pyobjus/pyobjus.c:42145:19: warning: cast to smaller integer type 'int' from 'id' (aka 'struct objc_object *') [-Wpointer-to-int-cast]
+2026-10-31T16:44:45.6603800Z  42145 |     __pyx_t_8 = (((int)(__pyx_v_f_result[0])) != 0);
+2026-10-31T16:44:45.6605690Z        |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:44:46.1826360Z pyobjus/pyobjus.c:95871:50: warning: code will never be executed [-Wunreachable-code]
+2026-10-31T16:44:46.1828160Z  95871 |     if (unlikely(__Pyx_PyUnicode_READY(s1) < 0)) goto bad;
+2026-10-31T16:44:46.1829120Z        |                                                  ^~~~~~~~
+2026-10-31T16:45:04.5488670Z 11 warnings generated.
+2026-10-31T16:45:04.6147240Z clang -bundle -undefined dynamic_lookup -arch arm64 -arch x86_64 build/temp.macosx-10.15-universal2-cpython-314/pyobjus/pyobjus.o -lffi -o /Users/runner/work/pyobjus/pyobjus/pyobjus/pyobjus.cpython-314-darwin.so -framework CoreFoundation
+2026-10-31T16:45:05.4098080Z ##[group]Run make test_lib
+2026-10-31T16:45:05.4098630Z make test_lib
+2026-10-31T16:45:05.4552390Z shell: /bin/bash -e {0}
+2026-10-31T16:45:05.4553290Z env:
+2026-10-31T16:45:05.4554250Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:05.4557710Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.14.10/arm64/lib/pkgconfig
+2026-10-31T16:45:05.4560070Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:05.4561930Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:05.4563970Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:05.4564910Z ##[endgroup]
+2026-10-31T16:45:06.9765030Z rm -rf objc_classes/test/testlib.dylib objc_classes/test/CArrayTestlib.dylib
+2026-10-31T16:45:06.9808950Z clang objc_classes/test/testlib.m -o objc_classes/test/testlib.dylib -dynamiclib -framework Foundation -arch arm64 -arch x86_64
+2026-10-31T16:45:07.4895200Z objc_classes/test/testlib.m:180:12: warning: cast to smaller integer type 'int' from 'IMP *' (aka 'void (**)(void)') [-Wpointer-to-int-cast]
+2026-10-31T16:45:07.4896780Z   180 |     return (int)imp(self, @selector(getSumOf:and:), a, b);
+2026-10-31T16:45:07.4897750Z       |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:45:07.5061850Z 1 warning generated.
+2026-10-31T16:45:07.9123350Z objc_classes/test/testlib.m:180:12: warning: cast to smaller integer type 'int' from 'IMP *' (aka 'void (**)(void)') [-Wpointer-to-int-cast]
+2026-10-31T16:45:07.9125390Z   180 |     return (int)imp(self, @selector(getSumOf:and:), a, b);
+2026-10-31T16:45:07.9126520Z       |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-31T16:45:07.9274690Z 1 warning generated.
+2026-10-31T16:45:08.0486140Z clang objc_classes/test/CArrayTestlib.m -o objc_classes/test/CArrayTestlib.dylib -dynamiclib -framework Foundation -arch arm64 -arch x86_64
+2026-10-31T16:45:08.3292100Z objc_classes/test/CArrayTestlib.m:3:17: warning: cannot find interface declaration for 'ClassFoo'
+2026-10-31T16:45:08.3302270Z     3 | @implementation ClassFoo
+2026-10-31T16:45:08.3302700Z       |                 ^
+2026-10-31T16:45:08.3303190Z objc_classes/test/CArrayTestlib.m:3:17: warning: class 'ClassFoo' defined without specifying a base class [-Wobjc-root-class]
+2026-10-31T16:45:08.3303950Z objc_classes/test/CArrayTestlib.m:3:25: note: add a super class to fix this problem
+2026-10-31T16:45:08.3304390Z     3 | @implementation ClassFoo
+2026-10-31T16:45:08.3304710Z       |                         ^
+2026-10-31T16:45:08.3305010Z       |                          : NSObject 
+2026-10-31T16:45:08.3305740Z objc_classes/test/CArrayTestlib.m:87:57: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+2026-10-31T16:45:08.3306480Z    87 |     NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+2026-10-31T16:45:08.3307180Z       |                                                  ~~~    ^
+2026-10-31T16:45:08.3309070Z objc_classes/test/CArrayTestlib.m:88:35: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+2026-10-31T16:45:08.3309620Z    88 |     NSLog(@" ... ... [+] *n=%zd", *n);
+2026-10-31T16:45:08.3309990Z       |                             ~~~   ^~
+2026-10-31T16:45:08.3310390Z       |                             %u
+2026-10-31T16:45:08.3310920Z objc_classes/test/CArrayTestlib.m:97:61: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+2026-10-31T16:45:08.3311650Z    97 |         NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+2026-10-31T16:45:08.3312120Z       |                                                      ~~~    ^
+2026-10-31T16:45:08.3312680Z objc_classes/test/CArrayTestlib.m:98:39: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+2026-10-31T16:45:08.3314120Z    98 |         NSLog(@" ... ... [+] *n=%zd", *n);
+2026-10-31T16:45:08.3314420Z       |                                 ~~~   ^~
+2026-10-31T16:45:08.3314770Z       |                                 %u
+2026-10-31T16:45:08.3420990Z 6 warnings generated.
+2026-10-31T16:45:08.7771210Z objc_classes/test/CArrayTestlib.m:3:17: warning: cannot find interface declaration for 'ClassFoo'
+2026-10-31T16:45:08.7772840Z     3 | @implementation ClassFoo
+2026-10-31T16:45:08.7773540Z       |                 ^
+2026-10-31T16:45:08.7774970Z objc_classes/test/CArrayTestlib.m:3:17: warning: class 'ClassFoo' defined without specifying a base class [-Wobjc-root-class]
+2026-10-31T16:45:08.7776700Z objc_classes/test/CArrayTestlib.m:3:25: note: add a super class to fix this problem
+2026-10-31T16:45:08.7777880Z     3 | @implementation ClassFoo
+2026-10-31T16:45:08.7778840Z       |                         ^
+2026-10-31T16:45:08.7779670Z       |                          : NSObject 
+2026-10-31T16:45:08.7795630Z objc_classes/test/CArrayTestlib.m:87:57: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+2026-10-31T16:45:08.7796530Z    87 |     NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+2026-10-31T16:45:08.7796980Z       |                                                  ~~~    ^
+2026-10-31T16:45:08.7797660Z objc_classes/test/CArrayTestlib.m:88:35: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+2026-10-31T16:45:08.7798280Z    88 |     NSLog(@" ... ... [+] *n=%zd", *n);
+2026-10-31T16:45:08.7798690Z       |                             ~~~   ^~
+2026-10-31T16:45:08.7798980Z       |                             %u
+2026-10-31T16:45:08.7799710Z objc_classes/test/CArrayTestlib.m:97:61: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+2026-10-31T16:45:08.7800450Z    97 |         NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+2026-10-31T16:45:08.7800840Z       |                                                      ~~~    ^
+2026-10-31T16:45:08.7802790Z objc_classes/test/CArrayTestlib.m:98:39: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+2026-10-31T16:45:08.7803750Z    98 |         NSLog(@" ... ... [+] *n=%zd", *n);
+2026-10-31T16:45:08.7805230Z       |                                 ~~~   ^~
+2026-10-31T16:45:08.7805570Z       |                                 %u
+2026-10-31T16:45:08.7912500Z 6 warnings generated.
+2026-10-31T16:45:08.9092860Z ##[group]Run python -m pytest tests -v --cov --cov-report=xml:coverage.xml
+2026-10-31T16:45:08.9093440Z python -m pytest tests -v --cov --cov-report=xml:coverage.xml
+2026-10-31T16:45:08.9132150Z shell: /bin/bash -e {0}
+2026-10-31T16:45:08.9132330Z env:
+2026-10-31T16:45:08.9132600Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:08.9133130Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.14.10/arm64/lib/pkgconfig
+2026-10-31T16:45:08.9133630Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:08.9134290Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:08.9134750Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:08.9135070Z ##[endgroup]
+2026-10-31T16:45:09.5615120Z ============================= test session starts ==============================
+2026-10-31T16:45:09.5716610Z platform darwin -- Python 3.14.10, pytest-9.1.1, pluggy-1.7.0 -- /Library/Frameworks/Python.framework/Versions/3.14/bin/python
+2026-10-31T16:45:09.5771320Z cachedir: .pytest_cache
+2026-10-31T16:45:09.5835710Z rootdir: /Users/runner/work/pyobjus/pyobjus
+2026-10-31T16:45:09.5837790Z configfile: pyproject.toml
+2026-10-31T16:45:09.5838340Z plugins: cov-7.1.0
+2026-10-31T16:45:09.8584420Z collecting ... collected 202 items
+2026-10-31T16:45:09.8687340Z 
+2026-10-31T16:45:11.6356070Z tests/test_call_memory.py::CallMemoryTest::test_by_reference_args_without_a_value_buffer_do_not_leak PASSED [  0%]
+2026-10-31T16:45:12.0797050Z tests/test_call_memory.py::CallMemoryTest::test_call_raising_during_argument_conversion_does_not_leak PASSED [  0%]
+2026-10-31T16:45:12.8449580Z tests/test_call_memory.py::CallMemoryTest::test_call_returning_its_receiver_does_not_leak PASSED [  1%]
+2026-10-31T16:45:12.8554940Z tests/test_carray.py::CArrayTest::test_carray_bool PASSED                [  1%]
+2026-10-31T16:45:12.8589510Z tests/test_carray.py::CArrayTest::test_carray_char PASSED                [  2%]
+2026-10-31T16:45:19.7960640Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_args_do_not_leak PASSED [  2%]
+2026-10-31T16:45:19.8028810Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_bytes PASSED      [  3%]
+2026-10-31T16:45:19.8060350Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_mixed_str_and_bytes PASSED [  3%]
+2026-10-31T16:45:19.8159710Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_none_is_null PASSED [  4%]
+2026-10-31T16:45:19.8162850Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_rejects_embedded_nul PASSED [  4%]
+2026-10-31T16:45:19.8185560Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_rejects_other_types PASSED [  5%]
+2026-10-31T16:45:19.8209920Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_str PASSED        [  5%]
+2026-10-31T16:45:19.8237720Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_str_non_ascii_is_utf8 PASSED [  6%]
+2026-10-31T16:45:19.8465660Z tests/test_carray.py::CArrayTest::test_carray_char_ptr_str_outlives_python_list PASSED [  6%]
+2026-10-31T16:45:19.8553680Z tests/test_carray.py::CArrayTest::test_carray_class PASSED               [  7%]
+2026-10-31T16:45:19.8578050Z tests/test_carray.py::CArrayTest::test_carray_double PASSED              [  7%]
+2026-10-31T16:45:19.8617200Z tests/test_carray.py::CArrayTest::test_carray_float PASSED               [  8%]
+2026-10-31T16:45:19.8642540Z tests/test_carray.py::CArrayTest::test_carray_int PASSED                 [  8%]
+2026-10-31T16:45:19.8678680Z tests/test_carray.py::CArrayTest::test_carray_long PASSED                [  9%]
+2026-10-31T16:45:19.8710080Z tests/test_carray.py::CArrayTest::test_carray_longlong PASSED            [  9%]
+2026-10-31T16:45:19.8746820Z tests/test_carray.py::CArrayTest::test_carray_multidimensional PASSED    [ 10%]
+2026-10-31T16:45:19.9241300Z tests/test_carray.py::CArrayTest::test_carray_object PASSED              [ 10%]
+2026-10-31T16:45:19.9273030Z tests/test_carray.py::CArrayTest::test_carray_selector PASSED            [ 11%]
+2026-10-31T16:45:19.9299240Z tests/test_carray.py::CArrayTest::test_carray_short PASSED               [ 11%]
+2026-10-31T16:45:19.9326720Z tests/test_carray.py::CArrayTest::test_carray_struct PASSED              [ 12%]
+2026-10-31T16:45:19.9349230Z tests/test_carray.py::CArrayTest::test_carray_uchar PASSED               [ 12%]
+2026-10-31T16:45:19.9377220Z tests/test_carray.py::CArrayTest::test_carray_uint PASSED                [ 13%]
+2026-10-31T16:45:19.9406290Z tests/test_carray.py::CArrayTest::test_carray_ulong PASSED               [ 13%]
+2026-10-31T16:45:19.9434420Z tests/test_carray.py::CArrayTest::test_carray_ulonglong PASSED           [ 14%]
+2026-10-31T16:45:19.9468490Z tests/test_carray.py::CArrayTest::test_carray_ushort PASSED              [ 14%]
+2026-10-31T16:45:19.9675130Z tests/test_carray.py::CArrayTest::test_get_from_ptr_type_code_as_bytes_or_str 
+2026-10-31T16:45:19.9680250Z tests/test_carray.py::CArrayTest::test_get_from_ptr_type_code_as_bytes_or_str PASSED [ 15%]
+2026-10-31T16:45:20.2208820Z tests/test_delegate.py::DelegateTest::test_existing_delegate PASSED      [ 15%]
+2026-10-31T16:45:20.2740410Z tests/test_delegate.py::DelegateTest::test_multiple_delegates PASSED     [ 16%]
+2026-10-31T16:45:20.3393340Z tests/test_delegate.py::DelegateTest::test_user_registration_delegate PASSED [ 16%]
+2026-10-31T16:45:20.3668040Z tests/test_delegate_exceptions.py::DelegateExceptionsTest::test_next_call_into_delegate_succeeds PASSED [ 17%]
+2026-10-31T16:45:20.3781560Z tests/test_delegate_exceptions.py::DelegateExceptionsTest::test_raising_method_returns_zero_and_reports PASSED [ 17%]
+2026-10-31T16:45:20.3878480Z tests/test_delegate_exceptions.py::DelegateExceptionsTest::test_raising_object_method_returns_nil PASSED [ 18%]
+2026-10-31T16:45:20.4045940Z tests/test_delegate_returns.py::DelegateReturnsTest::test_block_argument_reaches_python PASSED [ 18%]
+2026-10-31T16:45:20.4117320Z tests/test_delegate_returns.py::DelegateReturnsTest::test_class_methods_have_responds_and_signature PASSED [ 19%]
+2026-10-31T16:45:20.4218660Z tests/test_delegate_returns.py::DelegateReturnsTest::test_copy_family_returns_retained_object PASSED [ 19%]
+2026-10-31T16:45:20.4245170Z tests/test_delegate_returns.py::DelegateReturnsTest::test_method_signature_unknown_selector_is_null PASSED [ 20%]
+2026-10-31T16:45:20.4358890Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_bool_return PASSED [ 20%]
+2026-10-31T16:45:20.4470090Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_char_return PASSED [ 21%]
+2026-10-31T16:45:20.4584180Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_double_const_qualified_string_return PASSED [ 21%]
+2026-10-31T16:45:20.4689500Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_double_return PASSED [ 22%]
+2026-10-31T16:45:20.4770510Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_float_return PASSED [ 22%]
+2026-10-31T16:45:20.4866610Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_negative_int_return PASSED [ 23%]
+2026-10-31T16:45:20.5010980Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_python_str_return PASSED [ 23%]
+2026-10-31T16:45:20.5094650Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_string_return PASSED [ 24%]
+2026-10-31T16:45:20.5174920Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_uchar_return PASSED [ 24%]
+2026-10-31T16:45:20.5250400Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_uint_return PASSED [ 25%]
+2026-10-31T16:45:20.5362690Z tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_void_return PASSED [ 25%]
+2026-10-31T16:45:20.5463180Z tests/test_delegate_returns.py::DelegateReturnsTest::test_pointer_argument_preserves_pointee_type PASSED [ 26%]
+2026-10-31T16:45:20.5486320Z tests/test_delegate_returns.py::DelegateReturnsTest::test_responds_to_selector_ignores_non_protocol_methods PASSED [ 26%]
+2026-10-31T16:45:20.5521080Z tests/test_delegate_returns.py::DelegateReturnsTest::test_responds_to_selector_returns_bool PASSED [ 27%]
+2026-10-31T16:45:20.5775730Z tests/test_delegate_returns.py::DelegateReturnsTest::test_returning_a_python_delegate_keeps_it_alive PASSED [ 27%]
+2026-10-31T16:45:20.6001800Z tests/test_delegate_returns.py::DelegateReturnsTest::test_unconvertible_return_is_zero PASSED [ 28%]
+2026-10-31T16:45:20.6010350Z tests/test_delegate_returns.py::CleanTypeSpecifierTest::test_strips_every_leading_qualifier PASSED [ 28%]
+2026-10-31T16:45:20.6030140Z tests/test_delegate_returns.py::SelectorReturnsRetainedTest::test_method_families PASSED [ 29%]
+2026-10-31T16:45:20.6233060Z tests/test_delegate_returns.py::CGFloatReturnRegressionTest::test_msgsend_table_height_returns_double PASSED [ 29%]
+2026-10-31T16:45:20.6304430Z tests/test_delegate_returns.py::CGFloatReturnRegressionTest::test_signature_cache_refreshes_when_encoding_changes PASSED [ 30%]
+2026-10-31T16:45:20.6346030Z tests/test_dereference.py::DereferenceTest::test_dereference_basic PASSED [ 30%]
+2026-10-31T16:45:20.6392050Z tests/test_dereference.py::DereferenceTest::test_dereference_selector_void_ptr PASSED [ 31%]
+2026-10-31T16:45:20.6433030Z tests/test_dereference.py::DereferenceTest::test_dereference_with_type PASSED [ 31%]
+2026-10-31T16:45:20.6471880Z tests/test_dereference.py::DereferenceTest::test_selector_pointer PASSED [ 32%]
+2026-10-31T16:45:20.7236130Z tests/test_downstream_call_shapes.py::DownstreamCallShapesTest::test_empty_dict_for_a_dictionary_argument PASSED [ 32%]
+2026-10-31T16:45:20.7607420Z tests/test_downstream_call_shapes.py::DownstreamCallShapesTest::test_enum_values_as_nsuinteger_arguments PASSED [ 33%]
+2026-10-31T16:45:20.7957090Z tests/test_downstream_call_shapes.py::DownstreamCallShapesTest::test_none_for_a_block_argument PASSED [ 33%]
+2026-10-31T16:45:20.8578930Z tests/test_downstream_call_shapes.py::DownstreamCallShapesTest::test_none_for_an_error_argument PASSED [ 34%]
+2026-10-31T16:45:20.9425160Z tests/test_key_value_coding.py::KeyValueCodingTest::test_collection_operators PASSED [ 34%]
+2026-10-31T16:45:21.0003660Z tests/test_key_value_coding.py::KeyValueCodingTest::test_key_path_through_a_nested_object PASSED [ 35%]
+2026-10-31T16:45:21.0343680Z tests/test_key_value_coding.py::KeyValueCodingTest::test_set_and_get_a_value_for_a_key PASSED [ 35%]
+2026-10-31T16:45:21.0428620Z tests/test_literals.py::LiteralsTest::test_array PASSED                  [ 36%]
+2026-10-31T16:45:21.0483490Z tests/test_literals.py::LiteralsTest::test_bool PASSED                   [ 36%]
+2026-10-31T16:45:21.0530040Z tests/test_literals.py::LiteralsTest::test_char PASSED                   [ 37%]
+2026-10-31T16:45:21.1195100Z tests/test_literals.py::LiteralsTest::test_dict PASSED                   [ 37%]
+2026-10-31T16:45:21.1256380Z tests/test_literals.py::LiteralsTest::test_double PASSED                 [ 38%]
+2026-10-31T16:45:21.1319460Z tests/test_literals.py::LiteralsTest::test_integer PASSED                [ 38%]
+2026-10-31T16:45:21.1402680Z tests/test_literals.py::LiteralsTest::test_string PASSED                 [ 39%]
+2026-10-31T16:45:21.1533760Z tests/test_literals.py::LiteralsTest::test_unsigned_long_and_float PASSED [ 39%]
+2026-10-31T16:45:21.1647280Z tests/test_load_framework.py::TestLoadFrameworkNSBundle::test_bundle_without_binary_raises_and_suggests_dlopen PASSED [ 40%]
+2026-10-31T16:45:21.1696790Z tests/test_load_framework.py::TestLoadFrameworkNSBundle::test_loads_system_framework PASSED [ 40%]
+2026-10-31T16:45:21.1766530Z tests/test_load_framework.py::TestLoadFrameworkNSBundle::test_missing_path_raises PASSED [ 41%]
+2026-10-31T16:45:21.1940020Z tests/test_load_framework.py::TestLoadFrameworkNSBundle::test_trailing_slash_names_the_same_binary PASSED [ 41%]
+2026-10-31T16:45:21.1941060Z tests/test_load_framework.py::TestLoadFrameworkIOS::test_loads_real_framework PASSED [ 42%]
+2026-10-31T16:45:21.1942220Z tests/test_load_framework.py::TestLoadFrameworkIOS::test_missing_framework_raises_with_dlopen_reason PASSED [ 42%]
+2026-10-31T16:45:21.1958190Z tests/test_load_framework.py::TestLoadFrameworkIOS::test_opens_binary_with_dlopen PASSED [ 43%]
+2026-10-31T16:45:21.7039720Z tests/test_load_framework.py::TestMakeDylib::test_compile_and_call_user_class PASSED [ 43%]
+2026-10-31T16:45:21.7072160Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_all_primitive_types_bytes_encoding 
+2026-10-31T16:45:21.7074170Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_all_primitive_types_bytes_encoding PASSED [ 44%]
+2026-10-31T16:45:21.7102920Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_double_fields_bytes_encoding PASSED [ 44%]
+2026-10-31T16:45:21.7111100Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_float_fields_bytes_encoding PASSED [ 45%]
+2026-10-31T16:45:21.7119240Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_mixed_primitive_fields_bytes_encoding PASSED [ 45%]
+2026-10-31T16:45:21.7127870Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_named_double_fields_bytes_encoding PASSED [ 46%]
+2026-10-31T16:45:21.7135650Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_named_mixed_fields_bytes_encoding PASSED [ 46%]
+2026-10-31T16:45:21.7142880Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_nested_anonymous_structs PASSED [ 47%]
+2026-10-31T16:45:21.7150690Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_nested_named_struct PASSED [ 47%]
+2026-10-31T16:45:21.7159740Z tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_nested_registered_struct PASSED [ 48%]
+2026-10-31T16:45:21.7458880Z tests/test_ns_dictionary.py::NSMutableDictionaryTest::test_set_object_and_enumerate PASSED [ 48%]
+2026-10-31T16:45:21.7676120Z tests/test_ns_mutable_array.py::NSMutableArrayTest::test_add PASSED      [ 49%]
+2026-10-31T16:45:21.7756960Z tests/test_ns_mutable_array.py::NSMutableArrayTest::test_count PASSED    [ 49%]
+2026-10-31T16:45:21.7902280Z tests/test_ns_mutable_array.py::NSMutableArrayTest::test_insert_at_index PASSED [ 50%]
+2026-10-31T16:45:21.8006130Z tests/test_ns_mutable_array.py::NSMutableArrayTest::test_remove_at_index PASSED [ 50%]
+2026-10-31T16:45:21.8115050Z tests/test_ns_mutable_array.py::NSMutableArrayTest::test_remove_object PASSED [ 50%]
+2026-10-31T16:45:21.8282590Z tests/test_ns_mutable_array.py::NSMutableArrayTest::test_replace PASSED  [ 51%]
+2026-10-31T16:45:21.8404860Z tests/test_ns_mutable_array.py::NSMutableArrayTest::test_return_object PASSED [ 51%]
+2026-10-31T16:45:21.8554050Z tests/test_nsarray.py::test_objc_arr_behaviour[empty array] PASSED       [ 52%]
+2026-10-31T16:45:21.8856210Z tests/test_nsarray.py::test_objc_arr_behaviour[non empty array] PASSED   [ 52%]
+2026-10-31T16:45:21.8918040Z tests/test_nsarray.py::test_objc_arr_adds_nil[empty array] PASSED        [ 53%]
+2026-10-31T16:45:21.9175630Z tests/test_nsarray.py::test_objc_arr_adds_nil[non empty array] PASSED    [ 53%]
+2026-10-31T16:45:21.9365250Z tests/test_nsarray.py::test_enumerator_returns_none_past_the_end PASSED  [ 54%]
+2026-10-31T16:45:21.9573620Z tests/test_nsarray.py::test_nsarray_contains_its_object PASSED           [ 54%]
+2026-10-31T16:45:21.9618200Z tests/test_nsobject.py::NSObject::test_debugDescription PASSED           [ 55%]
+2026-10-31T16:45:21.9665640Z tests/test_nsobject.py::NSObject::test_description PASSED                [ 55%]
+2026-10-31T16:45:21.9682520Z tests/test_nsobject.py::NSObject::test_hash PASSED                       [ 56%]
+2026-10-31T16:45:21.9799790Z tests/test_nsobject.py::NSObject::test_inheritance PASSED                [ 56%]
+2026-10-31T16:45:21.9825290Z tests/test_nsobject.py::NSObject::test_isequal PASSED                    [ 57%]
+2026-10-31T16:45:21.9835000Z tests/test_nsobject.py::NSObject::test_isproxy PASSED                    [ 57%]
+2026-10-31T16:45:21.9912590Z tests/test_nsobject.py::NSObject::test_responds_to_selector PASSED       [ 58%]
+2026-10-31T16:45:21.9928040Z tests/test_nsobject.py::NSObject::test_self PASSED                       [ 58%]
+2026-10-31T16:45:22.0002810Z tests/test_nsstring.py::NSObject::test_capitalizedString PASSED          [ 59%]
+2026-10-31T16:45:22.0050900Z tests/test_nsstring.py::NSObject::test_charactersatindex PASSED          [ 59%]
+2026-10-31T16:45:22.0177850Z tests/test_nsstring.py::NSObject::test_compare PASSED                    [ 60%]
+2026-10-31T16:45:22.0235290Z tests/test_nsstring.py::NSObject::test_fastestEncoding PASSED            [ 60%]
+2026-10-31T16:45:22.0362430Z tests/test_nsstring.py::NSObject::test_hasPrefix PASSED                  [ 61%]
+2026-10-31T16:45:22.0455400Z tests/test_nsstring.py::NSObject::test_hasSuffix PASSED                  [ 61%]
+2026-10-31T16:45:22.0502900Z tests/test_nsstring.py::NSObject::test_hash PASSED                       [ 62%]
+2026-10-31T16:45:22.0603510Z tests/test_nsstring.py::NSObject::test_isAbsolutePath PASSED             [ 62%]
+2026-10-31T16:45:22.0654600Z tests/test_nsstring.py::NSObject::test_length PASSED                     [ 63%]
+2026-10-31T16:45:22.0760250Z tests/test_nsstring.py::NSObject::test_lengthEncoding PASSED             [ 63%]
+2026-10-31T16:45:22.0815610Z tests/test_nsstring.py::NSObject::test_lineRangeForRange PASSED          [ 64%]
+2026-10-31T16:45:22.0887900Z tests/test_nsstring.py::NSObject::test_non_ascii PASSED                  [ 64%]
+2026-10-31T16:45:22.0977560Z tests/test_nsstring.py::NSObject::test_outside_the_basic_multilingual_plane PASSED [ 65%]
+2026-10-31T16:45:22.1065310Z tests/test_nsstring.py::NSObject::test_rangeOfString PASSED              [ 65%]
+2026-10-31T16:45:22.1131570Z tests/test_nsstring.py::NSObject::test_substringWithRange PASSED         [ 66%]
+2026-10-31T16:45:22.1182200Z tests/test_nsstring.py::NSObject::test_utf8 PASSED                       [ 66%]
+2026-10-31T16:45:22.1231080Z tests/test_nsstring.py::NSObject::test_utf8string PASSED                 [ 67%]
+2026-10-31T16:45:22.1278860Z tests/test_nsvalue.py::NSValueTest::test_objCType SKIPPED (Segfault ...) [ 67%]
+2026-10-31T16:45:22.1420840Z tests/test_nsvalue.py::NSValueTest::test_valueWithPoint PASSED           [ 68%]
+2026-10-31T16:45:22.1443270Z tests/test_nsvalue.py::NSValueTest::test_valueWithRange PASSED           [ 68%]
+2026-10-31T16:45:22.1465460Z tests/test_nsvalue.py::NSValueTest::test_valueWithRangePointer PASSED    [ 69%]
+2026-10-31T16:45:22.1481550Z tests/test_nsvalue.py::NSValueTest::test_valueWithRect SKIPPED (Segf...) [ 69%]
+2026-10-31T16:45:22.1503080Z tests/test_nsvalue.py::NSValueTest::test_valueWithRectPointer PASSED     [ 70%]
+2026-10-31T16:45:22.1527440Z tests/test_nsvalue.py::NSValueTest::test_valueWithSize PASSED            [ 70%]
+2026-10-31T16:45:22.1566920Z tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_different_objects_are_not_equal 
+2026-10-31T16:45:22.1568570Z tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_different_objects_are_not_equal PASSED [ 71%]
+2026-10-31T16:45:22.1607850Z tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_method_returning_its_receiver_returns_the_receiver PASSED [ 71%]
+2026-10-31T16:45:22.1623980Z tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_not_equal_to_non_objc_values PASSED [ 72%]
+2026-10-31T16:45:22.1687250Z tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_objects_as_dict_keys PASSED [ 72%]
+2026-10-31T16:45:22.1937730Z tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_same_object_through_two_wrappers 
+2026-10-31T16:45:22.1944300Z tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_same_object_through_two_wrappers PASSED [ 73%]
+2026-10-31T16:45:22.2152120Z tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_weak_reference_to_a_wrapper PASSED [ 73%]
+2026-10-31T16:45:22.2459700Z tests/test_object_lifecycle.py::ObjectLifecycleTest::test_alloc XFAIL    [ 74%]
+2026-10-31T16:45:22.2778840Z tests/test_object_lifecycle.py::ObjectLifecycleTest::test_alloc_init XFAIL [ 74%]
+2026-10-31T16:45:22.3156680Z tests/test_object_lifecycle.py::ObjectLifecycleTest::test_copy XFAIL     [ 75%]
+2026-10-31T16:45:22.3302100Z tests/test_object_lifecycle.py::ObjectLifecycleTest::test_copy_and_init_return_new_objects PASSED [ 75%]
+2026-10-31T16:45:22.3779440Z tests/test_object_lifecycle.py::ObjectLifecycleTest::test_init_returning_another_object XFAIL [ 76%]
+2026-10-31T16:45:22.4184970Z tests/test_object_lifecycle.py::ObjectLifecycleTest::test_mutable_copy XFAIL [ 76%]
+2026-10-31T16:45:22.4546510Z tests/test_object_lifecycle.py::ObjectLifecycleTest::test_new XFAIL      [ 77%]
+2026-10-31T16:45:22.4802190Z tests/test_object_lifecycle.py::ObjectLifecycleTest::test_returned_object PASSED [ 77%]
+2026-10-31T16:45:22.4861040Z tests/test_partial_load.py::PartialLoadTest::test_partial_class_methods_bytes PASSED [ 78%]
+2026-10-31T16:45:22.4912790Z tests/test_partial_load.py::PartialLoadTest::test_partial_class_methods_str PASSED [ 78%]
+2026-10-31T16:45:22.5124270Z tests/test_partial_load.py::PartialLoadTest::test_partial_instance_methods_bytes PASSED [ 79%]
+2026-10-31T16:45:22.5412110Z tests/test_partial_load.py::PartialLoadTest::test_partial_instance_methods_str PASSED [ 79%]
+2026-10-31T16:45:22.5521600Z tests/test_partial_load.py::PartialLoadTest::test_reset_autoclass_loads_all_methods PASSED [ 80%]
+2026-10-31T16:45:22.6200430Z tests/test_plyer_usage.py::PlyerUsageTest::test_audio_format_mixes_int_double_and_bool PASSED [ 80%]
+2026-10-31T16:45:22.7096090Z tests/test_plyer_usage.py::PlyerUsageTest::test_location_delegate_keeps_authorization_status_an_int PASSED [ 81%]
+2026-10-31T16:45:22.7415280Z tests/test_plyer_usage.py::PlyerUsageTest::test_notification_delegate_returns_objcbool PASSED [ 81%]
+2026-10-31T16:45:22.8521510Z tests/test_plyer_usage.py::PlyerUsageTest::test_python_str_is_accepted_as_nsstring PASSED [ 82%]
+2026-10-31T16:45:22.8697370Z tests/test_properties.py::ObjcPropertyTest::test_basic_properties PASSED [ 82%]
+2026-10-31T16:45:22.8723050Z tests/test_properties.py::ObjcPropertyTest::test_custom_getter_properties PASSED [ 83%]
+2026-10-31T16:45:22.8745650Z tests/test_properties.py::ObjcPropertyTest::test_custom_setter_properties PASSED [ 83%]
+2026-10-31T16:45:22.8848430Z tests/test_properties.py::ObjcPropertyTest::test_dynamic_properties PASSED [ 84%]
+2026-10-31T16:45:22.8933330Z tests/test_properties.py::ObjcPropertyTest::test_pointer_property_keeps_the_assigned_value PASSED [ 84%]
+2026-10-31T16:45:22.8962850Z tests/test_properties.py::ObjcPropertyTest::test_readonly_properties PASSED [ 85%]
+2026-10-31T16:45:22.9918780Z tests/test_py_dict_conversion.py::test_convert_py_to_nsobject_keeps_dict_keys PASSED [ 85%]
+2026-10-31T16:45:23.0401820Z tests/test_py_dict_conversion.py::test_dict_passed_as_objc_argument_keeps_keys PASSED [ 86%]
+2026-10-31T16:45:23.1435530Z tests/test_reentrant_call.py::ReentrantCallTest::test_nested_lists_convert PASSED [ 86%]
+2026-10-31T16:45:23.8264400Z tests/test_reentrant_call.py::ReentrantCallTest::test_nested_lists_stay_in_bounds PASSED [ 87%]
+2026-10-31T16:45:23.8358030Z tests/test_simple.py::HelloWorldTest::test_autoclass PASSED              [ 87%]
+2026-10-31T16:45:23.8437410Z tests/test_simple.py::HelloWorldTest::test_autoclass2 PASSED             [ 88%]
+2026-10-31T16:45:23.8458370Z tests/test_simple.py::HelloWorldTest::test_char_ptr_rejects_embedded_nul PASSED [ 88%]
+2026-10-31T16:45:23.8508820Z tests/test_struct_arg_by_value.py::TestStructArgByValue::test_bit_field_struct_arg_raises_clear_error PASSED [ 89%]
+2026-10-31T16:45:23.8618200Z tests/test_struct_arg_by_value.py::TestStructArgByValue::test_nested_struct_in_float_registers PASSED [ 89%]
+2026-10-31T16:45:23.8701000Z tests/test_struct_arg_by_value.py::TestStructArgByValue::test_nested_unregistered_struct_round_trips PASSED [ 90%]
+2026-10-31T16:45:24.0379080Z tests/test_struct_arg_by_value.py::TestStructArgByValue::test_rect_arg_does_not_overrun_heap PASSED [ 90%]
+2026-10-31T16:45:25.7643370Z tests/test_struct_arg_by_value.py::TestStructArgByValue::test_rect_round_trips PASSED [ 91%]
+2026-10-31T16:45:25.9230330Z tests/test_struct_arg_by_value.py::TestStructArgByValue::test_unregistered_struct_round_trips PASSED [ 91%]
+2026-10-31T16:45:25.9330070Z tests/test_type_round_trip.py::TypeRoundTripTest::test_integer_limits 
+2026-10-31T16:45:25.9431530Z tests/test_type_round_trip.py::TypeRoundTripTest::test_integer_limits PASSED [ 92%]
+2026-10-31T16:45:25.9532990Z tests/test_type_round_trip.py::TypeRoundTripTest::test_not_enough_arguments PASSED [ 92%]
+2026-10-31T16:45:25.9635490Z tests/test_type_round_trip.py::TypeRoundTripTest::test_object_selector_and_class PASSED [ 93%]
+2026-10-31T16:45:25.9837030Z tests/test_type_round_trip.py::TypeRoundTripTest::test_opaque_pointer_round_trip PASSED [ 93%]
+2026-10-31T16:45:25.9938350Z tests/test_type_round_trip.py::TypeRoundTripTest::test_pointers_including_nil PASSED [ 94%]
+2026-10-31T16:45:26.0038580Z tests/test_type_round_trip.py::TypeRoundTripTest::test_scalar_and_char_ptr_echo 
+2026-10-31T16:45:26.0139360Z tests/test_type_round_trip.py::TypeRoundTripTest::test_scalar_and_char_ptr_echo PASSED [ 94%]
+2026-10-31T16:45:26.0241640Z tests/test_type_round_trip.py::TypeRoundTripTest::test_unregistered_struct_name PASSED [ 95%]
+2026-10-31T16:45:26.0342400Z tests/test_union.py::Union::test_dereference PASSED                      [ 95%]
+2026-10-31T16:45:26.0452990Z tests/test_union.py::Union::test_passing_union_by_value_raises PASSED    [ 96%]
+2026-10-31T16:45:26.0554080Z tests/test_union.py::Union::test_passing_union_pointer PASSED            [ 96%]
+2026-10-31T16:45:26.0599440Z tests/test_union.py::Union::test_passing_values PASSED                   [ 97%]
+2026-10-31T16:45:26.0600140Z tests/test_union.py::Union::test_returning_values PASSED                 [ 97%]
+2026-10-31T16:45:26.0600690Z tests/test_unknown_types.py::UnknownTypesTest::test_generatingByMembers PASSED [ 98%]
+2026-10-31T16:45:26.0601320Z tests/test_unknown_types.py::UnknownTypesTest::test_generatingUnknownType PASSED [ 98%]
+2026-10-31T16:45:26.0602150Z tests/test_unknown_types.py::UnknownTypesTest::test_members_and_use_as_argument PASSED [ 99%]
+2026-10-31T16:45:26.0602810Z tests/test_unknown_types.py::UnknownTypesTest::test_obtainMembers PASSED [ 99%]
+2026-10-31T16:45:26.2841290Z tests/test_unknown_types.py::UnknownTypesTest::test_usingIMP PASSED      [100%]
+2026-10-31T16:45:26.2841680Z 
+2026-10-31T16:45:26.2841860Z ================================ tests coverage ================================
+2026-10-31T16:45:26.2842300Z ______________ coverage: platform darwin, python 3.14.10-final-0 _______________
+2026-10-31T16:45:26.2842560Z 
+2026-10-31T16:45:26.2842720Z Coverage XML written to file coverage.xml
+2026-10-31T16:45:26.2843170Z ======== 194 passed, 2 skipped, 6 xfailed, 56 subtests passed in 16.69s ========
+2026-10-31T16:45:26.2843550Z 00
+2026-10-31T16:45:26.2843740Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2844030Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2844270Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2844550Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2844820Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2845040Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2845300Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2845590Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2845930Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2846200Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2846480Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2846750Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2846980Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2847290Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2847650Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2847890Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2848170Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2848400Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2848680Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2848910Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2849200Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2849440Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2850080Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2850360Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2850700Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2851140Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2851420Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2852190Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2852540Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2852830Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2853060Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2853350Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2853580Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2853870Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2854120Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2854430Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2854710Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2855170Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2855420Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2855770Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2856060Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2856280Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2856470Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2856640Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2856860Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2857080Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2857460Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2857800Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2857990Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2858390Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2858770Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2859240Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2859980Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2860200Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2860400Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2860570Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2860740Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2860910Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2861080Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2861260Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2861430Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2861600Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2861800Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2862010Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2862220Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2862790Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2862960Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2863150Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2863370Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2863590Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2863770Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2863990Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2864210Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2864380Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2864550Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2864760Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2864970Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2865170Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2865400Z values --> 20.000000 40.000000
+2026-10-31T16:45:26.2865620Z selector printed me!
+2026-10-31T16:45:26.2865780Z selector printed me!
+2026-10-31T16:45:26.2865940Z selector printed me!
+2026-10-31T16:45:26.2866090Z Hello from Objective C
+2026-10-31T16:45:26.2866260Z values --> 10.000000 30.000000
+2026-10-31T16:45:26.2866430Z 20.000000
+2026-10-31T16:45:26.4387030Z ##[group]Run coverallsapp/github-action@v2
+2026-10-31T16:45:26.4387400Z with:
+2026-10-31T16:45:26.4387540Z   file: coverage.xml
+2026-10-31T16:45:26.4387690Z   base-path: pyobjus
+2026-10-31T16:45:26.4387840Z   fail-on-error: false
+2026-10-31T16:45:26.4389760Z   github-token: ***
+2026-10-31T16:45:26.4389950Z   coveralls-endpoint: https://coveralls.io
+2026-10-31T16:45:26.4390160Z   allow-empty: false
+2026-10-31T16:45:26.4390310Z   debug: false
+2026-10-31T16:45:26.4390450Z   measure: false
+2026-10-31T16:45:26.4390610Z   coverage-reporter-version: latest
+2026-10-31T16:45:26.4390830Z   coverage-reporter-platform: auto-detect
+2026-10-31T16:45:26.4391040Z env:
+2026-10-31T16:45:26.4391260Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.4391670Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.14.10/arm64/lib/pkgconfig
+2026-10-31T16:45:26.4392100Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.4392510Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.4392880Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.4393160Z ##[endgroup]
+2026-10-31T16:45:26.4481910Z ##[start-action display=Report coverage-reporter-version exception for macOS;id=__coverallsapp_github-action.__run]
+2026-10-31T16:45:26.4489360Z ##[end-action id=__coverallsapp_github-action.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-31T16:45:26.4491620Z ##[start-action display=Report coverage-reporter-platform exception for macOS;id=__coverallsapp_github-action.__run_2]
+2026-10-31T16:45:26.4523960Z ##[group]Run echo "Warning: The coverage-reporter-platform parameter is not available on macOS. The default version for macOS will be used." >&2
+2026-10-31T16:45:26.4525040Z echo "Warning: The coverage-reporter-platform parameter is not available on macOS. The default version for macOS will be used." >&2
+2026-10-31T16:45:26.4569000Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-31T16:45:26.4569330Z env:
+2026-10-31T16:45:26.4569590Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.4570070Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.14.10/arm64/lib/pkgconfig
+2026-10-31T16:45:26.4570640Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.4571010Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.4571380Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.4571650Z ##[endgroup]
+2026-10-31T16:45:26.5049950Z Warning: The coverage-reporter-platform parameter is not available on macOS. The default version for macOS will be used.
+2026-10-31T16:45:26.5063020Z ##[end-action id=__coverallsapp_github-action.__run_2;outcome=success;conclusion=success;duration_ms=56]
+2026-10-31T16:45:26.5082460Z ##[start-action display=Install coveralls reporter (macOS);id=__coverallsapp_github-action.__run_3]
+2026-10-31T16:45:26.5145680Z ##[group]Run # Enable debugging if 'debug' is true
+2026-10-31T16:45:26.5146540Z # Enable debugging if 'debug' is true
+2026-10-31T16:45:26.5147210Z [ "false" == "true" ] && set -x
+2026-10-31T16:45:26.5147920Z 
+2026-10-31T16:45:26.5148450Z # Try to install coverage-reporter via Homebrew.
+2026-10-31T16:45:26.5149430Z # The fully-qualified formula name auto-taps the repo and trusts only
+2026-10-31T16:45:26.5150450Z # this formula, as required by tap trust in Homebrew 6.0.0+.
+2026-10-31T16:45:26.5151410Z if ! brew install coverallsapp/coveralls/coveralls --quiet; then
+2026-10-31T16:45:26.5152420Z   echo "Failed to install coveralls via Homebrew (macOS)."
+2026-10-31T16:45:26.5153210Z   [ "false" == "false" ] && exit 0
+2026-10-31T16:45:26.5153760Z   exit 1
+2026-10-31T16:45:26.5154160Z fi
+2026-10-31T16:45:26.5154550Z 
+2026-10-31T16:45:26.5156380Z # Check if the binary exists in the possible locations
+2026-10-31T16:45:26.5157570Z if [ -f /usr/local/bin/coveralls ]; then
+2026-10-31T16:45:26.5157890Z   echo "/usr/local/bin" >> $GITHUB_PATH
+2026-10-31T16:45:26.5158180Z elif [ -f /opt/homebrew/bin/coveralls ]; then
+2026-10-31T16:45:26.5158740Z   echo "/opt/homebrew/bin" >> $GITHUB_PATH
+2026-10-31T16:45:26.5159120Z else
+2026-10-31T16:45:26.5159450Z   echo "Coveralls binary not found after installation (macOS)."
+2026-10-31T16:45:26.5160290Z   [ "false" == "false" ] && exit 0
+2026-10-31T16:45:26.5161110Z   exit 1
+2026-10-31T16:45:26.5161540Z fi
+2026-10-31T16:45:26.5206140Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-31T16:45:26.5206450Z env:
+2026-10-31T16:45:26.5206730Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.5207180Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.14.10/arm64/lib/pkgconfig
+2026-10-31T16:45:26.5207620Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.5208000Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.5208390Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:26.5208840Z ##[endgroup]
+2026-10-31T16:45:28.1981420Z ==> Tapping coverallsapp/coveralls
+2026-10-31T16:45:28.2352110Z Cloning into '/opt/homebrew/Library/Taps/coverallsapp/homebrew-coveralls'...
+2026-10-31T16:45:29.5112130Z Tapped 1 formula (17 files, 167.6KB).
+2026-10-31T16:45:30.3477950Z ==> Trusted formula coverallsapp/coveralls/coveralls
+2026-10-31T16:45:31.9481250Z ==> Would install 1 formula:
+2026-10-31T16:45:31.9488170Z coverallsapp/coveralls/coveralls 0.6.22
+2026-10-31T16:45:31.9495150Z ==> Would install 2 dependencies for coveralls:
+2026-10-31T16:45:31.9496540Z bdw-gc    8.2.12
+2026-10-31T16:45:31.9497800Z libevent  2.1.13_1
+2026-10-31T16:45:32.3834660Z ==> Fetching downloads for: coveralls
+2026-10-31T16:45:32.6162800Z ✔︎ Bottle Manifest bdw-gc (8.2.12)
+2026-10-31T16:45:32.6402020Z ✔︎ Bottle Manifest libevent (2.1.13_1)
+2026-10-31T16:45:34.4624640Z ✔︎ Bottle coveralls (0.6.22)
+2026-10-31T16:45:34.4727560Z ✔︎ Bottle libevent (2.1.13_1)
+2026-10-31T16:45:34.4844960Z ✔︎ Bottle bdw-gc (8.2.12)
+2026-10-31T16:45:34.4847700Z ==> Installing coveralls from coverallsapp/coveralls
+2026-10-31T16:45:34.5716220Z ==> Installing dependencies for coverallsapp/coveralls/coveralls: bdw-gc and libevent
+2026-10-31T16:45:34.5717880Z ==> Installing coverallsapp/coveralls/coveralls dependency: bdw-gc (8.2.12)
+2026-10-31T16:45:34.5810300Z ==> Pouring bdw-gc--8.2.12.arm64_tahoe.bottle.tar.gz
+2026-10-31T16:45:36.1724480Z 🍺  /opt/homebrew/Cellar/bdw-gc/8.2.12: 82 files, 1.8MB
+2026-10-31T16:45:36.1726710Z ==> Installing coverallsapp/coveralls/coveralls dependency: libevent (2.1.13_1)
+2026-10-31T16:45:36.1857360Z ==> Pouring libevent--2.1.13_1.arm64_tahoe.bottle.tar.gz
+2026-10-31T16:45:37.5704230Z 🍺  /opt/homebrew/Cellar/libevent/2.1.13_1: 58 files, 2.3MB
+2026-10-31T16:45:37.5706480Z ==> Installing coverallsapp/coveralls/coveralls
+2026-10-31T16:45:38.4535570Z ==> Pouring coveralls-0.6.22.arm64_tahoe.bottle.tar.gz
+2026-10-31T16:45:40.2107770Z 🍺  /opt/homebrew/Cellar/coveralls/0.6.22: 6 files, 1.5MB
+2026-10-31T16:45:40.2503230Z ##[end-action id=__coverallsapp_github-action.__run_3;outcome=success;conclusion=success;duration_ms=13734]
+2026-10-31T16:45:40.2521690Z ##[start-action display=Install coveralls reporter (Linux);id=__coverallsapp_github-action.__run_4]
+2026-10-31T16:45:40.2528190Z ##[end-action id=__coverallsapp_github-action.__run_4;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-31T16:45:40.2531570Z ##[start-action display=Report coverage-reporter-platform exception for Windows;id=__coverallsapp_github-action.__run_5]
+2026-10-31T16:45:40.2551200Z ##[end-action id=__coverallsapp_github-action.__run_5;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-31T16:45:40.2555500Z ##[start-action display=Install coveralls reporter (Windows);id=__coverallsapp_github-action.__run_6]
+2026-10-31T16:45:40.2559660Z ##[end-action id=__coverallsapp_github-action.__run_6;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-31T16:45:40.2563500Z ##[start-action display=Done report (Unix);id=__coverallsapp_github-action.__run_7]
+2026-10-31T16:45:40.2571340Z ##[end-action id=__coverallsapp_github-action.__run_7;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-31T16:45:40.2576140Z ##[start-action display=Done report (Windows);id=__coverallsapp_github-action.__run_8]
+2026-10-31T16:45:40.2580980Z ##[end-action id=__coverallsapp_github-action.__run_8;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-31T16:45:40.2618270Z ##[start-action display=Coverage report (Unix);id=__coverallsapp_github-action.__run_9]
+2026-10-31T16:45:40.2668870Z ##[group]Run # Check if coveralls binary exists
+2026-10-31T16:45:40.2671780Z # Check if coveralls binary exists
+2026-10-31T16:45:40.2674460Z if ! command -v coveralls &> /dev/null; then
+2026-10-31T16:45:40.2675970Z   echo "Coveralls binary not found. Skipping coverage report."
+2026-10-31T16:45:40.2677320Z   [ "false" == "false" ] && exit 0
+2026-10-31T16:45:40.2679900Z   exit 1
+2026-10-31T16:45:40.2681960Z fi
+2026-10-31T16:45:40.2682380Z coveralls report   --no-fail  --base-path pyobjus   coverage.xml 
+2026-10-31T16:45:40.2809550Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-31T16:45:40.2810080Z env:
+2026-10-31T16:45:40.2810420Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:40.2811760Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.14.10/arm64/lib/pkgconfig
+2026-10-31T16:45:40.2812720Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:40.2813240Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:40.2813780Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.14.10/arm64
+2026-10-31T16:45:40.2814370Z   COVERALLS_DEBUG: false
+2026-10-31T16:45:40.2814780Z   COVERALLS_CARRYFORWARD_FLAGS: 
+2026-10-31T16:45:40.2814980Z   COVERALLS_FLAG_NAME: 
+2026-10-31T16:45:40.2815220Z   COVERALLS_PARALLEL: 
+2026-10-31T16:45:40.2815430Z   COVERALLS_ENDPOINT: https://coveralls.io
+2026-10-31T16:45:40.2815820Z   COVERALLS_GIT_BRANCH: 
+2026-10-31T16:45:40.2815990Z   COVERALLS_GIT_COMMIT: 
+2026-10-31T16:45:40.2818610Z   COVERALLS_REPO_TOKEN: ***
+2026-10-31T16:45:40.2818870Z   COVERALLS_COMPARE_REF: 
+2026-10-31T16:45:40.2819120Z   COVERALLS_COMPARE_SHA: 
+2026-10-31T16:45:40.2819520Z   COVERALLS_SOURCE_HEADER: github-action
+2026-10-31T16:45:40.2819830Z ##[endgroup]
+2026-10-31T16:45:40.4115500Z  
+2026-10-31T16:45:40.4116700Z ⠀⠀⠀⠀⠀⠀⣿
+2026-10-31T16:45:40.4117750Z ⠀⠀⠀⠀⠀⣼⣿⣧⠀⠀⠀⠀⠀⠀⠀ ⣠⣶⣾⣿⡇⢀⣴⣾⣿⣷⣆ ⣿⣿⠀⣰⣿⡟⢸⣿⣿⣿⡇ ⣿⣿⣿⣷⣦⠀⠀⢠⣿⣿⣿⠀⠀⣿⣿⠁⠀⣼⣿⡇⠀⢀⣴⣾⣿⡷
+2026-10-31T16:45:40.4118290Z ⠶⣶⣶⣶⣾⣿⣿⣿⣷⣶⣶⣶⠶  ⣸⣿⡟ ⠀⢠⣿⣿⠃⠈⣿⣿⠀⣿⣿⢠⣿⡿⠀⣿⣿⣧⣤⠀⢸⣿⡇⣠⣿⡿⠀⢠⣿⡟⣿⣿⠀⢸⣿⡿⠀⠀⣿⣿⠃⠀⢸⣿⣧⣄
+2026-10-31T16:45:40.4118800Z ⠀⠀⠙⢻⣿⣿⣿⣿⣿⡟⠋⠁⠀⠀ ⣿⣿⡇⠀ ⢸⣿⣿⠀⣸⣿⡟⠀⣿⣿⣾⡿⠁ ⣿⣿⠛⠛⠀⣿⣿⢿⣿⣏⠀⢀⣿⣿⣁⣿⣿⠀⣾⣿⡇⠀⢸⣿⡿⠀⠀⡀⠙⣿⣿⡆
+2026-10-31T16:45:40.4119300Z ⠀⠀⢠⣿⣿⣿⠿⣿⣿⣿⡄⠀⠀⠀ ⠙⢿⣿⣿⠇⠈⠿⣿⣿⡿⠋⠀⠀⢿⣿⡿⠁⠀⢸⣿⣿⣿⡇⢸⣿⣿⠀⣿⣿⣄⣾⣿⠛⠛⣿⣿⢠⣿⣿⣿ ⣼⣿⣿⣿ ⣿⣿⡿⠋⠀
+2026-10-31T16:45:40.4119660Z ⠀⢀⣾⠟⠋⠀⠀⠀⠙⠻⣷⡀⠀⠀
+2026-10-31T16:45:40.4119900Z  
+2026-10-31T16:45:40.4120100Z   v0.6.22
+2026-10-31T16:45:40.4120240Z 
+2026-10-31T16:45:40.4120470Z 📄 Using coverage file: coverage.xml
+2026-10-31T16:45:40.4773590Z 🚀 Posting coverage data to https://coveralls.io/api/v1/jobs
+2026-10-31T16:45:43.4229520Z ---
+2026-10-31T16:45:43.4356290Z ✅ API Response: {"message":"Job #41220927715.1","url":"https://coveralls.io/jobs/190657186"}
+2026-10-31T16:45:43.4458650Z - 💛, Coveralls
+2026-10-31T16:45:43.4500510Z ##[end-action id=__coverallsapp_github-action.__run_9;outcome=success;conclusion=success;duration_ms=3186]
+2026-10-31T16:45:43.4508140Z ##[start-action display=Coverage report (Windows);id=__coverallsapp_github-action.__run_10]
+2026-10-31T16:45:43.4514570Z ##[end-action id=__coverallsapp_github-action.__run_10;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-31T16:45:43.4734810Z Post job cleanup.
+2026-10-31T16:45:44.2312350Z Post job cleanup.
+2026-10-31T16:45:44.4360320Z [command]/opt/homebrew/bin/git version
+2026-10-31T16:45:44.4491340Z git version 2.56.0
+2026-10-31T16:45:44.4574460Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/da0b491b-bd0d-4554-a72c-dbac05070100/.gitconfig'
+2026-10-31T16:45:44.4576840Z Temporarily overriding HOME='/Users/runner/work/_temp/da0b491b-bd0d-4554-a72c-dbac05070100' before making global git config changes
+2026-10-31T16:45:44.4577610Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-31T16:45:44.4578350Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/pyobjus/pyobjus
+2026-10-31T16:45:44.4675150Z Removing SSH command configuration
+2026-10-31T16:45:44.4675760Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-31T16:45:44.4891320Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-31T16:45:44.6318120Z Removing HTTP extra header
+2026-10-31T16:45:44.6322940Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-31T16:45:44.6425700Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-31T16:45:44.8370170Z Removing includeIf entries pointing to credentials config files
+2026-10-31T16:45:44.8404310Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-31T16:45:44.8405040Z includeif.gitdir:/Users/runner/work/pyobjus/pyobjus/.git.path
+2026-10-31T16:45:44.8405610Z includeif.gitdir:/Users/runner/work/pyobjus/pyobjus/.git/worktrees/*.path
+2026-10-31T16:45:44.8406290Z includeif.gitdir:/github/workspace/.git.path
+2026-10-31T16:45:44.8406820Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-31T16:45:44.8408210Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/pyobjus/pyobjus/.git.path
+2026-10-31T16:45:44.8409010Z /Users/runner/work/_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config
+2026-10-31T16:45:44.8420640Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/pyobjus/pyobjus/.git.path \/Users\/runner\/work\/_temp\/git\-credentials\-c5f5964a\-4539\-468c\-aaed\-265c64ed5d72\.config
+2026-10-31T16:45:44.8898950Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/pyobjus/pyobjus/.git/worktrees/*.path
+2026-10-31T16:45:44.9001700Z /Users/runner/work/_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config
+2026-10-31T16:45:44.9246400Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/pyobjus/pyobjus/.git/worktrees/*.path \/Users\/runner\/work\/_temp\/git\-credentials\-c5f5964a\-4539\-468c\-aaed\-265c64ed5d72\.config
+2026-10-31T16:45:44.9435920Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-10-31T16:45:44.9436700Z /github/runner_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config
+2026-10-31T16:45:44.9438550Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-c5f5964a\-4539\-468c\-aaed\-265c64ed5d72\.config
+2026-10-31T16:45:44.9441810Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-31T16:45:44.9442670Z /github/runner_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config
+2026-10-31T16:45:44.9468590Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-c5f5964a\-4539\-468c\-aaed\-265c64ed5d72\.config
+2026-10-31T16:45:44.9745790Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-31T16:45:45.1447940Z Removing credentials config '/Users/runner/work/_temp/git-credentials-c5f5964a-4539-468c-aaed-265c64ed5d72.config'
+2026-10-31T16:45:45.1762380Z Cleaning up orphan processes

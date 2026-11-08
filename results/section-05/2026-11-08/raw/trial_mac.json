@@ -1,0 +1,288 @@
+{
+ "pyobjus-1.2.4": {
+  "commit": "0c229e75248c14652b6764db5730eeb30bab95ed",
+  "python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "runs": [
+   {
+    "exit": 0,
+    "counts": {
+     "passed": 78,
+     "failed": 0,
+     "errored": 0,
+     "skipped": 6,
+     "collected": 84
+    },
+    "not_passed": [
+     {
+      "test": "tests.test_carray.CArrayTest::test_carray_struct",
+      "kind": "skipped",
+      "message": "issue with signature that looks invalid, therefore it crash"
+     },
+     {
+      "test": "tests.test_nsvalue.NSValueTest::test_objCType",
+      "kind": "skipped",
+      "message": "Segfault since a long time"
+     },
+     {
+      "test": "tests.test_nsvalue.NSValueTest::test_valueWithRect",
+      "kind": "skipped",
+      "message": "Segfault since a long time"
+     },
+     {
+      "test": "tests.test_unknown_types.UnknownTypesTest::test_generatingByMembers",
+      "kind": "skipped",
+      "message": "Segfault, TBF"
+     },
+     {
+      "test": "tests.test_unknown_types.UnknownTypesTest::test_generatingUnknownType",
+      "kind": "skipped",
+      "message": "Segfault, TBF"
+     },
+     {
+      "test": "tests.test_unknown_types.UnknownTypesTest::test_obtainMembers",
+      "kind": "skipped",
+      "message": "Segfault, TBF"
+     }
+    ],
+    "seconds": 19
+   }
+  ],
+  "coverage": {
+   "setup": "none"
+  }
+ },
+ "pyobjus-master": {
+  "commit": "0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81",
+  "python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "runs": [
+   {
+    "exit": 0,
+    "counts": {
+     "passed": 194,
+     "failed": 0,
+     "errored": 0,
+     "skipped": 8,
+     "collected": 202
+    },
+    "not_passed": [
+     {
+      "test": "tests.test_nsvalue.NSValueTest::test_objCType",
+      "kind": "skipped",
+      "message": "Segfault since a long time"
+     },
+     {
+      "test": "tests.test_nsvalue.NSValueTest::test_valueWithRect",
+      "kind": "skipped",
+      "message": "Segfault since a long time"
+     },
+     {
+      "test": "tests.test_object_lifecycle.ObjectLifecycleTest::test_alloc",
+      "kind": "skipped",
+      "message": ""
+     },
+     {
+      "test": "tests.test_object_lifecycle.ObjectLifecycleTest::test_alloc_init",
+      "kind": "skipped",
+      "message": ""
+     },
+     {
+      "test": "tests.test_object_lifecycle.ObjectLifecycleTest::test_copy",
+      "kind": "skipped",
+      "message": ""
+     },
+     {
+      "test": "tests.test_object_lifecycle.ObjectLifecycleTest::test_init_returning_another_object",
+      "kind": "skipped",
+      "message": ""
+     },
+     {
+      "test": "tests.test_object_lifecycle.ObjectLifecycleTest::test_mutable_copy",
+      "kind": "skipped",
+      "message": ""
+     },
+     {
+      "test": "tests.test_object_lifecycle.ObjectLifecycleTest::test_new",
+      "kind": "skipped",
+      "message": ""
+     }
+    ],
+    "seconds": 21
+   }
+  ],
+  "coverage": {
+   "setup": "coverage job in python-package.yml",
+   "line_rate": 0.7676,
+   "lines_valid": 1988,
+   "lines_covered": 1526
+  }
+ },
+ "rubicon-0.5.7": {
+  "commit": "d0d75c35287196cb24a636aeb770f08165f751fe",
+  "python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "runs": [
+   {
+    "exit": 0,
+    "counts": {
+     "passed": 587,
+     "failed": 0,
+     "errored": 0,
+     "skipped": 8,
+     "collected": 595
+    },
+    "not_passed": [
+     {
+      "test": "tests.test_ctypes_patch::test_unwrap_mappingproxy_not_a_proxy",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_type[42]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_type[abc]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_type[None]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_type[value3]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_ctype[int]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_ctype[str]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_ctype[object]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     }
+    ],
+    "seconds": 15
+   }
+  ],
+  "coverage": {
+   "setup": "tox coverage314 (lines and branches, excluding code for other Python versions)",
+   "statements": 2266,
+   "missed": 181,
+   "branches": 690,
+   "partial": 86,
+   "percent": 89.7
+  }
+ },
+ "rubicon-main": {
+  "commit": "6bf06390f720226da3d51477f38de3ff1e680eaf",
+  "python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "runs": [
+   {
+    "exit": 0,
+    "counts": {
+     "passed": 609,
+     "failed": 0,
+     "errored": 0,
+     "skipped": 15,
+     "collected": 624
+    },
+    "not_passed": [
+     {
+      "test": "tests.test_ctypes_patch::test_unwrap_mappingproxy_not_a_proxy",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_type[42]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_type[abc]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_type[None]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_type[value3]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_ctype[int]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_ctype[str]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_of_type_not_a_ctype[object]",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_ctypes_patch::test_get_stgdict_plain_dict",
+      "kind": "skipped",
+      "message": "StgDict was replaced by StgInfo in Python 3.13"
+     },
+     {
+      "test": "tests.test_eventloop::test_set_lifecycle_syncs_policy",
+      "kind": "skipped",
+      "message": "Policy lifecycle sync was removed in Python 3.14"
+     },
+     {
+      "test": "tests.test_eventloop::test_get_child_watcher_is_memoized",
+      "kind": "skipped",
+      "message": "Child watcher support was removed in Python 3.14"
+     },
+     {
+      "test": "tests.test_eventloop::test_set_child_watcher_replaces",
+      "kind": "skipped",
+      "message": "Child watcher support was removed in Python 3.14"
+     },
+     {
+      "test": "tests.test_eventloop::test_set_child_watcher_first",
+      "kind": "skipped",
+      "message": "Child watcher support was removed in Python 3.14"
+     },
+     {
+      "test": "tests.test_eventloop::test_init_watcher_off_main_thread",
+      "kind": "skipped",
+      "message": "Child watcher support was removed in Python 3.14"
+     },
+     {
+      "test": "tests.test_eventloop::test_rubicon_event_loop_without_policy",
+      "kind": "skipped",
+      "message": "EventLoopPolicy is removed in Python 3.16"
+     }
+    ],
+    "seconds": 13
+   }
+  ],
+  "coverage": {
+   "setup": "tox coverage314 (lines and branches, excluding code for other Python versions)",
+   "statements": 2266,
+   "missed": 131,
+   "branches": 682,
+   "partial": 71,
+   "percent": 92.4
+  }
+ }
+}

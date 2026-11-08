@@ -1,0 +1,33 @@
+{
+ "ruff": "ruff 0.6.9",
+ "versions": {
+  "pyobjus-1.2.4": {
+   "commit": "0c229e75248c14652b6764db5730eeb30bab95ed",
+   "python_files": 14,
+   "python_lines": 714,
+   "native_files": 3,
+   "native_lines": 1118
+  },
+  "pyobjus-master": {
+   "commit": "0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81",
+   "python_files": 32,
+   "python_lines": 2211,
+   "native_files": 3,
+   "native_lines": 1180
+  },
+  "rubicon-0.5.7": {
+   "commit": "d0d75c35287196cb24a636aeb770f08165f751fe",
+   "python_files": 21,
+   "python_lines": 3055,
+   "native_files": 16,
+   "native_lines": 582
+  },
+  "rubicon-main": {
+   "commit": "6bf06390f720226da3d51477f38de3ff1e680eaf",
+   "python_files": 22,
+   "python_lines": 3294,
+   "native_files": 16,
+   "native_lines": 582
+  }
+ }
+}

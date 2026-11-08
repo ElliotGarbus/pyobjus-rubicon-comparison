@@ -1,0 +1,9 @@
+Attempt 1: toolchain build python3 kivy (no override)
+7046:[DEBUG   ] <work>/kivy-ios/build/libffi/iphoneos-arm64/libffi-3.4.8/libffi.xcodeproj: error: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 15.0 to 27.0.x. (in target 'libffi-iOS' from project 'libffi')
+7071:  RAN: /usr/bin/xcodebuild IDEBuildOperationMaxNumberOfConcurrentCompileTasks=15 ONLY_ACTIVE_ARCH=NO ARCHS=arm64 -sdk iphoneos -project libffi.xcodeproj -target libffi-iOS -configuration Release
+7167:  RAN: /usr/bin/xcodebuild IDEBuildOperationMaxNumberOfConcurrentCompileTasks=15 ONLY_ACTIVE_ARCH=NO ARCHS=arm64 -sdk iphoneos -project libffi.xcodeproj -target libffi-iOS -configuration Release
+
+Attempt 2: with XCODE_XCCONFIG_FILE setting IPHONEOS_DEPLOYMENT_TARGET = 15.0
+32378:[DEBUG   ] make: *** [libinstall] Segmentation fault: 11
+[DEBUG   ] make: *** [install] Error 139
+  RAN: /usr/bin/make -j15 -C <work>/kivy-ios/build/hostpython3/macosx-arm64/Python-3.11.6/native-build install

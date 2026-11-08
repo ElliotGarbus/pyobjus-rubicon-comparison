@@ -1,0 +1,84 @@
+{
+ "rubicon-0.5.7-ios": {
+  "commit": "d0d75c35287196cb24a636aeb770f08165f751fe",
+  "runs": [
+   {
+    "exit": 0,
+    "counts": {
+     "PASSED": 584,
+     "SKIPPED": 11
+    },
+    "collected": 595,
+    "pytest_summary": "584 passed, 11 skipped",
+    "not_passed": [],
+    "briefcase_commit": "d94b1eb06d55d1cf01559f8818b1df0625a3ea3d",
+    "seconds": 38
+   },
+   {
+    "exit": 0,
+    "counts": {
+     "PASSED": 584,
+     "SKIPPED": 11
+    },
+    "collected": 595,
+    "pytest_summary": "584 passed, 11 skipped",
+    "not_passed": [],
+    "briefcase_commit": "d94b1eb06d55d1cf01559f8818b1df0625a3ea3d",
+    "seconds": 38
+   },
+   {
+    "exit": 0,
+    "counts": {
+     "PASSED": 584,
+     "SKIPPED": 11
+    },
+    "collected": 595,
+    "pytest_summary": "584 passed, 11 skipped",
+    "not_passed": [],
+    "briefcase_commit": "d94b1eb06d55d1cf01559f8818b1df0625a3ea3d",
+    "seconds": 37
+   }
+  ]
+ },
+ "rubicon-main-ios": {
+  "commit": "6bf06390f720226da3d51477f38de3ff1e680eaf",
+  "runs": [
+   {
+    "exit": 0,
+    "counts": {
+     "PASSED": 606,
+     "SKIPPED": 18
+    },
+    "collected": 624,
+    "pytest_summary": "606 passed, 18 skipped",
+    "not_passed": [],
+    "briefcase_commit": "d94b1eb06d55d1cf01559f8818b1df0625a3ea3d",
+    "seconds": 38
+   },
+   {
+    "exit": 0,
+    "counts": {
+     "PASSED": 606,
+     "SKIPPED": 18
+    },
+    "collected": 624,
+    "pytest_summary": "606 passed, 18 skipped",
+    "not_passed": [],
+    "briefcase_commit": "d94b1eb06d55d1cf01559f8818b1df0625a3ea3d",
+    "seconds": 37
+   },
+   {
+    "exit": 0,
+    "counts": {
+     "PASSED": 606,
+     "SKIPPED": 18
+    },
+    "collected": 624,
+    "pytest_summary": "606 passed, 18 skipped",
+    "not_passed": [],
+    "briefcase_commit": "d94b1eb06d55d1cf01559f8818b1df0625a3ea3d",
+    "seconds": 37
+   }
+  ]
+ }
+}

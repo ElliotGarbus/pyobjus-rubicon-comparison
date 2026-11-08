@@ -1,0 +1,241 @@
+{
+ "window": [
+  "2025-11-04T14:10:39Z",
+  "2026-11-04T14:10:39Z"
+ ],
+ "projects": {
+  "kivy-ios": {
+   "repo": "kivy/kivy-ios",
+   "commit": "fd363d49eddb5ac06766348738bd89c7d46007f8",
+   "commit_date": "2026-10-20T20:16:30Z",
+   "run": "https://github.com/kivy/kivy-ios/actions/runs/39490576806",
+   "run_conclusion": "success",
+   "job": "build_python3_kivy (macos-latest)",
+   "job_conclusion": "success",
+   "steps": [
+    [
+     "Set up job",
+     "success"
+    ],
+    [
+     "Checkout kivy-ios",
+     "success"
+    ],
+    [
+     "Set up Python 3.x",
+     "success"
+    ],
+    [
+     "Install requirements",
+     "success"
+    ],
+    [
+     "Install kivy-ios",
+     "success"
+    ],
+    [
+     "Build Python & Kivy",
+     "success"
+    ],
+    [
+     "Checkout kivy for tests apps",
+     "success"
+    ],
+    [
+     "Create & Build test project",
+     "success"
+    ],
+    [
+     "Run Release simulator startup smoke",
+     "success"
+    ],
+    [
+     "Upload simulator startup diagnostics",
+     "success"
+    ],
+    [
+     "Post Checkout kivy for tests apps",
+     "success"
+    ],
+    [
+     "Post Set up Python 3.x",
+     "success"
+    ],
+    [
+     "Post Checkout kivy-ios",
+     "success"
+    ],
+    [
+     "Complete job",
+     "success"
+    ]
+   ],
+   "log_lines": [
+    "[INFO    ] Loaded recipe kivy (depends of ['ios', 'pyobjus', 'python', 'sdl2', 'sdl2_image', 'sdl2_ttf', 'sdl2_mixer'], optional are [])",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Loaded recipe pyobjus (depends of ['python'], optional are [])",
+    "[INFO    ] Build order is ['hostopenssl', 'libffi', 'libpng', 'openssl', 'sdl2', 'hostpython3', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'python3', 'python', 'ios', 'pyobjus', 'kivy']",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Recipe order is ['hostopenssl', 'libffi', 'libpng', 'openssl', 'sdl2', 'hostpython3', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'python3', 'ios', 'pyobjus', 'kivy']",
+    "[INFO    ] Download pyobjus",
+    "[INFO    ] Downloading https://github.com/kivy/pyobjus/archive/master.zip",
+    "[INFO    ] Downloaded /Users/runner/work/kivy-ios/kivy-ios/.cache/pyobjus-master.zip",
+    "[INFO    ] Extract pyobjus",
+    "[INFO    ] Extract pyobjus for iphoneos-arm64",
+    "[INFO    ] Extract /Users/runner/work/kivy-ios/kivy-ios/.cache/pyobjus-master.zip into /Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphoneos-arm64",
+    "[INFO    ] Running Shell: /usr/bin/unzip ('-d', '/Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphoneos-arm64', '/Users/runner/work/kivy-ios/kivy-ios/.cache/pyobjus-master.zip') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Extract pyobjus for iphonesimulator-arm64",
+    "[INFO    ] Extract /Users/runner/work/kivy-ios/kivy-ios/.cache/pyobjus-master.zip into /Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphonesimulator-arm64",
+    "[INFO    ] Running Shell: /usr/bin/unzip ('-d', '/Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphonesimulator-arm64', '/Users/runner/work/kivy-ios/kivy-ios/.cache/pyobjus-master.zip') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Install_hostpython_prerequisites pyobjus",
+    "[INFO    ] Build_all pyobjus",
+    "[INFO    ] Build pyobjus for iphoneos-arm64, iphonesimulator-arm64 (filtered)",
+    "[INFO    ] Build pyobjus",
+    "[INFO    ] Prebuild pyobjus for arm64",
+    "[INFO    ] Build pyobjus for arm64",
+    "[INFO    ] Cythonize pyobjus/pyobjus.pyx",
+    "[INFO    ] Running Shell: /Users/runner/work/kivy-ios/kivy-ios/dist/hostpython3/bin/python ('/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/kivy_ios/tools/cythonize.py', 'pyobjus/pyobjus.pyx') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Running Shell: /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/kivy_ios/tools/biglink ('/Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphoneos-arm64/pyobjus-master/libpyobjus.a', '/Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphoneos-arm64/pyobjus-master/build/lib.macosx-26.6-arm64-cpython-311/pyobjus') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Postbuild pyobjus for arm64",
+    "[INFO    ] Build pyobjus",
+    "[INFO    ] Prebuild pyobjus for arm64",
+    "[INFO    ] Build pyobjus for arm64",
+    "[INFO    ] Cythonize pyobjus/pyobjus.pyx",
+    "[INFO    ] Running Shell: /Users/runner/work/kivy-ios/kivy-ios/dist/hostpython3/bin/python ('/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/kivy_ios/tools/cythonize.py', 'pyobjus/pyobjus.pyx') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Running Shell: /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/kivy_ios/tools/biglink ('/Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphonesimulator-arm64/pyobjus-master/libpyobjus.a', '/Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphonesimulator-arm64/pyobjus-master/build/lib.macosx-26.6-arm64-cpython-311/pyobjus') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Postbuild pyobjus for arm64",
+    "[INFO    ] Create lipo libraries for pyobjus",
+    "[INFO    ] Lipoize_libraries pyobjus",
+    "[INFO    ] Create lipo library for libpyobjus.a",
+    "[INFO    ] Running Shell: /usr/bin/lipo ('-create', '-output', '/Users/runner/work/kivy-ios/kivy-ios/dist/lib/iphoneos/libpyobjus.a', '-arch', 'arm64', '/Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphoneos-arm64/pyobjus-master/libpyobjus.a') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Running Shell: /usr/bin/lipo ('-create', '-output', '/Users/runner/work/kivy-ios/kivy-ios/dist/lib/iphonesimulator/libpyobjus.a', '-arch', 'arm64', '/Users/runner/work/kivy-ios/kivy-ios/build/pyobjus/iphonesimulator-arm64/pyobjus-master/libpyobjus.a') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Create xcframeworks for pyobjus",
+    "[INFO    ] Create_xcframeworks pyobjus",
+    "[INFO    ] Running Shell: /usr/bin/xcodebuild ('-create-xcframework', '-library', '/Users/runner/work/kivy-ios/kivy-ios/dist/lib/iphoneos/libpyobjus.a', '-library', '/Users/runner/work/kivy-ios/kivy-ios/dist/lib/iphonesimulator/libpyobjus.a', '-output', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libpyobjus.xcframework') {'_iter': True, '_out_bufsize': 1, '_err_to_out': True}",
+    "[INFO    ] Install include files for pyobjus",
+    "[INFO    ] Install_include pyobjus",
+    "[INFO    ] Install frameworks for pyobjus",
+    "[INFO    ] Install_frameworks pyobjus",
+    "[INFO    ] Install sources for pyobjus",
+    "[INFO    ] Install_sources pyobjus",
+    "[INFO    ] Install python deps for pyobjus",
+    "[INFO    ] Install_python_deps pyobjus",
+    "[INFO    ] Install pyobjus",
+    "[INFO    ] Install pyobjus",
+    "[INFO    ] Install pyobjus into the site-packages",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] Using the bundled version for recipe 'pyobjus'",
+    "[INFO    ] XCFrameworks: ['/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libios.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libSDL2_mixer.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libpng16.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libSDL2_image.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libffi.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libssl.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libpyobjus.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libSDL2.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libpython3.11.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libkivy.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libSDL2_ttf.xcframework', '/Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libcrypto.xcframework']",
+    "[INFO    ] Ensure /Users/runner/work/kivy-ios/kivy-ios/dist/xcframework/libpyobjus.xcframework is in the project (xcframework)",
+    "ordinary passed on iPhone 17 Pro (E839A11B-51B4-4AD3-ACF4-A53B95B7C957)",
+    "native-option passed on iPhone 17 Pro (E839A11B-51B4-4AD3-ACF4-A53B95B7C957)"
+   ],
+   "push_runs_in_window": 20,
+   "push_run_conclusions": {
+    "success": 18,
+    "failure": 2
+   },
+   "first_push_run_in_window": "2026-04-18T12:49:23Z"
+  },
+  "toga": {
+   "repo": "beeware/toga",
+   "commit": "dd833f156e13d15ed26720ef50b8e544046619c5",
+   "commit_date": "2026-11-03T14:16:35Z",
+   "run": "https://github.com/beeware/toga/actions/runs/41652092131",
+   "run_conclusion": "success",
+   "job": "Testbed (iOS)",
+   "job_conclusion": "success",
+   "steps": [
+    [
+     "Set up job",
+     "success"
+    ],
+    [
+     "Tune GitHub-hosted runner network",
+     "success"
+    ],
+    [
+     "Checkout",
+     "success"
+    ],
+    [
+     "Set up Python",
+     "success"
+    ],
+    [
+     "Install Dependencies",
+     "success"
+    ],
+    [
+     "Get Packages",
+     "success"
+    ],
+    [
+     "Test App",
+     "success"
+    ],
+    [
+     "Upload Logs",
+     "skipped"
+    ],
+    [
+     "Copy App Generated User Data",
+     "skipped"
+    ],
+    [
+     "Upload App Data",
+     "skipped"
+    ],
+    [
+     "Post Set up Python",
+     "success"
+    ],
+    [
+     "Post Checkout",
+     "success"
+    ],
+    [
+     "Complete job",
+     "success"
+    ]
+   ],
+   "log_lines": [
+    "Downloading rubicon_objc-0.5.7-py3-none-any.whl.metadata (4.4 kB)",
+    "Downloading rubicon_objc-0.5.7-py3-none-any.whl (64 kB)",
+    "Creating virtual environment (venv-iphonesimulator-arm64)... started",
+    "Creating virtual environment (venv-iphonesimulator-arm64)... done",
+    "Installing app requirements for iPhone simulator... started",
+    "Downloading pillow-11.0.0-cp312-cp312-ios_13_0_arm64_iphonesimulator.whl (1.1 MB)",
+    "Using cached rubicon_objc-0.5.7-py3-none-any.whl.metadata (4.4 kB)",
+    "Using cached rubicon_objc-0.5.7-py3-none-any.whl (64 kB)",
+    "Installing app requirements for iPhone simulator... done",
+    "[testbed] Built build/testbed/ios/xcode/build/Debug-iphonesimulator/Toga Testbed.app (test mode)",
+    "Automatically selected iPhone 17e simulator on iOS 26.5",
+    "Booting simulator... started",
+    "Booting simulator... done",
+    "[testbed] Following simulator log output (type CTRL-C to stop log)...",
+    "PythonHome: /Users/runner/Library/Developer/CoreSimulator/Devices/8A537B0A-2793-48DC-AA9E-DEC8874B183B/data/Containers/Bundle/Application/A7DFA815-0610-49AA-B6B7-453CB240CF61/Toga Testbed.app/python",
+    "- /Users/runner/Library/Developer/CoreSimulator/Devices/8A537B0A-2793-48DC-AA9E-DEC8874B183B/data/Containers/Bundle/Application/A7DFA815-0610-49AA-B6B7-453CB240CF61/Toga Testbed.app/python/lib/python3.12",
+    "- /Users/runner/Library/Developer/CoreSimulator/Devices/8A537B0A-2793-48DC-AA9E-DEC8874B183B/data/Containers/Bundle/Application/A7DFA815-0610-49AA-B6B7-453CB240CF61/Toga Testbed.app/python/lib/python3.12/lib-dynload",
+    "- /Users/runner/Library/Developer/CoreSimulator/Devices/8A537B0A-2793-48DC-AA9E-DEC8874B183B/data/Containers/Bundle/Application/A7DFA815-0610-49AA-B6B7-453CB240CF61/Toga Testbed.app/app",
+    "Adding app_packages as site directory: /Users/runner/Library/Developer/CoreSimulator/Devices/8A537B0A-2793-48DC-AA9E-DEC8874B183B/data/Containers/Bundle/Application/A7DFA815-0610-49AA-B6B7-453CB240CF61/Toga Testbed.app/app_packages",
+    "2026-11-03 14:28:36.788 E  Toga Testbed[16522:cba9] (Python) /Users/runner/Library/Developer/CoreSimulator/Devices/8A537B0A-2793-48DC-AA9E-DEC8874B183B/data/Containers/Bundle/Application/A7DFA815-0610-49AA-B6B7-453CB240CF61/Toga Testbed.app/app_packages/coverage/core.py:108: CoverageWarning: Couldn't import C tracer: No module named 'coverage.tracer' (no-ctracer); see https://coverage.readthedocs.io/en/7.17.0/messages.html#warning-no-ctracer",
+    "2026-11-03 14:28:37.473 E  Toga Testbed[16522:cba9] (Python) /Users/runner/Library/Developer/CoreSimulator/Devices/8A537B0A-2793-48DC-AA9E-DEC8874B183B/data/Containers/Bundle/Application/A7DFA815-0610-49AA-B6B7-453CB240CF61/Toga Testbed.app/app_packages/toga_iOS/statusicons.py:13: NotImplementedWarning: [iOS] Not implemented: Status Icons",
+    "=========== 472 passed, 130 skipped, 65 xfailed in 536.29s (0:08:56) ==========="
+   ],
+   "push_runs_in_window": 707,
+   "push_run_conclusions": {
+    "success": 206,
+    "failure": 112,
+    "cancelled": 389
+   },
+   "first_push_run_in_window": "2025-11-09T22:43:38Z"
+  }
+ }
+}

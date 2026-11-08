@@ -1,0 +1,25 @@
+coverage314: venv> toolvenv/bin/uv venv -p cpython3.14 --allow-existing '--prompt=rubicon-0.5.7[coverage314]' --python-preference system <work>/rubicon-0.5.7/.tox/coverage314
+coverage314: install_dependency-groups> toolvenv/bin/uv pip install coverage-conditional-plugin==0.9.0 'coverage[toml]==7.16.1' pytest==9.1.1
+.pkg: _optional_hooks> python <work>/rubicon-0.5.7/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_sdist> python <work>/rubicon-0.5.7/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_wheel> python <work>/rubicon-0.5.7/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_editable> python <work>/rubicon-0.5.7/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: build_wheel> python <work>/rubicon-0.5.7/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+coverage314: install_package> toolvenv/bin/uv pip install --reinstall --no-deps rubicon-objc@<work>/rubicon-0.5.7/.tox/.tmp/package/2/rubicon_objc-0.5.7-py3-none-any.whl
+coverage314: commands_pre[0]> python --version
+Python 3.14.7
+coverage314: commands[0]> python -m coverage combine
+Combined 1 file
+coverage314: commands[1]> python -m coverage report
+Name                            Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------------------
+src/rubicon/objc/api.py           891     75    350     46  89.3%   247, 268, 324, 340, 348-349, 365, 460-462, 464, 501, 594-595, 620, 717, 741, 800-803, 812, 935, 974, 1008-1011, 1026, 1181, 1187, 1283, 1310-1311, 1318, 1326, 1337, 1342, 1403, 1410, 1519, 1665, 1743, 1792, 1794, 1804, 1808, 1812, 1821, 1861, 1873, 1894-1897, 1963, 1974, 1994, 2001, 2010, 2105->2109, 2114->exit, 2123-2126, 2187->2193, 2259, 2261, 2282-2288, 2382, 2390, 2398-2399, 2464, 2475
+src/rubicon/objc/eventloop.py     319     47     54     15  80.2%   117->120, 272-276, 356->exit, 407, 413-414, 422, 439, 462, 476, 480->485, 482->485, 488->exit, 490->exit, 519, 531, 551-571, 659-660, 663-664, 671, 673, 691-693, 711-728, 732-741, 745-747, 750-752
+src/rubicon/objc/runtime.py       397     56     92     25  81.4%   95-109, 116-129, 291, 567-570, 575, 600-612, 789, 795, 798, 811, 814, 842, 844, 926, 935, 959, 1034, 1047, 1056-1062, 1071-1074, 1081-1082, 1089, 1096, 1152, 1157, 1225, 1230
+src/rubicon/objc/types.py         342      3     98      0  98.4%   510-512
+---------------------------------------------------------------------------
+TOTAL                            2266    181    690     86  89.7%
+
+3 files skipped due to complete coverage.
+  coverage314: OK (2.14=setup[1.70]+cmd[0.01,0.30,0.14] seconds)
+  congratulations :) (2.29 seconds)

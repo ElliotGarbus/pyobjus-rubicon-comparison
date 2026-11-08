@@ -1,0 +1,1082 @@
+{
+ "F1.1 Classes and methods": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_nsobject.py::test_description",
+   "line": 34,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_nsobject.py#L34",
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_nsobject.py::test_description",
+   "line": 34,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_nsobject.py#L34",
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_ObjCClass.py::test_by_name",
+   "line": 39,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ObjCClass.py#L39",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_ObjCClass.py::test_by_name",
+   "line": 39,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ObjCClass.py#L39",
+   "note": ""
+  }
+ },
+ "F1.2 Properties": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_properties.py::test_basic_properties",
+   "line": 18,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_properties.py#L18",
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_properties.py::test_basic_properties",
+   "line": 18,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_properties.py#L18",
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_NSArray.py::test_property",
+   "line": 161,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_NSArray.py#L161",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_NSArray.py::test_property",
+   "line": 161,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_NSArray.py#L161",
+   "note": ""
+  }
+ },
+ "F1.3 Variadic methods": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_nsarray.py::test_objc_arr_behaviour",
+   "line": 13,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_nsarray.py#L13",
+   "note": "`arrayWithObjects:` with objects"
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_nsarray.py::test_objc_arr_behaviour",
+   "line": 13,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_nsarray.py#L13",
+   "note": "`arrayWithObjects:` with objects"
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_send_message.py::test_method_varargs_send",
+   "line": 72,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_send_message.py#L72",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_send_message.py::test_method_varargs_send",
+   "line": 72,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_send_message.py#L72",
+   "note": ""
+  }
+ },
+ "F1.4 Global constants": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_const.py::test_objc_const",
+   "line": 8,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_const.py#L8",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_const.py::test_objc_const",
+   "line": 8,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_const.py#L8",
+   "note": ""
+  }
+ },
+ "F1.5 C functions": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "partial",
+   "test": "test_ObjCClass.py::test_by_pointer",
+   "line": 53,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ObjCClass.py#L53",
+   "note": "Calls runtime functions through Rubicon's own `libobjc` bindings. No test calls a framework function"
+  },
+  "rubicon-main": {
+   "status": "partial",
+   "test": "test_ObjCClass.py::test_by_pointer",
+   "line": 53,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ObjCClass.py#L53",
+   "note": "Calls runtime functions through Rubicon's own `libobjc` bindings. No test calls a framework function"
+  }
+ },
+ "F1.6 Loading code": {
+  "pyobjus-1.2.4": {
+   "status": "setup",
+   "test": "test_properties.py::test_basic_properties",
+   "line": 18,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_properties.py#L18",
+   "note": "`load_dylib` loads the test library in `setUp`"
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_load_framework.py::test_loads_system_framework",
+   "line": 37,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_load_framework.py#L37",
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "setup",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "`load_library` loads the test library when the test package is imported"
+  },
+  "rubicon-main": {
+   "status": "setup",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "`load_library` loads the test library when the test package is imported"
+  }
+ },
+ "F1.7 Introspection": {
+  "pyobjus-1.2.4": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F2.1 Structs": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_nsstring.py::test_substringWithRange",
+   "line": 48,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_nsstring.py#L48",
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_nsstring.py::test_substringWithRange",
+   "line": 62,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_nsstring.py#L62",
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_ObjCProtocol.py::test_interface_return_struct",
+   "line": 279,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ObjCProtocol.py#L279",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_ObjCProtocol.py::test_interface_return_struct",
+   "line": 279,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ObjCProtocol.py#L279",
+   "note": ""
+  }
+ },
+ "F2.2 Unions and bit fields": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_union.py::test_returning_values",
+   "line": 24,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_union.py#L24",
+   "note": "Returned unions"
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_union.py::test_returning_values",
+   "line": 24,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_union.py#L24",
+   "note": "Returned unions, and a clear error for bit fields"
+  },
+  "rubicon-0.5.7": {
+   "status": "partial",
+   "test": "test_types.py::test_ctype_for_encoding_union",
+   "line": 377,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_types.py#L377",
+   "note": "Type-encoding conversion only. No test passes a union or bit field to a method"
+  },
+  "rubicon-main": {
+   "status": "partial",
+   "test": "test_types.py::test_ctype_for_encoding_union",
+   "line": 393,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_types.py#L393",
+   "note": "Type-encoding conversion only. No test passes a union or bit field to a method"
+  }
+ },
+ "F2.3 C arrays": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_carray.py::test_carray_int",
+   "line": 40,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_carray.py#L40",
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_carray.py::test_carray_int",
+   "line": 46,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_carray.py#L46",
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "partial",
+   "test": "test_types.py::test_compound_value_for_sequence_array",
+   "line": 500,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_types.py#L500",
+   "note": "Conversion only. No test passes an array to a method"
+  },
+  "rubicon-main": {
+   "status": "partial",
+   "test": "test_types.py::test_compound_value_for_sequence_array",
+   "line": 516,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_types.py#L516",
+   "note": "Conversion only. No test passes an array to a method"
+  }
+ },
+ "F2.4 Out parameters": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_carray.py::test_carray_int",
+   "line": 40,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_carray.py#L40",
+   "note": "A count written back through `unsigned int *`"
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_carray.py::test_carray_int",
+   "line": 46,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_carray.py#L46",
+   "note": "A count written back through `unsigned int *`"
+  },
+  "rubicon-0.5.7": {
+   "status": "partial",
+   "test": "test_partial_method.py::test_lots_of_args",
+   "line": 33,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_partial_method.py#L33",
+   "note": "Passes pointers that `getBytes:maxLength:usedLength:encoding:options:range:remainingRange:` writes into, and checks the bytes written to the buffer, not the values written through the scalar pointers. No `NSError **`"
+  },
+  "rubicon-main": {
+   "status": "partial",
+   "test": "test_partial_method.py::test_lots_of_args",
+   "line": 33,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_partial_method.py#L33",
+   "note": "Passes pointers that `getBytes:maxLength:usedLength:encoding:options:range:remainingRange:` writes into, and checks the bytes written to the buffer, not the values written through the scalar pointers. No `NSError **`"
+  }
+ },
+ "F2.5 Collections": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_nsarray.py::test_objc_arr_behaviour",
+   "line": 13,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_nsarray.py#L13",
+   "note": "Explicit conversion with `objc_arr`"
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_nsarray.py::test_objc_arr_behaviour",
+   "line": 13,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_nsarray.py#L13",
+   "note": "Explicit conversion with `objc_arr`"
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_NSString.py::test_str_nsstring_conversion",
+   "line": 72,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_NSString.py#L72",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_NSString.py::test_str_nsstring_conversion",
+   "line": 72,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_NSString.py#L72",
+   "note": ""
+  }
+ },
+ "F2.6 Python behavior on Objective-C objects": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_NSArray.py::test_len",
+   "line": 58,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_NSArray.py#L58",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_NSArray.py::test_len",
+   "line": 58,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_NSArray.py#L58",
+   "note": ""
+  }
+ },
+ "F2.7 Enums and constants": {
+  "pyobjus-1.2.4": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_downstream_call_shapes.py::test_enum_values_as_nsuinteger_arguments",
+   "line": 47,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_downstream_call_shapes.py#L47",
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_method.py::test_enum_argument",
+   "line": 210,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_method.py#L210",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_method.py::test_enum_argument",
+   "line": 210,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_method.py#L210",
+   "note": ""
+  }
+ },
+ "F3.1 New class": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_ObjCClass.py::test_auto_rename_global",
+   "line": 154,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ObjCClass.py#L154",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_ObjCClass.py::test_auto_rename_global",
+   "line": 154,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ObjCClass.py#L154",
+   "note": ""
+  }
+ },
+ "F3.2 Subclass an Apple class": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_super.py::test_send",
+   "line": 14,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_super.py#L14",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_super.py::test_send",
+   "line": 14,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_super.py#L14",
+   "note": ""
+  }
+ },
+ "F3.3 Instance state": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_ObjCClass.py::test_ivars",
+   "line": 217,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ObjCClass.py#L217",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_ObjCClass.py::test_ivars",
+   "line": 217,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ObjCClass.py#L217",
+   "note": ""
+  }
+ },
+ "F3.4 Apple protocol": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_delegate.py::test_existing_delegate",
+   "line": 90,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_delegate.py#L90",
+   "note": "`NSURLConnectionDelegate`"
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_delegate.py::test_existing_delegate",
+   "line": 90,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_delegate.py#L90",
+   "note": "`NSURLConnectionDelegate`"
+  },
+  "rubicon-0.5.7": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "Apple's protocols are checked with `isinstance` and `issubclass`, but no test implements one and receives a call. Protocols the test library declares are implemented (F3.5)"
+  },
+  "rubicon-main": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "Apple's protocols are checked with `isinstance` and `issubclass`, but no test implements one and receives a call. Protocols the test library declares are implemented (F3.5)"
+  }
+ },
+ "F3.5 Protocol not known in advance": {
+  "pyobjus-1.2.4": {
+   "status": "tested",
+   "test": "test_delegate.py::test_user_registration_delegate",
+   "line": 96,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_delegate.py#L96",
+   "note": "Registers a protocol and creates the delegate. No delegate call is received"
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_delegate.py::test_user_registration_delegate",
+   "line": 96,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_delegate.py#L96",
+   "note": "Registers a protocol and creates the delegate. No delegate call is received"
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_ObjCProtocol.py::test_interface_return_struct",
+   "line": 279,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ObjCProtocol.py#L279",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_ObjCProtocol.py::test_interface_return_struct",
+   "line": 279,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ObjCProtocol.py#L279",
+   "note": ""
+  }
+ },
+ "F3.6 Selector targets": {
+  "pyobjus-1.2.4": {
+   "status": "partial",
+   "test": "test_delegate.py::test_user_registration_delegate",
+   "line": 96,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_delegate.py#L96",
+   "note": "Registers `NSNotificationCenter` observers. No notification is posted"
+  },
+  "pyobjus-master": {
+   "status": "partial",
+   "test": "test_delegate.py::test_user_registration_delegate",
+   "line": 96,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_delegate.py#L96",
+   "note": "Registers `NSNotificationCenter` observers. No notification is posted"
+  },
+  "rubicon-0.5.7": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F3.7 Delegate values": {
+  "pyobjus-1.2.4": {
+   "status": "partial",
+   "test": "test_delegate.py::test_existing_delegate",
+   "line": 90,
+   "url": "https://github.com/kivy/pyobjus/blob/v1.2.4/tests/test_delegate.py#L90",
+   "note": "Object arguments only"
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_delegate_returns.py::test_msgsend_double_return",
+   "line": 248,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_delegate_returns.py#L248",
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_ObjCProtocol.py::test_interface_return_struct",
+   "line": 279,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ObjCProtocol.py#L279",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_ObjCProtocol.py::test_interface_return_struct",
+   "line": 279,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ObjCProtocol.py#L279",
+   "note": ""
+  }
+ },
+ "F3.8 Removing a delegate": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "No API"
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "No API"
+  },
+  "rubicon-0.5.7": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "Automatic, so there is no API to test"
+  },
+  "rubicon-main": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "Automatic, so there is no API to test"
+  }
+ },
+ "F4.1 Completion handlers": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_blocks.py::test_block_receiver",
+   "line": 130,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_blocks.py#L130",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_blocks.py::test_block_receiver",
+   "line": 130,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_blocks.py#L130",
+   "note": ""
+  }
+ },
+ "F4.2 Received blocks": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_blocks.py::test_block_round_trip",
+   "line": 187,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_blocks.py#L187",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_blocks.py::test_block_round_trip",
+   "line": 187,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_blocks.py#L187",
+   "note": ""
+  }
+ },
+ "F4.3 GCD": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F4.4 Function pointers": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "partial",
+   "test": "test_ctypes_patch.py::test_patch_structure",
+   "line": 11,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ctypes_patch.py#L11",
+   "note": "Makes Python functions into C function pointers with `ctypes` and calls them, to test Rubicon's patch for returning structs. None is passed to a C or Objective-C function"
+  },
+  "rubicon-main": {
+   "status": "partial",
+   "test": "test_ctypes_patch.py::test_patch_structure",
+   "line": 11,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ctypes_patch.py#L11",
+   "note": "Makes Python functions into C function pointers with `ctypes` and calls them, to test Rubicon's patch for returning structs. None is passed to a C or Objective-C function"
+  }
+ },
+ "F5.1 Memory management": {
+  "pyobjus-1.2.4": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "tested",
+   "test": "test_object_lifecycle.py::test_returned_object",
+   "line": 53,
+   "url": "https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/tests/test_object_lifecycle.py#L53",
+   "note": "See T5"
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_ObjCInstance.py::test_returned_lifecycle",
+   "line": 209,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_ObjCInstance.py#L209",
+   "note": "See T5"
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_ObjCInstance.py::test_returned_lifecycle",
+   "line": 209,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_ObjCInstance.py#L209",
+   "note": "See T5"
+  }
+ },
+ "F5.2 Objective-C exceptions": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F5.3 Event loops": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "tested",
+   "test": "test_async.py::test_run_until_complete",
+   "line": 41,
+   "url": "https://github.com/beeware/rubicon-objc/blob/v0.5.7/tests/test_async.py#L41",
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "tested",
+   "test": "test_async.py::test_run_until_complete",
+   "line": 41,
+   "url": "https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/tests/test_async.py#L41",
+   "note": ""
+  }
+ },
+ "F5.4 Main thread": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "No API"
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "No API"
+  },
+  "rubicon-0.5.7": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "No API"
+  },
+  "rubicon-main": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "No API"
+  }
+ },
+ "F7.1 Finding Swift classes": {
+  "pyobjus-1.2.4": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F7.2 Swift values": {
+  "pyobjus-1.2.4": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F7.3 Throwing methods": {
+  "pyobjus-1.2.4": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "Partly supported"
+  },
+  "pyobjus-master": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": "Partly supported"
+  },
+  "rubicon-0.5.7": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F7.4 `async` methods": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F7.5 Swift protocols in Python": {
+  "pyobjus-1.2.4": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "untested",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ },
+ "F7.6 Swift-only APIs": {
+  "pyobjus-1.2.4": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "pyobjus-master": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-0.5.7": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  },
+  "rubicon-main": {
+   "status": "unsupported",
+   "test": null,
+   "line": null,
+   "url": null,
+   "note": ""
+  }
+ }
+}

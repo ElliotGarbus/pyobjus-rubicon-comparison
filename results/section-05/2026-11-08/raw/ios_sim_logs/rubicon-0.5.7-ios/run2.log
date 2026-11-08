@@ -1,0 +1,2041 @@
+
+$ /Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14 -m venv toolvenv
+[exit 0]
+
+$ <work>/rubicon-0.5.7-ios/toolvenv/bin/python -m pip install -q -U pip
+[exit 0]
+
+$ <work>/rubicon-0.5.7-ios/toolvenv/bin/python -m pip install -q --group tox-uv
+[exit 0]
+
+$ <work>/rubicon-0.5.7-ios/toolvenv/bin/tox -r -e py314-iOS
+.pkg: remove tox env folder <work>/rubicon-0.5.7-ios/.tox/.pkg
+py314-iOS: venv> toolvenv/bin/uv venv -p cpython3.14 --allow-existing '--prompt=rubicon-0.5.7-ios[py314-iOS]' --python-preference system <work>/rubicon-0.5.7-ios/.tox/py314-iOS
+py314-iOS: install_dependency-groups> toolvenv/bin/uv pip install 'briefcase @ git+https://github.com/beeware/briefcase'
+.pkg: venv> toolvenv/bin/uv venv -p <work>/rubicon-0.5.7-ios/toolvenv/bin/python --allow-existing '--prompt=rubicon-0.5.7-ios[.pkg]' --python-preference system <work>/rubicon-0.5.7-ios/.tox/.pkg
+.pkg: install_requires> toolvenv/bin/uv pip install setuptools==84.0.0 setuptools_scm==10.2.3
+.pkg: _optional_hooks> python <work>/rubicon-0.5.7-ios/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_sdist> python <work>/rubicon-0.5.7-ios/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_wheel> python <work>/rubicon-0.5.7-ios/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_editable> python <work>/rubicon-0.5.7-ios/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: build_sdist> python <work>/rubicon-0.5.7-ios/toolvenv/lib/python3.14/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+py314-iOS: install_package> toolvenv/bin/uv pip install --reinstall --no-deps rubicon-objc@<work>/rubicon-0.5.7-ios/.tox/.tmp/package/1/rubicon_objc-0.5.7.tar.gz
+py314-iOS: commands[0]> make clean iphonesimulator
+rm -rf tests/*.dylib
+rm -rf tests/*.so
+rm -rf testbed/objc/build
+rm -rf build/testbed
+make -C testbed/objc -f Makefile.iphonesimulator
+xcrun --sdk iphonesimulator clang -target arm64-apple-ios13.0-simulator  -c Altered_Example.m -o build/objects/iphonesimulator/Altered_Example.m.o
+xcrun --sdk iphonesimulator clang -target arm64-apple-ios13.0-simulator  -c BaseExample.m -o build/objects/iphonesimulator/BaseExample.m.o
+xcrun --sdk iphonesimulator clang -target arm64-apple-ios13.0-simulator  -c Blocks.m -o build/objects/iphonesimulator/Blocks.m.o
+xcrun --sdk iphonesimulator clang -target arm64-apple-ios13.0-simulator  -c DescriptionTester.m -o build/objects/iphonesimulator/DescriptionTester.m.o
+xcrun --sdk iphonesimulator clang -target arm64-apple-ios13.0-simulator  -c Example.m -o build/objects/iphonesimulator/Example.m.o
+xcrun --sdk iphonesimulator clang -target arm64-apple-ios13.0-simulator  -c SpecificExample.m -o build/objects/iphonesimulator/SpecificExample.m.o
+xcrun --sdk iphonesimulator clang -target arm64-apple-ios13.0-simulator  -c Thing.m -o build/objects/iphonesimulator/Thing.m.o
+xcrun --sdk iphonesimulator clang -target arm64-apple-ios13.0-simulator -shared -fobjc-link-runtime -framework CoreGraphics build/objects/iphonesimulator/Altered_Example.m.o build/objects/iphonesimulator/BaseExample.m.o build/objects/iphonesimulator/Blocks.m.o build/objects/iphonesimulator/DescriptionTester.m.o build/objects/iphonesimulator/Example.m.o build/objects/iphonesimulator/SpecificExample.m.o build/objects/iphonesimulator/Thing.m.o  -o ../../tests/librubiconharness-arm64-iphonesimulator.so
+py314-iOS: commands[1]> python -m build -w
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools==84.0.0
+  - setuptools_scm==10.2.3
+* Getting build dependencies for wheel...
+running egg_info
+writing src/rubicon_objc.egg-info/PKG-INFO
+writing dependency_links to src/rubicon_objc.egg-info/dependency_links.txt
+writing top-level names to src/rubicon_objc.egg-info/top_level.txt
+adding license file 'LICENSE'
+writing manifest file 'src/rubicon_objc.egg-info/SOURCES.txt'
+* Installed build dependency versions:
+  - setuptools==84.0.0
+  - setuptools-scm==10.2.3
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build/lib/rubicon/objc
+copying src/rubicon/objc/ctypes_patch.py -> build/lib/rubicon/objc
+copying src/rubicon/objc/__init__.py -> build/lib/rubicon/objc
+copying src/rubicon/objc/eventloop.py -> build/lib/rubicon/objc
+copying src/rubicon/objc/types.py -> build/lib/rubicon/objc
+copying src/rubicon/objc/runtime.py -> build/lib/rubicon/objc
+copying src/rubicon/objc/api.py -> build/lib/rubicon/objc
+copying src/rubicon/objc/collections.py -> build/lib/rubicon/objc
+running egg_info
+writing src/rubicon_objc.egg-info/PKG-INFO
+writing dependency_links to src/rubicon_objc.egg-info/dependency_links.txt
+writing top-level names to src/rubicon_objc.egg-info/top_level.txt
+adding license file 'LICENSE'
+writing manifest file 'src/rubicon_objc.egg-info/SOURCES.txt'
+installing to build/bdist.macosx-10.15-universal2/wheel
+running install
+running install_lib
+creating build/bdist.macosx-10.15-universal2/wheel
+creating build/bdist.macosx-10.15-universal2/wheel/rubicon
+creating build/bdist.macosx-10.15-universal2/wheel/rubicon/objc
+copying build/lib/rubicon/objc/ctypes_patch.py -> build/bdist.macosx-10.15-universal2/wheel/./rubicon/objc
+copying build/lib/rubicon/objc/__init__.py -> build/bdist.macosx-10.15-universal2/wheel/./rubicon/objc
+copying build/lib/rubicon/objc/eventloop.py -> build/bdist.macosx-10.15-universal2/wheel/./rubicon/objc
+copying build/lib/rubicon/objc/types.py -> build/bdist.macosx-10.15-universal2/wheel/./rubicon/objc
+copying build/lib/rubicon/objc/runtime.py -> build/bdist.macosx-10.15-universal2/wheel/./rubicon/objc
+copying build/lib/rubicon/objc/api.py -> build/bdist.macosx-10.15-universal2/wheel/./rubicon/objc
+copying build/lib/rubicon/objc/collections.py -> build/bdist.macosx-10.15-universal2/wheel/./rubicon/objc
+running install_egg_info
+Copying src/rubicon_objc.egg-info to build/bdist.macosx-10.15-universal2/wheel/./rubicon_objc-0.5.7-py3.14.egg-info
+running install_scripts
+creating build/bdist.macosx-10.15-universal2/wheel/rubicon_objc-0.5.7.dist-info/WHEEL
+creating '<work>/rubicon-0.5.7-ios/dist/.tmp-kzbe9s8b/rubicon_objc-0.5.7-py3-none-any.whl' and adding 'build/bdist.macosx-10.15-universal2/wheel' to it
+adding 'rubicon/objc/__init__.py'
+adding 'rubicon/objc/api.py'
+adding 'rubicon/objc/collections.py'
+adding 'rubicon/objc/ctypes_patch.py'
+adding 'rubicon/objc/eventloop.py'
+adding 'rubicon/objc/runtime.py'
+adding 'rubicon/objc/types.py'
+adding 'rubicon_objc-0.5.7.dist-info/licenses/LICENSE'
+adding 'rubicon_objc-0.5.7.dist-info/METADATA'
+adding 'rubicon_objc-0.5.7.dist-info/WHEEL'
+adding 'rubicon_objc-0.5.7.dist-info/top_level.txt'
+adding 'rubicon_objc-0.5.7.dist-info/RECORD'
+removing build/bdist.macosx-10.15-universal2/wheel
+Successfully built rubicon_objc-0.5.7-py3-none-any.whl
+py314-iOS: commands[2]> python -m briefcase run iOS --test
+Evaluating dynamic project metadata... started
+Evaluating dynamic project metadata... done
+
+********************************************************************************
+**                       WARNING: Invalid project name                        **
+********************************************************************************
+
+  'Rubicon ObjC Testbed' is not a valid PEP 621 project name and cannot be
+  normalized. Briefcase currently accepts invalid `project_name` values in the
+  `[tool.briefcase]` configuration, but this may become an error in a future
+  version.
+
+  Update `project_name` to a valid PEP 621 project name.
+
+********************************************************************************
+
+[testbed] Generating application template...
+Using app template: https://github.com/beeware/briefcase-iOS-Xcode-template.git, branch v0.4.8
+Template branch v0.4.8 not found; falling back to development template
+Using existing template (sha b3133d32b3bc8161375e30e07cef2a33843892f8, updated Fri Nov  6 15:02:55 2026)
+The integrity of the template will not be verified as no reference hash has been provided.
+
+[testbed] Installing support package...
+Using support package https://briefcase-support.s3.amazonaws.com/python/3.14/iOS/Python-3.14-iOS-support.b14.tar.gz
+Python-3.14-iOS-support.b14.tar.gz already downloaded; hash verified (sha256).
+Unpacking support package... started
+Unpacking support package... done
+
+[testbed] Creating app environment...
+Creating virtual environment (venv-iphoneos-arm64)... started
+Creating virtual environment (venv-iphoneos-arm64)... done
+
+[testbed] Installing application code...
+Installing testbed/testbed... started
+Installing testbed/testbed... done
+Installing tests... started
+Installing tests... done
+
+[testbed] Installing requirements...
+Installing app requirements for iPhone device... started
+Looking in indexes: https://pypi.org/simple, https://pypi.anaconda.org/beeware/simple
+Looking in links: <work>/rubicon-0.5.7-ios/dist
+Collecting rubicon-objc
+  Using cached rubicon_objc-0.5.7-py3-none-any.whl.metadata (4.4 kB)
+Collecting pytest==9.1.1
+  Using cached pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting iniconfig>=1.0.1 (from pytest==9.1.1)
+  Using cached iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting packaging>=22 (from pytest==9.1.1)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pluggy<2,>=1.5 (from pytest==9.1.1)
+  Using cached pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Collecting pygments>=2.7.2 (from pytest==9.1.1)
+  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Using cached pytest-9.1.1-py3-none-any.whl (386 kB)
+Using cached pluggy-1.7.0-py3-none-any.whl (27 kB)
+Using cached rubicon_objc-0.5.7-py3-none-any.whl (64 kB)
+Using cached iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Installing collected packages: rubicon-objc, pygments, pluggy, packaging, iniconfig, pytest
+
+Successfully installed iniconfig-2.3.1 packaging-26.3 pluggy-1.7.0 pygments-2.21.0 pytest-9.1.1 rubicon-objc-0.5.7
+Installing app requirements for iPhone device... done
+Creating virtual environment (venv-iphonesimulator-arm64)... started
+Creating virtual environment (venv-iphonesimulator-arm64)... done
+Installing app requirements for iPhone simulator... started
+Looking in indexes: https://pypi.org/simple, https://pypi.anaconda.org/beeware/simple
+Looking in links: <work>/rubicon-0.5.7-ios/dist
+Collecting rubicon-objc
+  Using cached rubicon_objc-0.5.7-py3-none-any.whl.metadata (4.4 kB)
+Collecting pytest==9.1.1
+  Using cached pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting iniconfig>=1.0.1 (from pytest==9.1.1)
+  Using cached iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting packaging>=22 (from pytest==9.1.1)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pluggy<2,>=1.5 (from pytest==9.1.1)
+  Using cached pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Collecting pygments>=2.7.2 (from pytest==9.1.1)
+  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Using cached pytest-9.1.1-py3-none-any.whl (386 kB)
+Using cached pluggy-1.7.0-py3-none-any.whl (27 kB)
+Using cached rubicon_objc-0.5.7-py3-none-any.whl (64 kB)
+Using cached iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Installing collected packages: rubicon-objc, pygments, pluggy, packaging, iniconfig, pytest
+
+Successfully installed iniconfig-2.3.1 packaging-26.3 pluggy-1.7.0 pygments-2.21.0 pytest-9.1.1 rubicon-objc-0.5.7
+Installing app requirements for iPhone simulator... done
+
+[testbed] Installing application resources...
+
+[testbed] Removing unneeded app content...
+Removing unneeded app bundle content... started
+Removing unneeded app bundle content... done
+
+[testbed] Created build/testbed/ios/xcode
+
+[testbed] Updating app metadata...
+Setting main module... started
+Setting main module... done
+
+[testbed] Building Xcode project...
+Building... started
+Building... done
+
+[testbed] Built build/testbed/ios/xcode/build/Debug-iphonesimulator/Rubicon ObjC Testbed.app (test mode)
+Automatically selected iPhone 17e simulator on iOS 27.0
+
+[testbed] Starting test suite on an iPhone 17e running iOS 27.0 (device UDID DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0)
+
+[testbed] Installing test suite...
+Uninstalling any existing app version... started
+Uninstalling any existing app version... done
+Installing new test suite version... started
+Installing new test suite version... done
+
+[testbed] Starting test suite...
+Launching test suite... started
+Launching test suite... done
+
+[testbed] Following simulator log output (type CTRL-C to stop log)...
+===========================================================================
+Configuring isolated Python...
+Pre-initializing Python runtime...
+PythonHome: ~/Library/Developer/CoreSimulator/Devices/DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0/data/Containers/Bundle/Application/D015925C-5F27-4932-A248-CD70F10FD1A8/Rubicon ObjC Testbed.app/python
+PYTHONPATH:
+- ~/Library/Developer/CoreSimulator/Devices/DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0/data/Containers/Bundle/Application/D015925C-5F27-4932-A248-CD70F10FD1A8/Rubicon ObjC Testbed.app/python/lib/python3.14
+- ~/Library/Developer/CoreSimulator/Devices/DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0/data/Containers/Bundle/Application/D015925C-5F27-4932-A248-CD70F10FD1A8/Rubicon ObjC Testbed.app/python/lib/python3.14/lib-dynload
+- ~/Library/Developer/CoreSimulator/Devices/DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0/data/Containers/Bundle/Application/D015925C-5F27-4932-A248-CD70F10FD1A8/Rubicon ObjC Testbed.app/app
+Configure argc/argv...
+Initializing Python runtime...
+Adding app_packages as site directory: ~/Library/Developer/CoreSimulator/Devices/DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0/data/Containers/Bundle/Application/D015925C-5F27-4932-A248-CD70F10FD1A8/Rubicon ObjC Testbed.app/app_packages
+Running app module: tests.testbed
+---------------------------------------------------------------------------
+============================= test session starts ==============================
+platform ios -- Python 3.14.10, pytest-9.1.1, pluggy-1.7.0 -- ~/Library/Developer/CoreSimulator/Devices/DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0/data/Containers/Bundle/Application/D015925C-5F27-4932-A248-CD70F10FD1A8/Rubicon ObjC Testbed.app/Rubicon ObjC Testbed
+cachedir: ~/Library/Developer/CoreSimulator/Devices/DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0/data/Containers/Data/Application/B4F3C050-EF6E-4502-AD93-5EB1D2FA4207/tmp/.pytest_cache
+rootdir: ~/Library/Developer/CoreSimulator/Devices/DC05E5FB-F461-43C2-A87E-CBAF0AFE4DD0/data/Containers/Bundle/Application/D015925C-5F27-4932-A248-CD70F10FD1A8/Rubicon ObjC Testbed.app/app
+collecting ...
+collected 595 items
+
+tests/test_NSArray.py::test_getitem[make_ns_array]
+PASSED                [  0%]
+
+tests/test_NSArray.py::test_getitem[make_ns_mutable_array]
+PASSED        [  0%]
+
+tests/test_NSArray.py::test_len[make_ns_array]
+PASSED                    [  0%]
+
+tests/test_NSArray.py::test_len[make_ns_mutable_array]
+PASSED            [  0%]
+
+tests/test_NSArray.py::test_iter[make_ns_array]
+PASSED                   [  0%]
+
+tests/test_NSArray.py::test_iter[make_ns_mutable_array]
+PASSED           [  1%]
+
+tests/test_NSArray.py::test_contains[make_ns_array]
+PASSED               [  1%]
+
+tests/test_NSArray.py::test_contains[make_ns_mutable_array]
+PASSED       [  1%]
+
+tests/test_NSArray.py::test_index[make_ns_array]
+PASSED                  [  1%]
+
+tests/test_NSArray.py::test_index[make_ns_mutable_array]
+PASSED          [  1%]
+
+tests/test_NSArray.py::test_count[make_ns_array]
+PASSED                  [  1%]
+
+tests/test_NSArray.py::test_count[make_ns_mutable_array]
+PASSED          [  2%]
+
+tests/test_NSArray.py::test_equivalence[make_ns_array]
+PASSED            [  2%]
+
+tests/test_NSArray.py::test_equivalence[make_ns_mutable_array]
+PASSED    [  2%]
+
+tests/test_NSArray.py::test_slice_access[make_ns_array]
+PASSED           [  2%]
+
+tests/test_NSArray.py::test_slice_access[make_ns_mutable_array]
+PASSED   [  2%]
+
+tests/test_NSArray.py::test_argument[make_ns_array]
+PASSED               [  2%]
+
+tests/test_NSArray.py::test_argument[make_ns_mutable_array]
+PASSED       [  3%]
+
+tests/test_NSArray.py::test_property[make_ns_array]
+PASSED               [  3%]
+
+tests/test_NSArray.py::test_property[make_ns_mutable_array]
+PASSED       [  3%]
+
+tests/test_NSArray.py::test_ns_array_copy
+PASSED                         [  3%]
+
+tests/test_NSArray.py::test_ns_mutable_array_copy
+PASSED                 [  3%]
+
+tests/test_NSArray.py::test_ns_mutable_array_setitem
+PASSED              [  3%]
+
+tests/test_NSArray.py::test_ns_mutable_array_del
+PASSED                  [  4%]
+
+tests/test_NSArray.py::test_ns_mutable_array_append
+PASSED               [  4%]
+
+tests/test_NSArray.py::test_ns_mutable_array_extend
+PASSED               [  4%]
+
+tests/test_NSArray.py::test_ns_mutable_array_clear
+PASSED                [  4%]
+
+tests/test_NSArray.py::test_ns_mutable_array_count
+PASSED                [  4%]
+
+tests/test_NSArray.py::test_ns_mutable_array_insert
+PASSED               [  4%]
+
+tests/test_NSArray.py::test_ns_mutable_array_pop
+PASSED                  [  5%]
+
+tests/test_NSArray.py::test_ns_mutable_array_remove
+PASSED               [  5%]
+
+tests/test_NSArray.py::test_ns_mutable_array_slice_assignment1
+PASSED    [  5%]
+
+tests/test_NSArray.py::test_ns_mutable_array_slice_assignment2
+PASSED    [  5%]
+
+tests/test_NSArray.py::test_ns_mutable_array_slice_assignment3
+PASSED    [  5%]
+
+tests/test_NSArray.py::test_ns_mutable_array_bad_slice_assignment1
+PASSED [  5%]
+
+tests/test_NSArray.py::test_ns_mutable_array_bad_slice_assignment2
+PASSED [  6%]
+
+tests/test_NSArray.py::test_ns_mutable_array_del_slice1
+PASSED           [  6%]
+
+tests/test_NSArray.py::test_ns_mutable_array_del_slice2
+PASSED           [  6%]
+
+tests/test_NSArray.py::test_ns_mutable_array_del_slice3
+PASSED           [  6%]
+
+tests/test_NSArray.py::test_ns_mutable_array_reverse
+PASSED              [  6%]
+
+tests/test_NSArray.py::test_python_object_primitive_list_attribute
+PASSED [  6%]
+
+tests/test_NSArray.py::test_python_object_primitive_list_property
+PASSED [  7%]
+
+tests/test_NSArray.py::test_python_object_object_list_attribute
+PASSED   [  7%]
+
+tests/test_NSArray.py::test_python_object_object_list_property
+PASSED    [  7%]
+
+tests/test_NSArray.py::test_python_object_multitype_list_property
+PASSED [  7%]
+
+tests/test_NSDictionary.py::test_getitem[make_ns_dictionary]
+PASSED      [  7%]
+
+tests/test_NSDictionary.py::test_getitem[make_ns_mutable_dictionary]
+PASSED [  7%]
+
+tests/test_NSDictionary.py::test_iter[make_ns_dictionary]
+PASSED         [  8%]
+
+tests/test_NSDictionary.py::test_iter[make_ns_mutable_dictionary]
+PASSED [  8%]
+
+tests/test_NSDictionary.py::test_len[make_ns_dictionary]
+PASSED          [  8%]
+
+tests/test_NSDictionary.py::test_len[make_ns_mutable_dictionary]
+PASSED  [  8%]
+
+tests/test_NSDictionary.py::test_get[make_ns_dictionary]
+PASSED          [  8%]
+
+tests/test_NSDictionary.py::test_get[make_ns_mutable_dictionary]
+PASSED  [  8%]
+
+tests/test_NSDictionary.py::test_contains[make_ns_dictionary]
+PASSED     [  9%]
+
+tests/test_NSDictionary.py::test_contains[make_ns_mutable_dictionary]
+PASSED [  9%]
+
+tests/test_NSDictionary.py::test_copy[make_ns_dictionary]
+PASSED         [  9%]
+
+tests/test_NSDictionary.py::test_copy[make_ns_mutable_dictionary]
+PASSED [  9%]
+
+tests/test_NSDictionary.py::test_equivalence[make_ns_dictionary]
+PASSED  [  9%]
+
+tests/test_NSDictionary.py::test_equivalence[make_ns_mutable_dictionary]
+PASSED [  9%]
+
+tests/test_NSDictionary.py::test_keys[make_ns_dictionary]
+PASSED         [ 10%]
+
+tests/test_NSDictionary.py::test_keys[make_ns_mutable_dictionary]
+PASSED [ 10%]
+
+tests/test_NSDictionary.py::test_values[make_ns_dictionary]
+PASSED       [ 10%]
+
+tests/test_NSDictionary.py::test_values[make_ns_mutable_dictionary]
+PASSED [ 10%]
+
+tests/test_NSDictionary.py::test_items[make_ns_dictionary]
+PASSED        [ 10%]
+
+tests/test_NSDictionary.py::test_items[make_ns_mutable_dictionary]
+PASSED [ 10%]
+
+tests/test_NSDictionary.py::test_argument[make_ns_dictionary]
+PASSED     [ 11%]
+
+tests/test_NSDictionary.py::test_argument[make_ns_mutable_dictionary]
+PASSED [ 11%]
+
+tests/test_NSDictionary.py::test_property[make_ns_dictionary]
+PASSED     [ 11%]
+
+tests/test_NSDictionary.py::test_property[make_ns_mutable_dictionary]
+PASSED [ 11%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_setitem
+PASSED    [ 11%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_del
+PASSED        [ 11%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_del_missing
+PASSED [ 12%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_clear
+PASSED      [ 12%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_copy
+PASSED       [ 12%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_pop1
+PASSED       [ 12%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_pop2
+PASSED       [ 12%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_pop3
+PASSED       [ 12%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_popitem
+PASSED    [ 13%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_setdefault1
+PASSED [ 13%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_setdefault2
+PASSED [ 13%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_setdefault3
+PASSED [ 13%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_update1
+PASSED    [ 13%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_update2
+PASSED    [ 13%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_update3
+PASSED    [ 14%]
+
+tests/test_NSDictionary.py::test_ns_mutable_dictionary_update4
+PASSED    [ 14%]
+
+tests/test_NSDictionary.py::test_python_object_primitive_dict_attribute
+PASSED [ 14%]
+
+tests/test_NSDictionary.py::test_python_object_primitive_dict_property
+PASSED [ 14%]
+
+tests/test_NSDictionary.py::test_python_object_object_dict_attribute
+PASSED [ 14%]
+
+tests/test_NSDictionary.py::test_python_object_object_dict_property
+PASSED [ 14%]
+
+tests/test_NSDictionary.py::test_python_object_multitype_dict_property
+PASSED [ 15%]
+
+tests/test_NSString.py::test_str_nsstring_conversion[]
+PASSED            [ 15%]
+
+tests/test_NSString.py::test_str_nsstring_conversion[abcdef]
+PASSED      [ 15%]
+
+tests/test_NSString.py::test_str_nsstring_conversion[zyxwvu]
+PASSED      [ 15%]
+
+tests/test_NSString.py::test_str_nsstring_conversion[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 15%]
+
+tests/test_NSString.py::test_nsstring_eq_nsstring
+PASSED                 [ 15%]
+
+tests/test_NSString.py::test_str_eq_nsstring
+PASSED                      [ 16%]
+
+tests/test_NSString.py::test_nsstring_as_fspath
+PASSED                   [ 16%]
+
+tests/test_NSString.py::test_nsstring_compare[-]
+PASSED                  [ 16%]
+
+tests/test_NSString.py::test_nsstring_compare[-abcdef]
+PASSED            [ 16%]
+
+tests/test_NSString.py::test_nsstring_compare[-zyxwvu]
+PASSED            [ 16%]
+
+tests/test_NSString.py::test_nsstring_compare[-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 16%]
+
+tests/test_NSString.py::test_nsstring_compare[abcdef-]
+PASSED            [ 17%]
+
+tests/test_NSString.py::test_nsstring_compare[abcdef-abcdef]
+PASSED      [ 17%]
+
+tests/test_NSString.py::test_nsstring_compare[abcdef-zyxwvu]
+PASSED      [ 17%]
+
+tests/test_NSString.py::test_nsstring_compare[abcdef-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 17%]
+
+tests/test_NSString.py::test_nsstring_compare[zyxwvu-]
+PASSED            [ 17%]
+
+tests/test_NSString.py::test_nsstring_compare[zyxwvu-abcdef]
+PASSED      [ 17%]
+
+tests/test_NSString.py::test_nsstring_compare[zyxwvu-zyxwvu]
+PASSED      [ 18%]
+
+tests/test_NSString.py::test_nsstring_compare[zyxwvu-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 18%]
+
+tests/test_NSString.py::test_nsstring_compare[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-]
+PASSED [ 18%]
+
+tests/test_NSString.py::test_nsstring_compare[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-abcdef]
+PASSED [ 18%]
+
+tests/test_NSString.py::test_nsstring_compare[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-zyxwvu]
+PASSED [ 18%]
+
+tests/test_NSString.py::test_nsstring_compare[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 18%]
+
+tests/test_NSString.py::test_nsstring_compare_str[-]
+PASSED              [ 19%]
+
+tests/test_NSString.py::test_nsstring_compare_str[-abcdef]
+PASSED        [ 19%]
+
+tests/test_NSString.py::test_nsstring_compare_str[-zyxwvu]
+PASSED        [ 19%]
+
+tests/test_NSString.py::test_nsstring_compare_str[-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 19%]
+
+tests/test_NSString.py::test_nsstring_compare_str[abcdef-]
+PASSED        [ 19%]
+
+tests/test_NSString.py::test_nsstring_compare_str[abcdef-abcdef]
+PASSED  [ 20%]
+
+tests/test_NSString.py::test_nsstring_compare_str[abcdef-zyxwvu]
+PASSED  [ 20%]
+
+tests/test_NSString.py::test_nsstring_compare_str[abcdef-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 20%]
+
+tests/test_NSString.py::test_nsstring_compare_str[zyxwvu-]
+PASSED        [ 20%]
+
+tests/test_NSString.py::test_nsstring_compare_str[zyxwvu-abcdef]
+PASSED  [ 20%]
+
+tests/test_NSString.py::test_nsstring_compare_str[zyxwvu-zyxwvu]
+PASSED  [ 20%]
+
+tests/test_NSString.py::test_nsstring_compare_str[zyxwvu-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 21%]
+
+tests/test_NSString.py::test_nsstring_compare_str[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-]
+PASSED [ 21%]
+
+tests/test_NSString.py::test_nsstring_compare_str[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-abcdef]
+PASSED [ 21%]
+
+tests/test_NSString.py::test_nsstring_compare_str[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-zyxwvu]
+PASSED [ 21%]
+
+tests/test_NSString.py::test_nsstring_compare_str[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 21%]
+
+tests/test_NSString.py::test_nsstring_eq_non_string[42]
+PASSED           [ 21%]
+
+tests/test_NSString.py::test_nsstring_eq_non_string[4.2]
+PASSED          [ 22%]
+
+tests/test_NSString.py::test_nsstring_eq_non_string[None]
+PASSED         [ 22%]
+
+tests/test_NSString.py::test_nsstring_eq_non_string[other3]
+PASSED       [ 22%]
+
+tests/test_NSString.py::test_nsstring_eq_non_string[other4]
+PASSED       [ 22%]
+
+tests/test_NSString.py::test_nsstring_compare_non_string[42]
+PASSED      [ 22%]
+
+tests/test_NSString.py::test_nsstring_compare_non_string[4.2]
+PASSED     [ 22%]
+
+tests/test_NSString.py::test_nsstring_compare_non_string[None]
+PASSED    [ 23%]
+
+tests/test_NSString.py::test_nsstring_compare_non_string[other3]
+PASSED  [ 23%]
+
+tests/test_NSString.py::test_nsstring_compare_non_string[other4]
+PASSED  [ 23%]
+
+tests/test_NSString.py::test_nsstring_in[]
+PASSED                        [ 23%]
+
+tests/test_NSString.py::test_nsstring_in[a]
+PASSED                       [ 23%]
+
+tests/test_NSString.py::test_nsstring_in[bcd]
+PASSED                     [ 23%]
+
+tests/test_NSString.py::test_nsstring_in[def]
+PASSED                     [ 24%]
+
+tests/test_NSString.py::test_nsstring_in[abcdabcdabcdef]
+PASSED          [ 24%]
+
+tests/test_NSString.py::test_nsstring_in[nope]
+PASSED                    [ 24%]
+
+tests/test_NSString.py::test_nsstring_in[dcb]
+PASSED                     [ 24%]
+
+tests/test_NSString.py::test_nsstring_in_non_string[42]
+PASSED           [ 24%]
+
+tests/test_NSString.py::test_nsstring_in_non_string[4.2]
+PASSED          [ 24%]
+
+tests/test_NSString.py::test_nsstring_in_non_string[None]
+PASSED         [ 25%]
+
+tests/test_NSString.py::test_nsstring_in_non_string[other3]
+PASSED       [ 25%]
+
+tests/test_NSString.py::test_nsstring_in_non_string[other4]
+PASSED       [ 25%]
+
+tests/test_NSString.py::test_nsstring_len[]
+PASSED                       [ 25%]
+
+tests/test_NSString.py::test_nsstring_len[abcdef]
+PASSED                 [ 25%]
+
+tests/test_NSString.py::test_nsstring_len[zyxwvu]
+PASSED                 [ 25%]
+
+tests/test_NSString.py::test_nsstring_len[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 26%]
+
+tests/test_NSString.py::test_nsstring_getitem_index[]
+PASSED             [ 26%]
+
+tests/test_NSString.py::test_nsstring_getitem_index[abcdef]
+PASSED       [ 26%]
+
+tests/test_NSString.py::test_nsstring_getitem_index[zyxwvu]
+PASSED       [ 26%]
+
+tests/test_NSString.py::test_nsstring_getitem_index[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 26%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[None-]
+PASSED        [ 26%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[None-abcdef]
+PASSED  [ 27%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[None-zyxwvu]
+PASSED  [ 27%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[None-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 27%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[1-]
+PASSED           [ 27%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[1-abcdef]
+PASSED     [ 27%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[1-zyxwvu]
+PASSED     [ 27%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[1-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 28%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[2-]
+PASSED           [ 28%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[2-abcdef]
+PASSED     [ 28%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[2-zyxwvu]
+PASSED     [ 28%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[2-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 28%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[-1-]
+PASSED          [ 28%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[-1-abcdef]
+PASSED    [ 29%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[-1-zyxwvu]
+PASSED    [ 29%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[-1-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 29%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[-2-]
+PASSED          [ 29%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[-2-abcdef]
+PASSED    [ 29%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[-2-zyxwvu]
+PASSED    [ 29%]
+
+tests/test_NSString.py::test_nsstring_getitem_slice[-2-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 30%]
+
+tests/test_NSString.py::test_nsstring_iter[]
+PASSED                      [ 30%]
+
+tests/test_NSString.py::test_nsstring_iter[abcdef]
+PASSED                [ 30%]
+
+tests/test_NSString.py::test_nsstring_iter[zyxwvu]
+PASSED                [ 30%]
+
+tests/test_NSString.py::test_nsstring_iter[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 30%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-None-]
+PASSED      [ 30%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-None-a]
+PASSED     [ 31%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-None-bcd]
+PASSED   [ 31%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-None-def]
+PASSED   [ 31%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-None-abcdabcdabcdef]
+PASSED [ 31%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-None-nope]
+PASSED  [ 31%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-None-dcb]
+PASSED   [ 31%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-6-]
+PASSED         [ 32%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-6-a]
+PASSED        [ 32%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-6-bcd]
+PASSED      [ 32%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-6-def]
+PASSED      [ 32%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-6-abcdabcdabcdef]
+PASSED [ 32%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-6-nope]
+PASSED     [ 32%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[None-6-dcb]
+PASSED      [ 33%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[6-None-]
+PASSED         [ 33%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[6-None-a]
+PASSED        [ 33%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[6-None-bcd]
+PASSED      [ 33%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[6-None-def]
+PASSED      [ 33%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[6-None-abcdabcdabcdef]
+PASSED [ 33%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[6-None-nope]
+PASSED     [ 34%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[6-None-dcb]
+PASSED      [ 34%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[4-10-]
+PASSED           [ 34%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[4-10-a]
+PASSED          [ 34%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[4-10-bcd]
+PASSED        [ 34%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[4-10-def]
+PASSED        [ 34%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[4-10-abcdabcdabcdef]
+PASSED [ 35%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[4-10-nope]
+PASSED       [ 35%]
+
+tests/test_NSString.py::test_nsstring_find_rfind[4-10-dcb]
+PASSED        [ 35%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-None-]
+PASSED    [ 35%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-None-a]
+PASSED   [ 35%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-None-bcd]
+PASSED [ 35%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-None-def]
+PASSED [ 36%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-None-abcdabcdabcdef]
+PASSED [ 36%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-None-nope]
+PASSED [ 36%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-None-dcb]
+PASSED [ 36%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-6-]
+PASSED       [ 36%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-6-a]
+PASSED      [ 36%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-6-bcd]
+PASSED    [ 37%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-6-def]
+PASSED    [ 37%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-6-abcdabcdabcdef]
+PASSED [ 37%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-6-nope]
+PASSED   [ 37%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[None-6-dcb]
+PASSED    [ 37%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[6-None-]
+PASSED       [ 37%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[6-None-a]
+PASSED      [ 38%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[6-None-bcd]
+PASSED    [ 38%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[6-None-def]
+PASSED    [ 38%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[6-None-abcdabcdabcdef]
+PASSED [ 38%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[6-None-nope]
+PASSED   [ 38%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[6-None-dcb]
+PASSED    [ 38%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[4-10-]
+PASSED         [ 39%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[4-10-a]
+PASSED        [ 39%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[4-10-bcd]
+PASSED      [ 39%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[4-10-def]
+PASSED      [ 39%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[4-10-abcdabcdabcdef]
+PASSED [ 39%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[4-10-nope]
+PASSED     [ 40%]
+
+tests/test_NSString.py::test_nsstring_index_rindex[4-10-dcb]
+PASSED      [ 40%]
+
+tests/test_NSString.py::test_nsstring_add_radd[-]
+PASSED                 [ 40%]
+
+tests/test_NSString.py::test_nsstring_add_radd[-abcdef]
+PASSED           [ 40%]
+
+tests/test_NSString.py::test_nsstring_add_radd[-zyxwvu]
+PASSED           [ 40%]
+
+tests/test_NSString.py::test_nsstring_add_radd[-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 40%]
+
+tests/test_NSString.py::test_nsstring_add_radd[abcdef-]
+PASSED           [ 41%]
+
+tests/test_NSString.py::test_nsstring_add_radd[abcdef-abcdef]
+PASSED     [ 41%]
+
+tests/test_NSString.py::test_nsstring_add_radd[abcdef-zyxwvu]
+PASSED     [ 41%]
+
+tests/test_NSString.py::test_nsstring_add_radd[abcdef-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 41%]
+
+tests/test_NSString.py::test_nsstring_add_radd[zyxwvu-]
+PASSED           [ 41%]
+
+tests/test_NSString.py::test_nsstring_add_radd[zyxwvu-abcdef]
+PASSED     [ 41%]
+
+tests/test_NSString.py::test_nsstring_add_radd[zyxwvu-zyxwvu]
+PASSED     [ 42%]
+
+tests/test_NSString.py::test_nsstring_add_radd[zyxwvu-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 42%]
+
+tests/test_NSString.py::test_nsstring_add_radd[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-]
+PASSED [ 42%]
+
+tests/test_NSString.py::test_nsstring_add_radd[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-abcdef]
+PASSED [ 42%]
+
+tests/test_NSString.py::test_nsstring_add_radd[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-zyxwvu]
+PASSED [ 42%]
+
+tests/test_NSString.py::test_nsstring_add_radd[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 42%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[-5-]
+PASSED               [ 43%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[-5-abcdef]
+PASSED         [ 43%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[-5-zyxwvu]
+PASSED         [ 43%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[-5-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 43%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[0-]
+PASSED                [ 43%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[0-abcdef]
+PASSED          [ 43%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[0-zyxwvu]
+PASSED          [ 44%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[0-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 44%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[1-]
+PASSED                [ 44%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[1-abcdef]
+PASSED          [ 44%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[1-zyxwvu]
+PASSED          [ 44%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[1-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 44%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[2-]
+PASSED                [ 45%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[2-abcdef]
+PASSED          [ 45%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[2-zyxwvu]
+PASSED          [ 45%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[2-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 45%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[5-]
+PASSED                [ 45%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[5-abcdef]
+PASSED          [ 45%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[5-zyxwvu]
+PASSED          [ 46%]
+
+tests/test_NSString.py::test_nsstring_mul_rmul[5-U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 46%]
+
+tests/test_NSString.py::test_nsstring_mul_other_without_index[]
+PASSED   [ 46%]
+
+tests/test_NSString.py::test_nsstring_mul_other_without_index[abcdef]
+PASSED [ 46%]
+
+tests/test_NSString.py::test_nsstring_mul_other_without_index[zyxwvu]
+PASSED [ 46%]
+
+tests/test_NSString.py::test_nsstring_mul_other_without_index[U\134xf1\134xee\134xe7\134xf6\134u2202\134u20ac]
+PASSED [ 46%]
+
+tests/test_NSString.py::test_nsstring_add_non_string[42]
+PASSED          [ 47%]
+
+tests/test_NSString.py::test_nsstring_add_non_string[4.2]
+PASSED         [ 47%]
+
+tests/test_NSString.py::test_nsstring_add_non_string[None]
+PASSED        [ 47%]
+
+tests/test_NSString.py::test_nsstring_add_non_string[other3]
+PASSED      [ 47%]
+
+tests/test_NSString.py::test_nsstring_add_non_string[other4]
+PASSED      [ 47%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[find-42]
+PASSED    [ 47%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[find-4.2]
+PASSED   [ 48%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[find-None]
+PASSED  [ 48%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[find-other3]
+PASSED [ 48%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[find-other4]
+PASSED [ 48%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[index-42]
+PASSED   [ 48%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[index-4.2]
+PASSED  [ 48%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[index-None]
+PASSED [ 49%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[index-other3]
+PASSED [ 49%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[index-other4]
+PASSED [ 49%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rfind-42]
+PASSED   [ 49%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rfind-4.2]
+PASSED  [ 49%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rfind-None]
+PASSED [ 49%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rfind-other3]
+PASSED [ 50%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rfind-other4]
+PASSED [ 50%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rindex-42]
+PASSED  [ 50%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rindex-4.2]
+PASSED [ 50%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rindex-None]
+PASSED [ 50%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rindex-other3]
+PASSED [ 50%]
+
+tests/test_NSString.py::test_nsstring_find_non_string[rindex-other4]
+PASSED [ 51%]
+
+tests/test_NSString.py::test_nsstring_capitalize
+PASSED                  [ 51%]
+
+tests/test_NSString.py::test_nsstring_casefold
+PASSED                    [ 51%]
+
+tests/test_NSString.py::test_nsstring_center
+PASSED                      [ 51%]
+
+tests/test_NSString.py::test_nsstring_count
+PASSED                       [ 51%]
+
+tests/test_NSString.py::test_nsstring_encode
+PASSED                      [ 51%]
+
+tests/test_NSString.py::test_nsstring_endswith
+PASSED                    [ 52%]
+
+tests/test_NSString.py::test_nsstring_expandtabs
+PASSED                  [ 52%]
+
+tests/test_NSString.py::test_nsstring_format
+PASSED                      [ 52%]
+
+tests/test_NSString.py::test_nsstring_format_map
+PASSED                  [ 52%]
+
+tests/test_NSString.py::test_nsstring_isalnum
+PASSED                     [ 52%]
+
+tests/test_NSString.py::test_nsstring_isalpha
+PASSED                     [ 52%]
+
+tests/test_NSString.py::test_nsstring_isdecimal
+PASSED                   [ 53%]
+
+tests/test_NSString.py::test_nsstring_isdigit
+PASSED                     [ 53%]
+
+tests/test_NSString.py::test_nsstring_isidentifier
+PASSED                [ 53%]
+
+tests/test_NSString.py::test_nsstring_islower
+PASSED                     [ 53%]
+
+tests/test_NSString.py::test_nsstring_isnumeric
+PASSED                   [ 53%]
+
+tests/test_NSString.py::test_nsstring_isprintable
+PASSED                 [ 53%]
+
+tests/test_NSString.py::test_nsstring_isspace
+PASSED                     [ 54%]
+
+tests/test_NSString.py::test_nsstring_istitle
+PASSED                     [ 54%]
+
+tests/test_NSString.py::test_nsstring_isupper
+PASSED                     [ 54%]
+
+tests/test_NSString.py::test_nsstring_join
+PASSED                        [ 54%]
+
+tests/test_NSString.py::test_nsstring_ljust
+PASSED                       [ 54%]
+
+tests/test_NSString.py::test_nsstring_lower
+PASSED                       [ 54%]
+
+tests/test_NSString.py::test_nsstring_lstrip
+PASSED                      [ 55%]
+
+tests/test_NSString.py::test_nsstring_maketrans
+PASSED                   [ 55%]
+
+tests/test_NSString.py::test_nsstring_partition
+PASSED                   [ 55%]
+
+tests/test_NSString.py::test_nsstring_replace
+PASSED                     [ 55%]
+
+tests/test_NSString.py::test_nsstring_rjust
+PASSED                       [ 55%]
+
+tests/test_NSString.py::test_nsstring_rpartition
+PASSED                  [ 55%]
+
+tests/test_NSString.py::test_nsstring_rsplit
+PASSED                      [ 56%]
+
+tests/test_NSString.py::test_nsstring_rstrip
+PASSED                      [ 56%]
+
+tests/test_NSString.py::test_nsstring_split
+PASSED                       [ 56%]
+
+tests/test_NSString.py::test_nsstring_splitlines
+PASSED                  [ 56%]
+
+tests/test_NSString.py::test_nsstring_strip
+PASSED                       [ 56%]
+
+tests/test_NSString.py::test_nsstring_swapcase
+PASSED                    [ 56%]
+
+tests/test_NSString.py::test_nsstring_title
+PASSED                       [ 57%]
+
+tests/test_NSString.py::test_nsstring_translate
+PASSED                   [ 57%]
+
+tests/test_NSString.py::test_nsstring_upper
+PASSED                       [ 57%]
+
+tests/test_NSString.py::test_nsstring_zfill
+PASSED                       [ 57%]
+
+tests/test_ObjCClass.py::test_by_name
+PASSED                             [ 57%]
+
+tests/test_ObjCClass.py::test_caching
+PASSED                             [ 57%]
+
+tests/test_ObjCClass.py::test_by_pointer
+PASSED                          [ 58%]
+
+tests/test_ObjCClass.py::test_nonexistant
+PASSED                         [ 58%]
+
+tests/test_ObjCClass.py::test_produce_objcmetaclass
+PASSED               [ 58%]
+
+tests/test_ObjCClass.py::test_requires_class
+PASSED                      [ 58%]
+
+tests/test_ObjCClass.py::test_superclass
+PASSED                          [ 58%]
+
+tests/test_ObjCClass.py::test_protocols
+PASSED                           [ 58%]
+
+tests/test_ObjCClass.py::test_instancecheck
+PASSED                       [ 59%]
+
+tests/test_ObjCClass.py::test_subclasscheck
+PASSED                       [ 59%]
+
+tests/test_ObjCClass.py::test_repr
+PASSED                                [ 59%]
+
+tests/test_ObjCClass.py::test_duplicate_registration
+PASSED              [ 59%]
+
+tests/test_ObjCClass.py::test_auto_rename_global
+PASSED                  [ 59%]
+
+tests/test_ObjCClass.py::test_auto_rename_per_class
+PASSED               [ 60%]
+
+tests/test_ObjCClass.py::test_ivars
+PASSED                               [ 60%]
+
+tests/test_ObjCClass.py::test_properties
+PASSED                          [ 60%]
+
+tests/test_ObjCClass.py::test_python_properties
+PASSED                   [ 60%]
+
+tests/test_ObjCClass.py::test_python_properties_weak
+PASSED              [ 60%]
+
+tests/test_ObjCClass.py::test_nonobject_properties
+PASSED                [ 60%]
+
+tests/test_ObjCClass.py::test_nonobject_properties_weak
+PASSED           [ 61%]
+
+tests/test_ObjCClass.py::test_properties_lifecycle_strong
+PASSED         [ 61%]
+
+tests/test_ObjCClass.py::test_properties_lifecycle_weak
+PASSED           [ 61%]
+
+tests/test_ObjCClass.py::test_with_wrapped_methods
+PASSED                [ 61%]
+
+tests/test_ObjCClass.py::test_compatible_name_change
+PASSED              [ 61%]
+
+tests/test_ObjCClass.py::test_property_forcing
+PASSED                    [ 61%]
+
+tests/test_ObjCInstance.py::test_can_produce_objcclass
+PASSED            [ 62%]
+
+tests/test_ObjCInstance.py::test_can_produce_objcmetaclass
+PASSED        [ 62%]
+
+tests/test_ObjCInstance.py::test_can_produce_objcprotocol
+PASSED         [ 62%]
+
+tests/test_ObjCInstance.py::test_str_repr
+PASSED                         [ 62%]
+
+tests/test_ObjCInstance.py::test_str_repr_with_nil_descriptions
+PASSED   [ 62%]
+
+tests/test_ObjCInstance.py::test_python_attribute
+PASSED                 [ 62%]
+
+tests/test_ObjCInstance.py::test_python_attribute_keep_alive
+PASSED      [ 63%]
+
+tests/test_ObjCInstance.py::test_python_attribute_freed
+PASSED           [ 63%]
+
+tests/test_ObjCInstance.py::test_returned_lifecycle
+PASSED               [ 63%]
+
+tests/test_ObjCInstance.py::test_alloc_lifecycle
+PASSED                  [ 63%]
+
+tests/test_ObjCInstance.py::test_alloc_init_lifecycle
+PASSED             [ 63%]
+
+tests/test_ObjCInstance.py::test_new_lifecycle
+PASSED                    [ 63%]
+
+tests/test_ObjCInstance.py::test_copy_lifecycle
+PASSED                   [ 64%]
+
+tests/test_ObjCInstance.py::test_mutable_copy_lifecycle
+PASSED           [ 64%]
+
+tests/test_ObjCInstance.py::test_immutable_copy_lifecycle
+PASSED         [ 64%]
+
+tests/test_ObjCInstance.py::test_init_change_lifecycle
+PASSED            [ 64%]
+
+tests/test_ObjCInstance.py::test_init_none
+SKIPPED (TODO: Need a test
+that is cross platform)                                                  [ 64%]
+
+tests/test_ObjCInstance.py::test_dealloc
+PASSED                          [ 64%]
+
+tests/test_ObjCInstance.py::test_polymorphic_constructor
+PASSED          [ 65%]
+
+tests/test_ObjCMetaClass.py::test_by_name
+PASSED                         [ 65%]
+
+tests/test_ObjCMetaClass.py::test_caching
+PASSED                         [ 65%]
+
+tests/test_ObjCMetaClass.py::test_by_pointer
+PASSED                      [ 65%]
+
+tests/test_ObjCMetaClass.py::test_nonexistant
+PASSED                     [ 65%]
+
+tests/test_ObjCMetaClass.py::test_meta
+PASSED                            [ 65%]
+
+tests/test_ObjCMetaClass.py::test_requires_metaclass
+PASSED              [ 66%]
+
+tests/test_ObjCMetaClass.py::test_superclass
+PASSED                      [ 66%]
+
+tests/test_ObjCProtocol.py::test_by_name
+PASSED                          [ 66%]
+
+tests/test_ObjCProtocol.py::test_caching
+PASSED                          [ 66%]
+
+tests/test_ObjCProtocol.py::test_by_pointer
+PASSED                       [ 66%]
+
+tests/test_ObjCProtocol.py::test_nonexistant_protocol
+PASSED             [ 66%]
+
+tests/test_ObjCProtocol.py::test_requires_protocol
+PASSED                [ 67%]
+
+tests/test_ObjCProtocol.py::test_derived_protocols
+PASSED                [ 67%]
+
+tests/test_ObjCProtocol.py::test_instancecheck
+PASSED                    [ 67%]
+
+tests/test_ObjCProtocol.py::test_subclasscheck
+PASSED                    [ 67%]
+
+tests/test_ObjCProtocol.py::test_auto_rename_global
+PASSED               [ 67%]
+
+tests/test_ObjCProtocol.py::test_auto_rename_per_class
+PASSED            [ 67%]
+
+tests/test_ObjCProtocol.py::test_no_duplicate_protocols
+PASSED           [ 68%]
+
+tests/test_ObjCProtocol.py::test_def_empty
+PASSED                        [ 68%]
+
+tests/test_ObjCProtocol.py::test_def_methods
+PASSED                      [ 68%]
+
+tests/test_ObjCProtocol.py::test_def_property
+PASSED                     [ 68%]
+
+tests/test_ObjCProtocol.py::test_def_extends
+PASSED                      [ 68%]
+
+tests/test_ObjCProtocol.py::test_repr
+PASSED                             [ 68%]
+
+tests/test_ObjCProtocol.py::test_interface
+PASSED                        [ 69%]
+
+tests/test_ObjCProtocol.py::test_interface_return_struct
+PASSED          [ 69%]
+
+tests/test_async.py::test_run_until_complete
+PASSED                      [ 69%]
+
+tests/test_async.py::test_run_forever
+PASSED                             [ 69%]
+
+tests/test_async.py::test_tcp_echo
+PASSED                                [ 69%]
+
+tests/test_async.py::test_call_soon
+PASSED                               [ 69%]
+
+tests/test_async.py::test_call_later
+PASSED                              [ 70%]
+
+tests/test_async.py::test_call_at
+PASSED                                 [ 70%]
+
+tests/test_async.py::test_subprocess
+SKIPPED (iOS doesn't support
+subprocesses)                                                            [ 70%]
+
+tests/test_async.py::test_cf_lifecycle
+PASSED                            [ 70%]
+
+tests/test_async.py::test_cf_lifecycle_explicit
+PASSED                   [ 70%]
+
+tests/test_async.py::test_cocoa_lifecycle
+SKIPPED (Test is macOS
+specific)                                                                [ 70%]
+
+tests/test_blocks.py::test_block_property_ctypes
+PASSED                  [ 71%]
+
+tests/test_blocks.py::test_block_property_pytypes
+PASSED                 [ 71%]
+
+tests/test_blocks.py::test_block_delegate_method_manual_ctypes
+PASSED    [ 71%]
+
+tests/test_blocks.py::test_block_delegate_method_manual_pytypes
+PASSED   [ 71%]
+
+tests/test_blocks.py::test_block_delegate_auto
+PASSED                    [ 71%]
+
+tests/test_blocks.py::test_block_delegate_manual_struct
+PASSED           [ 71%]
+
+tests/test_blocks.py::test_block_delegate_auto_struct
+PASSED             [ 72%]
+
+tests/test_blocks.py::test_block_delegate_auto_struct_mismatch
+PASSED    [ 72%]
+
+tests/test_blocks.py::test_block_receiver
+PASSED                         [ 72%]
+
+tests/test_blocks.py::test_block_receiver_no_return_annotation
+PASSED    [ 72%]
+
+tests/test_blocks.py::test_block_receiver_missing_arg_annotation
+PASSED  [ 72%]
+
+tests/test_blocks.py::test_block_receiver_lambda
+PASSED                  [ 72%]
+
+tests/test_blocks.py::test_block_receiver_explicit
+PASSED                [ 73%]
+
+tests/test_blocks.py::test_block_round_trip
+PASSED                       [ 73%]
+
+tests/test_blocks.py::test_block_round_trip_no_arguments
+PASSED          [ 73%]
+
+tests/test_blocks.py::test_block_bound_method
+PASSED                     [ 73%]
+
+tests/test_const.py::test_objc_const
+PASSED                              [ 73%]
+
+tests/test_ctypes_patch.py::test_patch_structure
+PASSED                  [ 73%]
+
+tests/test_ctypes_patch.py::test_patch_pointer
+PASSED                    [ 74%]
+
+tests/test_ctypes_patch.py::test_no_patch_primitives[c_int]
+PASSED       [ 74%]
+
+tests/test_ctypes_patch.py::test_no_patch_primitives[c_double]
+PASSED    [ 74%]
+
+tests/test_ctypes_patch.py::test_no_patch_primitives[c_char_p]
+PASSED    [ 74%]
+
+tests/test_ctypes_patch.py::test_no_patch_primitives[c_void_p]
+PASSED    [ 74%]
+
+tests/test_ctypes_patch.py::test_patch_idempotent
+PASSED                 [ 74%]
+
+tests/test_ctypes_patch.py::test_patched_type_returned_often
+PASSED      [ 75%]
+
+tests/test_ctypes_patch.py::test_unwrap_mappingproxy_not_a_proxy
+SKIPPED [ 75%]
+
+tests/test_ctypes_patch.py::test_get_stgdict_of_type_not_a_type[42]
+SKIPPED [ 75%]
+
+tests/test_ctypes_patch.py::test_get_stgdict_of_type_not_a_type[abc]
+SKIPPED [ 75%]
+
+tests/test_ctypes_patch.py::test_get_stgdict_of_type_not_a_type[None]
+SKIPPED [ 75%]
+
+tests/test_ctypes_patch.py::test_get_stgdict_of_type_not_a_type[value3]
+SKIPPED [ 75%]
+
+tests/test_ctypes_patch.py::test_get_stgdict_of_type_not_a_ctype[int]
+SKIPPED [ 76%]
+
+tests/test_ctypes_patch.py::test_get_stgdict_of_type_not_a_ctype[str]
+SKIPPED [ 76%]
+
+tests/test_ctypes_patch.py::test_get_stgdict_of_type_not_a_ctype[object]
+SKIPPED [ 76%]
+
+tests/test_ctypes_patch.py::test_get_stginfo_of_type_not_a_ctype[42]
+PASSED [ 76%]
+
+tests/test_ctypes_patch.py::test_get_stginfo_of_type_not_a_ctype[abc]
+PASSED [ 76%]
+
+tests/test_ctypes_patch.py::test_get_stginfo_of_type_not_a_ctype[None]
+PASSED [ 76%]
+
+tests/test_ctypes_patch.py::test_get_stginfo_of_type_not_a_ctype[int]
+PASSED [ 77%]
+
+tests/test_ctypes_patch.py::test_get_stginfo_of_type_not_a_ctype[object]
+PASSED [ 77%]
+
+tests/test_ctypes_patch.py::test_get_stginfo_of_type_uninitialized[Structure]
+PASSED [ 77%]
+
+tests/test_ctypes_patch.py::test_get_stginfo_of_type_uninitialized[Union]
+PASSED [ 77%]
+
+tests/test_ctypes_patch.py::test_no_patch_setfunc_only
+PASSED            [ 77%]
+
+tests/test_field.py::test_field
+PASSED                                   [ 77%]
+
+tests/test_field.py::test_static
+PASSED                                  [ 78%]
+
+tests/test_field.py::test_non_existent
+PASSED                            [ 78%]
+
+tests/test_field.py::test_non_existent_static
+PASSED                     [ 78%]
+
+tests/test_field.py::test_static_access_non_static
+PASSED                [ 78%]
+
+tests/test_field.py::test_non_static_access_static
+PASSED                [ 78%]
+
+tests/test_method.py::test_method
+PASSED                                 [ 78%]
+
+tests/test_method.py::test_non_existent
+PASSED                           [ 79%]
+
+tests/test_method.py::test_incorrect_argument_count
+PASSED               [ 79%]
+
+tests/test_method.py::test_incorrect_argument_type
+PASSED                [ 79%]
+
+tests/test_method.py::test_str_repr
+PASSED                               [ 79%]
+
+tests/test_method.py::test_float_method
+PASSED                           [ 79%]
+
+tests/test_method.py::test_double_method
+PASSED                          [ 80%]
+
+tests/test_method.py::test_decimal_method
+PASSED                         [ 80%]
+
+tests/test_method.py::test_static_method
+PASSED                          [ 80%]
+
+tests/test_method.py::test_non_existent_static_method
+PASSED             [ 80%]
+
+tests/test_method.py::test_mutator_like_method
+PASSED                    [ 80%]
+
+tests/test_method.py::test_string_argument
+PASSED                        [ 80%]
+
+tests/test_method.py::test_enum_argument
+PASSED                          [ 81%]
+
+tests/test_method.py::test_string_return
+PASSED                          [ 81%]
+
+tests/test_method.py::test_constant_string_return
+PASSED                 [ 81%]
+
+tests/test_method.py::test_number_return
+PASSED                          [ 81%]
+
+tests/test_method.py::test_auto_struct_creation
+PASSED                   [ 81%]
+
+tests/test_method.py::test_sequence_arg_to_struct
+PASSED                 [ 81%]
+
+tests/test_method.py::test_struct_return
+PASSED                          [ 82%]
+
+tests/test_method.py::test_object_return
+PASSED                          [ 82%]
+
+tests/test_method.py::test_no_convert_return
+PASSED                      [ 82%]
+
+tests/test_method.py::test_get_method_family[mutableCopy-mutableCopy]
+PASSED [ 82%]
+
+tests/test_method.py::test_get_method_family[mutableCopy:-mutableCopy]
+PASSED [ 82%]
+
+tests/test_method.py::test_get_method_family[_mutableCopy:-mutableCopy]
+PASSED [ 82%]
+
+tests/test_method.py::test_get_method_family[_mutableCopy:with:-mutableCopy]
+PASSED [ 83%]
+
+tests/test_method.py::test_get_method_family[_mutableCopyWith:-mutableCopy]
+PASSED [ 83%]
+
+tests/test_method.py::test_get_method_family[_mutableCopy_with:-mutableCopy]
+PASSED [ 83%]
+
+tests/test_method.py::test_get_method_family[_mutableCopying:-]
+PASSED   [ 83%]
+
+tests/test_partial_method.py::test_no_args
+PASSED                        [ 83%]
+
+tests/test_partial_method.py::test_one_arg
+PASSED                        [ 83%]
+
+tests/test_partial_method.py::test_two_args
+PASSED                       [ 84%]
+
+tests/test_partial_method.py::test_lots_of_args
+PASSED                   [ 84%]
+
+tests/test_partial_method.py::test_arg_order
+PASSED                      [ 84%]
+
+tests/test_partial_method.py::test_duplicate_arg_names
+PASSED            [ 84%]
+
+tests/test_partial_method.py::test_exception
+PASSED                      [ 84%]
+
+tests/test_partial_method.py::test_with_override
+PASSED                  [ 84%]
+
+tests/test_send_message.py::test_sel_by_name
+PASSED                      [ 85%]
+
+tests/test_send_message.py::test_sel_null
+PASSED                         [ 85%]
+
+tests/test_send_message.py::test_method_incorrect_argument_count_send
+PASSED [ 85%]
+
+tests/test_send_message.py::test_method_varargs_send
+PASSED              [ 85%]
+
+tests/test_send_message.py::test_method_send
+PASSED                      [ 85%]
+
+tests/test_send_message.py::test_send_sel
+PASSED                         [ 85%]
+
+tests/test_send_message.py::test_float_method_send
+PASSED                [ 86%]
+
+tests/test_send_message.py::test_double_method_send
+PASSED               [ 86%]
+
+tests/test_send_message.py::test_struct_return_send
+PASSED               [ 86%]
+
+tests/test_super.py::test_send
+PASSED                                    [ 86%]
+
+tests/test_super.py::test_send_sel
+PASSED                                [ 86%]
+
+tests/test_super.py::test_send_incorrect_argument_count
+PASSED           [ 86%]
+
+tests/test_super.py::test_send_varargs
+PASSED                            [ 87%]
+
+tests/test_threads.py::test_wrapper_creation
+PASSED                      [ 87%]
+
+tests/test_threads.py::test_method_cache
+PASSED                          [ 87%]
+
+tests/test_threads.py::test_accessor_cache
+PASSED                        [ 87%]
+
+tests/test_threads.py::test_mutator_cache
+PASSED                         [ 87%]
+
+tests/test_types.py::test_nspoint_repr
+PASSED                            [ 87%]
+
+tests/test_types.py::test_cgpoint_repr
+PASSED                            [ 88%]
+
+tests/test_types.py::test_nsrect_repr
+PASSED                             [ 88%]
+
+tests/test_types.py::test_cgrect_repr
+PASSED                             [ 88%]
+
+tests/test_types.py::test_nssize_repr
+PASSED                             [ 88%]
+
+tests/test_types.py::test_cgsize_repr
+PASSED                             [ 88%]
+
+tests/test_types.py::test_nsrange_repr
+PASSED                            [ 88%]
+
+tests/test_types.py::test_cfrange_repr
+PASSED                            [ 89%]
+
+tests/test_types.py::test_nsedgeinsets_repr
+PASSED                       [ 89%]
+
+tests/test_types.py::test_uiedgeinsets_repr
+PASSED                       [ 89%]
+
+tests/test_types.py::test_function_NSEdgeInsetsMake
+PASSED               [ 89%]
+
+tests/test_types.py::test_make_function[NSMakeSize]
+PASSED               [ 89%]
+
+tests/test_types.py::test_make_function[CGSizeMake]
+PASSED               [ 89%]
+
+tests/test_types.py::test_make_function[NSMakePoint]
+PASSED              [ 90%]
+
+tests/test_types.py::test_make_function[CGPointMake]
+PASSED              [ 90%]
+
+tests/test_types.py::test_make_function[NSMakeRect]
+PASSED               [ 90%]
+
+tests/test_types.py::test_make_function[CGRectMake]
+PASSED               [ 90%]
+
+tests/test_types.py::test_make_function[UIEdgeInsetsMake]
+PASSED         [ 90%]
+
+tests/test_types.py::test_ctype_for_type_unregistered
+PASSED             [ 90%]
+
+tests/test_types.py::test_register_ctype_for_type
+PASSED                 [ 91%]
+
+tests/test_types.py::test_get_ctype_for_type_map_is_a_copy
+PASSED        [ 91%]
+
+tests/test_types.py::test_get_encoding_maps_are_copies
+PASSED            [ 91%]
+
+tests/test_types.py::test_unregister_encoding
+PASSED                     [ 91%]
+
+tests/test_types.py::test_unregister_unknown_encoding
+PASSED             [ 91%]
+
+tests/test_types.py::test_unregister_unknown_encoding_all
+PASSED         [ 91%]
+
+tests/test_types.py::test_unregister_ctype
+PASSED                        [ 92%]
+
+tests/test_types.py::test_unregister_ctype_all
+PASSED                    [ 92%]
+
+tests/test_types.py::test_unregister_encoding_all
+PASSED                 [ 92%]
+
+tests/test_types.py::test_ctype_for_encoding[inout-qualifier]
+PASSED     [ 92%]
+
+tests/test_types.py::test_ctype_for_encoding[const-qualifier]
+PASSED     [ 92%]
+
+tests/test_types.py::test_ctype_for_encoding[pointer]
+PASSED             [ 92%]
+
+tests/test_types.py::test_ctype_for_encoding[array]
+PASSED               [ 93%]
+
+tests/test_types.py::test_ctype_for_encoding[class-name]
+PASSED          [ 93%]
+
+tests/test_types.py::test_ctype_for_encoding[block-signature]
+PASSED     [ 93%]
+
+tests/test_types.py::test_ctype_for_encoding_structure
+PASSED            [ 93%]
+
+tests/test_types.py::test_ctype_for_encoding_structure_named_fields
+PASSED [ 93%]
+
+tests/test_types.py::test_ctype_for_encoding_structure_bit_fields
+PASSED [ 93%]
+
+tests/test_types.py::test_ctype_for_encoding_structure_anonymous
+PASSED  [ 94%]
+
+tests/test_types.py::test_ctype_for_encoding_structure_recursive
+PASSED  [ 94%]
+
+tests/test_types.py::test_ctype_for_encoding_structure_without_fields
+PASSED [ 94%]
+
+tests/test_types.py::test_ctype_for_encoding_union
+PASSED                [ 94%]
+
+tests/test_types.py::test_ctype_for_encoding_is_registered
+PASSED        [ 94%]
+
+tests/test_types.py::test_ctype_for_unknown_encoding[b8-A bit field encoding cannot appear outside a structure]
+PASSED [ 94%]
+
+tests/test_types.py::test_ctype_for_unknown_encoding[?-An unknown encoding cannot appear outside of a pointer]
+PASSED [ 95%]
+
+tests/test_types.py::test_ctype_for_unknown_encoding[T-128-bit integers are not supported by ctypes]
+PASSED [ 95%]
+
+tests/test_types.py::test_ctype_for_unknown_encoding[t-128-bit integers are not supported by ctypes]
+PASSED [ 95%]
+
+tests/test_types.py::test_ctype_for_unknown_encoding[j-Complex numbers are not supported by ctypes]
+PASSED [ 95%]
+
+tests/test_types.py::test_ctype_for_unknown_encoding[A-Atomic types are not supported by ctypes]
+PASSED [ 95%]
+
+tests/test_types.py::test_ctype_for_unknown_encoding[X-Unknown encoding]
+PASSED [ 95%]
+
+tests/test_types.py::test_ctype_for_unknown_encoding[^X-Unknown encoding]
+PASSED [ 96%]
+
+tests/test_types.py::test_encoding_for_ctype_pointer
+PASSED              [ 96%]
+
+tests/test_types.py::test_encoding_for_unknown_ctype
+PASSED              [ 96%]
+
+tests/test_types.py::test_split_method_encoding[no-arguments]
+PASSED     [ 96%]
+
+tests/test_types.py::test_split_method_encoding[legacy-stack-offsets]
+PASSED [ 96%]
+
+tests/test_types.py::test_split_method_encoding[compound-encodings]
+PASSED [ 96%]
+
+tests/test_types.py::test_split_method_encoding[pointer-argument]
+PASSED [ 97%]
+
+tests/test_types.py::test_ctypes_for_method_encoding
+PASSED              [ 97%]
+
+tests/test_types.py::test_end_of_encoding_start_out_of_range[-1]
+PASSED  [ 97%]
+
+tests/test_types.py::test_end_of_encoding_start_out_of_range[1]
+PASSED   [ 97%]
+
+tests/test_types.py::test_end_of_encoding_start_out_of_range[100]
+PASSED [ 97%]
+
+tests/test_types.py::test_end_of_encoding[bit-field-before-next-encoding]
+PASSED [ 97%]
+
+tests/test_types.py::test_end_of_encoding[bit-field-at-end-of-string]
+PASSED [ 98%]
+
+tests/test_types.py::test_end_of_encoding[object-pointer]
+PASSED         [ 98%]
+
+tests/test_types.py::test_end_of_encoding[block]
+PASSED                  [ 98%]
+
+tests/test_types.py::test_end_of_encoding_invalid[X-Unknown encoding]
+PASSED [ 98%]
+
+tests/test_types.py::test_end_of_encoding_invalid[{spam=i-Incomplete encoding, missing 1 closing parentheses]
+PASSED [ 98%]
+
+tests/test_types.py::test_end_of_encoding_invalid[^-Incomplete encoding, reached end of string too early]
+PASSED [ 98%]
+
+tests/test_types.py::test_compound_value_for_sequence_struct
+PASSED      [ 99%]
+
+tests/test_types.py::test_compound_value_for_sequence_struct_wrong_length
+PASSED [ 99%]
+
+tests/test_types.py::test_compound_value_for_sequence_array
+PASSED       [ 99%]
+
+tests/test_types.py::test_compound_value_for_sequence_array_of_structs
+PASSED [ 99%]
+
+tests/test_types.py::test_compound_value_for_sequence_array_wrong_length
+PASSED [ 99%]
+
+tests/test_types.py::test_compound_value_for_sequence_not_compound
+PASSED [100%]
+
+
+======================= 584 passed, 11 skipped in 4.96s ========================
+
+[testbed] Test suite passed!
+  py314-iOS: OK (33.87=setup[3.21]+cmd[0.70,1.41,28.55] seconds)
+  congratulations :) (34.01 seconds)
+[exit 0]

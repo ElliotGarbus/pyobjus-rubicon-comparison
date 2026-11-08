@@ -1,0 +1,383 @@
+
+$ /Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14 -m venv venv
+[exit 0]
+
+$ <work>/pyobjus-master/venv/bin/python -m pip install -q -r .ci/cicd-requirements.txt
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: <work>/pyobjus-master/venv/bin/python -m pip install --upgrade pip
+[exit 0]
+
+$ <work>/pyobjus-master/venv/bin/python -m pip install -q -e .
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: <work>/pyobjus-master/venv/bin/python -m pip install --upgrade pip
+[exit 0]
+
+$ make test_lib
+rm -rf objc_classes/test/testlib.dylib objc_classes/test/CArrayTestlib.dylib
+clang objc_classes/test/testlib.m -o objc_classes/test/testlib.dylib -dynamiclib -framework Foundation -arch arm64 -arch x86_64
+objc_classes/test/testlib.m:180:12: warning: cast to smaller integer type 'int' from 'IMP *' (aka 'void (**)(void)') [-Wpointer-to-int-cast]
+  180 |     return (int)imp(self, @selector(getSumOf:and:), a, b);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+objc_classes/test/testlib.m:180:12: warning: cast to smaller integer type 'int' from 'IMP *' (aka 'void (**)(void)') [-Wpointer-to-int-cast]
+  180 |     return (int)imp(self, @selector(getSumOf:and:), a, b);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+clang objc_classes/test/CArrayTestlib.m -o objc_classes/test/CArrayTestlib.dylib -dynamiclib -framework Foundation -arch arm64 -arch x86_64
+objc_classes/test/CArrayTestlib.m:3:17: warning: cannot find interface declaration for 'ClassFoo'
+    3 | @implementation ClassFoo
+      |                 ^
+objc_classes/test/CArrayTestlib.m:3:17: warning: class 'ClassFoo' defined without specifying a base class [-Wobjc-root-class]
+objc_classes/test/CArrayTestlib.m:3:25: note: add a super class to fix this problem
+    3 | @implementation ClassFoo
+      |                         ^
+      |                          : NSObject 
+objc_classes/test/CArrayTestlib.m:87:57: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+   87 |     NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+      |                                                  ~~~    ^
+objc_classes/test/CArrayTestlib.m:88:35: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+   88 |     NSLog(@" ... ... [+] *n=%zd", *n);
+      |                             ~~~   ^~
+      |                             %u
+objc_classes/test/CArrayTestlib.m:97:61: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+   97 |         NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+      |                                                      ~~~    ^
+objc_classes/test/CArrayTestlib.m:98:39: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+   98 |         NSLog(@" ... ... [+] *n=%zd", *n);
+      |                                 ~~~   ^~
+      |                                 %u
+6 warnings generated.
+objc_classes/test/CArrayTestlib.m:3:17: warning: cannot find interface declaration for 'ClassFoo'
+    3 | @implementation ClassFoo
+      |                 ^
+objc_classes/test/CArrayTestlib.m:3:17: warning: class 'ClassFoo' defined without specifying a base class [-Wobjc-root-class]
+objc_classes/test/CArrayTestlib.m:3:25: note: add a super class to fix this problem
+    3 | @implementation ClassFoo
+      |                         ^
+      |                          : NSObject 
+objc_classes/test/CArrayTestlib.m:87:57: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+   87 |     NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+      |                                                  ~~~    ^
+objc_classes/test/CArrayTestlib.m:88:35: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+   88 |     NSLog(@" ... ... [+] *n=%zd", *n);
+      |                             ~~~   ^~
+      |                             %u
+objc_classes/test/CArrayTestlib.m:97:61: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int *' [-Wformat]
+   97 |         NSLog(@" ... ... [+] getIntValuesWithCount(n=%zd)", n);
+      |                                                      ~~~    ^
+objc_classes/test/CArrayTestlib.m:98:39: warning: format specifies type 'ssize_t' (aka 'long') but the argument has type 'unsigned int' [-Wformat]
+   98 |         NSLog(@" ... ... [+] *n=%zd", *n);
+      |                                 ~~~   ^~
+      |                                 %u
+6 warnings generated.
+[exit 0]
+
+$ <work>/pyobjus-master/venv/bin/python -m pytest tests -v --junitxml=<results>/pyobjus-master/run3.xml
+============================= test session starts ==============================
+platform darwin -- Python 3.14.7, pytest-9.1.1, pluggy-1.7.0 -- <work>/pyobjus-master/venv/bin/python
+cachedir: .pytest_cache
+rootdir: <work>/pyobjus-master
+configfile: pyproject.toml
+plugins: cov-7.1.0
+collecting ... collected 202 items
+
+tests/test_call_memory.py::CallMemoryTest::test_by_reference_args_without_a_value_buffer_do_not_leak PASSED [  0%]
+tests/test_call_memory.py::CallMemoryTest::test_call_raising_during_argument_conversion_does_not_leak PASSED [  0%]
+tests/test_call_memory.py::CallMemoryTest::test_call_returning_its_receiver_does_not_leak PASSED [  1%]
+tests/test_carray.py::CArrayTest::test_carray_bool PASSED                [  1%]
+tests/test_carray.py::CArrayTest::test_carray_char PASSED                [  2%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_args_do_not_leak PASSED [  2%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_bytes PASSED      [  3%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_mixed_str_and_bytes PASSED [  3%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_none_is_null PASSED [  4%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_rejects_embedded_nul PASSED [  4%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_rejects_other_types PASSED [  5%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_str PASSED        [  5%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_str_non_ascii_is_utf8 PASSED [  6%]
+tests/test_carray.py::CArrayTest::test_carray_char_ptr_str_outlives_python_list PASSED [  6%]
+tests/test_carray.py::CArrayTest::test_carray_class PASSED               [  7%]
+tests/test_carray.py::CArrayTest::test_carray_double PASSED              [  7%]
+tests/test_carray.py::CArrayTest::test_carray_float PASSED               [  8%]
+tests/test_carray.py::CArrayTest::test_carray_int PASSED                 [  8%]
+tests/test_carray.py::CArrayTest::test_carray_long PASSED                [  9%]
+tests/test_carray.py::CArrayTest::test_carray_longlong PASSED            [  9%]
+tests/test_carray.py::CArrayTest::test_carray_multidimensional PASSED    [ 10%]
+tests/test_carray.py::CArrayTest::test_carray_object PASSED              [ 10%]
+tests/test_carray.py::CArrayTest::test_carray_selector PASSED            [ 11%]
+tests/test_carray.py::CArrayTest::test_carray_short PASSED               [ 11%]
+tests/test_carray.py::CArrayTest::test_carray_struct PASSED              [ 12%]
+tests/test_carray.py::CArrayTest::test_carray_uchar PASSED               [ 12%]
+tests/test_carray.py::CArrayTest::test_carray_uint PASSED                [ 13%]
+tests/test_carray.py::CArrayTest::test_carray_ulong PASSED               [ 13%]
+tests/test_carray.py::CArrayTest::test_carray_ulonglong PASSED           [ 14%]
+tests/test_carray.py::CArrayTest::test_carray_ushort PASSED              [ 14%]
+tests/test_carray.py::CArrayTest::test_get_from_ptr_type_code_as_bytes_or_str 
+tests/test_carray.py::CArrayTest::test_get_from_ptr_type_code_as_bytes_or_str PASSED [ 15%]
+tests/test_delegate.py::DelegateTest::test_existing_delegate PASSED      [ 15%]
+tests/test_delegate.py::DelegateTest::test_multiple_delegates PASSED     [ 16%]
+tests/test_delegate.py::DelegateTest::test_user_registration_delegate PASSED [ 16%]
+tests/test_delegate_exceptions.py::DelegateExceptionsTest::test_next_call_into_delegate_succeeds PASSED [ 17%]
+tests/test_delegate_exceptions.py::DelegateExceptionsTest::test_raising_method_returns_zero_and_reports PASSED [ 17%]
+tests/test_delegate_exceptions.py::DelegateExceptionsTest::test_raising_object_method_returns_nil PASSED [ 18%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_block_argument_reaches_python PASSED [ 18%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_class_methods_have_responds_and_signature PASSED [ 19%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_copy_family_returns_retained_object PASSED [ 19%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_method_signature_unknown_selector_is_null PASSED [ 20%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_bool_return PASSED [ 20%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_char_return PASSED [ 21%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_double_const_qualified_string_return PASSED [ 21%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_double_return PASSED [ 22%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_float_return PASSED [ 22%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_negative_int_return PASSED [ 23%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_python_str_return PASSED [ 23%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_string_return PASSED [ 24%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_uchar_return PASSED [ 24%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_uint_return PASSED [ 25%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_msgsend_void_return PASSED [ 25%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_pointer_argument_preserves_pointee_type PASSED [ 26%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_responds_to_selector_ignores_non_protocol_methods PASSED [ 26%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_responds_to_selector_returns_bool PASSED [ 27%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_returning_a_python_delegate_keeps_it_alive PASSED [ 27%]
+tests/test_delegate_returns.py::DelegateReturnsTest::test_unconvertible_return_is_zero PASSED [ 28%]
+tests/test_delegate_returns.py::CleanTypeSpecifierTest::test_strips_every_leading_qualifier PASSED [ 28%]
+tests/test_delegate_returns.py::SelectorReturnsRetainedTest::test_method_families PASSED [ 29%]
+tests/test_delegate_returns.py::CGFloatReturnRegressionTest::test_msgsend_table_height_returns_double PASSED [ 29%]
+tests/test_delegate_returns.py::CGFloatReturnRegressionTest::test_signature_cache_refreshes_when_encoding_changes PASSED [ 30%]
+tests/test_dereference.py::DereferenceTest::test_dereference_basic PASSED [ 30%]
+tests/test_dereference.py::DereferenceTest::test_dereference_selector_void_ptr PASSED [ 31%]
+tests/test_dereference.py::DereferenceTest::test_dereference_with_type PASSED [ 31%]
+tests/test_dereference.py::DereferenceTest::test_selector_pointer PASSED [ 32%]
+tests/test_downstream_call_shapes.py::DownstreamCallShapesTest::test_empty_dict_for_a_dictionary_argument PASSED [ 32%]
+tests/test_downstream_call_shapes.py::DownstreamCallShapesTest::test_enum_values_as_nsuinteger_arguments PASSED [ 33%]
+tests/test_downstream_call_shapes.py::DownstreamCallShapesTest::test_none_for_a_block_argument PASSED [ 33%]
+tests/test_downstream_call_shapes.py::DownstreamCallShapesTest::test_none_for_an_error_argument PASSED [ 34%]
+tests/test_key_value_coding.py::KeyValueCodingTest::test_collection_operators PASSED [ 34%]
+tests/test_key_value_coding.py::KeyValueCodingTest::test_key_path_through_a_nested_object PASSED [ 35%]
+tests/test_key_value_coding.py::KeyValueCodingTest::test_set_and_get_a_value_for_a_key PASSED [ 35%]
+tests/test_literals.py::LiteralsTest::test_array PASSED                  [ 36%]
+tests/test_literals.py::LiteralsTest::test_bool PASSED                   [ 36%]
+tests/test_literals.py::LiteralsTest::test_char PASSED                   [ 37%]
+tests/test_literals.py::LiteralsTest::test_dict PASSED                   [ 37%]
+tests/test_literals.py::LiteralsTest::test_double PASSED                 [ 38%]
+tests/test_literals.py::LiteralsTest::test_integer PASSED                [ 38%]
+tests/test_literals.py::LiteralsTest::test_string PASSED                 [ 39%]
+tests/test_literals.py::LiteralsTest::test_unsigned_long_and_float PASSED [ 39%]
+tests/test_load_framework.py::TestLoadFrameworkNSBundle::test_bundle_without_binary_raises_and_suggests_dlopen PASSED [ 40%]
+tests/test_load_framework.py::TestLoadFrameworkNSBundle::test_loads_system_framework PASSED [ 40%]
+tests/test_load_framework.py::TestLoadFrameworkNSBundle::test_missing_path_raises PASSED [ 41%]
+tests/test_load_framework.py::TestLoadFrameworkNSBundle::test_trailing_slash_names_the_same_binary PASSED [ 41%]
+tests/test_load_framework.py::TestLoadFrameworkIOS::test_loads_real_framework PASSED [ 42%]
+tests/test_load_framework.py::TestLoadFrameworkIOS::test_missing_framework_raises_with_dlopen_reason PASSED [ 42%]
+tests/test_load_framework.py::TestLoadFrameworkIOS::test_opens_binary_with_dlopen PASSED [ 43%]
+tests/test_load_framework.py::TestMakeDylib::test_compile_and_call_user_class PASSED [ 43%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_all_primitive_types_bytes_encoding 
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_all_primitive_types_bytes_encoding PASSED [ 44%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_double_fields_bytes_encoding PASSED [ 44%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_float_fields_bytes_encoding PASSED [ 45%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_mixed_primitive_fields_bytes_encoding PASSED [ 45%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_named_double_fields_bytes_encoding PASSED [ 46%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_named_mixed_fields_bytes_encoding PASSED [ 46%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_nested_anonymous_structs PASSED [ 47%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_nested_named_struct PASSED [ 47%]
+tests/test_make_type_bytes.py::TestMakeTypeBytesDecode::test_nested_registered_struct PASSED [ 48%]
+tests/test_ns_dictionary.py::NSMutableDictionaryTest::test_set_object_and_enumerate PASSED [ 48%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_add PASSED      [ 49%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_count PASSED    [ 49%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_insert_at_index PASSED [ 50%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_remove_at_index PASSED [ 50%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_remove_object PASSED [ 50%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_replace PASSED  [ 51%]
+tests/test_ns_mutable_array.py::NSMutableArrayTest::test_return_object PASSED [ 51%]
+tests/test_nsarray.py::test_objc_arr_behaviour[empty array] PASSED       [ 52%]
+tests/test_nsarray.py::test_objc_arr_behaviour[non empty array] PASSED   [ 52%]
+tests/test_nsarray.py::test_objc_arr_adds_nil[empty array] PASSED        [ 53%]
+tests/test_nsarray.py::test_objc_arr_adds_nil[non empty array] PASSED    [ 53%]
+tests/test_nsarray.py::test_enumerator_returns_none_past_the_end PASSED  [ 54%]
+tests/test_nsarray.py::test_nsarray_contains_its_object PASSED           [ 54%]
+tests/test_nsobject.py::NSObject::test_debugDescription PASSED           [ 55%]
+tests/test_nsobject.py::NSObject::test_description PASSED                [ 55%]
+tests/test_nsobject.py::NSObject::test_hash PASSED                       [ 56%]
+tests/test_nsobject.py::NSObject::test_inheritance PASSED                [ 56%]
+tests/test_nsobject.py::NSObject::test_isequal PASSED                    [ 57%]
+tests/test_nsobject.py::NSObject::test_isproxy PASSED                    [ 57%]
+tests/test_nsobject.py::NSObject::test_responds_to_selector PASSED       [ 58%]
+tests/test_nsobject.py::NSObject::test_self PASSED                       [ 58%]
+tests/test_nsstring.py::NSObject::test_capitalizedString PASSED          [ 59%]
+tests/test_nsstring.py::NSObject::test_charactersatindex PASSED          [ 59%]
+tests/test_nsstring.py::NSObject::test_compare PASSED                    [ 60%]
+tests/test_nsstring.py::NSObject::test_fastestEncoding PASSED            [ 60%]
+tests/test_nsstring.py::NSObject::test_hasPrefix PASSED                  [ 61%]
+tests/test_nsstring.py::NSObject::test_hasSuffix PASSED                  [ 61%]
+tests/test_nsstring.py::NSObject::test_hash PASSED                       [ 62%]
+tests/test_nsstring.py::NSObject::test_isAbsolutePath PASSED             [ 62%]
+tests/test_nsstring.py::NSObject::test_length PASSED                     [ 63%]
+tests/test_nsstring.py::NSObject::test_lengthEncoding PASSED             [ 63%]
+tests/test_nsstring.py::NSObject::test_lineRangeForRange PASSED          [ 64%]
+tests/test_nsstring.py::NSObject::test_non_ascii PASSED                  [ 64%]
+tests/test_nsstring.py::NSObject::test_outside_the_basic_multilingual_plane PASSED [ 65%]
+tests/test_nsstring.py::NSObject::test_rangeOfString PASSED              [ 65%]
+tests/test_nsstring.py::NSObject::test_substringWithRange PASSED         [ 66%]
+tests/test_nsstring.py::NSObject::test_utf8 PASSED                       [ 66%]
+tests/test_nsstring.py::NSObject::test_utf8string PASSED                 [ 67%]
+tests/test_nsvalue.py::NSValueTest::test_objCType SKIPPED (Segfault ...) [ 67%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithPoint PASSED           [ 68%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithRange PASSED           [ 68%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithRangePointer PASSED    [ 69%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithRect SKIPPED (Segf...) [ 69%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithRectPointer PASSED     [ 70%]
+tests/test_nsvalue.py::NSValueTest::test_valueWithSize PASSED            [ 70%]
+tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_different_objects_are_not_equal 
+tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_different_objects_are_not_equal PASSED [ 71%]
+tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_method_returning_its_receiver_returns_the_receiver PASSED [ 71%]
+tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_not_equal_to_non_objc_values PASSED [ 72%]
+tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_objects_as_dict_keys PASSED [ 72%]
+tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_same_object_through_two_wrappers 
+tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_same_object_through_two_wrappers PASSED [ 73%]
+tests/test_objc_instance_identity.py::ObjcInstanceIdentityTest::test_weak_reference_to_a_wrapper PASSED [ 73%]
+tests/test_object_lifecycle.py::ObjectLifecycleTest::test_alloc XFAIL    [ 74%]
+tests/test_object_lifecycle.py::ObjectLifecycleTest::test_alloc_init XFAIL [ 74%]
+tests/test_object_lifecycle.py::ObjectLifecycleTest::test_copy XFAIL     [ 75%]
+tests/test_object_lifecycle.py::ObjectLifecycleTest::test_copy_and_init_return_new_objects PASSED [ 75%]
+tests/test_object_lifecycle.py::ObjectLifecycleTest::test_init_returning_another_object XFAIL [ 76%]
+tests/test_object_lifecycle.py::ObjectLifecycleTest::test_mutable_copy XFAIL [ 76%]
+tests/test_object_lifecycle.py::ObjectLifecycleTest::test_new XFAIL      [ 77%]
+tests/test_object_lifecycle.py::ObjectLifecycleTest::test_returned_object PASSED [ 77%]
+tests/test_partial_load.py::PartialLoadTest::test_partial_class_methods_bytes PASSED [ 78%]
+tests/test_partial_load.py::PartialLoadTest::test_partial_class_methods_str PASSED [ 78%]
+tests/test_partial_load.py::PartialLoadTest::test_partial_instance_methods_bytes PASSED [ 79%]
+tests/test_partial_load.py::PartialLoadTest::test_partial_instance_methods_str PASSED [ 79%]
+tests/test_partial_load.py::PartialLoadTest::test_reset_autoclass_loads_all_methods PASSED [ 80%]
+tests/test_plyer_usage.py::PlyerUsageTest::test_audio_format_mixes_int_double_and_bool PASSED [ 80%]
+tests/test_plyer_usage.py::PlyerUsageTest::test_location_delegate_keeps_authorization_status_an_int PASSED [ 81%]
+tests/test_plyer_usage.py::PlyerUsageTest::test_notification_delegate_returns_objcbool PASSED [ 81%]
+tests/test_plyer_usage.py::PlyerUsageTest::test_python_str_is_accepted_as_nsstring PASSED [ 82%]
+tests/test_properties.py::ObjcPropertyTest::test_basic_properties PASSED [ 82%]
+tests/test_properties.py::ObjcPropertyTest::test_custom_getter_properties PASSED [ 83%]
+tests/test_properties.py::ObjcPropertyTest::test_custom_setter_properties PASSED [ 83%]
+tests/test_properties.py::ObjcPropertyTest::test_dynamic_properties PASSED [ 84%]
+tests/test_properties.py::ObjcPropertyTest::test_pointer_property_keeps_the_assigned_value PASSED [ 84%]
+tests/test_properties.py::ObjcPropertyTest::test_readonly_properties PASSED [ 85%]
+tests/test_py_dict_conversion.py::test_convert_py_to_nsobject_keeps_dict_keys PASSED [ 85%]
+tests/test_py_dict_conversion.py::test_dict_passed_as_objc_argument_keeps_keys PASSED [ 86%]
+tests/test_reentrant_call.py::ReentrantCallTest::test_nested_lists_convert PASSED [ 86%]
+tests/test_reentrant_call.py::ReentrantCallTest::test_nested_lists_stay_in_bounds PASSED [ 87%]
+tests/test_simple.py::HelloWorldTest::test_autoclass PASSED              [ 87%]
+tests/test_simple.py::HelloWorldTest::test_autoclass2 PASSED             [ 88%]
+tests/test_simple.py::HelloWorldTest::test_char_ptr_rejects_embedded_nul PASSED [ 88%]
+tests/test_struct_arg_by_value.py::TestStructArgByValue::test_bit_field_struct_arg_raises_clear_error PASSED [ 89%]
+tests/test_struct_arg_by_value.py::TestStructArgByValue::test_nested_struct_in_float_registers PASSED [ 89%]
+tests/test_struct_arg_by_value.py::TestStructArgByValue::test_nested_unregistered_struct_round_trips PASSED [ 90%]
+tests/test_struct_arg_by_value.py::TestStructArgByValue::test_rect_arg_does_not_overrun_heap PASSED [ 90%]
+tests/test_struct_arg_by_value.py::TestStructArgByValue::test_rect_round_trips PASSED [ 91%]
+tests/test_struct_arg_by_value.py::TestStructArgByValue::test_unregistered_struct_round_trips PASSED [ 91%]
+tests/test_type_round_trip.py::TypeRoundTripTest::test_integer_limits 
+tests/test_type_round_trip.py::TypeRoundTripTest::test_integer_limits PASSED [ 92%]
+tests/test_type_round_trip.py::TypeRoundTripTest::test_not_enough_arguments PASSED [ 92%]
+tests/test_type_round_trip.py::TypeRoundTripTest::test_object_selector_and_class PASSED [ 93%]
+tests/test_type_round_trip.py::TypeRoundTripTest::test_opaque_pointer_round_trip PASSED [ 93%]
+tests/test_type_round_trip.py::TypeRoundTripTest::test_pointers_including_nil PASSED [ 94%]
+tests/test_type_round_trip.py::TypeRoundTripTest::test_scalar_and_char_ptr_echo 
+tests/test_type_round_trip.py::TypeRoundTripTest::test_scalar_and_char_ptr_echo PASSED [ 94%]
+tests/test_type_round_trip.py::TypeRoundTripTest::test_unregistered_struct_name PASSED [ 95%]
+tests/test_union.py::Union::test_dereference PASSED                      [ 95%]
+tests/test_union.py::Union::test_passing_union_by_value_raises PASSED    [ 96%]
+tests/test_union.py::Union::test_passing_union_pointer PASSED            [ 96%]
+tests/test_union.py::Union::test_passing_values PASSED                   [ 97%]
+tests/test_union.py::Union::test_returning_values PASSED                 [ 97%]
+tests/test_unknown_types.py::UnknownTypesTest::test_generatingByMembers PASSED [ 98%]
+tests/test_unknown_types.py::UnknownTypesTest::test_generatingUnknownType PASSED [ 98%]
+tests/test_unknown_types.py::UnknownTypesTest::test_members_and_use_as_argument PASSED [ 99%]
+tests/test_unknown_types.py::UnknownTypesTest::test_obtainMembers PASSED [ 99%]
+tests/test_unknown_types.py::UnknownTypesTest::test_usingIMP PASSED      [100%]
+
+- generated xml file: <results>/pyobjus-master/run3.xml -
+======== 194 passed, 2 skipped, 6 xfailed, 56 subtests passed in 9.68s =========
+00
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+values --> 20.000000 40.000000
+selector printed me!
+selector printed me!
+selector printed me!
+Hello from Objective C
+values --> 10.000000 30.000000
+20.000000
+[exit 0]
