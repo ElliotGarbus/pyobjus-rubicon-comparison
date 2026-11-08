@@ -1,0 +1,19 @@
+{
+ "pyobjus-main": {
+  "__version__": "1.2.4",
+  "e3": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "plausible pressure in hPa",
+     "on_main": null,
+     "stderr": "",
+     "seconds": 1.6
+    }
+   ]
+  }
+ }
+}

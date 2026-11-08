@@ -1,0 +1,62 @@
+{
+ "pyobjus-main": {
+  "e1": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "outcome": "wrong value",
+     "detail": "{'text': 'h\u00e9llo, Kivy', 'short_text': b'Kivy', 'types': ['public.utf8-plain-text', 'NSStringPboardType']}",
+     "on_main": null,
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "pyobjus-1.2.4": {
+  "e1": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "outcome": "wrong value",
+     "detail": "{'text': 'h\u00e9llo, Kivy', 'short_text': b'Kivy', 'types': ['public.utf8-plain-text', 'NSStringPboardType']}",
+     "on_main": null,
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-main": {
+  "e1": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "{'text': 'h\u00e9llo, Kivy', 'short_text': 'Kivy', 'types': ['public.utf8-plain-text', 'NSStringPboardType']}",
+     "on_main": null,
+     "stderr": ""
+    }
+   ]
+  }
+ },
+ "rubicon-0.5.7": {
+  "e1": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "{'text': 'h\u00e9llo, Kivy', 'short_text': 'Kivy', 'types': ['public.utf8-plain-text', 'NSStringPboardType']}",
+     "on_main": null,
+     "stderr": ""
+    }
+   ]
+  }
+ }
+}

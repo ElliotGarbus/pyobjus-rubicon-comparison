@@ -1,0 +1,198 @@
+{
+ "pyobjus-main": {
+  "__version__": "1.2.4",
+  "e2": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "valid latitude and longitude",
+     "on_main": true,
+     "stderr": "",
+     "seconds": 0.8
+    }
+   ]
+  },
+  "e3": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "outcome": "wrong value",
+     "detail": "not a plausible pressure (float)",
+     "on_main": null,
+     "stderr": "",
+     "seconds": 15.5
+    }
+   ]
+  },
+  "e4": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "0",
+     "on_main": null,
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  }
+ },
+ "rubicon-main": {
+  "__version__": "0.5.8.dev21",
+  "e2": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "valid latitude and longitude",
+     "on_main": true,
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "e3": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "plausible pressure in hPa",
+     "on_main": false,
+     "stderr": "",
+     "seconds": 3.3
+    }
+   ]
+  },
+  "e4": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "0",
+     "on_main": false,
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  }
+ },
+ "pyobjus-1.2.4": {
+  "__version__": "1.2.4",
+  "e2": {
+   "summary": {
+    "crash": 1
+   },
+   "runs": [
+    {
+     "seconds": 0.5,
+     "devicectl": "App terminated due to signal 6.",
+     "stderr": "*** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[e2_pyobjus.Location@0x107b7acf0 locationManager:didUpdateLocations:]: unrecognized selector sent to instance 0x10346b210'\n*** First throw call stack:\n(0x187d028d8 0x187a8f804 0x187dfe354 0x187cbf148 0x187cbf400 0x1ae7a266c 0x1ae7a8abc 0x1ae79d104 0x23e1ac534 0x187cec678 0x187ca6be0 0x187ca6228 0x187ca767c 0x107ae8050 0x107ae3870 0x107ae3238 0x107adc1d8 0x107ad8b30 0x102988b2c 0x102ad5274 0x102adc6a4 0x102ad4ae0 0x102ad121c 0x102989278 0x102ad5274 0x102adc6a4 0x102ad4d18 0x102989a24 0x102989d18 0x1025c02ec 0x187b01564)\nlibc++abi: terminating due to uncaught exception of type NSException\n",
+     "report": {
+      "type": "EXC_CRASH",
+      "signal": "SIGABRT",
+      "subtype": null,
+      "namespace": "SIGNAL",
+      "code": 6,
+      "indicator": "Abort trap: 6",
+      "frames": [
+       "libsystem_kernel.dylib!__pthread_kill",
+       "libsystem_pthread.dylib!pthread_kill",
+       "libsystem_c.dylib!abort",
+       "libc++abi.dylib!__abort_message",
+       "libc++abi.dylib!demangling_terminate_handler()",
+       "libobjc.A.dylib!_objc_terminate()"
+      ]
+     },
+     "outcome": "crash",
+     "detail": "SIGABRT"
+    }
+   ]
+  },
+  "e3": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "outcome": "wrong value",
+     "detail": "not a plausible pressure (float)",
+     "on_main": null,
+     "stderr": "",
+     "seconds": 15.5
+    }
+   ]
+  },
+  "e4": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "0",
+     "on_main": null,
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  }
+ },
+ "rubicon-0.5.7": {
+  "__version__": "0.5.7",
+  "e2": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "valid latitude and longitude",
+     "on_main": true,
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  },
+  "e3": {
+   "summary": {
+    "wrong value": 1
+   },
+   "runs": [
+    {
+     "outcome": "wrong value",
+     "detail": "not a plausible pressure (NoneType)",
+     "on_main": null,
+     "stderr": "",
+     "seconds": 15.6
+    }
+   ]
+  },
+  "e4": {
+   "summary": {
+    "correct": 1
+   },
+   "runs": [
+    {
+     "outcome": "correct",
+     "detail": "0",
+     "on_main": false,
+     "stderr": "",
+     "seconds": 0.6
+    }
+   ]
+  }
+ }
+}

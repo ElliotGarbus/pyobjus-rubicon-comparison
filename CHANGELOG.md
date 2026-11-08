@@ -2,6 +2,10 @@
 
 Corrections and changes to published sections, newest first.
 
+## section-4-draft-1
+
+First public draft of Section 4, for factual review.
+
 ## section-3-draft-1
 
 First public draft of Section 3, for factual review.

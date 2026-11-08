@@ -1,0 +1,52 @@
+{
+ "ruff": "ruff 0.6.9",
+ "examples": {
+  "e1": {
+   "pyobjus": {
+    "python": 16,
+    "native": {}
+   },
+   "rubicon": {
+    "python": 13,
+    "native": {}
+   }
+  },
+  "e2": {
+   "pyobjus": {
+    "python": 16,
+    "native": {}
+   },
+   "rubicon": {
+    "python": 25,
+    "native": {}
+   }
+  },
+  "e3": {
+   "pyobjus": {
+    "python": 9,
+    "native": {
+     "e3_bridge.h": 6,
+     "e3_bridge.m": 25
+    }
+   },
+   "rubicon": {
+    "python": 20,
+    "native": {}
+   }
+  },
+  "e4": {
+   "pyobjus": {
+    "python": 13,
+    "native": {
+     "e4_job.swift": 15
+    }
+   },
+   "rubicon": {
+    "python": 10,
+    "native": {
+     "e4_async.swift": 7
+    }
+   }
+  }
+ }
+}

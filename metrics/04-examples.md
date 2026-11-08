@@ -11,7 +11,7 @@ Section 4 shows the same tasks written with each library, so readers can see wha
 | All of Section 3's results, including that pyobjus can't create blocks and that both libraries implement delegates | [Section 3](../sections/03-capabilities.md) | The examples are chosen to show those results in real tasks, not to find new ones |
 | Kivy itself uses pyobjus in two places: the macOS clipboard and AVPlayer audio | [kivy](https://github.com/kivy/kivy/tree/0f23a55ccc59a55d2e726d079fedcca03c5ca068/kivy/core) at `0f23a55` | Example E1 is Kivy's clipboard |
 | plyer's iOS and macOS GPS facades use a pyobjus delegate, and Toga's iOS location uses a Rubicon delegate for the same API | [plyer](https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/plyer/platforms/ios/gps.py) at `4853b3a`, [Toga](https://github.com/beeware/toga/blob/c7d1d4e75505d69554dd6f68da4fa12ed58eb80e/iOS/src/toga_iOS/hardware/location.py) at `c7d1d4e` | Example E2 starts from both, so each library's version comes from a real project |
-| plyer's six iOS motion facades call an Objective-C class named `bridge`, which wraps Core Motion's block APIs and stores readings for Python to poll. The only copy found in kivy-ios is a test fixture | [plyer](https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/plyer/platforms/ios/accelerometer.py), [kivy-ios](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/tests/tools/fixtures/legacy_mrc/bridge.m) at `fd363d4` | Example E3 uses this as the pyobjus version |
+| plyer's six iOS motion facades call an Objective-C class named `bridge`, which wraps Core Motion's block APIs and stores readings for Python to poll. The only copy found in kivy-ios is a test fixture | [plyer](https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/plyer/platforms/ios/accelerometer.py), [kivy-ios](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/tests/tools/fixtures/legacy_mrc/bridge.m) at `fd363d4` | Example E3 uses this as the pyobjus version, through plyer's barometer facade |
 | The author's KivyForge guide calls a Swift `async` method through a polled job in pyobjus and a completion handler in Rubicon | [Call Swift from Python](https://github.com/ElliotGarbus/kivyforge/blob/edaa3aa8c4eb2f1a4f9f1b42a7c7b7350ae55012/docs/guides/guides/ios/swift.md), written by the author | Example E4 starts from it, and both versions are rechecked against each library's docs |
 
 ## Examples
@@ -22,7 +22,7 @@ Each example is one task, done the same way in each library, with the same obser
 |---|---|---|---|---|
 | E1 | Copy text to the clipboard and read it back | Everyday calls, strings and arrays. Both libraries can do this | Mac | Kivy's [`clipboard_nspaste.py`](https://github.com/kivy/kivy/blob/0f23a55ccc59a55d2e726d079fedcca03c5ca068/kivy/core/clipboard/clipboard_nspaste.py) for pyobjus. Rubicon written from its docs |
 | E2 | Receive location updates and report latitude and longitude | Delegates, which both libraries support, and reading a struct from a delegate's argument | iPhone | plyer's iOS GPS facade for pyobjus, and Toga's iOS location for Rubicon, each trimmed to the task |
-| E3 | Read the accelerometer | A block API. Rubicon passes a Python function, and pyobjus needs Objective-C helper code compiled into the app | iPhone | plyer's accelerometer facade and `bridge.m` for pyobjus. Rubicon written from its docs |
+| E3 | Read the barometer | A block-only API: Core Motion's altimeter delivers readings only to a handler. Rubicon passes a Python function, and pyobjus needs Objective-C helper code compiled into the app | iPhone | plyer's barometer facade and the bridge's altimeter code for pyobjus. Rubicon written from its docs |
 | E4 | Call a Swift `async` method and get its result | Calling Swift, and the cost of no blocks when Swift exports a completion handler | iPhone | The author's KivyForge example |
 
 ## Measures
@@ -44,7 +44,7 @@ Each example is one task, done the same way in each library, with the same obser
 - **Real code first:** where Kivy, plyer or Toga already does the task, that code is the starting point, trimmed to the task. Every change from the original is listed, with the reason. Otherwise the version is written from the library's docs.
 - **Same task:** both versions start and stop the same way and produce the same output. Error handling is the same in both, or left out of both.
 - **No Kivy:** the examples run in the test app without Kivy, so Kivy doesn't affect the result. X5 says what a Kivy app would add.
-- **Permissions:** E2 needs location permission, granted once by hand on the phone before the runs. This is recorded.
+- **Permissions:** E2 needs location permission and E3 Motion & Fitness permission, each granted once by hand on the phone before the runs. This is recorded.
 - **Improvements welcome:** anyone can propose a shorter or more idiomatic version for either library. A proposed version that works replaces the current one, and the change is recorded.
 - **No scoring:** line counts are reported for each example and not added up or weighted.
 
@@ -65,4 +65,7 @@ Each example is one task, done the same way in each library, with the same obser
 
 ## Changes after approval
 
-None yet.
+| Metric | Change | Reason |
+|---|---|---|
+| What was seen | kivy-ios's project template ships `bridge.h` and `bridge.m`, 173 lines, in every app it generates. The test fixture is a snapshot of that template | The approved text said the only copy was a test fixture. Found while writing E3, before any example ran on the iPhone |
+| E1 | Also reads back a short ASCII string, `"Kivy"`, as well as `"héllo, Kivy"` | A Mac trial showed pyobjus returning `bytes` for short strings, which Kivy's clipboard code would hit. Both versions read back both strings. Found in a trial run |
