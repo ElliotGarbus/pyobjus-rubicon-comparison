@@ -1,0 +1,23 @@
+{
+ "about": "Files that mix pyobjus code with code for other platforms. patterns.py counts only these line ranges (inclusive) of each, at the pinned commit. Each range is the iOS or macOS branch, class or function that holds the file's pyobjus code, read by hand. Every other using file is counted whole.",
+ "regions": {
+  "Carvera-Community/Carvera_Controller": {
+   "carveracontroller/main.py": [[168, 188, "the if sys.platform == \"ios\" block"]]
+  },
+  "renpy/renpy": {
+   "renpy.py": [[141, 165, "the if renpy.ios block"]],
+   "renpy/bootstrap.py": [[119, 140, "the elif renpy.ios block"]],
+   "renpy/main.py": [[220, 240, "the elif renpy.ios block"]],
+   "renpy/translation/__init__.py": [[1275, 1285, "the elif renpy.ios or renpy.macintosh block"]],
+   "renpy/exports/platformexports.py": [[364, 381, "the elif renpy.ios block"]],
+   "renpy/display/tts.py": [[520, 596, "the AppleTTS class"]],
+   "renpy/common/00iap.rpy": [[208, 213, "the if renpy.renpy.ios block"], [215, 331, "the IOSBackend class"]]
+  },
+  "Dirk-Sandberg/Friendly-Fitness-App": {
+   "main.py": [[118, 120, "the if platform == 'ios' block"]]
+  },
+  "teticio/kivy-tensorflow-helloworld": {
+   "model.py": [[89, 160, "the elif platform == 'ios' block"]]
+  }
+ }
+}

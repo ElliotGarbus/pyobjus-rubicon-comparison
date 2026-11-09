@@ -1,0 +1,1507 @@
+{
+ "collected_at": "2026-11-09T18:02Z",
+ "repositories": [
+  {
+   "repo": "kivy/kivy",
+   "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+   "stars": 19025,
+   "using_files": 2,
+   "api_calls": 8,
+   "selector_calls": 6,
+   "classes": [
+    "AVAudioPlayer",
+    "NSPasteboard",
+    "NSString",
+    "NSURL"
+   ],
+   "frameworks": [
+    "AVFoundation",
+    "AppKit"
+   ],
+   "protocols": [
+    "AVAudioPlayerDelegate"
+   ],
+   "files": [
+    {
+     "path": "kivy/core/audio_output/audio_avplayer.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.protocol"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.dylib_manager.load_framework": 1,
+      "pyobjus.protocol": 1
+     },
+     "api_call_count": 5,
+     "selector_calls": {
+      "initWithUTF8String_": 1,
+      "initFileURLWithPath_": 1,
+      "initWithContentsOfURL_error_": 1
+     },
+     "selector_call_count": 3,
+     "alloc_calls": 3,
+     "classes": [
+      "AVAudioPlayer",
+      "NSString",
+      "NSURL"
+     ],
+     "frameworks": [
+      "AVFoundation"
+     ],
+     "protocols": [
+      "AVAudioPlayerDelegate"
+     ],
+     "protocols_registered": []
+    },
+    {
+     "path": "kivy/core/clipboard/clipboard_nspaste.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 2,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 3,
+     "selector_calls": {
+      "stringForType_": 1,
+      "initWithUTF8String_": 1,
+      "setString_forType_": 1
+     },
+     "selector_call_count": 3,
+     "alloc_calls": 1,
+     "classes": [
+      "NSPasteboard",
+      "NSString"
+     ],
+     "frameworks": [
+      "AppKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": [
+    "README.md",
+    "doc/sources/guide/android.rst"
+   ]
+  },
+  {
+   "repo": "renpy/renpy",
+   "commit": "1b79387539ed04c7123492967e2736789859d925",
+   "stars": 6998,
+   "using_files": 7,
+   "api_calls": 22,
+   "selector_calls": 18,
+   "classes": [
+    "AVSpeechSynthesisVoice",
+    "AVSpeechSynthesizer",
+    "AVSpeechUtterance",
+    "Age",
+    "IAPHelper",
+    "NSFileManager",
+    "NSLocale",
+    "NSMutableArray",
+    "UIDevice"
+   ],
+   "frameworks": [
+    "AVFoundation"
+   ],
+   "protocols": [],
+   "files": [
+    {
+     "path": "renpy.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.objc_py_types.enum"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.objc_py_types.enum": 2
+     },
+     "api_call_count": 3,
+     "selector_calls": {
+      "URLsForDirectory_inDomains_": 1
+     },
+     "selector_call_count": 1,
+     "alloc_calls": 0,
+     "classes": [
+      "NSFileManager"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "renpy/bootstrap.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.objc_py_types.enum"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.objc_py_types.enum": 2
+     },
+     "api_call_count": 3,
+     "selector_calls": {
+      "URLsForDirectory_inDomains_": 1
+     },
+     "selector_call_count": 1,
+     "alloc_calls": 0,
+     "classes": [
+      "NSFileManager"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "renpy/main.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [
+      "UIDevice"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "renpy/common/00iap.rpy",
+     "imports": [
+      "pyobjus.objc_arr",
+      "pyobjus.objc_str",
+      "pyobjus"
+     ],
+     "api_calls": {
+      "pyobjus.objc_str": 6,
+      "pyobjus.autoclass": 2
+     },
+     "api_call_count": 8,
+     "selector_calls": {
+      "addObject_": 1,
+      "beginPurchase_": 1,
+      "hasPurchased_": 1,
+      "hasPurchasedConsumable_": 1,
+      "isDeferred_": 1,
+      "formatPrice_": 1
+     },
+     "selector_call_count": 6,
+     "alloc_calls": 2,
+     "classes": [
+      "IAPHelper",
+      "NSMutableArray"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "renpy/display/tts.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.objc_str"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.dylib_manager.load_framework": 1,
+      "pyobjus.objc_str": 1
+     },
+     "api_call_count": 5,
+     "selector_calls": {
+      "objectAtIndex_": 1,
+      "initWithString_": 1,
+      "setVolume_": 1,
+      "setRate_": 1,
+      "voiceWithIdentifier_": 1,
+      "voiceWithLanguage_": 1,
+      "setVoice_": 1,
+      "speakUtterance_": 1,
+      "stopSpeakingAtBoundary_": 1
+     },
+     "selector_call_count": 9,
+     "alloc_calls": 2,
+     "classes": [
+      "AVSpeechSynthesisVoice",
+      "AVSpeechSynthesizer",
+      "AVSpeechUtterance"
+     ],
+     "frameworks": [
+      "AVFoundation"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "renpy/exports/platformexports.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [
+      "Age"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "renpy/translation/__init__.py",
+     "imports": [
+      "pyobjus"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {
+      "objectAtIndex_": 1
+     },
+     "selector_call_count": 1,
+     "alloc_calls": 0,
+     "classes": [
+      "NSLocale"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": [
+    "sphinx/source/changelog.rst",
+    "sphinx/source/ios.rst",
+    "sphinx/source/license.rst"
+   ]
+  },
+  {
+   "repo": "kivymd/KivyMD",
+   "commit": "a00c10c385064afb3a46b3a10d1d2c0c6505dc48",
+   "stars": 2468,
+   "using_files": 1,
+   "api_calls": 1,
+   "selector_calls": 0,
+   "classes": [
+    "UISelectionFeedbackGenerator"
+   ],
+   "frameworks": [],
+   "protocols": [],
+   "files": [
+    {
+     "path": "kivymd/uix/behaviors/ios/native_behavior.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 1,
+     "classes": [
+      "UISelectionFeedbackGenerator"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "stars": 1805,
+   "using_files": 28,
+   "api_calls": 104,
+   "selector_calls": 82,
+   "classes": [
+    "AVAudioEngine",
+    "AVAudioFormat",
+    "AVAudioPlayer",
+    "AVAudioPlayerNode",
+    "AVAudioRecorder",
+    "AVAudioSession",
+    "AVCaptureDevice",
+    "AVSpeechSynthesisVoice",
+    "AVSpeechSynthesizer",
+    "AVSpeechUtterance",
+    "CLLocationManager",
+    "CWInterface",
+    "CWNetwork",
+    "CWWiFiClient",
+    "NSArray",
+    "NSDate",
+    "NSDictionary",
+    "NSError",
+    "NSFileManager",
+    "NSHost",
+    "NSObject",
+    "NSOpenPanel",
+    "NSRunLoop",
+    "NSSavePanel",
+    "NSString",
+    "NSURL",
+    "NSUserDefaults",
+    "NSUserNotification",
+    "NSUserNotificationCenter",
+    "NativeImagePicker",
+    "UIApplication",
+    "UIDevice",
+    "UIImagePickerController",
+    "UIScreen",
+    "Voip",
+    "bridge"
+   ],
+   "frameworks": [
+    "(a path computed at run time)",
+    "AVFoundation",
+    "AppKit",
+    "CoreLocation",
+    "CoreWLAN",
+    "Foundation",
+    "MessageUI",
+    "Photos",
+    "UIKit"
+   ],
+   "protocols": [
+    "CLLocationManagerDelegate",
+    "NSUserNotificationCenterDelegate",
+    "UIImagePickerControllerDelegate"
+   ],
+   "files": [
+    {
+     "path": "plyer/platforms/ios/accelerometer.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {
+      "setAccelerometerUpdateInterval_": 1
+     },
+     "selector_call_count": 1,
+     "alloc_calls": 1,
+     "classes": [
+      "bridge"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/barometer.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 1,
+     "classes": [
+      "bridge"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/battery.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 2,
+     "selector_calls": {
+      "setBatteryMonitoringEnabled_": 1
+     },
+     "selector_call_count": 1,
+     "alloc_calls": 0,
+     "classes": [
+      "UIDevice"
+     ],
+     "frameworks": [
+      "UIKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/brightness.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 2,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [
+      "UIScreen"
+     ],
+     "frameworks": [
+      "UIKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/call.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.objc_str"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.objc_str": 1
+     },
+     "api_call_count": 4,
+     "selector_calls": {
+      "initWithString_": 1,
+      "openURL_": 1
+     },
+     "selector_call_count": 2,
+     "alloc_calls": 1,
+     "classes": [
+      "NSString",
+      "NSURL",
+      "UIApplication"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/compass.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {
+      "setMagnetometerUpdateInterval_": 1,
+      "setDeviceMotionUpdateInterval_": 1
+     },
+     "selector_call_count": 2,
+     "alloc_calls": 1,
+     "classes": [
+      "bridge"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/devicename.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 2,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [
+      "UIDevice"
+     ],
+     "frameworks": [
+      "UIKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/email.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.objc_str"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.dylib_manager.load_framework": 1,
+      "pyobjus.objc_str": 1
+     },
+     "api_call_count": 5,
+     "selector_calls": {
+      "initWithString_": 1,
+      "openURL_": 1
+     },
+     "selector_call_count": 2,
+     "alloc_calls": 1,
+     "classes": [
+      "NSString",
+      "NSURL",
+      "UIApplication"
+     ],
+     "frameworks": [
+      "UIKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/filechooser.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.protocol"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.dylib_manager.load_framework": 1,
+      "pyobjus.protocol": 1
+     },
+     "api_call_count": 5,
+     "selector_calls": {
+      "presentViewController_animated_completion_": 1,
+      "dismissViewControllerAnimated_completion_": 1,
+      "writeToPNG_": 1
+     },
+     "selector_call_count": 3,
+     "alloc_calls": 2,
+     "classes": [
+      "NativeImagePicker",
+      "UIApplication",
+      "UIImagePickerController"
+     ],
+     "frameworks": [
+      "Photos"
+     ],
+     "protocols": [
+      "UIImagePickerControllerDelegate"
+     ],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/flash.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 2
+     },
+     "api_call_count": 2,
+     "selector_calls": {
+      "initWithUTF8String_": 1,
+      "lockForConfiguration_": 2,
+      "defaultDeviceWithMediaType_": 1
+     },
+     "selector_call_count": 4,
+     "alloc_calls": 1,
+     "classes": [
+      "AVCaptureDevice",
+      "NSString"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/gps.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.protocol"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.dylib_manager.load_framework": 1,
+      "pyobjus.protocol": 2
+     },
+     "api_call_count": 4,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 1,
+     "classes": [
+      "CLLocationManager"
+     ],
+     "frameworks": [
+      "CoreLocation"
+     ],
+     "protocols": [
+      "CLLocationManagerDelegate"
+     ],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/gravity.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {
+      "setDeviceMotionUpdateInterval_": 1
+     },
+     "selector_call_count": 1,
+     "alloc_calls": 1,
+     "classes": [
+      "bridge"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/gyroscope.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 2,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 3,
+     "selector_calls": {
+      "setGyroscopeUpdateInterval_": 1,
+      "setGyroUpdateInterval_": 1,
+      "setDeviceMotionUpdateInterval_": 1
+     },
+     "selector_call_count": 3,
+     "alloc_calls": 1,
+     "classes": [
+      "UIDevice",
+      "bridge"
+     ],
+     "frameworks": [
+      "UIKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/keystore.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.objc_str"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.objc_str": 3
+     },
+     "api_call_count": 4,
+     "selector_calls": {
+      "setObject_forKey_": 1,
+      "stringForKey_": 1
+     },
+     "selector_call_count": 2,
+     "alloc_calls": 0,
+     "classes": [
+      "NSUserDefaults"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/sms.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.objc_str"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.dylib_manager.load_framework": 1,
+      "pyobjus.objc_str": 1
+     },
+     "api_call_count": 5,
+     "selector_calls": {
+      "initWithString_": 1,
+      "openURL_": 1
+     },
+     "selector_call_count": 2,
+     "alloc_calls": 1,
+     "classes": [
+      "NSString",
+      "NSURL",
+      "UIApplication"
+     ],
+     "frameworks": [
+      "MessageUI"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/spatialorientation.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {
+      "setDeviceMotionUpdateInterval_": 1
+     },
+     "selector_call_count": 1,
+     "alloc_calls": 1,
+     "classes": [
+      "bridge"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/storagepath.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {
+      "URLsForDirectory_inDomains_": 6
+     },
+     "selector_call_count": 6,
+     "alloc_calls": 0,
+     "classes": [
+      "NSFileManager"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/tts.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.objc_str"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.dylib_manager.load_framework": 1,
+      "pyobjus.objc_str": 2
+     },
+     "api_call_count": 6,
+     "selector_calls": {
+      "voiceWithLanguage_": 1,
+      "speechUtteranceWithString_": 1,
+      "speakUtterance_": 1
+     },
+     "selector_call_count": 3,
+     "alloc_calls": 1,
+     "classes": [
+      "AVSpeechSynthesisVoice",
+      "AVSpeechSynthesizer",
+      "AVSpeechUtterance"
+     ],
+     "frameworks": [
+      "AVFoundation"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/uniqueid.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 2,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [
+      "UIDevice"
+     ],
+     "frameworks": [
+      "UIKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/voip.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 6,
+      "pyobjus.dylib_manager.load_framework": 2
+     },
+     "api_call_count": 8,
+     "selector_calls": {
+      "initWithCommonFormat_sampleRate_channels_interleaved_": 2,
+      "initWithDomain_code_userInfo_": 1,
+      "setCategory_mode_options_error_": 1,
+      "setActive_error_": 1,
+      "connect_port_ssl_tlsVersion_timeout_": 1,
+      "sendClientID_": 1,
+      "attachNode_": 1,
+      "connect_to_format_": 1,
+      "startAndReturnError_": 1,
+      "installTapOnBus_bufferSize_": 1,
+      "removeTapOnBus_": 1
+     },
+     "selector_call_count": 12,
+     "alloc_calls": 6,
+     "classes": [
+      "AVAudioEngine",
+      "AVAudioFormat",
+      "AVAudioPlayerNode",
+      "AVAudioSession",
+      "NSError",
+      "Voip"
+     ],
+     "frameworks": [
+      "AVFoundation",
+      "Foundation"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/ios/frameworks/utils.py",
+     "imports": [
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [],
+     "frameworks": [
+      "(a path computed at run time)"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/macosx/audio.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 6,
+      "pyobjus.dylib_manager.load_framework": 2
+     },
+     "api_call_count": 8,
+     "selector_calls": {
+      "initWithUTF8String_": 1,
+      "initWithString_": 1,
+      "initWithCommonFormat_sampleRate_channels_interleaved_": 1,
+      "initWithURL_format_error_": 1,
+      "initWithContentsOfURL_error_": 1
+     },
+     "selector_call_count": 5,
+     "alloc_calls": 6,
+     "classes": [
+      "AVAudioFormat",
+      "AVAudioPlayer",
+      "AVAudioRecorder",
+      "NSError",
+      "NSString",
+      "NSURL"
+     ],
+     "frameworks": [
+      "AVFoundation",
+      "Foundation"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/macosx/devicename.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 2,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [
+      "NSHost"
+     ],
+     "frameworks": [
+      "Foundation"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/macosx/filechooser.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.objc_arr",
+      "pyobjus.objc_str"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.dylib_manager.load_framework": 1,
+      "pyobjus.objc_arr": 1,
+      "pyobjus.objc_str": 2
+     },
+     "api_call_count": 7,
+     "selector_calls": {
+      "setCanChooseDirectories_": 1,
+      "setCanChooseFiles_": 1,
+      "setAllowsMultipleSelection_": 1,
+      "setCanCreateDirectories_": 1,
+      "setShowsHiddenFiles_": 1,
+      "setTitle_": 1,
+      "setAllowedFileTypes_": 1,
+      "setAllowsOtherFileTypes_": 1,
+      "fileURLWithPath_": 1,
+      "setDirectoryURL_": 1,
+      "objectAtIndex_": 1
+     },
+     "selector_call_count": 11,
+     "alloc_calls": 0,
+     "classes": [
+      "NSOpenPanel",
+      "NSSavePanel",
+      "NSURL"
+     ],
+     "frameworks": [
+      "AppKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/macosx/gps.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.protocol"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 4,
+      "pyobjus.dylib_manager.load_framework": 2,
+      "pyobjus.protocol": 2
+     },
+     "api_call_count": 8,
+     "selector_calls": {
+      "setDelegate_": 1,
+      "dateWithTimeIntervalSinceNow_": 1,
+      "runMode_beforeDate_": 1
+     },
+     "selector_call_count": 3,
+     "alloc_calls": 1,
+     "classes": [
+      "CLLocationManager",
+      "NSDate",
+      "NSObject",
+      "NSRunLoop"
+     ],
+     "frameworks": [
+      "CoreLocation",
+      "Foundation"
+     ],
+     "protocols": [
+      "CLLocationManagerDelegate"
+     ],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/macosx/notification.py",
+     "imports": [
+      "pyobjus.ObjcBOOL",
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.objc_str",
+      "pyobjus.protocol"
+     ],
+     "api_calls": {
+      "pyobjus.ObjcBOOL": 1,
+      "pyobjus.autoclass": 2,
+      "pyobjus.dylib_manager.load_framework": 2,
+      "pyobjus.objc_str": 3,
+      "pyobjus.protocol": 1
+     },
+     "api_call_count": 9,
+     "selector_calls": {
+      "setTitle_": 1,
+      "setSubtitle_": 1,
+      "setInformativeText_": 1,
+      "setDelegate_": 1,
+      "deliverNotification_": 1
+     },
+     "selector_call_count": 5,
+     "alloc_calls": 1,
+     "classes": [
+      "NSUserNotification",
+      "NSUserNotificationCenter"
+     ],
+     "frameworks": [
+      "AppKit",
+      "Foundation"
+     ],
+     "protocols": [
+      "NSUserNotificationCenterDelegate"
+     ],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/macosx/storagepath.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {
+      "URLsForDirectory_inDomains_": 7
+     },
+     "selector_call_count": 7,
+     "alloc_calls": 0,
+     "classes": [
+      "NSFileManager"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "plyer/platforms/macosx/wifi.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 6,
+      "pyobjus.dylib_manager.load_framework": 2
+     },
+     "api_call_count": 8,
+     "selector_calls": {
+      "scanForNetworksWithName_error_": 1,
+      "objectAtIndex_": 2,
+      "associateToNetwork_password_error_": 1,
+      "setPower_error_": 2
+     },
+     "selector_call_count": 6,
+     "alloc_calls": 0,
+     "classes": [
+      "CWInterface",
+      "CWNetwork",
+      "CWWiFiClient",
+      "NSArray",
+      "NSDictionary",
+      "NSString"
+     ],
+     "frameworks": [
+      "CoreWLAN",
+      "Foundation"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": [
+    "CHANGELOG.md",
+    "README.md",
+    "setup.py",
+    "ci/ci_osx.sh",
+    "ci/osx_get_pipvirtualenv.sh"
+   ]
+  },
+  {
+   "repo": "kivy/kivy-ios",
+   "commit": "fd363d49eddb5ac06766348738bd89c7d46007f8",
+   "stars": 856,
+   "using_files": 2,
+   "api_calls": 6,
+   "selector_calls": 3,
+   "classes": [
+    "NSNotificationCenter"
+   ],
+   "frameworks": [],
+   "protocols": [
+    "KeyboardDelegates"
+   ],
+   "files": [
+    {
+     "path": "kivy_ios/recipes/ios/src/ios.pyx",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.protocol",
+      "pyobjus.protocols.protocols",
+      "pyobjus.selector"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.protocol": 2,
+      "pyobjus.selector": 2
+     },
+     "api_call_count": 5,
+     "selector_calls": {
+      "addObserver_selector_name_object_": 2,
+      "objectForKey_": 1
+     },
+     "selector_call_count": 3,
+     "alloc_calls": 0,
+     "classes": [
+      "NSNotificationCenter"
+     ],
+     "frameworks": [],
+     "protocols": [
+      "KeyboardDelegates"
+     ],
+     "protocols_registered": [
+      "KeyboardDelegates"
+     ]
+    },
+    {
+     "path": "tests/test_python3/main.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [
+      "NSNotificationCenter"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": [
+    "FAQ.md",
+    "README.md",
+    "kivy_ios/recipes/kivy/__init__.py",
+    "kivy_ios/recipes/plyer/__init__.py",
+    "kivy_ios/recipes/pyobjus/__init__.py",
+    "kivy_ios/tools/biglink",
+    "kivy_ios/tools/templates/{{ cookiecutter.project_name }}-ios/main.m",
+    "tests/test_python3/main.m",
+    "tests/tools/fixtures/legacy_mrc/main.m"
+   ]
+  },
+  {
+   "repo": "renpy/renpy-build",
+   "commit": "e01af78cc04de8d991b4617f58ef0718c27b1d0b",
+   "stars": 123,
+   "using_files": 1,
+   "api_calls": 4,
+   "selector_calls": 3,
+   "classes": [
+    "Log",
+    "NSURL",
+    "UIApplication"
+   ],
+   "frameworks": [],
+   "protocols": [],
+   "files": [
+    {
+     "path": "runtime/iossupport.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.objc_str"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 3,
+      "pyobjus.objc_str": 1
+     },
+     "api_call_count": 4,
+     "selector_calls": {
+      "log_": 1,
+      "URLWithString_": 1,
+      "openURL_options_completionHandler_": 1
+     },
+     "selector_call_count": 3,
+     "alloc_calls": 0,
+     "classes": [
+      "Log",
+      "NSURL",
+      "UIApplication"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": [
+    "patches/pyobjus-ffi-h.diff",
+    "patches/pyobjus-ios-foundation.diff",
+    "tasks/__init__.py",
+    "tasks/librenpy.py",
+    "tasks/pyobjus.py",
+    "tasks/pythonlib.py"
+   ]
+  },
+  {
+   "repo": "oskros/MF_run_counter",
+   "commit": "f2281fd15281b293a3f4b26a18b7b0a514d2a19c",
+   "stars": 102,
+   "using_files": 1,
+   "api_calls": 2,
+   "selector_calls": 1,
+   "classes": [
+    "NSScreen"
+   ],
+   "frameworks": [
+    "AppKit"
+   ],
+   "protocols": [],
+   "files": [
+    {
+     "path": "libs/screeninfo/enumerators/osx.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 2,
+     "selector_calls": {
+      "objectAtIndex_": 1
+     },
+     "selector_call_count": 1,
+     "alloc_calls": 0,
+     "classes": [
+      "NSScreen"
+     ],
+     "frameworks": [
+      "AppKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": []
+  },
+  {
+   "repo": "Carvera-Community/Carvera_Controller",
+   "commit": "e5623ece10309597d43a708dde35ae41c7854cb8",
+   "stars": 94,
+   "using_files": 2,
+   "api_calls": 3,
+   "selector_calls": 2,
+   "classes": [
+    "NSURL",
+    "UIApplication"
+   ],
+   "frameworks": [
+    "UIKit"
+   ],
+   "protocols": [],
+   "files": [
+    {
+     "path": "carveracontroller/ios_helpers.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.INCLUDE",
+      "pyobjus.dylib_manager.load_dylib",
+      "pyobjus.dylib_manager.load_framework",
+      "pyobjus.protocol"
+     ],
+     "api_calls": {},
+     "api_call_count": 0,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 0,
+     "classes": [],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    },
+    {
+     "path": "carveracontroller/main.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.dylib_manager.load_framework"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 2,
+      "pyobjus.dylib_manager.load_framework": 1
+     },
+     "api_call_count": 3,
+     "selector_calls": {
+      "URLWithString_": 1,
+      "openURL_options_completionHandler_": 1
+     },
+     "selector_call_count": 2,
+     "alloc_calls": 0,
+     "classes": [
+      "NSURL",
+      "UIApplication"
+     ],
+     "frameworks": [
+      "UIKit"
+     ],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": [
+    "assets/packaging/ios/carveracontroller-ios/main.m",
+    "assets/packaging/ios/carveracontroller-ios/CarveraController.xcodeproj/project.pbxproj"
+   ]
+  },
+  {
+   "repo": "Dirk-Sandberg/Friendly-Fitness-App",
+   "commit": "8a77b8f69828315ac456087eda35d61fa12e756e",
+   "stars": 70,
+   "using_files": 1,
+   "api_calls": 1,
+   "selector_calls": 0,
+   "classes": [
+    "adSwitch"
+   ],
+   "frameworks": [],
+   "protocols": [],
+   "files": [
+    {
+     "path": "main.py",
+     "imports": [
+      "pyobjus.autoclass"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 1
+     },
+     "api_call_count": 1,
+     "selector_calls": {},
+     "selector_call_count": 0,
+     "alloc_calls": 1,
+     "classes": [
+      "adSwitch"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": []
+  },
+  {
+   "repo": "teticio/kivy-tensorflow-helloworld",
+   "commit": "4785a4f0cca844aee6022041ce9d49f3ccd224ac",
+   "stars": 53,
+   "using_files": 1,
+   "api_calls": 6,
+   "selector_calls": 18,
+   "classes": [
+    "NSData",
+    "NSError",
+    "NSMutableArray",
+    "NSString",
+    "TFLInterpreter",
+    "TFLInterpreterOptions"
+   ],
+   "frameworks": [],
+   "protocols": [],
+   "files": [
+    {
+     "path": "model.py",
+     "imports": [
+      "pyobjus.autoclass",
+      "pyobjus.objc_arr"
+     ],
+     "api_calls": {
+      "pyobjus.autoclass": 6
+     },
+     "api_call_count": 6,
+     "selector_calls": {
+      "stringWithUTF8String_": 1,
+      "initWithModelPath_options_error_": 1,
+      "allocateTensorsWithError_": 1,
+      "inputTensorAtIndex_error_": 2,
+      "shapeWithError_": 2,
+      "objectAtIndex_": 2,
+      "outputTensorAtIndex_error_": 3,
+      "addObject_": 1,
+      "resizeInputTensorAtIndex_toShape_error_": 1,
+      "dataWithBytes_length_": 1,
+      "copyData_toInputTensor_error_": 1,
+      "invokeWithError_": 1,
+      "dataWithError_": 1
+     },
+     "selector_call_count": 18,
+     "alloc_calls": 3,
+     "classes": [
+      "NSData",
+      "NSError",
+      "NSMutableArray",
+      "NSString",
+      "TFLInterpreter",
+      "TFLInterpreterOptions"
+     ],
+     "frameworks": [],
+     "protocols": [],
+     "protocols_registered": []
+    }
+   ],
+   "mentions": []
+  }
+ ]
+}

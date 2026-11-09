@@ -1,0 +1,1873 @@
+{
+ "collected_at": "2026-11-09T18:02Z",
+ "sdks": {
+  "ios": "iPhoneOS27.0.sdk",
+  "macos": "MacOSX27.0.sdk"
+ },
+ "patterns": [
+  {
+   "id": "load-class",
+   "feature": "Classes",
+   "description": "autoclass(...) loads an Objective-C class",
+   "repositories": {
+    "kivy/kivy": [
+     {
+      "path": "kivy/core/audio_output/audio_avplayer.py",
+      "matches": 3
+     },
+     {
+      "path": "kivy/core/clipboard/clipboard_nspaste.py",
+      "matches": 2
+     }
+    ],
+    "renpy/renpy": [
+     {
+      "path": "renpy.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/bootstrap.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/main.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/common/00iap.rpy",
+      "matches": 2
+     },
+     {
+      "path": "renpy/display/tts.py",
+      "matches": 3
+     },
+     {
+      "path": "renpy/exports/platformexports.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/translation/__init__.py",
+      "matches": 1
+     }
+    ],
+    "kivymd/KivyMD": [
+     {
+      "path": "kivymd/uix/behaviors/ios/native_behavior.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/accelerometer.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/barometer.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/battery.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/brightness.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/call.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/compass.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/devicename.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/email.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/filechooser.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/flash.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/gps.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gravity.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gyroscope.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/keystore.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/sms.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/spatialorientation.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/storagepath.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/tts.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/uniqueid.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/voip.py",
+      "matches": 6
+     },
+     {
+      "path": "plyer/platforms/macosx/audio.py",
+      "matches": 6
+     },
+     {
+      "path": "plyer/platforms/macosx/devicename.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/filechooser.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/macosx/gps.py",
+      "matches": 4
+     },
+     {
+      "path": "plyer/platforms/macosx/notification.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/storagepath.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/wifi.py",
+      "matches": 6
+     }
+    ],
+    "kivy/kivy-ios": [
+     {
+      "path": "kivy_ios/recipes/ios/src/ios.pyx",
+      "matches": 1
+     },
+     {
+      "path": "tests/test_python3/main.py",
+      "matches": 1
+     }
+    ],
+    "renpy/renpy-build": [
+     {
+      "path": "runtime/iossupport.py",
+      "matches": 3
+     }
+    ],
+    "oskros/MF_run_counter": [
+     {
+      "path": "libs/screeninfo/enumerators/osx.py",
+      "matches": 1
+     }
+    ],
+    "Carvera-Community/Carvera_Controller": [
+     {
+      "path": "carveracontroller/main.py",
+      "matches": 2
+     }
+    ],
+    "Dirk-Sandberg/Friendly-Fitness-App": [
+     {
+      "path": "main.py",
+      "matches": 1
+     }
+    ],
+    "teticio/kivy-tensorflow-helloworld": [
+     {
+      "path": "model.py",
+      "matches": 6
+     }
+    ]
+   },
+   "matches": 91,
+   "example": {
+    "repo": "kivy/kivy",
+    "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+    "path": "kivy/core/audio_output/audio_avplayer.py",
+    "line": 13
+   },
+   "repository_count": 10,
+   "file_count": 44
+  },
+  {
+   "id": "load-framework",
+   "feature": "Classes",
+   "description": "load_framework(...) loads a framework before its classes",
+   "repositories": {
+    "kivy/kivy": [
+     {
+      "path": "kivy/core/audio_output/audio_avplayer.py",
+      "matches": 1
+     },
+     {
+      "path": "kivy/core/clipboard/clipboard_nspaste.py",
+      "matches": 1
+     }
+    ],
+    "renpy/renpy": [
+     {
+      "path": "renpy/display/tts.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/battery.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/brightness.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/devicename.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/email.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/filechooser.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gps.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gyroscope.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/sms.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/tts.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/uniqueid.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/voip.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/frameworks/utils.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/audio.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/devicename.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/filechooser.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/gps.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/notification.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/wifi.py",
+      "matches": 2
+     }
+    ],
+    "oskros/MF_run_counter": [
+     {
+      "path": "libs/screeninfo/enumerators/osx.py",
+      "matches": 1
+     }
+    ],
+    "Carvera-Community/Carvera_Controller": [
+     {
+      "path": "carveracontroller/main.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 28,
+   "example": {
+    "repo": "kivy/kivy",
+    "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+    "path": "kivy/core/audio_output/audio_avplayer.py",
+    "line": 12
+   },
+   "repository_count": 5,
+   "file_count": 23
+  },
+  {
+   "id": "alloc-init",
+   "feature": "Objects",
+   "description": ".alloc() then an init method creates an object",
+   "repositories": {
+    "kivy/kivy": [
+     {
+      "path": "kivy/core/audio_output/audio_avplayer.py",
+      "matches": 3
+     },
+     {
+      "path": "kivy/core/clipboard/clipboard_nspaste.py",
+      "matches": 1
+     }
+    ],
+    "renpy/renpy": [
+     {
+      "path": "renpy/common/00iap.rpy",
+      "matches": 2
+     },
+     {
+      "path": "renpy/display/tts.py",
+      "matches": 2
+     }
+    ],
+    "kivymd/KivyMD": [
+     {
+      "path": "kivymd/uix/behaviors/ios/native_behavior.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/accelerometer.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/barometer.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/call.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/compass.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/email.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/filechooser.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/flash.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gps.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gravity.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gyroscope.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/sms.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/spatialorientation.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/tts.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/voip.py",
+      "matches": 6
+     },
+     {
+      "path": "plyer/platforms/macosx/audio.py",
+      "matches": 6
+     },
+     {
+      "path": "plyer/platforms/macosx/gps.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/notification.py",
+      "matches": 1
+     }
+    ],
+    "Dirk-Sandberg/Friendly-Fitness-App": [
+     {
+      "path": "main.py",
+      "matches": 1
+     }
+    ],
+    "teticio/kivy-tensorflow-helloworld": [
+     {
+      "path": "model.py",
+      "matches": 3
+     }
+    ]
+   },
+   "matches": 41,
+   "example": {
+    "repo": "kivy/kivy",
+    "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+    "path": "kivy/core/audio_output/audio_avplayer.py",
+    "line": 33
+   },
+   "repository_count": 6,
+   "file_count": 24
+  },
+  {
+   "id": "selector-call",
+   "feature": "Methods",
+   "description": "a method with arguments, named in selector form with underscores, such as setObject_forKey_(...)",
+   "repositories": {
+    "kivy/kivy": [
+     {
+      "path": "kivy/core/audio_output/audio_avplayer.py",
+      "matches": 3
+     },
+     {
+      "path": "kivy/core/clipboard/clipboard_nspaste.py",
+      "matches": 3
+     }
+    ],
+    "renpy/renpy": [
+     {
+      "path": "renpy.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/bootstrap.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/common/00iap.rpy",
+      "matches": 6
+     },
+     {
+      "path": "renpy/display/tts.py",
+      "matches": 9
+     },
+     {
+      "path": "renpy/translation/__init__.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/accelerometer.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/battery.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/call.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/compass.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/email.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/filechooser.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/flash.py",
+      "matches": 4
+     },
+     {
+      "path": "plyer/platforms/ios/gravity.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gyroscope.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/keystore.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/sms.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/ios/spatialorientation.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/storagepath.py",
+      "matches": 6
+     },
+     {
+      "path": "plyer/platforms/ios/tts.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/voip.py",
+      "matches": 12
+     },
+     {
+      "path": "plyer/platforms/macosx/audio.py",
+      "matches": 5
+     },
+     {
+      "path": "plyer/platforms/macosx/filechooser.py",
+      "matches": 11
+     },
+     {
+      "path": "plyer/platforms/macosx/gps.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/macosx/notification.py",
+      "matches": 5
+     },
+     {
+      "path": "plyer/platforms/macosx/storagepath.py",
+      "matches": 7
+     },
+     {
+      "path": "plyer/platforms/macosx/wifi.py",
+      "matches": 6
+     }
+    ],
+    "kivy/kivy-ios": [
+     {
+      "path": "kivy_ios/recipes/ios/src/ios.pyx",
+      "matches": 3
+     }
+    ],
+    "renpy/renpy-build": [
+     {
+      "path": "runtime/iossupport.py",
+      "matches": 3
+     }
+    ],
+    "oskros/MF_run_counter": [
+     {
+      "path": "libs/screeninfo/enumerators/osx.py",
+      "matches": 1
+     }
+    ],
+    "Carvera-Community/Carvera_Controller": [
+     {
+      "path": "carveracontroller/main.py",
+      "matches": 2
+     }
+    ],
+    "teticio/kivy-tensorflow-helloworld": [
+     {
+      "path": "model.py",
+      "matches": 18
+     }
+    ]
+   },
+   "matches": 133,
+   "example": {
+    "repo": "kivy/kivy",
+    "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+    "path": "kivy/core/audio_output/audio_avplayer.py",
+    "line": 33
+   },
+   "repository_count": 8,
+   "file_count": 33
+  },
+  {
+   "id": "property-or-method",
+   "feature": "Methods",
+   "description": "code that tries a name both as a property and as a method, because which one pyobjus returns varies",
+   "repositories": {
+    "renpy/renpy": [
+     {
+      "path": "renpy.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/bootstrap.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/macosx/gps.py",
+      "matches": 1
+     }
+    ],
+    "oskros/MF_run_counter": [
+     {
+      "path": "libs/screeninfo/enumerators/osx.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 4,
+   "example": {
+    "repo": "renpy/renpy",
+    "commit": "1b79387539ed04c7123492967e2736789859d925",
+    "path": "renpy.py",
+    "line": 156
+   },
+   "repository_count": 3,
+   "file_count": 4
+  },
+  {
+   "id": "objc-str",
+   "feature": "Strings",
+   "description": "objc_str(...) turns a Python str into an NSString",
+   "repositories": {
+    "renpy/renpy": [
+     {
+      "path": "renpy/common/00iap.rpy",
+      "matches": 6
+     },
+     {
+      "path": "renpy/display/tts.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/call.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/email.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/keystore.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/ios/sms.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/tts.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/filechooser.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/notification.py",
+      "matches": 3
+     }
+    ],
+    "renpy/renpy-build": [
+     {
+      "path": "runtime/iossupport.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 21,
+   "example": {
+    "repo": "renpy/renpy",
+    "commit": "1b79387539ed04c7123492967e2736789859d925",
+    "path": "renpy/common/00iap.rpy",
+    "line": 223
+   },
+   "repository_count": 3,
+   "file_count": 10
+  },
+  {
+   "id": "utf8string",
+   "feature": "Strings",
+   "description": ".UTF8String() turns an NSString into Python",
+   "repositories": {
+    "kivy/kivy": [
+     {
+      "path": "kivy/core/clipboard/clipboard_nspaste.py",
+      "matches": 1
+     }
+    ],
+    "renpy/renpy": [
+     {
+      "path": "renpy.py",
+      "matches": 2
+     },
+     {
+      "path": "renpy/bootstrap.py",
+      "matches": 2
+     },
+     {
+      "path": "renpy/common/00iap.rpy",
+      "matches": 1
+     },
+     {
+      "path": "renpy/display/tts.py",
+      "matches": 3
+     },
+     {
+      "path": "renpy/translation/__init__.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/devicename.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/filechooser.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gps.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gyroscope.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/keystore.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/storagepath.py",
+      "matches": 6
+     },
+     {
+      "path": "plyer/platforms/ios/uniqueid.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/devicename.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/filechooser.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/gps.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/storagepath.py",
+      "matches": 8
+     },
+     {
+      "path": "plyer/platforms/macosx/wifi.py",
+      "matches": 4
+     }
+    ]
+   },
+   "matches": 39,
+   "example": {
+    "repo": "kivy/kivy",
+    "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+    "path": "kivy/core/clipboard/clipboard_nspaste.py",
+    "line": 35
+   },
+   "repository_count": 3,
+   "file_count": 18
+  },
+  {
+   "id": "bytes-check",
+   "feature": "Strings",
+   "description": "a check for bytes after converting a string, because UTF8String() can return either",
+   "repositories": {
+    "renpy/renpy": [
+     {
+      "path": "renpy.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/bootstrap.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/common/00iap.rpy",
+      "matches": 1
+     },
+     {
+      "path": "renpy/display/tts.py",
+      "matches": 3
+     },
+     {
+      "path": "renpy/translation/__init__.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/storagepath.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/storagepath.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 9,
+   "example": {
+    "repo": "renpy/renpy",
+    "commit": "1b79387539ed04c7123492967e2736789859d925",
+    "path": "renpy.py",
+    "line": 161
+   },
+   "repository_count": 2,
+   "file_count": 7
+  },
+  {
+   "id": "nsarray-index",
+   "feature": "Collections",
+   "description": "objectAtIndex_(i) reads an NSArray element by element",
+   "repositories": {
+    "renpy/renpy": [
+     {
+      "path": "renpy/display/tts.py",
+      "matches": 1
+     },
+     {
+      "path": "renpy/translation/__init__.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/macosx/filechooser.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/wifi.py",
+      "matches": 2
+     }
+    ],
+    "oskros/MF_run_counter": [
+     {
+      "path": "libs/screeninfo/enumerators/osx.py",
+      "matches": 1
+     }
+    ],
+    "teticio/kivy-tensorflow-helloworld": [
+     {
+      "path": "model.py",
+      "matches": 2
+     }
+    ]
+   },
+   "matches": 8,
+   "example": {
+    "repo": "renpy/renpy",
+    "commit": "1b79387539ed04c7123492967e2736789859d925",
+    "path": "renpy/display/tts.py",
+    "line": 540
+   },
+   "repository_count": 4,
+   "file_count": 6
+  },
+  {
+   "id": "objc-arr",
+   "feature": "Collections",
+   "description": "objc_arr(...) builds an NSArray",
+   "repositories": {
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/macosx/filechooser.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 1,
+   "example": {
+    "repo": "kivy/plyer",
+    "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+    "path": "plyer/platforms/macosx/filechooser.py",
+    "line": 92
+   },
+   "repository_count": 1,
+   "file_count": 1
+  },
+  {
+   "id": "python-container-arg",
+   "feature": "Collections",
+   "description": "a Python {} or [] passed straight to a method",
+   "repositories": {
+    "renpy/renpy-build": [
+     {
+      "path": "runtime/iossupport.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 1,
+   "example": {
+    "repo": "renpy/renpy-build",
+    "commit": "e01af78cc04de8d991b4617f58ef0718c27b1d0b",
+    "path": "runtime/iossupport.py",
+    "line": 36
+   },
+   "repository_count": 1,
+   "file_count": 1
+  },
+  {
+   "id": "delegate-self",
+   "feature": "Delegates",
+   "description": "a Python object set as an Objective-C object's delegate",
+   "repositories": {
+    "kivy/kivy": [
+     {
+      "path": "kivy/core/audio_output/audio_avplayer.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/filechooser.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gps.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/gps.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/macosx/notification.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 5,
+   "example": {
+    "repo": "kivy/kivy",
+    "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+    "path": "kivy/core/audio_output/audio_avplayer.py",
+    "line": 45
+   },
+   "repository_count": 2,
+   "file_count": 5
+  },
+  {
+   "id": "observer-self",
+   "feature": "Delegates",
+   "description": "a Python object registered with NSNotificationCenter",
+   "repositories": {
+    "kivy/kivy-ios": [
+     {
+      "path": "kivy_ios/recipes/ios/src/ios.pyx",
+      "matches": 2
+     }
+    ]
+   },
+   "matches": 2,
+   "example": {
+    "repo": "kivy/kivy-ios",
+    "commit": "fd363d49eddb5ac06766348738bd89c7d46007f8",
+    "path": "kivy_ios/recipes/ios/src/ios.pyx",
+    "line": 239
+   },
+   "repository_count": 1,
+   "file_count": 1
+  },
+  {
+   "id": "protocol-method",
+   "feature": "Delegates",
+   "description": "@protocol(...) marks a method that Objective-C calls back",
+   "repositories": {
+    "kivy/kivy": [
+     {
+      "path": "kivy/core/audio_output/audio_avplayer.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/filechooser.py",
+      "matches": 1
+     },
+     {
+      "path": "plyer/platforms/ios/gps.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/gps.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/notification.py",
+      "matches": 1
+     }
+    ],
+    "kivy/kivy-ios": [
+     {
+      "path": "kivy_ios/recipes/ios/src/ios.pyx",
+      "matches": 2
+     }
+    ]
+   },
+   "matches": 9,
+   "example": {
+    "repo": "kivy/kivy",
+    "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+    "path": "kivy/core/audio_output/audio_avplayer.py",
+    "line": 79
+   },
+   "repository_count": 3,
+   "file_count": 6
+  },
+  {
+   "id": "protocol-register",
+   "feature": "Delegates",
+   "description": "a protocol's method signatures written out by hand, for a protocol pyobjus doesn't know",
+   "repositories": {
+    "kivy/kivy-ios": [
+     {
+      "path": "kivy_ios/recipes/ios/src/ios.pyx",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 1,
+   "example": {
+    "repo": "kivy/kivy-ios",
+    "commit": "fd363d49eddb5ac06766348738bd89c7d46007f8",
+    "path": "kivy_ios/recipes/ios/src/ios.pyx",
+    "line": 226
+   },
+   "repository_count": 1,
+   "file_count": 1
+  },
+  {
+   "id": "selector",
+   "feature": "Delegates",
+   "description": "selector(...) names a method for a target-action API",
+   "repositories": {
+    "kivy/kivy-ios": [
+     {
+      "path": "kivy_ios/recipes/ios/src/ios.pyx",
+      "matches": 2
+     }
+    ]
+   },
+   "matches": 2,
+   "example": {
+    "repo": "kivy/kivy-ios",
+    "commit": "fd363d49eddb5ac06766348738bd89c7d46007f8",
+    "path": "kivy_ios/recipes/ios/src/ios.pyx",
+    "line": 239
+   },
+   "repository_count": 1,
+   "file_count": 1
+  },
+  {
+   "id": "bool-return",
+   "feature": "Delegates",
+   "description": "ObjcBOOL(...) returns a BOOL from a callback",
+   "repositories": {
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/macosx/notification.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 1,
+   "example": {
+    "repo": "kivy/plyer",
+    "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+    "path": "plyer/platforms/macosx/notification.py",
+    "line": 44
+   },
+   "repository_count": 1,
+   "file_count": 1
+  },
+  {
+   "id": "completion-nil",
+   "feature": "Blocks",
+   "description": "a method that takes a completion block, called with None because pyobjus can't create blocks",
+   "repositories": {
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/filechooser.py",
+      "matches": 2
+     }
+    ],
+    "renpy/renpy-build": [
+     {
+      "path": "runtime/iossupport.py",
+      "matches": 1
+     }
+    ],
+    "Carvera-Community/Carvera_Controller": [
+     {
+      "path": "carveracontroller/main.py",
+      "matches": 1
+     }
+    ]
+   },
+   "matches": 4,
+   "example": {
+    "repo": "kivy/plyer",
+    "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+    "path": "plyer/platforms/ios/filechooser.py",
+    "line": 60
+   },
+   "repository_count": 3,
+   "file_count": 3
+  },
+  {
+   "id": "error-arg",
+   "feature": "Errors",
+   "description": "a method with an NSError ** argument",
+   "repositories": {
+    "kivy/kivy": [
+     {
+      "path": "kivy/core/audio_output/audio_avplayer.py",
+      "matches": 1
+     }
+    ],
+    "kivy/plyer": [
+     {
+      "path": "plyer/platforms/ios/voip.py",
+      "matches": 3
+     },
+     {
+      "path": "plyer/platforms/macosx/audio.py",
+      "matches": 2
+     },
+     {
+      "path": "plyer/platforms/macosx/wifi.py",
+      "matches": 4
+     }
+    ],
+    "teticio/kivy-tensorflow-helloworld": [
+     {
+      "path": "model.py",
+      "matches": 13
+     }
+    ]
+   },
+   "matches": 23,
+   "example": {
+    "repo": "kivy/kivy",
+    "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+    "path": "kivy/core/audio_output/audio_avplayer.py",
+    "line": 35
+   },
+   "repository_count": 3,
+   "file_count": 5
+  },
+  {
+   "id": "struct-field",
+   "feature": "Structs",
+   "description": "a field of a returned struct, such as frame.size.width",
+   "repositories": {
+    "kivy/kivy-ios": [
+     {
+      "path": "kivy_ios/recipes/ios/src/ios.pyx",
+      "matches": 2
+     }
+    ],
+    "oskros/MF_run_counter": [
+     {
+      "path": "libs/screeninfo/enumerators/osx.py",
+      "matches": 4
+     }
+    ]
+   },
+   "matches": 6,
+   "example": {
+    "repo": "kivy/kivy-ios",
+    "commit": "fd363d49eddb5ac06766348738bd89c7d46007f8",
+    "path": "kivy_ios/recipes/ios/src/ios.pyx",
+    "line": 245
+   },
+   "repository_count": 2,
+   "file_count": 2
+  },
+  {
+   "id": "enum",
+   "feature": "Constants",
+   "description": "pyobjus's enum(...) declares enum values by hand",
+   "repositories": {
+    "renpy/renpy": [
+     {
+      "path": "renpy.py",
+      "matches": 2
+     },
+     {
+      "path": "renpy/bootstrap.py",
+      "matches": 2
+     }
+    ]
+   },
+   "matches": 4,
+   "example": {
+    "repo": "renpy/renpy",
+    "commit": "1b79387539ed04c7123492967e2736789859d925",
+    "path": "renpy.py",
+    "line": 145
+   },
+   "repository_count": 1,
+   "file_count": 2
+  },
+  {
+   "id": "retain-release",
+   "feature": "Memory",
+   "description": "reference counts managed by hand",
+   "repositories": {
+    "teticio/kivy-tensorflow-helloworld": [
+     {
+      "path": "model.py",
+      "matches": 2
+     }
+    ]
+   },
+   "matches": 2,
+   "example": {
+    "repo": "teticio/kivy-tensorflow-helloworld",
+    "commit": "4785a4f0cca844aee6022041ce9d49f3ccd224ac",
+    "path": "model.py",
+    "line": 155
+   },
+   "repository_count": 1,
+   "file_count": 1
+  },
+  {
+   "id": "raw-pointer",
+   "feature": "Memory",
+   "description": "a raw pointer read or passed through ctypes",
+   "repositories": {
+    "teticio/kivy-tensorflow-helloworld": [
+     {
+      "path": "model.py",
+      "matches": 2
+     }
+    ]
+   },
+   "matches": 2,
+   "example": {
+    "repo": "teticio/kivy-tensorflow-helloworld",
+    "commit": "4785a4f0cca844aee6022041ce9d49f3ccd224ac",
+    "path": "model.py",
+    "line": 145
+   },
+   "repository_count": 1,
+   "file_count": 1
+  }
+ ],
+ "classes": [
+  {
+   "class": "adSwitch",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "Dirk-Sandberg/Friendly-Fitness-App": [
+     "main.py"
+    ]
+   }
+  },
+  {
+   "class": "Age",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "renpy/renpy": [
+     "renpy/exports/platformexports.py"
+    ]
+   }
+  },
+  {
+   "class": "AVAudioEngine",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/voip.py"
+    ]
+   }
+  },
+  {
+   "class": "AVAudioFormat",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/voip.py",
+     "plyer/platforms/macosx/audio.py"
+    ]
+   }
+  },
+  {
+   "class": "AVAudioPlayer",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "kivy/kivy": [
+     "kivy/core/audio_output/audio_avplayer.py"
+    ],
+    "kivy/plyer": [
+     "plyer/platforms/macosx/audio.py"
+    ]
+   }
+  },
+  {
+   "class": "AVAudioPlayerNode",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/voip.py"
+    ]
+   }
+  },
+  {
+   "class": "AVAudioRecorder",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/audio.py"
+    ]
+   }
+  },
+  {
+   "class": "AVAudioSession",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/voip.py"
+    ]
+   }
+  },
+  {
+   "class": "AVCaptureDevice",
+   "ios_sdk": "AVFoundation",
+   "macos_sdk": "AVFoundation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/flash.py"
+    ]
+   }
+  },
+  {
+   "class": "AVSpeechSynthesisVoice",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "renpy/renpy": [
+     "renpy/display/tts.py"
+    ],
+    "kivy/plyer": [
+     "plyer/platforms/ios/tts.py"
+    ]
+   }
+  },
+  {
+   "class": "AVSpeechSynthesizer",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "renpy/renpy": [
+     "renpy/display/tts.py"
+    ],
+    "kivy/plyer": [
+     "plyer/platforms/ios/tts.py"
+    ]
+   }
+  },
+  {
+   "class": "AVSpeechUtterance",
+   "ios_sdk": "AVFAudio",
+   "macos_sdk": "AVFAudio",
+   "repositories": {
+    "renpy/renpy": [
+     "renpy/display/tts.py"
+    ],
+    "kivy/plyer": [
+     "plyer/platforms/ios/tts.py"
+    ]
+   }
+  },
+  {
+   "class": "bridge",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/accelerometer.py",
+     "plyer/platforms/ios/barometer.py",
+     "plyer/platforms/ios/compass.py",
+     "plyer/platforms/ios/gravity.py",
+     "plyer/platforms/ios/gyroscope.py",
+     "plyer/platforms/ios/spatialorientation.py"
+    ]
+   }
+  },
+  {
+   "class": "CLLocationManager",
+   "ios_sdk": "CoreLocation",
+   "macos_sdk": "CoreLocation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/gps.py",
+     "plyer/platforms/macosx/gps.py"
+    ]
+   }
+  },
+  {
+   "class": "CWInterface",
+   "ios_sdk": null,
+   "macos_sdk": "CoreWLAN",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/wifi.py"
+    ]
+   }
+  },
+  {
+   "class": "CWNetwork",
+   "ios_sdk": null,
+   "macos_sdk": "CoreWLAN",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/wifi.py"
+    ]
+   }
+  },
+  {
+   "class": "CWWiFiClient",
+   "ios_sdk": null,
+   "macos_sdk": "CoreWLAN",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/wifi.py"
+    ]
+   }
+  },
+  {
+   "class": "IAPHelper",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "renpy/renpy": [
+     "renpy/common/00iap.rpy"
+    ]
+   }
+  },
+  {
+   "class": "Log",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "renpy/renpy-build": [
+     "runtime/iossupport.py"
+    ]
+   }
+  },
+  {
+   "class": "NativeImagePicker",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/filechooser.py"
+    ]
+   }
+  },
+  {
+   "class": "NSArray",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/wifi.py"
+    ]
+   }
+  },
+  {
+   "class": "NSData",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "teticio/kivy-tensorflow-helloworld": [
+     "model.py"
+    ]
+   }
+  },
+  {
+   "class": "NSDate",
+   "ios_sdk": "SensorKit",
+   "macos_sdk": "SensorKit",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/gps.py"
+    ]
+   }
+  },
+  {
+   "class": "NSDictionary",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/wifi.py"
+    ]
+   }
+  },
+  {
+   "class": "NSError",
+   "ios_sdk": "FileProvider",
+   "macos_sdk": "FileProvider",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/voip.py",
+     "plyer/platforms/macosx/audio.py"
+    ],
+    "teticio/kivy-tensorflow-helloworld": [
+     "model.py"
+    ]
+   }
+  },
+  {
+   "class": "NSFileManager",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "AppKit",
+   "repositories": {
+    "renpy/renpy": [
+     "renpy.py",
+     "renpy/bootstrap.py"
+    ],
+    "kivy/plyer": [
+     "plyer/platforms/ios/storagepath.py",
+     "plyer/platforms/macosx/storagepath.py"
+    ]
+   }
+  },
+  {
+   "class": "NSHost",
+   "ios_sdk": null,
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/devicename.py"
+    ]
+   }
+  },
+  {
+   "class": "NSLocale",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "renpy/renpy": [
+     "renpy/translation/__init__.py"
+    ]
+   }
+  },
+  {
+   "class": "NSMutableArray",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "renpy/renpy": [
+     "renpy/common/00iap.rpy"
+    ],
+    "teticio/kivy-tensorflow-helloworld": [
+     "model.py"
+    ]
+   }
+  },
+  {
+   "class": "NSNotificationCenter",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "kivy/kivy-ios": [
+     "kivy_ios/recipes/ios/src/ios.pyx",
+     "tests/test_python3/main.py"
+    ]
+   }
+  },
+  {
+   "class": "NSObject",
+   "ios_sdk": "UIKit",
+   "macos_sdk": "SecurityInterface",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/gps.py"
+    ]
+   }
+  },
+  {
+   "class": "NSOpenPanel",
+   "ios_sdk": null,
+   "macos_sdk": "AppKit",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/filechooser.py"
+    ]
+   }
+  },
+  {
+   "class": "NSPasteboard",
+   "ios_sdk": null,
+   "macos_sdk": "AppKit",
+   "repositories": {
+    "kivy/kivy": [
+     "kivy/core/clipboard/clipboard_nspaste.py"
+    ]
+   }
+  },
+  {
+   "class": "NSRunLoop",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/gps.py"
+    ]
+   }
+  },
+  {
+   "class": "NSSavePanel",
+   "ios_sdk": null,
+   "macos_sdk": "AppKit",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/filechooser.py"
+    ]
+   }
+  },
+  {
+   "class": "NSScreen",
+   "ios_sdk": null,
+   "macos_sdk": "AppKit",
+   "repositories": {
+    "oskros/MF_run_counter": [
+     "libs/screeninfo/enumerators/osx.py"
+    ]
+   }
+  },
+  {
+   "class": "NSString",
+   "ios_sdk": "UIKit",
+   "macos_sdk": "UniformTypeIdentifiers",
+   "repositories": {
+    "kivy/kivy": [
+     "kivy/core/audio_output/audio_avplayer.py",
+     "kivy/core/clipboard/clipboard_nspaste.py"
+    ],
+    "kivy/plyer": [
+     "plyer/platforms/ios/call.py",
+     "plyer/platforms/ios/email.py",
+     "plyer/platforms/ios/flash.py",
+     "plyer/platforms/ios/sms.py",
+     "plyer/platforms/macosx/audio.py",
+     "plyer/platforms/macosx/wifi.py"
+    ],
+    "teticio/kivy-tensorflow-helloworld": [
+     "model.py"
+    ]
+   }
+  },
+  {
+   "class": "NSURL",
+   "ios_sdk": "UniformTypeIdentifiers",
+   "macos_sdk": "UniformTypeIdentifiers",
+   "repositories": {
+    "kivy/kivy": [
+     "kivy/core/audio_output/audio_avplayer.py"
+    ],
+    "kivy/plyer": [
+     "plyer/platforms/ios/call.py",
+     "plyer/platforms/ios/email.py",
+     "plyer/platforms/ios/sms.py",
+     "plyer/platforms/macosx/audio.py",
+     "plyer/platforms/macosx/filechooser.py"
+    ],
+    "renpy/renpy-build": [
+     "runtime/iossupport.py"
+    ],
+    "Carvera-Community/Carvera_Controller": [
+     "carveracontroller/main.py"
+    ]
+   }
+  },
+  {
+   "class": "NSUserDefaults",
+   "ios_sdk": "Foundation",
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/keystore.py"
+    ]
+   }
+  },
+  {
+   "class": "NSUserNotification",
+   "ios_sdk": null,
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/notification.py"
+    ]
+   }
+  },
+  {
+   "class": "NSUserNotificationCenter",
+   "ios_sdk": null,
+   "macos_sdk": "Foundation",
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/macosx/notification.py"
+    ]
+   }
+  },
+  {
+   "class": "TFLInterpreter",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "teticio/kivy-tensorflow-helloworld": [
+     "model.py"
+    ]
+   }
+  },
+  {
+   "class": "TFLInterpreterOptions",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "teticio/kivy-tensorflow-helloworld": [
+     "model.py"
+    ]
+   }
+  },
+  {
+   "class": "UIApplication",
+   "ios_sdk": "UIKit",
+   "macos_sdk": null,
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/call.py",
+     "plyer/platforms/ios/email.py",
+     "plyer/platforms/ios/filechooser.py",
+     "plyer/platforms/ios/sms.py"
+    ],
+    "renpy/renpy-build": [
+     "runtime/iossupport.py"
+    ],
+    "Carvera-Community/Carvera_Controller": [
+     "carveracontroller/main.py"
+    ]
+   }
+  },
+  {
+   "class": "UIDevice",
+   "ios_sdk": "UIKit",
+   "macos_sdk": null,
+   "repositories": {
+    "renpy/renpy": [
+     "renpy/main.py"
+    ],
+    "kivy/plyer": [
+     "plyer/platforms/ios/battery.py",
+     "plyer/platforms/ios/devicename.py",
+     "plyer/platforms/ios/gyroscope.py",
+     "plyer/platforms/ios/uniqueid.py"
+    ]
+   }
+  },
+  {
+   "class": "UIImagePickerController",
+   "ios_sdk": "UIKit",
+   "macos_sdk": null,
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/filechooser.py"
+    ]
+   }
+  },
+  {
+   "class": "UIScreen",
+   "ios_sdk": "UIKit",
+   "macos_sdk": null,
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/brightness.py"
+    ]
+   }
+  },
+  {
+   "class": "UISelectionFeedbackGenerator",
+   "ios_sdk": "UIKit",
+   "macos_sdk": null,
+   "repositories": {
+    "kivymd/KivyMD": [
+     "kivymd/uix/behaviors/ios/native_behavior.py"
+    ]
+   }
+  },
+  {
+   "class": "Voip",
+   "ios_sdk": null,
+   "macos_sdk": null,
+   "repositories": {
+    "kivy/plyer": [
+     "plyer/platforms/ios/voip.py"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,5367 @@
+{
+ "pyobjus-1.2.4": {
+  "strings": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     5
+    ]
+   ]
+  },
+  "pasteboard": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy"
+     },
+     5
+    ]
+   ]
+  },
+  "defaults": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy"
+     },
+     5
+    ]
+   ]
+  },
+  "search_path": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     5
+    ]
+   ]
+  },
+  "languages": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     5
+    ]
+   ]
+  },
+  "voices": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     5
+    ]
+   ]
+  },
+  "screens": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "frame_read_as": "property",
+      "size": [
+       1512,
+       982
+      ]
+     },
+     5
+    ]
+   ]
+  },
+  "collections": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": null,
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": null,
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": null,
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": null,
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": null,
+      "empty_count": 0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": null,
+      "empty_count": 0
+     },
+     5
+    ]
+   ]
+  },
+  "delegate": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "finished": true,
+      "volume": 0.0
+     },
+     5
+    ]
+   ]
+  },
+  "observer": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "height": 216.0
+     },
+     5
+    ]
+   ]
+  },
+  "constant": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     5
+    ]
+   ]
+  },
+  "nserror_none": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "result_is_nil": true
+     },
+     5
+    ]
+   ]
+  },
+  "nserror_out": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "crash",
+     "SIGSEGV",
+     5
+    ]
+   ]
+  },
+  "nsdata": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     5
+    ]
+   ]
+  },
+  "property_call": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "attribute": "ObjcMethod",
+      "call": 2
+     },
+     5
+    ]
+   ]
+  },
+  "zero_arg": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGTRAP",
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method",
+      "CWWiFiClient.interface": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSData.bytes": "method",
+      "NSFileManager.defaultManager": "method",
+      "NSHost.currentHost": "method",
+      "NSLocale.preferredLanguages": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSNumber.intValue": "method",
+      "NSObject.description": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSScreen.mainScreen": "method",
+      "NSScreen.screens": "method",
+      "NSString.UTF8String": "method",
+      "NSUUID.UUIDString": "property",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "NSValue.rectValue": "method",
+      "preferredLanguages.count": "property"
+     },
+     4
+    ],
+    [
+     "crash",
+     "SIGTRAP",
+     1
+    ]
+   ]
+  },
+  "app_class": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     5
+    ]
+   ]
+  },
+  "block": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x0000000105f506bc _PyRun_File + 156\n\t14  Python                              0x0000000105f50138 _PyRun_SimpleFile + 260\n\t15  Python                              0x0000000105f4fdb0 _PyRun_AnyFile + 80\n\t16  Python                              0x0000000105f829b0 pymain_run_file_obj + 160\n\t17  Python                              0x0000000105f82064 pymain_run_file + 72\n\t18  Python                              0x0000000105f81640 Py_RunMain + 1112\n\t19  Python                              0x0000000105f82c8c pymain_main + 480\n\t20  Python                              0x0000000105f82e10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x00000001014a06bc _PyRun_File + 156\n\t14  Python                              0x00000001014a0138 _PyRun_SimpleFile + 260\n\t15  Python                              0x000000010149fdb0 _PyRun_AnyFile + 80\n\t16  Python                              0x00000001014d29b0 pymain_run_file_obj + 160\n\t17  Python                              0x00000001014d2064 pymain_run_file + 72\n\t18  Python                              0x00000001014d1640 Py_RunMain + 1112\n\t19  Python                              0x00000001014d2c8c pymain_main + 480\n\t20  Python                              0x00000001014d2e10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x00000001016246bc _PyRun_File + 156\n\t14  Python                              0x0000000101624138 _PyRun_SimpleFile + 260\n\t15  Python                              0x0000000101623db0 _PyRun_AnyFile + 80\n\t16  Python                              0x00000001016569b0 pymain_run_file_obj + 160\n\t17  Python                              0x0000000101656064 pymain_run_file + 72\n\t18  Python                              0x0000000101655640 Py_RunMain + 1112\n\t19  Python                              0x0000000101656c8c pymain_main + 480\n\t20  Python                              0x0000000101656e10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x0000000101b346bc _PyRun_File + 156\n\t14  Python                              0x0000000101b34138 _PyRun_SimpleFile + 260\n\t15  Python                              0x0000000101b33db0 _PyRun_AnyFile + 80\n\t16  Python                              0x0000000101b669b0 pymain_run_file_obj + 160\n\t17  Python                              0x0000000101b66064 pymain_run_file + 72\n\t18  Python                              0x0000000101b65640 Py_RunMain + 1112\n\t19  Python                              0x0000000101b66c8c pymain_main + 480\n\t20  Python                              0x0000000101b66e10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x00000001019c86bc _PyRun_File + 156\n\t14  Python                              0x00000001019c8138 _PyRun_SimpleFile + 260\n\t15  Python                              0x00000001019c7db0 _PyRun_AnyFile + 80\n\t16  Python                              0x00000001019fa9b0 pymain_run_file_obj + 160\n\t17  Python                              0x00000001019fa064 pymain_run_file + 72\n\t18  Python                              0x00000001019f9640 Py_RunMain + 1112\n\t19  Python                              0x00000001019fac8c pymain_main + 480\n\t20  Python                              0x00000001019fae10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    }
+   ],
+   "distinct": [
+    [
+     "crash",
+     "SIGABRT",
+     5
+    ]
+   ]
+  },
+  "m2_names": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVAudioEngine.prepare": "method",
+      "AVAudioEngine.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "CWInterface.disassociate": "method",
+      "CWInterface.interface": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSPasteboard.clearContents": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSSet.allObjects": "method"
+     },
+     5
+    ]
+   ]
+  }
+ },
+ "pyobjus-master": {
+  "strings": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "str"
+     },
+     5
+    ]
+   ]
+  },
+  "pasteboard": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy"
+     },
+     5
+    ]
+   ]
+  },
+  "defaults": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy"
+     },
+     5
+    ]
+   ]
+  },
+  "search_path": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     5
+    ]
+   ]
+  },
+  "languages": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     5
+    ]
+   ]
+  },
+  "voices": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     5
+    ]
+   ]
+  },
+  "screens": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "frame_read_as": "property",
+      "size": [
+       1512,
+       982
+      ]
+     },
+     5
+    ]
+   ]
+  },
+  "collections": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     5
+    ]
+   ]
+  },
+  "delegate": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "finished": true,
+      "volume": 0.0
+     },
+     5
+    ]
+   ]
+  },
+  "observer": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "height": 216.0
+     },
+     5
+    ]
+   ]
+  },
+  "constant": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVMediaTypeVideo": "vide",
+      "how": "hard-coded"
+     },
+     5
+    ]
+   ]
+  },
+  "nserror_none": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "result_is_nil": true
+     },
+     5
+    ]
+   ]
+  },
+  "nserror_out": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGSEGV",
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "crash",
+     "SIGSEGV",
+     5
+    ]
+   ]
+  },
+  "nsdata": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     5
+    ]
+   ]
+  },
+  "property_call": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": 2,
+      "attribute": "ObjcMethod"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "attribute": "ObjcMethod",
+      "call": 2
+     },
+     5
+    ]
+   ]
+  },
+  "zero_arg": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "method",
+      "NSObject.description": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "method",
+      "preferredLanguages.count": "property",
+      "NSFileManager.defaultManager": "method",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSScreen.screens": "method",
+      "NSScreen.mainScreen": "method",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "method",
+      "NSData.bytes": "method",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method",
+      "CWWiFiClient.interface": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "NSArray.count": "method",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSData.bytes": "method",
+      "NSFileManager.defaultManager": "method",
+      "NSHost.currentHost": "method",
+      "NSLocale.preferredLanguages": "method",
+      "NSNotificationCenter.defaultCenter": "method",
+      "NSNumber.intValue": "method",
+      "NSObject.description": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSPasteboard.generalPasteboard": "method",
+      "NSRunLoop.currentRunLoop": "method",
+      "NSScreen.mainScreen": "method",
+      "NSScreen.screens": "method",
+      "NSString.UTF8String": "method",
+      "NSUUID.UUIDString": "property",
+      "NSUserDefaults.standardUserDefaults": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "method",
+      "NSValue.rectValue": "method",
+      "preferredLanguages.count": "property"
+     },
+     5
+    ]
+   ]
+  },
+  "app_class": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     5
+    ]
+   ]
+  },
+  "block": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x00000001038506bc _PyRun_File + 156\n\t14  Python                              0x0000000103850138 _PyRun_SimpleFile + 260\n\t15  Python                              0x000000010384fdb0 _PyRun_AnyFile + 80\n\t16  Python                              0x00000001038829b0 pymain_run_file_obj + 160\n\t17  Python                              0x0000000103882064 pymain_run_file + 72\n\t18  Python                              0x0000000103881640 Py_RunMain + 1112\n\t19  Python                              0x0000000103882c8c pymain_main + 480\n\t20  Python                              0x0000000103882e10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x00000001061286bc _PyRun_File + 156\n\t14  Python                              0x0000000106128138 _PyRun_SimpleFile + 260\n\t15  Python                              0x0000000106127db0 _PyRun_AnyFile + 80\n\t16  Python                              0x000000010615a9b0 pymain_run_file_obj + 160\n\t17  Python                              0x000000010615a064 pymain_run_file + 72\n\t18  Python                              0x0000000106159640 Py_RunMain + 1112\n\t19  Python                              0x000000010615ac8c pymain_main + 480\n\t20  Python                              0x000000010615ae10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x00000001025306bc _PyRun_File + 156\n\t14  Python                              0x0000000102530138 _PyRun_SimpleFile + 260\n\t15  Python                              0x000000010252fdb0 _PyRun_AnyFile + 80\n\t16  Python                              0x00000001025629b0 pymain_run_file_obj + 160\n\t17  Python                              0x0000000102562064 pymain_run_file + 72\n\t18  Python                              0x0000000102561640 Py_RunMain + 1112\n\t19  Python                              0x0000000102562c8c pymain_main + 480\n\t20  Python                              0x0000000102562e10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x0000000105cac6bc _PyRun_File + 156\n\t14  Python                              0x0000000105cac138 _PyRun_SimpleFile + 260\n\t15  Python                              0x0000000105cabdb0 _PyRun_AnyFile + 80\n\t16  Python                              0x0000000105cde9b0 pymain_run_file_obj + 160\n\t17  Python                              0x0000000105cde064 pymain_run_file + 72\n\t18  Python                              0x0000000105cdd640 Py_RunMain + 1112\n\t19  Python                              0x0000000105cdec8c pymain_main + 480\n\t20  Python                              0x0000000105cdee10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    },
+    {
+     "outcome": "crash",
+     "value": "SIGABRT",
+     "stderr": "un_mod + 300\n\t13  Python                              0x00000001063286bc _PyRun_File + 156\n\t14  Python                              0x0000000106328138 _PyRun_SimpleFile + 260\n\t15  Python                              0x0000000106327db0 _PyRun_AnyFile + 80\n\t16  Python                              0x000000010635a9b0 pymain_run_file_obj + 160\n\t17  Python                              0x000000010635a064 pymain_run_file + 72\n\t18  Python                              0x0000000106359640 Py_RunMain + 1112\n\t19  Python                              0x000000010635ac8c pymain_main + 480\n\t20  Python                              0x000000010635ae10 Py_BytesMain + 44\n\t21  dyld                                0x00000001809c44e4 start + 6992\n)\nlibc++abi: terminating due to uncaught exception of type NSException\n"
+    }
+   ],
+   "distinct": [
+    [
+     "crash",
+     "SIGABRT",
+     5
+    ]
+   ]
+  },
+  "m2_names": {
+   "lib": "pyobjus",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVAudioEngine.prepare": "method",
+      "AVAudioEngine.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "CWInterface.disassociate": "method",
+      "CWInterface.interface": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSPasteboard.clearContents": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSSet.allObjects": "method"
+     },
+     5
+    ]
+   ]
+  }
+ },
+ "rubicon-0.5.7": {
+  "strings": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     5
+    ]
+   ]
+  },
+  "pasteboard": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy"
+     },
+     5
+    ]
+   ]
+  },
+  "defaults": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy"
+     },
+     5
+    ]
+   ]
+  },
+  "search_path": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     5
+    ]
+   ]
+  },
+  "languages": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     5
+    ]
+   ]
+  },
+  "voices": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     5
+    ]
+   ]
+  },
+  "screens": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "frame_read_as": "property",
+      "size": [
+       1512,
+       982
+      ]
+     },
+     5
+    ]
+   ]
+  },
+  "collections": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     5
+    ]
+   ]
+  },
+  "delegate": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "finished": true,
+      "volume": 0.0
+     },
+     5
+    ]
+   ]
+  },
+  "observer": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "height": 216.0
+     },
+     5
+    ]
+   ]
+  },
+  "constant": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     5
+    ]
+   ]
+  },
+  "nserror_none": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "result_is_nil": true
+     },
+     5
+    ]
+   ]
+  },
+  "nserror_out": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "error_code": 260,
+      "result_is_nil": true
+     },
+     5
+    ]
+   ]
+  },
+  "nsdata": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     5
+    ]
+   ]
+  },
+  "property_call": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "attribute": "method",
+      "call": "raised TypeError"
+     },
+     5
+    ]
+   ]
+  },
+  "zero_arg": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method",
+      "CWWiFiClient.interface": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSData.bytes": "property",
+      "NSFileManager.defaultManager": "property",
+      "NSHost.currentHost": "method",
+      "NSLocale.preferredLanguages": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSNumber.intValue": "property",
+      "NSObject.description": "property",
+      "NSOpenPanel.openPanel": "method",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSScreen.mainScreen": "property",
+      "NSScreen.screens": "property",
+      "NSString.UTF8String": "property",
+      "NSUUID.UUIDString": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "NSValue.rectValue": "method",
+      "preferredLanguages.count": "method, but () raised TypeError"
+     },
+     5
+    ]
+   ]
+  },
+  "app_class": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     5
+    ]
+   ]
+  },
+  "block": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     5
+    ]
+   ]
+  },
+  "m2_names": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVAudioEngine.prepare": "method",
+      "AVAudioEngine.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "CWInterface.disassociate": "method",
+      "CWInterface.interface": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSPasteboard.clearContents": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSSet.allObjects": "method"
+     },
+     5
+    ]
+   ]
+  }
+ },
+ "rubicon-main": {
+  "strings": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy",
+      "utf8string_type": "bytes"
+     },
+     5
+    ]
+   ]
+  },
+  "pasteboard": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy"
+     },
+     5
+    ]
+   ]
+  },
+  "defaults": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "text": "h\u00e9llo, Kivy"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "text": "h\u00e9llo, Kivy"
+     },
+     5
+    ]
+   ]
+  },
+  "search_path": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "is_documents": true,
+      "path_read_as": "property"
+     },
+     5
+    ]
+   ]
+  },
+  "languages": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "count": 1,
+      "first": "sha256:4e825c8d0ecc"
+     },
+     5
+    ]
+   ]
+  },
+  "voices": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "count": 180,
+      "identifiers": "sha256:a3ba8bd9ab67"
+     },
+     5
+    ]
+   ]
+  },
+  "screens": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "size": [
+       1512,
+       982
+      ],
+      "frame_read_as": "property"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "frame_read_as": "property",
+      "size": [
+       1512,
+       982
+      ]
+     },
+     5
+    ]
+   ]
+  },
+  "collections": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "array": [
+       "png",
+       "jpg"
+      ],
+      "dict_value": "value",
+      "empty_count": 0
+     },
+     5
+    ]
+   ]
+  },
+  "delegate": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "finished": true,
+      "volume": 0.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "finished": true,
+      "volume": 0.0
+     },
+     5
+    ]
+   ]
+  },
+  "observer": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "height": 216.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "height": 216.0
+     },
+     5
+    ]
+   ]
+  },
+  "constant": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVMediaTypeVideo": "vide",
+      "how": "objc_const"
+     },
+     5
+    ]
+   ]
+  },
+  "nserror_none": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "result_is_nil": true
+     },
+     5
+    ]
+   ]
+  },
+  "nserror_out": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "result_is_nil": true,
+      "error_code": 260
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "error_code": 260,
+      "result_is_nil": true
+     },
+     5
+    ]
+   ]
+  },
+  "nsdata": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "floats": [
+       1.5,
+       -2.25,
+       3.0,
+       4.125
+      ],
+      "length": 16,
+      "retain_count": 2
+     },
+     5
+    ]
+   ]
+  },
+  "property_call": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "call": "raised TypeError",
+      "attribute": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "attribute": "method",
+      "call": "raised TypeError"
+     },
+     5
+    ]
+   ]
+  },
+  "zero_arg": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "NSString.UTF8String": "property",
+      "NSObject.description": "property",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSLocale.preferredLanguages": "property",
+      "preferredLanguages.count": "method, but () raised TypeError",
+      "NSFileManager.defaultManager": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSScreen.screens": "property",
+      "NSScreen.mainScreen": "property",
+      "NSHost.currentHost": "method",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSUUID.UUIDString": "property",
+      "NSNumber.intValue": "property",
+      "NSData.bytes": "property",
+      "NSValue.rectValue": "method",
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "NSOpenPanel.openPanel": "method",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "CWWiFiClient.interface": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVSpeechSynthesisVoice.speechVoices": "method",
+      "AVSpeechSynthesizer.isSpeaking": "method",
+      "CWInterface.powerOn": "method",
+      "CWInterface.ssid": "method",
+      "CWWiFiClient.interface": "method",
+      "CWWiFiClient.sharedWiFiClient": "method",
+      "NSArray.count": "method, but () raised TypeError",
+      "NSArray.firstObject": "method",
+      "NSArray.lastObject": "method",
+      "NSData.bytes": "property",
+      "NSFileManager.defaultManager": "property",
+      "NSHost.currentHost": "method",
+      "NSLocale.preferredLanguages": "property",
+      "NSNotificationCenter.defaultCenter": "property",
+      "NSNumber.intValue": "property",
+      "NSObject.description": "property",
+      "NSOpenPanel.openPanel": "method",
+      "NSPasteboard.generalPasteboard": "property",
+      "NSRunLoop.currentRunLoop": "property",
+      "NSScreen.mainScreen": "property",
+      "NSScreen.screens": "property",
+      "NSString.UTF8String": "property",
+      "NSUUID.UUIDString": "property",
+      "NSUserDefaults.standardUserDefaults": "property",
+      "NSUserNotificationCenter.defaultUserNotificationCenter": "property",
+      "NSValue.rectValue": "method",
+      "preferredLanguages.count": "method, but () raised TypeError"
+     },
+     5
+    ]
+   ]
+  },
+  "app_class": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "greet": "hello, Kivy",
+      "level": 1.0
+     },
+     5
+    ]
+   ]
+  },
+  "block": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "called": true,
+      "how": "passed a Python function"
+     },
+     5
+    ]
+   ]
+  },
+  "m2_names": {
+   "lib": "rubicon",
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "AVAudioEngine.stop": "method",
+      "AVAudioEngine.prepare": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "NSSet.allObjects": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSPasteboard.clearContents": "method",
+      "CWInterface.interface": "method",
+      "CWInterface.disassociate": "method"
+     },
+     "stderr": ""
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "AVAudioEngine.prepare": "method",
+      "AVAudioEngine.stop": "method",
+      "AVAudioPlayer.play": "method",
+      "AVAudioPlayer.stop": "method",
+      "AVAudioPlayerNode.play": "method",
+      "AVAudioPlayerNode.stop": "method",
+      "AVAudioRecorder.record": "method",
+      "AVAudioRecorder.stop": "method",
+      "AVCaptureDevice.unlockForConfiguration": "method",
+      "CLLocationManager.requestAlwaysAuthorization": "method",
+      "CLLocationManager.requestWhenInUseAuthorization": "method",
+      "CLLocationManager.startUpdatingLocation": "method",
+      "CLLocationManager.stopUpdatingLocation": "method",
+      "CWInterface.disassociate": "method",
+      "CWInterface.interface": "method",
+      "NSOpenPanel.filename": "method",
+      "NSOpenPanel.filenames": "method",
+      "NSOpenPanel.runModal": "method",
+      "NSPasteboard.clearContents": "method",
+      "NSSavePanel.savePanel": "method",
+      "NSSet.allObjects": "method"
+     },
+     5
+    ]
+   ]
+  }
+ }
+}

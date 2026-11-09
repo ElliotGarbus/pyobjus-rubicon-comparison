@@ -1,0 +1,168 @@
+{
+ "about": "Which M1 case, or which earlier section's test, covers each U2 pattern. A pattern covered only by an earlier section is labeled Source and links to it. Cases ending in _ios, and idiom, haptic and screen, run on the iPhone only; pasteboard, screens, observer, zero_arg and app_class run on the Mac only.",
+ "patterns": {
+  "load-class": {
+   "cases": [
+    "strings",
+    "pasteboard",
+    "app_class"
+   ]
+  },
+  "load-framework": {
+   "cases": [
+    "pasteboard",
+    "delegate",
+    "constant"
+   ]
+  },
+  "alloc-init": {
+   "cases": [
+    "strings",
+    "delegate",
+    "app_class"
+   ]
+  },
+  "selector-call": {
+   "cases": [
+    "pasteboard",
+    "defaults",
+    "search_path",
+    "observer"
+   ]
+  },
+  "property-or-method": {
+   "cases": [
+    "search_path",
+    "screens",
+    "property_call",
+    "zero_arg",
+    "zero_arg_ios"
+   ]
+  },
+  "objc-str": {
+   "cases": [
+    "defaults"
+   ]
+  },
+  "utf8string": {
+   "cases": [
+    "strings",
+    "languages",
+    "zero_arg"
+   ]
+  },
+  "bytes-check": {
+   "cases": [
+    "strings"
+   ]
+  },
+  "nsarray-index": {
+   "cases": [
+    "languages",
+    "voices"
+   ]
+  },
+  "objc-arr": {
+   "cases": [
+    "collections"
+   ]
+  },
+  "python-container-arg": {
+   "cases": [
+    "collections"
+   ]
+  },
+  "delegate-self": {
+   "cases": [
+    "delegate"
+   ]
+  },
+  "observer-self": {
+   "cases": [
+    "observer",
+    "observer_ios"
+   ]
+  },
+  "protocol-method": {
+   "cases": [
+    "delegate",
+    "observer",
+    "observer_ios"
+   ]
+  },
+  "protocol-register": {
+   "cases": [
+    "observer",
+    "observer_ios"
+   ]
+  },
+  "selector": {
+   "cases": [
+    "observer",
+    "observer_ios"
+   ]
+  },
+  "bool-return": {
+   "cases": [],
+   "source": "Section 3, F3.7: delegate methods' return values reach Objective-C in pyobjus master and Rubicon, not in pyobjus 1.2.4"
+  },
+  "completion-nil": {
+   "cases": [
+    "block"
+   ],
+   "source": "Section 3, F4.1 (blocks); Section 4, E3 (CoreMotion's block-based barometer on the iPhone, the API behind Plyer's bridge class)"
+  },
+  "error-arg": {
+   "cases": [
+    "nserror_none",
+    "nserror_out"
+   ]
+  },
+  "struct-field": {
+   "cases": [
+    "screens",
+    "observer",
+    "screen",
+    "observer_ios"
+   ]
+  },
+  "enum": {
+   "cases": [
+    "search_path"
+   ]
+  },
+  "retain-release": {
+   "cases": [
+    "nsdata"
+   ]
+  },
+  "raw-pointer": {
+   "cases": [
+    "nsdata"
+   ]
+  }
+ },
+ "also": {
+  "app-supplied classes (bridge, IAPHelper, Log, NativeImagePicker, Voip, adSwitch)": {
+   "cases": [
+    "app_class"
+   ],
+   "source": "Section 3, F7.1 for Swift classes marked @objc, such as Ren'Py's Age"
+  },
+  "constants (Plyer's AVMediaTypeVideo)": {
+   "cases": [
+    "constant"
+   ]
+  },
+  "C functions (UIImagePNGRepresentation, AudioServicesPlaySystemSound)": {
+   "cases": [],
+   "source": "Section 3, F1: Rubicon calls C functions through ctypes, as its docs show; pyobjus has no API for them"
+  },
+  "UIKit calls (Ren'Py's idiom, KivyMD's haptics)": {
+   "cases": [
+    "idiom",
+    "haptic"
+   ]
+  }
+ }
+}

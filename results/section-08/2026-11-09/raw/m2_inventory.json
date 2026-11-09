@@ -1,0 +1,1409 @@
+{
+ "collected_at": "2026-11-09T18:02Z",
+ "rubicon_properties": [
+  "CGRectValue",
+  "bytes",
+  "currentDevice",
+  "currentRunLoop",
+  "defaultCenter",
+  "defaultManager",
+  "defaultUserNotificationCenter",
+  "description",
+  "generalPasteboard",
+  "intValue",
+  "mainScreen",
+  "preferredLanguages",
+  "screens",
+  "sharedApplication",
+  "standardUserDefaults",
+  "userInfo"
+ ],
+ "files": [
+  {
+   "repo": "kivy/kivy",
+   "path": "kivy/core/audio_output/audio_avplayer.py",
+   "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+   "platform": "iOS and macOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 3,
+    "pyobjus.dylib_manager.load_framework": 1,
+    "pyobjus.protocol": 1
+   },
+   "selector_calls": 3,
+   "classes": [
+    "AVAudioPlayer",
+    "NSString",
+    "NSURL"
+   ],
+   "protocols": [
+    "AVAudioPlayerDelegate"
+   ],
+   "changes": {
+    "autoclass": [
+     13,
+     14,
+     15
+    ],
+    "load_framework": [
+     12
+    ],
+    "init_utf8": [
+     33
+    ],
+    "protocol": [
+     79
+    ],
+    "delegate_self": [
+     45
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 3,
+     "play": 2,
+     "stop": 2
+    },
+    "Python": {
+     "unload": 1,
+     "stop": 3,
+     "play": 1,
+     "get_pos": 1
+    },
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/kivy",
+   "path": "kivy/core/clipboard/clipboard_nspaste.py",
+   "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+   "platform": "macOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 2,
+    "pyobjus.dylib_manager.load_framework": 1
+   },
+   "selector_calls": 3,
+   "classes": [
+    "NSPasteboard",
+    "NSString"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     20,
+     21
+    ],
+    "load_framework": [
+     15
+    ],
+    "utf8string": [
+     35
+    ],
+    "init_utf8": [
+     40
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "generalPasteboard": [
+      28
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "clearContents": 1,
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/accelerometer.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1
+   },
+   "selector_calls": 1,
+   "classes": [
+    "bridge"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     17
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {
+     "startAccelerometer": 1,
+     "stopAccelerometer": 1
+    },
+    "not checked": {}
+   },
+   "helper_classes": [
+    "bridge"
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/barometer.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1
+   },
+   "selector_calls": 0,
+   "classes": [
+    "bridge"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     14
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {
+     "startRelativeAltitude": 1,
+     "stopRelativeAltitude": 1
+    },
+    "not checked": {}
+   },
+   "helper_classes": [
+    "bridge"
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/battery.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1,
+    "pyobjus.dylib_manager.load_framework": 1
+   },
+   "selector_calls": 1,
+   "classes": [
+    "UIDevice"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     10
+    ],
+    "load_framework": [
+     9
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "currentDevice": [
+      20
+     ]
+    },
+    "property in both": {},
+    "method in both": {},
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/brightness.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1,
+    "pyobjus.dylib_manager.load_framework": 1
+   },
+   "selector_calls": 0,
+   "classes": [
+    "UIScreen"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     11
+    ],
+    "load_framework": [
+     10
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "mainScreen": [
+      17
+     ]
+    },
+    "property in both": {},
+    "method in both": {},
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/call.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 3,
+    "pyobjus.objc_str": 1
+   },
+   "selector_calls": 2,
+   "classes": [
+    "NSString",
+    "NSURL",
+    "UIApplication"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     9,
+     10,
+     11
+    ],
+    "objc_str": [
+     19
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "sharedApplication": [
+      21
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/compass.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1
+   },
+   "selector_calls": 2,
+   "classes": [
+    "bridge"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     14
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {
+     "startMagnetometer": 1,
+     "startDeviceMotionWithReferenceFrame": 1,
+     "stopMagnetometer": 1,
+     "stopDeviceMotion": 1
+    },
+    "not checked": {}
+   },
+   "helper_classes": [
+    "bridge"
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/devicename.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1,
+    "pyobjus.dylib_manager.load_framework": 1
+   },
+   "selector_calls": 0,
+   "classes": [
+    "UIDevice"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     19
+    ],
+    "load_framework": [
+     10
+    ],
+    "utf8string": [
+     21
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "currentDevice": [
+      20
+     ]
+    },
+    "property in both": {},
+    "method in both": {},
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/email.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 3,
+    "pyobjus.dylib_manager.load_framework": 1,
+    "pyobjus.objc_str": 1
+   },
+   "selector_calls": 2,
+   "classes": [
+    "NSString",
+    "NSURL",
+    "UIApplication"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     16,
+     17,
+     18
+    ],
+    "load_framework": [
+     14
+    ],
+    "objc_str": [
+     43
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "sharedApplication": [
+      45
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/filechooser.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 3,
+    "pyobjus.dylib_manager.load_framework": 1,
+    "pyobjus.protocol": 1
+   },
+   "selector_calls": 3,
+   "classes": [
+    "NativeImagePicker",
+    "UIApplication",
+    "UIImagePickerController"
+   ],
+   "protocols": [
+    "UIImagePickerControllerDelegate"
+   ],
+   "changes": {
+    "autoclass": [
+     45,
+     58,
+     75
+    ],
+    "load_framework": [
+     15
+    ],
+    "utf8string": [
+     77
+    ],
+    "protocol": [
+     62
+    ],
+    "delegate_self": [
+     48
+    ],
+    "completion_nil": [
+     60,
+     68
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "sharedApplication": [
+      59
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "alloc": 2
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {
+     "rootViewController": [
+      59
+     ]
+    }
+   },
+   "helper_classes": [
+    "NativeImagePicker"
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/flash.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 2
+   },
+   "selector_calls": 4,
+   "classes": [
+    "AVCaptureDevice",
+    "NSString"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     9,
+     10
+    ],
+    "init_utf8": [
+     11
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 1,
+     "unlockForConfiguration": 2
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/gps.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1,
+    "pyobjus.dylib_manager.load_framework": 1,
+    "pyobjus.protocol": 2
+   },
+   "selector_calls": 0,
+   "classes": [
+    "CLLocationManager"
+   ],
+   "protocols": [
+    "CLLocationManagerDelegate"
+   ],
+   "changes": {
+    "autoclass": [
+     11
+    ],
+    "load_framework": [
+     10
+    ],
+    "utf8string": [
+     60
+    ],
+    "protocol": [
+     32,
+     56
+    ],
+    "delegate_self": [
+     20
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 1,
+     "requestWhenInUseAuthorization": 1,
+     "startUpdatingLocation": 1,
+     "stopUpdatingLocation": 1
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/gravity.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1
+   },
+   "selector_calls": 1,
+   "classes": [
+    "bridge"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     14
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {
+     "startDeviceMotion": 1,
+     "stopDeviceMotion": 1
+    },
+    "not checked": {}
+   },
+   "helper_classes": [
+    "bridge"
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/gyroscope.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 2,
+    "pyobjus.dylib_manager.load_framework": 1
+   },
+   "selector_calls": 3,
+   "classes": [
+    "UIDevice",
+    "bridge"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     12,
+     21
+    ],
+    "load_framework": [
+     11
+    ],
+    "utf8string": [
+     23
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "currentDevice": [
+      14
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {
+     "startGyroscope": 1,
+     "startDeviceMotion": 1,
+     "stopGyroscope": 1,
+     "stopDeviceMotion": 1
+    },
+    "not checked": {}
+   },
+   "helper_classes": [
+    "bridge"
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/keystore.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1,
+    "pyobjus.objc_str": 3
+   },
+   "selector_calls": 2,
+   "classes": [
+    "NSUserDefaults"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     4
+    ],
+    "utf8string": [
+     17
+    ],
+    "objc_str": [
+     11,
+     11,
+     15
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "standardUserDefaults": [
+      10,
+      14
+     ]
+    },
+    "property in both": {},
+    "method in both": {},
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/sms.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 3,
+    "pyobjus.dylib_manager.load_framework": 1,
+    "pyobjus.objc_str": 1
+   },
+   "selector_calls": 2,
+   "classes": [
+    "NSString",
+    "NSURL",
+    "UIApplication"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     10,
+     11,
+     12
+    ],
+    "load_framework": [
+     13
+    ],
+    "objc_str": [
+     38
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "sharedApplication": [
+      39
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/spatialorientation.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1
+   },
+   "selector_calls": 1,
+   "classes": [
+    "bridge"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     14
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {
+     "startDeviceMotion": 1,
+     "stopDeviceMotion": 1
+    },
+    "not checked": {}
+   },
+   "helper_classes": [
+    "bridge"
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/storagepath.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1
+   },
+   "selector_calls": 6,
+   "classes": [
+    "NSFileManager"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     10
+    ],
+    "utf8string": [
+     45,
+     52,
+     59,
+     66,
+     73,
+     80
+    ],
+    "bytes_check": [
+     22
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "defaultManager": [
+      30
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "firstObject": 6
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/tts.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 3,
+    "pyobjus.dylib_manager.load_framework": 1,
+    "pyobjus.objc_str": 2
+   },
+   "selector_calls": 3,
+   "classes": [
+    "AVSpeechSynthesisVoice",
+    "AVSpeechSynthesizer",
+    "AVSpeechUtterance"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     7,
+     8,
+     9
+    ],
+    "load_framework": [
+     6
+    ],
+    "objc_str": [
+     20,
+     30
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/uniqueid.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1,
+    "pyobjus.dylib_manager.load_framework": 1
+   },
+   "selector_calls": 0,
+   "classes": [
+    "UIDevice"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     10
+    ],
+    "load_framework": [
+     9
+    ],
+    "utf8string": [
+     20
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "currentDevice": [
+      19
+     ]
+    },
+    "property in both": {
+     "UUIDString": [
+      19
+     ]
+    },
+    "method in both": {},
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/voip.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 6,
+    "pyobjus.dylib_manager.load_framework": 2
+   },
+   "selector_calls": 12,
+   "classes": [
+    "AVAudioEngine",
+    "AVAudioFormat",
+    "AVAudioPlayerNode",
+    "AVAudioSession",
+    "NSError",
+    "Voip"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "load_framework": [
+     12,
+     13
+    ],
+    "error_alloc": [
+     55
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 6,
+     "sharedInstance": 3,
+     "prepare": 1,
+     "play": 1,
+     "stop": 2
+    },
+    "Python": {
+     "verify_permission": 1,
+     "configure_audio_session": 1,
+     "start_audio_engine": 1,
+     "start": 1
+    },
+    "helper class method": {
+     "requestMicrophonePermission": 1,
+     "connected": 1,
+     "receiveAudioData": 1,
+     "disconnect": 1
+    },
+    "not checked": {}
+   },
+   "helper_classes": [
+    "Voip"
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/ios/frameworks/utils.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "iOS",
+   "pyobjus_calls": {
+    "pyobjus.dylib_manager.load_framework": 1
+   },
+   "selector_calls": 0,
+   "classes": [],
+   "protocols": [],
+   "changes": {
+    "load_framework": [
+     13
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {},
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/macosx/audio.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "macOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 6,
+    "pyobjus.dylib_manager.load_framework": 2
+   },
+   "selector_calls": 5,
+   "classes": [
+    "AVAudioFormat",
+    "AVAudioPlayer",
+    "AVAudioRecorder",
+    "NSError",
+    "NSString",
+    "NSURL"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "load_framework": [
+     9,
+     10
+    ],
+    "init_utf8": [
+     35
+    ],
+    "error_alloc": [
+     17
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "alloc": 6,
+     "record": 1,
+     "stop": 2,
+     "play": 1
+    },
+    "Python": {
+     "get_music_dir": 1
+    },
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/macosx/devicename.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "macOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1,
+    "pyobjus.dylib_manager.load_framework": 1
+   },
+   "selector_calls": 0,
+   "classes": [
+    "NSHost"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     19
+    ],
+    "load_framework": [
+     10
+    ],
+    "utf8string": [
+     21
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "currentHost": 1
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/macosx/filechooser.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "macOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 3,
+    "pyobjus.dylib_manager.load_framework": 1,
+    "pyobjus.objc_arr": 1,
+    "pyobjus.objc_str": 2
+   },
+   "selector_calls": 11,
+   "classes": [
+    "NSOpenPanel",
+    "NSSavePanel",
+    "NSURL"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     11,
+     12,
+     13
+    ],
+    "load_framework": [
+     10
+    ],
+    "utf8string": [
+     105,
+     109
+    ],
+    "count": [
+     110
+    ],
+    "objc_str": [
+     75,
+     90
+    ],
+    "objc_arr": [
+     92
+    ],
+    "nsarray_index": [
+     109
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "openPanel": 1,
+     "savePanel": 1,
+     "runModal": 1,
+     "filename": 1,
+     "filenames": 1
+    },
+    "Python": {
+     "strip": 2,
+     "run": 1
+    },
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/macosx/gps.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "macOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 4,
+    "pyobjus.dylib_manager.load_framework": 2,
+    "pyobjus.protocol": 2
+   },
+   "selector_calls": 3,
+   "classes": [
+    "CLLocationManager",
+    "NSDate",
+    "NSObject",
+    "NSRunLoop"
+   ],
+   "protocols": [
+    "CLLocationManagerDelegate"
+   ],
+   "changes": {
+    "autoclass": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "load_framework": [
+     9,
+     10
+    ],
+    "utf8string": [
+     101,
+     103
+    ],
+    "protocol": [
+     72,
+     96
+    ],
+    "delegate_self": [
+     34
+    ],
+    "property_or_method": [
+     100
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "currentRunLoop": [
+      38
+     ],
+     "description": [
+      101
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "alloc": 1,
+     "requestAlwaysAuthorization": 1,
+     "startUpdatingLocation": 1,
+     "stopUpdatingLocation": 1
+    },
+    "Python": {
+     "start": 1
+    },
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/macosx/notification.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "macOS",
+   "pyobjus_calls": {
+    "pyobjus.ObjcBOOL": 1,
+    "pyobjus.autoclass": 2,
+    "pyobjus.dylib_manager.load_framework": 2,
+    "pyobjus.objc_str": 3,
+    "pyobjus.protocol": 1
+   },
+   "selector_calls": 5,
+   "classes": [
+    "NSUserNotification",
+    "NSUserNotificationCenter"
+   ],
+   "protocols": [
+    "NSUserNotificationCenterDelegate"
+   ],
+   "changes": {
+    "autoclass": [
+     17,
+     18
+    ],
+    "load_framework": [
+     14,
+     15
+    ],
+    "objc_str": [
+     33,
+     34,
+     35
+    ],
+    "protocol": [
+     41
+    ],
+    "delegate_self": [
+     38
+    ],
+    "bool_return": [
+     44
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "defaultUserNotificationCenter": [
+      37
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "alloc": 1
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/macosx/storagepath.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "macOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 1
+   },
+   "selector_calls": 7,
+   "classes": [
+    "NSFileManager"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     9
+    ],
+    "utf8string": [
+     34,
+     46,
+     53,
+     60,
+     67,
+     74,
+     81,
+     88
+    ],
+    "bytes_check": [
+     22
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {
+     "defaultManager": [
+      30
+     ]
+    },
+    "property in both": {},
+    "method in both": {
+     "firstObject": 7
+    },
+    "Python": {},
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  },
+  {
+   "repo": "kivy/plyer",
+   "path": "plyer/platforms/macosx/wifi.py",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "platform": "macOS",
+   "pyobjus_calls": {
+    "pyobjus.autoclass": 6,
+    "pyobjus.dylib_manager.load_framework": 2
+   },
+   "selector_calls": 6,
+   "classes": [
+    "CWInterface",
+    "CWNetwork",
+    "CWWiFiClient",
+    "NSArray",
+    "NSDictionary",
+    "NSString"
+   ],
+   "protocols": [],
+   "changes": {
+    "autoclass": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "load_framework": [
+     6,
+     7
+    ],
+    "utf8string": [
+     39,
+     49,
+     68,
+     115
+    ],
+    "count": [
+     109
+    ],
+    "nsarray_index": [
+     111,
+     113
+    ]
+   },
+   "zero_argument": {
+    "property in Rubicon": {},
+    "property in both": {},
+    "method in both": {
+     "sharedWiFiClient": 3,
+     "powerOn": 1,
+     "interface": 5,
+     "allObjects": 3
+    },
+    "Python": {
+     "keys": 1
+    },
+    "helper class method": {},
+    "not checked": {}
+   },
+   "helper_classes": []
+  }
+ ]
+}
