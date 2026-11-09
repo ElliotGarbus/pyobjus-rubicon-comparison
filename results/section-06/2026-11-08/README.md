@@ -13,6 +13,7 @@ Library versions are in [the baseline](../../baseline/2026-11-04.md). The script
 | S2 installed size | Done: `raw/mac.json` and `raw/iphone_size.json` |
 | Figures | `raw/summary.json`, from [`summarize.py`](../../../tests/section-06/summarize.py) |
 | Cause of pyobjus's `CGRect` slowdown | Done: `raw/cgrect_cache.json`. Added after the full runs |
+| Rubicon's footprint after `alloc` then `init` | Done: `raw/rubicon_alloc_init.json`. Added after the full runs |
 | Section text | Draft |
 
 ## Conditions
@@ -170,7 +171,7 @@ Footprint is `phys_footprint`, which grows in 16 KB pages, so differences below 
 | M4 Growth per call over 270,000 calls | 6.5 B | 0 |
 
 - **M3 objects freed** are counted by the fixture's own `dealloc`, as in Section 2.
-- **Rubicon `alloc` then `init`:** all 10,000 objects were freed and Python's allocations didn't grow, yet about 50 to 64 bytes per object of footprint remained, on both platforms. `new`, `copy` and ordinary methods don't show this. The cause wasn't investigated.
+- **Rubicon:** its footprint figures in M3 are memory freed and held by the allocator, not memory in use: every object was freed. After `alloc` then `init` they're higher, because the first method call on a new wrapper makes a `ctypes.cast` that, in CPython, leaves a reference cycle for the cycle collector. [`rubicon_alloc_init.py`](../../../tests/section-06/rubicon_alloc_init.py) shows the cycle, reproduces it in plain `ctypes`, and shows the footprint doesn't grow over 4 batches (`raw/rubicon_alloc_init.json`). The section doesn't report these figures for Rubicon.
 - **pyobjus ordinary methods and M4:** the objects are freed, yet footprint grows by about 16 bytes per call on the Mac and 6.5 on the iPhone, outside Python's allocations. On the iPhone the samples dip once before rising, so the figure is less steady there.
 - **M1 on the Mac** includes `traceback` for pyobjus `master`, as under S1. On the iPhone it doesn't.
 
@@ -198,6 +199,7 @@ On the Mac, both pyobjus builds are universal (arm64 and x86_64), so the figure 
 - `summary.json`: the figures in this README
 - `iphone_size.json`: S2 on the iPhone
 - `cgrect_cache.json`: the `ctypes_struct_cache` measurement
+- `rubicon_alloc_init.json`: the Rubicon `alloc` then `init` investigation
 - `mac_run.log`, `iphone_run.log`: the runners' output
 
 Local paths are replaced with `<work>`, `<envs>` and `~`, and the phone's identifier with `<device>`.

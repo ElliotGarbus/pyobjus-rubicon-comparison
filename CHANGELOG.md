@@ -2,6 +2,12 @@
 
 Corrections and changes to published sections, newest first.
 
+## section-6-draft-3
+
+Section 6 no longer reports M3 footprint figures for Rubicon, which draft 2 gave as memory kept after objects were freed. Every object was freed. The figures are memory freed and held by the allocator, raised after `alloc` then `init` by a reference cycle that CPython's `ctypes.cast` leaves for the cycle collector, so they aren't Rubicon's memory use. The evidence is in the results.
+
+PyObjC, measured on the Mac as a reference, is no longer shown in the section, which compares pyobjus and Rubicon. Its figures remain in the results.
+
 ## section-6-draft-2
 
 Section 6 now gives the cause of pyobjus's `CGRect` slowdown, which draft 1 said wasn't investigated. pyobjus adds the address of every struct argument to a list it never clears, `ctypes_struct_cache`, and searches the whole list on every struct return. A new measurement, `cgrect_cache.py`, confirms it: clearing the list restores the original speed. Each such call also keeps about 48 bytes of Python memory, which is added to claim 7's amounts.

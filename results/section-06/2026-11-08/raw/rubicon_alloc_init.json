@@ -1,0 +1,480 @@
+{
+ "rubicon-main": [
+  {
+   "rubicon": "0.5.8.dev21+g6bf06390f",
+   "python": "3.14.7",
+   "left_for_collector": {
+    "alloc_init": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:76",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "new": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "alloc_only": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "method_result_then_a_call": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:77",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "method_result_no_call": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "plain_ctypes": {
+    "cast_of_ctypes_instance": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:114",
+      "rubicon_alloc_init.py:85",
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:85"
+     ]
+    },
+    "cast_of_integer": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "batches": {
+    "objects_per_batch": 10000,
+    "footprint_kept_after_each_batch": [
+     344064,
+     344064,
+     344064,
+     344064
+    ],
+    "malloc_in_use_change": 0,
+    "created": 40000,
+    "freed": 40000
+   }
+  },
+  {
+   "rubicon": "0.5.8.dev21+g6bf06390f",
+   "python": "3.14.7",
+   "left_for_collector": {
+    "alloc_init": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:76",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "new": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "alloc_only": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "method_result_then_a_call": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:77",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "method_result_no_call": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "plain_ctypes": {
+    "cast_of_ctypes_instance": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:114",
+      "rubicon_alloc_init.py:85",
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:85"
+     ]
+    },
+    "cast_of_integer": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "batches": {
+    "objects_per_batch": 10000,
+    "footprint_kept_after_each_batch": [
+     344064,
+     344064,
+     344064,
+     344064
+    ],
+    "malloc_in_use_change": 0,
+    "created": 40000,
+    "freed": 40000
+   }
+  },
+  {
+   "rubicon": "0.5.8.dev21+g6bf06390f",
+   "python": "3.14.7",
+   "left_for_collector": {
+    "alloc_init": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:76",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "new": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "alloc_only": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "method_result_then_a_call": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:77",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "method_result_no_call": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "plain_ctypes": {
+    "cast_of_ctypes_instance": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:114",
+      "rubicon_alloc_init.py:85",
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:85"
+     ]
+    },
+    "cast_of_integer": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "batches": {
+    "objects_per_batch": 10000,
+    "footprint_kept_after_each_batch": [
+     344064,
+     344064,
+     344064,
+     344064
+    ],
+    "malloc_in_use_change": 0,
+    "created": 40000,
+    "freed": 40000
+   }
+  }
+ ],
+ "rubicon-0.5.7": [
+  {
+   "rubicon": "0.5.7",
+   "python": "3.14.7",
+   "left_for_collector": {
+    "alloc_init": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:76",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "new": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "alloc_only": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "method_result_then_a_call": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:77",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "method_result_no_call": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "plain_ctypes": {
+    "cast_of_ctypes_instance": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:114",
+      "rubicon_alloc_init.py:85",
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:85"
+     ]
+    },
+    "cast_of_integer": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "batches": {
+    "objects_per_batch": 10000,
+    "footprint_kept_after_each_batch": [
+     344064,
+     344064,
+     344064,
+     344064
+    ],
+    "malloc_in_use_change": 0,
+    "created": 40000,
+    "freed": 40000
+   }
+  },
+  {
+   "rubicon": "0.5.7",
+   "python": "3.14.7",
+   "left_for_collector": {
+    "alloc_init": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:76",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "new": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "alloc_only": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "method_result_then_a_call": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:77",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "method_result_no_call": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "plain_ctypes": {
+    "cast_of_ctypes_instance": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:114",
+      "rubicon_alloc_init.py:85",
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:85"
+     ]
+    },
+    "cast_of_integer": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "batches": {
+    "objects_per_batch": 10000,
+    "footprint_kept_after_each_batch": [
+     344064,
+     344064,
+     344064,
+     344064
+    ],
+    "malloc_in_use_change": 0,
+    "created": 40000,
+    "freed": 40000
+   }
+  },
+  {
+   "rubicon": "0.5.7",
+   "python": "3.14.7",
+   "left_for_collector": {
+    "alloc_init": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:76",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "new": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "alloc_only": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    },
+    "method_result_then_a_call": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:77",
+      "api.py:1089",
+      "api.py:920"
+     ]
+    },
+    "method_result_no_call": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "plain_ctypes": {
+    "cast_of_ctypes_instance": {
+     "count": 2,
+     "types": {
+      "Class": 1,
+      "dict": 1
+     },
+     "created_at": [
+      "rubicon_alloc_init.py:114",
+      "rubicon_alloc_init.py:85",
+      "rubicon_alloc_init.py:47",
+      "rubicon_alloc_init.py:85"
+     ]
+    },
+    "cast_of_integer": {
+     "count": 0,
+     "types": {},
+     "created_at": null
+    }
+   },
+   "batches": {
+    "objects_per_batch": 10000,
+    "footprint_kept_after_each_batch": [
+     376832,
+     376832,
+     376832,
+     376832
+    ],
+    "malloc_in_use_change": 0,
+    "created": 40000,
+    "freed": 40000
+   }
+  }
+ ]
+}
