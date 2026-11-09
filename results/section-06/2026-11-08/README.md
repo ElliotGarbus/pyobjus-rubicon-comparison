@@ -12,6 +12,7 @@ Library versions are in [the baseline](../../baseline/2026-11-04.md). The script
 | M1 to M4 memory | Done, both platforms |
 | S2 installed size | Done: `raw/mac.json` and `raw/iphone_size.json` |
 | Figures | `raw/summary.json`, from [`summarize.py`](../../../tests/section-06/summarize.py) |
+| Cause of pyobjus's `CGRect` slowdown | Done: `raw/cgrect_cache.json`. Added after the full runs |
 | Section text | Draft |
 
 ## Conditions
@@ -96,7 +97,18 @@ In every pyobjus process, each round of `CGRect` calls took longer than the last
 | Mac, pyobjus 1.2.4, 2 processes that didn't crash | 3.7 ns | 15.5 µs | 40 µs | 258 µs |
 | iPhone, pyobjus `master`, N = 1,000 | 4.1 ns | 7.3 µs | 24 µs | 141 µs |
 
-So after 10,000 `CGRect` calls, each further call takes about 37 µs longer than the first did. Because the time depends on how many calls came before, the median for these operations depends on N and isn't reported as a figure. The cause wasn't investigated. The same slope appears whether the method is looked up each time or beforehand.
+So after 10,000 `CGRect` calls, each further call takes about 37 µs longer than the first did. Because the time depends on how many calls came before, the median for these operations depends on N and isn't reported as a figure. The same slope appears whether the method is looked up each time or beforehand.
+
+**Cause:** pyobjus appends the address of every struct argument passed by value to a module-level list, `ctypes_struct_cache` (`pyobjus_conversions.pxi`, lines 2 and 691 at `0c204ad`), and never removes entries. Every struct return checks membership in that list (line 263), which compares against each entry. [`cgrect_cache.py`](../../../tests/section-06/cgrect_cache.py) times rounds of 1,000 `echoRect:` calls while the list grows, then clears it. Added after the full runs, once the slope was found. In `raw/cgrect_cache.json`:
+
+| pyobjus `master`, Mac, 3 processes | Run 1 | Run 2 | Run 3 |
+|---|---:|---:|---:|
+| First 1,000 calls, list empty | 7.09 µs | 7.08 µs | 6.97 µs |
+| 1,000 calls with 19,000 to 20,000 entries | 75.98 µs | 75.94 µs | 75.51 µs |
+| 1,000 calls after clearing the list | 6.94 µs | 7.09 µs | 6.98 µs |
+| Python memory kept per call (`tracemalloc`) | 48.2 B | 48.2 B | 48.2 B |
+
+The list grew by exactly one entry per call. pyobjus 1.2.4 crashed in all 3 processes before finishing, as it did in the timing runs.
 
 ### C5 First use
 
@@ -185,6 +197,7 @@ On the Mac, both pyobjus builds are universal (arm64 and x86_64), so the figure 
 - `superseded_mac_same_n.json`: the first Mac timing pass, with one N for every library, stopped and replaced
 - `summary.json`: the figures in this README
 - `iphone_size.json`: S2 on the iPhone
+- `cgrect_cache.json`: the `ctypes_struct_cache` measurement
 - `mac_run.log`, `iphone_run.log`: the runners' output
 
 Local paths are replaced with `<work>`, `<envs>` and `~`, and the phone's identifier with `<device>`.

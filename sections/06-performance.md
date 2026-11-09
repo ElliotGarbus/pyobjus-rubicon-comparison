@@ -6,7 +6,7 @@
 
 Rubicon is faster than pyobjus for every call measured, and the gap is largest when Objective-C calls into Python. A delegate call takes about 100 times as long with pyobjus: 73 µs against 0.7 µs on the Mac, and 128 µs against 0.9 µs on the iPhone. Calls that return an object or pass a string take 10 to 20 times as long with pyobjus, and calls that pass and return numbers 1.3 to 1.8 times as long. pyobjus starts faster: on the iPhone it imports in 5 ms against Rubicon's 44 ms, and wraps a class for the first time in 0.3 ms against 1.6 to 1.7 ms. In memory, pyobjus doesn't free objects from `alloc`, `new` or `copy`, keeps about 10 KB per delegate it has been given, and keeps 6 to 16 bytes per call that returns an object, so its memory grows with use. Rubicon's doesn't, but it uses about 12 MB more after importing on the iPhone, and 3 times as much per live wrapped object.
 
-**pyobjus:** calls with numbers take 2.0 to 3.9 µs on the Mac and 2.4 to 4.7 µs on the iPhone. Returning an object takes 30 µs on the Mac and 55 µs on the iPhone, and a 10-character string 181 µs and 466 µs. Calls that pass a `CGRect` get slower the more of them a process makes: each one adds about 4 ns to every later one, so after 10,000 such calls each takes about 40 µs longer than the first. pyobjus 1.2.4 crashed in 3 of 5 processes on those calls, and returned the wrong value from a delegate. pyobjus imports in 5 to 7 ms and adds 0.8 MB of memory on the iPhone, and 1.1 MB to the app. Its default branch imports `traceback`, added by this comparison's author, which accounts for most of its extra import time and memory on the Mac over 1.2.4.
+**pyobjus:** calls with numbers take 2.0 to 3.9 µs on the Mac and 2.4 to 4.7 µs on the iPhone. Returning an object takes 30 µs on the Mac and 55 µs on the iPhone, and a 10-character string 181 µs and 466 µs. Calls that pass a struct, such as a `CGRect`, get slower the more of them a process makes, because pyobjus adds each struct argument's address to a list it never clears and searches the whole list on every struct return. Each call adds about 4 ns to every later one, so after 10,000 such calls each takes about 40 µs longer than the first, and each keeps about 48 bytes. pyobjus 1.2.4 crashed in 3 of 5 processes on those calls, and returned the wrong value from a delegate. pyobjus imports in 5 to 7 ms and adds 0.8 MB of memory on the iPhone, and 1.1 MB to the app. Its default branch imports `traceback`, added by this comparison's author, which accounts for most of its extra import time and memory on the Mac over 1.2.4.
 
 **Rubicon:** calls with numbers take 1.6 to 2.2 µs on the Mac and 1.8 to 2.6 µs on the iPhone, and looking the method up once beforehand cuts the empty call to 0.7 µs. Returning an object takes 2.5 µs and 2.9 µs, a 10-character string 19 µs and 24 µs, and a delegate call 0.7 µs and 0.9 µs. It freed every object, and its memory stayed flat over a million calls on the Mac. Importing it takes 21 ms on the Mac and 44 ms on the iPhone, and adds 12 to 13 MB of memory. A live wrapper takes 730 to 760 bytes, and Rubicon adds 0.24 MB to the app. 0.5.7 and `main` gave the same results.
 
@@ -33,7 +33,7 @@ All figures are **Measured** on a shared fixture, not a real app, unless labeled
 
 | Claim ([register](../CLAIMS.md)) | Relevant data |
 |---|---|
-| 7. pyobjus leaks memory, for example through `delegate_register` | Confirmed, with amounts. Each delegate given to Objective-C keeps about 10 KB after it's dropped, 4.5 to 4.6 KB of it Python's, on both platforms and versions. Objects from `alloc` then `init`, `new` or `copy` are never freed, keeping 36 to 69 bytes each. Ordinary calls that return an object free the object but keep 6.5 to 16 bytes per call. Rubicon freed all of these. Its delegates kept 0.4 to 0.6 KB each, and its `alloc` then `init` objects about 50 to 64 bytes, though all were freed (see [M3](#m-memory)). |
+| 7. pyobjus leaks memory, for example through `delegate_register` | Confirmed, with amounts. Each delegate given to Objective-C keeps about 10 KB after it's dropped, 4.5 to 4.6 KB of it Python's, on both platforms and versions. Objects from `alloc` then `init`, `new` or `copy` are never freed, keeping 36 to 69 bytes each. Ordinary calls that return an object free the object but keep 6.5 to 16 bytes per call, and calls that pass a struct keep about 48 bytes each in a list pyobjus never clears ([below](#cgrect-calls-in-pyobjus)). Rubicon freed all of these. Its delegates kept 0.4 to 0.6 KB each, and its `alloc` then `init` objects about 50 to 64 bytes, though all were freed (see [M3](#m-memory)). |
 
 ## Supporting facts
 
@@ -87,7 +87,19 @@ In every pyobjus process, each round of calls passing and returning a `CGRect` t
 | pyobjus 1.2.4, Mac, 2 processes that didn't crash | 3.7 ns | 15.5 µs | 40 µs | 258 µs |
 | pyobjus `master`, iPhone | 4.1 ns | 7.3 µs | 24 µs | 141 µs |
 
-Because each call's time depends on how many came before, no single figure is given for these calls. The cause wasn't investigated. pyobjus 1.2.4 also crashed in 3 of 5 processes for each `CGRect` operation: in the two crash reports macOS kept, the allocator stopped the process, once inside pyobjus and once in the Objective-C runtime. That fits heap corruption from the struct argument overrun that pyobjus `master`'s Guard Malloc test checks for (Section 5, **Inferred**).
+Because each call's time depends on how many came before, no single figure is given for these calls.
+
+**The cause (Source and Measured):** pyobjus keeps a module-level list, [`ctypes_struct_cache`](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus_conversions.pxi#L2). Every struct argument passed by value appends its address to it ([line 691](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus_conversions.pxi#L691)), and nothing removes entries. Every struct return then checks whether its first 8 bytes are in that list ([line 263](https://github.com/kivy/pyobjus/blob/0c204ada4a5aa4f065ac65fc678c6cb35e4dcb81/pyobjus/pyobjus_conversions.pxi#L263)), which compares against each entry in turn. The code dates from 2013 and is the same in 1.2.4. [`cgrect_cache.py`](../tests/section-06/cgrect_cache.py) confirms it on the Mac with pyobjus `master`, in 3 processes that agreed within 3%:
+
+| | Time per `echoRect:` call |
+|---|---:|
+| First 1,000 calls, list empty | 7.0 µs |
+| 1,000 calls with 19,000 to 20,000 entries | 76 µs |
+| 1,000 calls after clearing the list | 7.0 µs |
+
+The list grew by one entry per call, and each call kept about 48 bytes of Python memory, an integer and its place in the list. That memory is in addition to what M3 and M4 measured, since neither passes a struct. The check also compares the returned struct's first 8 bytes, for a `CGRect` the bits of `origin.x`, with stored addresses, so a value that happened to match one would be read as a pointer (**Inferred**, from the code). pyobjus 1.2.4 crashed in all 3 processes before finishing.
+
+pyobjus 1.2.4 also crashed in 3 of 5 processes for each `CGRect` operation: in the two crash reports macOS kept, the allocator stopped the process, once inside pyobjus and once in the Objective-C runtime. That fits heap corruption from the struct argument overrun that pyobjus `master`'s Guard Malloc test checks for (Section 5, **Inferred**).
 
 ### M. Memory
 
@@ -127,5 +139,5 @@ On the Mac, both pyobjus builds are universal, holding arm64 and x86_64 code, an
 - **The iPhone measured the default branches only,** at the author's decision. The Mac measured both versions, and they matched closely apart from the differences noted.
 - **Memory is measured in pages.** Figures of a few bytes per object are within one 16 KB page and shouldn't be read as differences.
 - **The harness imports some modules before measuring,** including `ctypes`, and on the iPhone `traceback`. Import figures count only what each library adds beyond those.
-- **The causes of three results weren't investigated:** pyobjus's `CGRect` slowdown, pyobjus's memory growth on calls whose objects are freed, and Rubicon's memory kept after `alloc` then `init`.
+- **The causes of two results weren't investigated:** pyobjus's memory growth on calls whose objects are freed, and Rubicon's memory kept after `alloc` then `init`.
 - **This comparison's author wrote changes in pyobjus `master` that affect these results:** the `traceback` import and the delegate return values.

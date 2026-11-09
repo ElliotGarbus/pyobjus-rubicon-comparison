@@ -1,0 +1,348 @@
+{
+ "pyobjus-master": [
+  {
+   "pyobjus": "1.2.4",
+   "python": "3.14.7",
+   "round": 1000,
+   "rounds": [
+    {
+     "entries_before": 0,
+     "entries_after": 1000,
+     "us_per_call": 7.09
+    },
+    {
+     "entries_before": 1000,
+     "entries_after": 2000,
+     "us_per_call": 10.8
+    },
+    {
+     "entries_before": 2000,
+     "entries_after": 3000,
+     "us_per_call": 14.7
+    },
+    {
+     "entries_before": 3000,
+     "entries_after": 4000,
+     "us_per_call": 18.02
+    },
+    {
+     "entries_before": 4000,
+     "entries_after": 5000,
+     "us_per_call": 21.52
+    },
+    {
+     "entries_before": 5000,
+     "entries_after": 6000,
+     "us_per_call": 24.99
+    },
+    {
+     "entries_before": 6000,
+     "entries_after": 7000,
+     "us_per_call": 28.77
+    },
+    {
+     "entries_before": 7000,
+     "entries_after": 8000,
+     "us_per_call": 32.2
+    },
+    {
+     "entries_before": 8000,
+     "entries_after": 9000,
+     "us_per_call": 35.83
+    },
+    {
+     "entries_before": 9000,
+     "entries_after": 10000,
+     "us_per_call": 39.22
+    },
+    {
+     "entries_before": 10000,
+     "entries_after": 11000,
+     "us_per_call": 42.93
+    },
+    {
+     "entries_before": 11000,
+     "entries_after": 12000,
+     "us_per_call": 46.53
+    },
+    {
+     "entries_before": 12000,
+     "entries_after": 13000,
+     "us_per_call": 49.88
+    },
+    {
+     "entries_before": 13000,
+     "entries_after": 14000,
+     "us_per_call": 53.56
+    },
+    {
+     "entries_before": 14000,
+     "entries_after": 15000,
+     "us_per_call": 57.13
+    },
+    {
+     "entries_before": 15000,
+     "entries_after": 16000,
+     "us_per_call": 60.89
+    },
+    {
+     "entries_before": 16000,
+     "entries_after": 17000,
+     "us_per_call": 64.37
+    },
+    {
+     "entries_before": 17000,
+     "entries_after": 18000,
+     "us_per_call": 67.75
+    },
+    {
+     "entries_before": 18000,
+     "entries_after": 19000,
+     "us_per_call": 71.74
+    },
+    {
+     "entries_before": 19000,
+     "entries_after": 20000,
+     "us_per_call": 75.98
+    }
+   ],
+   "entries_before_clear": 20000,
+   "us_per_call_after_clear": 6.94,
+   "python_bytes_per_call": 48.2
+  },
+  {
+   "pyobjus": "1.2.4",
+   "python": "3.14.7",
+   "round": 1000,
+   "rounds": [
+    {
+     "entries_before": 0,
+     "entries_after": 1000,
+     "us_per_call": 7.08
+    },
+    {
+     "entries_before": 1000,
+     "entries_after": 2000,
+     "us_per_call": 10.85
+    },
+    {
+     "entries_before": 2000,
+     "entries_after": 3000,
+     "us_per_call": 14.59
+    },
+    {
+     "entries_before": 3000,
+     "entries_after": 4000,
+     "us_per_call": 18.34
+    },
+    {
+     "entries_before": 4000,
+     "entries_after": 5000,
+     "us_per_call": 21.87
+    },
+    {
+     "entries_before": 5000,
+     "entries_after": 6000,
+     "us_per_call": 25.46
+    },
+    {
+     "entries_before": 6000,
+     "entries_after": 7000,
+     "us_per_call": 29.1
+    },
+    {
+     "entries_before": 7000,
+     "entries_after": 8000,
+     "us_per_call": 32.74
+    },
+    {
+     "entries_before": 8000,
+     "entries_after": 9000,
+     "us_per_call": 36.31
+    },
+    {
+     "entries_before": 9000,
+     "entries_after": 10000,
+     "us_per_call": 39.98
+    },
+    {
+     "entries_before": 10000,
+     "entries_after": 11000,
+     "us_per_call": 43.36
+    },
+    {
+     "entries_before": 11000,
+     "entries_after": 12000,
+     "us_per_call": 46.51
+    },
+    {
+     "entries_before": 12000,
+     "entries_after": 13000,
+     "us_per_call": 50.5
+    },
+    {
+     "entries_before": 13000,
+     "entries_after": 14000,
+     "us_per_call": 54.28
+    },
+    {
+     "entries_before": 14000,
+     "entries_after": 15000,
+     "us_per_call": 57.85
+    },
+    {
+     "entries_before": 15000,
+     "entries_after": 16000,
+     "us_per_call": 61.16
+    },
+    {
+     "entries_before": 16000,
+     "entries_after": 17000,
+     "us_per_call": 64.86
+    },
+    {
+     "entries_before": 17000,
+     "entries_after": 18000,
+     "us_per_call": 69.02
+    },
+    {
+     "entries_before": 18000,
+     "entries_after": 19000,
+     "us_per_call": 72.47
+    },
+    {
+     "entries_before": 19000,
+     "entries_after": 20000,
+     "us_per_call": 75.94
+    }
+   ],
+   "entries_before_clear": 20000,
+   "us_per_call_after_clear": 7.09,
+   "python_bytes_per_call": 48.2
+  },
+  {
+   "pyobjus": "1.2.4",
+   "python": "3.14.7",
+   "round": 1000,
+   "rounds": [
+    {
+     "entries_before": 0,
+     "entries_after": 1000,
+     "us_per_call": 6.97
+    },
+    {
+     "entries_before": 1000,
+     "entries_after": 2000,
+     "us_per_call": 10.59
+    },
+    {
+     "entries_before": 2000,
+     "entries_after": 3000,
+     "us_per_call": 14.07
+    },
+    {
+     "entries_before": 3000,
+     "entries_after": 4000,
+     "us_per_call": 17.98
+    },
+    {
+     "entries_before": 4000,
+     "entries_after": 5000,
+     "us_per_call": 21.54
+    },
+    {
+     "entries_before": 5000,
+     "entries_after": 6000,
+     "us_per_call": 25.33
+    },
+    {
+     "entries_before": 6000,
+     "entries_after": 7000,
+     "us_per_call": 28.91
+    },
+    {
+     "entries_before": 7000,
+     "entries_after": 8000,
+     "us_per_call": 32.26
+    },
+    {
+     "entries_before": 8000,
+     "entries_after": 9000,
+     "us_per_call": 35.72
+    },
+    {
+     "entries_before": 9000,
+     "entries_after": 10000,
+     "us_per_call": 39.38
+    },
+    {
+     "entries_before": 10000,
+     "entries_after": 11000,
+     "us_per_call": 43.1
+    },
+    {
+     "entries_before": 11000,
+     "entries_after": 12000,
+     "us_per_call": 46.68
+    },
+    {
+     "entries_before": 12000,
+     "entries_after": 13000,
+     "us_per_call": 50.24
+    },
+    {
+     "entries_before": 13000,
+     "entries_after": 14000,
+     "us_per_call": 53.41
+    },
+    {
+     "entries_before": 14000,
+     "entries_after": 15000,
+     "us_per_call": 57.44
+    },
+    {
+     "entries_before": 15000,
+     "entries_after": 16000,
+     "us_per_call": 61.31
+    },
+    {
+     "entries_before": 16000,
+     "entries_after": 17000,
+     "us_per_call": 65.11
+    },
+    {
+     "entries_before": 17000,
+     "entries_after": 18000,
+     "us_per_call": 68.85
+    },
+    {
+     "entries_before": 18000,
+     "entries_after": 19000,
+     "us_per_call": 72.39
+    },
+    {
+     "entries_before": 19000,
+     "entries_after": 20000,
+     "us_per_call": 75.51
+    }
+   ],
+   "entries_before_clear": 20000,
+   "us_per_call_after_clear": 6.98,
+   "python_bytes_per_call": 48.2
+  }
+ ],
+ "pyobjus-1.2.4": [
+  {
+   "outcome": "crash",
+   "exit": -5
+  },
+  {
+   "outcome": "crash",
+   "exit": -5
+  },
+  {
+   "outcome": "crash",
+   "exit": -5
+  }
+ ]
+}

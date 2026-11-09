@@ -2,6 +2,10 @@
 
 Corrections and changes to published sections, newest first.
 
+## section-6-draft-2
+
+Section 6 now gives the cause of pyobjus's `CGRect` slowdown, which draft 1 said wasn't investigated. pyobjus adds the address of every struct argument to a list it never clears, `ctypes_struct_cache`, and searches the whole list on every struct return. A new measurement, `cgrect_cache.py`, confirms it: clearing the list restores the original speed. Each such call also keeps about 48 bytes of Python memory, which is added to claim 7's amounts.
+
 ## section-6-draft-1
 
 First public draft of Section 6, for factual review.
