@@ -2,6 +2,12 @@
 
 Corrections and changes to published sections, newest first.
 
+## section-7-draft-1
+
+First public draft of Section 7, for factual review.
+
+Section 1 said first-party and downstream dependents would be covered in Section 7. Section 7 counts public code that imports each library, and Kivy's and Plyer's own use of pyobjus moved to Section 8, so Section 1 now says so.
+
 ## section-6-draft-4
 
 Section 6 now explains Rubicon's larger memory footprint on import. On the Mac, 10.4 MB of its 11.7 MB comes from two standard-library calls Rubicon makes at import: `importlib.metadata`, to read its version number, and `platform.processor()`. Rubicon's own modules add 0.85 MB after them. A new measurement, `rubicon_import.py`, gives each step.

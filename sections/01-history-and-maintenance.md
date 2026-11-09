@@ -327,4 +327,4 @@ These counts include CI runs and installs pulled in as dependencies, and apps bu
 
 These counts also miss pyobjus builds made through kivy-ios, which is likely its main use with Kivy (**Inferred**). The [kivy-ios recipe](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/pyobjus/__init__.py) downloads pyobjus's source from GitHub rather than PyPI. GitHub doesn't report downloads of source archives, so the size of this use isn't measured, and the pyobjus total understates its use with Kivy on iOS.
 
-First-party and downstream dependents of both libraries are covered in Section 7.
+Public code that imports each library is counted in Section 7. Kivy's and Plyer's own use of pyobjus is covered in Section 8.

@@ -20,7 +20,7 @@ Each section opens with a summary of findings, followed by the supporting facts.
 | 4 | [Side-by-side examples](sections/04-examples.md) | [Definitions](metrics/04-examples.md) | Draft for factual review |
 | 5 | [Testing and CI](sections/05-testing-and-ci.md) | [Definitions](metrics/05-testing-and-ci.md) | Draft for factual review |
 | 6 | [Performance](sections/06-performance.md) | [Definitions](metrics/06-performance.md) | Draft for factual review |
-| 7 | Ecosystem considerations | | Not started |
+| 7 | [Ecosystem considerations](sections/07-ecosystem.md) | [Definitions](metrics/07-ecosystem.md) | Draft for factual review |
 | 8 | Compatibility and migration | | Not started |
 
 ## Layout
