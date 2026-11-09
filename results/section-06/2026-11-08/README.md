@@ -14,6 +14,7 @@ Library versions are in [the baseline](../../baseline/2026-11-04.md). The script
 | Figures | `raw/summary.json`, from [`summarize.py`](../../../tests/section-06/summarize.py) |
 | Cause of pyobjus's `CGRect` slowdown | Done: `raw/cgrect_cache.json`. Added after the full runs |
 | Rubicon's footprint after `alloc` then `init` | Done: `raw/rubicon_alloc_init.json`. Added after the full runs |
+| Rubicon's import memory by step | Done: `raw/rubicon_import.json`. Added after the full runs |
 | Section text | Draft |
 
 ## Conditions
@@ -174,6 +175,7 @@ Footprint is `phys_footprint`, which grows in 16 KB pages, so differences below 
 - **Rubicon:** its footprint figures in M3 are memory freed and held by the allocator, not memory in use: every object was freed. After `alloc` then `init` they're higher, because the first method call on a new wrapper makes a `ctypes.cast` that, in CPython, leaves a reference cycle for the cycle collector. [`rubicon_alloc_init.py`](../../../tests/section-06/rubicon_alloc_init.py) shows the cycle, reproduces it in plain `ctypes`, and shows the footprint doesn't grow over 4 batches (`raw/rubicon_alloc_init.json`). The section doesn't report these figures for Rubicon.
 - **pyobjus ordinary methods and M4:** the objects are freed, yet footprint grows by about 16 bytes per call on the Mac and 6.5 on the iPhone, outside Python's allocations. On the iPhone the samples dip once before rising, so the figure is less steady there.
 - **M1 on the Mac** includes `traceback` for pyobjus `master`, as under S1. On the iPhone it doesn't.
+- **Rubicon's M1:** most of it is two standard-library calls Rubicon makes at import: `importlib.metadata`, to read its version (`__init__.py` line 1 at `6bf0639`), and `platform.processor()` (`types.py` line 103), which runs `uname -p` on macOS. [`rubicon_import.py`](../../../tests/section-06/rubicon_import.py) measured each in a new process, 3 times per version, after the full runs (`raw/rubicon_import.json`). Medians, the same for 0.5.7 and `main`: `importlib.metadata` 8.2 MB of footprint, 4.6 MB Python, 78 modules. `platform.processor()` 1.3 MB, 0.7 MB, 10 modules. Both together 10.4 MB, 5.1 MB, 86 modules, after which Rubicon's own modules added 0.85 MB, 0.7 MB, 12 modules. Rubicon alone 11.7 MB, 5.9 MB, 98 modules. Mac only.
 
 ## S2 Installed size
 
@@ -200,6 +202,7 @@ On the Mac, both pyobjus builds are universal (arm64 and x86_64), so the figure 
 - `iphone_size.json`: S2 on the iPhone
 - `cgrect_cache.json`: the `ctypes_struct_cache` measurement
 - `rubicon_alloc_init.json`: the Rubicon `alloc` then `init` investigation
+- `rubicon_import.json`: Rubicon's import memory by step
 - `mac_run.log`, `iphone_run.log`: the runners' output
 
 Local paths are replaced with `<work>`, `<envs>` and `~`, and the phone's identifier with `<device>`.

@@ -2,6 +2,10 @@
 
 Corrections and changes to published sections, newest first.
 
+## section-6-draft-4
+
+Section 6 now explains Rubicon's larger memory footprint on import. On the Mac, 10.4 MB of its 11.7 MB comes from two standard-library calls Rubicon makes at import: `importlib.metadata`, to read its version number, and `platform.processor()`. Rubicon's own modules add 0.85 MB after them. A new measurement, `rubicon_import.py`, gives each step.
+
 ## section-6-draft-3
 
 Section 6 no longer reports M3 footprint figures for Rubicon, which draft 2 gave as memory kept after objects were freed. Every object was freed. The figures are memory freed and held by the allocator, raised after `alloc` then `init` by a reference cycle that CPython's `ctypes.cast` leaves for the cycle collector, so they aren't Rubicon's memory use. The evidence is in the results.

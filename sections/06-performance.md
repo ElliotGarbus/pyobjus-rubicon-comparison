@@ -4,7 +4,7 @@
 
 ## Summary of findings
 
-Rubicon is faster than pyobjus for every call measured, and the gap is largest when Objective-C calls into Python. A delegate call takes about 100 times as long with pyobjus: 73 µs against 0.7 µs on the Mac, and 128 µs against 0.9 µs on the iPhone. Calls that return an object or pass a string take 10 to 20 times as long with pyobjus, and calls that pass and return numbers 1.3 to 1.8 times as long. pyobjus starts faster: on the iPhone it imports in 5 ms against Rubicon's 44 ms, and wraps a class for the first time in 0.3 ms against 1.6 to 1.7 ms. In memory, pyobjus doesn't free objects from `alloc`, `new` or `copy`, keeps about 10 KB per delegate it has been given, and keeps 6 to 16 bytes per call that returns an object, so its memory grows with use. Rubicon's doesn't, but it uses about 12 MB more after importing on the iPhone, and 3 times as much per live wrapped object.
+Rubicon is faster than pyobjus for every call measured, and the gap is largest when Objective-C calls into Python. A delegate call takes about 100 times as long with pyobjus: 73 µs against 0.7 µs on the Mac, and 128 µs against 0.9 µs on the iPhone. Calls that return an object or pass a string take 10 to 20 times as long with pyobjus, and calls that pass and return numbers 1.3 to 1.8 times as long. pyobjus starts faster: on the iPhone it imports in 5 ms against Rubicon's 44 ms, and wraps a class for the first time in 0.3 ms against 1.6 to 1.7 ms. In memory, pyobjus doesn't free objects from `alloc`, `new` or `copy`, keeps about 10 KB per delegate it has been given, and keeps 6 to 16 bytes per call that returns an object, so its memory grows with use. Rubicon's doesn't.
 
 **pyobjus:** calls with numbers take 2.0 to 3.9 µs on the Mac and 2.4 to 4.7 µs on the iPhone. Returning an object takes 30 µs on the Mac and 55 µs on the iPhone, and a 10-character string 181 µs and 466 µs. Calls that pass a struct, such as a `CGRect`, get slower the more of them a process makes, because pyobjus adds each struct argument's address to a list it never clears and searches the whole list on every struct return. Each call adds about 4 ns to every later one, so after 10,000 such calls each takes about 40 µs longer than the first, and each keeps about 48 bytes. pyobjus 1.2.4 crashed in 3 of 5 processes on those calls, and returned the wrong value from a delegate. pyobjus imports in 5 to 7 ms and adds 0.8 MB of memory on the iPhone, and 1.1 MB to the app. Its default branch imports `traceback`, added by this comparison's author, which accounts for most of its extra import time and memory on the Mac over 1.2.4.
 
@@ -119,6 +119,16 @@ Footprint is the process's physical footprint, the figure iOS uses when it ends 
 
 - **pyobjus 1.2.4** was within 25 bytes of `master` per object in M2 to M4, and Rubicon 0.5.7 matched `main`. pyobjus 1.2.4 added 0.57 MB on import, against `master`'s 4.1 MB.
 - **Import memory (M1):** on the Mac, most of pyobjus `master`'s extra over 1.2.4 is `traceback` and the modules it loads, such as `inspect` (**Inferred**, from `python -X importtime` and the modules each version loads). `master` imports it to print exceptions raised in delegate methods, a change by this comparison's author. The iPhone app's entry point imports `traceback` before measuring, so the iPhone figures leave it out for both libraries.
+- **Rubicon's import memory (M1):** most of it comes from two standard-library calls Rubicon makes at import, not from its own code (**Source** and **Measured**). [`__init__.py`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/__init__.py#L1) imports `importlib.metadata` to read Rubicon's version number, and [`types.py`](https://github.com/beeware/rubicon-objc/blob/6bf06390f720226da3d51477f38de3ff1e680eaf/src/rubicon/objc/types.py#L103) calls `platform.processor()`, which on macOS runs `uname -p` as a subprocess. [`rubicon_import.py`](../tests/section-06/rubicon_import.py) measured each step in a new process on the Mac, 3 times for each Rubicon version, with the same result for both:
+
+  | Step | Footprint | Python's share | Modules loaded |
+  |---|---:|---:|---:|
+  | `importlib.metadata`, reading the version | 8.2 MB | 4.6 MB | 78 |
+  | `platform.processor()` | 1.3 MB | 0.7 MB | 10 |
+  | Rubicon's own modules, after both | 0.85 MB | 0.7 MB | 12 |
+  | Importing Rubicon, as M1 measures it | 11.7 MB | 5.9 MB | 98 |
+
+  In an app that has already imported these modules, Rubicon would add less (**Inferred**). The iPhone wasn't measured this way.
 - **pyobjus M4:** the returned objects were freed, as in Rubicon (pyobjus 999,999 and Rubicon 1,000,000 of 1,001,000 at the last sample), yet pyobjus's footprint kept growing, outside Python's allocations. The iPhone made 300,000 calls instead of 1,000,000 to stay within iOS's 20-second limit for a launch, and its samples dipped once before rising, so its figure is less steady.
 
 ### S. Startup and size

@@ -1,0 +1,292 @@
+{
+ "rubicon-main": {
+  "metadata": [
+   {
+    "metadata": {
+     "footprint_bytes": 8290352,
+     "python_bytes": 4562057,
+     "modules": 78
+    },
+    "step": "metadata",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   },
+   {
+    "metadata": {
+     "footprint_bytes": 8159256,
+     "python_bytes": 4562426,
+     "modules": 78
+    },
+    "step": "metadata",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   },
+   {
+    "metadata": {
+     "footprint_bytes": 8929352,
+     "python_bytes": 4561458,
+     "modules": 78
+    },
+    "step": "metadata",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   }
+  ],
+  "processor": [
+   {
+    "processor": {
+     "footprint_bytes": 1310720,
+     "python_bytes": 676381,
+     "modules": 10
+    },
+    "step": "processor",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   },
+   {
+    "processor": {
+     "footprint_bytes": 1327104,
+     "python_bytes": 676471,
+     "modules": 10
+    },
+    "step": "processor",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   },
+   {
+    "processor": {
+     "footprint_bytes": 1343512,
+     "python_bytes": 676516,
+     "modules": 10
+    },
+    "step": "processor",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   }
+  ],
+  "both_then_rubicon": [
+   {
+    "both": {
+     "footprint_bytes": 10371096,
+     "python_bytes": 5110823,
+     "modules": 86
+    },
+    "rubicon_after": {
+     "footprint_bytes": 851968,
+     "python_bytes": 744755,
+     "modules": 12
+    },
+    "step": "both_then_rubicon",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   },
+   {
+    "both": {
+     "footprint_bytes": 10321944,
+     "python_bytes": 5110957,
+     "modules": 86
+    },
+    "rubicon_after": {
+     "footprint_bytes": 868352,
+     "python_bytes": 744815,
+     "modules": 12
+    },
+    "step": "both_then_rubicon",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   },
+   {
+    "both": {
+     "footprint_bytes": 10387504,
+     "python_bytes": 5110485,
+     "modules": 86
+    },
+    "rubicon_after": {
+     "footprint_bytes": 835584,
+     "python_bytes": 742802,
+     "modules": 12
+    },
+    "step": "both_then_rubicon",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   }
+  ],
+  "rubicon": [
+   {
+    "rubicon": {
+     "footprint_bytes": 11681816,
+     "python_bytes": 5851968,
+     "modules": 98
+    },
+    "step": "rubicon",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   },
+   {
+    "rubicon": {
+     "footprint_bytes": 11730968,
+     "python_bytes": 5850953,
+     "modules": 98
+    },
+    "step": "rubicon",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   },
+   {
+    "rubicon": {
+     "footprint_bytes": 11681816,
+     "python_bytes": 5851886,
+     "modules": 98
+    },
+    "step": "rubicon",
+    "version": "0.5.8.dev21+g6bf06390f",
+    "python": "3.14.7"
+   }
+  ]
+ },
+ "rubicon-0.5.7": {
+  "metadata": [
+   {
+    "metadata": {
+     "footprint_bytes": 8159256,
+     "python_bytes": 4561671,
+     "modules": 78
+    },
+    "step": "metadata",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   },
+   {
+    "metadata": {
+     "footprint_bytes": 8175640,
+     "python_bytes": 4562297,
+     "modules": 78
+    },
+    "step": "metadata",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   },
+   {
+    "metadata": {
+     "footprint_bytes": 8208408,
+     "python_bytes": 4561780,
+     "modules": 78
+    },
+    "step": "metadata",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   }
+  ],
+  "processor": [
+   {
+    "processor": {
+     "footprint_bytes": 1327104,
+     "python_bytes": 676381,
+     "modules": 10
+    },
+    "step": "processor",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   },
+   {
+    "processor": {
+     "footprint_bytes": 1359872,
+     "python_bytes": 676426,
+     "modules": 10
+    },
+    "step": "processor",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   },
+   {
+    "processor": {
+     "footprint_bytes": 1310720,
+     "python_bytes": 676471,
+     "modules": 10
+    },
+    "step": "processor",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   }
+  ],
+  "both_then_rubicon": [
+   {
+    "both": {
+     "footprint_bytes": 10354712,
+     "python_bytes": 5110526,
+     "modules": 86
+    },
+    "rubicon_after": {
+     "footprint_bytes": 884736,
+     "python_bytes": 745009,
+     "modules": 12
+    },
+    "step": "both_then_rubicon",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   },
+   {
+    "both": {
+     "footprint_bytes": 10338352,
+     "python_bytes": 5110322,
+     "modules": 86
+    },
+    "rubicon_after": {
+     "footprint_bytes": 851968,
+     "python_bytes": 742831,
+     "modules": 12
+    },
+    "step": "both_then_rubicon",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   },
+   {
+    "both": {
+     "footprint_bytes": 10305560,
+     "python_bytes": 5110125,
+     "modules": 86
+    },
+    "rubicon_after": {
+     "footprint_bytes": 851968,
+     "python_bytes": 744478,
+     "modules": 12
+    },
+    "step": "both_then_rubicon",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   }
+  ],
+  "rubicon": [
+   {
+    "rubicon": {
+     "footprint_bytes": 11730992,
+     "python_bytes": 5851264,
+     "modules": 98
+    },
+    "step": "rubicon",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   },
+   {
+    "rubicon": {
+     "footprint_bytes": 11681840,
+     "python_bytes": 5851200,
+     "modules": 98
+    },
+    "step": "rubicon",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   },
+   {
+    "rubicon": {
+     "footprint_bytes": 11747352,
+     "python_bytes": 5850817,
+     "modules": 98
+    },
+    "step": "rubicon",
+    "version": "0.5.7",
+    "python": "3.14.7"
+   }
+  ]
+ }
+}
