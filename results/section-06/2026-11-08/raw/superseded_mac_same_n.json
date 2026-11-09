@@ -1,0 +1,9770 @@
+{
+ "mac": {
+  "macos": "26.6.2",
+  "build": "25G83",
+  "cpu": "Apple M5 Pro",
+  "machine": "arm64",
+  "power": "Now drawing from 'AC Power'",
+  "low_power_mode": []
+ },
+ "envs": {
+  "pyobjus-1.2.4": {
+   "lib": "pyobjus"
+  },
+  "pyobjus-master": {
+   "lib": "pyobjus"
+  },
+  "rubicon-0.5.7": {
+   "lib": "rubicon"
+  },
+  "rubicon-main": {
+   "lib": "rubicon"
+  },
+  "pyobjc-13.0": {
+   "lib": "pyobjc"
+  },
+  "python-3.14.7": {
+   "lib": "none"
+  }
+ },
+ "calibration": {
+  "runs": {
+   "noop": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "noop",
+     "result": {
+      "noop": {
+       "per_call_ns": 1809.4050049141906,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "noop",
+     "result": {
+      "noop": {
+       "per_call_ns": 1917.1887570062645,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "noop",
+     "result": {
+      "noop": {
+       "per_call_ns": 1546.269124241625,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "noop",
+     "result": {
+      "noop": {
+       "per_call_ns": 1527.225750798722,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "noop",
+     "result": {
+      "noop": {
+       "per_call_ns": 103.42468674660932,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "int": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "int",
+     "result": {
+      "int": {
+       "per_call_ns": 3095.8364251692155,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "int",
+     "result": {
+      "int": {
+       "per_call_ns": 3023.497083130773,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "int",
+     "result": {
+      "int": {
+       "per_call_ns": 2105.866555536059,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "int",
+     "result": {
+      "int": {
+       "per_call_ns": 2101.579145179617,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "int",
+     "result": {
+      "int": {
+       "per_call_ns": 117.98405021708226,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "double": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "double",
+     "result": {
+      "double": {
+       "per_call_ns": 3699.396887159533,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "double",
+     "result": {
+      "double": {
+       "per_call_ns": 3735.1430528077917,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "double",
+     "result": {
+      "double": {
+       "per_call_ns": 2107.666340247485,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "double",
+     "result": {
+      "double": {
+       "per_call_ns": 2087.0289219982474,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "double",
+     "result": {
+      "double": {
+       "per_call_ns": 122.10695477848039,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bool": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bool",
+     "result": {
+      "bool": {
+       "per_call_ns": 3057.8178116379877,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bool",
+     "result": {
+      "bool": {
+       "per_call_ns": 3022.755247473439,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bool",
+     "result": {
+      "bool": {
+       "per_call_ns": 2094.0524515393386,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bool",
+     "result": {
+      "bool": {
+       "per_call_ns": 2111.9967937299607,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bool",
+     "result": {
+      "bool": {
+       "per_call_ns": 115.43415887718506,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "object": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "object",
+     "result": {
+      "object": {
+       "per_call_ns": 28915.241071428572,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "object",
+     "result": {
+      "object": {
+       "per_call_ns": 29142.31088825215,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "object",
+     "result": {
+      "object": {
+       "per_call_ns": 2388.7757130080495,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "object",
+     "result": {
+      "object": {
+       "per_call_ns": 2410.6986537098896,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "object",
+     "result": {
+      "object": {
+       "per_call_ns": 148.3942781627259,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "rect": {
+    "pyobjus-1.2.4": {
+     "outcome": "crash",
+     "exit": -5,
+     "seconds": 0.0,
+     "output_tail": ""
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "rect",
+     "result": {
+      "rect": {
+       "per_call_ns": 19540.61394736842,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "rect",
+     "result": {
+      "rect": {
+       "per_call_ns": 2156.04222683389,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "rect",
+     "result": {
+      "rect": {
+       "per_call_ns": 2193.015264367816,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "rect",
+     "result": {
+      "rect": {
+       "per_call_ns": 1107.6038748527294,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "str10": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "str10",
+     "result": {
+      "str10": {
+       "per_call_ns": 175573.1653543307,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.0
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "str10",
+     "result": {
+      "str10": {
+       "per_call_ns": 178588.95238095237,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "str10",
+     "result": {
+      "str10": {
+       "per_call_ns": 19577.690150478797,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "str10",
+     "result": {
+      "str10": {
+       "per_call_ns": 19433.885083713853,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "str10",
+     "result": {
+      "str10": {
+       "per_call_ns": 156.08024422429742,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "str10000": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "str10000",
+     "result": {
+      "str10000": {
+       "per_call_ns": 245871.92631578946,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "str10000",
+     "result": {
+      "str10000": {
+       "per_call_ns": 214885.61320754717,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "str10000",
+     "result": {
+      "str10000": {
+       "per_call_ns": 22352.711180124224,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "str10000",
+     "result": {
+      "str10000": {
+       "per_call_ns": 22098.534201954397,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "str10000",
+     "result": {
+      "str10000": {
+       "per_call_ns": 150.18873403019745,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "class_method": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "class_method",
+     "result": {
+      "class_method": {
+       "per_call_ns": 1746.4203575932934,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "class_method",
+     "result": {
+      "class_method": {
+       "per_call_ns": 1891.628408925186,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "class_method",
+     "result": {
+      "class_method": {
+       "per_call_ns": 1729.9066935658188,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "class_method",
+     "result": {
+      "class_method": {
+       "per_call_ns": 1745.930769777525,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "class_method",
+     "result": {
+      "class_method": {
+       "per_call_ns": 144.75555620403875,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "prop_read": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "prop_read",
+     "result": {
+      "prop_read": {
+       "per_call_ns": 2130.476776768277,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "prop_read",
+     "result": {
+      "prop_read": {
+       "per_call_ns": 2106.710712481051,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "prop_read",
+     "result": {
+      "prop_read": {
+       "per_call_ns": 1006.1978683966636,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "prop_read",
+     "result": {
+      "prop_read": {
+       "per_call_ns": 1013.01926170519,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "prop_read",
+     "result": {
+      "prop_read": {
+       "per_call_ns": 104.05832727650296,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "prop_write": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "prop_write",
+     "result": {
+      "prop_write": {
+       "per_call_ns": 3492.2254974207813,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "prop_write",
+     "result": {
+      "prop_write": {
+       "per_call_ns": 3448.1639977912755,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "prop_write",
+     "result": {
+      "prop_write": {
+       "per_call_ns": 1354.6424522590942,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "prop_write",
+     "result": {
+      "prop_write": {
+       "per_call_ns": 1319.0970262521782,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "prop_write",
+     "result": {
+      "prop_write": {
+       "per_call_ns": 113.50689356681029,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bound_noop": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_noop",
+     "result": {
+      "bound_noop": {
+       "per_call_ns": 1674.527972027972,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_noop",
+     "result": {
+      "bound_noop": {
+       "per_call_ns": 1875.0680065262534,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_noop",
+     "result": {
+      "bound_noop": {
+       "per_call_ns": 650.5746196179994,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_noop",
+     "result": {
+      "bound_noop": {
+       "per_call_ns": 663.8386948901173,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bound_noop",
+     "result": {
+      "bound_noop": {
+       "per_call_ns": 48.46558545037737,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bound_int": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_int",
+     "result": {
+      "bound_int": {
+       "per_call_ns": 3043.569765986735,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_int",
+     "result": {
+      "bound_int": {
+       "per_call_ns": 2912.7719356261023,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_int",
+     "result": {
+      "bound_int": {
+       "per_call_ns": 1454.4428299920298,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_int",
+     "result": {
+      "bound_int": {
+       "per_call_ns": 1457.2108735491754,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bound_int",
+     "result": {
+      "bound_int": {
+       "per_call_ns": 57.71087632100315,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bound_double": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_double",
+     "result": {
+      "bound_double": {
+       "per_call_ns": 3645.5508151759864,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_double",
+     "result": {
+      "bound_double": {
+       "per_call_ns": 3731.4857582755967,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_double",
+     "result": {
+      "bound_double": {
+       "per_call_ns": 1494.883292917988,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_double",
+     "result": {
+      "bound_double": {
+       "per_call_ns": 1511.4479768786127,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bound_double",
+     "result": {
+      "bound_double": {
+       "per_call_ns": 60.262219626801496,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bound_bool": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_bool",
+     "result": {
+      "bound_bool": {
+       "per_call_ns": 3184.2468837957376,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_bool",
+     "result": {
+      "bound_bool": {
+       "per_call_ns": 2891.2413708086783,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_bool",
+     "result": {
+      "bound_bool": {
+       "per_call_ns": 1475.65045423645,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_bool",
+     "result": {
+      "bound_bool": {
+       "per_call_ns": 1502.9616443498937,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bound_bool",
+     "result": {
+      "bound_bool": {
+       "per_call_ns": 54.88567390489608,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bound_object": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_object",
+     "result": {
+      "bound_object": {
+       "per_call_ns": 28808.414781297135,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_object",
+     "result": {
+      "bound_object": {
+       "per_call_ns": 28689.212464589236,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_object",
+     "result": {
+      "bound_object": {
+       "per_call_ns": 1745.4204402282664,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_object",
+     "result": {
+      "bound_object": {
+       "per_call_ns": 1769.3550194203765,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bound_object",
+     "result": {
+      "bound_object": {
+       "per_call_ns": 75.38603765405338,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bound_rect": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_rect",
+     "result": {
+      "bound_rect": {
+       "per_call_ns": 19952.43071491615,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_rect",
+     "result": {
+      "bound_rect": {
+       "per_call_ns": 20178.718010622888,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_rect",
+     "result": {
+      "bound_rect": {
+       "per_call_ns": 1523.5887184752614,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_rect",
+     "result": {
+      "bound_rect": {
+       "per_call_ns": 1509.0157728706624,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bound_rect",
+     "result": {
+      "bound_rect": {
+       "per_call_ns": 944.9215343684232,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bound_str10": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_str10",
+     "result": {
+      "bound_str10": {
+       "per_call_ns": 173516.66666666666,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_str10",
+     "result": {
+      "bound_str10": {
+       "per_call_ns": 175642.3937007874,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_str10",
+     "result": {
+      "bound_str10": {
+       "per_call_ns": 17900.695190947667,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_str10",
+     "result": {
+      "bound_str10": {
+       "per_call_ns": 18245.793754538852,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bound_str10",
+     "result": {
+      "bound_str10": {
+       "per_call_ns": 92.9990495919064,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "bound_str10000": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_str10000",
+     "result": {
+      "bound_str10000": {
+       "per_call_ns": 254260.07692307694,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "bound_str10000",
+     "result": {
+      "bound_str10000": {
+       "per_call_ns": 213201.19047619047,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_str10000",
+     "result": {
+      "bound_str10000": {
+       "per_call_ns": 21652.465434083602,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "bound_str10000",
+     "result": {
+      "bound_str10000": {
+       "per_call_ns": 21458.64534883721,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "bound_str10000",
+     "result": {
+      "bound_str10000": {
+       "per_call_ns": 103.13641513119343,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "cb_noop": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "cb_noop",
+     "result": {
+      "cb_noop": {
+       "per_call_ns": 65804.12861736334,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.0
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "cb_noop",
+     "result": {
+      "cb_noop": {
+       "per_call_ns": 71353.43706293707,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "cb_noop",
+     "result": {
+      "cb_noop": {
+       "per_call_ns": 682.1666065132291,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "cb_noop",
+     "result": {
+      "cb_noop": {
+       "per_call_ns": 683.5848736692888,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "cb_noop",
+     "result": {
+      "cb_noop": {
+       "per_call_ns": 71.9279703612668,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "cb_int": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "cb_int",
+     "result": {
+      "cb_int": {
+       "per_call_ns": 80386.08239700375,
+       "check": {
+        "ok": false,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "cb_int",
+     "result": {
+      "cb_int": {
+       "per_call_ns": 88599.53846153847,
+       "check": {
+        "ok": true,
+        "value": "45",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "cb_int",
+     "result": {
+      "cb_int": {
+       "per_call_ns": 746.4038981410406,
+       "check": {
+        "ok": true,
+        "value": "45",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "cb_int",
+     "result": {
+      "cb_int": {
+       "per_call_ns": 757.2747621712367,
+       "check": {
+        "ok": true,
+        "value": "45",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "cb_int",
+     "result": {
+      "cb_int": {
+       "per_call_ns": 66.54720277356353,
+       "check": {
+        "ok": true,
+        "value": "45",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   },
+   "cb_object": {
+    "pyobjus-1.2.4": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "cb_object",
+     "result": {
+      "cb_object": {
+       "per_call_ns": 99611.79702970297,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.0
+    },
+    "pyobjus-master": {
+     "lib": "pyobjus",
+     "mode": "calibrate",
+     "arg": "cb_object",
+     "result": {
+      "cb_object": {
+       "per_call_ns": 105924.3383084577,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-0.5.7": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "cb_object",
+     "result": {
+      "cb_object": {
+       "per_call_ns": 941.1265735120381,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "rubicon-main": {
+     "lib": "rubicon",
+     "mode": "calibrate",
+     "arg": "cb_object",
+     "result": {
+      "cb_object": {
+       "per_call_ns": 972.7809347747458,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    },
+    "pyobjc-13.0": {
+     "lib": "pyobjc",
+     "mode": "calibrate",
+     "arg": "cb_object",
+     "result": {
+      "cb_object": {
+       "per_call_ns": 79.96582291323205,
+       "check": {
+        "ok": true,
+        "value": "10",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   }
+  },
+  "empty": {
+   "python-3.14.7": {
+    "lib": "none",
+    "mode": "calibrate",
+    "arg": "python_empty_call",
+    "result": {
+     "python_empty_call": {
+      "per_call_ns": 9.200915310309655,
+      "check": {
+       "ok": true,
+       "value": "None",
+       "type": "NoneType"
+      }
+     }
+    },
+    "thermal_start": 0,
+    "thermal_end": 0,
+    "python": "3.14.7",
+    "platform": "darwin",
+    "outcome": "ok",
+    "seconds": 0.0
+   }
+  },
+  "n": {
+   "noop": 20000,
+   "int": 10000,
+   "double": 10000,
+   "bool": 10000,
+   "object": 10000,
+   "rect": 10000,
+   "str10": 2000,
+   "str10000": 1000,
+   "class_method": 20000,
+   "prop_read": 20000,
+   "prop_write": 20000,
+   "bound_noop": 50000,
+   "bound_int": 20000,
+   "bound_double": 20000,
+   "bound_bool": 20000,
+   "bound_object": 20000,
+   "bound_rect": 20000,
+   "bound_str10": 2000,
+   "bound_str10000": 1000,
+   "cb_noop": 50000,
+   "cb_int": 50000,
+   "cb_object": 50000,
+   "python_empty_call": 5000000
+  }
+ },
+ "timing": {
+  "pyobjus-1.2.4": {
+   "noop": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "noop:20000",
+     "result": {
+      "noop": {
+       "n": 20000,
+       "round_ns": [
+        38683708,
+        37379000,
+        36787000,
+        36850000,
+        35991875,
+        36074458,
+        36110459,
+        35925417,
+        35747417,
+        36006833,
+        36156958,
+        36201250,
+        38846250,
+        38725417,
+        38790042,
+        38215709,
+        36839041,
+        36755250,
+        37064584,
+        36915959,
+        36387708,
+        36920375,
+        37078458,
+        36953083,
+        37237917,
+        36939958,
+        37153666,
+        36366334,
+        36502792,
+        36316625
+       ],
+       "drain_ns": [
+        8250,
+        7167,
+        6084,
+        7083,
+        4917,
+        5334,
+        4334,
+        2750,
+        4875,
+        3792,
+        4958,
+        5834,
+        12541,
+        6417,
+        7250,
+        6875,
+        12417,
+        10458,
+        7208,
+        7125,
+        5084,
+        5667,
+        6125,
+        5083,
+        7375,
+        5416,
+        4709,
+        4125,
+        2125,
+        3084
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1842.226025,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.3
+    }
+   ],
+   "int": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "int:10000",
+     "result": {
+      "int": {
+       "n": 10000,
+       "round_ns": [
+        31492458,
+        30963000,
+        31229708,
+        30953875,
+        31204084,
+        31069958,
+        31089666,
+        30950709,
+        30849417,
+        31097208,
+        31207333,
+        31075292,
+        31181041,
+        30871375,
+        30830458,
+        30744958,
+        30702750,
+        30917334,
+        30628041,
+        31022541,
+        30623458,
+        30755125,
+        30547416,
+        30799833,
+        31006334,
+        30644125,
+        30679250,
+        30488250,
+        30508625,
+        30490792
+       ],
+       "drain_ns": [
+        5833,
+        5834,
+        3542,
+        3250,
+        2625,
+        2417,
+        2208,
+        2208,
+        1791,
+        2750,
+        3500,
+        4000,
+        2875,
+        2750,
+        1541,
+        2250,
+        3417,
+        2083,
+        2250,
+        1292,
+        1625,
+        1750,
+        1958,
+        3958,
+        5875,
+        2458,
+        1375,
+        1583,
+        2167,
+        3958
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3089.43545,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "double": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "double:10000",
+     "result": {
+      "double": {
+       "n": 10000,
+       "round_ns": [
+        39235042,
+        39122750,
+        39015209,
+        39228250,
+        38939125,
+        39002166,
+        39057625,
+        39287917,
+        39175875,
+        38740458,
+        39355334,
+        39017959,
+        38976042,
+        39104625,
+        39002000,
+        38984584,
+        38606709,
+        38721917,
+        38887417,
+        39088583,
+        38666417,
+        38677000,
+        38750750,
+        38863958,
+        38745042,
+        39358292,
+        38844625,
+        38854542,
+        38912708,
+        38511125
+       ],
+       "drain_ns": [
+        1500,
+        792,
+        4042,
+        1500,
+        1292,
+        3959,
+        1250,
+        2000,
+        1083,
+        875,
+        1333,
+        1208,
+        1791,
+        2875,
+        2500,
+        1292,
+        1791,
+        1667,
+        1042,
+        2375,
+        1166,
+        1875,
+        4084,
+        1167,
+        5125,
+        1041,
+        1041,
+        1458,
+        4000,
+        1292
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3898.0313,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.3
+    }
+   ],
+   "bool": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bool:10000",
+     "result": {
+      "bool": {
+       "n": 10000,
+       "round_ns": [
+        31773667,
+        31862375,
+        31809667,
+        31990792,
+        31748417,
+        32956000,
+        33298166,
+        31959000,
+        32049792,
+        31905417,
+        31652667,
+        31850167,
+        31760375,
+        31561666,
+        31885292,
+        31666791,
+        31693958,
+        31608708,
+        31740500,
+        31807083,
+        31471542,
+        31902667,
+        32050750,
+        31414083,
+        31961459,
+        31918875,
+        32204792,
+        31619375,
+        31745792,
+        31835375
+       ],
+       "drain_ns": [
+        5042,
+        4500,
+        6791,
+        5750,
+        6042,
+        6875,
+        9000,
+        6125,
+        6291,
+        5708,
+        5750,
+        4708,
+        4083,
+        2875,
+        2958,
+        2667,
+        2250,
+        2375,
+        2583,
+        2208,
+        2333,
+        3000,
+        5084,
+        2000,
+        1584,
+        2708,
+        4875,
+        4667,
+        3584,
+        3416
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3182.2521,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "object": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "object:10000",
+     "result": {
+      "object": {
+       "n": 10000,
+       "round_ns": [
+        321813250,
+        322159500,
+        319714750,
+        309839958,
+        314832917,
+        302150750,
+        307976708,
+        300002792,
+        299315500,
+        306899833,
+        325348000,
+        319612750,
+        311216292,
+        303098750,
+        330433458,
+        316698833,
+        318879042,
+        304962166,
+        306813666,
+        321223208,
+        344524708,
+        321827083,
+        308675208,
+        327606958,
+        338183667,
+        301751417,
+        303942625,
+        306009875,
+        301425958,
+        299577458
+       ],
+       "drain_ns": [
+        7542,
+        7333,
+        7708,
+        6167,
+        6583,
+        6125,
+        6500,
+        5834,
+        6291,
+        6292,
+        7250,
+        6458,
+        6875,
+        7250,
+        6958,
+        6917,
+        7500,
+        6208,
+        7584,
+        7083,
+        6917,
+        7500,
+        7666,
+        6833,
+        7625,
+        6333,
+        8208,
+        5792,
+        6167,
+        6667
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 31052.8125,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 10.7
+    }
+   ],
+   "rect": [
+    {
+     "outcome": "crash",
+     "exit": -5,
+     "seconds": 0.0,
+     "output_tail": ""
+    }
+   ],
+   "str10": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "str10:2000",
+     "result": {
+      "str10": {
+       "n": 2000,
+       "round_ns": [
+        363831041,
+        363955167,
+        362816417,
+        368785292,
+        366102417,
+        366580958,
+        365255959,
+        365030250,
+        368834958,
+        363997667,
+        366013292,
+        369409875,
+        366493375,
+        363027958,
+        377029000,
+        374050458,
+        369855667,
+        362991916,
+        400813125,
+        407905000,
+        385085833,
+        381435916,
+        366034750,
+        367847916,
+        372152959,
+        367532875,
+        361064375,
+        363806958,
+        361750917,
+        363198125
+       ],
+       "drain_ns": [
+        6792,
+        3542,
+        2250,
+        5417,
+        6000,
+        5375,
+        6792,
+        8083,
+        10041,
+        3417,
+        6958,
+        6500,
+        6500,
+        3000,
+        7708,
+        6917,
+        6959,
+        3208,
+        7291,
+        6833,
+        7292,
+        7375,
+        6500,
+        6875,
+        7375,
+        6250,
+        3750,
+        5459,
+        4583,
+        4833
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 183148.948,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 12.3
+    }
+   ],
+   "str10000": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "str10000:1000",
+     "result": {
+      "str10000": {
+       "n": 1000,
+       "round_ns": [
+        251836958,
+        258120083,
+        253282709,
+        251644916,
+        251782666,
+        252640958,
+        266796083,
+        254190500,
+        251838458,
+        252295917,
+        254223500,
+        254059625,
+        254282375,
+        253585750,
+        253179750,
+        251718292,
+        257109625,
+        254584292,
+        255435458,
+        253315375,
+        253632834,
+        255681041,
+        253984583,
+        253533333,
+        253674666,
+        253716875,
+        255200292,
+        252614958,
+        252082583,
+        251964417
+       ],
+       "drain_ns": [
+        4959,
+        6750,
+        6250,
+        3208,
+        5209,
+        6042,
+        6291,
+        7333,
+        6166,
+        7541,
+        6625,
+        6583,
+        5833,
+        5792,
+        7625,
+        8333,
+        5917,
+        3875,
+        7000,
+        4125,
+        5042,
+        6416,
+        5125,
+        5833,
+        3458,
+        7084,
+        7500,
+        3708,
+        5584,
+        4083
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 253609.292,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 8.4
+    }
+   ],
+   "class_method": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "class_method:20000",
+     "result": {
+      "class_method": {
+       "n": 20000,
+       "round_ns": [
+        37925750,
+        37446916,
+        36636250,
+        36676333,
+        36643000,
+        36917709,
+        36874250,
+        36721041,
+        36630125,
+        36654125,
+        36640500,
+        36467708,
+        36539542,
+        36566209,
+        36353417,
+        36418125,
+        36408209,
+        37246333,
+        37254541,
+        37037542,
+        37044083,
+        36802500,
+        36657000,
+        36566875,
+        36715084,
+        37035042,
+        36496792,
+        36783500,
+        36714750,
+        36809875
+       ],
+       "drain_ns": [
+        6292,
+        3208,
+        1417,
+        1042,
+        1958,
+        1167,
+        2375,
+        1208,
+        1333,
+        1209,
+        2083,
+        959,
+        959,
+        750,
+        1167,
+        709,
+        667,
+        5375,
+        6833,
+        5000,
+        5208,
+        1750,
+        750,
+        1333,
+        1667,
+        1250,
+        1958,
+        1042,
+        750,
+        959
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1834.777075,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.3
+    }
+   ],
+   "prop_read": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "prop_read:20000",
+     "result": {
+      "prop_read": {
+       "n": 20000,
+       "round_ns": [
+        41969459,
+        40602833,
+        42188917,
+        41140458,
+        42360708,
+        40833459,
+        40928375,
+        40961083,
+        42112167,
+        40702709,
+        40725750,
+        40564208,
+        40482916,
+        40404500,
+        40244084,
+        40560167,
+        40448958,
+        40203250,
+        40376875,
+        40286959,
+        40239875,
+        40418667,
+        41618500,
+        45039875,
+        40291583,
+        40764542,
+        40295166,
+        40819250,
+        39951125,
+        40194125
+       ],
+       "drain_ns": [
+        3625,
+        1584,
+        2541,
+        2459,
+        2000,
+        1542,
+        2250,
+        1959,
+        3334,
+        2208,
+        1625,
+        1375,
+        1125,
+        1625,
+        1125,
+        584,
+        917,
+        708,
+        4667,
+        1709,
+        792,
+        583,
+        10583,
+        6834,
+        4625,
+        6666,
+        2708,
+        2292,
+        2709,
+        1459
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2029.176025,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.4
+    }
+   ],
+   "prop_write": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "prop_write:20000",
+     "result": {
+      "prop_write": {
+       "n": 20000,
+       "round_ns": [
+        71988875,
+        74405875,
+        79412209,
+        78935583,
+        78726416,
+        79201041,
+        76575959,
+        72436959,
+        72786667,
+        72161750,
+        72385750,
+        78567208,
+        80957500,
+        82621000,
+        83162750,
+        74338625,
+        74142333,
+        74836375,
+        73964667,
+        74738417,
+        73758750,
+        74349750,
+        74906042,
+        73147292,
+        72888792,
+        73228750,
+        72691459,
+        72934291,
+        72632291,
+        72401667
+       ],
+       "drain_ns": [
+        3125,
+        6416,
+        7917,
+        6833,
+        6875,
+        6792,
+        6541,
+        2459,
+        2041,
+        1666,
+        1333,
+        6208,
+        6375,
+        6375,
+        6709,
+        7209,
+        6416,
+        12958,
+        5417,
+        7166,
+        6708,
+        6125,
+        5875,
+        5250,
+        2084,
+        1500,
+        958,
+        5542,
+        2959,
+        1959
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3712.02395,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.5
+    }
+   ],
+   "bound_noop": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_noop:50000",
+     "result": {
+      "bound_noop": {
+       "n": 50000,
+       "round_ns": [
+        88352125,
+        88193834,
+        88086500,
+        87904500,
+        88826583,
+        88670917,
+        88321916,
+        88102541,
+        88323875,
+        88387875,
+        87859208,
+        88139792,
+        87873291,
+        88137125,
+        87683583,
+        87766250,
+        87874375,
+        87978708,
+        88180875,
+        88310542,
+        87907958,
+        87768542,
+        88033250,
+        87940000,
+        88164333,
+        89225709,
+        87453667,
+        87596000,
+        88044584,
+        87925416
+       ],
+       "drain_ns": [
+        2042,
+        1167,
+        875,
+        2750,
+        16000,
+        1375,
+        1041,
+        1042,
+        1042,
+        1000,
+        1000,
+        1959,
+        792,
+        1042,
+        834,
+        1000,
+        1167,
+        1459,
+        833,
+        1333,
+        500,
+        833,
+        750,
+        750,
+        834,
+        959,
+        1208,
+        1000,
+        1250,
+        1416
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1761.31084,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.9
+    }
+   ],
+   "bound_int": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_int:20000",
+     "result": {
+      "bound_int": {
+       "n": 20000,
+       "round_ns": [
+        60672125,
+        60688292,
+        60672833,
+        60758125,
+        60417250,
+        60377083,
+        60318167,
+        60433875,
+        60362875,
+        60409042,
+        61025542,
+        60509792,
+        60732666,
+        60432958,
+        60314584,
+        60309209,
+        60288875,
+        60396833,
+        60180125,
+        60167958,
+        60269792,
+        60288208,
+        60252458,
+        60159750,
+        60771375,
+        60296541,
+        60314041,
+        60218541,
+        59921667,
+        60090458
+       ],
+       "drain_ns": [
+        1500,
+        1750,
+        1000,
+        1042,
+        791,
+        959,
+        958,
+        708,
+        834,
+        875,
+        583,
+        917,
+        958,
+        792,
+        792,
+        625,
+        791,
+        792,
+        500,
+        709,
+        750,
+        625,
+        625,
+        667,
+        625,
+        708,
+        542,
+        458,
+        708,
+        750
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3017.02605,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.0
+    }
+   ],
+   "bound_double": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_double:20000",
+     "result": {
+      "bound_double": {
+       "n": 20000,
+       "round_ns": [
+        75486916,
+        75164792,
+        75304334,
+        75281166,
+        75348375,
+        76102750,
+        76707916,
+        75883250,
+        76279541,
+        75206375,
+        75683542,
+        75187000,
+        74709833,
+        75038208,
+        74243541,
+        74047417,
+        74093875,
+        74017500,
+        73985666,
+        74203208,
+        74079208,
+        74049208,
+        73914958,
+        74243333,
+        74463292,
+        74705833,
+        74211542,
+        74186292,
+        73962500,
+        73938625
+       ],
+       "drain_ns": [
+        959,
+        625,
+        750,
+        459,
+        916,
+        3000,
+        2167,
+        2209,
+        1750,
+        2375,
+        1500,
+        1584,
+        1000,
+        1167,
+        875,
+        750,
+        417,
+        1291,
+        709,
+        625,
+        500,
+        459,
+        500,
+        416,
+        1834,
+        708,
+        1042,
+        459,
+        542,
+        625
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3729.228125,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.5
+    }
+   ],
+   "bound_bool": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_bool:20000",
+     "result": {
+      "bound_bool": {
+       "n": 20000,
+       "round_ns": [
+        61203083,
+        61504417,
+        61161292,
+        61107917,
+        60977542,
+        61419000,
+        62414208,
+        62522084,
+        71606417,
+        64480209,
+        62627833,
+        61638333,
+        62029000,
+        63018416,
+        63690334,
+        66462583,
+        64972167,
+        63165209,
+        62636583,
+        63223709,
+        61675958,
+        62746375,
+        61616416,
+        64059833,
+        63165750,
+        61631542,
+        61288208,
+        62031708,
+        66691833,
+        63154917
+       ],
+       "drain_ns": [
+        6958,
+        4708,
+        1542,
+        1500,
+        3541,
+        4083,
+        4958,
+        5542,
+        6125,
+        6667,
+        6791,
+        6709,
+        4666,
+        5959,
+        6875,
+        6417,
+        6917,
+        6500,
+        5625,
+        12417,
+        2875,
+        6583,
+        5041,
+        7333,
+        6292,
+        2292,
+        4500,
+        5125,
+        6291,
+        7833
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3128.747925,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.1
+    }
+   ],
+   "bound_object": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_object:20000",
+     "result": {
+      "bound_object": {
+       "n": 20000,
+       "round_ns": [
+        608425792,
+        599714917,
+        600322167,
+        608187167,
+        618796667,
+        603707333,
+        615939208,
+        604405000,
+        598043333,
+        599004000,
+        614281125,
+        611063458,
+        599422709,
+        598203584,
+        598635625,
+        594420583,
+        594416542,
+        595620250,
+        594982292,
+        596900333,
+        598261875,
+        599338083,
+        599398209,
+        600503958,
+        597590833,
+        598128875,
+        600076708,
+        598099750,
+        596799042,
+        604432750
+       ],
+       "drain_ns": [
+        13333,
+        8375,
+        6875,
+        6500,
+        10291,
+        13959,
+        7458,
+        10292,
+        6167,
+        4875,
+        13708,
+        7750,
+        12792,
+        42208,
+        13334,
+        10708,
+        9084,
+        12583,
+        6667,
+        9167,
+        6458,
+        9959,
+        6292,
+        12750,
+        8000,
+        4667,
+        10750,
+        6750,
+        2292,
+        9542
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 29968.4073,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 19.9
+    }
+   ],
+   "bound_rect": [
+    {
+     "outcome": "crash",
+     "exit": -5,
+     "seconds": 0.0,
+     "output_tail": ""
+    }
+   ]
+  },
+  "pyobjus-master": {
+   "noop": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "noop:20000",
+     "result": {
+      "noop": {
+       "n": 20000,
+       "round_ns": [
+        39261375,
+        39180125,
+        39559500,
+        38975250,
+        39299583,
+        39360709,
+        38921042,
+        39150208,
+        39305792,
+        38905666,
+        39348917,
+        39182958,
+        38858791,
+        39502375,
+        39340709,
+        39706708,
+        40795833,
+        41821708,
+        41695833,
+        40836625,
+        40684959,
+        40414959,
+        39448833,
+        39577333,
+        39685250,
+        40293666,
+        40320417,
+        41825541,
+        39196625,
+        38985958
+       ],
+       "drain_ns": [
+        4625,
+        4083,
+        6292,
+        7125,
+        6333,
+        6458,
+        6542,
+        6125,
+        7625,
+        6667,
+        6375,
+        4250,
+        5666,
+        3625,
+        5834,
+        5875,
+        6958,
+        7625,
+        7958,
+        7334,
+        7500,
+        6750,
+        10000,
+        7542,
+        9625,
+        8625,
+        5375,
+        7166,
+        8250,
+        2416
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1970.23855,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.4
+    }
+   ],
+   "int": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "int:10000",
+     "result": {
+      "int": {
+       "n": 10000,
+       "round_ns": [
+        30702459,
+        30507750,
+        31027667,
+        31215416,
+        30871000,
+        31034875,
+        31159833,
+        31284500,
+        30977875,
+        30893458,
+        30837833,
+        31287375,
+        35371583,
+        34647125,
+        31334167,
+        31320917,
+        32683208,
+        31381834,
+        31354209,
+        31409125,
+        31298458,
+        32008875,
+        32096000,
+        31623250,
+        41397791,
+        33333792,
+        31994958,
+        31552958,
+        32173500,
+        31339375
+       ],
+       "drain_ns": [
+        1791,
+        2500,
+        2416,
+        1542,
+        1375,
+        2042,
+        2167,
+        5084,
+        3166,
+        5042,
+        3875,
+        2167,
+        5500,
+        5208,
+        3541,
+        3292,
+        5167,
+        3916,
+        2708,
+        2917,
+        3167,
+        8917,
+        8750,
+        4375,
+        6458,
+        5041,
+        4959,
+        5917,
+        5791,
+        6167
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3133.6771,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "double": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "double:10000",
+     "result": {
+      "double": {
+       "n": 10000,
+       "round_ns": [
+        38876542,
+        38886459,
+        39082208,
+        39162458,
+        38991542,
+        39418917,
+        39252125,
+        39071375,
+        38996000,
+        38915166,
+        39258250,
+        39248250,
+        39348875,
+        39386459,
+        39078750,
+        39314625,
+        39163292,
+        38913208,
+        38893709,
+        39124333,
+        39209541,
+        39042125,
+        39056750,
+        38995000,
+        39259583,
+        39458625,
+        39094542,
+        38917667,
+        38886875,
+        39172708
+       ],
+       "drain_ns": [
+        917,
+        2625,
+        1333,
+        1292,
+        4833,
+        3166,
+        1750,
+        1542,
+        1417,
+        2666,
+        2333,
+        2208,
+        1917,
+        1083,
+        3917,
+        1792,
+        3958,
+        1208,
+        1209,
+        2708,
+        2041,
+        2125,
+        1417,
+        4083,
+        1959,
+        2167,
+        3750,
+        1334,
+        4042,
+        1750
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3908.8375,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.3
+    }
+   ],
+   "bool": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bool:10000",
+     "result": {
+      "bool": {
+       "n": 10000,
+       "round_ns": [
+        31564583,
+        31581667,
+        31430167,
+        31523708,
+        31496167,
+        31519458,
+        31395458,
+        31725625,
+        31316458,
+        31228000,
+        32681084,
+        34665084,
+        33187750,
+        32688459,
+        32063917,
+        31588125,
+        31865541,
+        31559375,
+        31833083,
+        31875000,
+        31650750,
+        31290792,
+        31623250,
+        31716833,
+        31421042,
+        31373042,
+        31401833,
+        31339125,
+        31284709,
+        31402875
+       ],
+       "drain_ns": [
+        3458,
+        3333,
+        3459,
+        7333,
+        4958,
+        4875,
+        5333,
+        4000,
+        3250,
+        2875,
+        5292,
+        5333,
+        6000,
+        6625,
+        5709,
+        6250,
+        8333,
+        6500,
+        5125,
+        6167,
+        5417,
+        3667,
+        6625,
+        4875,
+        6750,
+        7250,
+        3542,
+        5334,
+        3833,
+        3917
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3156.1979,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "object": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "object:10000",
+     "result": {
+      "object": {
+       "n": 10000,
+       "round_ns": [
+        299258708,
+        307373333,
+        327065542,
+        302897000,
+        302825125,
+        298343042,
+        296745042,
+        342442375,
+        301275292,
+        330320125,
+        336324709,
+        311029750,
+        311767083,
+        303132958,
+        315145417,
+        304339125,
+        302843792,
+        313785584,
+        316774209,
+        305380792,
+        303838875,
+        324539583,
+        304110083,
+        302287583,
+        303263084,
+        305453875,
+        299075791,
+        299050000,
+        299432375,
+        306674166
+       ],
+       "drain_ns": [
+        6458,
+        7083,
+        7666,
+        6000,
+        7208,
+        6541,
+        6959,
+        6500,
+        6709,
+        6500,
+        7500,
+        7167,
+        7375,
+        8209,
+        6834,
+        7083,
+        6375,
+        6666,
+        6750,
+        6959,
+        6667,
+        6959,
+        6125,
+        6500,
+        7417,
+        6875,
+        5959,
+        5542,
+        7208,
+        6792
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 30422.4604,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 10.3
+    }
+   ],
+   "rect": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "rect:10000",
+     "result": {
+      "rect": {
+       "n": 10000,
+       "round_ns": [
+        1738368334,
+        2096752709,
+        2327279333,
+        2565954084,
+        2926411250,
+        3311795334,
+        3753345250,
+        4110272958,
+        4618330542,
+        4948183834,
+        5209472083,
+        5649630084,
+        6130081042,
+        6382902041,
+        6622202875,
+        7104144875,
+        7719900209,
+        8266341542,
+        8312469833,
+        8609088417,
+        9315087625,
+        9510137750,
+        9766096250,
+        10019201750,
+        10565786833,
+        10784763333,
+        11316364250,
+        11503976084,
+        11941309375,
+        12252448792
+       ],
+       "drain_ns": [
+        3209,
+        3000,
+        2792,
+        3709,
+        3542,
+        3000,
+        3791,
+        3166,
+        3334,
+        3083,
+        3208,
+        3209,
+        2292,
+        3750,
+        3250,
+        3083,
+        2917,
+        4000,
+        2792,
+        3417,
+        3291,
+        2583,
+        3000,
+        3708,
+        2958,
+        3834,
+        3584,
+        3833,
+        3334,
+        3542
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 686317.3875,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 211.6
+    }
+   ],
+   "str10": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "str10:2000",
+     "result": {
+      "str10": {
+       "n": 2000,
+       "round_ns": [
+        367755333,
+        360742167,
+        370522791,
+        357607000,
+        359059708,
+        363428083,
+        359773625,
+        358944916,
+        359808334,
+        354857000,
+        355503375,
+        354703375,
+        355129042,
+        356424167,
+        368323167,
+        356498292,
+        356355000,
+        368452625,
+        364228750,
+        359865958,
+        361909042,
+        359348042,
+        358018084,
+        355350333,
+        355955875,
+        357028584,
+        355746708,
+        356761250,
+        355505583,
+        356587250
+       ],
+       "drain_ns": [
+        6041,
+        6542,
+        6750,
+        6292,
+        6292,
+        7500,
+        5375,
+        4125,
+        6000,
+        3625,
+        4000,
+        1167,
+        2792,
+        6625,
+        5917,
+        3250,
+        6916,
+        6375,
+        6208,
+        6917,
+        3291,
+        5292,
+        1958,
+        1209,
+        792,
+        1459,
+        1625,
+        1375,
+        1041,
+        1666
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 178906.271,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 11.9
+    }
+   ],
+   "str10000": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "str10000:1000",
+     "result": {
+      "str10000": {
+       "n": 1000,
+       "round_ns": [
+        222280375,
+        226112875,
+        224116125,
+        222040958,
+        219408542,
+        219233667,
+        219219667,
+        218781416,
+        222971375,
+        217307459,
+        217839834,
+        217749417,
+        218008333,
+        217721042,
+        217383792,
+        217041000,
+        219872791,
+        217963042,
+        218474917,
+        217787500,
+        217656417,
+        217889125,
+        217632167,
+        217794084,
+        217467583,
+        217826833,
+        217785208,
+        217926583,
+        221931125,
+        218006958
+       ],
+       "drain_ns": [
+        5083,
+        4792,
+        4375,
+        8625,
+        6750,
+        4542,
+        5292,
+        3791,
+        5000,
+        3584,
+        7083,
+        5250,
+        6125,
+        4959,
+        3042,
+        2917,
+        4708,
+        6334,
+        2709,
+        4458,
+        5292,
+        5583,
+        8208,
+        4875,
+        3417,
+        4166,
+        3583,
+        5458,
+        4167,
+        6375
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 217944.8125,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 7.3
+    }
+   ],
+   "class_method": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "class_method:20000",
+     "result": {
+      "class_method": {
+       "n": 20000,
+       "round_ns": [
+        39263750,
+        39016416,
+        39151959,
+        38908041,
+        38888041,
+        38899833,
+        38988458,
+        39103375,
+        38800750,
+        38828916,
+        39001292,
+        40073333,
+        47812709,
+        40214292,
+        40460459,
+        40190750,
+        39917041,
+        39554459,
+        39461083,
+        39267417,
+        39276083,
+        39483083,
+        39390750,
+        39104125,
+        39401375,
+        39096958,
+        39380291,
+        39276291,
+        39410959,
+        39508125
+       ],
+       "drain_ns": [
+        791,
+        500,
+        792,
+        667,
+        833,
+        500,
+        459,
+        1792,
+        541,
+        1917,
+        542,
+        6833,
+        7959,
+        6583,
+        6959,
+        6500,
+        5250,
+        2541,
+        2083,
+        1458,
+        1917,
+        2459,
+        1041,
+        1500,
+        1208,
+        958,
+        1084,
+        1000,
+        1209,
+        959
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1963.80935,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.4
+    }
+   ],
+   "prop_read": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "prop_read:20000",
+     "result": {
+      "prop_read": {
+       "n": 20000,
+       "round_ns": [
+        44650000,
+        44432250,
+        44438958,
+        44080542,
+        44275125,
+        44125542,
+        44422958,
+        44263667,
+        44286125,
+        44055209,
+        44056708,
+        43891000,
+        43718166,
+        44670333,
+        44634584,
+        44608584,
+        44714958,
+        44151334,
+        43980250,
+        44035000,
+        43963208,
+        44116667,
+        44137208,
+        44157500,
+        44160792,
+        43981417,
+        43929292,
+        43951667,
+        44120583,
+        44213958
+       ],
+       "drain_ns": [
+        8000,
+        5250,
+        5458,
+        3250,
+        2416,
+        3167,
+        3167,
+        1042,
+        1625,
+        833,
+        1500,
+        9208,
+        1000,
+        3125,
+        2416,
+        5042,
+        3333,
+        2750,
+        1125,
+        1375,
+        916,
+        1459,
+        3708,
+        1250,
+        7625,
+        1625,
+        1208,
+        4959,
+        1334,
+        1875
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2207.21355,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.5
+    }
+   ],
+   "prop_write": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "prop_write:20000",
+     "result": {
+      "prop_write": {
+       "n": 20000,
+       "round_ns": [
+        72226667,
+        70531833,
+        70210750,
+        70023375,
+        70352375,
+        70691875,
+        69801500,
+        70556167,
+        70471875,
+        70004250,
+        69693000,
+        69304958,
+        69504334,
+        69757750,
+        69570625,
+        69506834,
+        69488041,
+        69291625,
+        69197958,
+        69151375,
+        69019125,
+        69701667,
+        70077042,
+        69402958,
+        70295125,
+        69355917,
+        69062291,
+        69344250,
+        69412708,
+        77216667
+       ],
+       "drain_ns": [
+        14792,
+        5000,
+        6459,
+        6167,
+        4875,
+        2250,
+        1125,
+        1208,
+        1208,
+        709,
+        875,
+        792,
+        625,
+        875,
+        750,
+        625,
+        917,
+        583,
+        750,
+        666,
+        583,
+        584,
+        875,
+        2125,
+        4541,
+        1916,
+        3791,
+        1792,
+        1292,
+        7208
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3484.866675,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.4
+    }
+   ],
+   "bound_noop": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_noop:50000",
+     "result": {
+      "bound_noop": {
+       "n": 50000,
+       "round_ns": [
+        94016458,
+        92753042,
+        91846750,
+        92156875,
+        91714667,
+        92072541,
+        91411083,
+        91623334,
+        91398500,
+        91462542,
+        91762375,
+        91826916,
+        92805209,
+        92105416,
+        92836666,
+        91908166,
+        92628167,
+        91735375,
+        92108750,
+        91875750,
+        92186709,
+        91678166,
+        92005541,
+        91463375,
+        91959833,
+        92550875,
+        94196542,
+        91383583,
+        91960709,
+        91778834
+       ],
+       "drain_ns": [
+        5500,
+        6916,
+        1458,
+        1291,
+        1417,
+        833,
+        1917,
+        1375,
+        1208,
+        1000,
+        625,
+        3750,
+        5083,
+        4125,
+        1917,
+        1084,
+        1042,
+        791,
+        1334,
+        1209,
+        1125,
+        1041,
+        958,
+        875,
+        917,
+        875,
+        958,
+        1000,
+        792,
+        709
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1838.67999,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 3.1
+    }
+   ],
+   "bound_int": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_int:20000",
+     "result": {
+      "bound_int": {
+       "n": 20000,
+       "round_ns": [
+        66084875,
+        73067250,
+        72275417,
+        71223792,
+        71618750,
+        69835500,
+        70809125,
+        68768208,
+        69908166,
+        69787291,
+        67451042,
+        62577916,
+        62661709,
+        63011000,
+        63396250,
+        63106333,
+        61927792,
+        60751291,
+        60505875,
+        60024541,
+        59979625,
+        60059792,
+        60497834,
+        66893666,
+        65706167,
+        66427875,
+        65297334,
+        64296708,
+        60529750,
+        63258125
+       ],
+       "drain_ns": [
+        4708,
+        1167,
+        1000,
+        792,
+        1167,
+        1042,
+        1417,
+        917,
+        792,
+        1083,
+        2500,
+        2625,
+        2709,
+        5042,
+        11917,
+        6250,
+        3917,
+        2791,
+        1375,
+        1291,
+        917,
+        1417,
+        2625,
+        6875,
+        6833,
+        6917,
+        6583,
+        7083,
+        2917,
+        5833
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3239.85105,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.2
+    }
+   ],
+   "bound_double": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_double:20000",
+     "result": {
+      "bound_double": {
+       "n": 20000,
+       "round_ns": [
+        74930625,
+        74791917,
+        74424541,
+        76136750,
+        80654666,
+        75926291,
+        75660041,
+        76489416,
+        79344583,
+        75211500,
+        75168625,
+        74932875,
+        75407625,
+        75195334,
+        74809125,
+        75203583,
+        74923584,
+        75803291,
+        76458458,
+        76578458,
+        75960541,
+        75558375,
+        75375583,
+        76437458,
+        79506167,
+        78828958,
+        76648000,
+        75996875,
+        84739916,
+        76834917
+       ],
+       "drain_ns": [
+        1250,
+        1000,
+        667,
+        3041,
+        3125,
+        3250,
+        1083,
+        2708,
+        3583,
+        2375,
+        2542,
+        958,
+        1792,
+        1250,
+        1083,
+        1417,
+        2667,
+        5208,
+        3083,
+        3000,
+        791,
+        2500,
+        791,
+        3000,
+        3750,
+        3458,
+        1917,
+        1667,
+        4500,
+        2916
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3793.23955,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.6
+    }
+   ],
+   "bound_bool": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_bool:20000",
+     "result": {
+      "bound_bool": {
+       "n": 20000,
+       "round_ns": [
+        69178709,
+        63380042,
+        62734916,
+        61441292,
+        61081166,
+        61644458,
+        64486542,
+        63995708,
+        62808542,
+        62076500,
+        61492792,
+        60804167,
+        61500792,
+        62928875,
+        64448416,
+        64339166,
+        64169959,
+        66335291,
+        63694917,
+        63885292,
+        61906250,
+        60827625,
+        60470583,
+        60273917,
+        60133834,
+        60735125,
+        60329750,
+        62881208,
+        65487292,
+        63336083
+       ],
+       "drain_ns": [
+        6208,
+        6583,
+        6042,
+        4042,
+        4459,
+        6083,
+        7292,
+        7334,
+        5708,
+        5041,
+        5875,
+        2500,
+        4959,
+        5708,
+        6458,
+        6333,
+        6833,
+        6500,
+        6834,
+        7000,
+        5459,
+        4958,
+        3166,
+        2292,
+        1750,
+        1167,
+        1500,
+        8209,
+        8833,
+        5916
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 3138.58645,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 2.1
+    }
+   ],
+   "bound_object": [
+    {
+     "lib": "pyobjus",
+     "mode": "timing",
+     "arg": "bound_object:20000",
+     "result": {
+      "bound_object": {
+       "n": 20000,
+       "round_ns": [
+        599064792,
+        600505167,
+        597705916,
+        596910625,
+        596245416,
+        592018250,
+        594454209,
+        598378000,
+        604266416,
+        596796250,
+        611301709,
+        598974375,
+        667598834,
+        620980792,
+        597381041,
+        592129875,
+        590420917,
+        590217666,
+        599536083,
+        595250750,
+        593966916,
+        601089125,
+        600285209,
+        601565625,
+        599226709,
+        593349625,
+        602437583,
+        590678209,
+        601835167,
+        595022875
+       ],
+       "drain_ns": [
+        3917,
+        10708,
+        8917,
+        7958,
+        12208,
+        14750,
+        6291,
+        11875,
+        5875,
+        15583,
+        14292,
+        6750,
+        6959,
+        6792,
+        14625,
+        16375,
+        4458,
+        2167,
+        7458,
+        4500,
+        2125,
+        8125,
+        6666,
+        6375,
+        7333,
+        8458,
+        6667,
+        14791,
+        6417,
+        10375
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 29902.0979,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 19.9
+    }
+   ]
+  },
+  "rubicon-0.5.7": {
+   "noop": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "noop:20000",
+     "result": {
+      "noop": {
+       "n": 20000,
+       "round_ns": [
+        31064834,
+        31468709,
+        31605125,
+        31422541,
+        31495250,
+        31775750,
+        31810959,
+        31595916,
+        31243083,
+        31278500,
+        31261542,
+        31387375,
+        31600958,
+        31018625,
+        31215917,
+        31262333,
+        31404125,
+        31108042,
+        31224459,
+        31314667,
+        31102000,
+        31288875,
+        31275000,
+        31008500,
+        31525291,
+        31085334,
+        31335458,
+        31174750,
+        31114125,
+        30874667
+       ],
+       "drain_ns": [
+        1417,
+        2000,
+        1667,
+        3166,
+        3208,
+        3625,
+        3291,
+        3334,
+        1167,
+        1750,
+        1166,
+        1375,
+        1250,
+        958,
+        1333,
+        1542,
+        2042,
+        1042,
+        1458,
+        1000,
+        1416,
+        1417,
+        1417,
+        1791,
+        1791,
+        1416,
+        875,
+        2542,
+        2125,
+        1292
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1563.8375,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "int": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "int:10000",
+     "result": {
+      "int": {
+       "n": 10000,
+       "round_ns": [
+        21745542,
+        22059875,
+        21579333,
+        21851542,
+        21982333,
+        22000625,
+        21744375,
+        21875750,
+        21753792,
+        21730583,
+        21864791,
+        21962542,
+        21785708,
+        21943834,
+        21813458,
+        21776833,
+        21819416,
+        21811959,
+        21778125,
+        21656583,
+        21814125,
+        21570708,
+        21683792,
+        21581791,
+        21667750,
+        21726458,
+        21886125,
+        21808500,
+        21799458,
+        21902208
+       ],
+       "drain_ns": [
+        1875,
+        2084,
+        1167,
+        1166,
+        1958,
+        1875,
+        1042,
+        1750,
+        792,
+        2375,
+        1959,
+        2291,
+        1917,
+        2375,
+        2042,
+        2125,
+        2167,
+        1792,
+        2375,
+        1875,
+        1916,
+        1167,
+        1584,
+        1375,
+        2250,
+        2083,
+        1875,
+        1583,
+        1916,
+        2166
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2180.3979,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "double": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "double:10000",
+     "result": {
+      "double": {
+       "n": 10000,
+       "round_ns": [
+        22042208,
+        22133833,
+        21939208,
+        21840875,
+        21792083,
+        22197209,
+        21691958,
+        21883750,
+        22130041,
+        21722292,
+        22124333,
+        21873166,
+        22741584,
+        22592000,
+        22623083,
+        22862125,
+        22653917,
+        23222125,
+        21979042,
+        22455000,
+        21858291,
+        22028458,
+        23437875,
+        23243125,
+        22218625,
+        22334584,
+        22226250,
+        22029583,
+        22015833,
+        21806250
+       ],
+       "drain_ns": [
+        1959,
+        2792,
+        1833,
+        1583,
+        2458,
+        1625,
+        2125,
+        2375,
+        2292,
+        1750,
+        2083,
+        1875,
+        2584,
+        2583,
+        2000,
+        2417,
+        2083,
+        2375,
+        2250,
+        2500,
+        1375,
+        1167,
+        2542,
+        2667,
+        2166,
+        2375,
+        1958,
+        1000,
+        1291,
+        1083
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2212.7187,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "bool": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bool:10000",
+     "result": {
+      "bool": {
+       "n": 10000,
+       "round_ns": [
+        22544708,
+        22208542,
+        22115750,
+        21963125,
+        22193750,
+        22329458,
+        21845417,
+        22197166,
+        21761458,
+        22148166,
+        21865542,
+        22010459,
+        21914250,
+        21817208,
+        21677542,
+        21848583,
+        21843500,
+        21931750,
+        21749333,
+        22006916,
+        21931666,
+        21893292,
+        22001500,
+        21875125,
+        21941459,
+        22324541,
+        21803709,
+        21612041,
+        21937208,
+        21670417
+       ],
+       "drain_ns": [
+        2542,
+        2333,
+        2250,
+        2167,
+        2375,
+        2208,
+        1958,
+        1417,
+        2375,
+        2500,
+        2333,
+        1375,
+        1791,
+        1042,
+        1000,
+        792,
+        791,
+        1083,
+        1000,
+        2250,
+        1125,
+        1500,
+        1291,
+        1916,
+        2292,
+        2500,
+        2459,
+        2041,
+        2375,
+        1417
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2193.1708,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "object": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "object:10000",
+     "result": {
+      "object": {
+       "n": 10000,
+       "round_ns": [
+        25943208,
+        25638625,
+        25702667,
+        25597000,
+        25520125,
+        25903084,
+        25576083,
+        25757791,
+        25417667,
+        25570875,
+        25344125,
+        25293250,
+        25180500,
+        25887625,
+        26564625,
+        25724709,
+        25564167,
+        25588209,
+        25547125,
+        25386250,
+        25459084,
+        25388583,
+        25105000,
+        25425416,
+        25174708,
+        25510375,
+        25626208,
+        25437667,
+        25515958,
+        25369167
+       ],
+       "drain_ns": [
+        4083,
+        2583,
+        2459,
+        3084,
+        2917,
+        2333,
+        2125,
+        1458,
+        2375,
+        1708,
+        2500,
+        2625,
+        2625,
+        2542,
+        2750,
+        2292,
+        2875,
+        2583,
+        3042,
+        2208,
+        2666,
+        2625,
+        2459,
+        2291,
+        2291,
+        2542,
+        2792,
+        2083,
+        2583,
+        2459
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2553.3625,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.0
+    }
+   ],
+   "rect": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "rect:10000",
+     "result": {
+      "rect": {
+       "n": 10000,
+       "round_ns": [
+        22944833,
+        22810416,
+        22624000,
+        22483584,
+        22870333,
+        23050375,
+        22581709,
+        22510000,
+        22560750,
+        22593584,
+        22630666,
+        22584791,
+        22521916,
+        22574709,
+        22491084,
+        22647833,
+        22490458,
+        22593292,
+        22488833,
+        22555459,
+        22558084,
+        23125917,
+        23241083,
+        23314459,
+        23001083,
+        22899750,
+        22955833,
+        22924916,
+        23117666,
+        23185375
+       ],
+       "drain_ns": [
+        1666,
+        1708,
+        750,
+        667,
+        1667,
+        1708,
+        791,
+        708,
+        750,
+        583,
+        584,
+        708,
+        583,
+        542,
+        542,
+        458,
+        542,
+        583,
+        583,
+        542,
+        500,
+        2250,
+        2666,
+        2625,
+        2750,
+        2333,
+        2375,
+        1708,
+        2334,
+        2125
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2262.7333,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "str10": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "str10:2000",
+     "result": {
+      "str10": {
+       "n": 2000,
+       "round_ns": [
+        38568916,
+        38451583,
+        38074417,
+        37975750,
+        38153792,
+        38191209,
+        37990458,
+        38189958,
+        37871875,
+        38172125,
+        38042333,
+        38087750,
+        37828958,
+        38098875,
+        37957583,
+        38041584,
+        38328417,
+        38240375,
+        38273416,
+        38057709,
+        38333334,
+        37896708,
+        37867375,
+        38020625,
+        38201375,
+        38437875,
+        38711541,
+        39060041,
+        38974417,
+        38970916
+       ],
+       "drain_ns": [
+        53333,
+        58250,
+        49042,
+        50042,
+        49583,
+        49083,
+        47458,
+        49000,
+        48709,
+        52416,
+        48625,
+        47167,
+        48834,
+        47209,
+        48792,
+        49834,
+        48750,
+        48625,
+        48208,
+        46666,
+        50208,
+        49125,
+        50666,
+        57417,
+        53333,
+        52166,
+        51292,
+        51166,
+        64958,
+        52333
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 19081.47925,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.4
+    }
+   ],
+   "str10000": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "str10000:1000",
+     "result": {
+      "str10000": {
+       "n": 1000,
+       "round_ns": [
+        21537833,
+        21400583,
+        21436084,
+        21491334,
+        21253416,
+        21269416,
+        21212000,
+        21368250,
+        21280666,
+        21493292,
+        21397416,
+        21464666,
+        21544958,
+        21563875,
+        21718208,
+        21585458,
+        21597583,
+        21598708,
+        21866250,
+        21570125,
+        21615375,
+        21320459,
+        21245917,
+        21440375,
+        21294209,
+        21378042,
+        21218959,
+        21404584,
+        21319083,
+        21289375
+       ],
+       "drain_ns": [
+        43208,
+        36875,
+        53209,
+        34250,
+        35708,
+        31792,
+        33250,
+        34125,
+        35709,
+        35000,
+        34917,
+        35042,
+        33958,
+        53667,
+        41458,
+        38750,
+        40041,
+        54209,
+        56625,
+        45125,
+        34584,
+        37583,
+        35416,
+        36750,
+        36791,
+        35375,
+        33208,
+        32000,
+        39333,
+        31667
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 21420.334,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "class_method": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "class_method:20000",
+     "result": {
+      "class_method": {
+       "n": 20000,
+       "round_ns": [
+        36484541,
+        36394125,
+        36026416,
+        42056500,
+        36626459,
+        35629416,
+        35540042,
+        35810041,
+        35883792,
+        35902917,
+        35505084,
+        35633084,
+        35653708,
+        35486458,
+        35236583,
+        35592791,
+        35529208,
+        36933584,
+        36553250,
+        35340917,
+        35340292,
+        35430709,
+        35410500,
+        35423208,
+        35605541,
+        35519750,
+        35521792,
+        35492708,
+        35469834,
+        35306875
+       ],
+       "drain_ns": [
+        3666,
+        2042,
+        1500,
+        3416,
+        2792,
+        2375,
+        2584,
+        2625,
+        2334,
+        2667,
+        2958,
+        958,
+        791,
+        1042,
+        709,
+        708,
+        583,
+        2292,
+        1958,
+        917,
+        916,
+        959,
+        708,
+        583,
+        458,
+        625,
+        541,
+        459,
+        625,
+        542
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1778.320825,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.3
+    }
+   ],
+   "prop_read": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "prop_read:20000",
+     "result": {
+      "prop_read": {
+       "n": 20000,
+       "round_ns": [
+        20898292,
+        20993708,
+        21025042,
+        21131000,
+        20951167,
+        21303083,
+        20946417,
+        21284708,
+        21043042,
+        21081250,
+        21102292,
+        21039375,
+        21058792,
+        20875167,
+        21143750,
+        20901333,
+        21229916,
+        20975667,
+        21164792,
+        20975375,
+        21056459,
+        20976042,
+        20863125,
+        21081833,
+        20997167,
+        21063333,
+        21200417,
+        21337167,
+        22238750,
+        21867500
+       ],
+       "drain_ns": [
+        750,
+        666,
+        2416,
+        500,
+        791,
+        792,
+        667,
+        583,
+        500,
+        542,
+        500,
+        584,
+        458,
+        500,
+        500,
+        458,
+        1000,
+        958,
+        625,
+        583,
+        667,
+        708,
+        459,
+        417,
+        584,
+        542,
+        958,
+        1833,
+        2125,
+        3667
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1052.881275,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "prop_write": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "prop_write:20000",
+     "result": {
+      "prop_write": {
+       "n": 20000,
+       "round_ns": [
+        27632083,
+        27768041,
+        27489959,
+        27581459,
+        27415833,
+        27693500,
+        27538750,
+        27632791,
+        27739834,
+        27588042,
+        27559375,
+        27566917,
+        27717500,
+        27490166,
+        27530625,
+        27474583,
+        27503458,
+        27553167,
+        27467416,
+        27701125,
+        27377833,
+        27652167,
+        27448708,
+        27512792,
+        27470250,
+        27478250,
+        27641125,
+        27778750,
+        28087375,
+        27951666
+       ],
+       "drain_ns": [
+        792,
+        666,
+        625,
+        583,
+        625,
+        625,
+        583,
+        333,
+        458,
+        458,
+        458,
+        458,
+        625,
+        625,
+        375,
+        459,
+        458,
+        417,
+        458,
+        375,
+        416,
+        500,
+        500,
+        458,
+        833,
+        500,
+        416,
+        542,
+        1167,
+        791
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1378.1573,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.0
+    }
+   ],
+   "bound_noop": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_noop:50000",
+     "result": {
+      "bound_noop": {
+       "n": 50000,
+       "round_ns": [
+        34094125,
+        33812125,
+        34208500,
+        34097458,
+        34166458,
+        34036083,
+        34264541,
+        34152750,
+        34147959,
+        34326917,
+        34294042,
+        33833000,
+        34343958,
+        33905375,
+        34313541,
+        33710125,
+        33995958,
+        33831708,
+        33912125,
+        33990875,
+        34017416,
+        33717416,
+        33848334,
+        33886583,
+        33808000,
+        33913334,
+        33977500,
+        33832625,
+        37009041,
+        33862750
+       ],
+       "drain_ns": [
+        708,
+        708,
+        750,
+        667,
+        917,
+        625,
+        625,
+        625,
+        542,
+        667,
+        583,
+        416,
+        1667,
+        500,
+        541,
+        625,
+        458,
+        416,
+        500,
+        583,
+        458,
+        709,
+        459,
+        583,
+        459,
+        458,
+        542,
+        417,
+        417,
+        500
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 679.86833,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.2
+    }
+   ],
+   "bound_int": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_int:20000",
+     "result": {
+      "bound_int": {
+       "n": 20000,
+       "round_ns": [
+        33256167,
+        33539083,
+        33850250,
+        33530125,
+        32856958,
+        32490125,
+        32820208,
+        36078084,
+        34332667,
+        33096792,
+        35839500,
+        31865833,
+        30461917,
+        30648541,
+        30516167,
+        30513125,
+        30336708,
+        30519583,
+        30197250,
+        30323833,
+        30356166,
+        30372083,
+        30409792,
+        30422917,
+        31492542,
+        32482709,
+        31485083,
+        31093583,
+        31143500,
+        30617833
+       ],
+       "drain_ns": [
+        2417,
+        2958,
+        2292,
+        2250,
+        2625,
+        2583,
+        2583,
+        2292,
+        2041,
+        2167,
+        6959,
+        2208,
+        584,
+        708,
+        750,
+        500,
+        750,
+        666,
+        500,
+        583,
+        459,
+        416,
+        541,
+        625,
+        2208,
+        2292,
+        1875,
+        875,
+        1500,
+        1083
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1565.714575,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.2
+    }
+   ],
+   "bound_double": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_double:20000",
+     "result": {
+      "bound_double": {
+       "n": 20000,
+       "round_ns": [
+        31420000,
+        31234709,
+        31652708,
+        31797000,
+        31078000,
+        31391375,
+        31379292,
+        31042542,
+        31016500,
+        31143333,
+        31043542,
+        31215250,
+        31051625,
+        31518167,
+        31476083,
+        31491959,
+        31425542,
+        31488000,
+        31108000,
+        31292250,
+        31188208,
+        31025875,
+        31150917,
+        31100291,
+        30929167,
+        30955958,
+        31013542,
+        30992833,
+        31040792,
+        31030417
+       ],
+       "drain_ns": [
+        1584,
+        14292,
+        1125,
+        1250,
+        666,
+        625,
+        750,
+        625,
+        750,
+        583,
+        584,
+        750,
+        417,
+        791,
+        916,
+        584,
+        917,
+        833,
+        458,
+        875,
+        583,
+        584,
+        625,
+        417,
+        417,
+        458,
+        500,
+        500,
+        417,
+        583
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1557.35625,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "bound_bool": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_bool:20000",
+     "result": {
+      "bound_bool": {
+       "n": 20000,
+       "round_ns": [
+        31072708,
+        31244625,
+        30561000,
+        32660042,
+        32147083,
+        32269375,
+        31553666,
+        31278417,
+        31148083,
+        31269875,
+        31996458,
+        31044083,
+        31040958,
+        30809958,
+        30902542,
+        30391459,
+        30472542,
+        30578500,
+        30246750,
+        30418167,
+        30431834,
+        30300542,
+        30407667,
+        30381334,
+        30385208,
+        30503167,
+        30426500,
+        30766041,
+        30537459,
+        30496083
+       ],
+       "drain_ns": [
+        1292,
+        2375,
+        834,
+        1958,
+        7500,
+        2125,
+        2208,
+        1833,
+        1334,
+        1917,
+        2208,
+        917,
+        917,
+        708,
+        667,
+        458,
+        500,
+        625,
+        666,
+        459,
+        458,
+        458,
+        500,
+        417,
+        458,
+        459,
+        792,
+        875,
+        792,
+        542
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1533.613525,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "bound_object": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_object:20000",
+     "result": {
+      "bound_object": {
+       "n": 20000,
+       "round_ns": [
+        36305750,
+        36208708,
+        36123667,
+        36177416,
+        36256583,
+        36188000,
+        45005042,
+        53674000,
+        41687500,
+        41268083,
+        42448209,
+        37501167,
+        36485666,
+        36385791,
+        36380875,
+        36723042,
+        36519166,
+        36344542,
+        36369792,
+        36696000,
+        36496042,
+        36436667,
+        36171084,
+        47678000,
+        36903458,
+        36164333,
+        36197584,
+        36354917,
+        36342542,
+        36780959
+       ],
+       "drain_ns": [
+        792,
+        2916,
+        792,
+        500,
+        625,
+        583,
+        2959,
+        3333,
+        2292,
+        2666,
+        2333,
+        2750,
+        2333,
+        1541,
+        2291,
+        2333,
+        1959,
+        834,
+        750,
+        2791,
+        2125,
+        792,
+        917,
+        2667,
+        1834,
+        1083,
+        917,
+        834,
+        792,
+        2375
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1820.56145,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.4
+    }
+   ]
+  },
+  "rubicon-main": {
+   "noop": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "noop:20000",
+     "result": {
+      "noop": {
+       "n": 20000,
+       "round_ns": [
+        30984125,
+        31219833,
+        30967084,
+        31093333,
+        31018917,
+        31178625,
+        31190250,
+        31203416,
+        31054958,
+        30952000,
+        31140125,
+        30938417,
+        30963125,
+        30787042,
+        30903000,
+        31023000,
+        31013333,
+        30802459,
+        31005083,
+        31063250,
+        30936375,
+        30951166,
+        31217625,
+        31039917,
+        30960042,
+        31013291,
+        30914125,
+        31055250,
+        31154459,
+        30933459
+       ],
+       "drain_ns": [
+        3250,
+        1333,
+        959,
+        1834,
+        1417,
+        1500,
+        1375,
+        1209,
+        1625,
+        1958,
+        1583,
+        1000,
+        1333,
+        917,
+        1417,
+        1000,
+        1125,
+        1417,
+        1333,
+        875,
+        1708,
+        958,
+        1041,
+        2500,
+        1792,
+        1416,
+        1209,
+        1250,
+        1208,
+        2209
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1550.6656,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "int": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "int:10000",
+     "result": {
+      "int": {
+       "n": 10000,
+       "round_ns": [
+        21595416,
+        21555417,
+        21653875,
+        22339875,
+        21656042,
+        21817333,
+        21505625,
+        21656458,
+        21454041,
+        21749833,
+        21499917,
+        21457667,
+        21469500,
+        21636375,
+        21495750,
+        21723375,
+        21705542,
+        21795875,
+        21623875,
+        21560333,
+        21602042,
+        21877000,
+        21698917,
+        22103583,
+        21716042,
+        22519166,
+        24203500,
+        25331792,
+        21647791,
+        21687041
+       ],
+       "drain_ns": [
+        958,
+        834,
+        1000,
+        2333,
+        1500,
+        1958,
+        1417,
+        1084,
+        916,
+        1292,
+        750,
+        917,
+        750,
+        1959,
+        2542,
+        2833,
+        2250,
+        2750,
+        1958,
+        2250,
+        1875,
+        2292,
+        2375,
+        2250,
+        1250,
+        1958,
+        2708,
+        2208,
+        2416,
+        1500
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2165.625,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "double": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "double:10000",
+     "result": {
+      "double": {
+       "n": 10000,
+       "round_ns": [
+        21880833,
+        21868083,
+        21993500,
+        21921459,
+        21583417,
+        21590833,
+        22322500,
+        21799959,
+        21767708,
+        21660042,
+        21772417,
+        22421917,
+        23228333,
+        22535542,
+        22296792,
+        22222208,
+        22135750,
+        22044083,
+        21981708,
+        21881667,
+        21998959,
+        21951625,
+        22156583,
+        21941000,
+        21982541,
+        21873750,
+        21970959,
+        21742167,
+        21950375,
+        21771500
+       ],
+       "drain_ns": [
+        2084,
+        1959,
+        1292,
+        1625,
+        833,
+        1500,
+        2208,
+        1875,
+        1042,
+        1083,
+        1500,
+        2083,
+        1875,
+        2292,
+        2250,
+        1500,
+        1125,
+        2083,
+        2416,
+        1917,
+        2250,
+        1959,
+        2084,
+        2000,
+        1834,
+        2375,
+        1250,
+        1042,
+        1209,
+        1166
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2195.1,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "bool": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bool:10000",
+     "result": {
+      "bool": {
+       "n": 10000,
+       "round_ns": [
+        24037333,
+        23050208,
+        23607917,
+        23216584,
+        22442209,
+        22007541,
+        21644500,
+        21596458,
+        21662125,
+        21626750,
+        31051625,
+        23962750,
+        22154042,
+        22204833,
+        22175834,
+        22039709,
+        22022000,
+        21744041,
+        21789750,
+        21481375,
+        21779000,
+        21745709,
+        21584333,
+        21734833,
+        21822875,
+        21845959,
+        21796791,
+        21882583,
+        21914084,
+        22084958
+       ],
+       "drain_ns": [
+        2291,
+        2250,
+        1959,
+        2167,
+        2792,
+        1833,
+        1167,
+        1250,
+        1625,
+        2042,
+        2292,
+        3125,
+        2875,
+        2333,
+        2208,
+        1958,
+        2333,
+        1000,
+        1334,
+        1459,
+        1750,
+        1083,
+        1041,
+        1666,
+        1750,
+        1917,
+        1958,
+        2125,
+        2083,
+        9375
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2189.83335,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "object": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "object:10000",
+     "result": {
+      "object": {
+       "n": 10000,
+       "round_ns": [
+        34762334,
+        26116583,
+        25229125,
+        25366458,
+        25205833,
+        25318000,
+        25408667,
+        25818583,
+        30710916,
+        26689875,
+        42475667,
+        30564000,
+        25843250,
+        26171084,
+        25733125,
+        26244583,
+        26076667,
+        25705167,
+        25287625,
+        25799000,
+        25486500,
+        25650125,
+        27186208,
+        27340083,
+        29858834,
+        27912625,
+        25784083,
+        26712875,
+        28391666,
+        25529125
+       ],
+       "drain_ns": [
+        2500,
+        2625,
+        2667,
+        2625,
+        2584,
+        3125,
+        2875,
+        2583,
+        2500,
+        2959,
+        3209,
+        2875,
+        2542,
+        2708,
+        2833,
+        2792,
+        2416,
+        2542,
+        2709,
+        2292,
+        2375,
+        2542,
+        2542,
+        2667,
+        2166,
+        2792,
+        2417,
+        10000,
+        2500,
+        2792
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2595.99585,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "rect": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "rect:10000",
+     "result": {
+      "rect": {
+       "n": 10000,
+       "round_ns": [
+        22762292,
+        22942417,
+        22703917,
+        22686250,
+        22811042,
+        22651542,
+        22828083,
+        22742417,
+        22862083,
+        23064875,
+        23086833,
+        22786042,
+        22889458,
+        22698416,
+        22850542,
+        22673167,
+        22863042,
+        22928333,
+        22726917,
+        22737625,
+        22777667,
+        23010250,
+        22712709,
+        22958334,
+        22773459,
+        22872250,
+        22738958,
+        22944209,
+        22612750,
+        22826584
+       ],
+       "drain_ns": [
+        834,
+        1500,
+        917,
+        583,
+        667,
+        542,
+        791,
+        500,
+        625,
+        1708,
+        1667,
+        750,
+        542,
+        458,
+        750,
+        417,
+        458,
+        416,
+        541,
+        791,
+        542,
+        1458,
+        875,
+        625,
+        416,
+        500,
+        1625,
+        917,
+        583,
+        458
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 2279.8542,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "str10": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "str10:2000",
+     "result": {
+      "str10": {
+       "n": 2000,
+       "round_ns": [
+        37831334,
+        37989250,
+        38326042,
+        39438083,
+        39471709,
+        39421750,
+        38340750,
+        38297625,
+        38210334,
+        38209875,
+        38349041,
+        38327625,
+        37984625,
+        38013375,
+        37972834,
+        38195750,
+        38131208,
+        38129541,
+        38321542,
+        38143000,
+        38111125,
+        37751375,
+        38180500,
+        37619958,
+        37546583,
+        37584208,
+        37703500,
+        37800042,
+        37754292,
+        38112125
+       ],
+       "drain_ns": [
+        49708,
+        48084,
+        53166,
+        50042,
+        51000,
+        48375,
+        49875,
+        48791,
+        48750,
+        48958,
+        49709,
+        48500,
+        49584,
+        48667,
+        47583,
+        48750,
+        50084,
+        47708,
+        51542,
+        47209,
+        50041,
+        50958,
+        48584,
+        46334,
+        46792,
+        51334,
+        46500,
+        48125,
+        48166,
+        47250
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 19065.18725,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.4
+    }
+   ],
+   "str10000": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "str10000:1000",
+     "result": {
+      "str10000": {
+       "n": 1000,
+       "round_ns": [
+        21342625,
+        21335292,
+        21165375,
+        21257250,
+        21266583,
+        21278916,
+        21231542,
+        21223125,
+        22380083,
+        21169791,
+        21253333,
+        21227959,
+        21149416,
+        21228750,
+        21261584,
+        21271500,
+        21278000,
+        21196833,
+        21233625,
+        21362333,
+        21225667,
+        21212042,
+        21211500,
+        21231083,
+        21194792,
+        21264750,
+        21167125,
+        21317958,
+        21737333,
+        21507000
+       ],
+       "drain_ns": [
+        40250,
+        39167,
+        35791,
+        34167,
+        38417,
+        34917,
+        36416,
+        29708,
+        33208,
+        34375,
+        32166,
+        35333,
+        34042,
+        33500,
+        31292,
+        34958,
+        33084,
+        31542,
+        32875,
+        36041,
+        32917,
+        33625,
+        32125,
+        35333,
+        55250,
+        35167,
+        32458,
+        37667,
+        45084,
+        40750
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 21243.479,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "class_method": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "class_method:20000",
+     "result": {
+      "class_method": {
+       "n": 20000,
+       "round_ns": [
+        35602000,
+        35534167,
+        35455083,
+        35341959,
+        35734542,
+        35484250,
+        35636000,
+        35631083,
+        35409750,
+        35575333,
+        35692375,
+        35513333,
+        35523875,
+        35539625,
+        35540625,
+        35506625,
+        35638625,
+        35425666,
+        35515250,
+        35638417,
+        35547750,
+        35681000,
+        35338208,
+        35643666,
+        35890334,
+        35598625,
+        35564000,
+        35539375,
+        35435334,
+        35260833
+       ],
+       "drain_ns": [
+        625,
+        1000,
+        834,
+        958,
+        584,
+        583,
+        667,
+        542,
+        709,
+        500,
+        9917,
+        542,
+        541,
+        459,
+        500,
+        459,
+        584,
+        583,
+        375,
+        416,
+        500,
+        500,
+        500,
+        417,
+        708,
+        791,
+        625,
+        583,
+        500,
+        459
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1777.00625,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.3
+    }
+   ],
+   "prop_read": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "prop_read:20000",
+     "result": {
+      "prop_read": {
+       "n": 20000,
+       "round_ns": [
+        21184917,
+        21547542,
+        21302250,
+        21693042,
+        21423958,
+        21316208,
+        21259833,
+        21496333,
+        22516792,
+        20862000,
+        20908583,
+        20892583,
+        21810834,
+        22511000,
+        22304000,
+        21885500,
+        21870750,
+        21994375,
+        21348792,
+        20904166,
+        21188458,
+        22461209,
+        22731167,
+        22685292,
+        22194959,
+        22185000,
+        22359583,
+        22600416,
+        23072125,
+        22498500
+       ],
+       "drain_ns": [
+        2625,
+        2125,
+        1584,
+        1917,
+        1041,
+        1459,
+        1375,
+        2917,
+        2708,
+        875,
+        750,
+        833,
+        1500,
+        1333,
+        1625,
+        1417,
+        1500,
+        1333,
+        959,
+        833,
+        750,
+        2959,
+        3042,
+        3125,
+        3250,
+        2709,
+        2667,
+        2916,
+        3209,
+        2833
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1092.0396,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.8
+    }
+   ],
+   "prop_write": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "prop_write:20000",
+     "result": {
+      "prop_write": {
+       "n": 20000,
+       "round_ns": [
+        27766792,
+        27647000,
+        27475958,
+        27397125,
+        27276709,
+        27140834,
+        27209750,
+        27141041,
+        27196750,
+        27280375,
+        27301958,
+        27336958,
+        27405583,
+        27403583,
+        27384667,
+        27349167,
+        27360291,
+        27511667,
+        27394166,
+        27369917,
+        27416625,
+        27210667,
+        27465167,
+        27386458,
+        27363958,
+        27375875,
+        27373875,
+        27482292,
+        27378583,
+        27574958
+       ],
+       "drain_ns": [
+        1167,
+        792,
+        875,
+        583,
+        500,
+        667,
+        625,
+        667,
+        417,
+        500,
+        417,
+        500,
+        667,
+        667,
+        417,
+        417,
+        500,
+        500,
+        458,
+        458,
+        459,
+        375,
+        458,
+        417,
+        458,
+        584,
+        416,
+        375,
+        375,
+        417
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1368.86145,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.0
+    }
+   ],
+   "bound_noop": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_noop:50000",
+     "result": {
+      "bound_noop": {
+       "n": 50000,
+       "round_ns": [
+        33928792,
+        33793917,
+        33996292,
+        33672000,
+        33851167,
+        34054959,
+        33946166,
+        33939458,
+        34106250,
+        33790458,
+        33737292,
+        33931166,
+        33871375,
+        33549916,
+        33902666,
+        33886458,
+        33766292,
+        33709042,
+        33778709,
+        33757500,
+        33876333,
+        33809417,
+        33929666,
+        33795541,
+        33727416,
+        33835417,
+        33726333,
+        33750250,
+        34010416,
+        33807417
+       ],
+       "drain_ns": [
+        708,
+        875,
+        750,
+        958,
+        791,
+        750,
+        667,
+        583,
+        666,
+        625,
+        583,
+        500,
+        542,
+        541,
+        542,
+        500,
+        625,
+        500,
+        500,
+        500,
+        500,
+        709,
+        417,
+        459,
+        542,
+        417,
+        541,
+        417,
+        666,
+        542
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 676.44834,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.2
+    }
+   ],
+   "bound_int": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_int:20000",
+     "result": {
+      "bound_int": {
+       "n": 20000,
+       "round_ns": [
+        30687708,
+        30683959,
+        31227167,
+        30951958,
+        30549584,
+        30489375,
+        30302542,
+        30281167,
+        30284500,
+        30401125,
+        30673541,
+        30692042,
+        31940625,
+        30542208,
+        30888292,
+        31365583,
+        30414208,
+        30640000,
+        31065917,
+        31208750,
+        30600958,
+        30374000,
+        30400375,
+        30509000,
+        30294291,
+        30501458,
+        30428417,
+        30399709,
+        30576750,
+        30315833
+       ],
+       "drain_ns": [
+        625,
+        1041,
+        1708,
+        792,
+        708,
+        500,
+        542,
+        584,
+        500,
+        500,
+        667,
+        708,
+        2083,
+        750,
+        1584,
+        1542,
+        708,
+        417,
+        1750,
+        2000,
+        792,
+        541,
+        583,
+        708,
+        584,
+        666,
+        500,
+        458,
+        542,
+        417
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1527.2948,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "bound_double": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_double:20000",
+     "result": {
+      "bound_double": {
+       "n": 20000,
+       "round_ns": [
+        30948167,
+        30830000,
+        30807375,
+        31014166,
+        31187042,
+        31169833,
+        30966125,
+        30887500,
+        30909750,
+        30894250,
+        30960250,
+        30804625,
+        30942375,
+        30912292,
+        30839125,
+        31006208,
+        30873917,
+        30714666,
+        30803708,
+        30690333,
+        30844125,
+        31031666,
+        31106917,
+        31848958,
+        31123792,
+        31095375,
+        31165459,
+        31131375,
+        31492834,
+        31172333
+       ],
+       "drain_ns": [
+        584,
+        750,
+        750,
+        917,
+        542,
+        708,
+        666,
+        459,
+        500,
+        458,
+        625,
+        709,
+        458,
+        458,
+        584,
+        333,
+        7666,
+        459,
+        416,
+        500,
+        417,
+        542,
+        708,
+        875,
+        584,
+        583,
+        500,
+        834,
+        875,
+        833
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1547.710425,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "bound_bool": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_bool:20000",
+     "result": {
+      "bound_bool": {
+       "n": 20000,
+       "round_ns": [
+        30569459,
+        30449084,
+        30538542,
+        30459041,
+        30433625,
+        30540792,
+        30294542,
+        30679042,
+        30550917,
+        30327834,
+        30495916,
+        30453791,
+        30297250,
+        30516417,
+        30536542,
+        30491375,
+        30205458,
+        30735958,
+        30409542,
+        30470375,
+        30256375,
+        30328542,
+        30337000,
+        30523417,
+        30495166,
+        30337041,
+        30696208,
+        30699917,
+        30536333,
+        30603583
+       ],
+       "drain_ns": [
+        583,
+        708,
+        458,
+        500,
+        500,
+        625,
+        750,
+        416,
+        541,
+        584,
+        417,
+        459,
+        542,
+        458,
+        500,
+        500,
+        625,
+        1208,
+        458,
+        500,
+        500,
+        625,
+        625,
+        417,
+        542,
+        375,
+        750,
+        583,
+        500,
+        458
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1524.663525,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.1
+    }
+   ],
+   "bound_object": [
+    {
+     "lib": "rubicon",
+     "mode": "timing",
+     "arg": "bound_object:20000",
+     "result": {
+      "bound_object": {
+       "n": 20000,
+       "round_ns": [
+        36765041,
+        36457333,
+        36523459,
+        36607750,
+        36560708,
+        36905708,
+        36429750,
+        36333750,
+        36296500,
+        36460083,
+        36522250,
+        36287125,
+        36671167,
+        36372166,
+        36453542,
+        36257917,
+        36238959,
+        36391375,
+        36236708,
+        36184125,
+        36244084,
+        36534625,
+        36538208,
+        36264167,
+        36330750,
+        36472833,
+        36242709,
+        36166708,
+        36277125,
+        36378583
+       ],
+       "drain_ns": [
+        833,
+        667,
+        792,
+        792,
+        625,
+        667,
+        667,
+        750,
+        500,
+        584,
+        584,
+        666,
+        541,
+        625,
+        541,
+        583,
+        500,
+        416,
+        500,
+        458,
+        542,
+        417,
+        542,
+        541,
+        417,
+        458,
+        500,
+        375,
+        417,
+        416
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1819.24895,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 1.3
+    }
+   ]
+  },
+  "pyobjc-13.0": {
+   "noop": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "noop:20000",
+     "result": {
+      "noop": {
+       "n": 20000,
+       "round_ns": [
+        2108333,
+        2055667,
+        2368167,
+        2059833,
+        2057209,
+        2291417,
+        2054959,
+        2143375,
+        2054500,
+        2050250,
+        2173584,
+        2050458,
+        2056834,
+        2227916,
+        2217959,
+        2233000,
+        2108750,
+        2075625,
+        2407291,
+        2108167,
+        2228208,
+        2185583,
+        2084041,
+        2335417,
+        2277458,
+        2146084,
+        2141959,
+        2097250,
+        2280875,
+        2133208
+       ],
+       "drain_ns": [
+        2375,
+        1417,
+        2791,
+        583,
+        542,
+        2833,
+        584,
+        8292,
+        1167,
+        541,
+        1333,
+        458,
+        667,
+        3916,
+        833,
+        3417,
+        1292,
+        541,
+        3125,
+        750,
+        2792,
+        2750,
+        500,
+        3042,
+        625,
+        375,
+        3667,
+        3458,
+        3083,
+        1250
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 106.879175,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.2
+    }
+   ],
+   "int": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "int:10000",
+     "result": {
+      "int": {
+       "n": 10000,
+       "round_ns": [
+        1284500,
+        1206375,
+        1227375,
+        1285458,
+        1258542,
+        1188250,
+        1225833,
+        1236209,
+        1293959,
+        1294833,
+        1318083,
+        1300708,
+        1318417,
+        1342209,
+        1317792,
+        1374584,
+        1289709,
+        1282167,
+        1300500,
+        1265250,
+        1287334,
+        1228541,
+        1289125,
+        1260333,
+        1241250,
+        1295459,
+        1314667,
+        1194042,
+        1231208,
+        1359250
+       ],
+       "drain_ns": [
+        2959,
+        1375,
+        459,
+        375,
+        458,
+        2084,
+        750,
+        500,
+        2375,
+        2750,
+        1667,
+        667,
+        1625,
+        2666,
+        584,
+        2875,
+        1417,
+        458,
+        2084,
+        1250,
+        834,
+        459,
+        2333,
+        541,
+        458,
+        833,
+        3291,
+        542,
+        375,
+        375
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 128.6396,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ],
+   "double": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "double:10000",
+     "result": {
+      "double": {
+       "n": 10000,
+       "round_ns": [
+        1348583,
+        1305875,
+        1300667,
+        1302167,
+        1322083,
+        1235333,
+        1270542,
+        1279833,
+        1293416,
+        1325708,
+        1228917,
+        1301292,
+        1326083,
+        1295917,
+        1215792,
+        1274125,
+        1317959,
+        1304833,
+        1327000,
+        1229417,
+        1262167,
+        1267500,
+        1261292,
+        1290375,
+        1273875,
+        1279250,
+        1260666,
+        1283000,
+        1233292,
+        1270541
+       ],
+       "drain_ns": [
+        500,
+        625,
+        500,
+        416,
+        458,
+        2125,
+        708,
+        458,
+        542,
+        2750,
+        958,
+        500,
+        708,
+        416,
+        1500,
+        875,
+        625,
+        625,
+        2959,
+        916,
+        833,
+        417,
+        375,
+        708,
+        375,
+        375,
+        333,
+        417,
+        1000,
+        500
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 128.14165,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ],
+   "bool": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "bool:10000",
+     "result": {
+      "bool": {
+       "n": 10000,
+       "round_ns": [
+        1231208,
+        1412834,
+        1174333,
+        1265500,
+        1153125,
+        1191542,
+        1188334,
+        1190208,
+        1242084,
+        1200334,
+        1194167,
+        1200209,
+        1265541,
+        1201875,
+        1304334,
+        1206583,
+        1179625,
+        1207792,
+        1212916,
+        1260791,
+        1457500,
+        1151084,
+        1157542,
+        1215666,
+        1184917,
+        1176875,
+        1171000,
+        1241916,
+        1260959,
+        1198458
+       ],
+       "drain_ns": [
+        3458,
+        3875,
+        1834,
+        2583,
+        708,
+        958,
+        500,
+        333,
+        750,
+        500,
+        583,
+        375,
+        792,
+        2333,
+        625,
+        500,
+        917,
+        2250,
+        1042,
+        1000,
+        2167,
+        667,
+        500,
+        1958,
+        1208,
+        459,
+        458,
+        3000,
+        3208,
+        1458
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 120.11045,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ],
+   "object": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "object:10000",
+     "result": {
+      "object": {
+       "n": 10000,
+       "round_ns": [
+        1484208,
+        1468083,
+        1489417,
+        1490417,
+        1488541,
+        2037875,
+        1767584,
+        1512958,
+        1561041,
+        1659250,
+        1594083,
+        1614084,
+        1645375,
+        1472791,
+        1481000,
+        1510500,
+        1465542,
+        1555125,
+        1677292,
+        1506375,
+        1476125,
+        1573667,
+        1594334,
+        1571625,
+        1622791,
+        1503583,
+        1723625,
+        1519125,
+        1566375,
+        1534209
+       ],
+       "drain_ns": [
+        1959,
+        458,
+        4875,
+        1791,
+        750,
+        5500,
+        3375,
+        3041,
+        2083,
+        3625,
+        3208,
+        2875,
+        4125,
+        1709,
+        1167,
+        4500,
+        2000,
+        2166,
+        2417,
+        2125,
+        2625,
+        2625,
+        2667,
+        4083,
+        3750,
+        2292,
+        4041,
+        2542,
+        2291,
+        2458
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 154.4667,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.2
+    }
+   ],
+   "rect": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "rect:10000",
+     "result": {
+      "rect": {
+       "n": 10000,
+       "round_ns": [
+        11061875,
+        10748084,
+        10676292,
+        10755750,
+        10925000,
+        10671209,
+        10628666,
+        10654167,
+        10744125,
+        10860833,
+        10705625,
+        10770708,
+        10685583,
+        10917583,
+        10661791,
+        10688042,
+        11007541,
+        10762708,
+        10844834,
+        10678208,
+        10744292,
+        10661125,
+        10855750,
+        10830084,
+        10717042,
+        10740708,
+        10696541,
+        10838000,
+        10726667,
+        10740833
+       ],
+       "drain_ns": [
+        1583,
+        875,
+        1209,
+        1250,
+        791,
+        958,
+        792,
+        750,
+        916,
+        666,
+        583,
+        959,
+        666,
+        542,
+        500,
+        875,
+        3125,
+        1875,
+        1417,
+        625,
+        583,
+        791,
+        750,
+        708,
+        667,
+        541,
+        625,
+        708,
+        625,
+        667
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 1074.2479,
+       "check": {
+        "ok": true,
+        "value": "(1.0, 2.0, 3.0, 4.0)",
+        "type": "tuple"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.5
+    }
+   ],
+   "str10": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "str10:2000",
+     "result": {
+      "str10": {
+       "n": 2000,
+       "round_ns": [
+        329292,
+        341042,
+        335167,
+        323417,
+        312542,
+        322375,
+        316458,
+        321667,
+        324417,
+        323459,
+        321500,
+        351041,
+        318125,
+        315875,
+        329875,
+        326125,
+        325292,
+        326250,
+        321542,
+        329083,
+        316292,
+        325625,
+        329792,
+        325083,
+        319833,
+        330917,
+        322125,
+        324084,
+        327500,
+        322917
+       ],
+       "drain_ns": [
+        4167,
+        4166,
+        4250,
+        5083,
+        4000,
+        4542,
+        4125,
+        4125,
+        4125,
+        4125,
+        4084,
+        6042,
+        4292,
+        4750,
+        4333,
+        4250,
+        4208,
+        4167,
+        4125,
+        4208,
+        4875,
+        4375,
+        4458,
+        4250,
+        4208,
+        4209,
+        4208,
+        4166,
+        5167,
+        10792
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 162.12525,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghij'",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ],
+   "str10000": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "str10000:1000",
+     "result": {
+      "str10000": {
+       "n": 1000,
+       "round_ns": [
+        157625,
+        150833,
+        155167,
+        185291,
+        153750,
+        143625,
+        139583,
+        161292,
+        146500,
+        167125,
+        150708,
+        144084,
+        155083,
+        152959,
+        158500,
+        148750,
+        145625,
+        154208,
+        167625,
+        152500,
+        151750,
+        152792,
+        151750,
+        140625,
+        143125,
+        190375,
+        152791,
+        165167,
+        181375,
+        158917
+       ],
+       "drain_ns": [
+        2709,
+        3375,
+        2417,
+        4250,
+        2708,
+        2834,
+        2250,
+        4292,
+        2416,
+        2500,
+        2958,
+        2333,
+        2250,
+        2375,
+        3041,
+        3292,
+        2250,
+        2417,
+        3167,
+        2292,
+        2208,
+        2375,
+        2958,
+        2333,
+        2167,
+        3333,
+        2333,
+        3291,
+        2625,
+        2709
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 152.8755,
+       "check": {
+        "ok": true,
+        "value": "'abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi",
+        "type": "str"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ],
+   "class_method": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "class_method:20000",
+     "result": {
+      "class_method": {
+       "n": 20000,
+       "round_ns": [
+        3132458,
+        3180709,
+        3211042,
+        3205833,
+        3196708,
+        3188542,
+        3128416,
+        3143333,
+        3226958,
+        3236333,
+        3217167,
+        3231333,
+        3224375,
+        3234250,
+        3104667,
+        3122541,
+        3168417,
+        3172791,
+        3180084,
+        3194541,
+        3177750,
+        3171000,
+        3209833,
+        3258292,
+        3236542,
+        3254292,
+        3131875,
+        3162541,
+        3207542,
+        3265667
+       ],
+       "drain_ns": [
+        875,
+        1542,
+        916,
+        1625,
+        625,
+        500,
+        1292,
+        667,
+        708,
+        375,
+        417,
+        417,
+        416,
+        750,
+        375,
+        459,
+        708,
+        417,
+        750,
+        458,
+        417,
+        583,
+        500,
+        459,
+        375,
+        375,
+        792,
+        458,
+        959,
+        584
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 159.781225,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.2
+    }
+   ],
+   "prop_read": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "prop_read:20000",
+     "result": {
+      "prop_read": {
+       "n": 20000,
+       "round_ns": [
+        2210708,
+        2442584,
+        2211417,
+        2381375,
+        2269333,
+        2372042,
+        2316542,
+        2382791,
+        2279500,
+        2158750,
+        2281667,
+        2200958,
+        2399792,
+        2418625,
+        2304458,
+        2375625,
+        2187042,
+        2270875,
+        2121375,
+        2389625,
+        2280292,
+        2198292,
+        2284542,
+        2100292,
+        2259250,
+        2243834,
+        2212042,
+        2353917,
+        2153625,
+        2294292
+       ],
+       "drain_ns": [
+        3250,
+        2541,
+        2541,
+        2625,
+        1834,
+        3583,
+        2125,
+        4542,
+        1750,
+        3083,
+        1708,
+        1375,
+        7500,
+        2917,
+        3125,
+        2750,
+        2333,
+        2542,
+        1209,
+        3584,
+        2042,
+        2917,
+        2125,
+        1000,
+        1625,
+        2000,
+        2208,
+        1291,
+        1166,
+        2083
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 113.9948,
+       "check": {
+        "ok": true,
+        "value": "0",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.2
+    }
+   ],
+   "prop_write": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "prop_write:20000",
+     "result": {
+      "prop_write": {
+       "n": 20000,
+       "round_ns": [
+        2375417,
+        2413542,
+        2401750,
+        2383250,
+        2409000,
+        2384750,
+        2368458,
+        2382541,
+        2425791,
+        2375334,
+        2368042,
+        2394917,
+        2390542,
+        2400167,
+        2406625,
+        2378292,
+        2384000,
+        2392042,
+        2366750,
+        2381792,
+        2394250,
+        2452916,
+        2374208,
+        2407084,
+        2356791,
+        2369500,
+        2374791,
+        2361667,
+        2419625,
+        2399500
+       ],
+       "drain_ns": [
+        416,
+        375,
+        1458,
+        625,
+        500,
+        1459,
+        833,
+        458,
+        1334,
+        875,
+        458,
+        1250,
+        833,
+        375,
+        708,
+        417,
+        416,
+        666,
+        375,
+        375,
+        666,
+        375,
+        375,
+        667,
+        375,
+        375,
+        333,
+        459,
+        375,
+        417
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 119.21875,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.2
+    }
+   ],
+   "bound_noop": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "bound_noop:50000",
+     "result": {
+      "bound_noop": {
+       "n": 50000,
+       "round_ns": [
+        2482750,
+        2478416,
+        2469000,
+        2445958,
+        2461125,
+        2465375,
+        2493209,
+        2545209,
+        2503500,
+        2465750,
+        2477084,
+        2524708,
+        2530542,
+        2521542,
+        2569083,
+        2516500,
+        2516583,
+        2432625,
+        2451292,
+        2474125,
+        2485875,
+        2519375,
+        2542042,
+        2431583,
+        2455583,
+        2469333,
+        2466917,
+        2471166,
+        2485250,
+        2411250
+       ],
+       "drain_ns": [
+        458,
+        375,
+        1917,
+        875,
+        542,
+        1250,
+        959,
+        541,
+        1291,
+        917,
+        458,
+        1459,
+        625,
+        458,
+        417,
+        875,
+        417,
+        500,
+        416,
+        375,
+        542,
+        458,
+        417,
+        541,
+        500,
+        375,
+        500,
+        417,
+        417,
+        417
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 49.555,
+       "check": {
+        "ok": true,
+        "value": "None",
+        "type": "NoneType"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.2
+    }
+   ],
+   "bound_int": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "bound_int:20000",
+     "result": {
+      "bound_int": {
+       "n": 20000,
+       "round_ns": [
+        1180000,
+        1163917,
+        1166708,
+        1174041,
+        1166459,
+        1174083,
+        1157666,
+        1173875,
+        1172583,
+        1175791,
+        1176833,
+        1136292,
+        1163208,
+        1183375,
+        1170709,
+        1206666,
+        1126625,
+        1152000,
+        1163542,
+        1196250,
+        1195500,
+        1181750,
+        1168625,
+        1185375,
+        1170708,
+        1195625,
+        1149375,
+        1173750,
+        1177666,
+        1166583
+       ],
+       "drain_ns": [
+        459,
+        417,
+        375,
+        375,
+        500,
+        416,
+        1625,
+        833,
+        458,
+        375,
+        375,
+        1084,
+        666,
+        875,
+        375,
+        459,
+        1125,
+        541,
+        500,
+        459,
+        458,
+        417,
+        458,
+        417,
+        417,
+        667,
+        416,
+        375,
+        375,
+        416
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 58.658325,
+       "check": {
+        "ok": true,
+        "value": "5",
+        "type": "int"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ],
+   "bound_double": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "bound_double:20000",
+     "result": {
+      "bound_double": {
+       "n": 20000,
+       "round_ns": [
+        1276000,
+        1230833,
+        1248417,
+        1244625,
+        1255917,
+        1210250,
+        1255250,
+        1256792,
+        1267917,
+        1275042,
+        1206750,
+        1242792,
+        1250458,
+        1248375,
+        1254041,
+        1241583,
+        1243042,
+        1244208,
+        1257250,
+        1215125,
+        1244875,
+        1244875,
+        1251042,
+        1256792,
+        1251833,
+        1260041,
+        1276417,
+        1260625,
+        1257000,
+        1227958
+       ],
+       "drain_ns": [
+        1292,
+        875,
+        459,
+        417,
+        375,
+        1125,
+        875,
+        542,
+        458,
+        1583,
+        1000,
+        542,
+        458,
+        458,
+        709,
+        416,
+        458,
+        458,
+        417,
+        500,
+        375,
+        459,
+        417,
+        334,
+        375,
+        333,
+        375,
+        375,
+        333,
+        542
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 62.5375,
+       "check": {
+        "ok": true,
+        "value": "1.5",
+        "type": "float"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ],
+   "bound_bool": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "bound_bool:20000",
+     "result": {
+      "bound_bool": {
+       "n": 20000,
+       "round_ns": [
+        1723584,
+        1713000,
+        1456625,
+        1506083,
+        1728417,
+        1161792,
+        1263791,
+        1465667,
+        1457250,
+        1261708,
+        1113875,
+        1138250,
+        1149959,
+        1123084,
+        1140125,
+        1120875,
+        1160709,
+        1139625,
+        1147208,
+        1141959,
+        1138833,
+        1123375,
+        1120750,
+        1123042,
+        1184667,
+        1112250,
+        1131625,
+        1128041,
+        1121667,
+        1153625
+       ],
+       "drain_ns": [
+        4792,
+        2500,
+        750,
+        6667,
+        5750,
+        3000,
+        4500,
+        3584,
+        1125,
+        5416,
+        1042,
+        500,
+        458,
+        459,
+        458,
+        750,
+        417,
+        417,
+        416,
+        416,
+        1417,
+        875,
+        500,
+        458,
+        2291,
+        666,
+        500,
+        958,
+        417,
+        750
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 57.229175,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ],
+   "bound_object": [
+    {
+     "lib": "pyobjc",
+     "mode": "timing",
+     "arg": "bound_object:20000",
+     "result": {
+      "bound_object": {
+       "n": 20000,
+       "round_ns": [
+        1411333,
+        1431958,
+        1433334,
+        1444459,
+        1397167,
+        1404416,
+        1388125,
+        1374792,
+        1408291,
+        1464916,
+        1382750,
+        1421375,
+        1394125,
+        1388333,
+        1407875,
+        1452041,
+        1418917,
+        1410167,
+        1384875,
+        1421750,
+        1349958,
+        1420500,
+        1433292,
+        1435958,
+        1379000,
+        1423292,
+        1400167,
+        1390416,
+        1424541,
+        1377125
+       ],
+       "drain_ns": [
+        1084,
+        958,
+        1833,
+        500,
+        416,
+        417,
+        333,
+        1542,
+        1166,
+        833,
+        1000,
+        2375,
+        750,
+        500,
+        375,
+        2250,
+        958,
+        1542,
+        458,
+        1000,
+        333,
+        375,
+        417,
+        542,
+        1417,
+        459,
+        375,
+        333,
+        1791,
+        583
+       ],
+       "thermal": [
+        0,
+        0
+       ],
+       "per_call_ns_median": 70.46145,
+       "check": {
+        "ok": true,
+        "value": "True",
+        "type": "bool"
+       }
+      }
+     },
+     "thermal_start": 0,
+     "thermal_end": 0,
+     "low_power_mode": false,
+     "python": "3.14.7",
+     "platform": "darwin",
+     "outcome": "ok",
+     "seconds": 0.1
+    }
+   ]
+  }
+ }
+}

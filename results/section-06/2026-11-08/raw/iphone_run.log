@@ -1,0 +1,425 @@
+pyobjus-master {'result': '1.2.4', 'python': '3.15.0', 'platform': 'ios', 'low_power_mode': False}
+rubicon-main {'result': '0.5.8.dev21', 'python': '3.15.0', 'platform': 'ios', 'low_power_mode': False}
+python-3.15.0 {'result': None, 'python': '3.15.0', 'platform': 'ios', 'low_power_mode': False}
+calibrate noop pyobjus-master 2854.772052176159
+calibrate noop rubicon-main 1734.4321562734785
+calibrate int pyobjus-master 4682.745859403754
+calibrate int rubicon-main 2584.7352219267746
+calibrate double pyobjus-master 5172.79802631579
+calibrate double rubicon-main 2527.3154414195965
+calibrate bool pyobjus-master 4409.916402421447
+calibrate bool rubicon-main 2524.674366724237
+calibrate object pyobjus-master 69260.4501510574
+calibrate object rubicon-main 3585.915440750608
+calibrate rect pyobjus-master 20549.175893886968
+calibrate rect rubicon-main 2626.93787795492
+calibrate str10 pyobjus-master 550501.0512820513
+calibrate str10 rubicon-main 24295.57681692732
+calibrate str10000 pyobjus-master 656368.0555555555
+calibrate str10000 rubicon-main 25779.261057173677
+calibrate class_method pyobjus-master 2401.7728731942216
+calibrate class_method rubicon-main 2249.547648876639
+calibrate prop_read pyobjus-master 2952.331569160349
+calibrate prop_read rubicon-main 1351.4906507835767
+calibrate prop_write pyobjus-master 4692.783122362869
+calibrate prop_write rubicon-main 1634.060042887777
+calibrate bound_noop pyobjus-master 2506.861360239163
+calibrate bound_noop rubicon-main 791.4648555265743
+calibrate bound_int pyobjus-master 3890.217749917519
+calibrate bound_int rubicon-main 1872.1058315334774
+calibrate bound_double pyobjus-master 5309.503051438535
+calibrate bound_double rubicon-main 1915.2220194647202
+calibrate bound_bool pyobjus-master 4958.446481104323
+calibrate bound_bool rubicon-main 1646.9810130968056
+calibrate bound_object pyobjus-master 59393.71827411168
+calibrate bound_object rubicon-main 2469.7204968944097
+calibrate bound_rect pyobjus-master 11176.969712015889
+calibrate bound_rect rubicon-main 1755.1454942736589
+calibrate bound_str10 pyobjus-master 501970.51219512196
+calibrate bound_str10 rubicon-main 22449.557363013697
+calibrate bound_str10000 pyobjus-master 578505.6216216217
+calibrate bound_str10000 rubicon-main 22178.00925925926
+calibrate cb_noop pyobjus-master 142717.26623376625
+calibrate cb_noop rubicon-main 955.156670094063
+calibrate cb_int pyobjus-master 185981.3829787234
+calibrate cb_int rubicon-main 948.137040948023
+calibrate cb_object pyobjus-master 196538.60294117648
+calibrate cb_object rubicon-main 1186.9447144917472
+calibrate python_empty_call python-3.15.0 10.268093248069695
+timing 1 noop pyobjus-master 2273
+timing 1 noop rubicon-main 1763
+timing 1 int pyobjus-master 3779
+timing 1 int rubicon-main 2494
+timing 1 double pyobjus-master 4638
+timing 1 double rubicon-main 2576
+timing 1 bool pyobjus-master 3919
+timing 1 bool rubicon-main 2559
+timing 1 object pyobjus-master 54909
+timing 1 object rubicon-main 2955
+timing 1 rect pyobjus-master 88300
+timing 1 rect rubicon-main 3134
+timing 1 str10 pyobjus-master 484767
+timing 1 str10 rubicon-main 25124
+timing 1 str10000 pyobjus-master 524518
+timing 1 str10000 rubicon-main 26930
+timing 1 class_method pyobjus-master 2562
+timing 1 class_method rubicon-main 2246
+timing 1 prop_read pyobjus-master 2853
+timing 1 prop_read rubicon-main 1338
+timing 1 prop_write pyobjus-master 4793
+timing 1 prop_write rubicon-main 1798
+timing 1 bound_noop pyobjus-master 2509
+timing 1 bound_noop rubicon-main 902
+timing 1 bound_int pyobjus-master 4103
+timing 1 bound_int rubicon-main 1972
+timing 1 bound_double pyobjus-master 4990
+timing 1 bound_double rubicon-main 1986
+timing 1 bound_bool pyobjus-master 4075
+timing 1 bound_bool rubicon-main 1947
+timing 1 bound_object pyobjus-master 58916
+timing 1 bound_object rubicon-main 2357
+timing 1 bound_rect pyobjus-master 165727
+timing 1 bound_rect rubicon-main 1977
+timing 1 bound_str10 pyobjus-master 481445
+timing 1 bound_str10 rubicon-main 23461
+timing 1 bound_str10000 pyobjus-master 514299
+timing 1 noop pyobjus-master 2247
+timing 1 noop rubicon-main 1722
+timing 1 int pyobjus-master 3706
+timing 1 int rubicon-main 2403
+timing 1 double pyobjus-master 4533
+timing 1 double rubicon-main 2485
+timing 1 bool pyobjus-master 3764
+timing 1 bool rubicon-main 2466
+timing 1 object pyobjus-master 53560
+timing 1 object rubicon-main 2939
+timing 1 rect pyobjus-master 78275
+timing 1 rect rubicon-main 2616
+timing 1 str10 pyobjus-master 457291
+timing 1 str10 rubicon-main 23093
+timing 1 str10000 pyobjus-master 493500
+timing 1 str10000 rubicon-main 24949
+timing 1 class_method pyobjus-master 2385
+timing 1 class_method rubicon-main 2066
+timing 1 prop_read pyobjus-master 2646
+timing 1 prop_read rubicon-main 1240
+timing 1 prop_write pyobjus-master 4466
+timing 1 prop_write rubicon-main 1649
+timing 1 bound_noop pyobjus-master 2271
+timing 1 bound_noop rubicon-main 818
+timing 1 bound_int pyobjus-master 3683
+timing 1 bound_int rubicon-main 1786
+timing 1 bound_double pyobjus-master 4586
+timing 1 bound_double rubicon-main 1823
+timing 1 bound_bool pyobjus-master 3686
+timing 1 bound_bool rubicon-main 1792
+timing 1 bound_object pyobjus-master 54881
+timing 1 bound_object rubicon-main 2141
+timing 1 bound_rect pyobjus-master 152432
+timing 1 bound_rect rubicon-main 1886
+timing 1 bound_str10 pyobjus-master 462068
+timing 1 bound_str10 rubicon-main 22320
+timing 1 bound_str10000 pyobjus-master 504834
+timing 1 bound_str10000 rubicon-main 24086
+timing 1 cb_noop pyobjus-master 127478
+timing 1 cb_noop rubicon-main 880
+timing 1 cb_int pyobjus-master 147992
+timing 1 cb_int rubicon-main 971
+timing 1 cb_object pyobjus-master 191133
+timing 1 cb_object rubicon-main 1218
+timing 1 python_empty_call python-3.15.0 11
+timing 2 noop pyobjus-master 2365
+timing 2 noop rubicon-main 1820
+timing 2 int pyobjus-master 3855
+timing 2 int rubicon-main 2553
+timing 2 double pyobjus-master 4769
+timing 2 double rubicon-main 2574
+timing 2 bool pyobjus-master 3896
+timing 2 bool rubicon-main 2536
+timing 2 object pyobjus-master 54428
+timing 2 object rubicon-main 2884
+timing 2 rect pyobjus-master 79837
+timing 2 rect rubicon-main 2702
+timing 2 str10 pyobjus-master 456147
+timing 2 str10 rubicon-main 23295
+timing 2 str10000 pyobjus-master 507383
+timing 2 str10000 rubicon-main 25111
+timing 2 class_method pyobjus-master 2464
+timing 2 class_method rubicon-main 2103
+timing 2 prop_read pyobjus-master 2704
+timing 2 prop_read rubicon-main 1272
+timing 2 prop_write pyobjus-master 4367
+timing 2 prop_write rubicon-main 1681
+timing 2 bound_noop pyobjus-master 2287
+timing 2 bound_noop rubicon-main 849
+timing 2 bound_int pyobjus-master 3766
+timing 2 bound_int rubicon-main 1804
+timing 2 bound_double pyobjus-master 4547
+timing 2 bound_double rubicon-main 1827
+timing 2 bound_bool pyobjus-master 3747
+timing 2 bound_bool rubicon-main 1799
+timing 2 bound_object pyobjus-master 55759
+timing 2 bound_object rubicon-main 2180
+timing 2 bound_rect pyobjus-master 154266
+timing 2 bound_rect rubicon-main 1920
+timing 2 bound_str10 pyobjus-master 468776
+timing 2 bound_str10 rubicon-main 22699
+timing 2 bound_str10000 pyobjus-master 502872
+timing 2 bound_str10000 rubicon-main 24548
+timing 2 cb_noop pyobjus-master 128438
+timing 2 cb_noop rubicon-main 896
+timing 2 cb_int pyobjus-master 149369
+timing 2 cb_int rubicon-main 988
+timing 2 cb_object pyobjus-master 195178
+timing 2 cb_object rubicon-main 1257
+timing 2 python_empty_call python-3.15.0 11
+timing 3 noop pyobjus-master 2451
+timing 3 noop rubicon-main 1854
+timing 3 int pyobjus-master 3918
+timing 3 int rubicon-main 2568
+timing 3 double pyobjus-master 4762
+timing 3 double rubicon-main 2595
+timing 3 bool pyobjus-master 3919
+timing 3 bool rubicon-main 2615
+timing 3 object pyobjus-master 55953
+timing 3 object rubicon-main 2953
+timing 3 rect pyobjus-master 80941
+timing 3 rect rubicon-main 2783
+timing 3 str10 pyobjus-master 514711
+timing 3 str10 rubicon-main 24897
+timing 3 str10000 pyobjus-master 512380
+timing 3 str10000 rubicon-main 25765
+timing 3 class_method pyobjus-master 2462
+timing 3 class_method rubicon-main 2138
+timing 3 prop_read pyobjus-master 2792
+timing 3 prop_read rubicon-main 1299
+timing 3 prop_write pyobjus-master 4500
+timing 3 prop_write rubicon-main 1679
+timing 3 bound_noop pyobjus-master 2331
+timing 3 bound_noop rubicon-main 853
+timing 3 bound_int pyobjus-master 3810
+timing 3 bound_int rubicon-main 1862
+timing 3 bound_double pyobjus-master 4601
+timing 3 bound_double rubicon-main 1850
+timing 3 bound_bool pyobjus-master 3844
+timing 3 bound_bool rubicon-main 1826
+timing 3 bound_object pyobjus-master 56643
+timing 3 bound_object rubicon-main 2202
+timing 3 bound_rect pyobjus-master 159023
+timing 3 bound_rect rubicon-main 1916
+timing 3 bound_str10 pyobjus-master 469887
+timing 3 bound_str10 rubicon-main 22950
+timing 3 bound_str10000 pyobjus-master 510375
+timing 3 bound_str10000 rubicon-main 25046
+timing 3 cb_noop pyobjus-master 129584
+timing 3 cb_noop rubicon-main 913
+timing 3 cb_int pyobjus-master 151451
+timing 3 cb_int rubicon-main 1003
+timing 3 cb_object pyobjus-master 194072
+timing 3 cb_object rubicon-main 1269
+timing 3 python_empty_call python-3.15.0 11
+timing 4 noop pyobjus-master 2405
+timing 4 noop rubicon-main 1875
+timing 4 int pyobjus-master 3940
+timing 4 int rubicon-main 2614
+timing 4 double pyobjus-master 4869
+timing 4 double rubicon-main 2612
+timing 4 bool pyobjus-master 4023
+timing 4 bool rubicon-main 2622
+timing 4 object pyobjus-master 55612
+timing 4 object rubicon-main 2977
+timing 4 rect pyobjus-master 82152
+timing 4 rect rubicon-main 2731
+timing 4 str10 pyobjus-master 475244
+timing 4 str10 rubicon-main 23696
+timing 4 str10000 pyobjus-master 515271
+timing 4 str10000 rubicon-main 26036
+timing 4 class_method pyobjus-master 2506
+timing 4 class_method rubicon-main 2204
+timing 4 prop_read pyobjus-master 2775
+timing 4 prop_read rubicon-main 1291
+timing 4 prop_write pyobjus-master 4612
+timing 4 prop_write rubicon-main 1727
+timing 4 bound_noop pyobjus-master 2353
+timing 4 bound_noop rubicon-main 849
+timing 4 bound_int pyobjus-master 3838
+timing 4 bound_int rubicon-main 1854
+timing 4 bound_double pyobjus-master 4749
+timing 4 bound_double rubicon-main 1867
+timing 4 bound_bool pyobjus-master 3865
+timing 4 bound_bool rubicon-main 1868
+timing 4 bound_object pyobjus-master 56911
+timing 4 bound_object rubicon-main 2233
+thermal state serious, cooling for 2 minutes
+timing 4 bound_rect pyobjus-master 147344
+timing 4 bound_rect rubicon-main 1868
+timing 4 bound_str10 pyobjus-master 453229
+timing 4 bound_str10 rubicon-main 21845
+timing 4 bound_str10000 pyobjus-master 496193
+timing 4 bound_str10000 rubicon-main 23756
+timing 4 cb_noop pyobjus-master 125673
+timing 4 cb_noop rubicon-main 871
+timing 4 cb_int pyobjus-master 145601
+timing 4 cb_int rubicon-main 979
+timing 4 cb_object pyobjus-master 191748
+timing 4 cb_object rubicon-main 1227
+timing 4 python_empty_call python-3.15.0 11
+timing 5 noop pyobjus-master 2345
+timing 5 noop rubicon-main 1834
+timing 5 int pyobjus-master 3864
+timing 5 int rubicon-main 2517
+timing 5 double pyobjus-master 4628
+timing 5 double rubicon-main 2543
+timing 5 bool pyobjus-master 3887
+timing 5 bool rubicon-main 2509
+timing 5 object pyobjus-master 54976
+timing 5 object rubicon-main 2936
+timing 5 rect pyobjus-master 79372
+timing 5 rect rubicon-main 2694
+timing 5 str10 pyobjus-master 457913
+timing 5 str10 rubicon-main 23449
+timing 5 str10000 pyobjus-master 507640
+timing 5 str10000 rubicon-main 25025
+timing 5 class_method pyobjus-master 2420
+timing 5 class_method rubicon-main 2119
+timing 5 prop_read pyobjus-master 2691
+timing 5 prop_read rubicon-main 1277
+timing 5 prop_write pyobjus-master 4435
+timing 5 prop_write rubicon-main 1682
+timing 5 bound_noop pyobjus-master 2308
+timing 5 bound_noop rubicon-main 836
+timing 5 bound_int pyobjus-master 3776
+timing 5 bound_int rubicon-main 1825
+timing 5 bound_double pyobjus-master 4631
+timing 5 bound_double rubicon-main 1829
+timing 5 bound_bool pyobjus-master 3785
+timing 5 bound_bool rubicon-main 1839
+timing 5 bound_object pyobjus-master 55130
+timing 5 bound_object rubicon-main 2152
+timing 5 bound_rect pyobjus-master 158998
+timing 5 bound_rect rubicon-main 1932
+timing 5 bound_str10 pyobjus-master 466353
+timing 5 bound_str10 rubicon-main 23225
+timing 5 bound_str10000 pyobjus-master 512610
+timing 5 bound_str10000 rubicon-main 24384
+timing 5 cb_noop pyobjus-master 128346
+timing 5 cb_noop rubicon-main 901
+timing 5 cb_int pyobjus-master 151762
+timing 5 cb_int rubicon-main 997
+timing 5 cb_object pyobjus-master 195258
+timing 5 cb_object rubicon-main 1254
+timing 5 python_empty_call python-3.15.0 11
+first_use 1 S6Fresh5 pyobjus-master ok {"class": "S6Fresh5", "ns": 327041, "value": 5}
+first_use 1 S6Fresh5 rubicon-main ok {"class": "S6Fresh5", "ns": 1726791, "value": 5}
+first_use 1 S6Fresh100 pyobjus-master ok {"class": "S6Fresh100", "ns": 323208, "value": 100}
+first_use 1 S6Fresh100 rubicon-main ok {"class": "S6Fresh100", "ns": 1589542, "value": 100}
+first_use 2 S6Fresh5 pyobjus-master ok {"class": "S6Fresh5", "ns": 325917, "value": 5}
+first_use 2 S6Fresh5 rubicon-main ok {"class": "S6Fresh5", "ns": 1744083, "value": 5}
+first_use 2 S6Fresh100 pyobjus-master ok {"class": "S6Fresh100", "ns": 330083, "value": 100}
+first_use 2 S6Fresh100 rubicon-main ok {"class": "S6Fresh100", "ns": 1596916, "value": 100}
+first_use 3 S6Fresh5 pyobjus-master ok {"class": "S6Fresh5", "ns": 328625, "value": 5}
+first_use 3 S6Fresh5 rubicon-main ok {"class": "S6Fresh5", "ns": 1504250, "value": 5}
+first_use 3 S6Fresh100 pyobjus-master ok {"class": "S6Fresh100", "ns": 328541, "value": 100}
+first_use 3 S6Fresh100 rubicon-main ok {"class": "S6Fresh100", "ns": 1513833, "value": 100}
+first_use 4 S6Fresh5 pyobjus-master ok {"class": "S6Fresh5", "ns": 322209, "value": 5}
+first_use 4 S6Fresh5 rubicon-main ok {"class": "S6Fresh5", "ns": 1769958, "value": 5}
+first_use 4 S6Fresh100 pyobjus-master ok {"class": "S6Fresh100", "ns": 326083, "value": 100}
+first_use 4 S6Fresh100 rubicon-main ok {"class": "S6Fresh100", "ns": 1912500, "value": 100}
+first_use 5 S6Fresh5 pyobjus-master ok {"class": "S6Fresh5", "ns": 326666, "value": 5}
+first_use 5 S6Fresh5 rubicon-main ok {"class": "S6Fresh5", "ns": 1538917, "value": 5}
+first_use 5 S6Fresh100 pyobjus-master ok {"class": "S6Fresh100", "ns": 324500, "value": 100}
+first_use 5 S6Fresh100 rubicon-main ok {"class": "S6Fresh100", "ns": 1733791, "value": 100}
+import 1 None pyobjus-master ok {"ns": 5079292}
+import 1 None rubicon-main ok {"ns": 44277417}
+import 2 None pyobjus-master ok {"ns": 5124792}
+import 2 None rubicon-main ok {"ns": 43721583}
+import 3 None pyobjus-master ok {"ns": 5171333}
+import 3 None rubicon-main ok {"ns": 43522834}
+import 4 None pyobjus-master ok {"ns": 5094209}
+import 4 None rubicon-main ok {"ns": 43603083}
+import 5 None pyobjus-master ok {"ns": 5160583}
+import 5 None rubicon-main ok {"ns": 42741333}
+memory 1 M1 pyobjus-master ok {"footprint_bytes": 819200, "python_bytes": 350918}
+memory 1 M1 rubicon-main ok {"footprint_bytes": 12779520, "python_bytes": 5672239}
+memory 1 M2 pyobjus-master ok {"count": 10000, "footprint_bytes": 2326528, "python_bytes": 1127415, "items": {"created": 10010, "deallocated": 0}}
+memory 1 M2 rubicon-main ok {"count": 10000, "footprint_bytes": 7274496, "python_bytes": 3980912, "items": {"created": 10010, "deallocated": 0}}
+memory 1 alloc_init pyobjus-master ok {"count": 10000, "footprint_bytes": 507904, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 1 alloc_init rubicon-main ok {"count": 10000, "footprint_bytes": 491520, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 1 new pyobjus-master ok {"count": 10000, "footprint_bytes": 344064, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 1 new rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 1 copy pyobjus-master ok {"count": 10000, "footprint_bytes": 376832, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 1 copy rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 1 method pyobjus-master ok {"count": 10000, "footprint_bytes": 212992, "python_bytes": 1235, "items_created": 10000, "items_deallocated": 9999}
+memory 1 method rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 1 delegate pyobjus-master ok {"count": 1000, "footprint_bytes": 10027032, "python_bytes": 4502015, "items_created": 0, "items_deallocated": 0}
+memory 1 delegate rubicon-main ok {"count": 1000, "footprint_bytes": 442368, "python_bytes": 9166, "items_created": 0, "items_deallocated": 0}
+memory 1 M4:300000 pyobjus-master ok {"calls_per_sample": 30000, "footprint_samples": [14452240, 15697424, 15975952, 14304784, 14796304, 15091216, 15566352, 16057872, 16533008, 17008144, 
+memory 1 M4:300000 rubicon-main ok {"calls_per_sample": 30000, "footprint_samples": [23168528, 23905808, 23905808, 23905808, 23905808, 23905808, 23905808, 23905808, 23905808, 23905808, 
+memory 2 M1 pyobjus-master ok {"footprint_bytes": 1163264, "python_bytes": 350963}
+memory 2 M1 rubicon-main ok {"footprint_bytes": 12746752, "python_bytes": 5672337}
+memory 2 M2 pyobjus-master ok {"count": 10000, "footprint_bytes": 2342912, "python_bytes": 1127415, "items": {"created": 10010, "deallocated": 0}}
+memory 2 M2 rubicon-main ok {"count": 10000, "footprint_bytes": 7241728, "python_bytes": 3980912, "items": {"created": 10010, "deallocated": 0}}
+memory 2 alloc_init pyobjus-master ok {"count": 10000, "footprint_bytes": 540672, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 2 alloc_init rubicon-main ok {"count": 10000, "footprint_bytes": 507904, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 2 new pyobjus-master ok {"count": 10000, "footprint_bytes": 376832, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 2 new rubicon-main ok {"count": 10000, "footprint_bytes": 81920, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 2 copy pyobjus-master ok {"count": 10000, "footprint_bytes": 360448, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 2 copy rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 2 method pyobjus-master ok {"count": 10000, "footprint_bytes": 196608, "python_bytes": 1235, "items_created": 10000, "items_deallocated": 9999}
+memory 2 method rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 2 delegate pyobjus-master ok {"count": 1000, "footprint_bytes": 9912320, "python_bytes": 4495717, "items_created": 0, "items_deallocated": 0}
+memory 2 delegate rubicon-main ok {"count": 1000, "footprint_bytes": 425984, "python_bytes": 5470, "items_created": 0, "items_deallocated": 0}
+thermal state serious, cooling for 2 minutes
+memory 2 M4:300000 pyobjus-master ok {"calls_per_sample": 30000, "footprint_samples": [14747176, 15992360, 15812136, 14222888, 14730792, 15205928, 15681064, 16172584, 16647720, 17122856, 
+memory 2 M4:300000 rubicon-main ok {"calls_per_sample": 30000, "footprint_samples": [22988352, 23725632, 23725632, 23725632, 23725632, 23725632, 23725632, 23725632, 23725632, 23725632, 
+memory 3 M1 pyobjus-master ok {"footprint_bytes": 851968, "python_bytes": 351057}
+launch failed, retrying in 15s: ERROR: The process identifier of the launched application could not be determined. It may have already terminated. (com.apple.dt.CoreDeviceError error 10004 (0x2714)) 
+memory 3 M1 rubicon-main ok {"footprint_bytes": 12779520, "python_bytes": 5670291}
+memory 3 M2 pyobjus-master ok {"count": 10000, "footprint_bytes": 2277376, "python_bytes": 1127415, "items": {"created": 10010, "deallocated": 0}}
+memory 3 M2 rubicon-main ok {"count": 10000, "footprint_bytes": 7274496, "python_bytes": 3980912, "items": {"created": 10010, "deallocated": 0}}
+memory 3 alloc_init pyobjus-master ok {"count": 10000, "footprint_bytes": 507904, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 3 alloc_init rubicon-main ok {"count": 10000, "footprint_bytes": 557056, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 3 new pyobjus-master ok {"count": 10000, "footprint_bytes": 344064, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 3 new rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 3 copy pyobjus-master ok {"count": 10000, "footprint_bytes": 360448, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 3 copy rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 3 method pyobjus-master ok {"count": 10000, "footprint_bytes": 212992, "python_bytes": 1235, "items_created": 10000, "items_deallocated": 9999}
+memory 3 method rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 3 delegate pyobjus-master ok {"count": 1000, "footprint_bytes": 10027008, "python_bytes": 4502015, "items_created": 0, "items_deallocated": 0}
+memory 3 delegate rubicon-main ok {"count": 1000, "footprint_bytes": 425984, "python_bytes": 6046, "items_created": 0, "items_deallocated": 0}
+memory 3 M4:300000 pyobjus-master ok {"calls_per_sample": 30000, "footprint_samples": [14468624, 15287824, 13862416, 14353936, 14829072, 15156752, 15648272, 16123408, 16598544, 17073680, 
+memory 3 M4:300000 rubicon-main ok {"calls_per_sample": 30000, "footprint_samples": [23152192, 23889472, 23889472, 23889472, 23889472, 23889472, 23889472, 23889472, 23889472, 23889472, 
+memory 4 M1 pyobjus-master ok {"footprint_bytes": 819200, "python_bytes": 351057}
+memory 4 M1 rubicon-main ok {"footprint_bytes": 12779520, "python_bytes": 5672091}
+memory 4 M2 pyobjus-master ok {"count": 10000, "footprint_bytes": 2326528, "python_bytes": 1127415, "items": {"created": 10010, "deallocated": 0}}
+memory 4 M2 rubicon-main ok {"count": 10000, "footprint_bytes": 7241728, "python_bytes": 3980912, "items": {"created": 10010, "deallocated": 0}}
+memory 4 alloc_init pyobjus-master ok {"count": 10000, "footprint_bytes": 524288, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 4 alloc_init rubicon-main ok {"count": 10000, "footprint_bytes": 573440, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 4 new pyobjus-master ok {"count": 10000, "footprint_bytes": 376832, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 4 new rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 4 copy pyobjus-master ok {"count": 10000, "footprint_bytes": 376832, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 4 copy rubicon-main ok {"count": 10000, "footprint_bytes": 81920, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+thermal state serious, cooling for 2 minutes
+memory 4 method pyobjus-master ok {"count": 10000, "footprint_bytes": 229376, "python_bytes": 1235, "items_created": 10000, "items_deallocated": 9999}
+memory 4 method rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 4 delegate pyobjus-master ok {"count": 1000, "footprint_bytes": 9945088, "python_bytes": 4506975, "items_created": 0, "items_deallocated": 0}
+memory 4 delegate rubicon-main ok {"count": 1000, "footprint_bytes": 491520, "python_bytes": 5710, "items_created": 0, "items_deallocated": 0}
+memory 4 M4:300000 pyobjus-master ok {"calls_per_sample": 30000, "footprint_samples": [14747176, 15975976, 15730216, 14353960, 14861864, 15337000, 15812136, 16303656, 16778792, 17253928, 
+memory 4 M4:300000 rubicon-main ok {"calls_per_sample": 30000, "footprint_samples": [22955536, 23692816, 23692816, 23692816, 23692816, 23692816, 23692816, 23692816, 23692816, 23692816, 
+memory 5 M1 pyobjus-master ok {"footprint_bytes": 819200, "python_bytes": 351051}
+memory 5 M1 rubicon-main ok {"footprint_bytes": 12779520, "python_bytes": 5672234}
+memory 5 M2 pyobjus-master ok {"count": 10000, "footprint_bytes": 2277376, "python_bytes": 1127415, "items": {"created": 10010, "deallocated": 0}}
+memory 5 M2 rubicon-main ok {"count": 10000, "footprint_bytes": 7258112, "python_bytes": 3980912, "items": {"created": 10010, "deallocated": 0}}
+memory 5 alloc_init pyobjus-master ok {"count": 10000, "footprint_bytes": 524288, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 5 alloc_init rubicon-main ok {"count": 10000, "footprint_bytes": 491520, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 5 new pyobjus-master ok {"count": 10000, "footprint_bytes": 360448, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 5 new rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 5 copy pyobjus-master ok {"count": 10000, "footprint_bytes": 376832, "python_bytes": 1203, "items_created": 10000, "items_deallocated": 0}
+memory 5 copy rubicon-main ok {"count": 10000, "footprint_bytes": 65536, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 5 method pyobjus-master ok {"count": 10000, "footprint_bytes": 196608, "python_bytes": 1235, "items_created": 10000, "items_deallocated": 9999}
+memory 5 method rubicon-main ok {"count": 10000, "footprint_bytes": 81920, "python_bytes": 2664, "items_created": 10000, "items_deallocated": 10000}
+memory 5 delegate pyobjus-master ok {"count": 1000, "footprint_bytes": 9945088, "python_bytes": 4500809, "items_created": 0, "items_deallocated": 0}
+memory 5 delegate rubicon-main ok {"count": 1000, "footprint_bytes": 425984, "python_bytes": 5518, "items_created": 0, "items_deallocated": 0}
+memory 5 M4:300000 pyobjus-master ok {"calls_per_sample": 30000, "footprint_samples": [14747200, 15992384, 15648320, 14386752, 14894656, 15369792, 15844928, 16156224, 16631360, 17057344, 
+memory 5 M4:300000 rubicon-main ok {"calls_per_sample": 30000, "footprint_samples": [22955536, 23692816, 23692816, 23692816, 23692816, 23692816, 23692816, 23692816, 23692816, 23692816, 
+exit 0

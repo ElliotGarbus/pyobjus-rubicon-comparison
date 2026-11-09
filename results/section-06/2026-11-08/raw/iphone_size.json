@@ -1,0 +1,18 @@
+{
+ "app_bytes": 259799564,
+ "pyobjus": {
+  "bytes": 1127130,
+  "files": 11,
+  "parts": [
+   "pip-deps/pyobjus",
+   "Frameworks/pyobjus.pyobjus.framework"
+  ]
+ },
+ "rubicon": {
+  "bytes": 239547,
+  "files": 7,
+  "parts": [
+   "pip-deps/rubicon"
+  ]
+ }
+}
