@@ -1,0 +1,230 @@
+{
+ "collected_at": "2026-11-09T23:29Z",
+ "pypi": {
+  "pyobjus": {
+   "version": "1.2.4",
+   "requires_python": null,
+   "files": [
+    {
+     "filename": "pyobjus-1.2.4-cp310-cp310-macosx_10_9_universal2.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:05.968672Z",
+     "size": 547886,
+     "sha256": "cf261b1388003095199a8f0267f31505573cbceef6ad3e4724be364268b16148",
+     "tags": {
+      "python": "cp310",
+      "abi": "cp310",
+      "platform": "macosx_10_9_universal2"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp311-cp311-macosx_10_9_universal2.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:07.298127Z",
+     "size": 551941,
+     "sha256": "e83175b910bae4946e6464396d7a68e336b5ccfa81f7e9d1c7a46f06ec97efc5",
+     "tags": {
+      "python": "cp311",
+      "abi": "cp311",
+      "platform": "macosx_10_9_universal2"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp312-cp312-macosx_10_13_universal2.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:08.741060Z",
+     "size": 529439,
+     "sha256": "f4da2314b85a57b67e1101493b94da245f03cef8465da698ff5949bec13e8d37",
+     "tags": {
+      "python": "cp312",
+      "abi": "cp312",
+      "platform": "macosx_10_13_universal2"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphoneos.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:09.968582Z",
+     "size": 279773,
+     "sha256": "5ce6202c9d4f3ef62acc132ece498f7ae599061c8071c26623ad545cb37ea7ee",
+     "tags": {
+      "python": "cp313",
+      "abi": "cp313",
+      "platform": "ios_13_0_arm64_iphoneos"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_arm64_iphonesimulator.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:11.098576Z",
+     "size": 286164,
+     "sha256": "737124a6ee884150f0d74a3193830e0cf04704334c1c41a4fc1738abec433571",
+     "tags": {
+      "python": "cp313",
+      "abi": "cp313",
+      "platform": "ios_13_0_arm64_iphonesimulator"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp313-cp313-ios_13_0_x86_64_iphonesimulator.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:12.249810Z",
+     "size": 302408,
+     "sha256": "7e98cd16ff66404783d0629d28a58122c6789d6b6b54dab200aa176afa35e2e4",
+     "tags": {
+      "python": "cp313",
+      "abi": "cp313",
+      "platform": "ios_13_0_x86_64_iphonesimulator"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp313-cp313-macosx_10_13_universal2.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:13.339711Z",
+     "size": 525787,
+     "sha256": "248c70d84ab026aeaecb25703042ba3e25ec72a42e5f30ff2f2b7ec1197ac621",
+     "tags": {
+      "python": "cp313",
+      "abi": "cp313",
+      "platform": "macosx_10_13_universal2"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphoneos.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:14.457640Z",
+     "size": 282928,
+     "sha256": "1a23280fd78db520cafe01b4637b1aaa9ff09845fd74e37b9d5682914f838700",
+     "tags": {
+      "python": "cp314",
+      "abi": "cp314",
+      "platform": "ios_13_0_arm64_iphoneos"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:15.325472Z",
+     "size": 289512,
+     "sha256": "369a509de7ef951284ea448654c1b8c532fe22c2a29704a0e1636aa087df3463",
+     "tags": {
+      "python": "cp314",
+      "abi": "cp314",
+      "platform": "ios_13_0_arm64_iphonesimulator"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp314-cp314-ios_13_0_x86_64_iphonesimulator.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:16.234274Z",
+     "size": 303774,
+     "sha256": "e729ecca4e37429a9b00148853e73dc36c413b415086060722fa3d7fe58ede4a",
+     "tags": {
+      "python": "cp314",
+      "abi": "cp314",
+      "platform": "ios_13_0_x86_64_iphonesimulator"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4-cp314-cp314-macosx_10_15_universal2.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2025-12-29T14:48:17.155241Z",
+     "size": 526356,
+     "sha256": "ef95271d1ec30d4ae61a4f6a66e6fcbf2e41e2420c3fcde5062acc6545565e3d",
+     "tags": {
+      "python": "cp314",
+      "abi": "cp314",
+      "platform": "macosx_10_15_universal2"
+     }
+    },
+    {
+     "filename": "pyobjus-1.2.4.tar.gz",
+     "type": "sdist",
+     "uploaded": "2025-12-29T14:48:18.514858Z",
+     "size": 167844,
+     "sha256": "4877101ff3b70b7fd2b12b2878ab23ee488018ce613f12948b58ff4c7e363388",
+     "tags": null
+    }
+   ]
+  },
+  "rubicon-objc": {
+   "version": "0.5.7",
+   "requires_python": ">=3.11",
+   "files": [
+    {
+     "filename": "rubicon_objc-0.5.7-py3-none-any.whl",
+     "type": "bdist_wheel",
+     "uploaded": "2026-09-30T04:12:16.966111Z",
+     "size": 64666,
+     "sha256": "3dc76bc29f300ee6b9a4f408748099f70f8472ca59fe70cca42dfa1f2f1bfe3f",
+     "tags": {
+      "python": "py3",
+      "abi": "none",
+      "platform": "any"
+     }
+    },
+    {
+     "filename": "rubicon_objc-0.5.7.tar.gz",
+     "type": "sdist",
+     "uploaded": "2026-09-30T04:12:18.303434Z",
+     "size": 197088,
+     "sha256": "ed2a56284a18ceb6370276069e8aab685b5465bbb457a5f13e09e37d0618703d",
+     "tags": null
+    }
+   ]
+  }
+ },
+ "kivy_mobile_wheels": {
+  "url": "https://elliotgarbus.github.io/kivy-mobile-wheels/simple/pyobjus/",
+  "files": [
+   {
+    "filename": "pyobjus-1.2.4-cp315-cp315-ios_13_0_arm64_iphoneos.whl",
+    "tags": {
+     "python": "cp315",
+     "abi": "cp315",
+     "platform": "ios_13_0_arm64_iphoneos"
+    }
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp315-cp315-ios_13_0_arm64_iphonesimulator.whl",
+    "tags": {
+     "python": "cp315",
+     "abi": "cp315",
+     "platform": "ios_13_0_arm64_iphonesimulator"
+    }
+   },
+   {
+    "filename": "pyobjus-1.2.4-cp315-cp315-ios_13_0_x86_64_iphonesimulator.whl",
+    "tags": {
+     "python": "cp315",
+     "abi": "cp315",
+     "platform": "ios_13_0_x86_64_iphonesimulator"
+    }
+   },
+   {
+    "filename": "pyobjus-1.2.5.dev202610250845-cp315-cp315-ios_13_0_arm64_iphoneos.whl",
+    "tags": {
+     "python": "cp315",
+     "abi": "cp315",
+     "platform": "ios_13_0_arm64_iphoneos"
+    }
+   },
+   {
+    "filename": "pyobjus-1.2.5.dev202610250845-cp315-cp315-ios_13_0_arm64_iphonesimulator.whl",
+    "tags": {
+     "python": "cp315",
+     "abi": "cp315",
+     "platform": "ios_13_0_arm64_iphonesimulator"
+    }
+   },
+   {
+    "filename": "pyobjus-1.2.5.dev202610250845-cp315-cp315-ios_13_0_x86_64_iphonesimulator.whl",
+    "tags": {
+     "python": "cp315",
+     "abi": "cp315",
+     "platform": "ios_13_0_x86_64_iphonesimulator"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,755 @@
+{
+ "collected_at": "2026-11-09T18:02Z",
+ "repositories": [
+  {
+   "repo": "kivy/kivy",
+   "commit": "0f23a55ccc59a55d2e726d079fedcca03c5ca068",
+   "mentions": [
+    {
+     "path": "README.md",
+     "kind": "docs",
+     "lines": [
+      82
+     ],
+     "url": "https://github.com/kivy/kivy/blob/0f23a55ccc59a55d2e726d079fedcca03c5ca068/README.md#L82"
+    },
+    {
+     "path": "doc/sources/guide/android.rst",
+     "kind": "docs",
+     "lines": [
+      91
+     ],
+     "url": "https://github.com/kivy/kivy/blob/0f23a55ccc59a55d2e726d079fedcca03c5ca068/doc/sources/guide/android.rst#L91"
+    }
+   ],
+   "metadata": [
+    {
+     "path": "pyproject.toml",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": "setup.py",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/backport.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/ios_wheels.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/manylinux_wheels.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/no-response.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/osx_wheels_app.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/rpi_wheels.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/support.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/test_osx_python.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/test_thorvg_wrapper.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/test_ubuntu_python.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/test_windows_python.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/windows_wheels.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/android/takepicture/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/audio/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/tutorials/notes/final/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "packaging/kivy_examples/pyproject.toml",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": "packaging/kivy_examples/setup.py",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    }
+   ]
+  },
+  {
+   "repo": "renpy/renpy",
+   "commit": "1b79387539ed04c7123492967e2736789859d925",
+   "mentions": [
+    {
+     "path": "sphinx/source/changelog.rst",
+     "kind": "docs",
+     "lines": [
+      4423,
+      4424,
+      5192
+     ],
+     "url": "https://github.com/renpy/renpy/blob/1b79387539ed04c7123492967e2736789859d925/sphinx/source/changelog.rst#L4423"
+    },
+    {
+     "path": "sphinx/source/ios.rst",
+     "kind": "docs",
+     "lines": [
+      141,
+      143,
+      146
+     ],
+     "url": "https://github.com/renpy/renpy/blob/1b79387539ed04c7123492967e2736789859d925/sphinx/source/ios.rst#L141"
+    },
+    {
+     "path": "sphinx/source/license.rst",
+     "kind": "docs",
+     "lines": [
+      104,
+      203
+     ],
+     "url": "https://github.com/renpy/renpy/blob/1b79387539ed04c7123492967e2736789859d925/sphinx/source/license.rst#L104"
+    }
+   ],
+   "metadata": [
+    {
+     "path": "pyproject.toml",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": "setup.py",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": "scripts/sdl3/pyproject.toml",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    }
+   ]
+  },
+  {
+   "repo": "kivymd/KivyMD",
+   "commit": "a00c10c385064afb3a46b3a10d1d2c0c6505dc48",
+   "mentions": [],
+   "metadata": [
+    {
+     "path": "pyproject.toml",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": "setup.cfg",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": "setup.py",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/build.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/lint.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/release.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/test.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    }
+   ]
+  },
+  {
+   "repo": "kivy/plyer",
+   "commit": "4853b3a92a786237af966b86d07fa8242eee9aec",
+   "mentions": [
+    {
+     "path": "CHANGELOG.md",
+     "kind": "docs",
+     "lines": [
+      302,
+      417
+     ],
+     "url": "https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/CHANGELOG.md#L302"
+    },
+    {
+     "path": "README.md",
+     "kind": "docs",
+     "lines": [
+      32
+     ],
+     "url": "https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/README.md#L32"
+    },
+    {
+     "path": "setup.py",
+     "kind": "package metadata",
+     "lines": [
+      6,
+      8,
+      26,
+      27
+     ],
+     "url": "https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/setup.py#L6"
+    },
+    {
+     "path": "ci/ci_osx.sh",
+     "kind": "CI",
+     "lines": [
+      8
+     ],
+     "url": "https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/ci/ci_osx.sh#L8"
+    },
+    {
+     "path": "ci/osx_get_pipvirtualenv.sh",
+     "kind": "CI",
+     "lines": [
+      32,
+      33
+     ],
+     "url": "https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/ci/osx_get_pipvirtualenv.sh#L32"
+    }
+   ],
+   "metadata": [
+    {
+     "path": "setup.py",
+     "kind": "package metadata",
+     "names_pyobjus": true
+    },
+    {
+     "path": ".github/workflows/ci_osx.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/ci_ubuntu.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/ci_windows.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/no-response.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/plyer_deploy.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/support.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": "docs/requirements.txt",
+     "kind": "requirements",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/accelerometer/basic/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/accelerometer/using_graph/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/audio/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/barometer/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/battery/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/bluetooth/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/brightness/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/call/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/camera/basic/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/compass/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/email/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/flash/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/gps/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/gravity/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/gyroscope/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/humidity/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/light/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/notification/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/orientation/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/proximity/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/sms/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/spatialorientation/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/speech2text/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/storagepath/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/temperature/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/text2speech/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/uniqueid/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/vibrator/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "examples/voip/buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    }
+   ]
+  },
+  {
+   "repo": "kivy/kivy-ios",
+   "commit": "fd363d49eddb5ac06766348738bd89c7d46007f8",
+   "mentions": [
+    {
+     "path": "FAQ.md",
+     "kind": "docs",
+     "lines": [
+      37
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/FAQ.md#L37"
+    },
+    {
+     "path": "README.md",
+     "kind": "docs",
+     "lines": [
+      90
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/README.md#L90"
+    },
+    {
+     "path": "kivy_ios/recipes/kivy/__init__.py",
+     "kind": "kivy-ios recipe",
+     "lines": [
+      21
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/kivy/__init__.py#L21"
+    },
+    {
+     "path": "kivy_ios/recipes/plyer/__init__.py",
+     "kind": "kivy-ios recipe",
+     "lines": [
+      7
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/plyer/__init__.py#L7"
+    },
+    {
+     "path": "kivy_ios/recipes/pyobjus/__init__.py",
+     "kind": "kivy-ios recipe",
+     "lines": [
+      4,
+      6,
+      7,
+      12
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/pyobjus/__init__.py#L4"
+    },
+    {
+     "path": "kivy_ios/tools/biglink",
+     "kind": "build tool",
+     "lines": [
+      20
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/tools/biglink#L20"
+    },
+    {
+     "path": "kivy_ios/tools/templates/{{ cookiecutter.project_name }}-ios/main.m",
+     "kind": "Objective-C source",
+     "lines": [
+      32
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/tools/templates/{{ cookiecutter.project_name }}-ios/main.m#L32"
+    },
+    {
+     "path": "tests/test_python3/main.m",
+     "kind": "Objective-C source",
+     "lines": [
+      31
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/tests/test_python3/main.m#L31"
+    },
+    {
+     "path": "tests/tools/fixtures/legacy_mrc/main.m",
+     "kind": "Objective-C source",
+     "lines": [
+      32
+     ],
+     "url": "https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/tests/tools/fixtures/legacy_mrc/main.m#L32"
+    }
+   ],
+   "metadata": [
+    {
+     "path": "pyproject.toml",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": "requirements.txt",
+     "kind": "requirements",
+     "names_pyobjus": false
+    },
+    {
+     "path": "setup.cfg",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": "setup.py",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/kivy_ios.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/no-response.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/pypi-release.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/setup.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/support.yml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": "kivy_ios/recipes/ios/src/setup.py",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    }
+   ]
+  },
+  {
+   "repo": "renpy/renpy-build",
+   "commit": "e01af78cc04de8d991b4617f58ef0718c27b1d0b",
+   "mentions": [
+    {
+     "path": "patches/pyobjus-ffi-h.diff",
+     "kind": "build patch",
+     "lines": [
+      1,
+      3,
+      4,
+      13,
+      15,
+      16
+     ],
+     "url": "https://github.com/renpy/renpy-build/blob/e01af78cc04de8d991b4617f58ef0718c27b1d0b/patches/pyobjus-ffi-h.diff#L1"
+    },
+    {
+     "path": "patches/pyobjus-ios-foundation.diff",
+     "kind": "build patch",
+     "lines": [
+      1,
+      2
+     ],
+     "url": "https://github.com/renpy/renpy-build/blob/e01af78cc04de8d991b4617f58ef0718c27b1d0b/patches/pyobjus-ios-foundation.diff#L1"
+    },
+    {
+     "path": "tasks/__init__.py",
+     "kind": "build script",
+     "lines": [
+      39
+     ],
+     "url": "https://github.com/renpy/renpy-build/blob/e01af78cc04de8d991b4617f58ef0718c27b1d0b/tasks/__init__.py#L39"
+    },
+    {
+     "path": "tasks/librenpy.py",
+     "kind": "build script",
+     "lines": [
+      50
+     ],
+     "url": "https://github.com/renpy/renpy-build/blob/e01af78cc04de8d991b4617f58ef0718c27b1d0b/tasks/librenpy.py#L50"
+    },
+    {
+     "path": "tasks/pyobjus.py",
+     "kind": "build script",
+     "lines": [
+      19,
+      20,
+      23,
+      24,
+      32,
+      33,
+      36,
+      42,
+      49,
+      53,
+      55,
+      57,
+      59,
+      60,
+      66,
+      68,
+      69
+     ],
+     "url": "https://github.com/renpy/renpy-build/blob/e01af78cc04de8d991b4617f58ef0718c27b1d0b/tasks/pyobjus.py#L19"
+    },
+    {
+     "path": "tasks/pythonlib.py",
+     "kind": "build script",
+     "lines": [
+      195,
+      222
+     ],
+     "url": "https://github.com/renpy/renpy-build/blob/e01af78cc04de8d991b4617f58ef0718c27b1d0b/tasks/pythonlib.py#L195"
+    }
+   ],
+   "metadata": []
+  },
+  {
+   "repo": "oskros/MF_run_counter",
+   "commit": "f2281fd15281b293a3f4b26a18b7b0a514d2a19c",
+   "mentions": [],
+   "metadata": [
+    {
+     "path": "requirements.txt",
+     "kind": "requirements",
+     "names_pyobjus": false
+    }
+   ]
+  },
+  {
+   "repo": "Carvera-Community/Carvera_Controller",
+   "commit": "e5623ece10309597d43a708dde35ae41c7854cb8",
+   "mentions": [
+    {
+     "path": "assets/packaging/ios/carveracontroller-ios/main.m",
+     "kind": "Objective-C source",
+     "lines": [
+      32,
+      49
+     ],
+     "url": "https://github.com/Carvera-Community/Carvera_Controller/blob/e5623ece10309597d43a708dde35ae41c7854cb8/assets/packaging/ios/carveracontroller-ios/main.m#L32"
+    },
+    {
+     "path": "assets/packaging/ios/carveracontroller-ios/CarveraController.xcodeproj/project.pbxproj",
+     "kind": "Xcode project",
+     "lines": [
+      22,
+      84,
+      135,
+      230
+     ],
+     "url": "https://github.com/Carvera-Community/Carvera_Controller/blob/e5623ece10309597d43a708dde35ae41c7854cb8/assets/packaging/ios/carveracontroller-ios/CarveraController.xcodeproj/project.pbxproj#L22"
+    }
+   ],
+   "metadata": [
+    {
+     "path": "buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    },
+    {
+     "path": "pyproject.toml",
+     "kind": "package metadata",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/quality.yaml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": ".github/workflows/release.yaml",
+     "kind": "CI",
+     "names_pyobjus": false
+    },
+    {
+     "path": "scripts/build_ios.sh",
+     "kind": "build script",
+     "names_pyobjus": false
+    }
+   ]
+  },
+  {
+   "repo": "Dirk-Sandberg/Friendly-Fitness-App",
+   "commit": "8a77b8f69828315ac456087eda35d61fa12e756e",
+   "mentions": [],
+   "metadata": []
+  },
+  {
+   "repo": "teticio/kivy-tensorflow-helloworld",
+   "commit": "4785a4f0cca844aee6022041ce9d49f3ccd224ac",
+   "mentions": [],
+   "metadata": [
+    {
+     "path": "Podfile",
+     "kind": "CocoaPods",
+     "names_pyobjus": false
+    },
+    {
+     "path": "buildozer.spec",
+     "kind": "buildozer spec",
+     "names_pyobjus": false
+    }
+   ]
+  }
+ ]
+}
