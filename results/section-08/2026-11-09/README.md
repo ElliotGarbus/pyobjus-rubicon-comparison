@@ -95,9 +95,9 @@ From [`raw/m2_inventory.md`](raw/m2_inventory.md), which lists each file's chang
 From [`raw/m3_build.md`](raw/m3_build.md).
 
 - **Declared:** only Plyer declares pyobjus as a dependency, as an `ios` and `macosx` extra. Its install instructions and macOS CI use pyobjus `master` from GitHub.
-- **kivy-ios:** its pyobjus recipe builds `master`, and its `kivy` and `plyer` recipes depend on it. Kivy, KivyMD, Carvera Controller and kivy-tensorflow-helloworld get pyobjus that way on iOS without naming it.
+- **kivy-ios:** its pyobjus recipe builds `master`, and its `kivy` and `plyer` recipes depend on it. Kivy, KivyMD, Carvera Controller and kivy-tensorflow-helloworld import pyobjus in their own code, but none of their package metadata, buildozer specs, build scripts or CI files names it. On iOS, kivy-ios's `kivy` recipe installs it.
 - **renpy-build:** it compiles pyobjus at `b61d65f`, with two patches, into Ren'Py's Python for iOS and macOS. Ren'Py's docs offer pyobjus to game creators.
-- **Carvera Controller:** its Xcode project also links `libpyobjus.xcframework` directly.
+- **Carvera Controller:** its committed Xcode project lists `libpyobjus.xcframework`. kivy-ios's `toolchain update`, which its build script runs, writes that entry for each library kivy-ios builds, so it comes from the same kivy-ios build.
 
 ## B1: installing each library
 

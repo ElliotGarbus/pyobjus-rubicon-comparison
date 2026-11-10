@@ -22,7 +22,13 @@ The changes that need more than a rename fall in four places:
 
 **Kivy** uses pyobjus in 2 files, its AVPlayer audio and macOS clipboard, with 8 calls. Both are optional providers that Kivy skips when pyobjus is missing. Kivy also reaches Objective-C through PyObjC, ctypes and compiled Objective-C++. **Plyer** uses pyobjus in 28 files, 21 for iOS and 7 for macOS, with 104 calls and 82 underscore-form calls. Six of its iOS sensors read a `bridge` class from kivy-ios's Xcode template, which Rubicon can call unchanged.
 
-**Outside the code:** only Plyer declares pyobjus as a dependency. kivy-ios builds pyobjus `master` and makes its `kivy` and `plyer` recipes depend on it, which is how Kivy, KivyMD, Carvera Controller and kivy-tensorflow-helloworld get it on iOS. renpy-build compiles a pinned, patched pyobjus into Ren'Py. pyobjus is a compiled extension with wheels on PyPI for Python 3.10 to 3.14, and Rubicon is one pure-Python wheel. Rubicon needs no kivy-ios recipe: kivy-ios installs pure-Python packages with [`toolchain pip install`](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/README.md#L115).
+**Outside the code,** the sampled projects bring pyobjus into their builds in four different ways, and a move to Rubicon changes each one ([M3](#m3-changes-outside-the-code)):
+- **A declared extra:** Plyer's `setup.py` gives `pyobjus` as its `ios` and `macosx` extra, and its install notes and macOS CI install pyobjus `master` from GitHub.
+- **A kivy-ios recipe dependency:** kivy-ios's `kivy` and `plyer` recipes depend on its `pyobjus` recipe, which compiles pyobjus `master`. Kivy, KivyMD, Carvera Controller and kivy-tensorflow-helloworld get pyobjus on iOS this way.
+- **Compiled into the runtime:** renpy-build clones pyobjus at a pinned commit, patches it and compiles it into Ren'Py's Python for iOS and macOS. Ren'Py's iOS docs offer it to game creators.
+- **An entry in a committed Xcode project:** Carvera Controller's project lists `libpyobjus.xcframework` from kivy-ios's build folder. kivy-ios's `toolchain update` writes that entry for each library kivy-ios builds, and the project file is committed with it.
+
+Rubicon goes in as an ordinary Python dependency: it's one pure-Python wheel, with nothing to compile, patch or link ([B1](#b1-getting-each-library-into-an-app)). kivy-ios installs pure-Python packages with [`toolchain pip install`](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/README.md#L115), so Rubicon needs no recipe. pyobjus is a compiled extension, with wheels on PyPI for Python 3.10 to 3.14.
 
 All figures are **Measured** at the commits pinned on 2026-11-09, unless labeled otherwise. This section makes no recommendation.
 
@@ -36,7 +42,7 @@ All figures are **Measured** at the commits pinned on 2026-11-09, unless labeled
 | [Calls with `()` of a name Rubicon reads as a property](#zero-argument-names) | 70, in 8 projects |
 | [Kivy: files, pyobjus calls](#kivy) | 2, 8 |
 | [Plyer: files, pyobjus calls](#plyer) | 28, 104 |
-| [Projects that declare pyobjus as a dependency](#m3-changes-outside-the-code) | 1, Plyer |
+| [Ways pyobjus enters the sampled projects' builds](#m3-changes-outside-the-code) | 4: a declared extra, a kivy-ios recipe dependency, compiled into Ren'Py's runtime, and an entry in a committed Xcode project |
 | [Translations where pyobjus crashed](#m1-the-rubicon-way-to-do-each-pattern) | 2: an `NSError` object passed for `NSError **`, and a Python function passed as a block |
 
 ## Claims from the discussion
@@ -182,8 +188,8 @@ Every non-code file that names pyobjus, and each project's package metadata and 
 |---|---|
 | Plyer | [`setup.py`](https://github.com/kivy/plyer/blob/4853b3a92a786237af966b86d07fa8242eee9aec/setup.py#L26) gives `pyobjus` as an extra for `ios` and `macosx`. Its install notes and macOS CI install pyobjus `master` from GitHub |
 | kivy-ios | Its [pyobjus recipe](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/recipes/pyobjus/__init__.py#L4) compiles `master` from GitHub. Its `kivy` and `plyer` recipes depend on it |
-| Kivy, KivyMD, kivy-tensorflow-helloworld | Not named in any metadata. They get pyobjus on iOS through kivy-ios's `kivy` recipe. Kivy's README lists pyobjus as a sister project |
-| Carvera Controller | Built through kivy-ios, and its Xcode project also [links `libpyobjus.xcframework`](https://github.com/Carvera-Community/Carvera_Controller/blob/e5623ece10309597d43a708dde35ae41c7854cb8/assets/packaging/ios/carveracontroller-ios/CarveraController.xcodeproj/project.pbxproj#L22) |
+| Kivy, KivyMD, kivy-tensorflow-helloworld | They import pyobjus in their own code, but none of their package metadata, buildozer specs, CocoaPods or CI files names it. On iOS, kivy-ios's `kivy` recipe installs it. Kivy's README lists pyobjus as a sister project |
+| Carvera Controller | Built through kivy-ios's `kivy` recipe. Its committed Xcode project [lists `libpyobjus.xcframework`](https://github.com/Carvera-Community/Carvera_Controller/blob/e5623ece10309597d43a708dde35ae41c7854cb8/assets/packaging/ios/carveracontroller-ios/CarveraController.xcodeproj/project.pbxproj#L22) from kivy-ios's `dist/xcframework` folder: its build script runs [`toolchain update`](https://github.com/Carvera-Community/Carvera_Controller/blob/e5623ece10309597d43a708dde35ae41c7854cb8/scripts/build_ios.sh#L48), which [adds each built library](https://github.com/kivy/kivy-ios/blob/fd363d49eddb5ac06766348738bd89c7d46007f8/kivy_ios/toolchain.py#L1337) to the project |
 | renpy-build | [`tasks/pyobjus.py`](https://github.com/renpy/renpy-build/blob/e01af78cc04de8d991b4617f58ef0718c27b1d0b/tasks/pyobjus.py#L19) clones pyobjus at `b61d65f`, from June 2025, applies two patches and compiles it into Ren'Py's Python for iOS and macOS |
 | Ren'Py | Not named in metadata. Its [iOS docs](https://github.com/renpy/renpy/blob/1b79387539ed04c7123492967e2736789859d925/sphinx/source/ios.rst#L146) offer pyobjus to game creators |
 | MF_run_counter, Friendly-Fitness-App | Nothing in the repository |
