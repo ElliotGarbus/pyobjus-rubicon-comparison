@@ -2,6 +2,10 @@
 
 Corrections and changes to published sections, newest first.
 
+## executive-summary-draft-1
+
+First draft of the executive summary: one or two sentences of findings from each of the eight sections, and the author's recommendation, labeled as the author's and kept separate from the findings.
+
 ## section-8-draft-1
 
 First public draft of Section 8, for factual review. The claim register now gives Section 8's findings for claims 13, 17, 18 and 19.
