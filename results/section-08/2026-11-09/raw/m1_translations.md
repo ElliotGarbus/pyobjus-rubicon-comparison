@@ -69,4 +69,4 @@ The receiver is an object of the class the sample uses, or on the Mac the Mac cl
 
 So 70 call sites in 8 repositories call a name with `()` that Rubicon reads as a property, 57 of them checked on the Mac and 13 on the iPhone, and 5 call `count()` on an array. Calls are counted in the sampled files' iOS and macOS code, as for U2.
 
-**Not checked:** `UIApplication.keyWindow` and `rootViewController` (1 call each, Plyer's iOS filechooser). The test app runs each case before a `UIApplication` exists, so `sharedApplication` returned nil in both libraries.
+**Checked later, in an app with a window:** `UIApplication.keyWindow` and `rootViewController` (1 call each, Plyer's iOS file chooser). M1's test app runs each case before a `UIApplication` exists, so `sharedApplication` returned nil there in both libraries. A separate test in a Kivy app, on 2026-11-10, found both are properties in pyobjus and in Rubicon, so Plyer's `rootViewController()` raises in either library: [`window_iphone.md`](window_iphone.md).

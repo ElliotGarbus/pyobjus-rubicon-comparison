@@ -9,6 +9,7 @@ The scripts are in [`tests/section-08`](../../../tests/section-08), and each one
 | U0 sample, U1 catalog, U2 patterns | Done: `raw/sample.json`, `raw/catalog.json`, `raw/patterns.json`, and [`raw/hand_notes.md`](raw/hand_notes.md) |
 | M1 translations, Mac and iPhone | Done: [`raw/m1_translations.md`](raw/m1_translations.md), from `raw/m1_mac.json` and `raw/m1_iphone.json` |
 | M2 Kivy and Plyer, file by file | Done: [`raw/m2_inventory.md`](raw/m2_inventory.md) |
+| Window test: `keyWindow`, `rootViewController` and Plyer's iOS file chooser, in a Kivy app on the iPhone | Done, 2026-11-10: [`raw/window_iphone.md`](raw/window_iphone.md). Plyer 2.1.0's file chooser raised `TypeError` with pyobjus 1.2.4 and `master`, because `rootViewController` is a property in both libraries |
 | M3 changes outside the code | Done: [`raw/m3_build.md`](raw/m3_build.md) |
 | B1 installing each library | Done: [`raw/b1_install.md`](raw/b1_install.md) |
 | Claims 17 and 18 | Done: [`raw/claims17_18_kivy.md`](raw/claims17_18_kivy.md) |
@@ -123,8 +124,8 @@ From [`raw/b1_install.md`](raw/b1_install.md).
 ## Limits
 
 - **Not checked:**
-  - `UIApplication.keyWindow` and `rootViewController` (Plyer's iOS file chooser), because the test app has no window.
-  - Rubicon's `load_library` with a framework folder path (Plyer's `Voip.framework`).
+  - What Plyer's iOS file chooser does after an image is picked, which needs a person.
+  - Loading Plyer's bundled `Voip.framework`. Photos loaded by its binary's path, and not by its folder path.
   - Reading the `coordinate` struct (Plyer's GPS), and `identifierForVendor`.
 - **Intermittent results:** pyobjus 1.2.4's `zero_arg` crashes and its `observer_ios` reading of 0.0 weren't investigated further.
 - **The sample is 10 repositories.** Projects that use pyobjus through Plyer or Kivy, and Ren'Py games, aren't in it, as in Section 7.
@@ -140,6 +141,7 @@ From [`raw/b1_install.md`](raw/b1_install.md).
 | `raw/hand_notes.md` | What was read by hand |
 | `raw/m1_mac.json`, `raw/m1_iphone.json` | Every M1 run's output, for each library version |
 | `raw/m1_iphone_first_attempt.json` | The first iPhone run, before the test fixes |
+| `raw/window_iphone.json`, `raw/window_iphone.md` | The window test, with app container paths removed |
 | `raw/m1_translations.md` | M1's translation table and zero-argument names |
 | `raw/m2_inventory.json`, `raw/m2_inventory.md` | M2 |
 | `raw/m3_build.json`, `raw/m3_build.md` | M3 |

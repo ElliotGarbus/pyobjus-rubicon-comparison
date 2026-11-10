@@ -1,0 +1,692 @@
+{
+ "collected_at": "2026-11-10T21:58Z",
+ "release": {
+  "plyer": {
+   "runs": [
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.8
+    },
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.7
+    },
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.7
+    },
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.7
+    },
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.7
+    }
+   ],
+   "distinct": [
+    [
+     "raised",
+     {
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "implementation": "IOSFileChooser",
+      "module_import": "ok",
+      "plyer_platform": "ios",
+      "plyer_version": "2.1.0",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     5
+    ]
+   ]
+  },
+  "pyobjus": {
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.8
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "control_dismissed": true,
+      "control_presented": true,
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "photo_library_available": true,
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "presented": "the picker",
+      "presented_within_s": 3.25,
+      "pyobjus_version": "1.2.4",
+      "rootViewController": "property",
+      "sharedApplication": "method",
+      "view_in_window": true
+     },
+     5
+    ]
+   ]
+  },
+  "rubicon": {
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.7",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.7",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.8
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.7",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.7",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.8
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.7",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.8
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "control_dismissed": true,
+      "control_presented": true,
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "is_view_controller": true,
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "load_library Photos": "ok",
+      "photo_library_available": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "presented": "the picker",
+      "presented_within_s": 3.25,
+      "rootViewController": "property",
+      "rubicon_version": "0.5.7",
+      "sharedApplication": "property",
+      "view_in_window": true
+     },
+     5
+    ]
+   ]
+  }
+ },
+ "main": {
+  "plyer": {
+   "runs": [
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 3.3
+    },
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.9
+    },
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.7
+    },
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.7
+    },
+    {
+     "outcome": "raised",
+     "value": {
+      "plyer_version": "2.1.0",
+      "plyer_platform": "ios",
+      "module_import": "ok",
+      "implementation": "IOSFileChooser",
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     "seconds": 1.7
+    }
+   ],
+   "distinct": [
+    [
+     "raised",
+     {
+      "error": "TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "implementation": "IOSFileChooser",
+      "module_import": "ok",
+      "plyer_platform": "ios",
+      "plyer_version": "2.1.0",
+      "traceback": "Traceback (most recent call last):\n  File \"<app>/app/main.py\", line 32, in run\n    f(*args)\n    ~^^^^^^^\n  File \"<app>/app/main.py\", line 110, in check_plyer\n    filechooser.open_file(on_selection=lambda selection: None)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/facades/filechooser.py\", line 54, in open_file\n    return self._file_selection_dialog(mode=\"open\", *args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 37, in _file_selection_dialog\n    self._open()\n    ~~~~~~~~~~^^\n  File \"<app>/pip-deps/plyer/platforms/ios/filechooser.py\", line 59, in _open\n    vc = UIApplication.sharedApplication().keyWindow.rootViewController()\nTypeError: 'SDL_uikitviewcontroller' object is not callable\n"
+     },
+     5
+    ]
+   ]
+  },
+  "pyobjus": {
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.8
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "pyobjus_version": "1.2.4",
+      "sharedApplication": "method",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "control_dismissed": true,
+      "control_presented": true,
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "photo_library_available": true,
+      "plyer_expression": "raised TypeError: 'SDL_uikitviewcontroller' object is not callable",
+      "presented": "the picker",
+      "presented_within_s": 3.25,
+      "pyobjus_version": "1.2.4",
+      "rootViewController": "property",
+      "sharedApplication": "method",
+      "view_in_window": true
+     },
+     5
+    ]
+   ]
+  },
+  "rubicon": {
+   "runs": [
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.8.dev21",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.8.dev21",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.8.dev21",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.8.dev21",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 7.0
+    },
+    {
+     "outcome": "ran",
+     "value": {
+      "rubicon_version": "0.5.8.dev21",
+      "sharedApplication": "property",
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "rootViewController": "property",
+      "is_view_controller": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "load_library Photos": "ok",
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "view_in_window": true,
+      "photo_library_available": true,
+      "control_presented": true,
+      "control_dismissed": true,
+      "presented": "the picker",
+      "presented_within_s": 3.25
+     },
+     "seconds": 6.9
+    }
+   ],
+   "distinct": [
+    [
+     "ran",
+     {
+      "control_dismissed": true,
+      "control_presented": true,
+      "delegate_protocol": "found",
+      "delegate_set": true,
+      "is_view_controller": true,
+      "keyWindow": "property",
+      "keyWindow_is_nil": false,
+      "load_library /System/Library/Frameworks/Photos.framework": "raised ValueError",
+      "load_library /System/Library/Frameworks/Photos.framework/Photos": "ok",
+      "load_library Photos": "ok",
+      "photo_library_available": true,
+      "plyer_form": "raised TypeError: 'ObjCInstance' object is not callable",
+      "presented": "the picker",
+      "presented_within_s": 3.25,
+      "rootViewController": "property",
+      "rubicon_version": "0.5.8.dev21",
+      "sharedApplication": "property",
+      "view_in_window": true
+     },
+     5
+    ]
+   ]
+  }
+ },
+ "note": "App container paths are replaced with <app>. release: pyobjus 1.2.4, Rubicon 0.5.7. main: pyobjus master (0c204ad, which reports 1.2.4), Rubicon main (6bf0639, built as 0.5.8.dev21). Both with Plyer 2.1.0 from PyPI and Kivy 3.0.0.dev202610251128 from kivy-mobile-wheels."
+}

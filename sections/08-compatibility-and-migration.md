@@ -20,7 +20,7 @@ The changes that need more than a rename fall in four places:
   - **An object from `NSError.alloc()`,** as in Plyer's macOS audio and VoIP and in kivy-tensorflow-helloworld. These calls must change: Rubicon rejects the object with `ctypes.ArgumentError` before the method runs, on every call. In Rubicon, the code creates `err = objc_id()`, passes `byref(err)`, and reads the error afterwards with `ObjCInstance(err)`. In pyobjus, this form never delivered an error either: it crashed the process (SIGSEGV) whenever the method wrote one. After the move, these calls can read the errors they were written to read.
 - **Workarounds that can go:** the sample works around pyobjus with Objective-C helpers for blocks and C functions, struct values read in Objective-C and passed in environment variables, strings parsed out of `description`, and checks for whether a name is a property or a method. Rubicon took a Python function as a block, where pyobjus crashed, and both libraries read the `UIScreen` structs that Carvera Controller reads in Objective-C.
 
-**Kivy** uses pyobjus in 2 files, its AVPlayer audio and macOS clipboard, with 8 calls. Both are optional providers that Kivy skips when pyobjus is missing. Kivy also reaches Objective-C through PyObjC, ctypes and compiled Objective-C++. **Plyer** uses pyobjus in 28 files, 21 for iOS and 7 for macOS, with 104 calls and 82 underscore-form calls. Six of its iOS sensors read a `bridge` class from kivy-ios's Xcode template, which Rubicon can call unchanged.
+**Kivy** uses pyobjus in 2 files, its AVPlayer audio and macOS clipboard, with 8 calls. Both are optional providers that Kivy skips when pyobjus is missing. Kivy also reaches Objective-C through PyObjC, ctypes and compiled Objective-C++. **Plyer** uses pyobjus in 28 files, 21 for iOS and 7 for macOS, with 104 calls and 82 underscore-form calls. Six of its iOS sensors read a `bridge` class from kivy-ios's Xcode template, which Rubicon can call unchanged. Plyer's iOS file chooser doesn't open today: on the iPhone, Plyer 2.1.0's `open_file()` raised `TypeError` at `keyWindow.rootViewController()`, because `rootViewController` is a property in pyobjus, as in Rubicon ([window test](../results/section-08/2026-11-09/raw/window_iphone.md)).
 
 **Outside the code,** the sampled projects bring pyobjus into their builds in four different ways, and a move to Rubicon changes each one ([M3](#m3-changes-outside-the-code)):
 - **A declared extra:** Plyer's `setup.py` gives `pyobjus` as its `ios` and `macosx` extra, and its install notes and macOS CI install pyobjus `master` from GitHub.
@@ -58,7 +58,7 @@ All figures are **Measured** at the commits pinned on 2026-11-09, unless labeled
 
 Raw results, conditions and the full tables are in [`results/section-08/2026-11-09`](../results/section-08/2026-11-09/README.md). The scripts and test cases are in [`tests/section-08`](../tests/section-08).
 
-**How it was measured:** each project was cloned at its default branch on 2026-11-09, and the commits are recorded. [`catalog.py`](../tests/section-08/catalog.py) searched each full checkout for every import of pyobjus and every call, and [`patterns.py`](../tests/section-08/patterns.py) matched 23 use patterns. Platforms, helper classes and workarounds were read by hand. For M1, each pattern was written both ways and run with pyobjus 1.2.4 and `master` and Rubicon 0.5.7 and `main`, 5 times each, on the Mac (macOS 26.6.2, Python 3.14.7) and on an iPhone 18 Pro Max (iOS 27.0.1, Python 3.15.0). The iPhone apps were built with KivyForge, by this comparison's author.
+**How it was measured:** each project was cloned at its default branch on 2026-11-09, and the commits are recorded. [`catalog.py`](../tests/section-08/catalog.py) searched each full checkout for every import of pyobjus and every call, and [`patterns.py`](../tests/section-08/patterns.py) matched 23 use patterns. Platforms, helper classes and workarounds were read by hand. For M1, each pattern was written both ways and run with pyobjus 1.2.4 and `master` and Rubicon 0.5.7 and `main`, 5 times each, on the Mac (macOS 26.6.2, Python 3.14.7) and on an iPhone 18 Pro Max (iOS 27.0.1, Python 3.15.0). The iPhone apps were built with KivyForge, by this comparison's author. Names read from the app's window, and Plyer's own iOS file chooser, were tested separately in a Kivy app, whose Kivy wheel came from kivy-mobile-wheels, also the author's ([window test](../results/section-08/2026-11-09/raw/window_iphone.md)).
 
 ### U0 and U1. The sample and where it uses pyobjus
 
@@ -137,6 +137,7 @@ Each translation ran with both libraries against the same Apple API, checking th
 | `ctypes.cast(...)`, `.bytes().arg_ref`, `release()` until `retainCount()` is 1 | Pass `bytes`. Rubicon manages reference counts | Same bytes and length |
 | `return ObjcBOOL(True)` | Annotate `-> bool` | Not rerun: Section 3 found both return the value, and pyobjus 1.2.4 returned nothing |
 | `load_dylib(path)`, then the app's own class | `load_library(path)`, `ObjCClass(...)` | Same, on the Mac. Swift `@objc` classes are in Section 3 |
+| `load_framework("/System/Library/Frameworks/Photos.framework")`, a framework's folder | `load_library("Photos")`, or the path of the binary inside the folder, `.../Photos.framework/Photos` | Rubicon raised `ValueError` for the folder path and loaded the other two, on the iPhone ([window test](../results/section-08/2026-11-09/raw/window_iphone.md)) |
 
 #### Zero-argument names
 
@@ -152,7 +153,7 @@ A declared property in Rubicon is read without `()`, and calling it raises `Type
 | `UIScreen.mainScreen`, `NSValue.CGRectValue`, `NSPasteboard.generalPasteboard`, `NSLocale.preferredLanguages`, `NSRunLoop.currentRunLoop`, `description`, `NSUserNotificationCenter.defaultUserNotificationCenter`, `NSScreen.screens`, `NSData.bytes`, `NSNotification.userInfo` | 1 each |
 | **Total** | **70** |
 
-`NSArray.count()`, with 5 calls, raises in Rubicon too, because `count` is Python's `list.count`, so it becomes `len()`. `UUIDString` is a property in both libraries, so Plyer's `UUIDString()` would raise in either. Names that are methods in both, such as `lastObject`, `sharedInstance` and `openPanel`, are unchanged.
+`NSArray.count()`, with 5 calls, raises in Rubicon too, because `count` is Python's `list.count`, so it becomes `len()`. `UUIDString` and `rootViewController` are properties in both libraries, so Plyer's `UUIDString()` and `rootViewController()` raise in either. On the iPhone, the second stops Plyer's iOS file chooser from opening today ([window test](../results/section-08/2026-11-09/raw/window_iphone.md)). Names that are methods in both, such as `lastObject`, `sharedInstance` and `openPanel`, are unchanged.
 
 ### M2. Kivy and Plyer, file by file
 
@@ -174,8 +175,8 @@ Kivy's other routes to Objective-C (**Source**):
 
 Plyer's 28 files make 104 pyobjus calls and 82 underscore-form calls. By count, the changes are `autoclass` 60, `UTF8String` 29, `load_framework` 23, other zero-argument names 16 and `objc_str` 13. Then come `@protocol` methods 6 and delegates 4, and 3 or fewer each of `objectAtIndex_` loops, completion blocks, `NSError.alloc()`, `count()`, `objc_arr`, `ObjcBOOL` and a property-or-method check. Files that need more than these:
 - **Motion sensors:** accelerometer, barometer, compass, gravity, gyroscope and spatial orientation poll kivy-ios's `bridge` class. Rubicon calls the class unchanged, or can pass Python functions to CoreMotion directly, as Section 4 does for the barometer.
-- **iOS file chooser:** it calls kivy-ios's `NativeImagePicker`, which Rubicon calls unchanged, or the C function through `ctypes`.
-- **iOS VoIP:** it loads Plyer's bundled `Voip.framework` by its folder path, and passes an `NSError` object for `NSError **`, the form that crashed pyobjus.
+- **iOS file chooser:** it fails today. In a Kivy app on the iPhone, Plyer 2.1.0's `open_file()` raised `TypeError` in all 10 runs, with pyobjus 1.2.4 and `master`, at `keyWindow.rootViewController()`: `rootViewController` is a property in pyobjus, as in Rubicon. Read without `()`, the image picker opened in both libraries, with a delegate defined in Rubicon on the Rubicon side ([window test](../results/section-08/2026-11-09/raw/window_iphone.md)). After a pick, it calls kivy-ios's `NativeImagePicker`, which Rubicon calls unchanged, or the C function through `ctypes`. It loads Photos by its folder path, which Rubicon's `load_library` rejects; `load_library("Photos")` works.
+- **iOS VoIP:** it loads Plyer's bundled `Voip.framework` by its folder path. Rubicon's `load_library` takes the binary inside a framework instead, as it did for Photos; `Voip.framework` itself isn't tested. It also passes an `NSError` object for `NSError **`, the form that Rubicon rejects.
 - **macOS audio:** it passes `NSError.alloc()` for `NSError **`, the same form.
 - **iOS flash:** it writes `AVMediaTypeVideo` as `"vide"`, which Rubicon can read with `objc_const`.
 - **GPS, iOS and macOS:** they parse latitude, longitude and accuracy out of `location.description` instead of reading the `coordinate` struct.
@@ -213,8 +214,8 @@ For this section's iPhone tests, pyobjus had to be compiled for iOS, including l
 - **The sample is ten projects,** chosen by stars from Section 7's count. Apps that use pyobjus only through Kivy or Plyer, and Ren'Py games, aren't in it.
 - **The changes are counted, not timed.** Hours of work depend on the developer and aren't estimated.
 - **Not tested:**
-  - `UIApplication.keyWindow` and `rootViewController`, used by Plyer's iOS file chooser, because the test app has no window.
-  - Rubicon's `load_library` with a framework folder path, as Plyer's VoIP needs.
+  - What Plyer's iOS file chooser does after an image is picked, which needs a person to pick one.
+  - Loading Plyer's bundled `Voip.framework`. Photos, a system framework, loaded by its binary's path.
   - Reading CoreLocation's `coordinate` struct, and `identifierForVendor`.
   - Running both libraries in one process.
 - **pyobjus 1.2.4's intermittent results,** its `zero_arg` crashes and one 0.0 keyboard height, weren't investigated further.

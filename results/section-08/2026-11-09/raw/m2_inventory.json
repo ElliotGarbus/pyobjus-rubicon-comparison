@@ -477,17 +477,17 @@
       59
      ]
     },
-    "property in both": {},
+    "property in both": {
+     "rootViewController": [
+      59
+     ]
+    },
     "method in both": {
      "alloc": 2
     },
     "Python": {},
     "helper class method": {},
-    "not checked": {
-     "rootViewController": [
-      59
-     ]
-    }
+    "not checked": {}
    },
    "helper_classes": [
     "NativeImagePicker"

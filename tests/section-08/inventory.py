@@ -1,7 +1,10 @@
 """M2: Kivy and Plyer, file by file. What each file that uses pyobjus would change
 to use Rubicon, from the M1 results.
 
-Usage: inventory.py CLONES_DIR CATALOG.json M1_MAC.json M1_IPHONE.json OUT.json OUT.md
+Usage: inventory.py CLONES_DIR CATALOG.json M1_MAC.json M1_IPHONE.json OUT.json OUT.md [WINDOW.json]
+
+WINDOW.json, from window/run_window.py, adds keyWindow and rootViewController,
+which need an app with a window, read the same way as M1's names.
 
 For every file catalog.py found using pyobjus in kivy/kivy and kivy/plyer,
 each change below is found with a regular expression on the comment-stripped
@@ -52,11 +55,16 @@ HAND = [
      "E3 does for the barometer. Its `ac_x` and similar values are properties in `bridge.h`."),
     (["plyer/platforms/ios/filechooser.py"],
      "Calls kivy-ios's `NativeImagePicker` for `UIImagePNGRepresentation`, a C function. Rubicon calls the class "
-     "unchanged, or the function through `ctypes` (Section 3 F1.5). `keyWindow.rootViewController()` isn't checked: "
-     "the M1 test app has no window."),
+     "unchanged, or the function through `ctypes` (Section 3 F1.5). Plyer 2.1.0's `open_file()` raised "
+     "`TypeError` on the iPhone, with pyobjus 1.2.4 and `master`, at `keyWindow.rootViewController()` (line 59): "
+     "`rootViewController` is a property in both libraries, so the `()` raises in either, and the picker never "
+     "opens (window test). Read without `()`, the picker opened in both libraries, with a Rubicon delegate in "
+     "Rubicon. `load_framework` takes Photos' folder path, which Rubicon's `load_library` rejects with "
+     "`ValueError`; `load_library(\"Photos\")` works."),
     (["plyer/platforms/ios/voip.py", "plyer/platforms/ios/frameworks/utils.py"],
-     "Loads Plyer's bundled `Voip.framework` by its folder path. Rubicon's `load_library` with a framework folder "
-     "isn't tested; M1 loaded a dylib by its file path. `self.error`, an `NSError` object, is passed to "
+     "Loads Plyer's bundled `Voip.framework` by its folder path. Rubicon's `load_library` rejects a framework "
+     "folder path with `ValueError`, and loads the binary inside it, as the window test found for Photos; the "
+     "bundled `Voip.framework` itself isn't tested. `self.error`, an `NSError` object, is passed to "
      "`setCategory_mode_options_error_` and `setActive_error_`, the form that crashed pyobjus when an error was "
      "written (M1 `nserror_out`)."),
     (["plyer/platforms/macosx/audio.py"],
@@ -130,10 +138,26 @@ def rubicon_properties(mac, iphone):
     return props, methods, both
 
 
+def window_names(window, props, methods, both):
+    """keyWindow and rootViewController from the window test, at the main versions."""
+    p = next(r["value"] for r in window["main"]["pyobjus"]["runs"] if r["outcome"] == "ran")
+    q = next(r["value"] for r in window["main"]["rubicon"]["runs"] if r["outcome"] == "ran")
+    for name in ("keyWindow", "rootViewController"):
+        kinds = (p.get(name), q.get(name))
+        if kinds == ("property", "property"):
+            both.add(name)
+        elif kinds == ("method", "property"):
+            props.add(name)
+        elif kinds == ("method", "method"):
+            methods.add(name)
+
+
 def main():
     clones, catalog, mac, iphone, out_json, out_md = sys.argv[1:7]
     catalog, mac, iphone = json.load(open(catalog)), json.load(open(mac)), json.load(open(iphone))
     props, methods, both = rubicon_properties(mac, iphone)
+    if len(sys.argv) > 7:
+        window_names(json.load(open(sys.argv[7])), props, methods, both)
     methods |= {"alloc", "init", "new"}
     props.discard("UTF8String")
     helper = {n: cls for cls, names in HELPER_METHODS.items() for n in names}
