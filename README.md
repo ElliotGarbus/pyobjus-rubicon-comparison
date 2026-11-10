@@ -21,7 +21,7 @@ Each section opens with a summary of findings, followed by the supporting facts.
 | 5 | [Testing and CI](sections/05-testing-and-ci.md) | [Definitions](metrics/05-testing-and-ci.md) | Draft for factual review |
 | 6 | [Performance](sections/06-performance.md) | [Definitions](metrics/06-performance.md) | Draft for factual review |
 | 7 | [Ecosystem considerations](sections/07-ecosystem.md) | [Definitions](metrics/07-ecosystem.md) | Draft for factual review |
-| 8 | Compatibility and migration | | Not started |
+| 8 | [Compatibility and migration](sections/08-compatibility-and-migration.md) | [Definitions](metrics/08-compatibility-and-migration.md) | Draft for factual review |
 
 ## Layout
 

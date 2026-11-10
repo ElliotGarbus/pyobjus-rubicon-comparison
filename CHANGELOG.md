@@ -2,6 +2,10 @@
 
 Corrections and changes to published sections, newest first.
 
+## section-8-draft-1
+
+First public draft of Section 8, for factual review. The claim register now gives Section 8's findings for claims 13, 17, 18 and 19.
+
 ## section-7-draft-2
 
 Section 7's summary now lists apps that use pyobjus only through Kivy among the indirect use it doesn't count, matching its limits. Draft 1 named only Plyer.

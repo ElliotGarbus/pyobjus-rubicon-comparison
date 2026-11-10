@@ -68,3 +68,11 @@ Each sampled repository is read at its default branch commit on the collection d
 | 17. Kivy doesn't require pyobjus by design | U1, M2 and M3 for Kivy: whether each import is optional, and whether Kivy declares pyobjus as a dependency |
 | 18. Kivy already depends on pyobjus alone | U1, M2 and M3 for Kivy: whether Kivy uses any other Objective-C bridge |
 | 19. Plyer's last release was 2.1.0 in November 2022, and it has 69 open PRs, most more than five years old | Plyer's PyPI releases and GitHub's open PRs on the collection date, with their opening dates (**Measured**) |
+
+## Changes after approval
+
+| Metric | Change | Reason |
+|---|---|---|
+| U1 | A call of `autoclass` is credited to the last import before it, so a file that imports both pyobjus's and pyjnius's `autoclass` counts only pyobjus's calls. A symlink to another file in the repository is skipped, so its file isn't counted twice | Ren'Py, Carvera Controller and kivy-tensorflow-helloworld import both libraries' `autoclass` in the same files, and Ren'Py's top-level `main.py` is a symlink. Found during collection |
+| U1, U2 | In files that also hold other platforms' code, calls and patterns are counted only in the iOS and macOS code, in line ranges read by hand and saved in `regions.json` | Carvera Controller's `main.py`, seven Ren'Py files, Friendly-Fitness-App's `main.py` and kivy-tensorflow-helloworld's `model.py` hold Android or desktop code next to the iOS and macOS code, and calls in that code matched the patterns. Found during collection |
+| Claim 18 | Kivy's full checkout was also searched for other ways to reach Objective-C: PyObjC and Rubicon imports, ctypes calls into the Objective-C runtime, and Objective-C source files | U1, M2 and M3 look only for pyobjus, so they can't show whether Kivy uses anything else. Found while checking the claim |

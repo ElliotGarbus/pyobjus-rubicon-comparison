@@ -13,7 +13,7 @@ The scripts are in [`tests/section-08`](../../../tests/section-08), and each one
 | B1 installing each library | Done: [`raw/b1_install.md`](raw/b1_install.md) |
 | Claims 17 and 18 | Done: [`raw/claims17_18_kivy.md`](raw/claims17_18_kivy.md) |
 | Claim 19 | Done: [`raw/claim19_plyer.md`](raw/claim19_plyer.md) |
-| Section text | Not started |
+| Section text | Draft: [`sections/08-compatibility-and-migration.md`](../../../sections/08-compatibility-and-migration.md) |
 
 ## Conditions
 
