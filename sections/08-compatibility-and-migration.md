@@ -6,6 +6,15 @@ This section documents what it takes to move code from pyobjus to Rubicon. It ca
 
 ## Summary of findings
 
+pyobjus and Rubicon are both Python-to-Objective-C bridges, and the code that uses them is built on the same concepts. Python code loads a framework, looks up a class by name, and sends messages to Objective-C objects through Python proxies. It passes Python values that the bridge converts, and it receives calls back from Objective-C in methods marked for a protocol. Every way the sampled projects use pyobjus has a Rubicon counterpart. Each translation gave the same result in both libraries, apart from `UTF8String`'s return type and the cases where pyobjus failed ([M1](#m1-the-rubicon-way-to-do-each-pattern)). Moving code is a translation of the same concepts, made of these elements:
+- **Method calls stay.** Rubicon accepts pyobjus's underscore names, such as `setObject_forKey_(...)`.
+- **Entry points are renamed.** `autoclass` becomes `ObjCClass`, and `load_framework` becomes `load_library`, which takes a framework's name, not its folder path.
+- **Conversion helpers go.** `objc_str`, `objc_arr`, `enum` and decoding `UTF8String()` aren't needed, because Rubicon converts Python values both ways.
+- **Properties are read as attributes.** Rubicon reads a declared property without `()`. The pyobjus form still looks valid, and fails only when it runs.
+- **Callbacks move to classes.** A delegate or observer becomes an `NSObject` subclass defined in Python, typed by its annotations and kept alive by Python.
+- **Workarounds can go.** Where pyobjus code works around a gap, as with blocks, `NSError **` arguments and exported constants, Rubicon does the work directly.
+- **The build swaps a compiled dependency for a pure-Python one.** Each place that declares, builds or links pyobjus changes, and Rubicon goes in like any Python package.
+
 The ten projects use pyobjus in 46 files. They make 157 calls to pyobjus's own API, such as `autoclass` and `objc_str`, and 133 Objective-C method calls in pyobjus's underscore form, such as `setObject_forKey_(...)`. Rubicon accepts that underscore form, so those 133 calls run unchanged. Of the pyobjus API calls, most are renamed or dropped: `autoclass` becomes `ObjCClass`, `load_framework` becomes `load_library`, and `objc_str`, `objc_arr` and `enum` aren't needed, because Rubicon converts Python values.
 
 The changes that need more than a rename fall in four places:
