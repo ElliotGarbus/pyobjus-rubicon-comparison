@@ -108,7 +108,7 @@ From [`raw/b1_install.md`](raw/b1_install.md).
 | Needs compiling | Yes, a Cython extension linked against libffi | No |
 | On PyPI | 1.2.4: macOS wheels for Python 3.10 to 3.14, iOS wheels for 3.13 and 3.14 | 0.5.7: one `py3-none-any` wheel |
 | Python 3.15 | No PyPI wheel. kivy-mobile-wheels, the comparison author's project, has `cp315` iOS wheels | The one wheel |
-| kivy-ios | A recipe that builds `master` | No recipe. `toolchain pip install` is the documented route for pure-Python packages, not tested here |
+| kivy-ios | A recipe that builds `master` | No recipe needed. kivy-ios installs pure-Python packages with `toolchain pip install`. Not tested here for Rubicon |
 | KivyForge, the author's project | From wheels, with kivy-mobile-wheels added to new projects' indexes | From PyPI's wheel |
 
 ## Claims
