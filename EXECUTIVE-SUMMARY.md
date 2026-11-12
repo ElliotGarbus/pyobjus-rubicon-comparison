@@ -22,7 +22,7 @@ On the evidence above, Rubicon is the more effective bridge for Kivy's needs. It
 **Scope:**
 - **Kivy core:** the AVPlayer audio and macOS clipboard providers, 2 files with 8 calls.
 - **kivy-ios:** the `ios` module's keyboard observer, and the `kivy` recipe, which makes pyobjus part of every kivy-ios build. Rubicon needs no recipe, because kivy-ios installs pure-Python packages with `toolchain pip install`.
-- **Docs:** Rubicon as the bridge Kivy's docs use for iOS and macOS, linking to the migration guide.
+- **Docs:** Rubicon as the bridge Kivy's docs use for iOS and macOS, linking to the [migration guide](guides/migrate-from-pyobjus-to-rubicon.md).
 
 **Timing:** one cutover, in Kivy 3.0, which is where Kivy's iOS support is being modernized. Kivy 2.x stays on pyobjus, and 3.0 moves to Rubicon.
 

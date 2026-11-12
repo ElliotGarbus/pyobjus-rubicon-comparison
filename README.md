@@ -26,6 +26,7 @@ Each section opens with a summary of findings, followed by the supporting facts.
 ## Layout
 
 - [EXECUTIVE-SUMMARY.md](EXECUTIVE-SUMMARY.md): the key findings from each section, and the author's recommendation
+- [guides/](guides/migrate-from-pyobjus-to-rubicon.md): a guide to migrating code from pyobjus to Rubicon, with a script that runs its examples
 - [METHODOLOGY.md](METHODOLOGY.md): evidence labels, version baseline, test platforms and working definitions
 - [CLAIMS.md](CLAIMS.md): claims from the discussion that this comparison tests
 - [CHANGELOG.md](CHANGELOG.md): corrections and changes to published sections

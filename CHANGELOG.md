@@ -2,6 +2,10 @@
 
 Corrections and changes to published sections, newest first.
 
+## migration-guide-draft-1
+
+Adds a guide to migrating code from pyobjus to Rubicon, in `guides/`, with a script that runs its examples. The executive summary links it.
+
 ## executive-summary-draft-1
 
 First draft of the executive summary: one or two sentences of findings from each of the eight sections, and the author's recommendation, labeled as the author's and kept separate from the findings.
